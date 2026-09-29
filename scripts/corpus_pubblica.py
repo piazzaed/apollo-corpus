@@ -27,10 +27,20 @@ repository GitHub pubblico, `piazzaed/apollo-corpus`, con le STESSE cartelle del
 
 Il client (`corpus_sync.py`) scarica il manifest e poi solo i file il cui sha e' cambiato.
 
+FONTI DI SECONDO LIVELLO (v0.34)
+--------------------------------
+`wiki-studio/normativa/testi/secondo-livello/*.md`: testi che normattiva non serve (CCNL, regolamenti e
+disposizioni di autorita', codici deontologici), uno per fonte, che si descrivono da soli (`secondo_livello.py`).
+Li caricano i plugin (solo i .md, mai il manifest); l'Action `contributi.yml` rifa' il manifest a ogni
+caricamento. Un file non valido resta in QUARANTENA (`secondo_livello_scartati` nel manifest, Action rossa) e non
+ferma il giro normattiva. `codici.json` si UNISCE (il repo vince sugli slug che ha gia'): piu' plugin lo alimentano.
+
 Uso:
   python3 scripts/corpus_pubblica.py --sonda                       # exit 3 se normattiva non risponde
   python3 scripts/corpus_pubblica.py --settimanale [--forza] [--solo cpc] [--report FILE]
   python3 scripts/corpus_pubblica.py --verifica
+  python3 scripts/corpus_pubblica.py --manifest                    # rifa' il manifest dal disco (Action)
+  python3 scripts/corpus_pubblica.py --verifica-contributi [--report FILE]   # exit 1 se c'e' quarantena
   python3 scripts/corpus_pubblica.py --init --repo DIR             # crea il repo pubblico dal plugin
   python3 scripts/corpus_pubblica.py --aggiorna-strumenti --repo DIR   # ricopia gli script nel repo
   python3 scripts/corpus_pubblica.py --pubblica --repo DIR         # riserva dal Mac: settimanale + git push
@@ -62,6 +72,7 @@ if sys.platform == "win32":
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import codice_locale as cl  # noqa: E402
 import corpus_diff as cd  # noqa: E402
+import secondo_livello as sl  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = 1
@@ -80,7 +91,10 @@ ROTAZIONE = 4
 MOVIMENTO_SCADENZA_GIORNI = 120
 #: script copiati nel repo pubblico: tutto cio' che serve all'Action, niente di piu'
 STRUMENTI = ("paths.py", "corpus.py", "codice_locale.py", "corpus_diff.py", "corpus_pubblica.py",
-             "cassazione_indice.py", "diagnostica_rete.py")
+             "cassazione_indice.py", "diagnostica_rete.py", "secondo_livello.py")
+#: versione degli strumenti del repo pubblico (intero, cresce a ogni cambio di script/workflow): il repo lo usano
+#: piu' plugin con versioni proprie, e un plugin rimasto indietro non deve riportare indietro gli script
+VERSIONE_STRUMENTI = 2
 
 
 # ---------------------------------------------------------------- percorsi
@@ -524,6 +538,13 @@ def costruisci_manifest(root: Path, stato_atti: dict, fonti: dict, precedente: d
                     ("movimento", percorso_movimento(root))):
         if p.exists():
             extra[nome] = {"file": str(p.relative_to(root)).replace(os.sep, "/"), "sha256": sha_file(p), "byte": p.stat().st_size}
+    # v0.34: fonti di secondo livello (CCNL, regolamenti di autorita', codici deontologici): si descrivono da sole;
+    # un file non valido resta fuori (quarantena) senza fermare il giro normattiva
+    sl_voci, sl_scartati = sl.voci_manifest(dir_testi(root) / sl.CARTELLA)
+    if sl_voci:
+        extra["secondo_livello"] = sl_voci
+    if sl_scartati:
+        extra["secondo_livello_scartati"] = sl_scartati
     cass = dir_normativa(root) / "cassazione"
     if cass.is_dir():
         extra["cassazione"] = {"file": {p.name: {"sha256": sha_file(p), "byte": p.stat().st_size}
@@ -563,7 +584,31 @@ def verifica(root: Path = ROOT, manifest: dict = None) -> list:
                 errori.append(f"{slug}: file {nome} mancante")
             elif (voce.get("file") or {}).get(nome, {}).get("sha256") != sha_file(p):
                 errori.append(f"{slug}: sha di {nome} diverso dal manifest")
+    for alias, voce in sorted((man.get("secondo_livello") or {}).items()):
+        p = testi / sl.CARTELLA / str(voce.get("file") or "")
+        if not sl.RX_ALIAS.match(alias) or voce.get("file") != f"{alias}.md":
+            errori.append(f"secondo livello {alias}: nome di file non valido nel manifest")
+        elif not p.exists():
+            errori.append(f"secondo livello {alias}: file mancante")
+        elif voce.get("sha256") != sha_file(p):
+            errori.append(f"secondo livello {alias}: sha diverso dal manifest")
     return errori
+
+
+def verifica_contributi(root: Path = ROOT) -> dict:
+    """Modalita' severa per l'Action dei contributi: {"valide": n, "scartate": {file: errori}}. Un file scartato
+    non entra nel manifest (e non ferma nulla), ma fa fallire l'Action, cosi' chi l'ha caricato riceve la mail."""
+    voci, scartati = sl.voci_manifest(dir_testi(root) / sl.CARTELLA)
+    return {"valide": len(voci), "scartate": scartati}
+
+
+def rapporto_contributi(esito: dict) -> str:
+    r = [f"## Fonti di secondo livello — {esito.get('valide', 0)} valide", ""]
+    for f, errori in sorted((esito.get("scartate") or {}).items()):
+        r.append(f"- ❌ **{f}** in quarantena: " + "; ".join(errori))
+    if not esito.get("scartate"):
+        r.append("- nessun file in quarantena")
+    return "\n".join(r) + "\n"
 
 
 # ---------------------------------------------------------------- il giro settimanale
@@ -633,6 +678,8 @@ def settimanale(root: Path = ROOT, *, oggi: _dt.date = None, forza: bool = False
         _scrivi_json(percorso_movimento(root), mov)
     esito["movimento"] = sorted(mov)
     man = costruisci_manifest(root, stato_atti, fonti, man_prec)
+    esito["secondo_livello"] = len(man.get("secondo_livello") or {})
+    esito["secondo_livello_scartati"] = sorted(man.get("secondo_livello_scartati") or {})
     errori = verifica(root, man)
     esito["verifica"] = errori
     if not errori:
@@ -655,6 +702,9 @@ def rapporto_md(esito: dict) -> str:
     r.append(f"- righe nuove nel changelog: {esito.get('righe_changelog', 0)}")
     if esito.get("movimento"):
         r.append(f"- in movimento: {', '.join(esito['movimento'])}")
+    if esito.get("secondo_livello") or esito.get("secondo_livello_scartati"):
+        r.append(f"- fonti di secondo livello: {esito.get('secondo_livello', 0)}"
+                 + (f" · ❌ in quarantena: {', '.join(esito['secondo_livello_scartati'])}" if esito.get("secondo_livello_scartati") else ""))
     for s, e in (esito.get("errori") or {}).items():
         r.append(f"- ❌ {s}: {e}")
     if esito.get("verifica"):
@@ -676,10 +726,18 @@ di ciascun articolo. I testi di legge non sono protetti dal diritto d'autore (ar
   e non ancora recepite nel testo consolidato di normattiva
 - `wiki-studio/normativa/cassazione/` — estremi dei provvedimenti civili della Corte di cassazione dal 2021
   (numero, sezione, date, tipo, materia; nessun dato personale), da SentenzeWeb
+- `wiki-studio/normativa/testi/secondo-livello/` — testi che normattiva non pubblica: regolamenti e disposizioni
+  di autorità, codici deontologici, contratti collettivi nazionali di lavoro. Un file per fonte (per i contratti
+  collettivi, uno per edizione), con in testa la fonte pubblica da cui è preso (`url`), l'impronta sha256 del
+  documento d'origine (`sha256_fonte`) e l'esito del confronto automatico fra il testo e quel documento
+  (`fedelta`). Sono riprodotti soltanto da fonti pubbliche (archivio CNEL, siti delle parti firmatarie,
+  autorità); chi ne detiene i diritti può chiederne la rimozione aprendo una issue.
 - `manifest.json` — impronte sha256 di ogni file e data dell'ultima verifica di ogni atto
 
-Aggiornamento automatico ogni lunedì (`.github/workflows/settimanale.yml`). Non è una banca dati
-ufficiale: per ogni uso professionale fa fede la fonte (normattiva, Gazzetta Ufficiale, SentenzeWeb).
+Aggiornamento automatico ogni lunedì (`.github/workflows/settimanale.yml`); le fonti di secondo livello
+entrano nel manifest a ogni caricamento (`.github/workflows/contributi.yml`), e un file non valido resta
+in quarantena. Non è una banca dati ufficiale: per ogni uso professionale fa fede la fonte (normattiva,
+Gazzetta Ufficiale, SentenzeWeb, il documento indicato in ciascun file).
 """
 
 WORKFLOW = """name: corpus settimanale
@@ -739,17 +797,112 @@ jobs:
           git config user.email "corpus-bot@users.noreply.github.com"
           git add -A
           git commit -m "corpus $(date -u +%F)" || echo "nessuna modifica"
+          # fonti di secondo livello caricate durante il giro: file diversi, nessun conflitto; il manifest si
+          # rifa' dopo il rebase, cosi' le comprende (e conserva le date di verifica di questa settimana)
+          git pull --rebase origin main
+          python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+          git add -A
+          git commit -m "manifest $(date -u +%F)" || echo "manifest invariato"
           git push
       - name: rapporto
         if: always()
         run: cat $RUNNER_TEMP/rapporto.md $RUNNER_TEMP/cassazione.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
 """
 
+#: v0.34: a ogni caricamento di fonti di secondo livello il manifest le comprende (o le mette in quarantena)
+WORKFLOW_CONTRIBUTI = """name: fonti di secondo livello
 
-def aggiorna_strumenti(repo: Path) -> list:
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wiki-studio/normativa/testi/secondo-livello/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: corpus
+  cancel-in-progress: false
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.9"
+      - name: cartelle di lavoro fuori dal repo
+        run: |
+          echo "STUDIO_STATO_ROOT=$RUNNER_TEMP/stato" >> "$GITHUB_ENV"
+          echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
+      - name: manifest con le fonti nuove
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          for tentativo in 1 2 3; do
+            git pull --rebase origin main
+            python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+            git add manifest.json
+            git commit -m "manifest: fonti di secondo livello $(date -u +%F)" || { echo "manifest invariato"; break; }
+            git push && break
+            git reset --hard origin/main
+          done
+      - name: quarantena
+        run: python3 scripts/corpus_pubblica.py --verifica-contributi --report $RUNNER_TEMP/contributi.md
+      - name: rapporto
+        if: always()
+        run: cat $RUNNER_TEMP/contributi.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+"""
+
+
+def unisci_codici(repo: Path) -> dict:
+    """Il codici.json del repo pubblico UNITO a quello del plugin (v0.34): il repo lo alimentano piu' plugin, e
+    nessuno deve cancellare gli atti aggiunti da un altro. Il repo vince sugli slug che ha gia'; il plugin
+    aggiunge solo quelli nuovi. {"aggiunti": [...], "diversi": [...]} (diversi: stesso slug, voce diversa)."""
+    dst = dir_normativa(repo) / "codici.json"
+    plug = _leggi_json(dir_normativa() / "codici.json", {}) or {}
+    pub = _leggi_json(dst, None)
+    if not isinstance(pub, dict) or not isinstance(pub.get("atti"), dict):
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(dir_normativa() / "codici.json", dst)
+        return {"aggiunti": sorted((plug.get("atti") or {})), "diversi": []}
+    aggiunti, diversi = [], []
+    for slug, voce in (plug.get("atti") or {}).items():
+        if slug not in pub["atti"]:
+            pub["atti"][slug] = voce
+            aggiunti.append(slug)
+        elif pub["atti"][slug] != voce:
+            diversi.append(slug)
+    if aggiunti:
+        dst.write_text(json.dumps(pub, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return {"aggiunti": aggiunti, "diversi": diversi}
+
+
+def versione_strumenti(repo: Path) -> int:
+    try:
+        return int((Path(repo) / "scripts" / "VERSIONE_STRUMENTI").read_text(encoding="utf-8").strip() or 0)
+    except (OSError, ValueError):
+        return 0
+
+
+def aggiorna_strumenti(repo: Path, forza: bool = False) -> list:
+    """Script, workflow, README e .gitignore del repo pubblico dal plugin, e codici.json UNITO. Se il repo ha
+    strumenti piu' nuovi di quelli di questo plugin (VERSIONE_STRUMENTI) non li riporta indietro: unisce solo
+    codici.json e lo dice nell'elenco restituito."""
     repo = Path(repo)
     (repo / "scripts").mkdir(parents=True, exist_ok=True)
     copiati = []
+    nel_repo = versione_strumenti(repo)
+    if nel_repo > VERSIONE_STRUMENTI and not forza:
+        uc = unisci_codici(repo)
+        return [f"strumenti NON aggiornati: il repo ha la versione {nel_repo}, questo plugin la {VERSIONE_STRUMENTI} "
+                "(aggiorna il plugin)"] + ([f"codici.json: aggiunti {', '.join(uc['aggiunti'])}"] if uc["aggiunti"] else [])
     for nome in STRUMENTI:
         src = ROOT / "scripts" / nome
         if src.exists():
@@ -757,15 +910,22 @@ def aggiorna_strumenti(repo: Path) -> list:
             copiati.append(nome)
     (repo / ".github" / "workflows").mkdir(parents=True, exist_ok=True)
     (repo / ".github" / "workflows" / "settimanale.yml").write_text(WORKFLOW, encoding="utf-8")
+    (repo / ".github" / "workflows" / "contributi.yml").write_text(WORKFLOW_CONTRIBUTI, encoding="utf-8")
     (repo / "README.md").write_text(README_PUBBLICO, encoding="utf-8")
-    (repo / ".gitignore").write_text("__pycache__/\n*.pyc\n.DS_Store\n*.tmp\n", encoding="utf-8")
+    (repo / ".gitignore").write_text("__pycache__/\n*.pyc\n.DS_Store\n*.tmp\n.studio-sessione/\n", encoding="utf-8")
+    # i testi si confrontano byte per byte (sha256 nel manifest): git non deve toccare gli a capo
+    (repo / ".gitattributes").write_text("* -text\n", encoding="utf-8")
     dir_normativa(repo).mkdir(parents=True, exist_ok=True)
-    shutil.copy2(dir_normativa() / "codici.json", dir_normativa(repo) / "codici.json")   # gli atti li decide il plugin
+    (dir_testi(repo) / sl.CARTELLA).mkdir(parents=True, exist_ok=True)
+    uc = unisci_codici(repo)          # gli atti li decidono i plugin, tutti insieme
+    if uc["aggiunti"]:
+        copiati.append(f"codici.json (+{', '.join(uc['aggiunti'])})")
     try:
         ver = json.loads((ROOT / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8")).get("version")
     except (OSError, ValueError):
         ver = None
     (repo / "scripts" / "VERSIONE").write_text(f"{ver or '?'}\n", encoding="utf-8")
+    (repo / "scripts" / "VERSIONE_STRUMENTI").write_text(f"{VERSIONE_STRUMENTI}\n", encoding="utf-8")
     return copiati
 
 
@@ -774,7 +934,7 @@ def init(repo: Path) -> dict:
     repo = Path(repo)
     testi_dst = dir_testi(repo)
     testi_dst.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(dir_normativa() / "codici.json", dir_normativa(repo) / "codici.json")
+    unisci_codici(repo)
     n = 0
     for slug in sorted(cl.CODICI):
         for nome in file_atto(slug, dir_testi()):
@@ -793,7 +953,7 @@ def _git(repo: Path, *args) -> subprocess.CompletedProcess:
 
 
 def pubblica(repo: Path, forza: bool = False, solo=None, con_gu: bool = True) -> dict:
-    """Riserva dal Mac: pull, strumenti e codici.json aggiornati dal plugin, giro settimanale con gli script
+    """Riserva dal Mac: pull, strumenti aggiornati e codici.json unito dal plugin, giro settimanale con gli script
     DEL REPO PUBBLICO (cosi' codici.json e percorsi sono i suoi), commit e push."""
     repo = Path(repo)
     _git(repo, "pull", "--ff-only")
@@ -853,8 +1013,11 @@ def main(argv=None) -> int:
     ap.add_argument("--report", default="", help="scrivi il rapporto markdown in questo file")
     ap.add_argument("--manifest", action="store_true", help="ricalcola il manifest dal disco (dopo passi esterni)")
     ap.add_argument("--verifica", action="store_true")
+    ap.add_argument("--verifica-contributi", action="store_true",
+                    help="fonti di secondo livello: exit 1 se qualche file e' in quarantena (Action dei contributi)")
     ap.add_argument("--init", action="store_true")
     ap.add_argument("--aggiorna-strumenti", action="store_true")
+    ap.add_argument("--forza-strumenti", action="store_true", help="con --aggiorna-strumenti: anche se il repo ha strumenti piu' nuovi")
     ap.add_argument("--pubblica", action="store_true")
     ap.add_argument("--cassazione", action="store_true", help="dal Mac: indice degli estremi della Cassazione, poi commit e push")
     ap.add_argument("--repo", default="", help="cartella del repo pubblico (default: la radice di questo script)")
@@ -871,7 +1034,7 @@ def main(argv=None) -> int:
         print(json.dumps(res, ensure_ascii=False, indent=1))
         return 0 if not res["errori"] else 1
     if a.aggiorna_strumenti:
-        print("copiati: " + ", ".join(aggiorna_strumenti(repo)))
+        print("copiati: " + ", ".join(aggiorna_strumenti(repo, forza=a.forza_strumenti)))
         return 0
     if a.cassazione:
         res = cassazione(repo)
@@ -882,8 +1045,16 @@ def main(argv=None) -> int:
         prec = _leggi_json(percorso_manifest(repo), {}) or {}
         man = costruisci_manifest(repo, {}, prec.get("fonti") or {}, prec)
         _scrivi_json(percorso_manifest(repo), man)
-        print(f"manifest: {len(man['atti'])} atti")
+        print(f"manifest: {len(man['atti'])} atti · {len(man.get('secondo_livello') or {})} fonti di secondo livello"
+              + (f" · in quarantena: {', '.join(sorted(man['secondo_livello_scartati']))}" if man.get("secondo_livello_scartati") else ""))
         return 0
+    if a.verifica_contributi:
+        esito = verifica_contributi(repo)
+        md = rapporto_contributi(esito)
+        if a.report:
+            Path(a.report).write_text(md, encoding="utf-8")
+        print(json.dumps(esito, ensure_ascii=False, indent=1) if a.json else md)
+        return 1 if esito["scartate"] else 0
     if a.verifica:
         errori = verifica(repo)
         print("verifica: " + ("OK" if not errori else f"{len(errori)} errori\n  " + "\n  ".join(errori)))

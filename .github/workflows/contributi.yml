@@ -1,0 +1,48 @@
+name: fonti di secondo livello
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wiki-studio/normativa/testi/secondo-livello/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: corpus
+  cancel-in-progress: false
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.9"
+      - name: cartelle di lavoro fuori dal repo
+        run: |
+          echo "STUDIO_STATO_ROOT=$RUNNER_TEMP/stato" >> "$GITHUB_ENV"
+          echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
+      - name: manifest con le fonti nuove
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          for tentativo in 1 2 3; do
+            git pull --rebase origin main
+            python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+            git add manifest.json
+            git commit -m "manifest: fonti di secondo livello $(date -u +%F)" || { echo "manifest invariato"; break; }
+            git push && break
+            git reset --hard origin/main
+          done
+      - name: quarantena
+        run: python3 scripts/corpus_pubblica.py --verifica-contributi --report $RUNNER_TEMP/contributi.md
+      - name: rapporto
+        if: always()
+        run: cat $RUNNER_TEMP/contributi.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
