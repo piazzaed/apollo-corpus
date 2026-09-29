@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-09-28T08:49Z",
+ "generato_il": "2026-09-29T22:35Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -1588,6 +1588,74 @@
   "file": "wiki-studio/normativa/changelog-auto.json",
   "sha256": "cfad29f2bd8ad48fca71521d9ec12bc46b4e5cb50ec67abe92912112d8839f52",
   "byte": 13993
+ },
+ "secondo_livello": {
+  "codice-deontologico-forense": {
+   "file": "codice-deontologico-forense.md",
+   "sha256": "cc32b880a0fe4cca2386da8889265f14158ab8f82cd8f4bda66833ebd085e3ff",
+   "byte": 84815,
+   "famiglia": "codice-deontologico-forense",
+   "genere": "codice-deontologico",
+   "nome": "Codice deontologico forense (CNF) — testo vigente, aggiornamento 2026",
+   "scaricato_il": "2026-09-25",
+   "articoli": 75,
+   "fedelta": "verificata"
+  },
+  "disposizioni-abf": {
+   "file": "disposizioni-abf.md",
+   "sha256": "bf85ffb7818ec14a8fd1db7304ca9d9c2415106de7f0b5f99c387e5132f1a9ab",
+   "byte": 92404,
+   "famiglia": "disposizioni-abf",
+   "genere": "disposizioni",
+   "nome": "Disposizioni della Banca d'Italia sui sistemi di risoluzione stragiudiziale delle controversie in materia di operazioni e servizi bancari e finanziari (ABF) — provvedimento 18 giugno 2009 e successive modifiche, testo consolidato",
+   "scaricato_il": "2026-09-19T22:36:31",
+   "articoli": 0,
+   "fedelta": "verificata"
+  },
+  "disposizioni-trasparenza": {
+   "file": "disposizioni-trasparenza.md",
+   "sha256": "ab8c31430c3ac387ba54f909553894f1b6359504f9404c0c4b42ca327b85d794",
+   "byte": 345572,
+   "famiglia": "disposizioni-trasparenza",
+   "genere": "disposizioni",
+   "nome": "Disposizioni della Banca d'Italia «Trasparenza delle operazioni e dei servizi bancari e finanziari; correttezza delle relazioni tra intermediari e clienti» (provvedimento 29 luglio 2009 e successive modifiche — testo consolidato)",
+   "scaricato_il": "2026-09-19T22:36:28",
+   "articoli": 0,
+   "fedelta": "verificata"
+  },
+  "istruzioni-tegm-2016": {
+   "file": "istruzioni-tegm-2016.md",
+   "sha256": "a3ec2576b707f65900b8dc00a8ff34dd1239fa25059a7ebb189eb4b85c7a5aa5",
+   "byte": 91602,
+   "famiglia": "istruzioni-tegm-2016",
+   "genere": "istruzioni",
+   "nome": "Istruzioni per la rilevazione dei tassi effettivi globali medi ai sensi della legge sull'usura — luglio 2016 (in vigore dalle segnalazioni del 1° ottobre 2016)",
+   "scaricato_il": "2026-09-19T22:36:20",
+   "articoli": 0,
+   "fedelta": "verificata"
+  },
+  "reg-ivass-40-2018": {
+   "file": "reg-ivass-40-2018.md",
+   "sha256": "06447d11739e71a291c8054597b031854765ada7c12fa3890df4bfddc79a9236",
+   "byte": 291043,
+   "famiglia": "reg-ivass-40-2018",
+   "genere": "regolamento",
+   "nome": "Regolamento IVASS n. 40 del 2 agosto 2018 — disposizioni in materia di distribuzione assicurativa e riassicurativa (Titolo IX CAP)",
+   "scaricato_il": "2026-09-27",
+   "articoli": 109,
+   "fedelta": "verificata"
+  },
+  "reg-ivass-41-2018": {
+   "file": "reg-ivass-41-2018.md",
+   "sha256": "4c191b58cf7e1e64650c4294ad217a14b13b3a1d4f00ad8692d7e4d2293bbe83",
+   "byte": 125767,
+   "famiglia": "reg-ivass-41-2018",
+   "genere": "regolamento",
+   "nome": "Regolamento IVASS n. 41 del 2 agosto 2018 — informativa, pubblicità e realizzazione dei prodotti assicurativi (Titolo XIII CAP)",
+   "scaricato_il": "2026-09-27",
+   "articoli": 47,
+   "fedelta": "verificata"
+  }
  },
  "cassazione": {
   "file": {
