@@ -1,0 +1,175 @@
+{
+ "_meta": {
+  "descrizione": "numeri del lavoro che cambiano ogni anno: ogni valore con l'atto da cui è preso; i valori estratti si verificano sulla fonte, i calcolati si rifanno",
+  "aggiornato_il": "2026-10-02"
+ },
+ "voci": {
+  "naspi_massimale_mensile": {
+   "descrizione": "NASpI: importo massimo mensile dell'indennità",
+   "unita": "euro al mese",
+   "cadenza": "annuale",
+   "norma": "art. 4, co. 2, D.Lgs. 22/2015",
+   "watch": [
+    "importi massimi",
+    "naspi"
+   ],
+   "serie": {
+    "2026": {
+     "valore": 1584.7,
+     "metodo": "estratto",
+     "fonte": {
+      "ente": "INPS",
+      "atto": "circolare n. 4 del 28/01/2026",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-4-del-28-01-2026_15147.html",
+      "url_testo": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/circolare-numero-4-del-28-01-2026_15147/jcr:content/data/master.json",
+      "prassi_id": "inps:circolare:2026:4"
+     },
+     "verificato_il": "2026-10-02"
+    }
+   }
+  },
+  "naspi_retribuzione_riferimento": {
+   "descrizione": "NASpI: retribuzione mensile di riferimento (soglia del 75%)",
+   "unita": "euro al mese",
+   "cadenza": "annuale",
+   "norma": "art. 4, co. 2, D.Lgs. 22/2015",
+   "watch": [
+    "importi massimi",
+    "naspi"
+   ],
+   "serie": {
+    "2026": {
+     "valore": 1456.72,
+     "metodo": "estratto",
+     "fonte": {
+      "ente": "INPS",
+      "atto": "circolare n. 4 del 28/01/2026",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-4-del-28-01-2026_15147.html",
+      "url_testo": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/circolare-numero-4-del-28-01-2026_15147/jcr:content/data/master.json",
+      "prassi_id": "inps:circolare:2026:4"
+     },
+     "verificato_il": "2026-10-02"
+    }
+   }
+  },
+  "cig_massimale_mensile": {
+   "descrizione": "cassa integrazione: importo massimo mensile lordo del trattamento",
+   "unita": "euro al mese",
+   "cadenza": "annuale",
+   "norma": "art. 3, co. 5-bis, D.Lgs. 148/2015",
+   "watch": [
+    "importi massimi",
+    "integrazione salariale"
+   ],
+   "serie": {
+    "2026": {
+     "valore": 1423.69,
+     "metodo": "estratto",
+     "fonte": {
+      "ente": "INPS",
+      "atto": "circolare n. 4 del 28/01/2026",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-4-del-28-01-2026_15147.html",
+      "url_testo": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/circolare-numero-4-del-28-01-2026_15147/jcr:content/data/master.json",
+      "prassi_id": "inps:circolare:2026:4"
+     },
+     "verificato_il": "2026-10-02"
+    }
+   }
+  },
+  "minimale_retributivo_giornaliero": {
+   "descrizione": "limite minimo di retribuzione giornaliera ai fini contributivi",
+   "unita": "euro al giorno",
+   "cadenza": "annuale",
+   "norma": "art. 7, co. 1, D.L. 463/1983",
+   "watch": [
+    "limite minimo di retribuzione giornaliera"
+   ],
+   "serie": {
+    "2026": {
+     "valore": 58.13,
+     "metodo": "estratto",
+     "fonte": {
+      "ente": "INPS",
+      "atto": "circolare n. 6 del 30/01/2026",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-6-del-30-01-2026_15151.html",
+      "url_testo": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/circolare-numero-6-del-30-01-2026_15151/jcr:content/data/master.json",
+      "prassi_id": "inps:circolare:2026:6"
+     },
+     "verificato_il": "2026-10-02"
+    }
+   }
+  },
+  "massimale_contributivo_annuo": {
+   "descrizione": "massimale annuo della base contributiva e pensionabile (iscritti dal 1996)",
+   "unita": "euro all'anno",
+   "cadenza": "annuale",
+   "norma": "art. 2, co. 18, L. 335/1995",
+   "watch": [
+    "limite minimo di retribuzione giornaliera"
+   ],
+   "serie": {
+    "2026": {
+     "valore": 122295.0,
+     "metodo": "estratto",
+     "fonte": {
+      "ente": "INPS",
+      "atto": "circolare n. 6 del 30/01/2026",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-6-del-30-01-2026_15151.html",
+      "url_testo": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/circolare-numero-6-del-30-01-2026_15151/jcr:content/data/master.json",
+      "prassi_id": "inps:circolare:2026:6"
+     },
+     "verificato_il": "2026-10-02"
+    }
+   }
+  },
+  "trattamento_minimo_mensile": {
+   "descrizione": "trattamento minimo mensile di pensione a carico del FPLD",
+   "unita": "euro al mese",
+   "cadenza": "annuale",
+   "norma": "rinnovo annuale delle pensioni (INPS)",
+   "watch": [
+    "rinnovo delle pensioni"
+   ],
+   "serie": {
+    "2026": {
+     "valore": 611.85,
+     "metodo": "estratto",
+     "fonte": {
+      "ente": "INPS",
+      "atto": "circolare n. 153 del 19/12/2025",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2025.12.circolare-numero-153-del-19-12-2025_15109.html",
+      "url_testo": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/12/circolare-numero-153-del-19-12-2025_15109/jcr:content/data/master.json",
+      "prassi_id": "inps:circolare:2025:153"
+     },
+     "verificato_il": "2026-10-02"
+    }
+   }
+  },
+  "ticket_licenziamento": {
+   "descrizione": "contributo di licenziamento (ticket NASpI) per 12 mesi di anzianita'",
+   "unita": "euro",
+   "cadenza": "annuale",
+   "norma": "art. 2, co. 31, L. 92/2012",
+   "derivata": {
+    "da": "naspi_massimale_mensile",
+    "formula": "41% del massimale mensile NASpI dell'anno, per ogni 12 mesi di anzianita' aziendale (max 3)"
+   },
+   "serie": {
+    "2026": {
+     "valore": 649.73,
+     "metodo": "calcolato",
+     "formula": "41% del massimale mensile NASpI dell'anno, per ogni 12 mesi di anzianita' aziendale (max 3)",
+     "fonte": {
+      "da": "naspi_massimale_mensile",
+      "ente": "INPS",
+      "atto": "circolare n. 4 del 28/01/2026",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-4-del-28-01-2026_15147.html",
+      "url_testo": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/circolare-numero-4-del-28-01-2026_15147/jcr:content/data/master.json",
+      "prassi_id": "inps:circolare:2026:4"
+     },
+     "verificato_il": "2026-10-02"
+    }
+   }
+  }
+ }
+}

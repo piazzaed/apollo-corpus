@@ -3,6 +3,10 @@ name: corpus settimanale
 on:
   schedule:
     - cron: "17 2 * * 1"          # lunedi' 04:17 ora italiana (02:17 UTC)
+  push:                           # v0.36: un plugin ha aggiunto atti al corpus: si costruiscono subito
+    branches: [main]
+    paths:
+      - "wiki-studio/normativa/codici.json"
   workflow_dispatch:
     inputs:
       forza:

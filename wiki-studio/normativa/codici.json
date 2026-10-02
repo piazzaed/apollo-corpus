@@ -1886,6 +1886,1132 @@
    ],
    "citazione": "L. 160/2019",
    "peso_ricerca": 0.5
+  },
+  "l-604-1966": {
+   "nome": "Norme sui licenziamenti individuali (L. 604/1966)",
+   "urn": "urn:nir:stato:legge:1966-07-15;604",
+   "doc_prefix": "",
+   "min_articoli": 10,
+   "alias": [
+    "l. 604/1966",
+    "legge 604/1966"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Norme sui licenziamenti individuali (L. 604/1966)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 604/1966"
+  },
+  "l-92-2012": {
+   "nome": "Riforma del mercato del lavoro (L. 92/2012)",
+   "urn": "urn:nir:stato:legge:2012-06-28;92",
+   "doc_prefix": "",
+   "min_articoli": 3,
+   "alias": [
+    "l. 92/2012",
+    "legge 92/2012"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Riforma del mercato del lavoro (L. 92/2012)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 92/2012",
+   "peso_ricerca": 0.5
+  },
+  "dlgs-66-2003": {
+   "nome": "Organizzazione dell'orario di lavoro (D.Lgs. 66/2003)",
+   "urn": "urn:nir:stato:decreto.legislativo:2003-04-08;66",
+   "doc_prefix": "",
+   "min_articoli": 16,
+   "alias": [
+    "d.lgs. 66/2003",
+    "dlgs 66/2003"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Organizzazione dell'orario di lavoro (D.Lgs. 66/2003)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 66/2003"
+  },
+  "dlgs-81-2008": {
+   "nome": "Testo unico sulla salute e sicurezza nei luoghi di lavoro (D.Lgs. 81/2008)",
+   "urn": "urn:nir:stato:decreto.legislativo:2008-04-09;81",
+   "doc_prefix": "",
+   "min_articoli": 256,
+   "alias": [
+    "d.lgs. 81/2008",
+    "dlgs 81/2008",
+    "testo unico sicurezza",
+    "t.u. sicurezza",
+    "testo unico sulla sicurezza",
+    "testo unico salute e sicurezza",
+    "t.u.s.l."
+   ],
+   "materie": [
+    "lavoro",
+    "infortuni"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "D.Lgs. 81/2008 — Titoli I-II (principi comuni, luoghi di lavoro)",
+     1,
+     68
+    ],
+    [
+     "D.Lgs. 81/2008 — Titoli III-IV (attrezzature, DPI, cantieri)",
+     69,
+     160
+    ],
+    [
+     "D.Lgs. 81/2008 — Titoli V-IX (segnaletica, carichi, videoterminali, agenti fisici, sostanze pericolose)",
+     161,
+     265
+    ],
+    [
+     "D.Lgs. 81/2008 — Titoli X-XIII (agenti biologici, atmosfere esplosive, sanzioni, norme finali)",
+     266,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 81/2008"
+  },
+  "dlgs-151-2001": {
+   "nome": "Testo unico a tutela della maternità e della paternità (D.Lgs. 151/2001)",
+   "urn": "urn:nir:stato:decreto.legislativo:2001-03-26;151",
+   "doc_prefix": "",
+   "min_articoli": 76,
+   "alias": [
+    "d.lgs. 151/2001",
+    "dlgs 151/2001",
+    "testo unico maternità",
+    "testo unico maternita",
+    "t.u. maternità",
+    "t.u. maternita",
+    "testo unico maternità e paternità"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Testo unico a tutela della maternità e della paternità (D.Lgs. 151/2001)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 151/2001"
+  },
+  "l-68-1999": {
+   "nome": "Diritto al lavoro dei disabili (L. 68/1999)",
+   "urn": "urn:nir:stato:legge:1999-03-12;68",
+   "doc_prefix": "",
+   "min_articoli": 19,
+   "alias": [
+    "l. 68/1999",
+    "legge 68/1999"
+   ],
+   "materie": [
+    "lavoro",
+    "invalidita"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Diritto al lavoro dei disabili (L. 68/1999)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 68/1999"
+  },
+  "dlgs-148-2015": {
+   "nome": "Ammortizzatori sociali in costanza di rapporto di lavoro (D.Lgs. 148/2015)",
+   "urn": "urn:nir:stato:decreto.legislativo:2015-09-14;148",
+   "doc_prefix": "",
+   "min_articoli": 43,
+   "alias": [
+    "d.lgs. 148/2015",
+    "dlgs 148/2015"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Ammortizzatori sociali in costanza di rapporto di lavoro (D.Lgs. 148/2015)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 148/2015"
+  },
+  "dlgs-22-2015": {
+   "nome": "NASpI e ammortizzatori sociali in caso di disoccupazione involontaria (D.Lgs. 22/2015)",
+   "urn": "urn:nir:stato:decreto.legislativo:2015-03-04;22",
+   "doc_prefix": "",
+   "min_articoli": 15,
+   "alias": [
+    "d.lgs. 22/2015",
+    "dlgs 22/2015"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "NASpI e ammortizzatori sociali in caso di disoccupazione involontaria (D.Lgs. 22/2015)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 22/2015"
+  },
+  "dlgs-104-2022": {
+   "nome": "Condizioni di lavoro trasparenti e prevedibili (D.Lgs. 104/2022)",
+   "urn": "urn:nir:stato:decreto.legislativo:2022-06-27;104",
+   "doc_prefix": "",
+   "min_articoli": 13,
+   "alias": [
+    "d.lgs. 104/2022",
+    "dlgs 104/2022",
+    "decreto trasparenza"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Condizioni di lavoro trasparenti e prevedibili (D.Lgs. 104/2022)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 104/2022"
+  },
+  "dlgs-198-2006": {
+   "nome": "Codice delle pari opportunità tra uomo e donna (D.Lgs. 198/2006)",
+   "urn": "urn:nir:stato:decreto.legislativo:2006-04-11;198",
+   "doc_prefix": "",
+   "min_articoli": 59,
+   "alias": [
+    "d.lgs. 198/2006",
+    "dlgs 198/2006",
+    "codice delle pari opportunità",
+    "codice delle pari opportunita",
+    "codice pari opportunità",
+    "codice pari opportunita"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Codice delle pari opportunità tra uomo e donna (D.Lgs. 198/2006)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 198/2006"
+  },
+  "dlgs-216-2003": {
+   "nome": "Parità di trattamento in materia di occupazione e di condizioni di lavoro (D.Lgs. 216/2003)",
+   "urn": "urn:nir:stato:decreto.legislativo:2003-07-09;216",
+   "doc_prefix": "",
+   "min_articoli": 7,
+   "alias": [
+    "d.lgs. 216/2003",
+    "dlgs 216/2003"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Parità di trattamento in materia di occupazione e di condizioni di lavoro (D.Lgs. 216/2003)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 216/2003"
+  },
+  "l-146-1990": {
+   "nome": "Sciopero nei servizi pubblici essenziali (L. 146/1990)",
+   "urn": "urn:nir:stato:legge:1990-06-12;146",
+   "doc_prefix": "",
+   "min_articoli": 16,
+   "alias": [
+    "l. 146/1990",
+    "legge 146/1990"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Sciopero nei servizi pubblici essenziali (L. 146/1990)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 146/1990"
+  },
+  "dlgs-165-2001": {
+   "nome": "Testo unico del pubblico impiego (D.Lgs. 165/2001)",
+   "urn": "urn:nir:stato:decreto.legislativo:2001-03-30;165",
+   "doc_prefix": "",
+   "min_articoli": 84,
+   "alias": [
+    "d.lgs. 165/2001",
+    "dlgs 165/2001",
+    "t.u.p.i.",
+    "tupi",
+    "testo unico pubblico impiego",
+    "testo unico del pubblico impiego"
+   ],
+   "materie": [
+    "lavoro",
+    "amministrativo"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Testo unico del pubblico impiego (D.Lgs. 165/2001)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 165/2001"
+  },
+  "l-183-2010": {
+   "nome": "Collegato lavoro 2010 (L. 183/2010)",
+   "urn": "urn:nir:stato:legge:2010-11-04;183",
+   "doc_prefix": "",
+   "min_articoli": 40,
+   "alias": [
+    "l. 183/2010",
+    "legge 183/2010"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Collegato lavoro 2010 (L. 183/2010)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 183/2010",
+   "peso_ricerca": 0.5
+  },
+  "dlgs-276-2003": {
+   "nome": "Occupazione e mercato del lavoro: somministrazione, appalto, distacco (D.Lgs. 276/2003)",
+   "urn": "urn:nir:stato:decreto.legislativo:2003-09-10;276",
+   "doc_prefix": "",
+   "min_articoli": 70,
+   "alias": [
+    "d.lgs. 276/2003",
+    "dlgs 276/2003"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Occupazione e mercato del lavoro: somministrazione, appalto, distacco (D.Lgs. 276/2003)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 276/2003"
+  },
+  "l-223-1991": {
+   "nome": "Cassa integrazione, mobilità e licenziamenti collettivi (L. 223/1991)",
+   "urn": "urn:nir:stato:legge:1991-07-23;223",
+   "doc_prefix": "",
+   "min_articoli": 24,
+   "alias": [
+    "l. 223/1991",
+    "legge 223/1991"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Cassa integrazione, mobilità e licenziamenti collettivi (L. 223/1991)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 223/1991"
+  },
+  "dlgs-24-2023": {
+   "nome": "Protezione delle persone che segnalano violazioni — whistleblowing (D.Lgs. 24/2023)",
+   "urn": "urn:nir:stato:decreto.legislativo:2023-03-10;24",
+   "doc_prefix": "",
+   "min_articoli": 20,
+   "alias": [
+    "d.lgs. 24/2023",
+    "dlgs 24/2023",
+    "decreto whistleblowing"
+   ],
+   "materie": [
+    "lavoro",
+    "compliance_231"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Protezione delle persone che segnalano violazioni — whistleblowing (D.Lgs. 24/2023)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 24/2023"
+  },
+  "l-533-1973": {
+   "nome": "Disciplina delle controversie individuali di lavoro (L. 533/1973)",
+   "urn": "urn:nir:stato:legge:1973-08-11;533",
+   "doc_prefix": "",
+   "min_articoli": 24,
+   "alias": [
+    "l. 533/1973",
+    "legge 533/1973"
+   ],
+   "materie": [
+    "lavoro",
+    "processo_civile"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Disciplina delle controversie individuali di lavoro (L. 533/1973)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 533/1973"
+  },
+  "l-297-1982": {
+   "nome": "Trattamento di fine rapporto e norme previdenziali (L. 297/1982)",
+   "urn": "urn:nir:stato:legge:1982-05-29;297",
+   "doc_prefix": "",
+   "min_articoli": 4,
+   "alias": [
+    "l. 297/1982",
+    "legge 297/1982"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Trattamento di fine rapporto e norme previdenziali (L. 297/1982)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 297/1982"
+  },
+  "dlgs-252-2005": {
+   "nome": "Forme pensionistiche complementari (D.Lgs. 252/2005)",
+   "urn": "urn:nir:stato:decreto.legislativo:2005-12-05;252",
+   "doc_prefix": "",
+   "min_articoli": 43,
+   "alias": [
+    "d.lgs. 252/2005",
+    "dlgs 252/2005"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Forme pensionistiche complementari (D.Lgs. 252/2005)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 252/2005"
+  },
+  "dl-87-2018": {
+   "nome": "Decreto dignità (D.L. 87/2018)",
+   "urn": "urn:nir:stato:decreto.legge:2018-07-12;87",
+   "doc_prefix": "",
+   "min_articoli": 20,
+   "alias": [
+    "d.l. 87/2018",
+    "dl 87/2018",
+    "decreto dignità",
+    "decreto dignita"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Decreto dignità (D.L. 87/2018)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.L. 87/2018",
+   "peso_ricerca": 0.5
+  },
+  "dlgs-124-2004": {
+   "nome": "Funzioni ispettive in materia di lavoro e previdenza (D.Lgs. 124/2004)",
+   "urn": "urn:nir:stato:decreto.legislativo:2004-04-23;124",
+   "doc_prefix": "",
+   "min_articoli": 16,
+   "alias": [
+    "d.lgs. 124/2004",
+    "dlgs 124/2004"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Funzioni ispettive in materia di lavoro e previdenza (D.Lgs. 124/2004)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 124/2004"
+  },
+  "dlgs-151-2015": {
+   "nome": "Semplificazioni in materia di rapporto di lavoro e pari opportunità (D.Lgs. 151/2015)",
+   "urn": "urn:nir:stato:decreto.legislativo:2015-09-14;151",
+   "doc_prefix": "",
+   "min_articoli": 34,
+   "alias": [
+    "d.lgs. 151/2015",
+    "dlgs 151/2015"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Semplificazioni in materia di rapporto di lavoro e pari opportunità (D.Lgs. 151/2015)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 151/2015",
+   "peso_ricerca": 0.5
+  },
+  "l-203-2024": {
+   "nome": "Collegato lavoro 2024 (L. 203/2024)",
+   "urn": "urn:nir:stato:legge:2024-12-13;203",
+   "doc_prefix": "",
+   "min_articoli": 27,
+   "alias": [
+    "l. 203/2024",
+    "legge 203/2024"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Collegato lavoro 2024 (L. 203/2024)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 203/2024",
+   "peso_ricerca": 0.5
+  },
+  "l-81-2017": {
+   "nome": "Lavoro autonomo non imprenditoriale e lavoro agile (L. 81/2017)",
+   "urn": "urn:nir:stato:legge:2017-05-22;81",
+   "doc_prefix": "",
+   "min_articoli": 20,
+   "alias": [
+    "l. 81/2017",
+    "legge 81/2017",
+    "statuto del lavoro autonomo"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Lavoro autonomo non imprenditoriale e lavoro agile (L. 81/2017)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 81/2017"
+  },
+  "dpr-639-1970": {
+   "nome": "Revisione degli ordinamenti pensionistici e sicurezza sociale (D.P.R. 639/1970)",
+   "urn": "urn:nir:stato:decreto.del.presidente.della.repubblica:1970-04-30;639",
+   "doc_prefix": "",
+   "min_articoli": 47,
+   "alias": [
+    "d.p.r. 639/1970",
+    "dpr 639/1970"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Revisione degli ordinamenti pensionistici e sicurezza sociale (D.P.R. 639/1970)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.P.R. 639/1970"
+  },
+  "l-335-1995": {
+   "nome": "Riforma del sistema pensionistico (L. 335/1995)",
+   "urn": "urn:nir:stato:legge:1995-08-08;335",
+   "doc_prefix": "",
+   "min_articoli": 13,
+   "alias": [
+    "l. 335/1995",
+    "legge 335/1995"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Riforma del sistema pensionistico (L. 335/1995)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 335/1995",
+   "peso_ricerca": 0.5
+  },
+  "dlgs-38-2000": {
+   "nome": "Assicurazione contro gli infortuni sul lavoro e le malattie professionali (D.Lgs. 38/2000)",
+   "urn": "urn:nir:stato:decreto.legislativo:2000-02-23;38",
+   "doc_prefix": "",
+   "min_articoli": 23,
+   "alias": [
+    "d.lgs. 38/2000",
+    "dlgs 38/2000"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza",
+    "infortuni"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Assicurazione contro gli infortuni sul lavoro e le malattie professionali (D.Lgs. 38/2000)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 38/2000"
+  },
+  "l-142-2001": {
+   "nome": "Socio lavoratore di cooperativa (L. 142/2001)",
+   "urn": "urn:nir:stato:legge:2001-04-03;142",
+   "doc_prefix": "",
+   "min_articoli": 5,
+   "alias": [
+    "l. 142/2001",
+    "legge 142/2001"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Socio lavoratore di cooperativa (L. 142/2001)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 142/2001"
+  },
+  "l-4-1953": {
+   "nome": "Prospetti di paga — busta paga (L. 4/1953)",
+   "urn": "urn:nir:stato:legge:1953-01-05;4",
+   "doc_prefix": "",
+   "min_articoli": 4,
+   "alias": [
+    "l. 4/1953",
+    "legge 4/1953"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Prospetti di paga — busta paga (L. 4/1953)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 4/1953"
+  },
+  "dl-62-2026": {
+   "nome": "Salario giusto, incentivi all'occupazione e contrasto del caporalato (D.L. 62/2026)",
+   "urn": "urn:nir:stato:decreto.legge:2026-04-30;62",
+   "doc_prefix": "",
+   "min_articoli": 24,
+   "alias": [
+    "d.l. 62/2026",
+    "dl 62/2026",
+    "decreto salario giusto"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Salario giusto, incentivi all'occupazione e contrasto del caporalato (D.L. 62/2026)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.L. 62/2026",
+   "peso_ricerca": 0.5
+  },
+  "l-108-1990": {
+   "nome": "Disciplina dei licenziamenti individuali (L. 108/1990)",
+   "urn": "urn:nir:stato:legge:1990-05-11;108",
+   "doc_prefix": "",
+   "min_articoli": 4,
+   "alias": [
+    "l. 108/1990",
+    "legge 108/1990"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Disciplina dei licenziamenti individuali (L. 108/1990)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 108/1990"
+  },
+  "dlgs-152-1997": {
+   "nome": "Obbligo di informare il lavoratore sulle condizioni del rapporto (D.Lgs. 152/1997)",
+   "urn": "urn:nir:stato:decreto.legislativo:1997-05-26;152",
+   "doc_prefix": "",
+   "min_articoli": 4,
+   "alias": [
+    "d.lgs. 152/1997",
+    "dlgs 152/1997"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Obbligo di informare il lavoratore sulle condizioni del rapporto (D.Lgs. 152/1997)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 152/1997"
+  },
+  "l-428-1990": {
+   "nome": "Legge comunitaria 1990, art. 47 sul trasferimento d'azienda (L. 428/1990)",
+   "urn": "urn:nir:stato:legge:1990-12-29;428",
+   "doc_prefix": "",
+   "min_articoli": 58,
+   "alias": [
+    "l. 428/1990",
+    "legge 428/1990"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Legge comunitaria 1990, art. 47 sul trasferimento d'azienda (L. 428/1990)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 428/1990",
+   "peso_ricerca": 0.5
+  },
+  "dlgs-80-1992": {
+   "nome": "Insolvenza del datore di lavoro: ultime retribuzioni e Fondo di garanzia (D.Lgs. 80/1992)",
+   "urn": "urn:nir:stato:decreto.legislativo:1992-01-27;80",
+   "doc_prefix": "",
+   "min_articoli": 4,
+   "alias": [
+    "d.lgs. 80/1992",
+    "dlgs 80/1992"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Insolvenza del datore di lavoro: ultime retribuzioni e Fondo di garanzia (D.Lgs. 80/1992)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 80/1992"
+  },
+  "l-1338-1962": {
+   "nome": "Trattamenti di pensione e rendita vitalizia per contributi prescritti (L. 1338/1962)",
+   "urn": "urn:nir:stato:legge:1962-08-12;1338",
+   "doc_prefix": "",
+   "min_articoli": 20,
+   "alias": [
+    "l. 1338/1962",
+    "legge 1338/1962"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Trattamenti di pensione e rendita vitalizia per contributi prescritti (L. 1338/1962)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 1338/1962"
+  },
+  "dlgs-215-2003": {
+   "nome": "Parità di trattamento indipendentemente dalla razza e dall'origine etnica (D.Lgs. 215/2003)",
+   "urn": "urn:nir:stato:decreto.legislativo:2003-07-09;215",
+   "doc_prefix": "",
+   "min_articoli": 7,
+   "alias": [
+    "d.lgs. 215/2003",
+    "dlgs 215/2003"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Parità di trattamento indipendentemente dalla razza e dall'origine etnica (D.Lgs. 215/2003)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 215/2003"
+  },
+  "l-67-2006": {
+   "nome": "Tutela giudiziaria delle persone con disabilità vittime di discriminazioni (L. 67/2006)",
+   "urn": "urn:nir:stato:legge:2006-03-01;67",
+   "doc_prefix": "",
+   "min_articoli": 3,
+   "alias": [
+    "l. 67/2006",
+    "legge 67/2006"
+   ],
+   "materie": [
+    "lavoro",
+    "invalidita"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Tutela giudiziaria delle persone con disabilità vittime di discriminazioni (L. 67/2006)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 67/2006"
+  },
+  "dl-338-1989": {
+   "nome": "Evasione contributiva e minimale contributivo (D.L. 338/1989)",
+   "urn": "urn:nir:stato:decreto.legge:1989-10-09;338",
+   "doc_prefix": "",
+   "min_articoli": 8,
+   "alias": [
+    "d.l. 338/1989",
+    "dl 338/1989"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Evasione contributiva e minimale contributivo (D.L. 338/1989)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.L. 338/1989"
+  },
+  "dlgs-136-2016": {
+   "nome": "Distacco transnazionale di lavoratori (D.Lgs. 136/2016)",
+   "urn": "urn:nir:stato:decreto.legislativo:2016-07-17;136",
+   "doc_prefix": "",
+   "min_articoli": 28,
+   "alias": [
+    "d.lgs. 136/2016",
+    "dlgs 136/2016"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Distacco transnazionale di lavoratori (D.Lgs. 136/2016)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 136/2016"
+  },
+  "l-106-2025": {
+   "nome": "Conservazione del posto e permessi per malattie oncologiche, invalidanti e croniche (L. 106/2025)",
+   "urn": "urn:nir:stato:legge:2025-07-18;106",
+   "doc_prefix": "",
+   "min_articoli": 4,
+   "alias": [
+    "l. 106/2025",
+    "legge 106/2025"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Conservazione del posto e permessi per malattie oncologiche, invalidanti e croniche (L. 106/2025)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 106/2025"
+  },
+  "l-260-1949": {
+   "nome": "Ricorrenze festive (L. 260/1949)",
+   "urn": "urn:nir:stato:legge:1949-05-27;260",
+   "doc_prefix": "",
+   "min_articoli": 6,
+   "alias": [
+    "l. 260/1949",
+    "legge 260/1949"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Ricorrenze festive (L. 260/1949)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 260/1949"
+  },
+  "dlgs-67-2011": {
+   "nome": "Lavori usuranti: accesso anticipato al pensionamento (D.Lgs. 67/2011)",
+   "urn": "urn:nir:stato:decreto.legislativo:2011-04-21;67",
+   "doc_prefix": "",
+   "min_articoli": 5,
+   "alias": [
+    "d.lgs. 67/2011",
+    "dlgs 67/2011"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Lavori usuranti: accesso anticipato al pensionamento (D.Lgs. 67/2011)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.Lgs. 67/2011"
+  },
+  "l-339-1958": {
+   "nome": "Tutela del rapporto di lavoro domestico (L. 339/1958)",
+   "urn": "urn:nir:stato:legge:1958-04-02;339",
+   "doc_prefix": "",
+   "min_articoli": 16,
+   "alias": [
+    "l. 339/1958",
+    "legge 339/1958"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Tutela del rapporto di lavoro domestico (L. 339/1958)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 339/1958"
+  },
+  "dl-463-1983": {
+   "nome": "Misure previdenziali: visite di controllo in malattia e minimali (D.L. 463/1983)",
+   "urn": "urn:nir:stato:decreto.legge:1983-09-12;463",
+   "doc_prefix": "",
+   "min_articoli": 22,
+   "alias": [
+    "d.l. 463/1983",
+    "dl 463/1983"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Misure previdenziali: visite di controllo in malattia e minimali (D.L. 463/1983)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.L. 463/1983",
+   "peso_ricerca": 0.5
+  },
+  "dl-663-1979": {
+   "nome": "Indennità di malattia e certificazione (D.L. 663/1979)",
+   "urn": "urn:nir:stato:decreto.legge:1979-12-30;663",
+   "doc_prefix": "",
+   "min_articoli": 41,
+   "alias": [
+    "d.l. 663/1979",
+    "dl 663/1979"
+   ],
+   "materie": [
+    "lavoro",
+    "previdenza"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Indennità di malattia e certificazione (D.L. 663/1979)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "D.L. 663/1979",
+   "peso_ricerca": 0.5
+  },
+  "l-53-2000": {
+   "nome": "Sostegno della maternità e della paternità, congedi per cura e formazione (L. 53/2000)",
+   "urn": "urn:nir:stato:legge:2000-03-08;53",
+   "doc_prefix": "",
+   "min_articoli": 22,
+   "alias": [
+    "l. 53/2000",
+    "legge 53/2000"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Sostegno della maternità e della paternità, congedi per cura e formazione (L. 53/2000)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 53/2000"
+  },
+  "l-54-1977": {
+   "nome": "Giorni festivi ed ex festività (L. 54/1977)",
+   "urn": "urn:nir:stato:legge:1977-03-05;54",
+   "doc_prefix": "",
+   "min_articoli": 3,
+   "alias": [
+    "l. 54/1977",
+    "legge 54/1977"
+   ],
+   "materie": [
+    "lavoro"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Giorni festivi ed ex festività (L. 54/1977)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 54/1977"
   }
  }
 }

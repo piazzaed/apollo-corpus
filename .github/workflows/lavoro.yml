@@ -1,0 +1,117 @@
+name: lavoro (CCNL, prassi, memento)
+
+on:
+  workflow_run:
+    workflows: ["corpus settimanale", "richiesta lavoro"]
+    types: [completed]
+  schedule:
+    - cron: "41 5 * * 2"          # martedi' 07:41 ora italiana: riserva se il giro del lunedi' non e' partito
+  workflow_dispatch:
+    inputs:
+      a_secco:
+        description: "solo indici e triage, senza Claude"
+        type: boolean
+        default: false
+      schede:
+        description: "schede da rivedere (id separati da spazio)"
+        type: string
+        default: ""
+      crea:
+        description: "schede da creare (id separati da spazio)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: corpus
+  cancel-in-progress: false
+
+jobs:
+  lavoro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.9"
+      - name: cartelle di lavoro fuori dal repo
+        run: |
+          echo "STUDIO_STATO_ROOT=$RUNNER_TEMP/stato" >> "$GITHUB_ENV"
+          echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
+      - name: indice dei contratti collettivi (archivio CNEL)
+        continue-on-error: true
+        run: python3 scripts/ccnl_indice.py --aggiorna --report $RUNNER_TEMP/lavoro.md
+      - name: indice della prassi (INPS, INL, Ministero del lavoro, INAIL)
+        continue-on-error: true
+        run: python3 scripts/prassi_indice.py --aggiorna --report $RUNNER_TEMP/lavoro.md
+      - name: numeri annuali calcolati
+        continue-on-error: true
+        run: python3 scripts/dati_lavoro.py --calcola --report $RUNNER_TEMP/lavoro.md
+      - name: triage del memento
+        id: triage
+        env:
+          SCHEDE: ${{ inputs.schede }}
+          CREA: ${{ inputs.crea }}
+        run: >-
+          python3 scripts/memento_triage.py --triage $RUNNER_TEMP/triage.json --schede "$SCHEDE" --crea "$CREA"
+          --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/lavoro.md
+      - name: indici e triage fissati (commit locale prima del modello, cosi' il controllo vede solo le sue modifiche)
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          git add -A wiki-studio/lavoro
+          git commit -m "lavoro: indici $(date -u +%F)" || echo "indici invariati"
+      - name: Claude aggiorna le schede toccate
+        id: claude
+        if: steps.triage.outputs.lavoro == 'true' && inputs.a_secco != true
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        env:
+          CLAUDE_CODE_SUBAGENT_MODEL: opus
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Segui le istruzioni di .github/claude/memento-regole.md.
+            Il lavoro da fare e' in ${{ runner.temp }}/triage.json.
+            Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-claude.json.
+          claude_args: >-
+            --model opus
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Bash(python3 scripts/memento_verifica.py:*),Bash(python3 scripts/dati_lavoro.py:*),Bash(python3 scripts/prassi_indice.py:*),Bash(python3 scripts/codice_locale.py:*)"
+      - name: controllo meccanico
+        id: controllo
+        if: always()
+        run: >-
+          python3 scripts/memento_verifica.py --dopo-claude --triage $RUNNER_TEMP/triage.json
+          --esiti $RUNNER_TEMP/esiti-claude.json --github-output "$GITHUB_OUTPUT"
+          --issue $RUNNER_TEMP/issue.md --report $RUNNER_TEMP/lavoro.md
+      - name: pubblica
+        if: always()
+        run: |
+          python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+          git add -A wiki-studio/lavoro manifest.json
+          git commit -m "lavoro $(date -u +%F)" || echo "nessuna modifica"
+          git pull --rebase origin main
+          python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+          git add -A wiki-studio/lavoro manifest.json
+          git commit -m "manifest $(date -u +%F)" || echo "manifest invariato"
+          git push
+      - name: segnalazione
+        if: always() && (steps.controllo.outputs.respinte != '0' || steps.claude.outcome == 'failure')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          [ -s $RUNNER_TEMP/issue.md ] || echo "Il passo Claude non e' riuscito (token scaduto o quota esaurita?): le schede da rivedere restano marcate da_ricontrollare." > $RUNNER_TEMP/issue.md
+          gh issue create --title "memento: schede da rivedere ($(date -u +%F))" --label memento --body-file $RUNNER_TEMP/issue.md || true
+      - name: rapporto
+        if: always()
+        run: cat $RUNNER_TEMP/lavoro.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true

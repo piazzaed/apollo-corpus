@@ -43,9 +43,11 @@ modifica e vince sulla copia vecchia).
 
 DOVE SI LEGGE
 -------------
-Due cartelle: il seed del plugin (`wiki-studio/normativa/testi/secondo-livello/`) e la copia sincronizzata dal
-corpus pubblico (`<stato>/testi/secondo-livello/`). Per ogni alias vince la copia piu' recente per data
-d'intestazione; a parita', la sincronizzata. `secondo-livello.json` resta per i puntatori (atti serviti dal
+Tre cartelle: il seed del plugin (`wiki-studio/normativa/testi/secondo-livello/`), la copia sincronizzata dal
+corpus pubblico (`<stato>/testi/secondo-livello/`) e, dalla v0.36, i testi di SESSIONE (`<stato>/ccnl/testi/`):
+i CCNL che `ccnl.py` scarica dall'archivio CNEL per la pratica e ricava dal PDF, che muoiono con l'attivita' e
+non si pubblicano. Per ogni alias vince la copia piu' recente per data d'intestazione; a parita', la
+sincronizzata. `secondo-livello.json` resta per i puntatori (atti serviti dal
 corpus normattiva o da un resolver) e per i segnaposto delle fonti non ancora scaricate.
 
 Uso:
@@ -447,6 +449,11 @@ def dir_runtime() -> Path:
     return stato_root() / "testi" / CARTELLA
 
 
+def dir_sessione() -> Path:
+    """I CCNL scaricati in questa attivita' da ccnl.py (v0.36): letti come le altre fonti, mai pubblicati."""
+    return stato_root() / "ccnl" / "testi"
+
+
 def _firma_dir(d: Path):
     try:
         return tuple(sorted((e.name, e.stat().st_mtime_ns, e.stat().st_size) for e in os.scandir(d)
@@ -485,18 +492,20 @@ def _unisci_liste(*liste) -> list:
     return out
 
 
-def registro(bundle: Path = None, seed: Path = None, runtime: Path = None) -> dict:
+def registro(bundle: Path = None, seed: Path = None, runtime: Path = None, sessione: Path = None) -> dict:
     """{"_meta", "alias": {alias: voce}}: i puntatori e i segnaposto di secondo-livello.json, piu' le fonti
-    descritte dai file (seed e sincronizzate). Fra due copie dello stesso alias vince la piu' recente per data
-    d'intestazione; a parita' vince il ritiro, poi la copia sincronizzata."""
+    descritte dai file (seed, sincronizzate e di sessione). Fra due copie dello stesso alias vince la piu' recente
+    per data d'intestazione; a parita' vince il ritiro, poi la copia sincronizzata."""
     bundle = Path(bundle or REGISTRO_BUNDLE)
     seed = Path(seed or dir_seed())
     runtime = Path(runtime or dir_runtime())
+    sessione = Path(sessione or dir_sessione())
     try:
         firma_b = bundle.stat().st_mtime_ns
     except OSError:
         firma_b = 0
-    chiave = (str(bundle), firma_b, str(seed), _firma_dir(seed), str(runtime), _firma_dir(runtime))
+    chiave = (str(bundle), firma_b, str(seed), _firma_dir(seed), str(runtime), _firma_dir(runtime),
+              str(sessione), _firma_dir(sessione))
     if _CACHE_REG.get("chiave") == chiave:
         return _CACHE_REG["valore"]
     try:
@@ -504,9 +513,9 @@ def registro(bundle: Path = None, seed: Path = None, runtime: Path = None) -> di
     except (OSError, ValueError):
         base = {"_meta": {}, "alias": {}}
     alias = {k: dict(v) for k, v in (base.get("alias") or {}).items() if isinstance(v, dict)}
-    da_seed, da_run = scansiona(seed), scansiona(runtime)
-    for a in sorted(set(da_seed) | set(da_run)):
-        copie = [("runtime", da_run.get(a)), ("seed", da_seed.get(a))]
+    da_seed, da_run, da_ses = scansiona(seed), scansiona(runtime), scansiona(sessione)
+    for a in sorted(set(da_seed) | set(da_run) | set(da_ses)):
+        copie = [("runtime", da_run.get(a)), ("seed", da_seed.get(a)), ("sessione", da_ses.get(a))]
         copie = [(o, v) for o, v in copie if v]
         origine, scelta = max(copie, key=lambda c: (_quando(c[1]), c[1].get("stato") == "ritirato", c[0] == "runtime"))
         vecchia = alias.get(a) or {}
@@ -646,7 +655,15 @@ def edizione(famiglia: str, data: str = "", reg: dict = None):
         avvisi.append(f"nessuna edizione in vigore al {d}: la piu' vecchia nel corpus decorre dal {_d(v.get('vigenza_da'))}")
     scaduta = bool(_d(v.get("vigenza_a")) and _d(v.get("vigenza_a")) < d)
     if scaduta:
-        avvisi.append(f"edizione scaduta il {_d(v.get('vigenza_a'))}: verificare rinnovo o ultrattivita' alla data {d}")
+        # un accordo di rinnovo della stessa famiglia che copre la data tiene in vita il testo di base (v0.36)
+        coprono = [(ra, rv) for ra, rv in rinnovi(famiglia, d, v.get("vigenza_da"), reg)
+                   if not _d(rv.get("vigenza_a")) or _d(rv.get("vigenza_a")) >= d]
+        if coprono:
+            scaduta = False
+            avvisi.append(f"testo di base scaduto il {_d(v.get('vigenza_a'))}, in vigore alla data {d} attraverso "
+                          f"{', '.join(ra for ra, _ in coprono)}: leggere anche il rinnovo")
+        else:
+            avvisi.append(f"edizione scaduta il {_d(v.get('vigenza_a'))}: verificare rinnovo o ultrattivita' alla data {d}")
     if data and _d(v.get("data_stipula")) and d < _d(v.get("data_stipula")):
         avvisi.append(f"edizione stipulata il {_d(v.get('data_stipula'))}, dopo la data {d}: decorrenza retroattiva da verificare")
     return {"alias": a, "voce": v, "avvisi": avvisi, "anteriore": anteriore, "scaduta": scaduta}
@@ -731,8 +748,11 @@ def articolo(riferimento: str, token: str, data_evento: str = "", reg: dict = No
     out["scaduta"] = bool(ed and ed["scaduta"])
     out["anteriore"] = bool(ed and ed["anteriore"])
     if ed:
+        # «*» (v0.36): un accordo che puo' toccare qualunque articolo (i rinnovi scaricati dal CNEL, la cui
+        # numerazione non e' quella del contratto): l'articolo resta da rileggere sul rinnovo
         mod = [a for a, v in rinnovi(fam, data_evento, ed["voce"].get("vigenza_da"), reg)
-               if norm_token(token) in [norm_token(x) for x in v.get("articoli_modificati") or []]]
+               if "*" in (v.get("articoli_modificati") or [])
+               or norm_token(token) in [norm_token(x) for x in v.get("articoli_modificati") or []]]
         if mod:
             out["modificato_da"] = mod
             avvisi.append(f"art. {norm_token(token)} modificato da {', '.join(mod)}: il testo qui sotto e' quello dell'edizione di base")

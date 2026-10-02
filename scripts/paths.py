@@ -212,3 +212,19 @@ if __name__ == "__main__":
     print("base attivita:", base_sessione())
     print("stato_root  :", stato_root(), "(sessione)")
     print("persistente :", stato_root_persistente())
+
+
+def preferisci_ipv4() -> None:
+    """v0.36: gli indirizzi IPv4 prima di quelli IPv6 negli script che scaricano. Python (urllib) prova gli
+    indirizzi in fila e aspetta il timeout intero su ciascuno: su una rete con IPv6 rotto (misurato il 02/10/2026:
+    80 s per il manifest del corpus, 0,4 s con IPv4 prima) ogni download si trascina. IPv6 resta come ripiego."""
+    import socket
+    orig = socket.getaddrinfo
+    if getattr(orig, "_ipv4_prima", False):
+        return
+
+    def getaddrinfo(*a, **k):
+        return sorted(orig(*a, **k), key=lambda x: 0 if x[0] == socket.AF_INET else 1)
+    getaddrinfo._ipv4_prima = True
+    socket.getaddrinfo = getaddrinfo
+

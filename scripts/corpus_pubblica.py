@@ -72,6 +72,7 @@ if sys.platform == "win32":
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import codice_locale as cl  # noqa: E402
 import corpus_diff as cd  # noqa: E402
+import lavoro as lv  # noqa: E402
 import secondo_livello as sl  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -91,10 +92,12 @@ ROTAZIONE = 4
 MOVIMENTO_SCADENZA_GIORNI = 120
 #: script copiati nel repo pubblico: tutto cio' che serve all'Action, niente di piu'
 STRUMENTI = ("paths.py", "corpus.py", "codice_locale.py", "corpus_diff.py", "corpus_pubblica.py",
-             "cassazione_indice.py", "diagnostica_rete.py", "secondo_livello.py")
+             "cassazione_indice.py", "diagnostica_rete.py", "secondo_livello.py",
+             # v0.36: area lavoro (indice CNEL, prassi, numeri annuali, memento e il suo controllo)
+             "lavoro.py", "ccnl_indice.py", "prassi_indice.py", "dati_lavoro.py", "memento_verifica.py", "memento_triage.py")
 #: versione degli strumenti del repo pubblico (intero, cresce a ogni cambio di script/workflow): il repo lo usano
 #: piu' plugin con versioni proprie, e un plugin rimasto indietro non deve riportare indietro gli script
-VERSIONE_STRUMENTI = 2
+VERSIONE_STRUMENTI = 3
 
 
 # ---------------------------------------------------------------- percorsi
@@ -545,6 +548,16 @@ def costruisci_manifest(root: Path, stato_atti: dict, fonti: dict, precedente: d
         extra["secondo_livello"] = sl_voci
     if sl_scartati:
         extra["secondo_livello_scartati"] = sl_scartati
+    lav = Path(root) / "wiki-studio" / lv.CARTELLA
+    if lav.is_dir():
+        # v0.36: l'area lavoro, file per file (solo i percorsi ammessi; il resto non si pubblica)
+        file_lav = {}
+        for f in sorted(lav.rglob("*")):
+            rel = f.relative_to(lav).as_posix()
+            if f.is_file() and lv.rel_valido(rel):
+                file_lav[rel] = {"sha256": sha_file(f), "byte": f.stat().st_size}
+        if file_lav:
+            extra["lavoro"] = {"file": file_lav, **((_leggi_json(lav / "stato.json", {}) or {}).get("_meta") or {})}
     cass = dir_normativa(root) / "cassazione"
     if cass.is_dir():
         extra["cassazione"] = {"file": {p.name: {"sha256": sha_file(p), "byte": p.stat().st_size}
@@ -592,6 +605,14 @@ def verifica(root: Path = ROOT, manifest: dict = None) -> list:
             errori.append(f"secondo livello {alias}: file mancante")
         elif voce.get("sha256") != sha_file(p):
             errori.append(f"secondo livello {alias}: sha diverso dal manifest")
+    for rel, info in sorted(((man.get("lavoro") or {}).get("file") or {}).items()):
+        p = root / "wiki-studio" / lv.CARTELLA / rel
+        if not lv.rel_valido(rel):
+            errori.append(f"lavoro {rel}: percorso non ammesso nel manifest")
+        elif not p.exists():
+            errori.append(f"lavoro {rel}: file mancante")
+        elif info.get("sha256") != sha_file(p):
+            errori.append(f"lavoro {rel}: sha diverso dal manifest")
     return errori
 
 
@@ -732,11 +753,23 @@ di ciascun articolo. I testi di legge non sono protetti dal diritto d'autore (ar
   documento d'origine (`sha256_fonte`) e l'esito del confronto automatico fra il testo e quel documento
   (`fedelta`). Sono riprodotti soltanto da fonti pubbliche (archivio CNEL, siti delle parti firmatarie,
   autorità); chi ne detiene i diritti può chiederne la rimozione aprendo una issue.
+- `wiki-studio/lavoro/` — strumenti per il diritto del lavoro:
+  - `ccnl/` indice dei contratti collettivi dell'Archivio nazionale del CNEL: solo metadati (codici, titoli,
+    firmatari, accordi con le loro date, dipendenti INPS per contratto), fonte CNEL, licenza IODL 2.0. I testi dei
+    contratti non stanno qui: si scaricano dall'archivio del CNEL quando servono;
+  - `prassi/` indice di circolari, messaggi, note e interpelli (INPS, Ispettorato nazionale del lavoro, Ministero
+    del lavoro, INAIL): numero, data, oggetto e indirizzo del documento, nessun testo;
+  - `dati/` numeri che cambiano ogni anno (massimali, minimali, importi), ciascuno con l'atto da cui e' preso;
+  - `memento/` schede per istituto: mappe che dicono quali norme, quali clausole del contratto e quali documenti
+    leggere, non fonti. Ogni citazione va verificata sul testo ufficiale; le pronunce non vi sono citate.
 - `manifest.json` — impronte sha256 di ogni file e data dell'ultima verifica di ogni atto
 
 Aggiornamento automatico ogni lunedì (`.github/workflows/settimanale.yml`); le fonti di secondo livello
 entrano nel manifest a ogni caricamento (`.github/workflows/contributi.yml`), e un file non valido resta
-in quarantena. Non è una banca dati ufficiale: per ogni uso professionale fa fede la fonte (normattiva,
+in quarantena. L'area lavoro si aggiorna dopo il giro del lunedì (`.github/workflows/lavoro.yml`): le schede
+toccate da una legge modificata o da una circolare nuova le riscrive un modello linguistico (Claude), e un
+controllo meccanico ne verifica ogni riferimento prima della pubblicazione; una scheda che non lo supera resta
+com'era, marcata «da ricontrollare». Non è una banca dati ufficiale: per ogni uso professionale fa fede la fonte (normattiva,
 Gazzetta Ufficiale, SentenzeWeb, il documento indicato in ciascun file).
 """
 
@@ -745,6 +778,10 @@ WORKFLOW = """name: corpus settimanale
 on:
   schedule:
     - cron: "17 2 * * 1"          # lunedi' 04:17 ora italiana (02:17 UTC)
+  push:                           # v0.36: un plugin ha aggiunto atti al corpus: si costruiscono subito
+    branches: [main]
+    paths:
+      - "wiki-studio/normativa/codici.json"
   workflow_dispatch:
     inputs:
       forza:
@@ -861,6 +898,150 @@ jobs:
 """
 
 
+#: v0.36: l'area lavoro dopo il giro del lunedi' (o a richiesta): indici, triage del memento, passo Claude solo sulle
+#: schede toccate, controllo meccanico, pubblicazione. Il passo Claude non accetta l'evento push: la richiesta
+#: manuale passa da «richiesta lavoro» (push di wiki-studio/lavoro/richiesta.json) e da workflow_run.
+WORKFLOW_LAVORO = """name: lavoro (CCNL, prassi, memento)
+
+on:
+  workflow_run:
+    workflows: ["corpus settimanale", "richiesta lavoro"]
+    types: [completed]
+  schedule:
+    - cron: "41 5 * * 2"          # martedi' 07:41 ora italiana: riserva se il giro del lunedi' non e' partito
+  workflow_dispatch:
+    inputs:
+      a_secco:
+        description: "solo indici e triage, senza Claude"
+        type: boolean
+        default: false
+      schede:
+        description: "schede da rivedere (id separati da spazio)"
+        type: string
+        default: ""
+      crea:
+        description: "schede da creare (id separati da spazio)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: corpus
+  cancel-in-progress: false
+
+jobs:
+  lavoro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.9"
+      - name: cartelle di lavoro fuori dal repo
+        run: |
+          echo "STUDIO_STATO_ROOT=$RUNNER_TEMP/stato" >> "$GITHUB_ENV"
+          echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
+      - name: indice dei contratti collettivi (archivio CNEL)
+        continue-on-error: true
+        run: python3 scripts/ccnl_indice.py --aggiorna --report $RUNNER_TEMP/lavoro.md
+      - name: indice della prassi (INPS, INL, Ministero del lavoro, INAIL)
+        continue-on-error: true
+        run: python3 scripts/prassi_indice.py --aggiorna --report $RUNNER_TEMP/lavoro.md
+      - name: numeri annuali calcolati
+        continue-on-error: true
+        run: python3 scripts/dati_lavoro.py --calcola --report $RUNNER_TEMP/lavoro.md
+      - name: triage del memento
+        id: triage
+        env:
+          SCHEDE: ${{ inputs.schede }}
+          CREA: ${{ inputs.crea }}
+        run: >-
+          python3 scripts/memento_triage.py --triage $RUNNER_TEMP/triage.json --schede "$SCHEDE" --crea "$CREA"
+          --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/lavoro.md
+      - name: indici e triage fissati (commit locale prima del modello, cosi' il controllo vede solo le sue modifiche)
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          git add -A wiki-studio/lavoro
+          git commit -m "lavoro: indici $(date -u +%F)" || echo "indici invariati"
+      - name: Claude aggiorna le schede toccate
+        id: claude
+        if: steps.triage.outputs.lavoro == 'true' && inputs.a_secco != true
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        env:
+          CLAUDE_CODE_SUBAGENT_MODEL: opus
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Segui le istruzioni di .github/claude/memento-regole.md.
+            Il lavoro da fare e' in ${{ runner.temp }}/triage.json.
+            Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-claude.json.
+          claude_args: >-
+            --model opus
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Bash(python3 scripts/memento_verifica.py:*),Bash(python3 scripts/dati_lavoro.py:*),Bash(python3 scripts/prassi_indice.py:*),Bash(python3 scripts/codice_locale.py:*)"
+      - name: controllo meccanico
+        id: controllo
+        if: always()
+        run: >-
+          python3 scripts/memento_verifica.py --dopo-claude --triage $RUNNER_TEMP/triage.json
+          --esiti $RUNNER_TEMP/esiti-claude.json --github-output "$GITHUB_OUTPUT"
+          --issue $RUNNER_TEMP/issue.md --report $RUNNER_TEMP/lavoro.md
+      - name: pubblica
+        if: always()
+        run: |
+          python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+          git add -A wiki-studio/lavoro manifest.json
+          git commit -m "lavoro $(date -u +%F)" || echo "nessuna modifica"
+          git pull --rebase origin main
+          python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+          git add -A wiki-studio/lavoro manifest.json
+          git commit -m "manifest $(date -u +%F)" || echo "manifest invariato"
+          git push
+      - name: segnalazione
+        if: always() && (steps.controllo.outputs.respinte != '0' || steps.claude.outcome == 'failure')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          [ -s $RUNNER_TEMP/issue.md ] || echo "Il passo Claude non e' riuscito (token scaduto o quota esaurita?): le schede da rivedere restano marcate da_ricontrollare." > $RUNNER_TEMP/issue.md
+          gh issue create --title "memento: schede da rivedere ($(date -u +%F))" --label memento --body-file $RUNNER_TEMP/issue.md || true
+      - name: rapporto
+        if: always()
+        run: cat $RUNNER_TEMP/lavoro.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+"""
+
+#: v0.36: la richiesta manuale (creare o rivedere schede) si fa con un push di wiki-studio/lavoro/richiesta.json;
+#: questo workflow non fa niente, serve solo a far partire «lavoro» con workflow_run (il passo Claude non accetta push)
+WORKFLOW_RICHIESTA = """name: richiesta lavoro
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wiki-studio/lavoro/richiesta.json"
+
+permissions:
+  contents: read
+
+jobs:
+  richiesta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "richiesta registrata: parte il workflow «lavoro»"
+"""
+
+
 def unisci_codici(repo: Path) -> dict:
     """Il codici.json del repo pubblico UNITO a quello del plugin (v0.34): il repo lo alimentano piu' plugin, e
     nessuno deve cancellare gli atti aggiunti da un altro. Il repo vince sugli slug che ha gia'; il plugin
@@ -911,6 +1092,16 @@ def aggiorna_strumenti(repo: Path, forza: bool = False) -> list:
     (repo / ".github" / "workflows").mkdir(parents=True, exist_ok=True)
     (repo / ".github" / "workflows" / "settimanale.yml").write_text(WORKFLOW, encoding="utf-8")
     (repo / ".github" / "workflows" / "contributi.yml").write_text(WORKFLOW_CONTRIBUTI, encoding="utf-8")
+    (repo / ".github" / "workflows" / "lavoro.yml").write_text(WORKFLOW_LAVORO, encoding="utf-8")
+    (repo / ".github" / "workflows" / "richiesta-lavoro.yml").write_text(WORKFLOW_RICHIESTA, encoding="utf-8")
+    try:
+        import memento_verifica as mv
+        (repo / ".github" / "claude").mkdir(parents=True, exist_ok=True)
+        (repo / ".github" / "claude" / "memento-regole.md").write_text(mv.REGOLE_SCHEDE, encoding="utf-8")
+    except ImportError:
+        pass
+    for sotto in ("ccnl", "prassi", "dati", "memento"):
+        (repo / "wiki-studio" / lv.CARTELLA / sotto).mkdir(parents=True, exist_ok=True)
     (repo / "README.md").write_text(README_PUBBLICO, encoding="utf-8")
     (repo / ".gitignore").write_text("__pycache__/\n*.pyc\n.DS_Store\n*.tmp\n.studio-sessione/\n", encoding="utf-8")
     # i testi si confrontano byte per byte (sha256 nel manifest): git non deve toccare gli a capo
@@ -978,6 +1169,30 @@ def pubblica(repo: Path, forza: bool = False, solo=None, con_gu: bool = True) ->
     return {**esito, "pubblicato": p.returncode == 0, "git": (c.stdout + p.stderr)[-400:]}
 
 
+def lavoro(repo: Path) -> dict:
+    """Ripiego dal Mac (v0.36): indici dell'area lavoro con gli script DEL REPO PUBBLICO, manifest, verifica, commit e
+    push. Il memento (passo Claude) resta al workflow; da qui si aggiornano solo i dati."""
+    repo = Path(repo)
+    _git(repo, "pull", "--ff-only")
+    aggiorna_strumenti(repo)
+    uscite = []
+    for script, args in (("ccnl_indice.py", ["--aggiorna"]), ("prassi_indice.py", ["--aggiorna"]),
+                         ("dati_lavoro.py", ["--calcola"])):
+        r = subprocess.run([sys.executable, str(repo / "scripts" / script), *args, "--radice", str(repo)], cwd=str(repo),
+                           capture_output=True, text=True, encoding="utf-8")
+        uscite.append(f"{script}: " + ((r.stdout or "") + (r.stderr or ""))[-300:])
+    m = subprocess.run([sys.executable, str(repo / "scripts" / "corpus_pubblica.py"), "--manifest"], cwd=str(repo),
+                       capture_output=True, text=True, encoding="utf-8")
+    v = subprocess.run([sys.executable, str(repo / "scripts" / "corpus_pubblica.py"), "--verifica"], cwd=str(repo),
+                       capture_output=True, text=True, encoding="utf-8")
+    if m.returncode != 0 or v.returncode != 0:
+        return {"pubblicato": False, "lavoro": uscite, "verifica": (m.stdout + v.stdout + v.stderr)[-400:]}
+    _git(repo, "add", "-A")
+    c = _git(repo, "commit", "-m", f"lavoro {_oggi().isoformat()} (dal Mac)")
+    p = _git(repo, "push")
+    return {"pubblicato": p.returncode == 0, "lavoro": uscite, "git": (c.stdout + p.stderr)[-400:]}
+
+
 def cassazione(repo: Path) -> dict:
     """Dal Mac (SentenzeWeb risponde dall'Italia, non sempre dai runner GitHub): pull, indice degli estremi con lo
     script DEL REPO PUBBLICO, manifest, verifica, commit e push. E' `/aggiorna-corpus --cassazione`."""
@@ -1020,6 +1235,7 @@ def main(argv=None) -> int:
     ap.add_argument("--forza-strumenti", action="store_true", help="con --aggiorna-strumenti: anche se il repo ha strumenti piu' nuovi")
     ap.add_argument("--pubblica", action="store_true")
     ap.add_argument("--cassazione", action="store_true", help="dal Mac: indice degli estremi della Cassazione, poi commit e push")
+    ap.add_argument("--lavoro", action="store_true", help="dal Mac: indici dell'area lavoro (CCNL, prassi, numeri), poi commit e push")
     ap.add_argument("--repo", default="", help="cartella del repo pubblico (default: la radice di questo script)")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args(argv)
@@ -1040,6 +1256,10 @@ def main(argv=None) -> int:
         res = cassazione(repo)
         print(json.dumps(res, ensure_ascii=False, indent=1) if a.json else
               ("PUBBLICATO" if res["pubblicato"] else "NON pubblicato") + "\n" + res.get("cassazione", "") + res.get("verifica", "") + res.get("git", ""))
+        return 0 if res["pubblicato"] else 1
+    if a.lavoro:
+        res = lavoro(repo)
+        print(json.dumps(res, ensure_ascii=False, indent=1))
         return 0 if res["pubblicato"] else 1
     if a.manifest:
         prec = _leggi_json(percorso_manifest(repo), {}) or {}

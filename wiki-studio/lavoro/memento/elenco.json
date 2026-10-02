@@ -1,0 +1,336 @@
+{
+ "_meta": {
+  "descrizione": "le schede del memento lavoro: id, titolo, area (l'elenco si cambia con l'avvocata)",
+  "schede": 82
+ },
+ "schede": {
+  "subordinazione-autonomia": {
+   "titolo": "Subordinazione e lavoro autonomo",
+   "area": "qualificazione"
+  },
+  "etero-organizzazione": {
+   "titolo": "Collaborazioni etero-organizzate",
+   "area": "qualificazione"
+  },
+  "collaborazioni-coordinate": {
+   "titolo": "Collaborazioni coordinate e continuative",
+   "area": "qualificazione"
+  },
+  "lavoro-irregolare": {
+   "titolo": "Lavoro irregolare e accertamento del rapporto",
+   "area": "qualificazione"
+  },
+  "tirocini": {
+   "titolo": "Tirocini extracurriculari e loro uso irregolare",
+   "area": "qualificazione"
+  },
+  "lavoro-occasionale": {
+   "titolo": "Prestazioni occasionali",
+   "area": "qualificazione"
+  },
+  "socio-lavoratore": {
+   "titolo": "Socio lavoratore di cooperativa",
+   "area": "qualificazione"
+  },
+  "lavoro-domestico": {
+   "titolo": "Lavoro domestico",
+   "area": "qualificazione"
+  },
+  "lavoro-agile": {
+   "titolo": "Lavoro agile",
+   "area": "qualificazione"
+  },
+  "lavoro-piattaforma": {
+   "titolo": "Lavoro tramite piattaforme digitali",
+   "area": "qualificazione"
+  },
+  "contratto-a-termine": {
+   "titolo": "Contratto a tempo determinato",
+   "area": "tipologie"
+  },
+  "somministrazione": {
+   "titolo": "Somministrazione di lavoro",
+   "area": "tipologie"
+  },
+  "part-time": {
+   "titolo": "Lavoro a tempo parziale",
+   "area": "tipologie"
+  },
+  "lavoro-intermittente": {
+   "titolo": "Lavoro intermittente",
+   "area": "tipologie"
+  },
+  "apprendistato": {
+   "titolo": "Apprendistato",
+   "area": "tipologie"
+  },
+  "periodo-di-prova": {
+   "titolo": "Periodo di prova",
+   "area": "tipologie"
+  },
+  "distacco": {
+   "titolo": "Distacco",
+   "area": "tipologie"
+  },
+  "appalto-solidarieta": {
+   "titolo": "Appalto e responsabilità solidale",
+   "area": "tipologie"
+  },
+  "trasferimento-azienda": {
+   "titolo": "Trasferimento d'azienda",
+   "area": "tipologie"
+  },
+  "interposizione-illecita": {
+   "titolo": "Interposizione illecita e appalto non genuino",
+   "area": "tipologie"
+  },
+  "retribuzione-proporzionata": {
+   "titolo": "Retribuzione proporzionata e sufficiente e CCNL applicabile",
+   "area": "retribuzione"
+  },
+  "superminimo-assorbimento": {
+   "titolo": "Superminimo e assorbimento",
+   "area": "retribuzione"
+  },
+  "lavoro-straordinario": {
+   "titolo": "Lavoro straordinario",
+   "area": "retribuzione"
+  },
+  "lavoro-notturno-festivo": {
+   "titolo": "Lavoro notturno, domenicale e festivo",
+   "area": "retribuzione"
+  },
+  "mensilita-aggiuntive": {
+   "titolo": "Tredicesima e mensilità aggiuntive",
+   "area": "retribuzione"
+  },
+  "scatti-anzianita": {
+   "titolo": "Scatti di anzianità",
+   "area": "retribuzione"
+  },
+  "trasferte-indennita": {
+   "titolo": "Trasferte e indennità",
+   "area": "retribuzione"
+  },
+  "busta-paga": {
+   "titolo": "Busta paga (prospetto paga)",
+   "area": "retribuzione"
+  },
+  "differenze-retributive": {
+   "titolo": "Azione per differenze retributive",
+   "area": "retribuzione"
+  },
+  "tfr": {
+   "titolo": "Trattamento di fine rapporto",
+   "area": "retribuzione"
+  },
+  "fondo-garanzia-inps": {
+   "titolo": "Fondo di garanzia INPS per il TFR e le ultime retribuzioni",
+   "area": "retribuzione"
+  },
+  "previdenza-complementare": {
+   "titolo": "Previdenza complementare e TFR al fondo",
+   "area": "retribuzione"
+  },
+  "crediti-lavoro-accessori": {
+   "titolo": "Rivalutazione e interessi sui crediti di lavoro",
+   "area": "retribuzione"
+  },
+  "parita-retributiva": {
+   "titolo": "Parità retributiva",
+   "area": "retribuzione"
+  },
+  "orario-di-lavoro": {
+   "titolo": "Orario di lavoro e riposi",
+   "area": "tempo-e-assenze"
+  },
+  "ferie": {
+   "titolo": "Ferie",
+   "area": "tempo-e-assenze"
+  },
+  "permessi-rol": {
+   "titolo": "Permessi retribuiti, ROL ed ex festività",
+   "area": "tempo-e-assenze"
+  },
+  "malattia-comporto": {
+   "titolo": "Malattia e periodo di comporto",
+   "area": "tempo-e-assenze"
+  },
+  "infortunio-malattia-professionale": {
+   "titolo": "Infortunio sul lavoro e malattia professionale",
+   "area": "tempo-e-assenze"
+  },
+  "maternita-paternita": {
+   "titolo": "Maternità, paternità e congedi parentali",
+   "area": "tempo-e-assenze"
+  },
+  "legge-104": {
+   "titolo": "Permessi e agevolazioni della L. 104/1992",
+   "area": "tempo-e-assenze"
+  },
+  "altri-congedi": {
+   "titolo": "Congedo matrimoniale, per studio e straordinario per assistenza",
+   "area": "tempo-e-assenze"
+  },
+  "aspettative": {
+   "titolo": "Aspettative",
+   "area": "tempo-e-assenze"
+  },
+  "mansioni-demansionamento": {
+   "titolo": "Mansioni e demansionamento",
+   "area": "rapporto"
+  },
+  "mansioni-superiori": {
+   "titolo": "Mansioni superiori e inquadramento",
+   "area": "rapporto"
+  },
+  "trasferimento-lavoratore": {
+   "titolo": "Trasferimento del lavoratore",
+   "area": "rapporto"
+  },
+  "potere-disciplinare": {
+   "titolo": "Procedimento disciplinare",
+   "area": "rapporto"
+  },
+  "controlli-distanza": {
+   "titolo": "Controlli a distanza",
+   "area": "rapporto"
+  },
+  "privacy-lavoratore": {
+   "titolo": "Riservatezza del lavoratore",
+   "area": "rapporto"
+  },
+  "idoneita-sorveglianza": {
+   "titolo": "Idoneità alla mansione e sorveglianza sanitaria",
+   "area": "rapporto"
+  },
+  "mobbing-straining": {
+   "titolo": "Mobbing e straining",
+   "area": "rapporto"
+  },
+  "discriminazioni-molestie": {
+   "titolo": "Discriminazioni e molestie",
+   "area": "rapporto"
+  },
+  "whistleblowing": {
+   "titolo": "Segnalazioni di illeciti (whistleblowing)",
+   "area": "rapporto"
+  },
+  "sicurezza-2087": {
+   "titolo": "Tutela delle condizioni di lavoro e sicurezza",
+   "area": "rapporto"
+  },
+  "danno-differenziale": {
+   "titolo": "Danno differenziale",
+   "area": "rapporto"
+  },
+  "patto-non-concorrenza": {
+   "titolo": "Patto di non concorrenza",
+   "area": "rapporto"
+  },
+  "obbligo-fedelta": {
+   "titolo": "Obbligo di fedeltà",
+   "area": "rapporto"
+  },
+  "licenziamento-disciplinare": {
+   "titolo": "Licenziamento disciplinare",
+   "area": "cessazione"
+  },
+  "licenziamento-gmo": {
+   "titolo": "Licenziamento per giustificato motivo oggettivo",
+   "area": "cessazione"
+  },
+  "licenziamento-inidoneita-comporto": {
+   "titolo": "Licenziamento per inidoneità e per superamento del comporto",
+   "area": "cessazione"
+  },
+  "licenziamento-nullo": {
+   "titolo": "Licenziamento nullo: discriminatorio, ritorsivo, in maternità o per matrimonio",
+   "area": "cessazione"
+  },
+  "licenziamento-orale-inefficace": {
+   "titolo": "Licenziamento orale e inefficace",
+   "area": "cessazione"
+  },
+  "licenziamento-collettivo": {
+   "titolo": "Licenziamento collettivo",
+   "area": "cessazione"
+  },
+  "regimi-di-tutela": {
+   "titolo": "Regimi di tutela contro il licenziamento illegittimo",
+   "area": "cessazione"
+  },
+  "impugnazione-licenziamento": {
+   "titolo": "Impugnazione del licenziamento e decadenze",
+   "area": "cessazione"
+  },
+  "offerta-conciliazione": {
+   "titolo": "Offerta di conciliazione dopo il licenziamento",
+   "area": "cessazione"
+  },
+  "dimissioni": {
+   "titolo": "Dimissioni",
+   "area": "cessazione"
+  },
+  "risoluzione-consensuale": {
+   "titolo": "Risoluzione consensuale",
+   "area": "cessazione"
+  },
+  "preavviso": {
+   "titolo": "Preavviso e indennità sostitutiva",
+   "area": "cessazione"
+  },
+  "dirigenti": {
+   "titolo": "Dirigenti",
+   "area": "cessazione"
+  },
+  "naspi": {
+   "titolo": "NASpI",
+   "area": "previdenza"
+  },
+  "cassa-integrazione": {
+   "titolo": "Cassa integrazione",
+   "area": "previdenza"
+  },
+  "contributi-omessi": {
+   "titolo": "Contributi omessi e risarcimento",
+   "area": "previdenza"
+  },
+  "prescrizione-contributi": {
+   "titolo": "Prescrizione dei contributi",
+   "area": "previdenza"
+  },
+  "rito-lavoro": {
+   "titolo": "Rito del lavoro",
+   "area": "tutela"
+  },
+  "rinunce-transazioni": {
+   "titolo": "Rinunce e transazioni e sedi protette",
+   "area": "tutela"
+  },
+  "conciliazione-arbitrato": {
+   "titolo": "Conciliazione e arbitrato",
+   "area": "tutela"
+  },
+  "ispettorato-diffida": {
+   "titolo": "Ispettorato del lavoro: diffida accertativa e conciliazione monocratica",
+   "area": "tutela"
+  },
+  "decreto-ingiuntivo-lavoro": {
+   "titolo": "Decreto ingiuntivo per crediti di lavoro",
+   "area": "tutela"
+  },
+  "prescrizione-crediti": {
+   "titolo": "Prescrizione dei crediti di lavoro",
+   "area": "tutela"
+  },
+  "condotta-antisindacale": {
+   "titolo": "Condotta antisindacale",
+   "area": "tutela"
+  },
+  "pubblico-impiego": {
+   "titolo": "Lavoro pubblico privatizzato",
+   "area": "tutela"
+  }
+ }
+}
