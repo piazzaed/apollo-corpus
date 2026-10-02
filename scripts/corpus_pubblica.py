@@ -1038,7 +1038,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - run: echo "richiesta registrata: parte il workflow «lavoro»"
+      - run: echo "richiesta registrata, parte il workflow «lavoro»"
 """
 
 
