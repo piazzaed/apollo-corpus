@@ -1,0 +1,119 @@
+{
+ "_meta": {
+  "codice": "l-297-1982",
+  "nome": "Trattamento di fine rapporto e norme previdenziali (L. 297/1982)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2022-11-10",
+  "articoli": 5,
+  "file": [
+   "l-297-1982.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1982-05-29;297",
+  "versioni": [
+   {
+    "data": "1982-05-31",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1983-01-29",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 29 gennaio 1983, n. 17"
+   },
+   {
+    "data": "1988-07-20",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "1989-05-31",
+    "evento": "rp3",
+    "atto_modificante": "atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "1992-11-18",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "1994-07-06",
+    "evento": "rp5",
+    "atto_modificante": "atto modificante non indicato (rp5)"
+   },
+   {
+    "data": "1995-08-02",
+    "evento": "rp6",
+    "atto_modificante": "atto modificante non indicato (rp6)"
+   },
+   {
+    "data": "2005-09-21",
+    "evento": "rp7",
+    "atto_modificante": "D.Lgs. 19 agosto 2005, n. 186"
+   },
+   {
+    "data": "2017-04-19",
+    "evento": "rp8",
+    "atto_modificante": "atto modificante non indicato (rp8)"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2022-11-09",
+    "evento": "rp10",
+    "atto_modificante": "atto modificante non indicato (rp10)"
+   }
+  ],
+  "ultima_versione": "2022-11-09",
+  "datazione": {
+   "monoblocco": 5,
+   "api": 5,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "chiamate": 5,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-297-1982.md",
+   "rubrica": "Modifiche di disposizioni del codice civile",
+   "vigore_da": "1982-06-01",
+   "datazione": "api",
+   "h": "dbd4f6bb0ee6"
+  },
+  "2": {
+   "file": "l-297-1982.md",
+   "rubrica": "Fondo di garanzia",
+   "vigore_da": "2020-05-19",
+   "datazione": "api",
+   "h": "53cb124c304b"
+  },
+  "3": {
+   "file": "l-297-1982.md",
+   "rubrica": "Norme in materia pensionistica",
+   "vigore_da": "2022-11-10",
+   "datazione": "api",
+   "h": "dd9e393f5b96"
+  },
+  "4": {
+   "file": "l-297-1982.md",
+   "rubrica": "Disposizioni finali",
+   "vigore_da": "1982-06-01",
+   "datazione": "api",
+   "h": "89aaa6b52b43"
+  },
+  "5": {
+   "file": "l-297-1982.md",
+   "rubrica": "Disposizioni transitorie",
+   "vigore_da": "1982-06-01",
+   "datazione": "api",
+   "h": "4ec9756be7c5"
+  }
+ }
+}

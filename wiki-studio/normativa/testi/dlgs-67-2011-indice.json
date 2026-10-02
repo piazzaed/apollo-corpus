@@ -1,0 +1,114 @@
+{
+ "_meta": {
+  "codice": "dlgs-67-2011",
+  "nome": "Lavori usuranti: accesso anticipato al pensionamento (D.Lgs. 67/2011)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-12-30",
+  "articoli": 7,
+  "file": [
+   "dlgs-67-2011.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2011-04-21;67",
+  "versioni": [
+   {
+    "data": "2011-05-11",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2011-05-13",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "2011-12-06",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 6 dicembre 2011, n. 201"
+   },
+   {
+    "data": "2014-12-29",
+    "evento": "rp3",
+    "atto_modificante": "L. 23 dicembre 2014, n. 190"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp4",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208"
+   },
+   {
+    "data": "2016-12-21",
+    "evento": "rp5",
+    "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp6",
+    "atto_modificante": "L. 30 dicembre 2025, n. 199"
+   }
+  ],
+  "ultima_versione": "2025-12-30",
+  "datazione": {
+   "monoblocco": 7,
+   "api": 6,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 4,
+   "chiamate": 7,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-67-2011.md",
+   "rubrica": "Lavoratori addetti a lavorazioni particolarmente faticose e pesanti",
+   "vigore_da": "2025-12-30",
+   "datazione": "api",
+   "h": "c0fe08d4515b"
+  },
+  "2": {
+   "file": "dlgs-67-2011.md",
+   "rubrica": "Modalita' di presentazione della domanda per l'accesso al beneficio e relativa documentazione",
+   "vigore_da": "2017-01-01",
+   "datazione": "api",
+   "h": "3914bb2f098f"
+  },
+  "3": {
+   "file": "dlgs-67-2011.md",
+   "rubrica": "Meccanismo di salvaguardia",
+   "vigore_da": "2011-05-26",
+   "datazione": "api",
+   "h": "36683f7006dd"
+  },
+  "4": {
+   "file": "dlgs-67-2011.md",
+   "rubrica": "Modalita' attuative",
+   "vigore_da": "2011-05-26",
+   "datazione": "api",
+   "h": "30ff66a3cf23"
+  },
+  "5": {
+   "file": "dlgs-67-2011.md",
+   "rubrica": "Obblighi di comunicazione",
+   "vigore_da": "2011-05-26",
+   "datazione": "api",
+   "h": "be43086dcec1"
+  },
+  "6": {
+   "file": "dlgs-67-2011.md",
+   "rubrica": "Disposizioni sanzionatorie",
+   "vigore_da": "2011-05-26",
+   "datazione": "api",
+   "h": "3bbae004092e"
+  },
+  "7": {
+   "file": "dlgs-67-2011.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "04bde18df98b"
+  }
+ }
+}

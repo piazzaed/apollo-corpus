@@ -1,0 +1,406 @@
+{
+ "_meta": {
+  "codice": "dl-463-1983",
+  "nome": "Misure previdenziali: visite di controllo in malattia e minimali (D.L. 463/1983)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2023-05-05",
+  "articoli": 28,
+  "file": [
+   "dl-463-1983.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legge:1983-09-12;463",
+  "versioni": [
+   {
+    "data": "1983-09-12",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1983-09-21",
+    "evento": "rp1",
+    "atto_modificante": "Circ. Ministero Della Sanita' 17 settembre 1983, n. 100"
+   },
+   {
+    "data": "1983-09-23",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "1983-11-11",
+    "evento": "rp3",
+    "atto_modificante": "L. 11 novembre 1983, n. 638"
+   },
+   {
+    "data": "1983-12-28",
+    "evento": "rp4",
+    "atto_modificante": "L. 27 dicembre 1983, n. 730"
+   },
+   {
+    "data": "1983-12-31",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 29 dicembre 1983, n. 747"
+   },
+   {
+    "data": "1984-01-23",
+    "evento": "rp6+rp7",
+    "atto_modificante": "D.L. 21 gennaio 1984, n. 3; D.L. 21 gennaio 1984, n. 4"
+   },
+   {
+    "data": "1984-06-18",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 15 giugno 1984, n. 232"
+   },
+   {
+    "data": "1984-07-02",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 29 giugno 1984, n. 277"
+   },
+   {
+    "data": "1984-10-30",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 30 ottobre 1984, n. 726"
+   },
+   {
+    "data": "1984-12-29",
+    "evento": "rp11",
+    "atto_modificante": "L. 22 dicembre 1984, n. 887"
+   },
+   {
+    "data": "1985-05-14",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 13 maggio 1985, n. 176"
+   },
+   {
+    "data": "1985-12-31",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 30 dicembre 1985, n. 787"
+   },
+   {
+    "data": "1986-02-28",
+    "evento": "rp14",
+    "atto_modificante": "L. 28 febbraio 1986, n. 41"
+   },
+   {
+    "data": "1987-06-03",
+    "evento": "rp15",
+    "atto_modificante": "Circ. 16 aprile 1987, n. 6"
+   },
+   {
+    "data": "1987-10-31",
+    "evento": "rp16",
+    "atto_modificante": "D.L. 30 ottobre 1987, n. 443"
+   },
+   {
+    "data": "1987-12-31",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 30 dicembre 1987, n. 536"
+   },
+   {
+    "data": "1988-02-03",
+    "evento": "rp18",
+    "atto_modificante": "atto modificante non indicato (rp18)"
+   },
+   {
+    "data": "1988-03-14",
+    "evento": "rp19",
+    "atto_modificante": "L. 11 marzo 1988, n. 67"
+   },
+   {
+    "data": "1988-08-16",
+    "evento": "rp20",
+    "atto_modificante": "L. 10 agosto 1988, n. 349"
+   },
+   {
+    "data": "1989-04-08",
+    "evento": "rp21",
+    "atto_modificante": "Circ. Ministero Delle Finanze 10 febbraio 1989, n. 2"
+   },
+   {
+    "data": "1989-10-10",
+    "evento": "rp22",
+    "atto_modificante": "D.L. 9 ottobre 1989, n. 338"
+   },
+   {
+    "data": "1990-08-13",
+    "evento": "rp23",
+    "atto_modificante": "L. 2 agosto 1990, n. 233"
+   },
+   {
+    "data": "1990-12-31",
+    "evento": "rp24",
+    "atto_modificante": "L. 29 dicembre 1990, n. 407"
+   },
+   {
+    "data": "1992-12-30",
+    "evento": "rp25",
+    "atto_modificante": "D.Lgs. 30 dicembre 1992, n. 503"
+   },
+   {
+    "data": "1993-12-28",
+    "evento": "rp26",
+    "atto_modificante": "L. 24 dicembre 1993, n. 537"
+   },
+   {
+    "data": "1994-03-29",
+    "evento": "rp27",
+    "atto_modificante": "D.Lgs. 24 marzo 1994, n. 211"
+   },
+   {
+    "data": "1995-08-16",
+    "evento": "rp28",
+    "atto_modificante": "L. 8 agosto 1995, n. 335"
+   },
+   {
+    "data": "1996-10-02",
+    "evento": "rp29",
+    "atto_modificante": "D.L. 1 ottobre 1996, n. 510"
+   },
+   {
+    "data": "1999-03-23",
+    "evento": "rp30",
+    "atto_modificante": "L. 12 marzo 1999, n. 68"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp31",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2011-11-14",
+    "evento": "rp32",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri Dipartimento Della Funzione Pubblica 1 agosto 2011, n. 10"
+   },
+   {
+    "data": "2013-08-31",
+    "evento": "rp33",
+    "atto_modificante": "D.L. 31 agosto 2013, n. 101"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp34",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 151"
+   },
+   {
+    "data": "2016-01-22",
+    "evento": "rp35",
+    "atto_modificante": "D.Lgs. 15 gennaio 2016, n. 8"
+   },
+   {
+    "data": "2023-05-04",
+    "evento": "rp36",
+    "atto_modificante": "D.L. 4 maggio 2023, n. 48"
+   }
+  ],
+  "ultima_versione": "2023-05-04",
+  "datazione": {
+   "monoblocco": 28,
+   "api": 28,
+   "ignota": 0,
+   "stima_anteriore": 6,
+   "stima_uguale": 3,
+   "chiamate": 28,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1987-12-31",
+   "datazione": "api",
+   "h": "74cf0ae793a4"
+  },
+  "2": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "2023-05-05",
+   "datazione": "api",
+   "h": "6e4e07a96e4b"
+  },
+  "3": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "372fa8feee15"
+  },
+  "4": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1987-12-31",
+   "datazione": "api",
+   "h": "0bc5311a45ff"
+  },
+  "5": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "4d0092bd0073"
+  },
+  "6": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1995-08-17",
+   "datazione": "api",
+   "h": "69fd731952aa"
+  },
+  "7": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1996-12-01",
+   "datazione": "api",
+   "h": "875d56113277"
+  },
+  "8": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1988-03-01",
+   "datazione": "api",
+   "h": "529d92431ac6"
+  },
+  "9": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "2000-01-17",
+   "datazione": "api",
+   "h": "0d9e73e3587d"
+  },
+  "9-bis": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1991-01-15",
+   "datazione": "api",
+   "h": "61d6f2975295"
+  },
+  "10": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1988-03-14",
+   "datazione": "api",
+   "h": "c6a360ec93ce"
+  },
+  "11": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "c3a184dea3c9"
+  },
+  "12": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1984-03-01",
+   "datazione": "api",
+   "h": "30043ea71f0c"
+  },
+  "13": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "0135d11ba7ef"
+  },
+  "14": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "773248bfa5cd"
+  },
+  "15": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-09-23",
+   "datazione": "api",
+   "h": "19924078abd8"
+  },
+  "16": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "5c590b8e8a14"
+  },
+  "17": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "8804b43a53a0"
+  },
+  "18": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "ca901b1e9704"
+  },
+  "19": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "6d5556b8ec02"
+  },
+  "20": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "d9565df46c52"
+  },
+  "21": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-12-29",
+   "datazione": "api",
+   "h": "551c5eef0deb"
+  },
+  "22": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-09-12",
+   "datazione": "api",
+   "h": "0b61caa19740"
+  },
+  "23": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "94d5ea6dc7ed"
+  },
+  "24": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-09-12",
+   "datazione": "api",
+   "h": "cbca417bb16b"
+  },
+  "25": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1988-08-17",
+   "datazione": "api",
+   "h": "14e65ee9fc4e"
+  },
+  "26": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "297f963c8351"
+  },
+  "27": {
+   "file": "dl-463-1983.md",
+   "rubrica": "",
+   "vigore_da": "1983-09-12",
+   "datazione": "api",
+   "h": "c2b1aad29fea"
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "_meta": {
+  "codice": "dlgs-152-1997",
+  "nome": "Obbligo di informare il lavoratore sulle condizioni del rapporto (D.Lgs. 152/1997)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-28",
+  "articoli": 6,
+  "file": [
+   "dlgs-152-1997.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:1997-05-26;152",
+  "versioni": [
+   {
+    "data": "1997-06-12",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2022-07-29",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 27 giugno 2022, n. 104"
+   },
+   {
+    "data": "2023-05-04",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 4 maggio 2023, n. 48"
+   },
+   {
+    "data": "2023-07-03",
+    "evento": "rp3",
+    "atto_modificante": "L. 3 luglio 2023, n. 85"
+   },
+   {
+    "data": "2026-04-30",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 30 aprile 2026, n. 62"
+   },
+   {
+    "data": "2026-06-27",
+    "evento": "rp5",
+    "atto_modificante": "L. 25 giugno 2026, n. 112"
+   }
+  ],
+  "ultima_versione": "2026-06-27",
+  "datazione": {
+   "monoblocco": 6,
+   "api": 6,
+   "ignota": 0,
+   "stima_anteriore": 5,
+   "chiamate": 6,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-152-1997.md",
+   "rubrica": "Informazioni sul rapporto di lavoro",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "1e209d86ddd1"
+  },
+  "1-bis": {
+   "file": "dlgs-152-1997.md",
+   "rubrica": "Ulteriori obblighi informativi nel caso di utilizzo di sistemi decisionali o di monitoraggio automatizzati",
+   "vigore_da": "2023-05-05",
+   "datazione": "api",
+   "h": "30b97028a09c"
+  },
+  "2": {
+   "file": "dlgs-152-1997.md",
+   "rubrica": "Prestazioni di lavoro all'estero",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "167442d73043"
+  },
+  "3": {
+   "file": "dlgs-152-1997.md",
+   "rubrica": "Modifica degli elementi del contratto dopo l'assunzione",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "d909e0c94c2d"
+  },
+  "4": {
+   "file": "dlgs-152-1997.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "50dedbdf09bb"
+  },
+  "5": {
+   "file": "dlgs-152-1997.md",
+   "rubrica": "Disposizioni transitorie e finali",
+   "vigore_da": "1997-06-27",
+   "datazione": "api",
+   "h": "06216996f387"
+  }
+ }
+}

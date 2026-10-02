@@ -1,0 +1,124 @@
+{
+ "_meta": {
+  "codice": "dlgs-215-2003",
+  "nome": "Parità di trattamento indipendentemente dalla razza e dall'origine etnica (D.Lgs. 215/2003)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-07",
+  "articoli": 9,
+  "file": [
+   "dlgs-215-2003.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2003-07-09;215",
+  "versioni": [
+   {
+    "data": "2003-08-12",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2004-10-16",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 2 agosto 2004, n. 256"
+   },
+   {
+    "data": "2008-04-09",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 8 aprile 2008, n. 59"
+   },
+   {
+    "data": "2011-09-21",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 1 settembre 2011, n. 150"
+   },
+   {
+    "data": "2022-01-17",
+    "evento": "rp4",
+    "atto_modificante": "L. 23 dicembre 2021, n. 238"
+   },
+   {
+    "data": "2026-05-23",
+    "evento": "rp5",
+    "atto_modificante": "D.Lgs. 7 maggio 2026, n. 91"
+   }
+  ],
+  "ultima_versione": "2026-05-23",
+  "datazione": {
+   "monoblocco": 9,
+   "api": 9,
+   "ignota": 0,
+   "stima_anteriore": 6,
+   "chiamate": 9,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Oggetto",
+   "vigore_da": "2003-08-27",
+   "datazione": "api",
+   "h": "aca03744adc3"
+  },
+  "2": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Nozione di discriminazione",
+   "vigore_da": "2008-06-08",
+   "datazione": "api",
+   "h": "ec5d216921a9"
+  },
+  "3": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2003-08-27",
+   "datazione": "api",
+   "h": "d8e6d8602f39"
+  },
+  "4": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Tutela giurisdizionale dei diritti",
+   "vigore_da": "2011-10-06",
+   "datazione": "api",
+   "h": "a40d545e6189"
+  },
+  "4-bis": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Protezione delle vittime",
+   "vigore_da": "2008-06-08",
+   "datazione": "api",
+   "h": "a7945150bda6"
+  },
+  "5": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Legittimazione ad agire",
+   "vigore_da": "2008-06-08",
+   "datazione": "api",
+   "h": "3174787998b6"
+  },
+  "6": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Registro delle associazioni e degli enti che svolgono attivita' nel campo della lotta alle discriminazioni",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "b04424999408"
+  },
+  "7": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Ufficio per il contrasto delle discriminazioni",
+   "vigore_da": "2022-02-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "e1e526a7d594"
+  },
+  "8": {
+   "file": "dlgs-215-2003.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "2003-08-27",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "0a21ed3c9766"
+  }
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "_meta": {
+  "codice": "l-53-2000",
+  "nome": "Sostegno della maternità e della paternità, congedi per cura e formazione (L. 53/2000)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2022-08-13",
+  "articoli": 28,
+  "file": [
+   "l-53-2000.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2000-03-08;53",
+  "versioni": [
+   {
+    "data": "2000-03-13",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2000-11-21",
+    "evento": "rp1",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri Dipartimento Della Funzione Pubblica 16 novembre 2000, n. 14"
+   },
+   {
+    "data": "2000-12-29",
+    "evento": "rp2",
+    "atto_modificante": "L. 23 dicembre 2000, n. 388"
+   },
+   {
+    "data": "2001-04-26",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 26 marzo 2001, n. 151"
+   },
+   {
+    "data": "2001-10-09",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 6 settembre 2001, n. 368"
+   },
+   {
+    "data": "2003-01-20",
+    "evento": "rp5",
+    "atto_modificante": "L. 16 gennaio 2003, n. 3"
+   },
+   {
+    "data": "2005-12-29",
+    "evento": "rp6",
+    "atto_modificante": "L. 23 dicembre 2005, n. 266"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp7",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2008-11-29",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 29 novembre 2008, n. 185"
+   },
+   {
+    "data": "2009-06-19",
+    "evento": "rp9",
+    "atto_modificante": "L. 18 giugno 2009, n. 69"
+   },
+   {
+    "data": "2010-11-09",
+    "evento": "rp10",
+    "atto_modificante": "L. 4 novembre 2010, n. 183"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 150"
+   },
+   {
+    "data": "2022-07-29",
+    "evento": "rp12",
+    "atto_modificante": "D.Lgs. 30 giugno 2022, n. 105"
+   }
+  ],
+  "ultima_versione": "2022-07-29",
+  "datazione": {
+   "monoblocco": 28,
+   "api": 27,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 18,
+   "chiamate": 28,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-53-2000.md",
+   "rubrica": "Finalita'",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "c556a9af7cb4"
+  },
+  "2": {
+   "file": "l-53-2000.md",
+   "rubrica": "Campagne informative",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "452bf9fa63d6"
+  },
+  "3": {
+   "file": "l-53-2000.md",
+   "rubrica": "Congedi dei genitori",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "47b4c6debac6"
+  },
+  "4": {
+   "file": "l-53-2000.md",
+   "rubrica": "Congedi per eventi e cause particolari",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "adef5768b70f"
+  },
+  "5": {
+   "file": "l-53-2000.md",
+   "rubrica": "Congedi per la formazione",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "6d69e263eb93"
+  },
+  "6": {
+   "file": "l-53-2000.md",
+   "rubrica": "Congedi per la formazione continua",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "2db5079953b2"
+  },
+  "7": {
+   "file": "l-53-2000.md",
+   "rubrica": "Anticipazione del trattamento di fine rapporto",
+   "vigore_da": "2009-01-29",
+   "datazione": "api",
+   "h": "c5f321468f77"
+  },
+  "8": {
+   "file": "l-53-2000.md",
+   "rubrica": "Prolungamento dell'eta' pensionabile",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "067c84400492"
+  },
+  "9": {
+   "file": "l-53-2000.md",
+   "rubrica": "Misure per conciliare tempi di vita e tempi di lavoro",
+   "vigore_da": "2009-07-04",
+   "datazione": "api",
+   "h": "75bc6f04f3dc"
+  },
+  "10": {
+   "file": "l-53-2000.md",
+   "rubrica": "",
+   "vigore_da": "2001-10-24",
+   "datazione": "api",
+   "h": "4cb288fd4ba8"
+  },
+  "11": {
+   "file": "l-53-2000.md",
+   "rubrica": "Parti prematuri",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "bde629113482"
+  },
+  "12": {
+   "file": "l-53-2000.md",
+   "rubrica": "Flessibilita' dell'astensione obbligatoria",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "8c727f019337"
+  },
+  "13": {
+   "file": "l-53-2000.md",
+   "rubrica": "Astensione dal lavoro del padre lavoratore",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "25da7aaa761b"
+  },
+  "14": {
+   "file": "l-53-2000.md",
+   "rubrica": "",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "4848b65e2576"
+  },
+  "15": {
+   "file": "l-53-2000.md",
+   "rubrica": "Testo unico",
+   "vigore_da": "2003-02-04",
+   "datazione": "api",
+   "h": "41f53fb80e7c"
+  },
+  "16": {
+   "file": "l-53-2000.md",
+   "rubrica": "Statistiche ufficiali sui tempi di vita",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "282abb1964d1"
+  },
+  "17": {
+   "file": "l-53-2000.md",
+   "rubrica": "",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "4848b65e2576"
+  },
+  "18": {
+   "file": "l-53-2000.md",
+   "rubrica": "",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "4848b65e2576"
+  },
+  "19": {
+   "file": "l-53-2000.md",
+   "rubrica": "Permessi per l'assistenza a portatori di handicap",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "fce103babf9d"
+  },
+  "20": {
+   "file": "l-53-2000.md",
+   "rubrica": "Estensione delle agevolazioni per l'assistenza a portatori di handicap",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "4b8de8f0e7ab"
+  },
+  "21": {
+   "file": "l-53-2000.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "9df046d9256a"
+  },
+  "22": {
+   "file": "l-53-2000.md",
+   "rubrica": "Compiti delle regioni",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "20ffb2ece8b6"
+  },
+  "23": {
+   "file": "l-53-2000.md",
+   "rubrica": "Compiti dei comuni",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "f39d6813a9b7"
+  },
+  "24": {
+   "file": "l-53-2000.md",
+   "rubrica": "Piano territoriale degli orari",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "4d768814cc80"
+  },
+  "25": {
+   "file": "l-53-2000.md",
+   "rubrica": "Tavolo di concertazione",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "8becb6dcd419"
+  },
+  "26": {
+   "file": "l-53-2000.md",
+   "rubrica": "Orari della pubblica amministrazione",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "39b51f03a22d"
+  },
+  "27": {
+   "file": "l-53-2000.md",
+   "rubrica": "Banche dei tempi",
+   "vigore_da": "2000-03-28",
+   "datazione": "api",
+   "h": "e5a509764c21"
+  },
+  "28": {
+   "file": "l-53-2000.md",
+   "rubrica": "Fondo per l'armonizzazione dei tempi delle citta'",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "2845607eed02"
+  }
+ }
+}

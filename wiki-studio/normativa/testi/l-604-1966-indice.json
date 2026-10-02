@@ -1,0 +1,270 @@
+{
+ "_meta": {
+  "codice": "l-604-1966",
+  "nome": "Norme sui licenziamenti individuali (L. 604/1966)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-07-24",
+  "articoli": 13,
+  "file": [
+   "l-604-1966.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1966-07-15;604",
+  "versioni": [
+   {
+    "data": "1966-08-06",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1970-02-11",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "1971-07-21",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "1973-12-05",
+    "evento": "rp3",
+    "atto_modificante": "atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "1980-12-31",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "1986-06-25",
+    "evento": "rp5",
+    "atto_modificante": "atto modificante non indicato (rp5)"
+   },
+   {
+    "data": "1986-07-16",
+    "evento": "rp6",
+    "atto_modificante": "atto modificante non indicato (rp6)"
+   },
+   {
+    "data": "1987-04-08",
+    "evento": "rp7",
+    "atto_modificante": "atto modificante non indicato (rp7)"
+   },
+   {
+    "data": "1990-05-11",
+    "evento": "rp8",
+    "atto_modificante": "L. 11 maggio 1990, n. 108"
+   },
+   {
+    "data": "1991-02-06",
+    "evento": "rp9",
+    "atto_modificante": "atto modificante non indicato (rp9)"
+   },
+   {
+    "data": "2003-07-14",
+    "evento": "rp10",
+    "atto_modificante": "atto modificante non indicato (rp10)"
+   },
+   {
+    "data": "2009-12-14",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 1 dicembre 2009, n. 179"
+   },
+   {
+    "data": "2010-11-09",
+    "evento": "rp12",
+    "atto_modificante": "L. 4 novembre 2010, n. 183"
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2012-07-03",
+    "evento": "rp14",
+    "atto_modificante": "L. 28 giugno 2012, n. 92"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp15",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   },
+   {
+    "data": "2020-03-17",
+    "evento": "rp16",
+    "atto_modificante": "D.L. 17 marzo 2020, n. 18"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2020-08-14",
+    "evento": "rp18",
+    "atto_modificante": "D.L. 14 agosto 2020, n. 104"
+   },
+   {
+    "data": "2020-10-21",
+    "evento": "rp19",
+    "atto_modificante": "atto modificante non indicato (rp19)"
+   },
+   {
+    "data": "2020-10-28",
+    "evento": "rp20",
+    "atto_modificante": "D.L. 28 ottobre 2020, n. 137"
+   },
+   {
+    "data": "2020-12-30",
+    "evento": "rp21",
+    "atto_modificante": "L. 30 dicembre 2020, n. 178"
+   },
+   {
+    "data": "2021-03-22",
+    "evento": "rp22",
+    "atto_modificante": "D.L. 22 marzo 2021, n. 41"
+   },
+   {
+    "data": "2021-05-25",
+    "evento": "rp23",
+    "atto_modificante": "D.L. 25 maggio 2021, n. 73"
+   },
+   {
+    "data": "2021-06-30",
+    "evento": "rp24",
+    "atto_modificante": "D.L. 30 giugno 2021, n. 99"
+   },
+   {
+    "data": "2021-07-20",
+    "evento": "rp25",
+    "atto_modificante": "D.L. 20 luglio 2021, n. 103"
+   },
+   {
+    "data": "2021-07-24",
+    "evento": "rp26",
+    "atto_modificante": "L. 23 luglio 2021, n. 106"
+   },
+   {
+    "data": "2021-10-21",
+    "evento": "rp27",
+    "atto_modificante": "D.L. 21 ottobre 2021, n. 146"
+   },
+   {
+    "data": "2023-03-15",
+    "evento": "rp28",
+    "atto_modificante": "D.Lgs. 10 marzo 2023, n. 24"
+   },
+   {
+    "data": "2025-07-23",
+    "evento": "rp29",
+    "atto_modificante": "atto modificante non indicato (rp29)"
+   }
+  ],
+  "ultima_versione": "2025-07-23",
+  "datazione": {
+   "monoblocco": 13,
+   "api": 13,
+   "ignota": 0,
+   "stima_anteriore": 12,
+   "chiamate": 13,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "1966-08-07",
+   "datazione": "api",
+   "h": "ed56b61adc00"
+  },
+  "2": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "38ab4861723f"
+  },
+  "3": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "2021-10-22",
+   "datazione": "api",
+   "h": "d62deed61dd1"
+  },
+  "4": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "4015cc0736e0"
+  },
+  "5": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "1966-08-07",
+   "datazione": "api",
+   "h": "e506a3297582"
+  },
+  "6": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "2025-07-24",
+   "datazione": "api",
+   "h": "fecf7cce16bc"
+  },
+  "7": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "2021-10-22",
+   "datazione": "api",
+   "h": "f78ccbbb3ac7"
+  },
+  "9": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "1966-08-07",
+   "datazione": "api",
+   "h": "5708d18befe5"
+  },
+  "10": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "1991-02-07",
+   "datazione": "api",
+   "h": "80a6e9f4150b"
+  },
+  "11": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "1990-05-26",
+   "datazione": "api",
+   "h": "dbf913274306"
+  },
+  "12": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "1966-08-07",
+   "datazione": "api",
+   "h": "901e42759017"
+  },
+  "13": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "1966-08-07",
+   "datazione": "api",
+   "h": "0479e07b654b"
+  },
+  "14": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "1966-08-07",
+   "datazione": "api",
+   "h": "51be324ec0e6"
+  }
+ }
+}

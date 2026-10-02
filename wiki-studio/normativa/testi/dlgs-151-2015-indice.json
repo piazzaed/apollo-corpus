@@ -1,0 +1,370 @@
+{
+ "_meta": {
+  "codice": "dlgs-151-2015",
+  "nome": "Semplificazioni in materia di rapporto di lavoro e pari opportunità (D.Lgs. 151/2015)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-01-12",
+  "articoli": 43,
+  "file": [
+   "dlgs-151-2015.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2015-09-14;151",
+  "versioni": [
+   {
+    "data": "2015-09-23",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2016-10-07",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 24 settembre 2016, n. 185"
+   },
+   {
+    "data": "2016-12-30",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 30 dicembre 2016, n. 244"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp3",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-12-14",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 14 dicembre 2018, n. 135"
+   },
+   {
+    "data": "2021-05-31",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 31 maggio 2021, n. 77"
+   },
+   {
+    "data": "2021-07-30",
+    "evento": "rp6",
+    "atto_modificante": "L. 29 luglio 2021, n. 108"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp7",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   }
+  ],
+  "ultima_versione": "2024-12-28",
+  "datazione": {
+   "monoblocco": 43,
+   "api": 43,
+   "ignota": 0,
+   "stima_anteriore": 39,
+   "chiamate": 43,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Collocamento mirato",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "c2e232595af2"
+  },
+  "2": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 1 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "8912a1f2c0c0"
+  },
+  "3": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 3 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2017-03-01",
+   "datazione": "api",
+   "h": "ff26f6086672"
+  },
+  "4": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 4 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "b357eb9faedd"
+  },
+  "5": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 5 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "fb3a4a2e9d2e"
+  },
+  "6": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 7 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "0c669d408d6f"
+  },
+  "7": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 8 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "1594c5c77d74"
+  },
+  "8": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 9 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "c30baf063dde"
+  },
+  "9": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 12-bis della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "2482ac235fa0"
+  },
+  "10": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 13 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "c88e3dee64cb"
+  },
+  "11": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 14 della legge 12 marzo 1999, n. 68",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "006aedb1029d"
+  },
+  "12": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Soppressione dell'albo nazionale dei centralinisti telefonici privi della vista",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "467421e1aca4"
+  },
+  "13": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modificazioni alla legge 29 marzo 1985, n. 113",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "169454eddde3"
+  },
+  "14": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Deposito contratti collettivi aziendali o territoriali",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "cabc57544e49"
+  },
+  "15": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "",
+   "vigore_da": "2019-02-13",
+   "datazione": "api",
+   "h": "34a68cf6bd21"
+  },
+  "16": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Comunicazioni telematiche",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "fc18f428a91f"
+  },
+  "17": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Banche dati in materia di politiche del lavoro",
+   "vigore_da": "2021-07-31",
+   "datazione": "api",
+   "h": "668acee2b4a5"
+  },
+  "18": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Abrogazione autorizzazione al lavoro estero",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "a2cd4e0e8c6a"
+  },
+  "19": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Semplificazione in materia di collocamento della gente di mare",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "7e879317d112"
+  },
+  "20": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modificazioni al decreto legislativo 9 aprile 2008, n. 81",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "5cddcedd82bd"
+  },
+  "21": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Semplificazioni in materia di adempimenti formali concernenti gli infortuni sul lavoro e le malattie professionali",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "4c9254124109"
+  },
+  "22": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica di disposizioni sanzionatorie in materia di lavoro e legislazione sociale",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "418231dea0a1"
+  },
+  "23": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifiche all'articolo 4 della legge 20 maggio 1970, n. 300 e all'articolo 171 del decreto legislativo 30 giugno 2003, n. 196",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "b892f9fb77a3"
+  },
+  "24": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Cessione dei riposi e delle ferie",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "0a3612f77f41"
+  },
+  "25": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Esenzioni dalla reperibilita'",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "0f8533ef8541"
+  },
+  "26": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Dimissioni volontarie e risoluzione consensuale",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "3d75b9d16ace"
+  },
+  "27": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica al decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "66406c1ec948"
+  },
+  "28": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica all'articolo 8 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "a6f0da58abf7"
+  },
+  "29": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica all'articolo 9 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "bc8577dd8879"
+  },
+  "30": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 10 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "9743467d57db"
+  },
+  "31": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica all'articolo 12 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "33affb641ab8"
+  },
+  "32": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica all'articolo 14 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "a9203c526f23"
+  },
+  "33": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 15 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "110f754026bc"
+  },
+  "34": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 16 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "e500f3be6330"
+  },
+  "35": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica degli articoli 17 e 18 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "af178659d862"
+  },
+  "36": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 19 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "7ea55380ca41"
+  },
+  "37": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica al decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "6ceb683d41dc"
+  },
+  "38": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 20 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "777e462c7150"
+  },
+  "39": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica all'articolo 39 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "52a615506773"
+  },
+  "40": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica all'articolo 43 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "547a3e000a4b"
+  },
+  "41": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifica dell'articolo 44 del decreto legislativo 11 aprile 2006, n. 198",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "877f4cca03bf"
+  },
+  "42": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Modifiche e abrogazioni",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "8e3e821aed3d"
+  },
+  "43": {
+   "file": "dlgs-151-2015.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "8b036c8cf316"
+  }
+ }
+}

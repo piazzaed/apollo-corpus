@@ -1,0 +1,238 @@
+{
+ "_meta": {
+  "codice": "dlgs-22-2015",
+  "nome": "NASpI e ammortizzatori sociali in caso di disoccupazione involontaria (D.Lgs. 22/2015)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-01-01",
+  "articoli": 19,
+  "file": [
+   "dlgs-22-2015.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2015-03-04;22",
+  "versioni": [
+   {
+    "data": "2015-03-06",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp1+rp2",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 148; D.Lgs. 14 settembre 2015, n. 150"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp3",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208"
+   },
+   {
+    "data": "2016-12-30",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 30 dicembre 2016, n. 244"
+   },
+   {
+    "data": "2017-06-13",
+    "evento": "rp5",
+    "atto_modificante": "L. 22 maggio 2017, n. 81"
+   },
+   {
+    "data": "2017-10-13",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 15 settembre 2017, n. 147"
+   },
+   {
+    "data": "2019-09-04",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 3 settembre 2019, n. 101"
+   },
+   {
+    "data": "2020-03-17",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 17 marzo 2020, n. 18"
+   },
+   {
+    "data": "2020-04-29",
+    "evento": "rp9",
+    "atto_modificante": "L. 24 aprile 2020, n. 27"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2021-12-31",
+    "evento": "rp11",
+    "atto_modificante": "L. 30 dicembre 2021, n. 234"
+   },
+   {
+    "data": "2023-06-30",
+    "evento": "rp12",
+    "atto_modificante": "L. 13 giugno 2023, n. 83"
+   },
+   {
+    "data": "2024-05-22",
+    "evento": "rp13",
+    "atto_modificante": "atto modificante non indicato (rp13)"
+   },
+   {
+    "data": "2024-12-31",
+    "evento": "rp14",
+    "atto_modificante": "L. 30 dicembre 2024, n. 207"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp15",
+    "atto_modificante": "L. 30 dicembre 2025, n. 199"
+   }
+  ],
+  "ultima_versione": "2025-12-30",
+  "datazione": {
+   "monoblocco": 19,
+   "api": 19,
+   "ignota": 0,
+   "stima_anteriore": 12,
+   "stima_uguale": 2,
+   "chiamate": 19,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Nuova prestazione di Assicurazione Sociale per l'Impiego - NASpI",
+   "vigore_da": "2015-03-07",
+   "datazione": "api",
+   "h": "6dcc289c380a"
+  },
+  "2": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Destinatari",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "9b2954b61d02"
+  },
+  "3": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Requisiti",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "05c104281e2f"
+  },
+  "4": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Calcolo e misura",
+   "vigore_da": "2023-07-01",
+   "datazione": "api",
+   "h": "df824a2b71b9"
+  },
+  "5": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Durata",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "91ec8fc7b56e"
+  },
+  "6": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Domanda e decorrenza della prestazione",
+   "vigore_da": "2020-04-30",
+   "datazione": "api",
+   "h": "2f2b0a7cd7e5"
+  },
+  "7": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Condizionalita'",
+   "vigore_da": "2015-03-07",
+   "datazione": "api",
+   "h": "aeb98adb8c8d"
+  },
+  "8": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Incentivo all'autoimprenditorialita'",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "3e32d746252c"
+  },
+  "9": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Compatibilita' con il rapporto di lavoro subordinato",
+   "vigore_da": "2020-03-17",
+   "datazione": "api",
+   "h": "2961e1c3fff9"
+  },
+  "10": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Compatibilita' con lo svolgimento di attivita' lavorativa in forma autonoma o di impresa individuale",
+   "vigore_da": "2020-03-17",
+   "datazione": "api",
+   "h": "dd0e36f35e79"
+  },
+  "11": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Decadenza",
+   "vigore_da": "2015-03-07",
+   "datazione": "api",
+   "h": "ba244c0dda04"
+  },
+  "12": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Contribuzione figurativa",
+   "vigore_da": "2015-03-07",
+   "datazione": "api",
+   "h": "9c6df69e4cc5"
+  },
+  "13": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "",
+   "vigore_da": "2015-03-07",
+   "datazione": "api",
+   "h": "4c7c68a2d683"
+  },
+  "14": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Rinvio",
+   "vigore_da": "2015-03-07",
+   "datazione": "api",
+   "h": "282e288e2a5c"
+  },
+  "15": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Indennita' di disoccupazione per i lavoratori con rapporto di collaborazione coordinata e continuativa - DIS-COLL",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "23b9b6e39eb8"
+  },
+  "16": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "ca54a10097ac"
+  },
+  "17": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Contratto di ricollocazione",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "9d3fcbba314d"
+  },
+  "18": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "2015-03-07",
+   "datazione": "api",
+   "h": "8092537e8709"
+  },
+  "19": {
+   "file": "dlgs-22-2015.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2015-03-07",
+   "datazione": "api",
+   "h": "8b036c8cf316"
+  }
+ }
+}

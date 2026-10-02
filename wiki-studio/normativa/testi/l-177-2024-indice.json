@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "l-177-2024",
   "nome": "Interventi in materia di sicurezza stradale e delega per la revisione del codice della strada (L. 177/2024)",
-  "snapshot": "2026-09-25",
+  "snapshot": "2026-10-02",
   "formato": 2,
-  "consolidato_normattiva": "2026-09-25",
+  "consolidato_normattiva": "2026-10-02",
   "articoli": 36,
   "file": [
    "l-177-2024.md"
@@ -17,15 +17,20 @@
     "data": "2024-11-29",
     "evento": "ro1",
     "atto_modificante": null
+   },
+   {
+    "data": "2026-10-01",
+    "evento": "rp1",
+    "atto_modificante": "L. 23 settembre 2026, n. 171"
    }
   ],
-  "ultima_versione": "2024-11-29",
+  "ultima_versione": "2026-10-01",
   "datazione": {
    "monoblocco": 36,
-   "api": 36,
+   "api": 1,
+   "riportati": 35,
    "ignota": 0,
-   "stima_anteriore": 35,
-   "chiamate": 36,
+   "chiamate": 1,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -271,9 +276,9 @@
   "35": {
    "file": "l-177-2024.md",
    "rubrica": "Delega al Governo per la revisione e il riordino della disciplina concernente la motorizzazione e la circolazione stradale",
-   "vigore_da": "2024-12-14",
+   "vigore_da": "2026-10-02",
    "datazione": "api",
-   "h": "bea9c2de29d5"
+   "h": "ef74d4582070"
   },
   "36": {
    "file": "l-177-2024.md",

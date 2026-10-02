@@ -1,0 +1,246 @@
+{
+ "_meta": {
+  "codice": "l-81-2017",
+  "nome": "Lavoro autonomo non imprenditoriale e lavoro agile (L. 81/2017)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-01-01",
+  "articoli": 26,
+  "file": [
+   "l-81-2017.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2017-05-22;81",
+  "versioni": [
+   {
+    "data": "2017-06-13",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp1",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2022-06-21",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 21 giugno 2022, n. 73"
+   },
+   {
+    "data": "2022-07-29",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 30 giugno 2022, n. 105"
+   },
+   {
+    "data": "2022-08-19",
+    "evento": "rp4",
+    "atto_modificante": "L. 4 agosto 2022, n. 122"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp5",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   },
+   {
+    "data": "2025-12-10",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 27 novembre 2025, n. 184"
+   }
+  ],
+  "ultima_versione": "2025-12-10",
+  "datazione": {
+   "monoblocco": 26,
+   "api": 26,
+   "ignota": 0,
+   "stima_anteriore": 22,
+   "chiamate": 26,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-81-2017.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "8d9376776810"
+  },
+  "2": {
+   "file": "l-81-2017.md",
+   "rubrica": "Tutela del lavoratore autonomo nelle transazioni commerciali",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "e76d8c1b1e32"
+  },
+  "3": {
+   "file": "l-81-2017.md",
+   "rubrica": "Clausole e condotte abusive",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "d8e6bb0fec46"
+  },
+  "4": {
+   "file": "l-81-2017.md",
+   "rubrica": "Apporti originali e invenzioni del lavoratore",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "c427bf2e4522"
+  },
+  "5": {
+   "file": "l-81-2017.md",
+   "rubrica": "Delega al Governo in materia di atti pubblici rimessi alle professioni organizzate in ordini o collegi",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "b8de4cab6345"
+  },
+  "6": {
+   "file": "l-81-2017.md",
+   "rubrica": "",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "bcaaa8037cec"
+  },
+  "7": {
+   "file": "l-81-2017.md",
+   "rubrica": "Stabilizzazione ed estensione dell'indennita' di disoccupazione per i lavoratori con rapporto di collaborazione coordinata e continuativa - DIS-COLL",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "baf5d78b9bf6"
+  },
+  "8": {
+   "file": "l-81-2017.md",
+   "rubrica": "Disposizioni fiscali e sociali",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "85d7f3dbc3dd"
+  },
+  "9": {
+   "file": "l-81-2017.md",
+   "rubrica": "",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "0b23cdee0c09"
+  },
+  "10": {
+   "file": "l-81-2017.md",
+   "rubrica": "Accesso alle informazioni sul mercato e servizi personalizzati di orientamento, riqualificazione e ricollocazione",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "b563c390dc2e"
+  },
+  "11": {
+   "file": "l-81-2017.md",
+   "rubrica": "Delega al Governo in materia di semplificazione della normativa sulla salute e sicurezza degli studi professionali",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "5bcf5d72363a"
+  },
+  "12": {
+   "file": "l-81-2017.md",
+   "rubrica": "Informazioni e accesso agli appalti pubblici e ai bandi per l'assegnazione di incarichi e appalti privati",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "aac34817ddff"
+  },
+  "13": {
+   "file": "l-81-2017.md",
+   "rubrica": "Indennita' di maternita'",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "f19701af9971"
+  },
+  "14": {
+   "file": "l-81-2017.md",
+   "rubrica": "Tutela della gravidanza, malattia e infortunio",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "5ec58ef631d6"
+  },
+  "15": {
+   "file": "l-81-2017.md",
+   "rubrica": "Modifiche al codice di procedura civile",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "e1fefd307fa3"
+  },
+  "16": {
+   "file": "l-81-2017.md",
+   "rubrica": "Procedura di adozione dei decreti legislativi di cui agli articoli 5, 6 e 11",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "6a586f5dff62"
+  },
+  "17": {
+   "file": "l-81-2017.md",
+   "rubrica": "Tavolo tecnico di confronto permanente sul lavoro autonomo",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "1da54a7b864c"
+  },
+  "18": {
+   "file": "l-81-2017.md",
+   "rubrica": "Lavoro agile",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "4b216ece77ef"
+  },
+  "19": {
+   "file": "l-81-2017.md",
+   "rubrica": "Forma e recesso",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "98ada04a4a2a"
+  },
+  "20": {
+   "file": "l-81-2017.md",
+   "rubrica": "Trattamento, diritto all'apprendimento continuo e certificazione delle competenze del lavoratore",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "559936abae69"
+  },
+  "21": {
+   "file": "l-81-2017.md",
+   "rubrica": "Potere di controllo e disciplinare",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "4f50c9e5f17f"
+  },
+  "22": {
+   "file": "l-81-2017.md",
+   "rubrica": "Sicurezza sul lavoro",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "86bf73d390f8"
+  },
+  "23": {
+   "file": "l-81-2017.md",
+   "rubrica": "Obblighi di comunicazione e assicurazione obbligatoria per gli infortuni sul lavoro e le malattie professionali",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "e02a06e32c81"
+  },
+  "24": {
+   "file": "l-81-2017.md",
+   "rubrica": "Aliquote contributive applicate agli assistenti domiciliari all'infanzia, qualificati o accreditati presso la provincia autonoma di Bolzano",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "bb8e6b0a78fc"
+  },
+  "25": {
+   "file": "l-81-2017.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "237b4d2bd99e"
+  },
+  "26": {
+   "file": "l-81-2017.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "84cb7f8203a3"
+  }
+ }
+}

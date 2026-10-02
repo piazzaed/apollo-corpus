@@ -1,0 +1,307 @@
+{
+ "_meta": {
+  "codice": "dlgs-136-2016",
+  "nome": "Distacco transnazionale di lavoratori (D.Lgs. 136/2016)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2023-03-21",
+  "articoli": 36,
+  "file": [
+   "dlgs-136-2016.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2016-07-17;136",
+  "versioni": [
+   {
+    "data": "2016-07-21",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2017-04-24",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 24 aprile 2017, n. 50"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp2",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2020-09-15",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 15 settembre 2020, n. 122"
+   },
+   {
+    "data": "2023-03-20",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 23 febbraio 2023, n. 27"
+   }
+  ],
+  "ultima_versione": "2023-03-20",
+  "datazione": {
+   "monoblocco": 36,
+   "api": 35,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 20,
+   "chiamate": 36,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Campo d'applicazione",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "fb94bf8bdca6"
+  },
+  "2": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2020-09-30",
+   "datazione": "api",
+   "h": "d1f9cd5e8782"
+  },
+  "3": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Autenticita' del distacco",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "2cb7c6598508"
+  },
+  "4": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Condizioni di lavoro e di occupazione",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "0dc014d00449"
+  },
+  "4-bis": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Distacco di lunga durata",
+   "vigore_da": "2020-09-30",
+   "datazione": "api",
+   "h": "ce6fd04d0e9f"
+  },
+  "5": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Difesa dei diritti",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "d8be6348d22c"
+  },
+  "6": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Osservatorio",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "26337b3c7df6"
+  },
+  "7": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Accesso alle informazioni",
+   "vigore_da": "2020-09-30",
+   "datazione": "api",
+   "h": "bda5426a836a"
+  },
+  "8": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Cooperazione amministrativa",
+   "vigore_da": "2020-09-30",
+   "datazione": "api",
+   "h": "7cd160acdb2e"
+  },
+  "9": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Misure di accompagnamento",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "77260681d277"
+  },
+  "10": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Obblighi amministrativi",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "c5c9e189df0d"
+  },
+  "10-bis": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Obblighi informativi",
+   "vigore_da": "2020-09-30",
+   "datazione": "api",
+   "h": "cf176160a6b9"
+  },
+  "11": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Ispezioni",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "b7b1aa114fd4"
+  },
+  "12": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "9767d2c34f8d"
+  },
+  "12-bis": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "dcabd8ee1654"
+  },
+  "12-ter": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "98d3b1dc2ac8"
+  },
+  "12-quater": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Regime delle esenzioni",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "fd83f9c34cc0"
+  },
+  "12-quinquies": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Disposizioni di rinvio e di coordinamento normativo",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "f3b1565aac3e"
+  },
+  "12-sexies": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Obblighi amministrativi a carico del trasportatore e del conducente",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "e11305c4196b"
+  },
+  "12-septies": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "d4790de90272"
+  },
+  "12-octies": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Applicazione delle sanzioni amministrative pecuniarie e accessorie",
+   "vigore_da": "2023-03-21",
+   "datazione": "api",
+   "h": "8017225cc1a7"
+  },
+  "13": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "222b15da578b"
+  },
+  "14": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Competenza",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "5578e7afa5e8"
+  },
+  "15": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Condizioni per la trasmissione",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "f1c3d0d23c19"
+  },
+  "16": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Trasmissione ad altri Stati",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "b9437d1997f4"
+  },
+  "17": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Effetti del riconoscimento",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "9a140845723f"
+  },
+  "18": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Richiesta di notifica di un provvedimento o di una decisione",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "e7f228d2c0f9"
+  },
+  "19": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Richiesta di recupero della sanzione",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "492d2d0c689f"
+  },
+  "20": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Motivi di rigetto",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "cb6fa0bb306c"
+  },
+  "21": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Procedimento e decisione di riconoscimento",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "9809225c8510"
+  },
+  "22": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Sospensione del procedimento",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "ee3268779ea7"
+  },
+  "23": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Effetti del riconoscimento",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "906b42d17b26"
+  },
+  "24": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Somme recuperate",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "2241e9872c94"
+  },
+  "25": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Clausola di invarianza finanziaria",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "cb9c39ae9ec2"
+  },
+  "26": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "ef9fd8a7f52d"
+  },
+  "27": {
+   "file": "dlgs-136-2016.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2016-07-22",
+   "datazione": "api",
+   "h": "8b036c8cf316"
+  }
+ }
+}

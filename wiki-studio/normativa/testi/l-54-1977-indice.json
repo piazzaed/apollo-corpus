@@ -1,0 +1,62 @@
+{
+ "_meta": {
+  "codice": "l-54-1977",
+  "nome": "Giorni festivi ed ex festività (L. 54/1977)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-10-02",
+  "articoli": 4,
+  "file": [
+   "l-54-1977.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1977-03-05;54",
+  "versioni": [
+   {
+    "data": "1977-03-07",
+    "evento": "ro1",
+    "atto_modificante": null
+   }
+  ],
+  "ultima_versione": "1977-03-07",
+  "datazione": {
+   "monoblocco": 4,
+   "api": 4,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "chiamate": 4,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-54-1977.md",
+   "rubrica": "",
+   "vigore_da": "1977-03-08",
+   "datazione": "api",
+   "h": "a88c384bf31e"
+  },
+  "2": {
+   "file": "l-54-1977.md",
+   "rubrica": "",
+   "vigore_da": "1977-03-08",
+   "datazione": "api",
+   "h": "30dc8777652f"
+  },
+  "3": {
+   "file": "l-54-1977.md",
+   "rubrica": "",
+   "vigore_da": "1977-03-08",
+   "datazione": "api",
+   "h": "03e8ea94e619"
+  },
+  "4": {
+   "file": "l-54-1977.md",
+   "rubrica": "",
+   "vigore_da": "1977-03-08",
+   "datazione": "api",
+   "h": "51be324ec0e6"
+  }
+ }
+}

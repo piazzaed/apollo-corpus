@@ -1,0 +1,571 @@
+{
+ "_meta": {
+  "codice": "dlgs-252-2005",
+  "nome": "Forme pensionistiche complementari (D.Lgs. 252/2005)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-28",
+  "articoli": 54,
+  "file": [
+   "dlgs-252-2005.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2005-12-05;252",
+  "versioni": [
+   {
+    "data": "2005-12-13",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2006-01-30",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "2006-11-14",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 13 novembre 2006, n. 279"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp3",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2007-03-24",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 6 febbraio 2007, n. 28"
+   },
+   {
+    "data": "2007-12-28",
+    "evento": "rp5",
+    "atto_modificante": "L. 24 dicembre 2007, n. 244"
+   },
+   {
+    "data": "2007-12-29",
+    "evento": "rp6",
+    "atto_modificante": "L. 24 dicembre 2007, n. 247"
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2011-08-13",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 13 agosto 2011, n. 138"
+   },
+   {
+    "data": "2012-08-08",
+    "evento": "rp9",
+    "atto_modificante": "D.Lgs. 30 luglio 2012, n. 130"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   },
+   {
+    "data": "2014-03-25",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 4 marzo 2014, n. 44"
+   },
+   {
+    "data": "2014-04-24",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 24 aprile 2014, n. 66"
+   },
+   {
+    "data": "2014-12-29",
+    "evento": "rp13",
+    "atto_modificante": "L. 23 dicembre 2014, n. 190"
+   },
+   {
+    "data": "2015-05-21",
+    "evento": "rp14",
+    "atto_modificante": "D.Lgs. 7 maggio 2015, n. 66"
+   },
+   {
+    "data": "2015-07-22",
+    "evento": "rp15",
+    "atto_modificante": "atto modificante non indicato (rp15)"
+   },
+   {
+    "data": "2016-12-21",
+    "evento": "rp16",
+    "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   },
+   {
+    "data": "2016-12-30",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 30 dicembre 2016, n. 244"
+   },
+   {
+    "data": "2017-04-24",
+    "evento": "rp18",
+    "atto_modificante": "D.L. 24 aprile 2017, n. 50"
+   },
+   {
+    "data": "2017-08-14",
+    "evento": "rp19",
+    "atto_modificante": "L. 4 agosto 2017, n. 124"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp20",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-07-13",
+    "evento": "rp21",
+    "atto_modificante": "D.Lgs. 21 giugno 2018, n. 88"
+   },
+   {
+    "data": "2019-01-17",
+    "evento": "rp22",
+    "atto_modificante": "D.Lgs. 13 dicembre 2018, n. 147"
+   },
+   {
+    "data": "2019-06-10",
+    "evento": "rp23",
+    "atto_modificante": "D.Lgs. 10 maggio 2019, n. 49"
+   },
+   {
+    "data": "2019-10-09",
+    "evento": "rp24",
+    "atto_modificante": "atto modificante non indicato (rp24)"
+   },
+   {
+    "data": "2025-03-11",
+    "evento": "rp25",
+    "atto_modificante": "D.Lgs. 10 marzo 2025, n. 23"
+   },
+   {
+    "data": "2025-08-12",
+    "evento": "rp26",
+    "atto_modificante": "D.Lgs. 1 agosto 2025, n. 123"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp27",
+    "atto_modificante": "L. 30 dicembre 2025, n. 199"
+   },
+   {
+    "data": "2026-02-19",
+    "evento": "rp28",
+    "atto_modificante": "D.L. 19 febbraio 2026, n. 19"
+   },
+   {
+    "data": "2026-04-20",
+    "evento": "rp29",
+    "atto_modificante": "L. 20 aprile 2026, n. 50"
+   },
+   {
+    "data": "2026-04-30",
+    "evento": "rp30",
+    "atto_modificante": "D.L. 30 aprile 2026, n. 62"
+   },
+   {
+    "data": "2026-06-27",
+    "evento": "rp31",
+    "atto_modificante": "L. 25 giugno 2026, n. 112"
+   }
+  ],
+  "ultima_versione": "2026-06-27",
+  "datazione": {
+   "monoblocco": 54,
+   "api": 54,
+   "ignota": 0,
+   "stima_anteriore": 8,
+   "chiamate": 54,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Ambito di applicazione e definizioni",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "6c738efc388d"
+  },
+  "2": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Destinatari",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "6f38a8633d96"
+  },
+  "3": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Istituzione delle forme pensionistiche complementari",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "cbd916afe9ac"
+  },
+  "4": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Costituzione dei fondi pensione ed autorizzazione all'esercizio",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "08bb871f8216"
+  },
+  "4-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Requisiti generali in materia di sistema di governo",
+   "vigore_da": "2025-03-12",
+   "datazione": "api",
+   "h": "7321fa844256"
+  },
+  "5": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Organi di amministrazione e di controllo, direttore generale, responsabile e organismo di rappresentanza",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "ec63fe530252"
+  },
+  "5-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Funzioni fondamentali",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "7b75ea72ec00"
+  },
+  "5-ter": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Gestione dei rischi",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "b5e425004270"
+  },
+  "5-quater": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Funzione di revisione interna",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "6a2f730e49b2"
+  },
+  "5-quinquies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Funzione attuariale",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "cf2811f64c68"
+  },
+  "5-sexies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Requisiti di professionalita' e onorabilita', cause di ineleggibilita' e di incompatibilita' e situazioni impeditive",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "89a42e74d1b9"
+  },
+  "5-septies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Esternalizzazione",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "d218433f3dea"
+  },
+  "5-octies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Politica di remunerazione",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "be220a5ea201"
+  },
+  "5-novies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Valutazione interna del rischio",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "e6c14dc4ebba"
+  },
+  "5-decies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Sistema di governo dei fondi pensione costituiti ai sensi dell'articolo 3, comma 1, lettera h",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "9a8ed85146ba"
+  },
+  "6": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Regime delle prestazioni e modelli gestionali",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "68f6e398cb93"
+  },
+  "6-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Trasparenza degli investitori istituzionali",
+   "vigore_da": "2019-06-10",
+   "datazione": "api",
+   "h": "3699352ac5da"
+  },
+  "7": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Depositario",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "93da96bd4d2c"
+  },
+  "7-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Mezzi patrimoniali",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "b55f019cd8ec"
+  },
+  "8": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Finanziamento",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "0bbadc40b882"
+  },
+  "9": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Istituzione e disciplina della forma pensionistica complementare residuale presso l'INPS",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "b18c1bd64330"
+  },
+  "10": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Misure compensative per le imprese",
+   "vigore_da": "2007-01-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "0215722a33b8"
+  },
+  "11": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Prestazioni",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "530606cf3eb2"
+  },
+  "12": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Fondi pensione aperti",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "320e750c6f6f"
+  },
+  "13": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Forme pensionistiche individuali",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "5e0bfd6bc53a"
+  },
+  "13-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Informazioni generali sulla forma pensionistica complementare",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "e985ed4da842"
+  },
+  "13-ter": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Informazioni ai potenziali aderenti",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "a4747d790c6a"
+  },
+  "13-quater": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Informazioni periodiche agli aderenti",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "d7fea6203b9f"
+  },
+  "13-quinquies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Informazioni agli aderenti durante la fase di prepensionamento",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "aff730a0f1e2"
+  },
+  "13-sexies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Informazioni ai beneficiari durante la fase di erogazione delle rendite",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "537225e54997"
+  },
+  "13-septies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Principi in tema di informative ai potenziali aderenti, aderenti e beneficiari",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "9fbaa34fc3ae"
+  },
+  "14": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Permanenza nella forma pensionistica complementare e cessazione dei requisiti di partecipazione e portabilita'",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "a698b3929e51"
+  },
+  "14-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Trasferimento transfrontaliero a un fondo di un altro Stato membro",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "56a920793ab4"
+  },
+  "14-ter": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Trasferimento transfrontaliero da un fondo di un altro Stato membro",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "1950d1d3603e"
+  },
+  "15": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Vicende del fondo pensione",
+   "vigore_da": "2007-01-01",
+   "datazione": "api",
+   "h": "783b08632a50"
+  },
+  "15-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Operativita' all'estero delle forme pensionistiche complementari italiane",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "aa0550e736ed"
+  },
+  "15-ter": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Operativita' in Italia delle forme pensionistiche complementari comunitarie",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "f5ef32bbbbc0"
+  },
+  "15-quater": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Segreto d'ufficio e collaborazione tra autorita'",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "7ec539d7cea0"
+  },
+  "15-quinquies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Forme pensionistiche complementari con meno di cento aderenti",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "fd00d60c7f34"
+  },
+  "16": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Contributo di solidarieta'",
+   "vigore_da": "2007-01-01",
+   "datazione": "api",
+   "h": "d7ef229b2a23"
+  },
+  "17": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Regime tributario delle forme pensionistiche complementari",
+   "vigore_da": "2017-01-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "57495b25c7e9"
+  },
+  "17-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Bilanci e rendiconti",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "71453b4c73a7"
+  },
+  "18": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Vigilanza sulle forme pensionistiche complementari",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "0ad3b563c1d7"
+  },
+  "18-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Rapporti con il diritto dell'Unione europea e integrazione nel SEVIF",
+   "vigore_da": "2012-08-23",
+   "datazione": "api",
+   "h": "45c4ce30758e"
+  },
+  "19": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Compiti della COVIP",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "8fe3c8b171c2"
+  },
+  "19-bis": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Abusiva attivita' di forma pensionistica",
+   "vigore_da": "2007-03-25",
+   "datazione": "api",
+   "h": "997d7c46d4ec"
+  },
+  "19-ter": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "False informazioni",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "3da6ec808f97"
+  },
+  "19-quater": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Sanzioni amministrative",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "4d5cf4a1557c"
+  },
+  "19-quinquies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Procedura sanzionatoria",
+   "vigore_da": "2019-02-01",
+   "datazione": "api",
+   "h": "ec37eecce438"
+  },
+  "19-sexies": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Risoluzione stragiudiziale delle controversie",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "ea03e5f6c938"
+  },
+  "20": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Forme pensionistiche complementari istituite alla data di entrata in vigore della legge 23 ottobre 1992, n. 421",
+   "vigore_da": "2012-08-23",
+   "datazione": "api",
+   "h": "38a3ebb06b27"
+  },
+  "21": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Abrogazioni e modifiche",
+   "vigore_da": "2007-01-01",
+   "datazione": "api",
+   "h": "0410e87adfc2"
+  },
+  "22": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2007-01-01",
+   "datazione": "api",
+   "h": "439d83e2259f"
+  },
+  "23": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Entrata in vigore e norme transitorie",
+   "vigore_da": "2019-10-10",
+   "datazione": "api",
+   "h": "213e6e5bbccf"
+  }
+ }
+}

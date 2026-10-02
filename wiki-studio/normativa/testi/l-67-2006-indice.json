@@ -1,0 +1,67 @@
+{
+ "_meta": {
+  "codice": "l-67-2006",
+  "nome": "Tutela giudiziaria delle persone con disabilità vittime di discriminazioni (L. 67/2006)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2011-10-06",
+  "articoli": 4,
+  "file": [
+   "l-67-2006.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2006-03-01;67",
+  "versioni": [
+   {
+    "data": "2006-03-06",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2011-09-21",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 1 settembre 2011, n. 150"
+   }
+  ],
+  "ultima_versione": "2011-09-21",
+  "datazione": {
+   "monoblocco": 4,
+   "api": 4,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "chiamate": 4,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-67-2006.md",
+   "rubrica": "Finalita' e ambito di applicazione",
+   "vigore_da": "2006-03-21",
+   "datazione": "api",
+   "h": "bfa6f4524959"
+  },
+  "2": {
+   "file": "l-67-2006.md",
+   "rubrica": "Nozione di discriminazione",
+   "vigore_da": "2006-03-21",
+   "datazione": "api",
+   "h": "d21961e1b368"
+  },
+  "3": {
+   "file": "l-67-2006.md",
+   "rubrica": "Tutela giurisdizionale",
+   "vigore_da": "2011-10-06",
+   "datazione": "api",
+   "h": "3e326fdd41e1"
+  },
+  "4": {
+   "file": "l-67-2006.md",
+   "rubrica": "Legittimazione ad agire",
+   "vigore_da": "2006-03-21",
+   "datazione": "api",
+   "h": "93adb871ec77"
+  }
+ }
+}

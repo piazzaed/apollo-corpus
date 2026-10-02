@@ -1,0 +1,158 @@
+{
+ "_meta": {
+  "codice": "dlgs-104-2022",
+  "nome": "Condizioni di lavoro trasparenti e prevedibili (D.Lgs. 104/2022)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-01-12",
+  "articoli": 17,
+  "file": [
+   "dlgs-104-2022.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2022-06-27;104",
+  "versioni": [
+   {
+    "data": "2022-07-29",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp1",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   }
+  ],
+  "ultima_versione": "2024-12-28",
+  "datazione": {
+   "monoblocco": 17,
+   "api": 17,
+   "ignota": 0,
+   "stima_anteriore": 16,
+   "chiamate": 17,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "b5f8570eaeb4"
+  },
+  "2": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "5082c1a50084"
+  },
+  "3": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Modalita' di comunicazione delle informazioni",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "210639d66f3e"
+  },
+  "4": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Modifiche al decreto legislativo 26 maggio 1997, n. 152",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "0603d6e226d3"
+  },
+  "5": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Ulteriori modifiche a disposizioni legislative",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "5a318256213a"
+  },
+  "6": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Disposizioni per il personale in regime di diritto pubblico",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "2e27e11bc1fb"
+  },
+  "7": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Durata massima del periodo di prova",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "702b6675c0d4"
+  },
+  "8": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Cumulo di impieghi",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "d21434c4eab2"
+  },
+  "9": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Prevedibilita' minima del lavoro",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "e1a88ab8ab65"
+  },
+  "10": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Transizione a forme di lavoro piu' prevedibili, sicure e stabili",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "57894fba343b"
+  },
+  "11": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Formazione obbligatoria",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "fe10b7a850af"
+  },
+  "12": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Meccanismi di risoluzione rapida e diritto di ricorso",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "a43060d28518"
+  },
+  "13": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Protezione da trattamento o conseguenze sfavorevoli",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "edf0fd384fc8"
+  },
+  "14": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Protezione contro il licenziamento o contro il recesso del committente e onere della prova",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "df85c22f2436"
+  },
+  "15": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Regime di tutela per il personale di cui all'art. 3 del decreto legislativo 30 marzo 2001, n.165",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "b08cb414f344"
+  },
+  "16": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Disposizioni transitorie",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "14db77572c55"
+  },
+  "17": {
+   "file": "dlgs-104-2022.md",
+   "rubrica": "Clausola di invarianza finanziaria",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "9d84d5046397"
+  }
+ }
+}

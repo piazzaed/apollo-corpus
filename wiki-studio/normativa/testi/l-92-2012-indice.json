@@ -1,0 +1,202 @@
+{
+ "_meta": {
+  "codice": "l-92-2012",
+  "nome": "Riforma del mercato del lavoro (L. 92/2012)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-04-07",
+  "articoli": 4,
+  "file": [
+   "l-92-2012.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2012-06-28;92",
+  "versioni": [
+   {
+    "data": "2012-06-26",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 22 giugno 2012, n. 83"
+   },
+   {
+    "data": "2012-07-03",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2012-07-14",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "2012-10-19",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 18 ottobre 2012, n. 179"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp4",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   },
+   {
+    "data": "2013-08-31",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 31 agosto 2013, n. 102"
+   },
+   {
+    "data": "2013-12-23",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 23 dicembre 2013, n. 145"
+   },
+   {
+    "data": "2013-12-27",
+    "evento": "rp8",
+    "atto_modificante": "L. 27 dicembre 2013, n. 147"
+   },
+   {
+    "data": "2014-03-20",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 20 marzo 2014, n. 34"
+   },
+   {
+    "data": "2015-03-06",
+    "evento": "rp10",
+    "atto_modificante": "D.Lgs. 4 marzo 2015, n. 22"
+   },
+   {
+    "data": "2015-06-24",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 15 giugno 2015, n. 81"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp12+rp13+rp14",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 148; D.Lgs. 14 settembre 2015, n. 150; D.Lgs. 14 settembre 2015, n. 151"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp15+rp16",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208; D.L. 30 dicembre 2015, n. 210"
+   },
+   {
+    "data": "2016-12-21",
+    "evento": "rp17",
+    "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp18",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-07-13",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 12 luglio 2018, n. 87"
+   },
+   {
+    "data": "2018-07-14",
+    "evento": "rp20",
+    "atto_modificante": "atto modificante non indicato (rp20)"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp21",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2019-01-28",
+    "evento": "rp22",
+    "atto_modificante": "D.L. 28 gennaio 2019, n. 4"
+   },
+   {
+    "data": "2019-12-30",
+    "evento": "rp23",
+    "atto_modificante": "L. 27 dicembre 2019, n. 160"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp24",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2020-12-30",
+    "evento": "rp25",
+    "atto_modificante": "L. 30 dicembre 2020, n. 178"
+   },
+   {
+    "data": "2021-07-07",
+    "evento": "rp26",
+    "atto_modificante": "atto modificante non indicato (rp26)"
+   },
+   {
+    "data": "2021-12-31",
+    "evento": "rp27",
+    "atto_modificante": "L. 30 dicembre 2021, n. 234"
+   },
+   {
+    "data": "2022-10-17",
+    "evento": "rp28",
+    "atto_modificante": "D.Lgs. 10 ottobre 2022, n. 149"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp29",
+    "atto_modificante": "D.L. 29 dicembre 2022, n. 198"
+   },
+   {
+    "data": "2023-02-27",
+    "evento": "rp30",
+    "atto_modificante": "L. 24 febbraio 2023, n. 14"
+   },
+   {
+    "data": "2026-03-23",
+    "evento": "rp31",
+    "atto_modificante": "L. 11 marzo 2026, n. 34"
+   }
+  ],
+  "ultima_versione": "2026-03-23",
+  "datazione": {
+   "monoblocco": 4,
+   "api": 4,
+   "ignota": 0,
+   "stima_anteriore": 2,
+   "chiamate": 4,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-92-2012.md",
+   "rubrica": "Disposizioni generali, tipologie contrattuali e disciplina in tema di flessibilita' in uscita e tutele del lavoratore",
+   "vigore_da": "2023-02-28",
+   "datazione": "api",
+   "h": "62e04efdebbb"
+  },
+  "2": {
+   "file": "l-92-2012.md",
+   "rubrica": "Ammortizzatori sociali",
+   "vigore_da": "2021-07-08",
+   "datazione": "api",
+   "h": "9a8fdb39a94d"
+  },
+  "3": {
+   "file": "l-92-2012.md",
+   "rubrica": "Tutele in costanza di rapporto di lavoro",
+   "vigore_da": "2016-01-01",
+   "datazione": "api",
+   "h": "ffc4146d3875"
+  },
+  "4": {
+   "file": "l-92-2012.md",
+   "rubrica": "Ulteriori disposizioni in materia di mercato del lavoro",
+   "vigore_da": "2026-04-07",
+   "datazione": "api",
+   "h": "da14286ab961"
+  }
+ }
+}

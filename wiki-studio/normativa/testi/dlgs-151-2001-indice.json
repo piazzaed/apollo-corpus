@@ -1,0 +1,985 @@
+{
+ "_meta": {
+  "codice": "dlgs-151-2001",
+  "nome": "Testo unico a tutela della maternità e della paternità (D.Lgs. 151/2001)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-01-01",
+  "articoli": 95,
+  "file": [
+   "dlgs-151-2001.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2001-03-26;151",
+  "versioni": [
+   {
+    "data": "1998-05-08",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 23 aprile 1998, n. 134"
+   },
+   {
+    "data": "2001-04-26",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2001-10-08",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "2001-12-19",
+    "evento": "rp3",
+    "atto_modificante": "atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "2003-04-09",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "2003-05-27",
+    "evento": "rp5",
+    "atto_modificante": "D.Lgs. 23 aprile 2003, n. 115"
+   },
+   {
+    "data": "2003-10-28",
+    "evento": "rp6",
+    "atto_modificante": "L. 15 ottobre 2003, n. 289"
+   },
+   {
+    "data": "2003-12-27",
+    "evento": "rp7",
+    "atto_modificante": "L. 24 dicembre 2003, n. 350"
+   },
+   {
+    "data": "2003-12-31",
+    "evento": "rp8",
+    "atto_modificante": "atto modificante non indicato (rp8)"
+   },
+   {
+    "data": "2005-06-22",
+    "evento": "rp9",
+    "atto_modificante": "atto modificante non indicato (rp9)"
+   },
+   {
+    "data": "2005-10-19",
+    "evento": "rp10",
+    "atto_modificante": "atto modificante non indicato (rp10)"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp11",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2007-05-16",
+    "evento": "rp12",
+    "atto_modificante": "atto modificante non indicato (rp12)"
+   },
+   {
+    "data": "2007-07-02",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 2 luglio 2007, n. 81"
+   },
+   {
+    "data": "2007-12-28",
+    "evento": "rp14",
+    "atto_modificante": "L. 24 dicembre 2007, n. 244"
+   },
+   {
+    "data": "2008-04-09",
+    "evento": "rp15",
+    "atto_modificante": "D.L. 8 aprile 2008, n. 59"
+   },
+   {
+    "data": "2009-02-04",
+    "evento": "rp16",
+    "atto_modificante": "atto modificante non indicato (rp16)"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp17",
+    "atto_modificante": "L. 23 dicembre 2009, n. 191"
+   },
+   {
+    "data": "2010-02-05",
+    "evento": "rp18",
+    "atto_modificante": "D.Lgs. 25 gennaio 2010, n. 5"
+   },
+   {
+    "data": "2010-05-08",
+    "evento": "rp19",
+    "atto_modificante": "D.Lgs. 15 marzo 2010, n. 66"
+   },
+   {
+    "data": "2010-11-09",
+    "evento": "rp20",
+    "atto_modificante": "L. 4 novembre 2010, n. 183"
+   },
+   {
+    "data": "2011-02-14",
+    "evento": "rp21",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri Dipartimento Della Funzione Pubblica 6 dicembre 2010, n. 13"
+   },
+   {
+    "data": "2011-04-13",
+    "evento": "rp22",
+    "atto_modificante": "atto modificante non indicato (rp22)"
+   },
+   {
+    "data": "2011-07-27",
+    "evento": "rp23",
+    "atto_modificante": "D.Lgs. 18 luglio 2011, n. 119"
+   },
+   {
+    "data": "2012-02-09",
+    "evento": "rp24",
+    "atto_modificante": "D.L. 9 febbraio 2012, n. 5"
+   },
+   {
+    "data": "2012-05-11",
+    "evento": "rp25",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri Dipartimento Della Funzione Pubblica 3 febbraio 2012, n. 1"
+   },
+   {
+    "data": "2012-07-03",
+    "evento": "rp26",
+    "atto_modificante": "L. 28 giugno 2012, n. 92"
+   },
+   {
+    "data": "2012-10-19",
+    "evento": "rp27",
+    "atto_modificante": "D.L. 18 ottobre 2012, n. 179"
+   },
+   {
+    "data": "2012-11-28",
+    "evento": "rp28",
+    "atto_modificante": "atto modificante non indicato (rp28)"
+   },
+   {
+    "data": "2012-12-11",
+    "evento": "rp29",
+    "atto_modificante": "D.L. 11 dicembre 2012, n. 216"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp30",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2013-06-21",
+    "evento": "rp31",
+    "atto_modificante": "D.L. 21 giugno 2013, n. 69"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp32",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   },
+   {
+    "data": "2013-07-24",
+    "evento": "rp33",
+    "atto_modificante": "atto modificante non indicato (rp33)"
+   },
+   {
+    "data": "2013-12-30",
+    "evento": "rp34",
+    "atto_modificante": "D.L. 30 dicembre 2013, n. 150"
+   },
+   {
+    "data": "2014-01-24",
+    "evento": "rp35",
+    "atto_modificante": "D.P.C.M. 5 dicembre 2013, n. 159"
+   },
+   {
+    "data": "2015-06-24",
+    "evento": "rp36",
+    "atto_modificante": "D.Lgs. 15 giugno 2015, n. 80"
+   },
+   {
+    "data": "2015-08-13",
+    "evento": "rp37",
+    "atto_modificante": "L. 7 agosto 2015, n. 124"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp38",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 148"
+   },
+   {
+    "data": "2015-10-28",
+    "evento": "rp39",
+    "atto_modificante": "atto modificante non indicato (rp39)"
+   },
+   {
+    "data": "2016-03-14",
+    "evento": "rp40",
+    "atto_modificante": "D.Lgs. 15 febbraio 2016, n. 39"
+   },
+   {
+    "data": "2016-09-13",
+    "evento": "rp41",
+    "atto_modificante": "D.Lgs. 26 agosto 2016, n. 179"
+   },
+   {
+    "data": "2017-06-13",
+    "evento": "rp42",
+    "atto_modificante": "L. 22 maggio 2017, n. 81"
+   },
+   {
+    "data": "2018-07-18",
+    "evento": "rp43",
+    "atto_modificante": "atto modificante non indicato (rp43)"
+   },
+   {
+    "data": "2018-12-12",
+    "evento": "rp44",
+    "atto_modificante": "atto modificante non indicato (rp44)"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp45",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2021-05-25",
+    "evento": "rp46",
+    "atto_modificante": "D.L. 25 maggio 2021, n. 73"
+   },
+   {
+    "data": "2022-01-17",
+    "evento": "rp47",
+    "atto_modificante": "L. 23 dicembre 2021, n. 238"
+   },
+   {
+    "data": "2022-03-09",
+    "evento": "rp48",
+    "atto_modificante": "atto modificante non indicato (rp48)"
+   },
+   {
+    "data": "2022-05-31",
+    "evento": "rp49",
+    "atto_modificante": "D.P.R. 20 aprile 2022, n. 57"
+   },
+   {
+    "data": "2022-07-29",
+    "evento": "rp50",
+    "atto_modificante": "D.Lgs. 30 giugno 2022, n. 105"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp51",
+    "atto_modificante": "L. 29 dicembre 2022, n. 197"
+   },
+   {
+    "data": "2023-12-30",
+    "evento": "rp52",
+    "atto_modificante": "L. 30 dicembre 2023, n. 213"
+   },
+   {
+    "data": "2024-06-05",
+    "evento": "rp53",
+    "atto_modificante": "atto modificante non indicato (rp53)"
+   },
+   {
+    "data": "2024-12-31",
+    "evento": "rp54",
+    "atto_modificante": "L. 30 dicembre 2024, n. 207"
+   },
+   {
+    "data": "2025-07-23",
+    "evento": "rp55",
+    "atto_modificante": "atto modificante non indicato (rp55)"
+   },
+   {
+    "data": "2025-12-24",
+    "evento": "rp56",
+    "atto_modificante": "atto modificante non indicato (rp56)"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp57",
+    "atto_modificante": "L. 30 dicembre 2025, n. 199"
+   }
+  ],
+  "ultima_versione": "2025-12-30",
+  "datazione": {
+   "monoblocco": 95,
+   "api": 93,
+   "ignota": 2,
+   "testo_diverso": 2,
+   "stima_anteriore": 58,
+   "chiamate": 95,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Oggetto; (legge 30 dicembre 1971, n. 1204, art. 1, comma 5; legge 8 marzo 2000, n. 53, art. 17, comma 3)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "cb31d63e776c"
+  },
+  "2": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Definizioni (legge 30 dicembre 1971, n. 1204, articoli 1, comma 1, e 13)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "887fc186cfdc"
+  },
+  "3": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Divieto di discriminazione",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "c7d50ae48355"
+  },
+  "4": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Sostituzione di lavoratrici e lavoratori in congedo (legge 30 dicembre 1971, n. 1204, art. 11; legge 8 marzo 2000, n. 53, art. 10)",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "2836992d6045"
+  },
+  "5": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Anticipazione del trattamento di fine rapporto (legge 8 marzo 2000, n. 53, art. 7)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "975c9abf1d12"
+  },
+  "6": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Tutela della sicurezza e della salute (decreto legislativo 25 novembre 1996, n. 645, art. 1; legge 30 dicembre 1971, n. 1204, art. 9)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "03657c63b9e0"
+  },
+  "7": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavori vietati (legge 30 dicembre 1971, n. 1204, articoli 3, 30, comma 8, e 31, comma 1; decreto legislativo 25 novembre 1996, n. 645, art. 3; legge 8 marzo 2000, n. 53, art. 12, comma 3)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "b2abd854891b"
+  },
+  "8": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Esposizione a radiazioni ionizzanti (decreto legislativo 17 marzo 1995, n. 230, art. 69)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "73a8b125ec2b"
+  },
+  "9": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Polizia di Stato, penitenziaria e municipale (legge 7 agosto 1990, n. 232, art. 13; legge 8 marzo 2000, n. 53, art. 14)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "ccb17b0db71a"
+  },
+  "10": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "11": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Valutazione dei rischi (decreto legislativo 25 novembre 1996, n. 645, art. 4)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "5b10da4392b4"
+  },
+  "12": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Conseguenze della valutazione (decreto legislativo 25 novembre 1996, n. 645, art. 5)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "9ec5336f4969"
+  },
+  "13": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Adeguamento alla disciplina comunitaria (decreto legislativo 25 novembre 1996, n. 645, articoli 2 e 8)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "d7a10993bd6e"
+  },
+  "14": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Controlli prenatali (decreto legislativo 25 novembre 1996, n. 645, art. 7)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "541478d891a6"
+  },
+  "15": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Disposizioni applicabili (decreto legislativo 25 novembre 1996, n. 645, art. 9)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "18c21831bfde"
+  },
+  "16": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Divieto di adibire al lavoro le donne (legge 30 dicembre 1971, n. 1204, art. 4, comma 1 e 4)",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "76cdcecfc06f"
+  },
+  "16-bis": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Rinvio e sospensione del congedo di maternita'",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "6c2a2d16da6f"
+  },
+  "17": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Estensione del divieto (legge 30 dicembre 1971, n. 1204, articoli 4, commi 2 e 3, 5, e 30, commi 6, 7, 9 e 10)",
+   "vigore_da": "2012-02-10",
+   "datazione": "api",
+   "h": "4d9ba403b669"
+  },
+  "18": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Sanzioni (legge 30 dicembre 1971, n. 1204, art. 31, comma 1)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "58651de83b42"
+  },
+  "19": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Interruzione della gravidanza (legge 30 dicembre 1971, n. 1204, art. 20)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "5cbbc102d3ec"
+  },
+  "20": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Flessibilita' del congedo di maternita' (legge 30 dicembre 1971, n. 1204, art. 4-bis; legge 8 marzo 2000,n. 53, art. 12, comma 2)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "f47d2ed75bb6"
+  },
+  "21": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Documentazione (legge 30 dicembre 1971, n. 1204, articoli 4, comma 5, e 28)",
+   "vigore_da": "2016-09-14",
+   "datazione": "api",
+   "h": "800706df23f5"
+  },
+  "22": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento economico e normativo (legge 30 dicembre 1971, n. 1204, articoli 6, 8 e 15, commi 1 e 5; legge 9 dicembre 1977, n. 903, art. 3, comma 2; decreto-legge 20 maggio 1993, n. 148, convertito dalla legge 19 luglio 1993, n. 236, art. 6, commi 4 e 5)",
+   "vigore_da": "2003-05-28",
+   "datazione": "api",
+   "h": "d4b2573d16c2"
+  },
+  "23": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Calcolo dell'indennita' (legge 30 dicembre 1971, n. 1204, art. 16)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "6d78eb74d3cd"
+  },
+  "24": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Prolungamento del diritto alla corresponsione del trattamento economico (legge 30 dicembre 1971, n. 1204, art. 17; decreto-legge 20 maggio 1993, n. 148, convertito dalla legge 19 luglio 1993, n. 236, art. 6, comma 3)",
+   "vigore_da": "2018-07-19",
+   "datazione": "api",
+   "h": "961ecf76e3f4"
+  },
+  "25": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento previdenziale (decreto legislativo 16 settembre 1996, n. 564, art. 2, commi 1, 4, 6)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "f2f86700ca93"
+  },
+  "26": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Adozioni e affidamenti",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "dfffa5701c06"
+  },
+  "27": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "",
+   "vigore_da": "2008-01-01",
+   "datazione": "api",
+   "h": "4dd6a177aee0"
+  },
+  "27-bis": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Congedo di paternita' obbligatorio legge 28 giugno 2012, n. 92, art. 4, comma 24, lett. a; legge 11 dicembre 2016, n. 232, art. 1, comma 354; legge 30 dicembre 2020, n. 178, art. 1, commi 25 e 363",
+   "vigore_da": "2025-07-24",
+   "datazione": "api",
+   "h": "1576e3ae82c0"
+  },
+  "28": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Congedo di paternita' alternativo",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "5bdfff677619"
+  },
+  "29": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento economico e normativo legge 9 dicembre 1977, n. 903, art. 6-bis, comma 3",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "8d35f7ac646b"
+  },
+  "30": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento previdenziale",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "e2e446c7064b"
+  },
+  "31": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Adozioni e affidamenti",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "7a93c8c760b1"
+  },
+  "31-bis": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "f3ce05ab912b"
+  },
+  "32": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Congedo parentale (legge 30 dicembre 1971, n. 1204, articoli 1, comma 4, e 7, commi 1, 2 e 3)",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "a1f72c22f1f6"
+  },
+  "33": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Prolungamento del congedo (legge 5 febbraio 1992, n. 104, art. 33, commi 1 e 2; legge 8 marzo 2000, n. 53, art. 20)",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "4b11e21c467a"
+  },
+  "34": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento economico e normativo (legge 30 dicembre 1971, n. 1204, articoli 15, commi 2 e 4, e 7, comma 5)",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "deb321bb3b6b"
+  },
+  "35": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento previdenziale legge 30 dicembre 1971, n. 1204, art. 15, comma 2, lettere a e b ; decreto legislativo 16 settembre 1996, n. 564, articoli 2, commi 2, 3 e 5",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "f6e16f8b7199"
+  },
+  "36": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Adozioni e affidamenti",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "0318762fb03f"
+  },
+  "37": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "",
+   "vigore_da": "2008-01-01",
+   "datazione": "api",
+   "h": "4dd6a177aee0"
+  },
+  "38": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Sanzioni (legge 30 dicembre 1971, n. 1204, art. 31, comma 3)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "5d54f693db00"
+  },
+  "39": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Riposi giornalieri della madre (legge 30 dicembre 1971, n. 1204, art. 10)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "459fd15b75f8"
+  },
+  "40": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Riposi giornalieri del padre (legge 9 dicembre 1977, n. 903, art. 6-ter)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "48c50579abc1"
+  },
+  "41": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Riposi per parti plurimi (legge 30 dicembre 1971, n. 1204, art. 10, comma 6)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "6cdbb3bfa1c4"
+  },
+  "42": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Riposi e permessi per i figli con handicap grave (legge 8 marzo 2000, n. 53, articoli 4, comma 4-bis, e 20)",
+   "vigore_da": "2025-12-25",
+   "datazione": "api",
+   "h": "76015c29b3f0"
+  },
+  "42-bis": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Assegnazione temporanea dei lavoratori dipendenti alle amministrazioni pubbliche",
+   "vigore_da": "2024-06-06",
+   "datazione": "api",
+   "h": "a896013ea5b4"
+  },
+  "43": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento economico e normativo (legge 9 dicembre 1977, n. 903, art. 8; legge 5 febbraio 1992, n. 104, art. 33, comma 4; decreto-legge 27 agosto 1993, n. 324, convertito dalla legge 27 ottobre 1993, n. 423, art. 2, comma 3-ter)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "095858d2ec61"
+  },
+  "44": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento previdenziale (legge 30 dicembre 1971, n. 1204, art. 10, comma 5; legge 5 febbraio 1992, n. 104, art. 33, comma 4)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "6e042fed1aa7"
+  },
+  "45": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Adozioni e affidamenti (legge 8 marzo 2000, n. 53, art. 3, comma 5; legge 5 febbraio 1992, n. 104, art. 33, comma 7)",
+   "vigore_da": "2011-08-11",
+   "datazione": "api",
+   "h": "aa01fdc8093f"
+  },
+  "46": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Sanzioni legge 30 dicembre 1971, n. 1204, art. 31, comma 3",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "dd116570d449"
+  },
+  "47": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Congedo per la malattia del figlio (legge 30 dicembre 1971, n. 1204, articoli 1, comma 4, 7, comma 4, e 30, comma 5)",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "3c1e58fdb9c0"
+  },
+  "48": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento economico e normativo (legge 30 dicembre 1971, n. 1204, art. 7, comma 5)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "d3fe4d293b41"
+  },
+  "49": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Trattamento previdenziale (legge 30 dicembre 1971, n. 1204, art. 15, comma 3)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "f3dadad016ae"
+  },
+  "50": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Adozioni e affidamenti (legge 8 marzo 2000, n. 53, art. 3, comma 5)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "27ae8e1061b0"
+  },
+  "51": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Documentazione (legge 30 dicembre 1971, n. 1204, art. 7, comma 5)",
+   "vigore_da": "2012-12-19",
+   "datazione": "api",
+   "h": "bce787679440"
+  },
+  "52": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Sanzioni (legge 30 dicembre 1971, n. 1204, art. 31, comma 3)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "d162c8ba347b"
+  },
+  "53": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavoro notturno legge 9 dicembre 1977, n. 903, art. 5, commi 1 e 2, lettere a e b",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "d2c8e7a5d875"
+  },
+  "54": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Divieto di licenziamento (legge 30 dicembre 1971, n. 1204, art. 2, commi 1, 2, 3, 5, e art. 31, comma 2; legge 9 dicembre 1977, n. 903, art. 6-bis, comma 4; decreto legislativo 9 settembre 1994, n. 566, art. 2, comma 2; legge 8 marzo 2000, n. 53, art. 18, comma 1)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "e7194679c5d3"
+  },
+  "55": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Dimissioni (legge 30 dicembre 1971, n. 1204, art. 12; legge 8 marzo 2000, n. 53, art. 18, comma 2)",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "3f52d5c12b45"
+  },
+  "56": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Diritto al rientro e alla conservazione del posto (legge 30 dicembre 1971, n. 1204, art. 2, comma 6; legge 8 marzo 2000, n. 53, art. 17, comma 1)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "59d36a4760be"
+  },
+  "57": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Rapporti di lavoro a termine nelle pubbliche amministrazioni (decreto-legge 29 marzo 1991, n. 103, convertito dalla legge 1 giugno 1991, n. 166, art. 8)",
+   "vigore_da": "2003-05-28",
+   "datazione": "api",
+   "h": "f03a5d488330"
+  },
+  "58": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "59": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavoro stagionale (legge 30 dicembre 1971, n. 1204, art. 2, comma 4)",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "941fd0103745"
+  },
+  "59-bis": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavoro nel settore dello spettacolo",
+   "vigore_da": "2021-05-26",
+   "datazione": "api",
+   "h": "79840aaf3754"
+  },
+  "60": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavoro a tempo parziale (decreto legislativo 25 febbraio 2000, n. 61, art. 4, comma 2)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "633550916f57"
+  },
+  "61": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavoro a domicilio (legge 30 dicembre 1971, n. 1204, articoli 1, 13, 18, 22; legge 8 marzo 2000, n. 53, art. 3)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "1cfd269cb050"
+  },
+  "62": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavoro domestico (legge 30 dicembre 1971, n. 1204, articoli 1, 13, 19, 22; legge 8 marzo 2000, n. 53, art. 3)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "864524c45c67"
+  },
+  "63": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavoro in agricoltura (decreto-legge 22 dicembre 1981, n. 791, convertito dalla legge 26 febbraio 1982, n. 54, art. 14; decreto-legge 12 settembre 1983, n. 463, convertito dalla legge 11 novembre 1983, n. 638, art. 5; decreto legislativo 16 aprile 1997, n. 146, art. 4; legge 17 maggio 1999, n. 144, art. 45, comma 21)",
+   "vigore_da": "2010-01-01",
+   "datazione": "api",
+   "h": "774b5d091112"
+  },
+  "64": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Lavoratrici iscritte alla gestione separata di cui all'articolo 2, comma 26, della legge 8 agosto 1995, n. 335",
+   "vigore_da": "2017-06-14",
+   "datazione": "api",
+   "h": "a42853488af0"
+  },
+  "64-bis": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Adozioni e affidamenti",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "0b8f0c0ce347"
+  },
+  "64-ter": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Automaticita' delle prestazioni",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "8f9750492359"
+  },
+  "65": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Attivita' socialmente utili (decreto legislativo 1 dicembre 1997, n. 468, art. 8, comma 3, 15, 16 e 17; decreto legislativo 28 febbraio 2000, n. 81, articoli 4 e 10)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "c086953cb229"
+  },
+  "66": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Indennita' di maternita' per le lavoratrici autonome e le imprenditrici agricole (legge 29 dicembre 1987, n. 546, art. 1)",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "6c0495c894d2"
+  },
+  "67": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Modalita' di erogazione (legge 29 dicembre 1987, n. 546, art. 2)",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "340e079a0681"
+  },
+  "68": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Misura dell'indennita' (legge 29 dicembre 1987, n. 546, articoli 3, 4 e 5)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "2209ccf68416"
+  },
+  "69": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Congedo parentale (legge 30 dicembre 1971, n. 1204, art. 1, comma 4)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "55a3b7806947"
+  },
+  "70": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Indennita' di maternita' per le libere professioniste (legge 11 dicembre 1990, n. 379, art. 1)",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "8ae1962183fb"
+  },
+  "71": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Termini e modalita' della domanda (legge 11 dicembre 1990, n. 379, art. 2)",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "719390ad5528"
+  },
+  "72": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Adozioni e affidamenti (legge 11 dicembre 1990, n. 379, art. 3)",
+   "vigore_da": "2015-10-29",
+   "datazione": "api",
+   "h": "32c71d9ba975"
+  },
+  "73": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Indennita' in caso di interruzione della gravidanza (legge 11 dicembre 1990, n. 379, art. 4)",
+   "vigore_da": "2003-05-28",
+   "datazione": "api",
+   "h": "22c42a9c3d46"
+  },
+  "74": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Assegno di maternita' di base (legge 23 dicembre 1998, n. 448, art. 66, commi 1, 2, 3, 4, 5-bis, 6; legge 23 dicembre 1999, n. 488, art. 49, comma 12; legge 23 dicembre 2000, n. 388, art. 80, commi 10 e 11)",
+   "vigore_da": "2022-03-10",
+   "datazione": "api",
+   "h": "8606d0c6454e"
+  },
+  "75": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Assegno di maternita' per lavori atipici e discontinui (legge 23 dicembre 1999, n. 488, art. 49, commi 8, 9, 11, 12, 13, 14; legge 23 dicembre 2000, n. 388, art. 80, comma 10)",
+   "vigore_da": "2022-02-01",
+   "datazione": "api",
+   "h": "2e532baa9989"
+  },
+  "76": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Documentazione (legge 30 dicembre 1971, n. 1204, articoli 29 e 30, commi 2, 3 e 4)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "d39db4194fce"
+  },
+  "77": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Vigilanza (legge 30 dicembre 1971, n. 1204, articoli 30, comma 1, e 31, comma 4)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "51c0c7513f3a"
+  },
+  "78": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Riduzione degli oneri di maternita' (legge 23 dicembre 1999, n. 488, art. 49, commi 1, 4, e 11)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "f062224833ac"
+  },
+  "79": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Oneri contributivi nel lavoro subordinato privato (legge 30 dicembre 1971, n. 1204, art. 21)",
+   "vigore_da": "2007-08-18",
+   "datazione": "api",
+   "h": "98b52f4800d7"
+  },
+  "80": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Oneri derivanti dall'assegno di maternita' di base (legge 23 dicembre 1998, n. 448, art. 66, commi 5 e 5-bis)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "e5a917d410c1"
+  },
+  "81": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Oneri derivanti dall'assegno di maternita' per lavori atipici e discontinui (legge 23 dicembre 1999, n. 488, art. 49, comma 9)",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "b32b0695ac17"
+  },
+  "82": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Oneri derivanti dal trattamento di maternita' delle lavoratrici autonome (legge 29 dicembre 1987, n. 546, art. 6, 7 e 8; legge 23 dicembre 1999, n. 488, art. 49, comma 1)",
+   "vigore_da": "2013-01-01",
+   "datazione": "api",
+   "h": "f969560a2407"
+  },
+  "83": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Oneri derivanti dal trattamento di maternita' delle libere professioniste (legge 11 dicembre 1990, n. 379, art. 5; legge 23 dicembre 1999, n. 488, art. 49, comma 1)",
+   "vigore_da": "2003-05-28",
+   "datazione": "api",
+   "h": "1ff2b0606f3e"
+  },
+  "84": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Oneri derivanti dal trattamento di maternita' delle collaboratrici coordinate e continuative (legge 27 dicembre 1997, n. 449, art. 59, comma 16)",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "7a3f7a90ee59"
+  },
+  "85": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Disposizioni in vigore",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "8e09bcaf571f"
+  },
+  "86": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Disposizioni abrogate (legge 9 dicembre 1977, n. 903, articolo 3, comma 2; legge 29 dicembre 1987, n. 546, articolo 9; legge 8 marzo 2000, n. 53, articoli 15 e 17, comma 4)",
+   "vigore_da": "2003-05-28",
+   "datazione": "api",
+   "h": "1dd783df8897"
+  },
+  "87": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Disposizioni regolamentari di attuazione",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "44e06924dd21"
+  },
+  "88": {
+   "file": "dlgs-151-2001.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2001-04-27",
+   "datazione": "api",
+   "h": "9209455df5d5"
+  }
+ }
+}

@@ -1,0 +1,655 @@
+{
+ "_meta": {
+  "codice": "l-428-1990",
+  "nome": "Legge comunitaria 1990, art. 47 sul trasferimento d'azienda (L. 428/1990)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2024-09-28",
+  "articoli": 73,
+  "file": [
+   "l-428-1990.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1990-12-29;428",
+  "versioni": [
+   {
+    "data": "1991-01-12",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1992-02-20",
+    "evento": "rp1",
+    "atto_modificante": "L. 19 febbraio 1992, n. 142"
+   },
+   {
+    "data": "1992-04-13",
+    "evento": "rp2",
+    "atto_modificante": "L. 27 marzo 1992, n. 257"
+   },
+   {
+    "data": "1992-12-04",
+    "evento": "rp3",
+    "atto_modificante": "L. 26 novembre 1992, n. 468"
+   },
+   {
+    "data": "1993-09-30",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 1 settembre 1993, n. 385"
+   },
+   {
+    "data": "1997-01-31",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 31 gennaio 1997, n. 11"
+   },
+   {
+    "data": "1997-09-09",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 9 settembre 1997, n. 292"
+   },
+   {
+    "data": "2001-02-21",
+    "evento": "rp7",
+    "atto_modificante": "D.Lgs. 2 febbraio 2001, n. 18"
+   },
+   {
+    "data": "2003-07-23",
+    "evento": "rp8",
+    "atto_modificante": "D.Lgs. 24 giugno 2003, n. 184"
+   },
+   {
+    "data": "2004-05-14",
+    "evento": "rp9",
+    "atto_modificante": "Circ. Agenzia Per Le Erogazioni In Agricoltura 6 maggio 2004, n. 11"
+   },
+   {
+    "data": "2004-06-25",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 24 giugno 2004, n. 157"
+   },
+   {
+    "data": "2006-05-02",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 12 aprile 2006, n. 163"
+   },
+   {
+    "data": "2007-02-17",
+    "evento": "rp12",
+    "atto_modificante": "L. 6 febbraio 2007, n. 13"
+   },
+   {
+    "data": "2008-08-28",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 28 agosto 2008, n. 134"
+   },
+   {
+    "data": "2009-09-25",
+    "evento": "rp14",
+    "atto_modificante": "D.L. 25 settembre 2009, n. 135"
+   },
+   {
+    "data": "2010-04-23",
+    "evento": "rp15",
+    "atto_modificante": "D.Lgs. 26 marzo 2010, n. 59"
+   },
+   {
+    "data": "2012-06-26",
+    "evento": "rp16",
+    "atto_modificante": "D.L. 22 giugno 2012, n. 83"
+   },
+   {
+    "data": "2019-02-14",
+    "evento": "rp17",
+    "atto_modificante": "D.Lgs. 12 gennaio 2019, n. 14"
+   },
+   {
+    "data": "2020-04-08",
+    "evento": "rp18",
+    "atto_modificante": "D.L. 8 aprile 2020, n. 23"
+   },
+   {
+    "data": "2021-08-24",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 24 agosto 2021, n. 118"
+   },
+   {
+    "data": "2022-04-30",
+    "evento": "rp20",
+    "atto_modificante": "D.L. 30 aprile 2022, n. 36"
+   },
+   {
+    "data": "2022-07-01",
+    "evento": "rp21",
+    "atto_modificante": "D.Lgs. 17 giugno 2022, n. 83"
+   },
+   {
+    "data": "2024-09-27",
+    "evento": "rp22",
+    "atto_modificante": "D.Lgs. 13 settembre 2024, n. 136"
+   }
+  ],
+  "ultima_versione": "2024-09-27",
+  "datazione": {
+   "monoblocco": 73,
+   "api": 73,
+   "ignota": 0,
+   "stima_anteriore": 65,
+   "chiamate": 73,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-428-1990.md",
+   "rubrica": "Delega al Governo per l'attuazione di direttive comunitarie",
+   "vigore_da": "1992-04-28",
+   "datazione": "api",
+   "h": "bcc480fbb369"
+  },
+  "2": {
+   "file": "l-428-1990.md",
+   "rubrica": "Criteri e principi direttivi generali della delega legislativa",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "d54db1f7c986"
+  },
+  "3": {
+   "file": "l-428-1990.md",
+   "rubrica": "Attuazione di direttive comunitarie in via regolamentare",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "669edb81b6a1"
+  },
+  "4": {
+   "file": "l-428-1990.md",
+   "rubrica": "Adeguamenti tecnici e provvedimenti amministrativi di attuazione",
+   "vigore_da": "2004-08-11",
+   "datazione": "api",
+   "h": "35d50efa4c51"
+  },
+  "5": {
+   "file": "l-428-1990.md",
+   "rubrica": "Professione di architetto: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "c59e48940bc7"
+  },
+  "6": {
+   "file": "l-428-1990.md",
+   "rubrica": "Medici specialisti: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "32f402fbf043"
+  },
+  "7": {
+   "file": "l-428-1990.md",
+   "rubrica": "Abilitazione delle persone incaricate al controllo di legge dei documenti contabili: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "3fedae103146"
+  },
+  "8": {
+   "file": "l-428-1990.md",
+   "rubrica": "Riconoscimento dei diplomi di istruzione superiore: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "82736390a784"
+  },
+  "9": {
+   "file": "l-428-1990.md",
+   "rubrica": "",
+   "vigore_da": "2010-05-08",
+   "datazione": "api",
+   "h": "31575beaa8b0"
+  },
+  "10": {
+   "file": "l-428-1990.md",
+   "rubrica": "Sedi farmaceutiche",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "6f49a477307c"
+  },
+  "11": {
+   "file": "l-428-1990.md",
+   "rubrica": "Attivita' professionali nel settore del turismo",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "c36f2ddab88b"
+  },
+  "12": {
+   "file": "l-428-1990.md",
+   "rubrica": "",
+   "vigore_da": "2006-07-01",
+   "datazione": "api",
+   "h": "8279eb8f03f2"
+  },
+  "13": {
+   "file": "l-428-1990.md",
+   "rubrica": "",
+   "vigore_da": "2006-07-01",
+   "datazione": "api",
+   "h": "8279eb8f03f2"
+  },
+  "14": {
+   "file": "l-428-1990.md",
+   "rubrica": "Autotrasportatori",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "e1da667d0d23"
+  },
+  "15": {
+   "file": "l-428-1990.md",
+   "rubrica": "Agenti commerciali indipendenti: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "23eafd57584e"
+  },
+  "16": {
+   "file": "l-428-1990.md",
+   "rubrica": "Attivita' economiche varie: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "4b870a0415b8"
+  },
+  "17": {
+   "file": "l-428-1990.md",
+   "rubrica": "Gruppo europeo di interesse economico",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "3ddfab8b6112"
+  },
+  "18": {
+   "file": "l-428-1990.md",
+   "rubrica": "Conti annuali e consolidati delle banche e degli altri istituti fianziari e pubblicita' dei documenti contabili delle succursali: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "f19a8ec9b713"
+  },
+  "19": {
+   "file": "l-428-1990.md",
+   "rubrica": "Ammissione di valori mobiliari alla quotazione ufficiale di una borsa valori: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "da028003a434"
+  },
+  "20": {
+   "file": "l-428-1990.md",
+   "rubrica": "Variazioni nelle partecipazioni rilevanti in societa' con azioni quotate nei mercati regolamentati: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "a36470f79694"
+  },
+  "21": {
+   "file": "l-428-1990.md",
+   "rubrica": "Pubblicazione del prospetto per l'offerta pubblica di valori mobiliari: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "cbdc6da4a914"
+  },
+  "22": {
+   "file": "l-428-1990.md",
+   "rubrica": "Organismi di investimento collettivo in valori mobiliari: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "fd0955c09ab4"
+  },
+  "23": {
+   "file": "l-428-1990.md",
+   "rubrica": "",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "46c9ce20c7e3"
+  },
+  "24": {
+   "file": "l-428-1990.md",
+   "rubrica": "",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "46c9ce20c7e3"
+  },
+  "25": {
+   "file": "l-428-1990.md",
+   "rubrica": "Assicurazione per interventi di assistenza: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "e1e3ddfd1cd0"
+  },
+  "26": {
+   "file": "l-428-1990.md",
+   "rubrica": "Assicurazione crediti: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "bff3b17f07a2"
+  },
+  "27": {
+   "file": "l-428-1990.md",
+   "rubrica": "Assicurazione tutela giudiziaria: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "1482710d9c5a"
+  },
+  "28": {
+   "file": "l-428-1990.md",
+   "rubrica": "Libera prestazione dei servizi in materia di assicurazione diretta diversa dalla assicurazione sulla vita: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "ec859c8bed52"
+  },
+  "29": {
+   "file": "l-428-1990.md",
+   "rubrica": "Rimborso dei tributi riconosciuti incompatibili con norme comunitarie",
+   "vigore_da": "2007-03-04",
+   "datazione": "api",
+   "h": "f8ecb97ac53d"
+  },
+  "30": {
+   "file": "l-428-1990.md",
+   "rubrica": "Modificazioni al regime IVA delle prestazioni mediche e paramediche",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "fafbe4aa2696"
+  },
+  "31": {
+   "file": "l-428-1990.md",
+   "rubrica": "Esenzione IVA per le importazioni di campioni gratuiti di modico valore",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "07ce3a71dd97"
+  },
+  "32": {
+   "file": "l-428-1990.md",
+   "rubrica": "Imposta di consumo sulle banane",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "a3c770c78ae6"
+  },
+  "33": {
+   "file": "l-428-1990.md",
+   "rubrica": "Imposte di fabbricazione sullo spirito contenuto nel rhum",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "474d38f93ca9"
+  },
+  "34": {
+   "file": "l-428-1990.md",
+   "rubrica": "Modifiche al regime fiscale degli spiriti. Cauzione",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "929774b10b8e"
+  },
+  "35": {
+   "file": "l-428-1990.md",
+   "rubrica": "Applicazione del regolamento CEE n. 3842/86 del Consiglio sulle merci contraffatte",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "f7fbb916fd51"
+  },
+  "36": {
+   "file": "l-428-1990.md",
+   "rubrica": "Importazione dei beni che non hanno fruito di sgravio all'esportazione",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "3d6179bd448c"
+  },
+  "37": {
+   "file": "l-428-1990.md",
+   "rubrica": "Imposta di bollo",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "e917c3ab8d6f"
+  },
+  "38": {
+   "file": "l-428-1990.md",
+   "rubrica": "Attuazione della direttiva del Consiglio 861 560/CEE sui rimborsi dell'IVA ai soggetti passivi non residenti in Stati membri della Comunita' economica europea",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "d56ac63e8aa5"
+  },
+  "39": {
+   "file": "l-428-1990.md",
+   "rubrica": "Attuazione della direttiva del Consiglio 84/386/CEE sull'applicazione dell'IVA sulla locazione di beni mobili materiali diversi dai mezzi di trasporto",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "890e6663593e"
+  },
+  "40": {
+   "file": "l-428-1990.md",
+   "rubrica": "Riconoscimento della natura privilegiata dei crediti CECA",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "f9063549afe8"
+  },
+  "41": {
+   "file": "l-428-1990.md",
+   "rubrica": "Divieto della pubblicita' ingannevole: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "eff27342be08"
+  },
+  "42": {
+   "file": "l-428-1990.md",
+   "rubrica": "Attuazione della direttiva del Consiglio 85/577/CEE relativa ai contratti negoziati fuori dai locali commerciali: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "c81cc283e861"
+  },
+  "43": {
+   "file": "l-428-1990.md",
+   "rubrica": "Prodotti che per l'aspetto ingannevole sono pericolosi per la salute e la sicurezza: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "7f4b975dedaf"
+  },
+  "44": {
+   "file": "l-428-1990.md",
+   "rubrica": "Prezzi dei prodotti: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "39d03d80eefe"
+  },
+  "45": {
+   "file": "l-428-1990.md",
+   "rubrica": "Etichettatura, presentazione e pubblicita' dei prodotti: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "fee237083fe8"
+  },
+  "46": {
+   "file": "l-428-1990.md",
+   "rubrica": "",
+   "vigore_da": "2003-07-24",
+   "datazione": "api",
+   "h": "decfb3c8a7e9"
+  },
+  "47": {
+   "file": "l-428-1990.md",
+   "rubrica": "Trasferimenti di azienda",
+   "vigore_da": "2024-09-28",
+   "datazione": "api",
+   "h": "5d9096217b00"
+  },
+  "48": {
+   "file": "l-428-1990.md",
+   "rubrica": "Insolvenza dei datori di lavoro: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "93864f6f9cb4"
+  },
+  "49": {
+   "file": "l-428-1990.md",
+   "rubrica": "Protezione dei lavoratori: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "ad72b5d9fabe"
+  },
+  "50": {
+   "file": "l-428-1990.md",
+   "rubrica": "Requisiti dei prodotti alimentari e dei materiali e degli oggetti destinati a venire a contatto con gli alimenti: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "a5db29bcc52f"
+  },
+  "51": {
+   "file": "l-428-1990.md",
+   "rubrica": "Norme sulla commercializzazione del miele",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "bd6fe3f5d3ea"
+  },
+  "52": {
+   "file": "l-428-1990.md",
+   "rubrica": "Estratti alimentari",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "6c2885bbd2a5"
+  },
+  "53": {
+   "file": "l-428-1990.md",
+   "rubrica": "Procedura comunitaria di informazione sulle regolamentazioni tecniche",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "5218c4cd3437"
+  },
+  "54": {
+   "file": "l-428-1990.md",
+   "rubrica": "Sicurezza dei giocattoli: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "2e31896676aa"
+  },
+  "55": {
+   "file": "l-428-1990.md",
+   "rubrica": "Carrelli semoventi per movimentazione: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "957c6b813eee"
+  },
+  "56": {
+   "file": "l-428-1990.md",
+   "rubrica": "Recipienti semplici a pressione: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "97b476458aec"
+  },
+  "57": {
+   "file": "l-428-1990.md",
+   "rubrica": "Cosmetici: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "7793841ae223"
+  },
+  "58": {
+   "file": "l-428-1990.md",
+   "rubrica": "Prezzi delle specialita' medicinali: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "eadcfe442a35"
+  },
+  "59": {
+   "file": "l-428-1990.md",
+   "rubrica": "Controlli tecnici effettuati nei Paesi membri della Comunita' economica europea",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "a845bfa5a463"
+  },
+  "60": {
+   "file": "l-428-1990.md",
+   "rubrica": "Omologazione dei veicoli a motore e dei loro rimorchi",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "9944c484aff7"
+  },
+  "61": {
+   "file": "l-428-1990.md",
+   "rubrica": "Imballaggi preconfezionati criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "30ed06c7d925"
+  },
+  "62": {
+   "file": "l-428-1990.md",
+   "rubrica": "Olio di semi",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "a0b88a59363a"
+  },
+  "63": {
+   "file": "l-428-1990.md",
+   "rubrica": "Violazioni in materia di prelievo di corresponsabilita' sui cereali",
+   "vigore_da": "1992-03-06",
+   "datazione": "api",
+   "h": "fec1443ae2a0"
+  },
+  "64": {
+   "file": "l-428-1990.md",
+   "rubrica": "Violazioni in materia di prelievo supplementare sul latte di vacca",
+   "vigore_da": "1992-12-19",
+   "datazione": "api",
+   "h": "d2520386e0e5"
+  },
+  "65": {
+   "file": "l-428-1990.md",
+   "rubrica": "Ormoni e farmaci veterinari criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "e513a99d8366"
+  },
+  "66": {
+   "file": "l-428-1990.md",
+   "rubrica": "Controlli ed ispezioni veterinarie: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "ad5d2ce1ed72"
+  },
+  "67": {
+   "file": "l-428-1990.md",
+   "rubrica": "Criteri di delega in materia di inquinamento atmosferico, acustico e delle acque e di scarichi nell'ambiente di sostanze pericolose",
+   "vigore_da": "1992-04-28",
+   "datazione": "api",
+   "h": "bd93890a4b70"
+  },
+  "68": {
+   "file": "l-428-1990.md",
+   "rubrica": "Criteri speciali",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "73ef1deb0b39"
+  },
+  "69": {
+   "file": "l-428-1990.md",
+   "rubrica": "Sostituzione dell'articolo 4 della legge 6 aprile 1983, n. 136",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "0d2736906c8f"
+  },
+  "70": {
+   "file": "l-428-1990.md",
+   "rubrica": "Eliminazione degli oli usati: criteri di delega",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "03c72a2e4170"
+  },
+  "71": {
+   "file": "l-428-1990.md",
+   "rubrica": "Disposizioni concernenti il Dipartimento per il coordinamento delle politiche comunitarie",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "dfb495f471cc"
+  },
+  "72": {
+   "file": "l-428-1990.md",
+   "rubrica": "Fondo di rotazione",
+   "vigore_da": "1997-04-02",
+   "datazione": "api",
+   "h": "c25e36367bd7"
+  },
+  "73": {
+   "file": "l-428-1990.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "1991-01-27",
+   "datazione": "api",
+   "h": "b180674f7c8a"
+  }
+ }
+}

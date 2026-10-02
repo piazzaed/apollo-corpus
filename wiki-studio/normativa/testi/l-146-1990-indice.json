@@ -1,0 +1,242 @@
+{
+ "_meta": {
+  "codice": "l-146-1990",
+  "nome": "Sciopero nei servizi pubblici essenziali (L. 146/1990)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2018-08-02",
+  "articoli": 21,
+  "file": [
+   "l-146-1990.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1990-06-12;146",
+  "versioni": [
+   {
+    "data": "1990-06-14",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1995-03-01",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "1996-06-05",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "1997-05-17",
+    "evento": "rp3",
+    "atto_modificante": "L. 15 maggio 1997, n. 127"
+   },
+   {
+    "data": "2000-04-11",
+    "evento": "rp4",
+    "atto_modificante": "L. 11 aprile 2000, n. 83"
+   },
+   {
+    "data": "2001-07-11",
+    "evento": "rp5",
+    "atto_modificante": "atto modificante non indicato (rp5)"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 30 dicembre 2009, n. 194"
+   },
+   {
+    "data": "2012-07-06",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 6 luglio 2012, n. 95"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp8",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2013-12-27",
+    "evento": "rp9",
+    "atto_modificante": "L. 27 dicembre 2013, n. 147"
+   },
+   {
+    "data": "2015-02-04",
+    "evento": "rp10",
+    "atto_modificante": "atto modificante non indicato (rp10)"
+   },
+   {
+    "data": "2015-09-21",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 20 settembre 2015, n. 146"
+   },
+   {
+    "data": "2018-08-01",
+    "evento": "rp12",
+    "atto_modificante": "atto modificante non indicato (rp12)"
+   }
+  ],
+  "ultima_versione": "2018-08-01",
+  "datazione": {
+   "monoblocco": 21,
+   "api": 20,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 12,
+   "chiamate": 21,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2015-11-19",
+   "datazione": "api",
+   "h": "cf05f766af7d"
+  },
+  "2": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2000-04-26",
+   "datazione": "api",
+   "h": "fcd2facb7e38"
+  },
+  "2-bis": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2018-08-02",
+   "datazione": "api",
+   "h": "5447082de11d"
+  },
+  "3": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "cd3593f932b0"
+  },
+  "4": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2013-01-01",
+   "datazione": "api",
+   "h": "b51e7d1a78bd"
+  },
+  "5": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "18cfc58bd87a"
+  },
+  "6": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "bd6a12adb05c"
+  },
+  "7": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2000-04-26",
+   "datazione": "api",
+   "h": "24d0b900f320"
+  },
+  "8": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2000-04-26",
+   "datazione": "api",
+   "h": "b6b9435e18f1"
+  },
+  "9": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2013-01-01",
+   "datazione": "api",
+   "h": "a0999007c596"
+  },
+  "10": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "633890ffcb8d"
+  },
+  "11": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "cc71cb3f163f"
+  },
+  "12": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2014-01-01",
+   "datazione": "api",
+   "h": "defdd4ca97d4"
+  },
+  "13": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2015-02-19",
+   "datazione": "api",
+   "h": "328022dea642"
+  },
+  "14": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2000-04-26",
+   "datazione": "api",
+   "h": "dec72127b31b"
+  },
+  "15": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "f983a9e2ca77"
+  },
+  "16": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "43587cdb8d15"
+  },
+  "17": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "2000-04-26",
+   "datazione": "api",
+   "h": "5313e32a2566"
+  },
+  "18": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "64b832188f34"
+  },
+  "19": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-06-29",
+   "datazione": "api",
+   "h": "c19a5db2d81f"
+  },
+  "20": {
+   "file": "l-146-1990.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "78e84fd00590"
+  }
+ }
+}

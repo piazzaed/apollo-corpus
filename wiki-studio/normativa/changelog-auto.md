@@ -1,11 +1,23 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-09-28 · 26 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-10-02 · 28 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Interventi in materia di sicurezza stradale e delega per la revisione del codice della strada (L. 177/2024) (`l-177-2024`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 35 — Delega al Governo per la revisione e il riordino della disciplina concernente la motorizzazione e la circolazione stradale | modificato | 2024-12-14 → 2026-10-02 | L. 23 settembre 2026, n. 171 | 2026-09-25 → 2026-10-02 |
+
+## Legge-quadro sull'handicap (L. 104/1992) (`l-104-1992`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 15 — Gruppi per l'inclusione scolastica | modificato | 2019-09-12 → 2026-10-01 | D.L. 30 settembre 2026, n. 170 | 2026-09-23 → 2026-10-02 |
 
 ## Riscossione delle imposte sul reddito (D.P.R. 602/1973) (`dpr-602-1973`)
 

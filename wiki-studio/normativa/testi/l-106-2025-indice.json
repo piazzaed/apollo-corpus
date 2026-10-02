@@ -1,0 +1,70 @@
+{
+ "_meta": {
+  "codice": "l-106-2025",
+  "nome": "Conservazione del posto e permessi per malattie oncologiche, invalidanti e croniche (L. 106/2025)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-10-02",
+  "articoli": 5,
+  "file": [
+   "l-106-2025.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2025-07-18;106",
+  "versioni": [
+   {
+    "data": "2025-07-25",
+    "evento": "ro1",
+    "atto_modificante": null
+   }
+  ],
+  "ultima_versione": "2025-07-25",
+  "datazione": {
+   "monoblocco": 5,
+   "api": 4,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 4,
+   "chiamate": 5,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-106-2025.md",
+   "rubrica": "Conservazione del posto di lavoro",
+   "vigore_da": "2025-08-09",
+   "datazione": "api",
+   "h": "46e085ab8ea2"
+  },
+  "2": {
+   "file": "l-106-2025.md",
+   "rubrica": "Permessi di lavoro per visite, esami strumentali e cure mediche",
+   "vigore_da": "2025-08-09",
+   "datazione": "api",
+   "h": "4fb3f0d17922"
+  },
+  "3": {
+   "file": "l-106-2025.md",
+   "rubrica": "Istituzione di un fondo per l'istituzione e il conferimento di premi di laurea intitolati alla memoria di pazienti affetti da malattie oncologiche",
+   "vigore_da": "2025-08-09",
+   "datazione": "api",
+   "h": "3bbc8c639521"
+  },
+  "4": {
+   "file": "l-106-2025.md",
+   "rubrica": "Gestione e potenziamento dell'infrastruttura tecnologica dell'Istituto nazionale della previdenza sociale",
+   "vigore_da": "2025-08-09",
+   "datazione": "api",
+   "h": "49166dffa041"
+  },
+  "5": {
+   "file": "l-106-2025.md",
+   "rubrica": "Clausola di salvaguardia",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "9a83f750a3b7"
+  }
+ }
+}

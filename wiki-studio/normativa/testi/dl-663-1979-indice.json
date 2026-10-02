@@ -1,0 +1,514 @@
+{
+ "_meta": {
+  "codice": "dl-663-1979",
+  "nome": "Indennità di malattia e certificazione (D.L. 663/1979)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-01-12",
+  "articoli": 52,
+  "file": [
+   "dl-663-1979.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legge:1979-12-30;663",
+  "versioni": [
+   {
+    "data": "1979-12-31",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1980-02-29",
+    "evento": "rp1",
+    "atto_modificante": "L. 29 febbraio 1980, n. 33"
+   },
+   {
+    "data": "1980-04-28",
+    "evento": "rp2",
+    "atto_modificante": "L. 24 aprile 1980, n. 146"
+   },
+   {
+    "data": "1980-06-24",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 21 giugno 1980, n. 268"
+   },
+   {
+    "data": "1980-07-02",
+    "evento": "rp4+rp5",
+    "atto_modificante": "D.L. 1 luglio 1980, n. 285; D.L. 1 luglio 1980, n. 286"
+   },
+   {
+    "data": "1980-11-28",
+    "evento": "rp6",
+    "atto_modificante": "L. 28 novembre 1980, n. 782"
+   },
+   {
+    "data": "1980-12-30",
+    "evento": "rp7",
+    "atto_modificante": "L. 30 dicembre 1980, n. 895"
+   },
+   {
+    "data": "1981-02-17",
+    "evento": "rp8",
+    "atto_modificante": "L. 6 febbraio 1981, n. 21"
+   },
+   {
+    "data": "1981-04-08",
+    "evento": "rp9",
+    "atto_modificante": "L. 30 marzo 1981, n. 119"
+   },
+   {
+    "data": "1981-04-27",
+    "evento": "rp10",
+    "atto_modificante": "L. 23 aprile 1981, n. 155"
+   },
+   {
+    "data": "1981-12-31",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 22 dicembre 1981, n. 791"
+   },
+   {
+    "data": "1983-09-12",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 12 settembre 1983, n. 463"
+   },
+   {
+    "data": "1984-10-11",
+    "evento": "rp13",
+    "atto_modificante": "L. 8 ottobre 1984, n. 660"
+   },
+   {
+    "data": "1984-12-29",
+    "evento": "rp14",
+    "atto_modificante": "L. 22 dicembre 1984, n. 887"
+   },
+   {
+    "data": "1985-04-19",
+    "evento": "rp15",
+    "atto_modificante": "L. 15 aprile 1985, n. 140"
+   },
+   {
+    "data": "1986-02-28",
+    "evento": "rp16",
+    "atto_modificante": "L. 28 febbraio 1986, n. 41"
+   },
+   {
+    "data": "1989-01-04",
+    "evento": "rp17",
+    "atto_modificante": "atto modificante non indicato (rp17)"
+   },
+   {
+    "data": "1992-05-06",
+    "evento": "rp18",
+    "atto_modificante": "atto modificante non indicato (rp18)"
+   },
+   {
+    "data": "1998-03-12",
+    "evento": "rp19",
+    "atto_modificante": "L. 6 marzo 1998, n. 40"
+   },
+   {
+    "data": "1998-08-18",
+    "evento": "rp20",
+    "atto_modificante": "D.Lgs. 25 luglio 1998, n. 286"
+   },
+   {
+    "data": "2004-12-31",
+    "evento": "rp21",
+    "atto_modificante": "L. 30 dicembre 2004, n. 311"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp22",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   },
+   {
+    "data": "2014-12-29",
+    "evento": "rp23",
+    "atto_modificante": "L. 23 dicembre 2014, n. 190"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp24",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   }
+  ],
+  "ultima_versione": "2024-12-28",
+  "datazione": {
+   "monoblocco": 52,
+   "api": 52,
+   "ignota": 0,
+   "stima_anteriore": 15,
+   "stima_uguale": 1,
+   "chiamate": 52,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "2013-08-23",
+   "datazione": "api",
+   "h": "8bddd259eb77"
+  },
+  "2": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "319bce9e0e0a"
+  },
+  "3": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1983-11-12",
+   "datazione": "api",
+   "h": "6b771182d24f"
+  },
+  "4": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "8a26fdf72d19"
+  },
+  "5": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1998-09-02",
+   "datazione": "api",
+   "h": "f291b3601bc0"
+  },
+  "6": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-01-01",
+   "datazione": "api",
+   "h": "83e9f4b99074"
+  },
+  "6-bis": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "1ec400c67b26"
+  },
+  "7": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-08-20",
+   "datazione": "api",
+   "h": "6579fcc92d60"
+  },
+  "8": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1981-04-23",
+   "datazione": "api",
+   "h": "e01aa4b059cd"
+  },
+  "8-bis": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "2072bf865770"
+  },
+  "9": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "82493ac8b9bf"
+  },
+  "10": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "d1410cc525d7"
+  },
+  "11": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "50e714331140"
+  },
+  "12": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "debd40294505"
+  },
+  "13": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "d9a9ccb57b3c"
+  },
+  "14": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "8109dbe18913"
+  },
+  "14-bis": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1981-01-14",
+   "datazione": "api",
+   "h": "f37703b4b952"
+  },
+  "14-ter": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "b6be7e701ca6"
+  },
+  "14-quater": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1985-05-04",
+   "datazione": "api",
+   "h": "04cfc513bc86"
+  },
+  "14-quinquies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1981-01-14",
+   "datazione": "api",
+   "h": "e8ced1e74224"
+  },
+  "14-sexies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1985-01-01",
+   "datazione": "api",
+   "h": "d81557d54c11"
+  },
+  "14-septies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "2013-08-23",
+   "datazione": "api",
+   "h": "00907be92d6c"
+  },
+  "14-octies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "fce6075783e2"
+  },
+  "14-novies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "a3ba81ea0b01"
+  },
+  "15": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1992-05-07",
+   "datazione": "api",
+   "h": "76a14e1c6a1d"
+  },
+  "16": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-08-20",
+   "datazione": "api",
+   "h": "00585501cafa"
+  },
+  "17": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "6a5cb0b43789"
+  },
+  "18": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-01-01",
+   "datazione": "api",
+   "h": "67e5d918a05d"
+  },
+  "19": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-01-01",
+   "datazione": "api",
+   "h": "a3ad2228bff4"
+  },
+  "20": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1981-05-12",
+   "datazione": "api",
+   "h": "7c1ea22a4893"
+  },
+  "21": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-01-01",
+   "datazione": "api",
+   "h": "b817ddee2eb0"
+  },
+  "22": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-11-29",
+   "datazione": "api",
+   "h": "fbd26c028e64"
+  },
+  "23": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-04-28",
+   "datazione": "api",
+   "h": "27b4e52849d7"
+  },
+  "23-bis": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "07ea9eba4992"
+  },
+  "23-ter": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-08-20",
+   "datazione": "api",
+   "h": "30d1ae810e4f"
+  },
+  "23-quater": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-08-20",
+   "datazione": "api",
+   "h": "c7b8a55cd7cf"
+  },
+  "23-quinquies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "ac8c2fc33135"
+  },
+  "24": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-07-03",
+   "datazione": "api",
+   "h": "8f29f7648509"
+  },
+  "24-bis": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "f3196bea2c2c"
+  },
+  "24-ter": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-08-20",
+   "datazione": "api",
+   "h": "36041624d041"
+  },
+  "24-quater": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "3d5d7443733e"
+  },
+  "24-quinquies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "dd21bc8b44bb"
+  },
+  "25": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "debd40294505"
+  },
+  "26": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1981-01-01",
+   "datazione": "api",
+   "h": "450b26e82252"
+  },
+  "26-bis": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "84bd2b0bdba1"
+  },
+  "26-ter": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "85b9ed9d3561"
+  },
+  "26-quater": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "d8a08db5bd1f"
+  },
+  "26-quinquies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "ef3bf5186157"
+  },
+  "26-sexies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "cb98bdcfb833"
+  },
+  "26-septies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "0bc5c43375b9"
+  },
+  "26-octies": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-03-01",
+   "datazione": "api",
+   "h": "fd7e5d7c2694"
+  },
+  "27": {
+   "file": "dl-663-1979.md",
+   "rubrica": "",
+   "vigore_da": "1980-01-01",
+   "datazione": "api",
+   "h": "242a2bd9b413"
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "_meta": {
+  "codice": "l-4-1953",
+  "nome": "Prospetti di paga — busta paga (L. 4/1953)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-28",
+  "articoli": 6,
+  "file": [
+   "l-4-1953.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1953-01-05;4",
+  "versioni": [
+   {
+    "data": "1953-01-27",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1995-01-26",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 19 dicembre 1994, n. 758"
+   },
+   {
+    "data": "2009-12-14",
+    "evento": "rp2",
+    "atto_modificante": "D.Lgs. 1 dicembre 2009, n. 179"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 151"
+   },
+   {
+    "data": "2026-04-30",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 30 aprile 2026, n. 62"
+   },
+   {
+    "data": "2026-06-27",
+    "evento": "rp5",
+    "atto_modificante": "L. 25 giugno 2026, n. 112"
+   }
+  ],
+  "ultima_versione": "2026-06-27",
+  "datazione": {
+   "monoblocco": 6,
+   "api": 6,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "chiamate": 6,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-4-1953.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "687ab54c8284"
+  },
+  "2": {
+   "file": "l-4-1953.md",
+   "rubrica": "",
+   "vigore_da": "1953-02-11",
+   "datazione": "api",
+   "h": "910e352f1abb"
+  },
+  "3": {
+   "file": "l-4-1953.md",
+   "rubrica": "",
+   "vigore_da": "1953-02-11",
+   "datazione": "api",
+   "h": "b1461494caf1"
+  },
+  "4": {
+   "file": "l-4-1953.md",
+   "rubrica": "",
+   "vigore_da": "1953-02-11",
+   "datazione": "api",
+   "h": "5b32604cbd60"
+  },
+  "5": {
+   "file": "l-4-1953.md",
+   "rubrica": "",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "2b03e355b444"
+  },
+  "6": {
+   "file": "l-4-1953.md",
+   "rubrica": "",
+   "vigore_da": "1953-02-11",
+   "datazione": "api",
+   "h": "da98de544622"
+  }
+ }
+}

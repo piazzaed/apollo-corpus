@@ -1,0 +1,220 @@
+{
+ "_meta": {
+  "codice": "dlgs-24-2023",
+  "nome": "Protezione delle persone che segnalano violazioni — whistleblowing (D.Lgs. 24/2023)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-01-24",
+  "articoli": 25,
+  "file": [
+   "dlgs-24-2023.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2023-03-10;24",
+  "versioni": [
+   {
+    "data": "2023-03-15",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2024-09-13",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 5 settembre 2024, n. 129"
+   },
+   {
+    "data": "2026-01-09",
+    "evento": "rp2",
+    "atto_modificante": "D.Lgs. 30 dicembre 2025, n. 211"
+   }
+  ],
+  "ultima_versione": "2026-01-09",
+  "datazione": {
+   "monoblocco": 25,
+   "api": 24,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 24,
+   "chiamate": 25,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Ambito di applicazione oggettivo",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "4de50d2cdeac"
+  },
+  "2": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "7f1c4f04d483"
+  },
+  "3": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Ambito di applicazione soggettivo",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "d7e4d07a041c"
+  },
+  "4": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Canali di segnalazione interna",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "37ae0a73d450"
+  },
+  "5": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Gestione del canale di segnalazione interna",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "5ff50339c4cc"
+  },
+  "6": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Condizioni per l'effettuazione della segnalazione esterna",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "7fb3a3bfa357"
+  },
+  "7": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Canali di segnalazione esterna",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "b4b43c6f030e"
+  },
+  "8": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Attivita' svolte dall'ANAC",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "48aa4d9ad195"
+  },
+  "9": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Informazioni pubblicate sul sito istituzionale dell'ANAC",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "9f81d3b03f82"
+  },
+  "10": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Adozione di linee guida",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "bd8bf7573feb"
+  },
+  "11": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Disposizione relativa al personale dell'ANAC ed alla piattaforma informatica",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "493343d5480a"
+  },
+  "12": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Obbligo di riservatezza",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "6b433d495fcc"
+  },
+  "13": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Trattamento dei dati personali",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "0341abf6fc2e"
+  },
+  "14": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Conservazione della documentazione inerente alle segnalazioni",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "099d3f505507"
+  },
+  "15": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Divulgazioni pubbliche",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "706762caebdc"
+  },
+  "16": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Condizioni per la protezione della persona segnalante",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "bbb20e1fe2b4"
+  },
+  "17": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Divieto di ritorsione",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "43e9da603275"
+  },
+  "18": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Misure di sostegno",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "70d6d40e703f"
+  },
+  "19": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Protezione dalle ritorsioni",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "58329ccdb312"
+  },
+  "20": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Limitazioni della responsabilita'",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "f77f7b953da4"
+  },
+  "21": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "d143f0125111"
+  },
+  "22": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Rinunce e transazioni",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "8f3d51a03040"
+  },
+  "23": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Abrogazioni di norme",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "1965ba08a6c9"
+  },
+  "24": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Disposizioni transitorie e di coordinamento",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "88b75454248e"
+  },
+  "25": {
+   "file": "dlgs-24-2023.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2023-03-30",
+   "datazione": "api",
+   "h": "2d6d6fddc0b7"
+  }
+ }
+}

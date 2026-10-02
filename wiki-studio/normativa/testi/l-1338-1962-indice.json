@@ -1,0 +1,307 @@
+{
+ "_meta": {
+  "codice": "l-1338-1962",
+  "nome": "Trattamenti di pensione e rendita vitalizia per contributi prescritti (L. 1338/1962)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-01-12",
+  "articoli": 26,
+  "file": [
+   "l-1338-1962.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1962-08-12;1338",
+  "versioni": [
+   {
+    "data": "1962-09-11",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1965-07-31",
+    "evento": "rp1",
+    "atto_modificante": "L. 21 luglio 1965, n. 903"
+   },
+   {
+    "data": "1965-11-09",
+    "evento": "rp2",
+    "atto_modificante": "L. 27 ottobre 1965, n. 1199"
+   },
+   {
+    "data": "1968-03-28",
+    "evento": "rp3",
+    "atto_modificante": "L. 18 marzo 1968, n. 238"
+   },
+   {
+    "data": "1968-04-30",
+    "evento": "rp4",
+    "atto_modificante": "D.P.R. 27 aprile 1968, n. 488"
+   },
+   {
+    "data": "1969-04-30",
+    "evento": "rp5",
+    "atto_modificante": "L. 30 aprile 1969, n. 153"
+   },
+   {
+    "data": "1972-05-22",
+    "evento": "rp6",
+    "atto_modificante": "D.P.R. 31 dicembre 1971, n. 1432"
+   },
+   {
+    "data": "1972-07-01",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 30 giugno 1972, n. 267"
+   },
+   {
+    "data": "1974-07-24",
+    "evento": "rp8",
+    "atto_modificante": "atto modificante non indicato (rp8)"
+   },
+   {
+    "data": "1975-06-05",
+    "evento": "rp9",
+    "atto_modificante": "L. 3 giugno 1975, n. 160"
+   },
+   {
+    "data": "1977-01-05",
+    "evento": "rp10",
+    "atto_modificante": "atto modificante non indicato (rp10)"
+   },
+   {
+    "data": "1981-03-04",
+    "evento": "rp11",
+    "atto_modificante": "atto modificante non indicato (rp11)"
+   },
+   {
+    "data": "1982-06-02",
+    "evento": "rp12",
+    "atto_modificante": "atto modificante non indicato (rp12)"
+   },
+   {
+    "data": "1985-12-11",
+    "evento": "rp13",
+    "atto_modificante": "atto modificante non indicato (rp13)"
+   },
+   {
+    "data": "1989-12-27",
+    "evento": "rp14",
+    "atto_modificante": "atto modificante non indicato (rp14)"
+   },
+   {
+    "data": "1991-05-08",
+    "evento": "rp15",
+    "atto_modificante": "atto modificante non indicato (rp15)"
+   },
+   {
+    "data": "1994-10-31",
+    "evento": "rp16",
+    "atto_modificante": "D.P.R. 9 maggio 1994, n. 608"
+   },
+   {
+    "data": "1997-12-23",
+    "evento": "rp17",
+    "atto_modificante": "D.Lgs. 15 dicembre 1997, n. 446"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp18",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   }
+  ],
+  "ultima_versione": "2024-12-28",
+  "datazione": {
+   "monoblocco": 26,
+   "api": 26,
+   "ignota": 0,
+   "stima_anteriore": 18,
+   "stima_uguale": 3,
+   "chiamate": 26,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1965-08-15",
+   "datazione": "api",
+   "h": "8b59b0c315be"
+  },
+  "2": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1985-12-12",
+   "datazione": "api",
+   "h": "38dfed3aea8d"
+  },
+  "3": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "5625895dfc55"
+  },
+  "4": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1968-04-30",
+   "datazione": "api",
+   "h": "11d26e7f5bbe"
+  },
+  "5": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1968-04-30",
+   "datazione": "api",
+   "h": "746925b058ba"
+  },
+  "6": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1968-03-28",
+   "datazione": "api",
+   "h": "7c0e51ce2317"
+  },
+  "7": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1991-05-09",
+   "datazione": "api",
+   "h": "93e41992b4f9"
+  },
+  "8": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "a14701a64863"
+  },
+  "9": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "daa078abe524"
+  },
+  "10": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "863f698b207c"
+  },
+  "11": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1972-07-01",
+   "datazione": "api",
+   "h": "0af356c12f33"
+  },
+  "12": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1972-07-01",
+   "datazione": "api",
+   "h": "0af356c12f33"
+  },
+  "13": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "5c7d479349a3"
+  },
+  "14": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "c266fd1f4381"
+  },
+  "15": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1969-05-01",
+   "datazione": "api",
+   "h": "013ec2dff062"
+  },
+  "16": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "1403c71b0234"
+  },
+  "17": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "d8d49df2368a"
+  },
+  "18": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "b27453014b7a"
+  },
+  "19": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1965-01-01",
+   "datazione": "api",
+   "h": "a520ee671328"
+  },
+  "20": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1998-01-01",
+   "datazione": "api",
+   "h": "61866e3b80bc"
+  },
+  "21": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "2d82e42607ba"
+  },
+  "22": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "8376ebaa9cd1"
+  },
+  "23": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "ee509b5bdd4c"
+  },
+  "24": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "617735469cc8"
+  },
+  "25": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1994-11-15",
+   "datazione": "api",
+   "h": "9279fe53e257"
+  },
+  "26": {
+   "file": "l-1338-1962.md",
+   "rubrica": "",
+   "vigore_da": "1962-09-26",
+   "datazione": "api",
+   "h": "965c3404ebb5"
+  }
+ }
+}

@@ -1,0 +1,605 @@
+{
+ "_meta": {
+  "codice": "dlgs-148-2015",
+  "nome": "Ammortizzatori sociali in costanza di rapporto di lavoro (D.Lgs. 148/2015)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-01-01",
+  "articoli": 54,
+  "file": [
+   "dlgs-148-2015.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2015-09-14;148",
+  "versioni": [
+   {
+    "data": "2015-09-23",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp1",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208"
+   },
+   {
+    "data": "2016-10-07",
+    "evento": "rp2",
+    "atto_modificante": "D.Lgs. 24 settembre 2016, n. 185"
+   },
+   {
+    "data": "2016-12-21",
+    "evento": "rp3",
+    "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   },
+   {
+    "data": "2016-12-30",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 30 dicembre 2016, n. 244"
+   },
+   {
+    "data": "2017-04-24",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 24 aprile 2017, n. 50"
+   },
+   {
+    "data": "2017-05-29",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 15 maggio 2017, n. 69"
+   },
+   {
+    "data": "2017-06-20",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 20 giugno 2017, n. 91"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp8",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-05-29",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 29 maggio 2018, n. 55"
+   },
+   {
+    "data": "2018-09-28",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 28 settembre 2018, n. 109"
+   },
+   {
+    "data": "2018-10-23",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 23 ottobre 2018, n. 119"
+   },
+   {
+    "data": "2019-01-28",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 28 gennaio 2019, n. 4"
+   },
+   {
+    "data": "2019-04-30",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 30 aprile 2019, n. 34"
+   },
+   {
+    "data": "2019-06-29",
+    "evento": "rp14",
+    "atto_modificante": "L. 28 giugno 2019, n. 58"
+   },
+   {
+    "data": "2019-09-04",
+    "evento": "rp15",
+    "atto_modificante": "D.L. 3 settembre 2019, n. 101"
+   },
+   {
+    "data": "2019-10-26",
+    "evento": "rp16",
+    "atto_modificante": "D.L. 26 ottobre 2019, n. 124"
+   },
+   {
+    "data": "2019-11-02",
+    "evento": "rp17",
+    "atto_modificante": "L. 2 novembre 2019, n. 128"
+   },
+   {
+    "data": "2019-12-24",
+    "evento": "rp18",
+    "atto_modificante": "L. 19 dicembre 2019, n. 157"
+   },
+   {
+    "data": "2019-12-31",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 30 dicembre 2019, n. 162"
+   },
+   {
+    "data": "2020-02-29",
+    "evento": "rp20",
+    "atto_modificante": "L. 28 febbraio 2020, n. 8"
+   },
+   {
+    "data": "2020-03-17",
+    "evento": "rp21",
+    "atto_modificante": "D.L. 17 marzo 2020, n. 18"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp22",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2020-12-30",
+    "evento": "rp23",
+    "atto_modificante": "L. 30 dicembre 2020, n. 178"
+   },
+   {
+    "data": "2021-05-25",
+    "evento": "rp24",
+    "atto_modificante": "D.L. 25 maggio 2021, n. 73"
+   },
+   {
+    "data": "2021-12-30",
+    "evento": "rp25",
+    "atto_modificante": "D.L. 30 dicembre 2021, n. 228"
+   },
+   {
+    "data": "2021-12-31",
+    "evento": "rp26",
+    "atto_modificante": "L. 30 dicembre 2021, n. 234"
+   },
+   {
+    "data": "2022-01-27",
+    "evento": "rp27",
+    "atto_modificante": "D.L. 27 gennaio 2022, n. 4"
+   },
+   {
+    "data": "2022-03-21",
+    "evento": "rp28",
+    "atto_modificante": "D.L. 21 marzo 2022, n. 21"
+   },
+   {
+    "data": "2022-03-28",
+    "evento": "rp29",
+    "atto_modificante": "L. 28 marzo 2022, n. 25"
+   },
+   {
+    "data": "2022-05-20",
+    "evento": "rp30",
+    "atto_modificante": "L. 20 maggio 2022, n. 51"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp31",
+    "atto_modificante": "D.L. 29 dicembre 2022, n. 198"
+   },
+   {
+    "data": "2023-05-04",
+    "evento": "rp32",
+    "atto_modificante": "D.L. 4 maggio 2023, n. 48"
+   },
+   {
+    "data": "2023-07-03",
+    "evento": "rp33",
+    "atto_modificante": "L. 3 luglio 2023, n. 85"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp34",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   },
+   {
+    "data": "2024-12-31",
+    "evento": "rp35+rp36",
+    "atto_modificante": "L. 30 dicembre 2024, n. 207; D.L. 31 dicembre 2024, n. 208"
+   },
+   {
+    "data": "2025-03-01",
+    "evento": "rp37",
+    "atto_modificante": "L. 28 febbraio 2025, n. 20"
+   },
+   {
+    "data": "2025-12-03",
+    "evento": "rp38",
+    "atto_modificante": "L. 2 dicembre 2025, n. 182"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp39",
+    "atto_modificante": "L. 30 dicembre 2025, n. 199"
+   }
+  ],
+  "ultima_versione": "2025-12-30",
+  "datazione": {
+   "monoblocco": 54,
+   "api": 53,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 25,
+   "stima_uguale": 1,
+   "chiamate": 54,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Lavoratori beneficiari",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "284a8ddd3e11"
+  },
+  "2": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Apprendisti",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "1dfc33501bdc"
+  },
+  "2-bis": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Computo dei dipendenti",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "c19f0a725252"
+  },
+  "3": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Misura",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "d6faca24e915"
+  },
+  "4": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Durata massima complessiva",
+   "vigore_da": "2023-05-05",
+   "datazione": "api",
+   "h": "197b02f21dfc"
+  },
+  "5": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Contribuzione addizionale",
+   "vigore_da": "2022-01-27",
+   "datazione": "api",
+   "h": "b11197f4bd24"
+  },
+  "6": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Contribuzione figurativa",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "01afde1e06bc"
+  },
+  "7": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Modalita' di erogazione e termine per il rimborso delle prestazioni",
+   "vigore_da": "2022-01-27",
+   "datazione": "api",
+   "h": "05ca4a42bc03"
+  },
+  "8": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Compatibilita' con lo svolgimento di attivita' lavorativa",
+   "vigore_da": "2025-12-18",
+   "datazione": "api",
+   "h": "bdc5ffb788e9"
+  },
+  "9": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Gestione di appartenenza delle integrazioni salariali ordinarie",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "e7810b3af952"
+  },
+  "10": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "af1b2ca061b9"
+  },
+  "11": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Causali",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "e6e080b1ff36"
+  },
+  "12": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Durata",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "8ec1b8e84607"
+  },
+  "13": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Contribuzione",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "7606e51787f9"
+  },
+  "14": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Informazione e consultazione sindacale",
+   "vigore_da": "2022-01-27",
+   "datazione": "api",
+   "h": "0fe7b68cd0d4"
+  },
+  "15": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Procedimento",
+   "vigore_da": "2016-10-08",
+   "datazione": "api",
+   "h": "31ed1f502b41"
+  },
+  "16": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Concessione",
+   "vigore_da": "2022-01-27",
+   "datazione": "api",
+   "h": "7b0d8950e5be"
+  },
+  "17": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Ricorsi",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "1bfb4ab78023"
+  },
+  "18": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Disposizioni particolari per le imprese del settore agricolo",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "376d712a5439"
+  },
+  "19": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Gestione di appartenenza delle integrazioni salariali straordinarie",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "50b2a0a5fba6"
+  },
+  "20": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "fb3cf93ae6fd"
+  },
+  "21": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Causali di intervento",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "50c192dfdc74"
+  },
+  "22": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Durata",
+   "vigore_da": "2023-05-05",
+   "datazione": "api",
+   "h": "ad2022e4e1c4"
+  },
+  "22-bis": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Proroga del periodo di cassa integrazione guadagni straordinaria per riorganizzazione o crisi aziendale",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "42b6cf6001dc"
+  },
+  "22-ter": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Accordo di transizione occupazionale",
+   "vigore_da": "2022-01-27",
+   "datazione": "api",
+   "h": "6cd6ef914ee6"
+  },
+  "23": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Contribuzione",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "fa0adf30d46d"
+  },
+  "24": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Consultazione sindacale",
+   "vigore_da": "2022-01-27",
+   "datazione": "api",
+   "h": "f3f5dde31282"
+  },
+  "24-bis": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Accordo di ricollocazione",
+   "vigore_da": "2020-05-19",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "d93e26d33fd7"
+  },
+  "25": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Procedimento",
+   "vigore_da": "2016-10-08",
+   "datazione": "api",
+   "h": "e648a12a1fed"
+  },
+  "25-bis": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Disposizioni particolari per le imprese del settore dell'editoria",
+   "vigore_da": "2017-06-13",
+   "datazione": "api",
+   "h": "54e7882cc898"
+  },
+  "25-ter": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Condizionalita' e formazione",
+   "vigore_da": "2025-03-02",
+   "datazione": "api",
+   "h": "84f68f086098"
+  },
+  "26": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Fondi di solidarieta' bilaterali",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "2282dc66f9e4"
+  },
+  "27": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Fondi di solidarieta' bilaterali alternativi",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "178efa8d1e5a"
+  },
+  "28": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Fondo di solidarieta' residuale",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "d469455db263"
+  },
+  "29": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Fondo di integrazione salariale",
+   "vigore_da": "2022-01-27",
+   "datazione": "api",
+   "h": "89d48d420c12"
+  },
+  "30": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Assegno di integrazione salariale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "ec0dfca66e2c"
+  },
+  "31": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Assegno di solidarieta'",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "cf32a1d31b01"
+  },
+  "32": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Prestazioni ulteriori",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "14aa4b5c58ae"
+  },
+  "33": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Contributi di finanziamento",
+   "vigore_da": "2022-05-21",
+   "datazione": "api",
+   "h": "3c0119b64621"
+  },
+  "34": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Contribuzione correlata",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "ff8a4a5625a4"
+  },
+  "35": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Equilibrio finanziario dei fondi",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "0b5d487e5ad3"
+  },
+  "36": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Comitato amministratore",
+   "vigore_da": "2022-01-27",
+   "datazione": "api",
+   "h": "5317099709c0"
+  },
+  "37": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Requisiti di competenza e assenza di conflitto di interesse",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "f4ea7fd80678"
+  },
+  "38": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Requisiti di onorabilita'",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "98820f3120d8"
+  },
+  "39": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Disposizioni generali",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "402355772559"
+  },
+  "40": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Fondo territoriale intersettoriale delle Province autonome di Trento e di Bolzano e altri fondi di solidarieta'",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "db75d3cfa6fe"
+  },
+  "40-bis": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Disposizione in materia di rilascio del documento unico di regolarita' contributiva",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "e1c83871bfd0"
+  },
+  "41": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Contratto di espansione",
+   "vigore_da": "2023-07-04",
+   "datazione": "api",
+   "h": "2d2659921f24"
+  },
+  "42": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Disposizioni relative a trattamenti straordinari di integrazione salariale a seguito di accordi gia' stipulati",
+   "vigore_da": "2016-10-08",
+   "datazione": "api",
+   "h": "1467aabaa61d"
+  },
+  "43": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2016-10-08",
+   "datazione": "api",
+   "h": "e02e54feb489"
+  },
+  "44": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Disposizioni finali e transitorie",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "1ea95b29ea6b"
+  },
+  "45": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Accesso ai dati elementari",
+   "vigore_da": "2016-10-08",
+   "datazione": "api",
+   "h": "2a8cbd2e6fa7"
+  },
+  "46": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2016-10-08",
+   "datazione": "api",
+   "h": "5bbed82cdb46"
+  },
+  "47": {
+   "file": "dlgs-148-2015.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "8b036c8cf316"
+  }
+ }
+}

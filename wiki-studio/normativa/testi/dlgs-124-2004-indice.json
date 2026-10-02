@@ -1,0 +1,254 @@
+{
+ "_meta": {
+  "codice": "dlgs-124-2004",
+  "nome": "Funzioni ispettive in materia di lavoro e previdenza (D.Lgs. 124/2004)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2024-12-28",
+  "articoli": 20,
+  "file": [
+   "dlgs-124-2004.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2004-04-23;124",
+  "versioni": [
+   {
+    "data": "2004-05-12",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2004-06-30",
+    "evento": "rp1",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 24 giugno 2004, n. 24"
+   },
+   {
+    "data": "2005-02-03",
+    "evento": "rp2",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 23 dicembre 2004, n. 49"
+   },
+   {
+    "data": "2005-10-19",
+    "evento": "rp3",
+    "atto_modificante": "atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "2006-05-03",
+    "evento": "rp4+rp5",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 23 marzo 2006, n. 9; Circ. Ministero Del Lavoro E Delle Politiche Sociali 23 marzo 2006, n. 10"
+   },
+   {
+    "data": "2006-07-04",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 4 luglio 2006, n. 223"
+   },
+   {
+    "data": "2006-10-03",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 3 ottobre 2006, n. 262"
+   },
+   {
+    "data": "2010-11-09",
+    "evento": "rp8",
+    "atto_modificante": "L. 4 novembre 2010, n. 183"
+   },
+   {
+    "data": "2011-09-21",
+    "evento": "rp9",
+    "atto_modificante": "D.Lgs. 1 settembre 2011, n. 150"
+   },
+   {
+    "data": "2013-06-12",
+    "evento": "rp10",
+    "atto_modificante": "atto modificante non indicato (rp10)"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 149"
+   },
+   {
+    "data": "2020-07-16",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 16 luglio 2020, n. 76"
+   },
+   {
+    "data": "2020-09-14",
+    "evento": "rp13",
+    "atto_modificante": "L. 11 settembre 2020, n. 120"
+   },
+   {
+    "data": "2022-04-30",
+    "evento": "rp14",
+    "atto_modificante": "D.L. 30 aprile 2022, n. 36"
+   },
+   {
+    "data": "2022-06-29",
+    "evento": "rp15",
+    "atto_modificante": "L. 29 giugno 2022, n. 79"
+   },
+   {
+    "data": "2024-10-28",
+    "evento": "rp16",
+    "atto_modificante": "D.L. 28 ottobre 2024, n. 160"
+   },
+   {
+    "data": "2024-12-27",
+    "evento": "rp17",
+    "atto_modificante": "L. 20 dicembre 2024, n. 199"
+   }
+  ],
+  "ultima_versione": "2024-12-27",
+  "datazione": {
+   "monoblocco": 20,
+   "api": 20,
+   "ignota": 0,
+   "stima_anteriore": 16,
+   "chiamate": 20,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Vigilanza in materia di rapporti di lavoro e dei livelli essenziali delle prestazioni concernenti i diritti civili e sociali",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "6f8dbca959d5"
+  },
+  "2": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Direzione generale con compiti di direzione e coordinamento delle attivita' ispettive",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "1680d0c9fa75"
+  },
+  "3": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Commissione centrale di coordinamento dell'attivita' di vigilanza",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "f6d5dac9fa5c"
+  },
+  "4": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Coordinamento regionale dell'attivita' di vigilanza",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "a4ccc4944c63"
+  },
+  "5": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Coordinamento provinciale dell'attivita' di vigilanza",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "94534829cea7"
+  },
+  "6": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Personale ispettivo",
+   "vigore_da": "2004-05-27",
+   "datazione": "api",
+   "h": "80bf5be54248"
+  },
+  "7": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Vigilanza",
+   "vigore_da": "2004-05-27",
+   "datazione": "api",
+   "h": "5cf5ced67f31"
+  },
+  "8": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Prevenzione e promozione",
+   "vigore_da": "2005-10-20",
+   "datazione": "api",
+   "h": "2b16b6983359"
+  },
+  "9": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Diritto di interpello",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "57e10cd889e3"
+  },
+  "10": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Razionalizzazione e coordinamento della attivita' ispettiva",
+   "vigore_da": "2024-12-28",
+   "datazione": "api",
+   "h": "e319e362edb0"
+  },
+  "11": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Conciliazione monocratica",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "1dc079df5d84"
+  },
+  "12": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Diffida accertativa per crediti patrimoniali",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "c88da1d54f22"
+  },
+  "13": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Accesso ispettivo, potere di diffida e verbalizzazione unica",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "1c9b83786578"
+  },
+  "14": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Disposizioni del personale ispettivo",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "f45e3e5e63ea"
+  },
+  "15": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Prescrizione obbligatoria",
+   "vigore_da": "2004-05-27",
+   "datazione": "api",
+   "h": "2621704419cc"
+  },
+  "16": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Ricorsi al direttore della sede territoriale dell'Ispettorato",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "974d0f52bdc7"
+  },
+  "17": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Ricorso al Comitato per i rapporti di lavoro",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "490427667375"
+  },
+  "18": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Risorse umane, finanziare e strumentali",
+   "vigore_da": "2004-05-27",
+   "datazione": "api",
+   "h": "d7200b2c29bc"
+  },
+  "19": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2004-05-27",
+   "datazione": "api",
+   "h": "a1a76987e1f2"
+  },
+  "20": {
+   "file": "dlgs-124-2004.md",
+   "rubrica": "Invarianza degli oneri e disposizione finale",
+   "vigore_da": "2004-05-27",
+   "datazione": "api",
+   "h": "dbd750875995"
+  }
+ }
+}

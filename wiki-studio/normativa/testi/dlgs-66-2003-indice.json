@@ -1,0 +1,219 @@
+{
+ "_meta": {
+  "codice": "dlgs-66-2003",
+  "nome": "Organizzazione dell'orario di lavoro (D.Lgs. 66/2003)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2019-01-01",
+  "articoli": 20,
+  "file": [
+   "dlgs-66-2003.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2003-04-08;66",
+  "versioni": [
+   {
+    "data": "2003-04-14",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2004-08-17",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 19 luglio 2004, n. 213"
+   },
+   {
+    "data": "2007-12-28",
+    "evento": "rp2",
+    "atto_modificante": "L. 24 dicembre 2007, n. 244"
+   },
+   {
+    "data": "2008-06-25",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 25 giugno 2008, n. 112"
+   },
+   {
+    "data": "2010-11-09",
+    "evento": "rp4",
+    "atto_modificante": "L. 4 novembre 2010, n. 183"
+   },
+   {
+    "data": "2013-12-23",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 23 dicembre 2013, n. 145"
+   },
+   {
+    "data": "2014-06-11",
+    "evento": "rp6",
+    "atto_modificante": "atto modificante non indicato (rp6)"
+   },
+   {
+    "data": "2014-11-10",
+    "evento": "rp7",
+    "atto_modificante": "L. 30 ottobre 2014, n. 161"
+   },
+   {
+    "data": "2015-06-24",
+    "evento": "rp8",
+    "atto_modificante": "D.Lgs. 15 giugno 2015, n. 80"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp9",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   }
+  ],
+  "ultima_versione": "2018-12-31",
+  "datazione": {
+   "monoblocco": 20,
+   "api": 20,
+   "ignota": 0,
+   "stima_anteriore": 10,
+   "chiamate": 20,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Finalita' e definizioni",
+   "vigore_da": "2008-08-22",
+   "datazione": "api",
+   "h": "e8c90bd9a6f0"
+  },
+  "2": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-08-22",
+   "datazione": "api",
+   "h": "fa56c1cdd671"
+  },
+  "3": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Orario normale di lavoro",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "1758abf36e22"
+  },
+  "4": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Durata massima dell'orario di lavoro",
+   "vigore_da": "2008-06-25",
+   "datazione": "api",
+   "h": "2039fc22e7f6"
+  },
+  "5": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Lavoro straordinario",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "24e1feb0eb04"
+  },
+  "6": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Criteri di computo",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "555850d67c8e"
+  },
+  "7": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Riposo giornaliero",
+   "vigore_da": "2008-08-22",
+   "datazione": "api",
+   "h": "9df39e2eae86"
+  },
+  "8": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Pause",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "bb81936d005b"
+  },
+  "9": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Riposi settimanali",
+   "vigore_da": "2008-08-22",
+   "datazione": "api",
+   "h": "134917add837"
+  },
+  "10": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Ferie annuali",
+   "vigore_da": "2004-09-01",
+   "datazione": "api",
+   "h": "907de4bec816"
+  },
+  "11": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Limitazioni al lavoro notturno",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "1c3f1c7bf03a"
+  },
+  "12": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Modalita' di organizzazione del lavoro notturno e obblighi di comunicazione",
+   "vigore_da": "2008-06-25",
+   "datazione": "api",
+   "h": "fce5b77501f5"
+  },
+  "13": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Durata del lavoro notturno",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "0eaa3c510d54"
+  },
+  "14": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Tutela in caso di prestazioni di lavoro notturno",
+   "vigore_da": "2004-09-01",
+   "datazione": "api",
+   "h": "d87c3d6c68b8"
+  },
+  "15": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Trasferimento al lavoro diurno",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "830f0172200e"
+  },
+  "16": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Deroghe alla disciplina della durata settimanale dell'orario",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "662432d5efe0"
+  },
+  "17": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Deroghe alla disciplina in materia di riposo giornaliero, pause, lavoro notturno, durata massima settimanale",
+   "vigore_da": "2015-11-26",
+   "datazione": "api",
+   "h": "fb7adbba352b"
+  },
+  "18": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Lavoratori a bordo di navi da pesca marittima",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "280e26e08883"
+  },
+  "18-bis": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "15bde08b4104"
+  },
+  "19": {
+   "file": "dlgs-66-2003.md",
+   "rubrica": "Disposizioni transitorie e abrogazioni",
+   "vigore_da": "2004-09-01",
+   "datazione": "api",
+   "h": "ba388a145533"
+  }
+ }
+}

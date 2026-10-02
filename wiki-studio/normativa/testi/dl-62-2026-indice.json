@@ -1,0 +1,249 @@
+{
+ "_meta": {
+  "codice": "dl-62-2026",
+  "nome": "Salario giusto, incentivi all'occupazione e contrasto del caporalato (D.L. 62/2026)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-28",
+  "articoli": 30,
+  "file": [
+   "dl-62-2026.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legge:2026-04-30;62",
+  "versioni": [
+   {
+    "data": "2026-04-30",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2026-06-27",
+    "evento": "rp1",
+    "atto_modificante": "L. 25 giugno 2026, n. 112"
+   }
+  ],
+  "ultima_versione": "2026-06-27",
+  "datazione": {
+   "monoblocco": 30,
+   "api": 30,
+   "ignota": 0,
+   "stima_anteriore": 1,
+   "chiamate": 30,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Bonus donne 2026",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "333cdee4987f"
+  },
+  "2": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Bonus Giovani 2026",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "2833a342b325"
+  },
+  "3": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Bonus ZES 2026",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "7f1878096dfd"
+  },
+  "4": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Incentivo alla stabilizzazione dei rapporti di lavoro",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "5034326bd863"
+  },
+  "4-bis": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Limite di durata dei tirocini extracurriculari",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "2c27c622efbf"
+  },
+  "5": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Modifiche all'articolo 14 del decreto-legge 31 dicembre 2025, n. 200, convertito, con modificazioni, dalla legge 27 febbraio 2026, n. 26",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "2fb05358a058"
+  },
+  "6": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Disposizioni urgenti per la conciliazione tra famiglia e lavoro",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "d3c545f5880b"
+  },
+  "6-bis": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Tutor per la sostenibilita' economica",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "75ed43b49595"
+  },
+  "6-ter": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Graduatorie per il collocamento lavorativo delle persone con disabilita'",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "5d306b6154f3"
+  },
+  "7": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Salario giusto e incentivi",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "6f52c435fc07"
+  },
+  "7-bis": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Disciplina della contrattazione collettiva di prossimita'",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "a67c32e44f31"
+  },
+  "8": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Monitoraggio e raccolta dei dati in materia retributiva",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "6071546b117b"
+  },
+  "9": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Rapporto nazionale sulle retribuzioni e monitoraggio della contrattazione decentrata",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "9ddb24424d84"
+  },
+  "10": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Rinnovi contrattuali",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "1b89b7be822c"
+  },
+  "11": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Obblighi di informazione",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "ac2929d3d83c"
+  },
+  "11-bis": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "7378a5c9dd56"
+  },
+  "12": {
+   "file": "dl-62-2026.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "e815491d1e53"
+  },
+  "13": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Comunicazioni obbligatorie",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "b1728a7b27f0"
+  },
+  "14": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Obblighi di informazione nei riguardi del lavoratore",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "e77b31472936"
+  },
+  "15": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Rafforzamento di tutela per i rider delle piattaforme digitali",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "f4a56232b2ca"
+  },
+  "16": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Disposizioni in materia di versamento al fondo di tesoreria e di destinazione del trattamento di fine rapporto per l'anno 2026",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "4428d61f5073"
+  },
+  "16-bis": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Disposizioni in materia di organi delle forme pensionistiche complementari",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "9d2430ce33db"
+  },
+  "16-ter": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Disposizioni in materia di prestazioni delle forme pensionistiche complementari",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "903cbe947097"
+  },
+  "16-quater": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Distacco per finalita' di salvaguardia occupazionale e continuita' produttiva",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "4c621d23abe7"
+  },
+  "16-quinquies": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Continuita' occupazionale dei lavoratori somministrati",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "ea040693d884"
+  },
+  "16-sexies": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Contributo alla Federazione nazionale Maestri del lavoro",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "b0a9096f9be7"
+  },
+  "16-septies": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Misure urgenti per garantire la continuita' dei servizi di assistenza sanitaria, sociosanitaria e socio-assistenziale",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "79a3585b38c6"
+  },
+  "17": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "e431bc71446c"
+  },
+  "18": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Disposizioni finali",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "7ec7f9a75d60"
+  },
+  "19": {
+   "file": "dl-62-2026.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2026-05-01",
+   "datazione": "api",
+   "h": "b011a219f1da"
+  }
+ }
+}

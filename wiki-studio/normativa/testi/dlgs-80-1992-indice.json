@@ -1,0 +1,85 @@
+{
+ "_meta": {
+  "codice": "dlgs-80-1992",
+  "nome": "Insolvenza del datore di lavoro: ultime retribuzioni e Fondo di garanzia (D.Lgs. 80/1992)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2007-01-01",
+  "articoli": 5,
+  "file": [
+   "dlgs-80-1992.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:1992-01-27;80",
+  "versioni": [
+   {
+    "data": "1992-02-13",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1994-01-26",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 30 dicembre 1993, n. 585"
+   },
+   {
+    "data": "2005-09-21",
+    "evento": "rp2",
+    "atto_modificante": "D.Lgs. 19 agosto 2005, n. 186"
+   },
+   {
+    "data": "2005-12-13",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 5 dicembre 2005, n. 252"
+   }
+  ],
+  "ultima_versione": "2005-12-13",
+  "datazione": {
+   "monoblocco": 5,
+   "api": 4,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 2,
+   "chiamate": 5,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-80-1992.md",
+   "rubrica": "Garanzia dei crediti di lavoro",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "e2a2ab09f5c6"
+  },
+  "2": {
+   "file": "dlgs-80-1992.md",
+   "rubrica": "Intervento del Fondo di garanzia di cui alla legge 29 maggio 1982, n. 297",
+   "vigore_da": "2005-10-06",
+   "datazione": "api",
+   "h": "63f7402aa52d"
+  },
+  "3": {
+   "file": "dlgs-80-1992.md",
+   "rubrica": "Disposizioni in materia di previdenza obbligatoria",
+   "vigore_da": "1992-02-28",
+   "datazione": "api",
+   "h": "3e41cef7ac78"
+  },
+  "4": {
+   "file": "dlgs-80-1992.md",
+   "rubrica": "Copertura degli oneri relativi alle disposizioni di cui agli articoli 1, 2 e 3",
+   "vigore_da": "1992-02-28",
+   "datazione": "api",
+   "h": "40031d497210"
+  },
+  "5": {
+   "file": "dlgs-80-1992.md",
+   "rubrica": "Disposizioni in materia di previdenza complementare",
+   "vigore_da": "2007-01-01",
+   "datazione": "api",
+   "h": "0c899bc683d9"
+  }
+ }
+}

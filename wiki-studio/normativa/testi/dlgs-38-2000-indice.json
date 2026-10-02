@@ -1,0 +1,309 @@
+{
+ "_meta": {
+  "codice": "dlgs-38-2000",
+  "nome": "Assicurazione contro gli infortuni sul lavoro e le malattie professionali (D.Lgs. 38/2000)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-01-12",
+  "articoli": 29,
+  "file": [
+   "dlgs-38-2000.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2000-02-23;38",
+  "versioni": [
+   {
+    "data": "2000-03-01",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2000-12-29",
+    "evento": "rp1",
+    "atto_modificante": "L. 23 dicembre 2000, n. 388"
+   },
+   {
+    "data": "2001-05-30",
+    "evento": "rp2",
+    "atto_modificante": "D.Lgs. 19 aprile 2001, n. 202"
+   },
+   {
+    "data": "2002-04-30",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 13 marzo 2002, n. 79"
+   },
+   {
+    "data": "2003-01-15",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 19 dicembre 2002, n. 297"
+   },
+   {
+    "data": "2005-05-18",
+    "evento": "rp5",
+    "atto_modificante": "atto modificante non indicato (rp5)"
+   },
+   {
+    "data": "2006-10-03",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 3 ottobre 2006, n. 262"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp7",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp8",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2021-03-18",
+    "evento": "rp9",
+    "atto_modificante": "D.Lgs. 28 febbraio 2021, n. 36"
+   },
+   {
+    "data": "2021-04-14",
+    "evento": "rp10",
+    "atto_modificante": "atto modificante non indicato (rp10)"
+   },
+   {
+    "data": "2021-05-25",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 25 maggio 2021, n. 73"
+   },
+   {
+    "data": "2021-07-24",
+    "evento": "rp12",
+    "atto_modificante": "L. 23 luglio 2021, n. 106"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 29 dicembre 2022, n. 198"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp14",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   }
+  ],
+  "ultima_versione": "2024-12-28",
+  "datazione": {
+   "monoblocco": 29,
+   "api": 29,
+   "ignota": 0,
+   "stima_anteriore": 24,
+   "stima_posteriore": 1,
+   "chiamate": 29,
+   "urn_api": "urn:nir:stato:decreto.legislativo:2000;38",
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Ambito di applicazione delle gestioni",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "d18cf0ff62e2"
+  },
+  "2": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Classificazione dei datori di lavoro",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "0d6edb54b0f0"
+  },
+  "3": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Tariffe dei premi",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "9c6343e59ad7"
+  },
+  "4": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Assicurazione dei lavoratori dell'area dirigenziale",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "771d69bb7197"
+  },
+  "5": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Assicurazione dei lavoratori parasubordinati",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "9e80a36cc41f"
+  },
+  "6": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "",
+   "vigore_da": "2022-07-01",
+   "datazione": "api",
+   "h": "eb976d0a50e1"
+  },
+  "7": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Lavoratori italiani operanti nei Paesi extracomunitari",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "7277662c432b"
+  },
+  "8": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Retribuzioni di ragguaglio",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "f051ea792314"
+  },
+  "9": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Rettifica per errore",
+   "vigore_da": "2005-05-19",
+   "datazione": "api",
+   "h": "ec0e6ccdd2cc"
+  },
+  "10": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Malattie professionali",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "7c02d9ea8924"
+  },
+  "11": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Rivalutazione delle rendite",
+   "vigore_da": "2006-11-29",
+   "datazione": "api",
+   "h": "2721260dc160"
+  },
+  "12": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Infortunio in itinere",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "20aa3ab9c252"
+  },
+  "13": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Danno biologico",
+   "vigore_da": "2021-04-15",
+   "datazione": "api",
+   "h": "b7d4fbeac315"
+  },
+  "13-bis": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Disposizioni in tema di menomazione dell'integrita' psicofisica",
+   "vigore_da": "2007-01-01",
+   "datazione": "api",
+   "h": "3a4eb15a967e"
+  },
+  "14": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Norme in materia di procedure e speditezza dell'azione amministrativa",
+   "vigore_da": "2003-01-30",
+   "datazione": "api",
+   "h": "0a6ba39092a3"
+  },
+  "15": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Natura e funzione del Casellario centrale infortuni",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "d5dd70bf63ca"
+  },
+  "16": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Compiti del Casellario",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "2410b8b574c7"
+  },
+  "17": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Utenti del Casellario",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "4812ec0073b9"
+  },
+  "18": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Obblighi e diritti degli utenti",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "7ff3ac18c487"
+  },
+  "19": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Organi del Casellario",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "d24b66c44cb9"
+  },
+  "20": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "S a n z i o n i",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "991f305ea41f"
+  },
+  "21": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Contributi",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "7b464f8200f7"
+  },
+  "22": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Regolamento di esecuzione",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "6f9a6ffd3fdd"
+  },
+  "23": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Programmi e progetti in materia di sicurezza e igiene del lavoro",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "17387f689ea6"
+  },
+  "24": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Progetti formativi e per l'abbattimento delle barriere architettoniche",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "8274c6ef2e92"
+  },
+  "25": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Denuncia degli infortuni sul lavoro",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "61d75b0572f8"
+  },
+  "26": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Verifiche ispettive per l'evasione e l'elusione assicurativa",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "cb7d742eff18"
+  },
+  "27": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Banca dati",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "4088eb5754ac"
+  },
+  "28": {
+   "file": "dlgs-38-2000.md",
+   "rubrica": "Rideterminazione dei contributi",
+   "vigore_da": "2000-03-16",
+   "datazione": "api",
+   "h": "72cf5545e7d7"
+  }
+ }
+}

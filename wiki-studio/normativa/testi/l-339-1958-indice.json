@@ -1,0 +1,206 @@
+{
+ "_meta": {
+  "codice": "l-339-1958",
+  "nome": "Tutela del rapporto di lavoro domestico (L. 339/1958)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2009-12-14",
+  "articoli": 21,
+  "file": [
+   "l-339-1958.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1958-04-02;339",
+  "versioni": [
+   {
+    "data": "1958-04-17",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1972-05-10",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "1973-06-13",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "1974-04-03",
+    "evento": "rp3",
+    "atto_modificante": "atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "2003-07-29",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 30 giugno 2003, n. 196"
+   },
+   {
+    "data": "2009-12-14",
+    "evento": "rp5",
+    "atto_modificante": "D.Lgs. 1 dicembre 2009, n. 179"
+   }
+  ],
+  "ultima_versione": "2009-12-14",
+  "datazione": {
+   "monoblocco": 21,
+   "api": 21,
+   "ignota": 0,
+   "stima_anteriore": 20,
+   "chiamate": 21,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-339-1958.md",
+   "rubrica": "Norme generali",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "cc22e0e5f593"
+  },
+  "2": {
+   "file": "l-339-1958.md",
+   "rubrica": "Collocamento e avviamento al lavoro",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "a8efef1bca50"
+  },
+  "3": {
+   "file": "l-339-1958.md",
+   "rubrica": "Assunzione",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "22b484a1f085"
+  },
+  "4": {
+   "file": "l-339-1958.md",
+   "rubrica": "Lavoratori minorenni",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "2ae94b4ee9cb"
+  },
+  "5": {
+   "file": "l-339-1958.md",
+   "rubrica": "Periodo di prova",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "05d0d813a0fc"
+  },
+  "6": {
+   "file": "l-339-1958.md",
+   "rubrica": "Diritti e doveri",
+   "vigore_da": "2004-01-01",
+   "datazione": "api",
+   "h": "e470a1f79685"
+  },
+  "7": {
+   "file": "l-339-1958.md",
+   "rubrica": "Riposo settimanale",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "76fc32626e07"
+  },
+  "8": {
+   "file": "l-339-1958.md",
+   "rubrica": "Orario di lavoro e riposi",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "17d02a7c2a68"
+  },
+  "9": {
+   "file": "l-339-1958.md",
+   "rubrica": "Giorni festivi",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "8e00f0fbb651"
+  },
+  "10": {
+   "file": "l-339-1958.md",
+   "rubrica": "Ferie",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "43f7ebcd6a5c"
+  },
+  "11": {
+   "file": "l-339-1958.md",
+   "rubrica": "Commissione centrale",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "43d0b9f50137"
+  },
+  "12": {
+   "file": "l-339-1958.md",
+   "rubrica": "Commissioni provinciali",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "036b32e0b5f2"
+  },
+  "13": {
+   "file": "l-339-1958.md",
+   "rubrica": "Compiti della Commissione centrale",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "48fc8d312dae"
+  },
+  "14": {
+   "file": "l-339-1958.md",
+   "rubrica": "Compiti delle Commissioni provinciali",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "b9e0919378b9"
+  },
+  "15": {
+   "file": "l-339-1958.md",
+   "rubrica": "Congedo matrimoniale",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "88bdc03ae99b"
+  },
+  "16": {
+   "file": "l-339-1958.md",
+   "rubrica": "Preavviso",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "8ca82e23d733"
+  },
+  "17": {
+   "file": "l-339-1958.md",
+   "rubrica": "Indennita' di anzianita'",
+   "vigore_da": "1974-04-04",
+   "datazione": "api",
+   "h": "84e5742524cd"
+  },
+  "18": {
+   "file": "l-339-1958.md",
+   "rubrica": "Indennita' in caso di morte del lavoratore",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "b504eeb4b25a"
+  },
+  "19": {
+   "file": "l-339-1958.md",
+   "rubrica": "",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "848efa443ab0"
+  },
+  "20": {
+   "file": "l-339-1958.md",
+   "rubrica": "Disposizioni transitorie",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "07cb5b9d0ee6"
+  },
+  "21": {
+   "file": "l-339-1958.md",
+   "rubrica": "Disposizioni finali",
+   "vigore_da": "1958-05-02",
+   "datazione": "api",
+   "h": "d944f2f27e6e"
+  }
+ }
+}

@@ -1,0 +1,455 @@
+{
+ "_meta": {
+  "codice": "l-183-2010",
+  "nome": "Collegato lavoro 2010 (L. 183/2010)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2023-12-31",
+  "articoli": 50,
+  "file": [
+   "l-183-2010.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2010-11-04;183",
+  "versioni": [
+   {
+    "data": "2010-11-09",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2011-02-14",
+    "evento": "rp2",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri Dipartimento Della Funzione Pubblica 6 dicembre 2010, n. 13"
+   },
+   {
+    "data": "2011-06-13",
+    "evento": "rp3",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri Dipartimento Per La Digitalizzazione Della Pubblica Amministrazione E L'Innovazione Tecnologica 18 marzo 2011, n. 4"
+   },
+   {
+    "data": "2011-06-20",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "2011-10-13",
+    "evento": "rp5",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri Dipartimento Della Funzione Pubblica 30 giugno 2011, n. 9"
+   },
+   {
+    "data": "2012-02-27",
+    "evento": "rp6",
+    "atto_modificante": "L. 24 febbraio 2012, n. 14"
+   },
+   {
+    "data": "2012-03-12",
+    "evento": "rp7",
+    "atto_modificante": "D.Lgs. 24 febbraio 2012, n. 20"
+   },
+   {
+    "data": "2012-07-03",
+    "evento": "rp8",
+    "atto_modificante": "L. 28 giugno 2012, n. 92"
+   },
+   {
+    "data": "2012-08-09",
+    "evento": "rp9",
+    "atto_modificante": "L. 7 agosto 2012, n. 131"
+   },
+   {
+    "data": "2015-06-24",
+    "evento": "rp10",
+    "atto_modificante": "D.Lgs. 15 giugno 2015, n. 81"
+   },
+   {
+    "data": "2019-06-22",
+    "evento": "rp11",
+    "atto_modificante": "L. 19 giugno 2019, n. 56"
+   },
+   {
+    "data": "2023-04-22",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 22 aprile 2023, n. 44"
+   },
+   {
+    "data": "2023-06-21",
+    "evento": "rp13",
+    "atto_modificante": "L. 21 giugno 2023, n. 74"
+   },
+   {
+    "data": "2023-12-16",
+    "evento": "rp14",
+    "atto_modificante": "D.Lgs. 24 novembre 2023, n. 192"
+   }
+  ],
+  "ultima_versione": "2023-12-16",
+  "datazione": {
+   "monoblocco": 50,
+   "api": 49,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 43,
+   "chiamate": 50,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-183-2010.md",
+   "rubrica": "Delega al Governo per la revisione della disciplina in tema di lavori usuranti",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "16dc7382e7f6"
+  },
+  "2": {
+   "file": "l-183-2010.md",
+   "rubrica": "Delega al Governo per la riorganizzazione degli enti vigilati dal Ministero del lavoro e delle politiche sociali e dal Ministero della salute",
+   "vigore_da": "2012-08-10",
+   "datazione": "api",
+   "h": "3ea4cb7e05d4"
+  },
+  "3": {
+   "file": "l-183-2010.md",
+   "rubrica": "Commissione per la vigilanza ed il controllo sul doping e per la tutela della salute nelle attivita' sportive",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "e9f9efa46cdf"
+  },
+  "4": {
+   "file": "l-183-2010.md",
+   "rubrica": "Misure contro il lavoro sommerso",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "b4671e764817"
+  },
+  "5": {
+   "file": "l-183-2010.md",
+   "rubrica": "Adempimenti formali relativi alle pubbliche amministrazioni",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "edd4b374ee10"
+  },
+  "6": {
+   "file": "l-183-2010.md",
+   "rubrica": "Disposizioni riguardanti i medici e altri professionisti sanitari extracomunitari",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "377d6e73454d"
+  },
+  "7": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifiche alla disciplina sull'orario di lavoro",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "45075ecab6d2"
+  },
+  "8": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifica all'articolo 4 del decreto-legge n. 8 del 2002, convertito, con modificazioni, dalla legge n. 56 del 2002",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "ecc194576d5e"
+  },
+  "9": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifiche all'articolo 66 del decreto-legge n. 112 del 2008, convertito, con modificazioni, dalla legge n. 133 del 2008, e all'articolo 1 del decreto-legge n. 180 del 2008, convertito, con modificazioni, dalla legge n. 1 del 2009",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "76c54ebe5ca5"
+  },
+  "10": {
+   "file": "l-183-2010.md",
+   "rubrica": "Disposizioni in materia di Istituti di istruzione universitaria ad ordinamento speciale",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "c561fc024d0a"
+  },
+  "11": {
+   "file": "l-183-2010.md",
+   "rubrica": "Abrogazione di norme concernenti le valutazioni comparative dei docenti universitari",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "ea2b8ae545c2"
+  },
+  "12": {
+   "file": "l-183-2010.md",
+   "rubrica": "Trasferimento di ricercatori dalla Scuola superiore dell'economia e delle finanze alle universita' statali",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "53c6a28daf1b"
+  },
+  "13": {
+   "file": "l-183-2010.md",
+   "rubrica": "Mobilita' del personale delle pubbliche amministrazioni",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "1d0eccac0749"
+  },
+  "14": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifiche alla disciplina del trattamento di dati personali effettuato da soggetti pubblici",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "85311393a1b6"
+  },
+  "15": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifica all'articolo 9-bis del decreto legislativo 30 luglio 1999, n. 303, in materia di conferimento di incarichi dirigenziali a dirigenti di seconda fascia",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "628ebfbcff99"
+  },
+  "16": {
+   "file": "l-183-2010.md",
+   "rubrica": "Disposizioni in materia di rapporto di lavoro a tempo parziale",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "55bda59d29b6"
+  },
+  "17": {
+   "file": "l-183-2010.md",
+   "rubrica": "Applicazione dei contratti collettivi del comparto della Presidenza del Consiglio dei ministri al personale ad essa trasferito",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "118361b197d0"
+  },
+  "18": {
+   "file": "l-183-2010.md",
+   "rubrica": "Aspettativa",
+   "vigore_da": "2023-06-22",
+   "datazione": "api",
+   "h": "6b69459922c8"
+  },
+  "19": {
+   "file": "l-183-2010.md",
+   "rubrica": "Specificita' delle Forze armate, delle Forze di polizia e del Corpo nazionale dei vigili del fuoco",
+   "vigore_da": "2023-12-31",
+   "datazione": "api",
+   "h": "cc930b4d6586"
+  },
+  "20": {
+   "file": "l-183-2010.md",
+   "rubrica": "Disposizioni concernenti il lavoro sul naviglio di Stato",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "b358ba1445aa"
+  },
+  "21": {
+   "file": "l-183-2010.md",
+   "rubrica": "Misure atte a garantire pari opportunita', benessere di chi lavora e assenza di discriminazioni nelle amministrazioni pubbliche",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "e8d53e800407"
+  },
+  "22": {
+   "file": "l-183-2010.md",
+   "rubrica": "Eta' pensionabile dei dirigenti medici del Servizio sanitario nazionale",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "a07b4768a667"
+  },
+  "23": {
+   "file": "l-183-2010.md",
+   "rubrica": "Delega al Governo per il riordino della normativa in materia di congedi, aspettative e permessi",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "ff7b3f1bbad9"
+  },
+  "24": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifiche alla disciplina in materia di permessi per l'assistenza a portatori di handicap in situazione di gravita'",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "a0448661209e"
+  },
+  "25": {
+   "file": "l-183-2010.md",
+   "rubrica": "Certificati di malattia",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "43f30c35dad7"
+  },
+  "26": {
+   "file": "l-183-2010.md",
+   "rubrica": "Aspettativa per conferimento di incarichi, ai sensi dell'articolo 19, comma 6, del decreto legislativo 30 marzo 2001, n. 165",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "091c61b48672"
+  },
+  "27": {
+   "file": "l-183-2010.md",
+   "rubrica": "Disposizioni in materia di personale dell'Amministrazione della difesa",
+   "vigore_da": "2012-03-27",
+   "datazione": "api",
+   "h": "90a579399dfc"
+  },
+  "28": {
+   "file": "l-183-2010.md",
+   "rubrica": "Personale dei gruppi sportivi delle Forze armate, delle Forze di polizia e del Corpo nazionale dei vigili del fuoco",
+   "vigore_da": "2012-03-27",
+   "datazione": "api",
+   "h": "00532c945649"
+  },
+  "29": {
+   "file": "l-183-2010.md",
+   "rubrica": "Concorsi interni per vice revisore tecnico e vice perito tecnico della Polizia di Stato",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "dae1b067ca0b"
+  },
+  "30": {
+   "file": "l-183-2010.md",
+   "rubrica": "Clausole generali e certificazione del contratto di lavoro",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "e1da8922b830"
+  },
+  "31": {
+   "file": "l-183-2010.md",
+   "rubrica": "Conciliazione e arbitrato",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "f7531bf8f403"
+  },
+  "32": {
+   "file": "l-183-2010.md",
+   "rubrica": "Decadenze e disposizioni in materia di contratto di lavoro a tempo determinato",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "b2ed286c5f28"
+  },
+  "33": {
+   "file": "l-183-2010.md",
+   "rubrica": "Accesso ispettivo, potere di diffida e verbalizzazione unica",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "44e0d4c3a0b0"
+  },
+  "34": {
+   "file": "l-183-2010.md",
+   "rubrica": "Indicatore di situazione economica equivalente",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "03be018d2ac5"
+  },
+  "35": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifiche al decreto-legge 29 novembre 2008, n. 185, convertito, con modificazioni, dalla legge 28 gennaio 2009, n. 2",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "05e34b649267"
+  },
+  "36": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifiche all'articolo 9 del decreto-legge n. 148 del 1993, convertito, con modificazioni, dalla legge n. 236 del 1993",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "da56bdbde508"
+  },
+  "37": {
+   "file": "l-183-2010.md",
+   "rubrica": "Sottrazione alle procedure esecutive dei fondi intestati al Ministero del lavoro e delle politiche sociali",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "14c334ccb8c6"
+  },
+  "38": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifica all'articolo 11 del decreto legislativo 23 aprile 2004, n. 124",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "9face33c493e"
+  },
+  "39": {
+   "file": "l-183-2010.md",
+   "rubrica": "Obbligo di versamento delle ritenute previdenziali",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "bab9c9a9f2f0"
+  },
+  "40": {
+   "file": "l-183-2010.md",
+   "rubrica": "Contribuzione figurativa",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "1b3e737e203a"
+  },
+  "41": {
+   "file": "l-183-2010.md",
+   "rubrica": "Responsabilita' di terzi nelle invalidita' civili",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "361bdc3bf915"
+  },
+  "42": {
+   "file": "l-183-2010.md",
+   "rubrica": "Comunicazioni delle imprese di assicurazione all'INPS",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "3552fa336bc7"
+  },
+  "43": {
+   "file": "l-183-2010.md",
+   "rubrica": "Efficacia delle domande di iscrizione e cancellazione dall'albo delle imprese artigiane per gli enti previdenziali",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "cf1680566655"
+  },
+  "44": {
+   "file": "l-183-2010.md",
+   "rubrica": "Pignoramento e sequestro nei confronti degli istituti esercenti forme di previdenza e assistenza obbligatoria",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "11ce3f1a81ef"
+  },
+  "45": {
+   "file": "l-183-2010.md",
+   "rubrica": "Disposizioni in materia di contribuzione figurativa per periodi di malattia",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "816befeaa4d9"
+  },
+  "46": {
+   "file": "l-183-2010.md",
+   "rubrica": "Differimento di termini per l'esercizio di deleghe in materia di ammortizzatori sociali, di servizi per l'impiego, incentivi all'occupazione e apprendistato e di occupazione femminile",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "95c022c08bfe"
+  },
+  "47": {
+   "file": "l-183-2010.md",
+   "rubrica": "Disposizione finalizzata ad assicurare l'indennizzo per complicanze di tipo irreversibile a causa di vaccinazioni obbligatorie",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "57e92054d579"
+  },
+  "48": {
+   "file": "l-183-2010.md",
+   "rubrica": "Modifiche al decreto legislativo 10 settembre 2003, n. 276",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "2b2ec215961f"
+  },
+  "49": {
+   "file": "l-183-2010.md",
+   "rubrica": "Nomina dei componenti di comitati istituiti presso l'INPS",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "d0592ea7a90e"
+  },
+  "50": {
+   "file": "l-183-2010.md",
+   "rubrica": "Disposizioni in materia di collaborazioni coordinate e continuative",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "f1718fb4c793"
+  }
+ }
+}

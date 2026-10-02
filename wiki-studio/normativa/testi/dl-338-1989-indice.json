@@ -1,0 +1,185 @@
+{
+ "_meta": {
+  "codice": "dl-338-1989",
+  "nome": "Evasione contributiva e minimale contributivo (D.L. 338/1989)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-03-27",
+  "articoli": 10,
+  "file": [
+   "dl-338-1989.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legge:1989-10-09;338",
+  "versioni": [
+   {
+    "data": "1989-10-10",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1989-12-06",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "1989-12-09",
+    "evento": "rp2",
+    "atto_modificante": "L. 7 dicembre 1989, n. 389"
+   },
+   {
+    "data": "1990-06-04",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 4 giugno 1990, n. 129"
+   },
+   {
+    "data": "1990-07-11",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "1991-04-02",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 29 marzo 1991, n. 103"
+   },
+   {
+    "data": "1993-01-16",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 15 gennaio 1993, n. 6"
+   },
+   {
+    "data": "1993-03-22",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 22 marzo 1993, n. 71"
+   },
+   {
+    "data": "1995-12-29",
+    "evento": "rp8",
+    "atto_modificante": "L. 28 dicembre 1995, n. 549"
+   },
+   {
+    "data": "1996-10-02",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 1 ottobre 1996, n. 510"
+   },
+   {
+    "data": "1997-07-04",
+    "evento": "rp10",
+    "atto_modificante": "L. 24 giugno 1997, n. 196"
+   },
+   {
+    "data": "1999-03-05",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 26 febbraio 1999, n. 46"
+   },
+   {
+    "data": "2002-07-08",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 8 luglio 2002, n. 138"
+   },
+   {
+    "data": "2020-03-17",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 17 marzo 2020, n. 18"
+   },
+   {
+    "data": "2020-04-29",
+    "evento": "rp14",
+    "atto_modificante": "L. 24 aprile 2020, n. 27"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp15",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   },
+   {
+    "data": "2025-03-26",
+    "evento": "rp16",
+    "atto_modificante": "D.Lgs. 24 marzo 2025, n. 33"
+   }
+  ],
+  "ultima_versione": "2025-03-26",
+  "datazione": {
+   "monoblocco": 10,
+   "api": 10,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "stima_uguale": 4,
+   "chiamate": 10,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Retribuzione imponibile, accreditamento della contribuzione settimanale e limite minimo di retribuzione imponibile",
+   "vigore_da": "1997-07-19",
+   "datazione": "api",
+   "h": "9a2e3ecaae49"
+  },
+  "2": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Riscossione dei crediti contributivi, rateazione dei pagamenti, norme in materia contributiva",
+   "vigore_da": "2025-03-27",
+   "datazione": "api",
+   "h": "2aed136af36f"
+  },
+  "3": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Modifiche al decreto del Presidente della Repubblica 28 gennaio 1988, n. 43",
+   "vigore_da": "1989-10-10",
+   "datazione": "api",
+   "h": "535195a35d0d"
+  },
+  "4": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Incompatibilita' dei trattamenti di disoccupazione con quelli pensionistici, norme per l'assicurazione obbligatoria alla CPDEL e all'INADEL, disposizioni relative all'INAIL, ai rapporti INPS, INAIL e camere di commercio, industria ed artigianato, nonche' alla ripartizione dei contributi fra i patronati",
+   "vigore_da": "1993-03-19",
+   "datazione": "api",
+   "h": "f7e0db96cfc1"
+  },
+  "5": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Calcolo delle indennita' di anzianita' per i lavoratori delle zone terremotate",
+   "vigore_da": "1989-10-10",
+   "datazione": "api",
+   "h": "4efcde6993b3"
+  },
+  "6": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Fiscalizzazione degli oneri sociali",
+   "vigore_da": "1997-07-19",
+   "datazione": "api",
+   "h": "b84249cd587f"
+  },
+  "7": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Differimento di termini per gli sgravi contributivi per il Mezzogiorno, per il completamento del piano straordinario per l'occupazione giovanile e per la presentazione delle domande per il sussidio di disoccupazione. Sospensione del versamento dei contributi per le imprese operanti nelle regioni colpite dal fenomeno dell'eutrofizzazione",
+   "vigore_da": "2020-04-30",
+   "datazione": "api",
+   "h": "1edca562b000"
+  },
+  "8": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Assicurazione per gli apprendisti artigiani",
+   "vigore_da": "1990-07-12",
+   "datazione": "api",
+   "h": "ae03233c2600"
+  },
+  "9": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "1989-10-10",
+   "datazione": "api",
+   "h": "5706c4b59cea"
+  },
+  "10": {
+   "file": "dl-338-1989.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "1989-10-10",
+   "datazione": "api",
+   "h": "b55f0406934c"
+  }
+ }
+}

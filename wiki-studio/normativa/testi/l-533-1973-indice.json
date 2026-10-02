@@ -1,0 +1,270 @@
+{
+ "_meta": {
+  "codice": "l-533-1973",
+  "nome": "Disciplina delle controversie individuali di lavoro (L. 533/1973)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2002-07-01",
+  "articoli": 30,
+  "file": [
+   "l-533-1973.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1973-08-11;533",
+  "versioni": [
+   {
+    "data": "1973-09-13",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1973-09-25",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 21 settembre 1973, n. 566"
+   },
+   {
+    "data": "1998-04-08",
+    "evento": "rp2",
+    "atto_modificante": "D.Lgs. 31 marzo 1998, n. 80"
+   },
+   {
+    "data": "2001-04-20",
+    "evento": "rp3",
+    "atto_modificante": "L. 29 marzo 2001, n. 134"
+   },
+   {
+    "data": "2001-05-09",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 30 marzo 2001, n. 165"
+   },
+   {
+    "data": "2002-06-15",
+    "evento": "rp5+rp6",
+    "atto_modificante": "D.Lgs. 30 maggio 2002, n. 113; D.P.R. 30 maggio 2002, n. 115"
+   }
+  ],
+  "ultima_versione": "2002-06-15",
+  "datazione": {
+   "monoblocco": 30,
+   "api": 29,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 27,
+   "chiamate": 30,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "3515b20da947"
+  },
+  "2": {
+   "file": "l-533-1973.md",
+   "rubrica": "Abolizione dell'intervento in causa del pubblico ministero",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "f655989df32d"
+  },
+  "3": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "8681852c26c1"
+  },
+  "4": {
+   "file": "l-533-1973.md",
+   "rubrica": "Clausola compromissoria",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "f07eb6b4c400"
+  },
+  "5": {
+   "file": "l-533-1973.md",
+   "rubrica": "Arbitrato irrituale",
+   "vigore_da": "2001-05-24",
+   "datazione": "api",
+   "h": "426304a9ecb8"
+  },
+  "6": {
+   "file": "l-533-1973.md",
+   "rubrica": "Rinunzie e transazioni",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "e71e9f080189"
+  },
+  "7": {
+   "file": "l-533-1973.md",
+   "rubrica": "Formazione del silenzio rifiuto sulla richiesta agli istituti previdenziali e assistenziali",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "34ffba706282"
+  },
+  "8": {
+   "file": "l-533-1973.md",
+   "rubrica": "Procedure amministrative in materia assistenziale e previdenziale",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "5e60dd8e06ba"
+  },
+  "9": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "0e27e9cff80d"
+  },
+  "10": {
+   "file": "l-533-1973.md",
+   "rubrica": "Gratuita' del giudizio",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "8222e8ebc4c1"
+  },
+  "11": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "2002-07-01",
+   "datazione": "api",
+   "h": "07bd61a8643b"
+  },
+  "12": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "2002-07-01",
+   "datazione": "api",
+   "h": "07bd61a8643b"
+  },
+  "13": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "2002-07-01",
+   "datazione": "api",
+   "h": "07bd61a8643b"
+  },
+  "14": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "2002-07-01",
+   "datazione": "api",
+   "h": "07bd61a8643b"
+  },
+  "15": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "2002-07-01",
+   "datazione": "api",
+   "h": "07bd61a8643b"
+  },
+  "16": {
+   "file": "l-533-1973.md",
+   "rubrica": "",
+   "vigore_da": "2002-07-01",
+   "datazione": "api",
+   "h": "07bd61a8643b"
+  },
+  "17": {
+   "file": "l-533-1973.md",
+   "rubrica": "Costituzione delle preture in sezioni",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "df030678dd6f"
+  },
+  "18": {
+   "file": "l-533-1973.md",
+   "rubrica": "Costituzione dei tribunali in sezioni",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "84ed3eed8dc5"
+  },
+  "19": {
+   "file": "l-533-1973.md",
+   "rubrica": "Sezione lavoro della Corte di cassazione",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "ad87dadcc209"
+  },
+  "20": {
+   "file": "l-533-1973.md",
+   "rubrica": "Disciplina transitoria dei giudizi pendenti",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "35ae3407b03c"
+  },
+  "21": {
+   "file": "l-533-1973.md",
+   "rubrica": "Assegnazione dei magistrati agli uffici giudiziari",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "f9b45cb9f43e"
+  },
+  "22": {
+   "file": "l-533-1973.md",
+   "rubrica": "Costituzione delle sezioni per le controversie di lavoro fino alla definizione delle cause pendenti",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "4081e9a5ec75"
+  },
+  "23": {
+   "file": "l-533-1973.md",
+   "rubrica": "Prove di concorso per l'ammissione in magistratura",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "26b906603c5b"
+  },
+  "24": {
+   "file": "l-533-1973.md",
+   "rubrica": "Adeguamento delle attrezzature. Onere finanziario",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "4d42ff289e2e"
+  },
+  "25": {
+   "file": "l-533-1973.md",
+   "rubrica": "Aumento dell'organico della magistratura Onere finanziario",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "6fac84fb1158"
+  },
+  "26": {
+   "file": "l-533-1973.md",
+   "rubrica": "Aumento degli organici dei cancellieri e dei coadiutori giudiziari - Onere finanziario",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "d82e3ff00435"
+  },
+  "27": {
+   "file": "l-533-1973.md",
+   "rubrica": "Assunzione di dattilografi e stenodattilografi non di ruolo",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "95bcfff4ba03"
+  },
+  "28": {
+   "file": "l-533-1973.md",
+   "rubrica": "Effetti del collocamento a riposo sui ruoli organici",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "24597368e49e"
+  },
+  "29": {
+   "file": "l-533-1973.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "2a7a278ab862"
+  },
+  "30": {
+   "file": "l-533-1973.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "1973-12-12",
+   "datazione": "api",
+   "h": "80f379d14a5d"
+  }
+ }
+}

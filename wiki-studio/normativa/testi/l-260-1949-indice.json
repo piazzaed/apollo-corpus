@@ -1,0 +1,111 @@
+{
+ "_meta": {
+  "codice": "l-260-1949",
+  "nome": "Ricorrenze festive (L. 260/1949)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-01-01",
+  "articoli": 8,
+  "file": [
+   "l-260-1949.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1949-05-27;260",
+  "versioni": [
+   {
+    "data": "1949-05-31",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1954-04-22",
+    "evento": "rp1",
+    "atto_modificante": "L. 31 marzo 1954, n. 90"
+   },
+   {
+    "data": "1999-12-31",
+    "evento": "rp2",
+    "atto_modificante": "D.Lgs. 30 dicembre 1999, n. 507"
+   },
+   {
+    "data": "2009-12-14",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 1 dicembre 2009, n. 179"
+   },
+   {
+    "data": "2025-10-10",
+    "evento": "rp4",
+    "atto_modificante": "L. 8 ottobre 2025, n. 151"
+   }
+  ],
+  "ultima_versione": "2025-10-10",
+  "datazione": {
+   "monoblocco": 8,
+   "api": 7,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 4,
+   "chiamate": 8,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-260-1949.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "84d083f52150"
+  },
+  "2": {
+   "file": "l-260-1949.md",
+   "rubrica": "",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "00e99a0d88fb"
+  },
+  "3": {
+   "file": "l-260-1949.md",
+   "rubrica": "",
+   "vigore_da": "1949-06-01",
+   "datazione": "api",
+   "h": "f11b56123107"
+  },
+  "4": {
+   "file": "l-260-1949.md",
+   "rubrica": "",
+   "vigore_da": "1949-06-01",
+   "datazione": "api",
+   "h": "94702c441258"
+  },
+  "5": {
+   "file": "l-260-1949.md",
+   "rubrica": "",
+   "vigore_da": "1954-05-07",
+   "datazione": "api",
+   "h": "41f1e12c4695"
+  },
+  "6": {
+   "file": "l-260-1949.md",
+   "rubrica": "",
+   "vigore_da": "2000-01-15",
+   "datazione": "api",
+   "h": "ade0a022b517"
+  },
+  "7": {
+   "file": "l-260-1949.md",
+   "rubrica": "",
+   "vigore_da": "1949-06-01",
+   "datazione": "api",
+   "h": "80a8213719b8"
+  },
+  "8": {
+   "file": "l-260-1949.md",
+   "rubrica": "",
+   "vigore_da": "1949-06-01",
+   "datazione": "api",
+   "h": "51be324ec0e6"
+  }
+ }
+}

@@ -1,0 +1,981 @@
+{
+ "_meta": {
+  "codice": "dlgs-276-2003",
+  "nome": "Occupazione e mercato del lavoro: somministrazione, appalto, distacco (D.Lgs. 276/2003)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2025-12-31",
+  "articoli": 88,
+  "file": [
+   "dlgs-276-2003.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2003-09-10;276",
+  "versioni": [
+   {
+    "data": "2003-10-09",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2003-10-28",
+    "evento": "rp1+rp2",
+    "atto_modificante": "atto modificante non indicato (rp1); atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "2004-01-14",
+    "evento": "rp3",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 8 gennaio 2004, n. 1"
+   },
+   {
+    "data": "2004-01-22",
+    "evento": "rp4",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 15 gennaio 2004, n. 3"
+   },
+   {
+    "data": "2004-03-30",
+    "evento": "rp5",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 18 marzo 2004, n. 9"
+   },
+   {
+    "data": "2004-06-30",
+    "evento": "rp6",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 24 giugno 2004, n. 25"
+   },
+   {
+    "data": "2004-08-04",
+    "evento": "rp7+rp8",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 21 luglio 2004, n. 30; Circ. Ministero Del Lavoro E Delle Politiche Sociali 21 luglio 2004, n. 31"
+   },
+   {
+    "data": "2004-08-11",
+    "evento": "rp9",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 2 agosto 2004, n. 32"
+   },
+   {
+    "data": "2004-10-11",
+    "evento": "rp10",
+    "atto_modificante": "D.Lgs. 6 ottobre 2004, n. 251"
+   },
+   {
+    "data": "2004-10-22",
+    "evento": "rp11",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 14 ottobre 2004, n. 40"
+   },
+   {
+    "data": "2004-11-29",
+    "evento": "rp12",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 23 ottobre 2004, n. 41"
+   },
+   {
+    "data": "2005-02-02",
+    "evento": "rp13",
+    "atto_modificante": "atto modificante non indicato (rp13)"
+   },
+   {
+    "data": "2005-02-10",
+    "evento": "rp14",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 3 febbraio 2005, n. 4"
+   },
+   {
+    "data": "2005-03-16",
+    "evento": "rp15",
+    "atto_modificante": "D.L. 14 marzo 2005, n. 35"
+   },
+   {
+    "data": "2005-07-28",
+    "evento": "rp16",
+    "atto_modificante": "atto modificante non indicato (rp16)"
+   },
+   {
+    "data": "2005-10-03",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 30 settembre 2005, n. 203"
+   },
+   {
+    "data": "2005-12-29",
+    "evento": "rp18",
+    "atto_modificante": "L. 23 dicembre 2005, n. 266"
+   },
+   {
+    "data": "2006-01-13",
+    "evento": "rp19",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 22 dicembre 2005, n. 40"
+   },
+   {
+    "data": "2006-02-07",
+    "evento": "rp20",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 25 gennaio 2006, n. 2"
+   },
+   {
+    "data": "2006-07-04",
+    "evento": "rp21",
+    "atto_modificante": "D.L. 4 luglio 2006, n. 223"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp22",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2007-08-03",
+    "evento": "rp23",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Della Previdenza Sociale 5 luglio 2007, n. 20"
+   },
+   {
+    "data": "2007-12-29",
+    "evento": "rp24",
+    "atto_modificante": "L. 24 dicembre 2007, n. 247"
+   },
+   {
+    "data": "2008-06-25",
+    "evento": "rp25",
+    "atto_modificante": "D.L. 25 giugno 2008, n. 112"
+   },
+   {
+    "data": "2008-12-10",
+    "evento": "rp26",
+    "atto_modificante": "atto modificante non indicato (rp26)"
+   },
+   {
+    "data": "2009-02-11",
+    "evento": "rp27",
+    "atto_modificante": "D.L. 10 febbraio 2009, n. 5"
+   },
+   {
+    "data": "2009-09-25",
+    "evento": "rp28",
+    "atto_modificante": "D.L. 25 settembre 2009, n. 134"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp29",
+    "atto_modificante": "L. 23 dicembre 2009, n. 191"
+   },
+   {
+    "data": "2010-07-27",
+    "evento": "rp30",
+    "atto_modificante": "Circ. Ministero Dell'Economia E Delle Finanze 2 luglio 2010, n. 28"
+   },
+   {
+    "data": "2010-11-09",
+    "evento": "rp31",
+    "atto_modificante": "L. 4 novembre 2010, n. 183"
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp32",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2011-03-31",
+    "evento": "rp33",
+    "atto_modificante": "atto modificante non indicato (rp33)"
+   },
+   {
+    "data": "2011-05-13",
+    "evento": "rp34",
+    "atto_modificante": "D.L. 13 maggio 2011, n. 70"
+   },
+   {
+    "data": "2011-07-06",
+    "evento": "rp35",
+    "atto_modificante": "D.L. 6 luglio 2011, n. 98"
+   },
+   {
+    "data": "2011-10-10",
+    "evento": "rp36",
+    "atto_modificante": "D.Lgs. 14 settembre 2011, n. 167"
+   },
+   {
+    "data": "2011-11-14",
+    "evento": "rp37",
+    "atto_modificante": "L. 12 novembre 2011, n. 183"
+   },
+   {
+    "data": "2011-12-29",
+    "evento": "rp38",
+    "atto_modificante": "D.L. 29 dicembre 2011, n. 216"
+   },
+   {
+    "data": "2012-01-24",
+    "evento": "rp39",
+    "atto_modificante": "D.L. 24 gennaio 2012, n. 1"
+   },
+   {
+    "data": "2012-02-09",
+    "evento": "rp40",
+    "atto_modificante": "D.L. 9 febbraio 2012, n. 5"
+   },
+   {
+    "data": "2012-03-22",
+    "evento": "rp41",
+    "atto_modificante": "D.Lgs. 2 marzo 2012, n. 24"
+   },
+   {
+    "data": "2012-06-26",
+    "evento": "rp42",
+    "atto_modificante": "D.L. 22 giugno 2012, n. 83"
+   },
+   {
+    "data": "2012-07-03",
+    "evento": "rp43",
+    "atto_modificante": "L. 28 giugno 2012, n. 92"
+   },
+   {
+    "data": "2012-10-19",
+    "evento": "rp44",
+    "atto_modificante": "D.L. 18 ottobre 2012, n. 179"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp45",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   },
+   {
+    "data": "2013-12-30",
+    "evento": "rp46",
+    "atto_modificante": "D.L. 30 dicembre 2013, n. 150"
+   },
+   {
+    "data": "2014-03-20",
+    "evento": "rp47",
+    "atto_modificante": "D.L. 20 marzo 2014, n. 34"
+   },
+   {
+    "data": "2014-11-28",
+    "evento": "rp48",
+    "atto_modificante": "D.Lgs. 21 novembre 2014, n. 175"
+   },
+   {
+    "data": "2015-06-24",
+    "evento": "rp49",
+    "atto_modificante": "D.Lgs. 15 giugno 2015, n. 81"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp50",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 150"
+   },
+   {
+    "data": "2016-07-08",
+    "evento": "rp51",
+    "atto_modificante": "L. 7 luglio 2016, n. 122"
+   },
+   {
+    "data": "2016-08-10",
+    "evento": "rp52",
+    "atto_modificante": "L. 28 luglio 2016, n. 154"
+   },
+   {
+    "data": "2017-03-17",
+    "evento": "rp53",
+    "atto_modificante": "D.L. 17 marzo 2017, n. 25"
+   },
+   {
+    "data": "2017-04-24",
+    "evento": "rp54",
+    "atto_modificante": "D.L. 24 aprile 2017, n. 50"
+   },
+   {
+    "data": "2018-02-09",
+    "evento": "rp55",
+    "atto_modificante": "D.Lgs. 13 dicembre 2017, n. 232"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp56",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2020-03-17",
+    "evento": "rp57",
+    "atto_modificante": "D.L. 17 marzo 2020, n. 18"
+   },
+   {
+    "data": "2020-10-28",
+    "evento": "rp58",
+    "atto_modificante": "D.L. 28 ottobre 2020, n. 137"
+   },
+   {
+    "data": "2020-12-24",
+    "evento": "rp59",
+    "atto_modificante": "L. 18 dicembre 2020, n. 176"
+   },
+   {
+    "data": "2022-07-29",
+    "evento": "rp60",
+    "atto_modificante": "D.Lgs. 27 giugno 2022, n. 104"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp61",
+    "atto_modificante": "D.L. 29 dicembre 2022, n. 198"
+   },
+   {
+    "data": "2023-02-27",
+    "evento": "rp62",
+    "atto_modificante": "L. 24 febbraio 2023, n. 14"
+   },
+   {
+    "data": "2024-03-02",
+    "evento": "rp63",
+    "atto_modificante": "D.L. 2 marzo 2024, n. 19"
+   },
+   {
+    "data": "2024-04-30",
+    "evento": "rp64",
+    "atto_modificante": "L. 29 aprile 2024, n. 56"
+   },
+   {
+    "data": "2024-10-11",
+    "evento": "rp65",
+    "atto_modificante": "D.L. 11 ottobre 2024, n. 145"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp66",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   },
+   {
+    "data": "2025-10-31",
+    "evento": "rp67",
+    "atto_modificante": "D.L. 31 ottobre 2025, n. 159"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp68",
+    "atto_modificante": "L. 29 dicembre 2025, n. 198"
+   }
+  ],
+  "ultima_versione": "2025-12-30",
+  "datazione": {
+   "monoblocco": 88,
+   "api": 88,
+   "ignota": 0,
+   "stima_anteriore": 38,
+   "chiamate": 88,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Finalita' e campo di applicazione",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "3e54841367de"
+  },
+  "2": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "9198fa9dc2ba"
+  },
+  "3": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "F i n a l i t a'",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "96084da9b83d"
+  },
+  "4": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Agenzie per il lavoro",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "bfa2f6d81684"
+  },
+  "5": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Requisiti giuridici e finanziari",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "f8408835ffd9"
+  },
+  "6": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Regimi particolari di autorizzazione",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "7b855bb01a8c"
+  },
+  "7": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Accreditamenti",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "d3213b95fbb2"
+  },
+  "8": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Ambito di diffusione dei dati relativi all'incontro domanda-offerta di lavoro",
+   "vigore_da": "2009-11-25",
+   "datazione": "api",
+   "h": "4c097e63553c"
+  },
+  "9": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Comunicazioni a mezzo stampa internet, televisione o altri mezzi di informazione",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "7fab722e1b05"
+  },
+  "10": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Divieto di indagini sulle opinioni e trattamenti discriminatori",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "2e69f5029443"
+  },
+  "11": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Divieto di oneri in capo ai lavoratori",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "19f20e2ac769"
+  },
+  "12": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Fondi per la formazione e l'integrazione del reddito",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "4714cad97769"
+  },
+  "13": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Misure di incentivazione del raccordo pubblico e privato",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "5de846a39137"
+  },
+  "14": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Cooperative sociali, imprese sociali e inserimento lavorativo dei lavoratori svantaggiati",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "35c8bb6ab456"
+  },
+  "15": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Principi e criteri generali",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "76cf0bc435e2"
+  },
+  "16": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Standard tecnici e flussi informativi di scambio",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "5b6c66d03097"
+  },
+  "17": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Monitoraggio statistico e valutazione delle politiche del lavoro",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "a3014febded0"
+  },
+  "18": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "96aa6e6bc78c"
+  },
+  "19": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Sanzioni amministrative",
+   "vigore_da": "2022-08-13",
+   "datazione": "api",
+   "h": "a5b9cb35e510"
+  },
+  "20": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "21": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "22": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "23": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "24": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "25": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "26": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "27": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "28": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "29": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Appalto",
+   "vigore_da": "2024-05-01",
+   "datazione": "api",
+   "h": "bae7ce94ff1e"
+  },
+  "30": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Distacco",
+   "vigore_da": "2013-08-23",
+   "datazione": "api",
+   "h": "998f29af1298"
+  },
+  "31": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Gruppi di impresa",
+   "vigore_da": "2016-08-25",
+   "datazione": "api",
+   "h": "e476d7014b9e"
+  },
+  "32": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Modifica all'articolo 2112 comma quinto, del Codice civile",
+   "vigore_da": "2004-10-26",
+   "datazione": "api",
+   "h": "8a93fceeb7c8"
+  },
+  "33": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "34": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "35": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "36": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "37": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "38": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "39": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "40": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "41": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "42": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "43": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "44": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "45": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "46": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Norme di modifica al decreto legislativo 25 febbraio 2000, n. 61, e successive modifiche e integrazioni",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "f79a0882ae93"
+  },
+  "47": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-25",
+   "datazione": "api",
+   "h": "1ae641e35372"
+  },
+  "48": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-25",
+   "datazione": "api",
+   "h": "1ae641e35372"
+  },
+  "49": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-25",
+   "datazione": "api",
+   "h": "1ae641e35372"
+  },
+  "50": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-25",
+   "datazione": "api",
+   "h": "1ae641e35372"
+  },
+  "51": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-25",
+   "datazione": "api",
+   "h": "1ae641e35372"
+  },
+  "52": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-25",
+   "datazione": "api",
+   "h": "1ae641e35372"
+  },
+  "53": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-25",
+   "datazione": "api",
+   "h": "1ae641e35372"
+  },
+  "54": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "c45555f06e61"
+  },
+  "55": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "c45555f06e61"
+  },
+  "56": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "c45555f06e61"
+  },
+  "57": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "c45555f06e61"
+  },
+  "58": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "c45555f06e61"
+  },
+  "59": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2012-07-18",
+   "datazione": "api",
+   "h": "c45555f06e61"
+  },
+  "59-bis": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Disciplina transitoria dei contratti di formazione e lavoro",
+   "vigore_da": "2004-10-26",
+   "datazione": "api",
+   "h": "8084e6013b97"
+  },
+  "60": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Tirocini estivi di orientamento",
+   "vigore_da": "2005-02-03",
+   "datazione": "api",
+   "h": "e1b85345a120"
+  },
+  "61": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "62": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "63": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "64": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "65": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "66": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "67": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "68": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "69": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "69-bis": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "d30955c2c2e1"
+  },
+  "70": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "71": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "72": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "73": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "",
+   "vigore_da": "2015-06-25",
+   "datazione": "api",
+   "h": "332d5bb8a4b3"
+  },
+  "74": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Prestazioni che esulano dal mercato del lavoro",
+   "vigore_da": "2020-03-17",
+   "datazione": "api",
+   "h": "c64bda958d69"
+  },
+  "75": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Finalita'",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "00112c0e2569"
+  },
+  "76": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Organi di certificazione",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "fd11c4e2b92b"
+  },
+  "77": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Competenza",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "aa63a3979576"
+  },
+  "78": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Procedimento di certificazione e codici di buone pratiche",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "70fdb8ef15c0"
+  },
+  "79": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Efficacia giuridica della certificazione",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "918bf8977916"
+  },
+  "80": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Rimedi esperibili nei confronti della certificazione",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "626dd19b6570"
+  },
+  "81": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Attivita' di consulenza e assistenza alle parti",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "bb71917c0c48"
+  },
+  "82": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Rinunzie e transazioni",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "9514419891a7"
+  },
+  "83": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Deposito del regolamento interno delle cooperative",
+   "vigore_da": "2010-11-24",
+   "datazione": "api",
+   "h": "23809857c3d1"
+  },
+  "84": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Interposizione illecita e appalto genuino",
+   "vigore_da": "2003-10-24",
+   "datazione": "api",
+   "h": "9d509b35f035"
+  },
+  "85": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2004-10-26",
+   "datazione": "api",
+   "h": "c80efdea13d3"
+  },
+  "86": {
+   "file": "dlgs-276-2003.md",
+   "rubrica": "Norme transitorie e finali",
+   "vigore_da": "2023-02-28",
+   "datazione": "api",
+   "h": "5d5a72856528"
+  }
+ }
+}

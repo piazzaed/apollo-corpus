@@ -1,0 +1,274 @@
+{
+ "_meta": {
+  "codice": "l-203-2024",
+  "nome": "Collegato lavoro 2024 (L. 203/2024)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-10-02",
+  "articoli": 34,
+  "file": [
+   "l-203-2024.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2024-12-13;203",
+  "versioni": [
+   {
+    "data": "2024-12-28",
+    "evento": "ro1",
+    "atto_modificante": null
+   }
+  ],
+  "ultima_versione": "2024-12-28",
+  "datazione": {
+   "monoblocco": 34,
+   "api": 33,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 33,
+   "chiamate": 34,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-203-2024.md",
+   "rubrica": "Modifiche al decreto legislativo 9 aprile 2008, n. 81",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "12fe02588c96"
+  },
+  "2": {
+   "file": "l-203-2024.md",
+   "rubrica": "Disposizioni per la semplificazione delle procedure relative ai ricorsi in materia di applicazione delle tariffe dei premi per l'assicurazione contro gli infortuni sul lavoro e le malattie professionali",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "9ec5dc139c15"
+  },
+  "3": {
+   "file": "l-203-2024.md",
+   "rubrica": "Restituzione delle somme versate dall'INAIL per il periodo successivo alla morte degli aventi diritto",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "6fe15c59fedd"
+  },
+  "4": {
+   "file": "l-203-2024.md",
+   "rubrica": "Disposizioni per la semplificazione delle procedure relative ai ricorsi in materia di prestazioni dell'assicurazione contro gli infortuni domestici",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "2f20a9b1390f"
+  },
+  "5": {
+   "file": "l-203-2024.md",
+   "rubrica": "Modifica all'articolo 2 del decreto-legge 30 dicembre 1979, n. 663, convertito, con modificazioni, dalla legge 29 febbraio 1980, n. 33, in materia di comunicazioni di decesso all'Istituto nazionale della previdenza sociale",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "09cf9c65efe3"
+  },
+  "6": {
+   "file": "l-203-2024.md",
+   "rubrica": "Sospensione della prestazione di cassa integrazione",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "bd30695beb60"
+  },
+  "7": {
+   "file": "l-203-2024.md",
+   "rubrica": "Sospensione della decorrenza dei termini degli adempimenti a carico dei liberi professionisti per parto, interruzione di gravidanza o assistenza al figlio minorenne",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "ab4634f3855c"
+  },
+  "8": {
+   "file": "l-203-2024.md",
+   "rubrica": "",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "e098a052dd27"
+  },
+  "9": {
+   "file": "l-203-2024.md",
+   "rubrica": "",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "9e991e058327"
+  },
+  "10": {
+   "file": "l-203-2024.md",
+   "rubrica": "Modifiche al decreto legislativo 15 giugno 2015, n. 81, in materia di somministrazione di lavoro",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "d137057bb4c9"
+  },
+  "11": {
+   "file": "l-203-2024.md",
+   "rubrica": "Norma di interpretazione autentica dell'articolo 21, comma 2, del decreto legislativo 15 giugno 2015, n. 81, in materia di attivita' stagionali",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "11ff619513ec"
+  },
+  "12": {
+   "file": "l-203-2024.md",
+   "rubrica": "Modifica all'articolo 9 della legge 7 giugno 2000, n. 150, in materia di indennita' per i dipendenti degli uffici stampa delle regioni",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "210b2008d700"
+  },
+  "13": {
+   "file": "l-203-2024.md",
+   "rubrica": "Durata del periodo di prova",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "d42b096b140e"
+  },
+  "14": {
+   "file": "l-203-2024.md",
+   "rubrica": "Termine per le comunicazioni obbligatorie in materia di lavoro agile",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "a9e259820cce"
+  },
+  "15": {
+   "file": "l-203-2024.md",
+   "rubrica": "Misure in materia di politiche formative nell'apprendistato",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "261eacacfe46"
+  },
+  "16": {
+   "file": "l-203-2024.md",
+   "rubrica": "Incremento delle risorse destinate alle spese generali di amministrazione degli enti privati gestori di attivita' formative",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "b3ac0f02f280"
+  },
+  "17": {
+   "file": "l-203-2024.md",
+   "rubrica": "Applicazione del regime forfetario nel caso di contratti misti",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "c52a06b49bd7"
+  },
+  "18": {
+   "file": "l-203-2024.md",
+   "rubrica": "Unico contratto di apprendistato duale",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "368eb2b4e5fd"
+  },
+  "19": {
+   "file": "l-203-2024.md",
+   "rubrica": "Norme in materia di risoluzione del rapporto di lavoro",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "9d47c4a8ce5a"
+  },
+  "20": {
+   "file": "l-203-2024.md",
+   "rubrica": "Disposizioni relative ai procedimenti di conciliazione in materia di lavoro",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "d2a5de315df6"
+  },
+  "21": {
+   "file": "l-203-2024.md",
+   "rubrica": "",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "b8aa543c0bc5"
+  },
+  "22": {
+   "file": "l-203-2024.md",
+   "rubrica": "Disposizioni in materia di dichiarazione della spesa sostenuta per attivita' di mediazione in caso di cessione di immobili",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "159bc25b21a8"
+  },
+  "23": {
+   "file": "l-203-2024.md",
+   "rubrica": "Dilazione del pagamento dei debiti contributivi",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "96eda77e3595"
+  },
+  "24": {
+   "file": "l-203-2024.md",
+   "rubrica": "Disposizioni in materia previdenziale concernenti il personale a contratto degli uffici all'estero del Ministero degli affari esteri e della cooperazione internazionale",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "9bc9b39f9bc2"
+  },
+  "25": {
+   "file": "l-203-2024.md",
+   "rubrica": "Disposizioni concernenti la notificazione delle controversie in materia contributiva",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "5b7a90c0e4d4"
+  },
+  "26": {
+   "file": "l-203-2024.md",
+   "rubrica": "",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "bed7b5ee28ec"
+  },
+  "27": {
+   "file": "l-203-2024.md",
+   "rubrica": "Apertura strutturale dei termini di adesione alla gestione unitaria delle prestazioni creditizie e sociali",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "5ecbf07fff42"
+  },
+  "28": {
+   "file": "l-203-2024.md",
+   "rubrica": "Disposizioni in materia di iscrizione dei dipendenti pubblici in quiescenza alle organizzazioni sindacali del pubblico impiego",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "8fdfdce1d591"
+  },
+  "29": {
+   "file": "l-203-2024.md",
+   "rubrica": "Uniformazione dei tempi di presentazione delle domande di accesso all'APE sociale e di pensionamento anticipato con requisito contributivo ridotto",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "626d423e0f63"
+  },
+  "30": {
+   "file": "l-203-2024.md",
+   "rubrica": "Modifiche alla disciplina della rendita vitalizia di cui all'articolo 13 della legge 12 agosto 1962, n. 1338, e all'articolo 31 della legge 24 maggio 1952, n. 610",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "514749713d34"
+  },
+  "31": {
+   "file": "l-203-2024.md",
+   "rubrica": "",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "510a075de34f"
+  },
+  "32": {
+   "file": "l-203-2024.md",
+   "rubrica": "Disposizioni in materia di percorsi per le competenze trasversali e per l'orientamento presso le istituzioni scolastiche",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "d09f1399ee1a"
+  },
+  "33": {
+   "file": "l-203-2024.md",
+   "rubrica": "Potenziamento del ruolo dei centri per la famiglia",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "ad9b47ab4b1d"
+  },
+  "34": {
+   "file": "l-203-2024.md",
+   "rubrica": "Permessi non retribuiti",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "91ace5611c3c"
+  }
+ }
+}

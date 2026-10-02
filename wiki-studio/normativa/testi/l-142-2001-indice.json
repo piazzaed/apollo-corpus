@@ -1,0 +1,110 @@
+{
+ "_meta": {
+  "codice": "l-142-2001",
+  "nome": "Socio lavoratore di cooperativa (L. 142/2001)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2013-08-23",
+  "articoli": 7,
+  "file": [
+   "l-142-2001.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2001-04-03;142",
+  "versioni": [
+   {
+    "data": "2001-04-23",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2001-11-26",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 23 novembre 2001, n. 411"
+   },
+   {
+    "data": "2003-02-26",
+    "evento": "rp2",
+    "atto_modificante": "L. 14 febbraio 2003, n. 30"
+   },
+   {
+    "data": "2003-12-29",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 24 dicembre 2003, n. 355"
+   },
+   {
+    "data": "2004-03-30",
+    "evento": "rp4",
+    "atto_modificante": "Circ. Ministero Del Lavoro E Delle Politiche Sociali 18 marzo 2004, n. 10"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   }
+  ],
+  "ultima_versione": "2013-06-28",
+  "datazione": {
+   "monoblocco": 7,
+   "api": 6,
+   "ignota": 1,
+   "falliti": 1,
+   "stima_anteriore": 3,
+   "chiamate": 7,
+   "errori_rete": 1,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-142-2001.md",
+   "rubrica": "Soci lavoratori di cooperativa",
+   "vigore_da": "2003-03-13",
+   "datazione": "api",
+   "h": "2667b81f4844"
+  },
+  "2": {
+   "file": "l-142-2001.md",
+   "rubrica": "Diritti individuali e collettivi del socio lavoratore di cooperativa",
+   "vigore_da": "2003-03-13",
+   "datazione": "api",
+   "h": "184bb1090277"
+  },
+  "3": {
+   "file": "l-142-2001.md",
+   "rubrica": "Trattamento economico del socio lavoratore",
+   "vigore_da": "2013-08-23",
+   "datazione": "api",
+   "h": "0a59f0b8d22b"
+  },
+  "4": {
+   "file": "l-142-2001.md",
+   "rubrica": "Disposizioni in materia previdenziale",
+   "vigore_da": "2001-05-08",
+   "datazione": "api",
+   "h": "f155af90690f"
+  },
+  "5": {
+   "file": "l-142-2001.md",
+   "rubrica": "Altre normative applicabili al socio lavoratore",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "28d2e70ba362"
+  },
+  "6": {
+   "file": "l-142-2001.md",
+   "rubrica": "Regolamento interno",
+   "vigore_da": "2004-02-28",
+   "datazione": "api",
+   "h": "fbb6e238ae33"
+  },
+  "7": {
+   "file": "l-142-2001.md",
+   "rubrica": "Vigilanza in materia di cooperazione",
+   "vigore_da": "2002-01-10",
+   "datazione": "api",
+   "h": "687ea1c26890"
+  }
+ }
+}

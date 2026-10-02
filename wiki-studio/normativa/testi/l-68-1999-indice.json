@@ -1,0 +1,417 @@
+{
+ "_meta": {
+  "codice": "l-68-1999",
+  "nome": "Diritto al lavoro dei disabili (L. 68/1999)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-28",
+  "articoli": 24,
+  "file": [
+   "l-68-1999.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1999-03-12;68",
+  "versioni": [
+   {
+    "data": "1999-03-23",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1999-12-21",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 20 dicembre 1999, n. 484"
+   },
+   {
+    "data": "2000-11-18",
+    "evento": "rp2",
+    "atto_modificante": "D.P.R. 10 ottobre 2000, n. 333"
+   },
+   {
+    "data": "2000-12-29",
+    "evento": "rp3",
+    "atto_modificante": "L. 23 dicembre 2000, n. 388"
+   },
+   {
+    "data": "2001-04-04",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "2001-06-21",
+    "evento": "rp5",
+    "atto_modificante": "Circ. Ministero Del Tesoro, Del Bilancio E Della Programmazione Economica 7 maggio 2001, n. 150"
+   },
+   {
+    "data": "2001-12-29",
+    "evento": "rp6",
+    "atto_modificante": "L. 28 dicembre 2001, n. 448"
+   },
+   {
+    "data": "2002-12-31",
+    "evento": "rp7",
+    "atto_modificante": "L. 27 dicembre 2002, n. 289"
+   },
+   {
+    "data": "2003-12-29",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 24 dicembre 2003, n. 355"
+   },
+   {
+    "data": "2005-12-29",
+    "evento": "rp9",
+    "atto_modificante": "atto modificante non indicato (rp9)"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp10",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2007-12-29",
+    "evento": "rp11",
+    "atto_modificante": "L. 24 dicembre 2007, n. 247"
+   },
+   {
+    "data": "2008-02-04",
+    "evento": "rp12",
+    "atto_modificante": "atto modificante non indicato (rp12)"
+   },
+   {
+    "data": "2008-06-25",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 25 giugno 2008, n. 112"
+   },
+   {
+    "data": "2009-07-31",
+    "evento": "rp14",
+    "atto_modificante": "L. 23 luglio 2009, n. 99"
+   },
+   {
+    "data": "2010-05-08",
+    "evento": "rp15",
+    "atto_modificante": "D.Lgs. 15 marzo 2010, n. 66"
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp16",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2011-01-03",
+    "evento": "rp17",
+    "atto_modificante": "atto modificante non indicato (rp17)"
+   },
+   {
+    "data": "2011-05-13",
+    "evento": "rp18",
+    "atto_modificante": "D.L. 13 maggio 2011, n. 70"
+   },
+   {
+    "data": "2011-08-13",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 13 agosto 2011, n. 138"
+   },
+   {
+    "data": "2012-06-26",
+    "evento": "rp20",
+    "atto_modificante": "D.L. 22 giugno 2012, n. 83"
+   },
+   {
+    "data": "2012-07-03",
+    "evento": "rp21",
+    "atto_modificante": "L. 28 giugno 2012, n. 92"
+   },
+   {
+    "data": "2012-10-19",
+    "evento": "rp22",
+    "atto_modificante": "D.L. 18 ottobre 2012, n. 179"
+   },
+   {
+    "data": "2014-06-24",
+    "evento": "rp23",
+    "atto_modificante": "D.L. 24 giugno 2014, n. 90"
+   },
+   {
+    "data": "2014-12-29",
+    "evento": "rp24",
+    "atto_modificante": "L. 23 dicembre 2014, n. 190"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp25",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 151"
+   },
+   {
+    "data": "2016-10-07",
+    "evento": "rp26",
+    "atto_modificante": "D.Lgs. 24 settembre 2016, n. 185"
+   },
+   {
+    "data": "2016-12-21",
+    "evento": "rp27",
+    "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   },
+   {
+    "data": "2016-12-30",
+    "evento": "rp28",
+    "atto_modificante": "D.L. 30 dicembre 2016, n. 244"
+   },
+   {
+    "data": "2017-04-24",
+    "evento": "rp29",
+    "atto_modificante": "D.L. 24 aprile 2017, n. 50"
+   },
+   {
+    "data": "2018-02-01",
+    "evento": "rp30",
+    "atto_modificante": "L. 11 gennaio 2018, n. 4"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp31",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2019-09-04",
+    "evento": "rp32",
+    "atto_modificante": "D.L. 3 settembre 2019, n. 101"
+   },
+   {
+    "data": "2019-11-02",
+    "evento": "rp33",
+    "atto_modificante": "L. 2 novembre 2019, n. 128"
+   },
+   {
+    "data": "2019-12-30",
+    "evento": "rp34",
+    "atto_modificante": "L. 27 dicembre 2019, n. 160"
+   },
+   {
+    "data": "2019-12-31",
+    "evento": "rp35",
+    "atto_modificante": "D.L. 30 dicembre 2019, n. 162"
+   },
+   {
+    "data": "2020-02-29",
+    "evento": "rp36",
+    "atto_modificante": "L. 28 febbraio 2020, n. 8"
+   },
+   {
+    "data": "2020-03-17",
+    "evento": "rp37",
+    "atto_modificante": "D.L. 17 marzo 2020, n. 18"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp38",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2020-07-18",
+    "evento": "rp39",
+    "atto_modificante": "L. 17 luglio 2020, n. 77"
+   },
+   {
+    "data": "2025-10-31",
+    "evento": "rp40",
+    "atto_modificante": "D.L. 31 ottobre 2025, n. 159"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp41",
+    "atto_modificante": "L. 29 dicembre 2025, n. 198"
+   },
+   {
+    "data": "2026-04-30",
+    "evento": "rp42",
+    "atto_modificante": "D.L. 30 aprile 2026, n. 62"
+   },
+   {
+    "data": "2026-06-27",
+    "evento": "rp43",
+    "atto_modificante": "L. 25 giugno 2026, n. 112"
+   }
+  ],
+  "ultima_versione": "2026-06-27",
+  "datazione": {
+   "monoblocco": 24,
+   "api": 24,
+   "ignota": 0,
+   "stima_anteriore": 15,
+   "chiamate": 24,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-68-1999.md",
+   "rubrica": "Collocamento dei disabili",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "10cfacd9c42b"
+  },
+  "2": {
+   "file": "l-68-1999.md",
+   "rubrica": "Collocamento mirato",
+   "vigore_da": "2000-01-17",
+   "datazione": "api",
+   "h": "778d02b043bd"
+  },
+  "3": {
+   "file": "l-68-1999.md",
+   "rubrica": "Assunzioni obbligatorie. Quote di riserva",
+   "vigore_da": "2017-03-01",
+   "datazione": "api",
+   "h": "d74a4355d82c"
+  },
+  "4": {
+   "file": "l-68-1999.md",
+   "rubrica": "Criteri di computo della quota di riserva",
+   "vigore_da": "2016-10-08",
+   "datazione": "api",
+   "h": "190f474cbed8"
+  },
+  "5": {
+   "file": "l-68-1999.md",
+   "rubrica": "Esclusioni, esoneri parziali e contributi esonerativi",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "cfd9ad492dd8"
+  },
+  "6": {
+   "file": "l-68-1999.md",
+   "rubrica": "Servizi per l'inserimento lavorativo dei disabili e modifiche al decreto legislativo 23 dicembre 1997, n. 469",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "fde80b573cda"
+  },
+  "7": {
+   "file": "l-68-1999.md",
+   "rubrica": "Modalita' delle assunzioni obbligatorie",
+   "vigore_da": "2020-05-19",
+   "datazione": "api",
+   "h": "4dbdf4b89f1b"
+  },
+  "8": {
+   "file": "l-68-1999.md",
+   "rubrica": "Elenchi e graduatorie",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "05292db42bec"
+  },
+  "9": {
+   "file": "l-68-1999.md",
+   "rubrica": "Richieste di avviamento",
+   "vigore_da": "2020-03-01",
+   "datazione": "api",
+   "h": "df4aa6ce6300"
+  },
+  "10": {
+   "file": "l-68-1999.md",
+   "rubrica": "Rapporto di lavoro dei disabili obbligatoriamente assunti",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "5bdeb8e723f0"
+  },
+  "11": {
+   "file": "l-68-1999.md",
+   "rubrica": "Convenzioni e convenzioni di integrazione lavorativa",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "82e37565d586"
+  },
+  "12": {
+   "file": "l-68-1999.md",
+   "rubrica": "Convenzioni di inserimento lavorativo temporaneo con finalita' formative",
+   "vigore_da": "2008-01-01",
+   "datazione": "api",
+   "h": "9b934d08c923"
+  },
+  "12-bis": {
+   "file": "l-68-1999.md",
+   "rubrica": "Convenzioni di inserimento lavorativo",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "8425af862bfb"
+  },
+  "13": {
+   "file": "l-68-1999.md",
+   "rubrica": "Incentivi alle assunzioni",
+   "vigore_da": "2020-01-01",
+   "datazione": "api",
+   "h": "54ecdf2c5e83"
+  },
+  "14": {
+   "file": "l-68-1999.md",
+   "rubrica": "Fondo regionale per l'occupazione dei disabili",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "358aa42f3e51"
+  },
+  "15": {
+   "file": "l-68-1999.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2016-10-08",
+   "datazione": "api",
+   "h": "23af3ad9f626"
+  },
+  "16": {
+   "file": "l-68-1999.md",
+   "rubrica": "Concorsi presso le pubbliche amministrazioni",
+   "vigore_da": "2014-08-19",
+   "datazione": "api",
+   "h": "4676a42057f5"
+  },
+  "17": {
+   "file": "l-68-1999.md",
+   "rubrica": "Obbligo di certificazione",
+   "vigore_da": "2008-08-22",
+   "datazione": "api",
+   "h": "ea4a0d9cd329"
+  },
+  "18": {
+   "file": "l-68-1999.md",
+   "rubrica": "Disposizioni transitorie e finali",
+   "vigore_da": "2020-07-19",
+   "datazione": "api",
+   "h": "639b9453268b"
+  },
+  "19": {
+   "file": "l-68-1999.md",
+   "rubrica": "Regioni a statuto speciale e province autonome",
+   "vigore_da": "2000-01-17",
+   "datazione": "api",
+   "h": "e7bfce3a1095"
+  },
+  "20": {
+   "file": "l-68-1999.md",
+   "rubrica": "Regolamento di esecuzione",
+   "vigore_da": "2001-04-05",
+   "datazione": "api",
+   "h": "bd5d86e40311"
+  },
+  "21": {
+   "file": "l-68-1999.md",
+   "rubrica": "Relazione al Parlamento",
+   "vigore_da": "2000-01-17",
+   "datazione": "api",
+   "h": "9bb6801f9120"
+  },
+  "22": {
+   "file": "l-68-1999.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2000-01-17",
+   "datazione": "api",
+   "h": "130c1bb9c5fd"
+  },
+  "23": {
+   "file": "l-68-1999.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2000-01-17",
+   "datazione": "api",
+   "h": "8ca082253db5"
+  }
+ }
+}

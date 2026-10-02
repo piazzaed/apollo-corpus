@@ -1,0 +1,272 @@
+{
+ "_meta": {
+  "codice": "dl-87-2018",
+  "nome": "Decreto dignità (D.L. 87/2018)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-01-01",
+  "articoli": 26,
+  "file": [
+   "dl-87-2018.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legge:2018-07-12;87",
+  "versioni": [
+   {
+    "data": "2018-07-13",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2018-08-11",
+    "evento": "rp1",
+    "atto_modificante": "L. 9 agosto 2018, n. 96"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp2",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2019-01-28",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 28 gennaio 2019, n. 4"
+   },
+   {
+    "data": "2019-10-26",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 26 ottobre 2019, n. 124"
+   },
+   {
+    "data": "2019-10-30",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 29 ottobre 2019, n. 126"
+   },
+   {
+    "data": "2019-12-28",
+    "evento": "rp6",
+    "atto_modificante": "L. 20 dicembre 2019, n. 159"
+   },
+   {
+    "data": "2019-12-30",
+    "evento": "rp7",
+    "atto_modificante": "L. 27 dicembre 2019, n. 160"
+   },
+   {
+    "data": "2021-05-25",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 25 maggio 2021, n. 73"
+   },
+   {
+    "data": "2023-08-10",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 10 agosto 2023, n. 104"
+   },
+   {
+    "data": "2023-10-09",
+    "evento": "rp10",
+    "atto_modificante": "L. 9 ottobre 2023, n. 136"
+   },
+   {
+    "data": "2025-12-10",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 27 novembre 2025, n. 184"
+   }
+  ],
+  "ultima_versione": "2025-12-10",
+  "datazione": {
+   "monoblocco": 26,
+   "api": 25,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 6,
+   "chiamate": 26,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Modifiche alla disciplina del contratto di lavoro a tempo determinato",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "398f6d210255"
+  },
+  "1-bis": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Esonero contributivo per favorire l'occupazione giovanile",
+   "vigore_da": "2020-01-01",
+   "datazione": "api",
+   "h": "41f89e4a48d5"
+  },
+  "2": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Modifiche alla disciplina della somministrazione di lavoro",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "45736857bdfd"
+  },
+  "2-bis": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Disposizioni per favorire il lavoratore nell'ambito delle prestazioni occasionali",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "af5b43c7d297"
+  },
+  "3": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Indennita' di licenziamento ingiustificato e incremento contribuzione contratto a tempo determinato",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "1be8ec415f40"
+  },
+  "3-bis": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Destinazione di quote delle facolta' assunzionali delle regioni all'operativita' dei centri per l'impiego",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "e312d1bdc4a1"
+  },
+  "3-ter": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Relazione alle Camere",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "396049f8c766"
+  },
+  "4": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Disposizioni in materia di contenzioso concernente il personale docente e per la copertura di posti vacanti e disponibili nella scuola dell'infanzia e nella scuola primaria",
+   "vigore_da": "2021-05-26",
+   "datazione": "api",
+   "h": "86c0a3102ddf"
+  },
+  "4-bis": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Modifica in materia di contratti a termine nel settore scolastico",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "4dcaaf1b2698"
+  },
+  "5": {
+   "file": "dl-87-2018.md",
+   "rubrica": "",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "466dba3cab8d"
+  },
+  "6": {
+   "file": "dl-87-2018.md",
+   "rubrica": "",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "466dba3cab8d"
+  },
+  "7": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Recupero del beneficio dell'iper ammortamento in caso di cessione o delocalizzazione dei beni",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "f4e6ff8e034c"
+  },
+  "8": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Applicazione del credito d'imposta ricerca e sviluppo ai costi di acquisto da fonti esterne dei beni immateriali",
+   "vigore_da": "2018-07-14",
+   "datazione": "api",
+   "h": "ee737ee3cbe4"
+  },
+  "9": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Divieto di pubblicita' giochi e scommesse",
+   "vigore_da": "2020-01-01",
+   "datazione": "api",
+   "h": "52656d3cdb44"
+  },
+  "9-bis": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Formule di avvertimento",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "ce7eacb3902d"
+  },
+  "9-ter": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Monitoraggio dell'offerta di gioco",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "fc22bb8570f2"
+  },
+  "9-quater": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Misure a tutela dei minori",
+   "vigore_da": "2019-03-30",
+   "datazione": "api",
+   "h": "302a0764d1a7"
+  },
+  "9-quinquies": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Logo No Slot",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "dd8fc0fcf076"
+  },
+  "10": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Disposizioni in materia di redditometro",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "e756203fd317"
+  },
+  "11": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Disposizioni in materia di invio dei dati delle fatture emesse e ricevute",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "7a73bbc78c2e"
+  },
+  "11-bis": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Proroga del termine di entrata in vigore degli obblighi di fatturazione elettronica per le cessioni di carburante",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "c7cfd1efe375"
+  },
+  "12": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Split payment",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "2d126730648d"
+  },
+  "12-bis": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Compensazione delle cartelle esattoriali in favore di imprese e professionisti titolari di crediti nei confronti della pubblica amministrazione",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "8b1fce2a8e14"
+  },
+  "13": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Societa' sportive dilettantistiche",
+   "vigore_da": "2020-01-01",
+   "datazione": "api",
+   "h": "afbca2dc15b1"
+  },
+  "14": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "2018-08-12",
+   "datazione": "api",
+   "h": "c3dce652e856"
+  },
+  "15": {
+   "file": "dl-87-2018.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2018-07-14",
+   "datazione": "api",
+   "h": "b011a219f1da"
+  }
+ }
+}

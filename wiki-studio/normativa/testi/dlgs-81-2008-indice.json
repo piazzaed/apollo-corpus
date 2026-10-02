@@ -1,0 +1,2640 @@
+{
+ "_meta": {
+  "codice": "dlgs-81-2008",
+  "nome": "Testo unico sulla salute e sicurezza nei luoghi di lavoro (D.Lgs. 81/2008)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-04-07",
+  "articoli": 321,
+  "file": [
+   "dlgs-81-2008-1.md",
+   "dlgs-81-2008-2.md",
+   "dlgs-81-2008-3.md",
+   "dlgs-81-2008-4.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2008-04-09;81",
+  "versioni": [
+   {
+    "data": "2008-04-30",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2008-06-03",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 3 giugno 2008, n. 97"
+   },
+   {
+    "data": "2008-06-25",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 25 giugno 2008, n. 112"
+   },
+   {
+    "data": "2008-12-31",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 30 dicembre 2008, n. 207"
+   },
+   {
+    "data": "2009-06-19",
+    "evento": "rp4",
+    "atto_modificante": "L. 18 giugno 2009, n. 69"
+   },
+   {
+    "data": "2009-07-14",
+    "evento": "rp5",
+    "atto_modificante": "L. 7 luglio 2009, n. 88"
+   },
+   {
+    "data": "2009-08-05",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 3 agosto 2009, n. 106"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 30 dicembre 2009, n. 194"
+   },
+   {
+    "data": "2010-05-31",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 31 maggio 2010, n. 78"
+   },
+   {
+    "data": "2010-06-25",
+    "evento": "rp9",
+    "atto_modificante": "L. 4 giugno 2010, n. 96"
+   },
+   {
+    "data": "2010-08-23",
+    "evento": "rp10",
+    "atto_modificante": "L. 13 agosto 2010, n. 136"
+   },
+   {
+    "data": "2010-11-10",
+    "evento": "rp11",
+    "atto_modificante": "atto modificante non indicato (rp11)"
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2011-03-31",
+    "evento": "rp13",
+    "atto_modificante": "atto modificante non indicato (rp13)"
+   },
+   {
+    "data": "2012-05-14",
+    "evento": "rp14",
+    "atto_modificante": "D.L. 12 maggio 2012, n. 57"
+   },
+   {
+    "data": "2012-07-26",
+    "evento": "rp15",
+    "atto_modificante": "atto modificante non indicato (rp15)"
+   },
+   {
+    "data": "2012-09-18",
+    "evento": "rp16",
+    "atto_modificante": "atto modificante non indicato (rp16)"
+   },
+   {
+    "data": "2012-10-18",
+    "evento": "rp17",
+    "atto_modificante": "L. 1 ottobre 2012, n. 177"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp18",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2013-04-05",
+    "evento": "rp19",
+    "atto_modificante": "D.Lgs. 13 marzo 2013, n. 32"
+   },
+   {
+    "data": "2013-04-27",
+    "evento": "rp20",
+    "atto_modificante": "D.P.R. 28 marzo 2013, n. 44"
+   },
+   {
+    "data": "2013-06-21",
+    "evento": "rp21",
+    "atto_modificante": "D.L. 21 giugno 2013, n. 69"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp22",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   },
+   {
+    "data": "2013-08-16",
+    "evento": "rp23",
+    "atto_modificante": "D.L. 14 agosto 2013, n. 93"
+   },
+   {
+    "data": "2013-08-31",
+    "evento": "rp24",
+    "atto_modificante": "D.L. 31 agosto 2013, n. 101"
+   },
+   {
+    "data": "2013-12-23",
+    "evento": "rp25",
+    "atto_modificante": "D.L. 23 dicembre 2013, n. 145"
+   },
+   {
+    "data": "2014-03-10",
+    "evento": "rp26",
+    "atto_modificante": "D.Lgs. 19 febbraio 2014, n. 19"
+   },
+   {
+    "data": "2014-11-10",
+    "evento": "rp27",
+    "atto_modificante": "L. 30 ottobre 2014, n. 161"
+   },
+   {
+    "data": "2015-06-24",
+    "evento": "rp28",
+    "atto_modificante": "D.Lgs. 15 giugno 2015, n. 81"
+   },
+   {
+    "data": "2015-08-03",
+    "evento": "rp29",
+    "atto_modificante": "L. 29 luglio 2015, n. 115"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp30",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 151"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp31",
+    "atto_modificante": "D.L. 30 dicembre 2015, n. 210"
+   },
+   {
+    "data": "2016-03-14",
+    "evento": "rp32",
+    "atto_modificante": "D.Lgs. 15 febbraio 2016, n. 39"
+   },
+   {
+    "data": "2016-05-26",
+    "evento": "rp33",
+    "atto_modificante": "atto modificante non indicato (rp33)"
+   },
+   {
+    "data": "2016-08-18",
+    "evento": "rp34",
+    "atto_modificante": "D.Lgs. 1 agosto 2016, n. 159"
+   },
+   {
+    "data": "2016-08-19",
+    "evento": "rp35",
+    "atto_modificante": "atto modificante non indicato (rp35)"
+   },
+   {
+    "data": "2016-12-30",
+    "evento": "rp36",
+    "atto_modificante": "D.L. 30 dicembre 2016, n. 244"
+   },
+   {
+    "data": "2018-10-04",
+    "evento": "rp37",
+    "atto_modificante": "D.L. 4 ottobre 2018, n. 113"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp38",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2019-03-11",
+    "evento": "rp39",
+    "atto_modificante": "D.Lgs. 19 febbraio 2019, n. 17"
+   },
+   {
+    "data": "2020-06-09",
+    "evento": "rp40",
+    "atto_modificante": "D.Lgs. 1 giugno 2020, n. 44"
+   },
+   {
+    "data": "2020-08-12",
+    "evento": "rp41",
+    "atto_modificante": "D.Lgs. 31 luglio 2020, n. 101"
+   },
+   {
+    "data": "2020-10-07",
+    "evento": "rp42",
+    "atto_modificante": "D.L. 7 ottobre 2020, n. 125"
+   },
+   {
+    "data": "2020-10-28",
+    "evento": "rp43",
+    "atto_modificante": "D.L. 28 ottobre 2020, n. 137"
+   },
+   {
+    "data": "2020-11-09",
+    "evento": "rp44",
+    "atto_modificante": "D.L. 9 novembre 2020, n. 149"
+   },
+   {
+    "data": "2020-12-24",
+    "evento": "rp45",
+    "atto_modificante": "L. 18 dicembre 2020, n. 176"
+   },
+   {
+    "data": "2021-10-21",
+    "evento": "rp46",
+    "atto_modificante": "D.L. 21 ottobre 2021, n. 146"
+   },
+   {
+    "data": "2021-12-20",
+    "evento": "rp47",
+    "atto_modificante": "L. 17 dicembre 2021, n. 215"
+   },
+   {
+    "data": "2022-03-21",
+    "evento": "rp48",
+    "atto_modificante": "D.L. 21 marzo 2022, n. 21"
+   },
+   {
+    "data": "2022-05-20",
+    "evento": "rp49",
+    "atto_modificante": "L. 20 maggio 2022, n. 51"
+   },
+   {
+    "data": "2023-05-04",
+    "evento": "rp50",
+    "atto_modificante": "D.L. 4 maggio 2023, n. 48"
+   },
+   {
+    "data": "2023-07-03",
+    "evento": "rp51",
+    "atto_modificante": "L. 3 luglio 2023, n. 85"
+   },
+   {
+    "data": "2023-09-29",
+    "evento": "rp52",
+    "atto_modificante": "D.L. 29 settembre 2023, n. 132"
+   },
+   {
+    "data": "2023-10-16",
+    "evento": "rp53",
+    "atto_modificante": "atto modificante non indicato (rp53)"
+   },
+   {
+    "data": "2023-10-18",
+    "evento": "rp54",
+    "atto_modificante": "D.L. 18 ottobre 2023, n. 145"
+   },
+   {
+    "data": "2023-11-28",
+    "evento": "rp55",
+    "atto_modificante": "L. 27 novembre 2023, n. 170"
+   },
+   {
+    "data": "2023-12-16",
+    "evento": "rp56+rp57",
+    "atto_modificante": "D.Lgs. 24 novembre 2023, n. 192; L. 15 dicembre 2023, n. 191"
+   },
+   {
+    "data": "2023-12-30",
+    "evento": "rp58",
+    "atto_modificante": "L. 30 dicembre 2023, n. 214"
+   },
+   {
+    "data": "2024-03-02",
+    "evento": "rp59",
+    "atto_modificante": "D.L. 2 marzo 2024, n. 19"
+   },
+   {
+    "data": "2024-04-30",
+    "evento": "rp60",
+    "atto_modificante": "L. 29 aprile 2024, n. 56"
+   },
+   {
+    "data": "2024-09-26",
+    "evento": "rp61",
+    "atto_modificante": "D.Lgs. 4 settembre 2024, n. 135"
+   },
+   {
+    "data": "2024-12-27",
+    "evento": "rp62",
+    "atto_modificante": "D.L. 27 dicembre 2024, n. 202"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp63",
+    "atto_modificante": "L. 13 dicembre 2024, n. 203"
+   },
+   {
+    "data": "2025-02-24",
+    "evento": "rp64",
+    "atto_modificante": "L. 21 febbraio 2025, n. 15"
+   },
+   {
+    "data": "2025-06-30",
+    "evento": "rp65",
+    "atto_modificante": "D.L. 30 giugno 2025, n. 95"
+   },
+   {
+    "data": "2025-08-09",
+    "evento": "rp66",
+    "atto_modificante": "L. 8 agosto 2025, n. 118"
+   },
+   {
+    "data": "2025-10-31",
+    "evento": "rp67",
+    "atto_modificante": "D.L. 31 ottobre 2025, n. 159"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp68",
+    "atto_modificante": "L. 29 dicembre 2025, n. 198"
+   },
+   {
+    "data": "2025-12-31",
+    "evento": "rp69",
+    "atto_modificante": "D.L. 31 dicembre 2025, n. 200"
+   },
+   {
+    "data": "2026-01-09",
+    "evento": "rp70",
+    "atto_modificante": "D.Lgs. 31 dicembre 2025, n. 213"
+   },
+   {
+    "data": "2026-02-28",
+    "evento": "rp71",
+    "atto_modificante": "L. 27 febbraio 2026, n. 26"
+   },
+   {
+    "data": "2026-03-23",
+    "evento": "rp72",
+    "atto_modificante": "L. 11 marzo 2026, n. 34"
+   }
+  ],
+  "ultima_versione": "2026-03-23",
+  "datazione": {
+   "monoblocco": 321,
+   "api": 320,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 124,
+   "chiamate": 321,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Finalita'",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "16fdb16dc123"
+  },
+  "2": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2025-10-31",
+   "datazione": "api",
+   "h": "7e9ff78e2831"
+  },
+  "3": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2026-04-07",
+   "datazione": "api",
+   "h": "10cf40d33fdb"
+  },
+  "3-bis": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Organizzazioni di volontariato della protezione civile",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "0d748cc0b56b"
+  },
+  "4": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Computo dei lavoratori",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "35c3bfe6f867"
+  },
+  "5": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Comitato per l'indirizzo e la valutazione delle politiche attive e per il coordinamento nazionale delle attivita' di vigilanza in materia di salute e sicurezza sul lavoro",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "d67c57888ee3"
+  },
+  "6": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Commissione consultiva permanente per la salute e sicurezza sul Lavoro",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "c169d4de1cc8"
+  },
+  "7": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Comitati regionali di coordinamento",
+   "vigore_da": "2021-10-22",
+   "datazione": "api",
+   "h": "35f204b4fc8c"
+  },
+  "8": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sistema informativo nazionale per la prevenzione nei luoghi di lavoro",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "e0681b6f41d8"
+  },
+  "9": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Enti pubblici aventi compiti in materia di salute e sicurezza nei luoghi di lavoro",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "90439a3237ac"
+  },
+  "10": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Informazione e assistenza in materia di salute e sicurezza nei luoghi di lavoro",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "b8c9c3e01838"
+  },
+  "11": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Attivita' promozionali",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "cc57d1fa3cd5"
+  },
+  "12": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Interpello",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "3ddcfa3cdb63"
+  },
+  "13": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Vigilanza",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "5560857f1ffc"
+  },
+  "14": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Provvedimenti degli organi di vigilanza per il contrasto del lavoro irregolare e per la tutela della salute e sicurezza dei lavoratori",
+   "vigore_da": "2022-05-21",
+   "datazione": "api",
+   "h": "e1fef2ef039f"
+  },
+  "14-bis": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Relazione annuale sullo stato della sicurezza nei luoghi di lavoro",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "625339375556"
+  },
+  "15": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Misure generali di tutela",
+   "vigore_da": "2025-10-31",
+   "datazione": "api",
+   "h": "af3c7d49a059"
+  },
+  "16": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Delega di funzioni",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "9fac006be920"
+  },
+  "17": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi del datore di lavoro non delegabili",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "9bb45492c540"
+  },
+  "18": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi del datore di lavoro e del dirigente",
+   "vigore_da": "2026-03-01",
+   "datazione": "api",
+   "h": "9f564b3e1405"
+  },
+  "19": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi del preposto",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "f96aefaedd24"
+  },
+  "20": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi dei lavoratori",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "732decf4375d"
+  },
+  "21": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Disposizioni relative ai componenti dell'impresa familiare di cui all'articolo 230-bis del codice civile e ai lavoratori autonomi",
+   "vigore_da": "2023-05-05",
+   "datazione": "api",
+   "h": "f8bc87d151a3"
+  },
+  "22": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi dei progettisti",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "f062ce8ba754"
+  },
+  "23": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi dei fabbricanti e dei fornitori",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "5b14db1d7eb9"
+  },
+  "24": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi degli installatori",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "dfc66ccb879e"
+  },
+  "25": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi del medico competente",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "8217732d255d"
+  },
+  "26": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi connessi ai contratti d'appalto o d'opera o di somministrazione",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "e54369dda649"
+  },
+  "27": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sistema di qualificazione delle imprese e dei lavoratori autonomi tramite crediti",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "0f34c730ed56"
+  },
+  "28": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Oggetto della valutazione dei rischi",
+   "vigore_da": "2016-03-29",
+   "datazione": "api",
+   "h": "fa7cb705d55b"
+  },
+  "29": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Modalita' di effettuazione della valutazione dei rischi",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "68ae2624ecc8"
+  },
+  "30": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Modelli di organizzazione e di gestione",
+   "vigore_da": "2026-04-07",
+   "datazione": "api",
+   "h": "6841c68fdcd8"
+  },
+  "31": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Servizio di prevenzione e protezione",
+   "vigore_da": "2013-08-21",
+   "datazione": "api",
+   "h": "d4df50008d32"
+  },
+  "32": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Capacita' e requisiti professionali degli addetti e dei responsabili dei servizi di prevenzione e protezione interni ed esterni",
+   "vigore_da": "2013-08-21",
+   "datazione": "api",
+   "h": "97c280ab6a33"
+  },
+  "33": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Compiti del servizio di prevenzione e protezione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "a578750ef811"
+  },
+  "34": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Svolgimento diretto da parte del datore di lavoro dei compiti di prevenzione e protezione dai rischi",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "ef69865a7267"
+  },
+  "35": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Riunione periodica",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "9f691f486a58"
+  },
+  "36": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Informazione ai lavoratori",
+   "vigore_da": "2016-03-29",
+   "datazione": "api",
+   "h": "fd8595eca99e"
+  },
+  "37": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Formazione dei lavoratori e dei loro rappresentanti",
+   "vigore_da": "2026-04-07",
+   "datazione": "api",
+   "h": "b9a16c5db46b"
+  },
+  "38": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Titoli e requisiti del medico competente",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "ed18f04b0812"
+  },
+  "39": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Svolgimento dell'attivita' di medico competente",
+   "vigore_da": "2025-10-31",
+   "datazione": "api",
+   "h": "8c168f1a9fad"
+  },
+  "40": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Rapporti del medico competente con il Servizio sanitario nazionale",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "b7cd34e1de99"
+  },
+  "41": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "e72bccb97868"
+  },
+  "42": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Provvedimenti in caso di inidoneita' alla mansione specifica",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "07b1e3099265"
+  },
+  "43": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Disposizioni generali",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "7fda8b71d35e"
+  },
+  "44": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Diritti dei lavoratori in caso di pericolo grave e immediato",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "4c6ffd13e462"
+  },
+  "45": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Primo soccorso",
+   "vigore_da": "2023-12-31",
+   "datazione": "api",
+   "h": "684e49546e0c"
+  },
+  "46": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Prevenzione incendi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "e9ec56cced94"
+  },
+  "47": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Rappresentante dei lavoratori per la sicurezza",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "432b1a4c0ca6"
+  },
+  "48": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Rappresentante dei lavoratori per la sicurezza territoriale",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "fec3243a2a30"
+  },
+  "49": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Rappresentante dei lavoratori per la sicurezza di sito produttivo",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "1d40459d94b6"
+  },
+  "50": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Attribuzioni del rappresentante dei lavoratori per la sicurezza",
+   "vigore_da": "2016-03-29",
+   "datazione": "api",
+   "h": "45ebc74cd1b4"
+  },
+  "51": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Organismi paritetici",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "f9ef7ab9defc"
+  },
+  "52": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sostegno alla piccola e media impresa, ai rappresentanti dei lavoratori per la sicurezza territoriali e alla pariteticita'",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "448c4a875397"
+  },
+  "53": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Tenuta della documentazione",
+   "vigore_da": "2017-03-01",
+   "datazione": "api",
+   "h": "3056bb78a6a7"
+  },
+  "54": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Comunicazioni e trasmissione della documentazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "453974dd9aa4"
+  },
+  "55": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sanzioni per il datore di lavoro e il dirigente",
+   "vigore_da": "2026-04-07",
+   "datazione": "api",
+   "h": "1c56fb56742f"
+  },
+  "56": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sanzioni per il preposto",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "19c529b96e9c"
+  },
+  "57": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sanzioni per i progettisti, i fabbricanti, i fornitori e gli installatori",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "c5d5a3a98b6a"
+  },
+  "58": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sanzioni per il medico competente",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "f755ee5d4ad9"
+  },
+  "59": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sanzioni per i lavoratori",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "71ea23f21412"
+  },
+  "60": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sanzioni per i componenti dell'impresa familiare di cui all'articolo 230-bis del codice civile, per i lavoratori autonomi, i coltivatori diretti del fondo, i soci delle societa' semplici operanti nel settore agricolo, gli artigiani e i piccoli commercianti",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "806357e7a5da"
+  },
+  "61": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Esercizio dei diritti della persona offesa",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "ca821bf43ad5"
+  },
+  "62": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "42371924f8d8"
+  },
+  "63": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Requisiti di salute e di sicurezza",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "9dab9da30ce4"
+  },
+  "64": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Obblighi del datore di lavoro",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "0b3fdfd2bc33"
+  },
+  "65": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Locali sotterranei o semisotterranei",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "88cfbb9fc636"
+  },
+  "66": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Lavori in ambienti sospetti di inquinamento",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "aec6156ca073"
+  },
+  "67": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Notifiche all'organo di vigilanza competente per territorio",
+   "vigore_da": "2013-08-21",
+   "datazione": "api",
+   "h": "5ba5d6f3a5ab"
+  },
+  "68": {
+   "file": "dlgs-81-2008-1.md",
+   "rubrica": "Sanzioni per il datore di lavoro e il dirigente",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "2112f6b44d4d"
+  },
+  "69": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "11ae17c9c13a"
+  },
+  "70": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Requisiti di sicurezza",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "09e83e96dca8"
+  },
+  "71": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi del datore di lavoro",
+   "vigore_da": "2023-05-05",
+   "datazione": "api",
+   "h": "d1fd0a92dcf4"
+  },
+  "72": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi dei noleggiatori e dei concedenti in uso",
+   "vigore_da": "2023-05-05",
+   "datazione": "api",
+   "h": "653ef1976d5d"
+  },
+  "73": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Informazione, formazione e addestramento",
+   "vigore_da": "2023-05-05",
+   "datazione": "api",
+   "h": "52220e9ae602"
+  },
+  "73-bis": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Abilitazione alla conduzione dei generatori di vapore",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "2aacbca65602"
+  },
+  "74": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2019-03-12",
+   "datazione": "api",
+   "h": "dc1617e2602c"
+  },
+  "75": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obbligo di uso",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "9648c20a4109"
+  },
+  "76": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Requisiti dei DPI",
+   "vigore_da": "2019-03-12",
+   "datazione": "api",
+   "h": "02a563b7447a"
+  },
+  "77": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi del datore di lavoro",
+   "vigore_da": "2025-10-31",
+   "datazione": "api",
+   "h": "7b876f9b7e1c"
+  },
+  "78": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi dei lavoratori",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "0c3cee3ad757"
+  },
+  "79": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Criteri per l'individuazione e l'uso",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "22df2cb82b0e"
+  },
+  "80": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi del datore di lavoro",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "cd6b74b39591"
+  },
+  "81": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Requisiti di sicurezza",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "1a3badd598c7"
+  },
+  "82": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Lavori sotto tensione",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "1e13abf84e59"
+  },
+  "83": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Lavori in prossimita' di parti attive",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "28df94c59baa"
+  },
+  "84": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Protezioni dai fulmini",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "c71a3892b90c"
+  },
+  "85": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Protezione di edifici, impianti strutture ed attrezzature",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d7a7a768cd5f"
+  },
+  "86": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Verifiche e controlli",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "99f49725ac1e"
+  },
+  "87": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Sanzioni a carico del datore di lavoro, del dirigente, del noleggiatore e del concedente in uso",
+   "vigore_da": "2023-07-04",
+   "datazione": "api",
+   "h": "37b1c6886ebf"
+  },
+  "88": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2015-08-18",
+   "datazione": "api",
+   "h": "38a5908cb1f2"
+  },
+  "89": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "06a2494934a3"
+  },
+  "90": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi del committente o del responsabile dei lavori",
+   "vigore_da": "2024-05-01",
+   "datazione": "api",
+   "h": "c684f8adea8c"
+  },
+  "91": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi del coordinatore per la progettazione",
+   "vigore_da": "2016-02-27",
+   "datazione": "api",
+   "h": "8edcffdcbe02"
+  },
+  "92": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi del coordinatore per l'esecuzione dei lavori",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "c793c9ff7828"
+  },
+  "93": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Responsabilita' dei committenti e dei responsabili dei lavori",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "4d29322c6dda"
+  },
+  "94": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi dei lavoratori autonomi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "af04e598f830"
+  },
+  "95": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Misure generali di tutela",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "c8c3ad934629"
+  },
+  "96": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi dei datori di lavoro, dei dirigenti e dei preposti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "ec1acf8d288c"
+  },
+  "97": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi del datore di lavoro dell'impresa affidataria",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "7845e7985915"
+  },
+  "98": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Requisiti professionali del coordinatore per la progettazione del coordinatore per l'esecuzione dei lavori",
+   "vigore_da": "2023-07-04",
+   "datazione": "api",
+   "h": "5a57120966b2"
+  },
+  "99": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Notifica preliminare",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "9d9096748083"
+  },
+  "100": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Piano di sicurezza e di coordinamento",
+   "vigore_da": "2016-02-27",
+   "datazione": "api",
+   "h": "f814ce368c1b"
+  },
+  "101": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi di trasmissione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "d5e32e2fde17"
+  },
+  "102": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Consultazione dei rappresentanti per la sicurezza",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "bbf6d1ec49ce"
+  },
+  "103": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "bccbc0d71d4e"
+  },
+  "104": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Modalita' attuative di particolari obblighi",
+   "vigore_da": "2016-02-27",
+   "datazione": "api",
+   "h": "a9ae79dd7e68"
+  },
+  "104-bis": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Misure di semplificazione nei cantieri temporanei o mobili",
+   "vigore_da": "2013-08-21",
+   "datazione": "api",
+   "h": "32a47f0abe2a"
+  },
+  "105": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Attivita' soggette",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "f111fd7015b4"
+  },
+  "106": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Attivita' escluse",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "8f8dd279e699"
+  },
+  "107": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "002427570fff"
+  },
+  "108": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Viabilita' nei cantieri",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "7c7dd5a10b60"
+  },
+  "109": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Recinzione del cantiere",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "9e6dfb427d53"
+  },
+  "110": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Luoghi di transito",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "bb10b129540e"
+  },
+  "111": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi del datore di lavoro nell'uso di attrezzature per lavori in quota",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "4205ca125214"
+  },
+  "112": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Idoneita' delle opere provvisionali",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "f3590853ad28"
+  },
+  "113": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Scale",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "baf9f818b11a"
+  },
+  "114": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Protezione dei posti di lavoro",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "ae409951181f"
+  },
+  "115": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Sistemi di protezione contro le cadute dall'alto",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "8d487b310b86"
+  },
+  "116": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Obblighi dei datori di lavoro concernenti l'impiego di sistemi di accesso e di posizionamento mediante funi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "0f8d5a8d0e02"
+  },
+  "117": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Lavori in prossimita' di parti attive",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "c4873fd52256"
+  },
+  "118": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Splateamento e sbancamento",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "9519a106d7e3"
+  },
+  "119": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Pozzi, scavi e cunicoli",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "e45c2d55ed85"
+  },
+  "120": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Deposito di materiali in prossimita' degli scavi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "54b872cb4d22"
+  },
+  "121": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Presenza di gas negli scavi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "b4cf58de96e7"
+  },
+  "122": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Ponteggi ed opere provvisionali",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "bf622310e15e"
+  },
+  "123": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Montaggio e smontaggio delle opere provvisionali",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "1723ba2506df"
+  },
+  "124": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Deposito di materiali sulle impalcature",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "3efef7c8432f"
+  },
+  "125": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Disposizione dei montanti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "b2911e265f89"
+  },
+  "126": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Parapetti",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "2e17093ad9fd"
+  },
+  "127": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Ponti a sbalzo",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "e28daf184e5c"
+  },
+  "128": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Sottoponti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "435142e499f7"
+  },
+  "129": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Impalcature nelle costruzioni in conglomerato cementizio",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "eeeba4993e7c"
+  },
+  "130": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Andatoie e passerelle",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "a1746cd56350"
+  },
+  "131": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Autorizzazione alla costruzione ed all'impiego",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "77421e985072"
+  },
+  "132": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Relazione tecnica",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "d3df49272c3b"
+  },
+  "133": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Progetto",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "c39e0547a74a"
+  },
+  "134": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Documentazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "733894eb395b"
+  },
+  "135": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Marchio del fabbricante",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "f96b201f87b8"
+  },
+  "136": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Montaggio e smontaggio",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "88d6ed716313"
+  },
+  "137": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Manutenzione e revisione",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "f872309aa33c"
+  },
+  "138": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Norme particolari",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "a12939aa7fa0"
+  },
+  "139": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Ponti su cavalletti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "05735fdac0da"
+  },
+  "140": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Ponti su ruote a torre",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "9063e54cae71"
+  },
+  "141": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Strutture speciali",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "a6c765c05c56"
+  },
+  "142": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Costruzioni di archi, volte e simili",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "45095507a2f3"
+  },
+  "143": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Posa delle armature e delle centine",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "dcc82d3019c1"
+  },
+  "144": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Resistenza delle armature",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "2f1641b3a176"
+  },
+  "145": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Disarmo delle armature",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "c2dd87fc2f4c"
+  },
+  "146": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Difesa delle aperture",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "0d7e945db4eb"
+  },
+  "147": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Scale in muratura",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "791b88e649f2"
+  },
+  "148": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Lavori speciali",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "535462b667ea"
+  },
+  "149": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Paratoie e cassoni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "b67d5a40cb21"
+  },
+  "150": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Rafforzamento delle strutture",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "dab8761984b7"
+  },
+  "151": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Ordine delle demolizioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "cb8fee764c6b"
+  },
+  "152": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Misure di sicurezza",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "8a7ea6d5e079"
+  },
+  "153": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Convogliamento del materiale di demolizione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "2038a4b7dc3f"
+  },
+  "154": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Sbarramento della zona di demolizione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "faab829353d9"
+  },
+  "155": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Demolizione per rovesciamento",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "d89f92594d61"
+  },
+  "156": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Verifiche",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "2ecf823ca2a4"
+  },
+  "157": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Sanzioni per i committenti e i responsabili dei lavori",
+   "vigore_da": "2024-03-02",
+   "datazione": "api",
+   "h": "600a66739402"
+  },
+  "158": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Sanzioni per i coordinatori",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "a0c4a2dcfc1d"
+  },
+  "159": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Sanzioni per i datori di lavoro e dirigenti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "c3cf6009f555"
+  },
+  "160": {
+   "file": "dlgs-81-2008-2.md",
+   "rubrica": "Sanzioni per i lavoratori autonomi",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d7441f91083f"
+  },
+  "161": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "6e2b2c9ca838"
+  },
+  "162": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "460be6d547e2"
+  },
+  "163": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Obblighi del datore di lavoro",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "19a5565286d1"
+  },
+  "164": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione e formazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "e7c3b76910b2"
+  },
+  "165": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni a carico del datore di lavoro e del dirigente",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "4b6cd6dbab2d"
+  },
+  "166": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d124c4f3f290"
+  },
+  "167": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "495a0c68fdac"
+  },
+  "168": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Obblighi del datore di lavoro",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "1de1a21d6232"
+  },
+  "169": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione, formazione e addestramento",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "5358562a3db5"
+  },
+  "170": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni a carico del datore di lavoro e del dirigente",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "1a3fc7c840a5"
+  },
+  "171": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d124c4f3f290"
+  },
+  "172": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "6b1a7b212e20"
+  },
+  "173": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "7c25691018fa"
+  },
+  "174": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Obblighi del datore di lavoro",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "8038e0b7bddf"
+  },
+  "175": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Svolgimento quotidiano del lavoro",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "681592edf4fd"
+  },
+  "176": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "d2c74757eb3f"
+  },
+  "177": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione e formazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "332049eb80c3"
+  },
+  "178": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni a carico del datore di lavoro e del dirigente",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "5d3d374f3247"
+  },
+  "179": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d124c4f3f290"
+  },
+  "180": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni e campo di applicazione",
+   "vigore_da": "2020-08-27",
+   "datazione": "api",
+   "h": "2781d847d3df"
+  },
+  "181": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valutazione dei rischi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "bf5490fa16e2"
+  },
+  "182": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Disposizioni miranti ad eliminare o ridurre i rischi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "de5f8df5ed9b"
+  },
+  "183": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Lavoratori particolarmente sensibili",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "89871415c759"
+  },
+  "184": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione e formazione dei lavoratori",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "1277a34a68d6"
+  },
+  "185": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "9e5280096565"
+  },
+  "186": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Cartella sanitaria e di rischio",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "c195467cadff"
+  },
+  "187": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "f371409f6d91"
+  },
+  "188": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "35fd812e129a"
+  },
+  "189": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valori limite di esposizione e valori di azione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "400b3961d0aa"
+  },
+  "190": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valutazione del rischio",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "521d267ef0cd"
+  },
+  "191": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valutazione di attivita' a livello di esposizione molto variabile",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "731a0f5a925f"
+  },
+  "192": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure di prevenzione e protezione",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "9dfba7cf237e"
+  },
+  "193": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Uso dei dispositivi di protezione individuali",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "11cbb9eae1f9"
+  },
+  "194": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure per la limitazione dell'esposizione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "2c8de8b3f88b"
+  },
+  "195": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione e formazione dei lavoratori",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "d0ad5ae90abf"
+  },
+  "196": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "c74275643318"
+  },
+  "197": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Deroghe",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "25c80364edd6"
+  },
+  "198": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Linee Guida per i settori della musica delle attivita' ricreative e dei call center",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "743dd227c82c"
+  },
+  "199": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "cd9ed28ca33a"
+  },
+  "200": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "a9471de3fba3"
+  },
+  "201": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valori limite di esposizione e valori d'azione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "9e68f34a00ee"
+  },
+  "202": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valutazione dei rischi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "9fc66dc2292e"
+  },
+  "203": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure di prevenzione e protezione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "03487d8b788b"
+  },
+  "204": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "f3a0dbde786e"
+  },
+  "205": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Deroghe",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "47d4c696b69b"
+  },
+  "206": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "6701b9a995fd"
+  },
+  "207": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "3a9814d0163c"
+  },
+  "208": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valori limite di esposizione e valori di azione",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "03c10d0bdc18"
+  },
+  "209": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valutazione dei rischi e identificazione dell'esposizione",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "46a3eb546339"
+  },
+  "210": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Disposizioni miranti ad eliminare o ridurre i rischi",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "84cd1e35c799"
+  },
+  "210-bis": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione e formazione dei lavoratori e dei rappresentanti dei lavoratori per la sicurezza",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "a042d325602c"
+  },
+  "211": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "525991a08247"
+  },
+  "212": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Deroghe",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "9f45e7d584b4"
+  },
+  "213": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "28c86a8bcad3"
+  },
+  "214": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "5189b3bc73c9"
+  },
+  "215": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valori limite di esposizione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "64a75034ad40"
+  },
+  "216": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Identificazione dell'esposizione e valutazione dei rischi",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "06aacdfe511a"
+  },
+  "217": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Disposizioni miranti ad eliminare o a ridurre i rischi",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "dc67747ab1a4"
+  },
+  "218": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "032c75c5317e"
+  },
+  "219": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni a carico del datore di lavoro e del dirigente",
+   "vigore_da": "2016-09-02",
+   "datazione": "api",
+   "h": "1151ed7a44e7"
+  },
+  "220": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni a carico del medico competente",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "84bf3e8bc1e4"
+  },
+  "221": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "f718a5ec50ab"
+  },
+  "222": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "e42b78113db7"
+  },
+  "223": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valutazione dei rischi",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "b8060df4b5a8"
+  },
+  "224": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure e principi generali per la prevenzione dei rischi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "bf4c1531bfa1"
+  },
+  "225": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure specifiche di protezione e di prevenzione",
+   "vigore_da": "2013-08-21",
+   "datazione": "api",
+   "h": "f7deb740e6b9"
+  },
+  "226": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Disposizioni in caso di incidenti o di emergenze",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "ea23e2ccfa90"
+  },
+  "227": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione e formazione per i lavoratori",
+   "vigore_da": "2016-03-29",
+   "datazione": "api",
+   "h": "a7731bdb3aa2"
+  },
+  "228": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Divieti",
+   "vigore_da": "2016-03-29",
+   "datazione": "api",
+   "h": "8dfa5a32a9b8"
+  },
+  "229": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "21a879af0126"
+  },
+  "230": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Cartelle sanitarie e di rischio",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "18d2bc13e68e"
+  },
+  "231": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Consultazione e partecipazione dei lavoratori",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "7fe7505bb497"
+  },
+  "232": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Adeguamenti normativi",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "265fd9df37d0"
+  },
+  "233": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "c9435f5bbe41"
+  },
+  "234": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "89c08c7080f8"
+  },
+  "235": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sostituzione e riduzione",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "4415f29fbaf3"
+  },
+  "236": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valutazione del rischio",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "ca06c778d8d9"
+  },
+  "237": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure tecniche, organizzative, procedurali",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "ee1a99b05721"
+  },
+  "238": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure tecniche",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "d09c6f59d376"
+  },
+  "239": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione e formazione",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "a1d41c067124"
+  },
+  "240": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Esposizione non prevedibile",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "d706630153a8"
+  },
+  "241": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Operazioni lavorative particolari",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "21fc89226417"
+  },
+  "242": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Accertamenti sanitari e norme preventive e protettive specifiche",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "13b075c4f662"
+  },
+  "243": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Registro di esposizione e cartelle sanitarie",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "079439a04146"
+  },
+  "244": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Registrazione dei tumori e degli effetti nocivi sulla funzione sessuale e sulla fertilita'",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "77e909b5babe"
+  },
+  "245": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Adeguamenti normativi",
+   "vigore_da": "2024-10-11",
+   "datazione": "api",
+   "h": "866163576212"
+  },
+  "246": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "784ef6469f82"
+  },
+  "247": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "254a6d3dc45e"
+  },
+  "248": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Individuazione della presenza di amianto",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "093528308fe3"
+  },
+  "249": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valutazione del rischio",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "0179b0276b3d"
+  },
+  "250": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Notifica",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "d4d8c8d8a1d1"
+  },
+  "251": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure di prevenzione e protezione",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "7d829ac58fa3"
+  },
+  "252": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Misure igieniche",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "215731b50fc0"
+  },
+  "253": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Controllo dell'esposizione",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "0d1e5e242a34"
+  },
+  "254": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Valore limite",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "6c54d5653d8e"
+  },
+  "255": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Operazioni lavorative particolari",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "7c0d50317cff"
+  },
+  "256": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Lavori di demolizione o rimozione dell'amianto",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "56e68c56378d"
+  },
+  "257": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Informazione dei lavoratori",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "ec32f119273f"
+  },
+  "258": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Formazione dei lavoratori",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "6468189e9f87"
+  },
+  "259": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sorveglianza sanitaria",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "4081099e50e9"
+  },
+  "260": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Registro di esposizione e cartelle sanitarie e di rischio",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "a1903e72c3db"
+  },
+  "261": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Patologie da amianto",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "9c78b0ef2215"
+  },
+  "262": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni per il datore di lavoro e il dirigente",
+   "vigore_da": "2026-01-24",
+   "datazione": "api",
+   "h": "bf5063fc456b"
+  },
+  "263": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni per il preposto",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "a637fe07f539"
+  },
+  "264": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni per il medico competente",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "cadf327bcef8"
+  },
+  "264-bis": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "Sanzioni concernenti il divieto di assunzione in luoghi esposti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "c98d3ecb3ea9"
+  },
+  "265": {
+   "file": "dlgs-81-2008-3.md",
+   "rubrica": "",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d124c4f3f290"
+  },
+  "266": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "571534255e13"
+  },
+  "267": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "0e05632162ed"
+  },
+  "268": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Classificazione degli agenti biologici",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "a7f8ba87969c"
+  },
+  "269": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Comunicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "68f7dcabe243"
+  },
+  "270": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Autorizzazione",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "cb34d958df89"
+  },
+  "271": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Valutazione del rischio",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "1612e1cdedf8"
+  },
+  "272": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Misure tecniche, organizzative, procedurali",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "530183f2b877"
+  },
+  "273": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Misure igieniche",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "e7e1b81470de"
+  },
+  "274": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Misure specifiche per strutture sanitarie e veterinarie",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "ddc57fab6e93"
+  },
+  "275": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Misure specifiche per i laboratori e gli stabulari",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "6ba4f1bef316"
+  },
+  "276": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Misure specifiche per i processi industriali",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "c3f5bcb67277"
+  },
+  "277": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Misure di emergenza",
+   "vigore_da": "2013-08-21",
+   "datazione": "api",
+   "h": "331365885b35"
+  },
+  "278": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Informazioni e formazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "fb37d75f55d6"
+  },
+  "279": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Prevenzione e controllo",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "1a8e50859fa8"
+  },
+  "280": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Registri degli esposti e degli eventi accidentali",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "f471914f899c"
+  },
+  "281": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Registro dei casi di malattia e di decesso",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "8e85e969a8f8"
+  },
+  "282": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Sanzioni a carico dei datori di lavoro e dei dirigenti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "ca4709e184bc"
+  },
+  "283": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Sanzioni a carico dei preposti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "a3f7dd48680b"
+  },
+  "284": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Sanzioni a carico del medico competente",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "1aada7471461"
+  },
+  "285": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Sanzioni a carico dei lavoratori",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "c01e3c4f3999"
+  },
+  "286": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Sanzioni concernenti il divieto di assunzione in luoghi esposti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d7804035c593"
+  },
+  "286-bis": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2014-03-25",
+   "datazione": "api",
+   "h": "c47de0b4c093"
+  },
+  "286-ter": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2014-03-25",
+   "datazione": "api",
+   "h": "e6b22bfa174e"
+  },
+  "286-quater": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Misure generali di tutela",
+   "vigore_da": "2014-03-25",
+   "datazione": "api",
+   "h": "5694486f6353"
+  },
+  "286-quinquies": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Valutazione dei rischi",
+   "vigore_da": "2014-03-25",
+   "datazione": "api",
+   "h": "574f19507ba3"
+  },
+  "286-sexies": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Misure di prevenzione specifiche",
+   "vigore_da": "2014-03-25",
+   "datazione": "api",
+   "h": "164b67bff75a"
+  },
+  "286-septies": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2014-03-25",
+   "datazione": "api",
+   "h": "5e3af1032a2a"
+  },
+  "287": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "76422d732b18"
+  },
+  "288": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "dbf337a84b70"
+  },
+  "289": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Prevenzione e protezione contro le esplosioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "b19c76ccd8f4"
+  },
+  "290": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Valutazione dei rischi di esplosione",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "b5eb7d6c6096"
+  },
+  "291": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Obblighi generali",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "fca5f02b6712"
+  },
+  "292": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Coordinamento",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "ea53f7c371b2"
+  },
+  "293": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Aree in cui possono formarsi atmosfere esplosive",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "e907001f2c90"
+  },
+  "294": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Documento sulla protezione contro le esplosioni",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "a2de6b982552"
+  },
+  "294-bis": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Informazione e formazione dei lavoratori",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "cdbb453e8165"
+  },
+  "295": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Termini per l'adeguamento",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "b6d5cb957d0c"
+  },
+  "296": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Verifiche",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "dab6e599875b"
+  },
+  "297": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Sanzioni a carico dei datori di lavoro e dei dirigenti",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "cfab1860e5c1"
+  },
+  "298": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Principio di specialita'",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "f6d2d38b2925"
+  },
+  "299": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Esercizio di fatto di poteri direttivi",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "a2179046cb74"
+  },
+  "300": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Modifiche al decreto legislativo 8 giugno 2001, n. 231",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "60b1004677f3"
+  },
+  "301": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Applicabilita' delle disposizioni di cui agli articoli 20 e seguenti del decreto legislativo 19 dicembre 1994, n. 758",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "9702ed9fa524"
+  },
+  "301-bis": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Estinzione agevolata degli illeciti amministrativi a seguito di regolarizzazione",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "50c9c5328045"
+  },
+  "302": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Definizione delle contravvenzioni punite con la sola pena dell'arresto",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "4f99adf28934"
+  },
+  "302-bis": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Potere di disposizione",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d1a4bd746175"
+  },
+  "303": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "",
+   "vigore_da": "2009-08-20",
+   "datazione": "api",
+   "h": "d124c4f3f290"
+  },
+  "304": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2025-01-12",
+   "datazione": "api",
+   "h": "44232b3e9fd1"
+  },
+  "305": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Clausola finanziaria",
+   "vigore_da": "2008-05-15",
+   "datazione": "api",
+   "h": "2017344e5cc5"
+  },
+  "306": {
+   "file": "dlgs-81-2008-4.md",
+   "rubrica": "Disposizioni finali",
+   "vigore_da": "2013-08-23",
+   "datazione": "api",
+   "h": "366ca3d8a8ad"
+  }
+ }
+}

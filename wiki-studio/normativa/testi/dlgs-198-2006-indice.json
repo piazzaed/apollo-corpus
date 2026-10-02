@@ -1,0 +1,649 @@
+{
+ "_meta": {
+  "codice": "dlgs-198-2006",
+  "nome": "Codice delle pari opportunità tra uomo e donna (D.Lgs. 198/2006)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-07",
+  "articoli": 74,
+  "file": [
+   "dlgs-198-2006.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2006-04-11;198",
+  "versioni": [
+   {
+    "data": "2006-05-31",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2007-07-20",
+    "evento": "rp1",
+    "atto_modificante": "D.P.R. 14 maggio 2007, n. 101"
+   },
+   {
+    "data": "2007-08-01",
+    "evento": "rp2",
+    "atto_modificante": "D.P.R. 14 maggio 2007, n. 115"
+   },
+   {
+    "data": "2007-11-09",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 6 novembre 2007, n. 196"
+   },
+   {
+    "data": "2008-01-18",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "2008-04-09",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 8 aprile 2008, n. 59"
+   },
+   {
+    "data": "2009-11-04",
+    "evento": "rp6",
+    "atto_modificante": "atto modificante non indicato (rp6)"
+   },
+   {
+    "data": "2010-02-05",
+    "evento": "rp7",
+    "atto_modificante": "D.Lgs. 25 gennaio 2010, n. 5"
+   },
+   {
+    "data": "2010-05-08",
+    "evento": "rp8",
+    "atto_modificante": "D.Lgs. 15 marzo 2010, n. 66"
+   },
+   {
+    "data": "2011-09-21",
+    "evento": "rp9",
+    "atto_modificante": "D.Lgs. 1 settembre 2011, n. 150"
+   },
+   {
+    "data": "2011-11-23",
+    "evento": "rp10",
+    "atto_modificante": "D.Lgs. 15 novembre 2011, n. 195"
+   },
+   {
+    "data": "2012-12-11",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 11 dicembre 2012, n. 216"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp12",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2014-11-10",
+    "evento": "rp13",
+    "atto_modificante": "L. 30 ottobre 2014, n. 161"
+   },
+   {
+    "data": "2015-09-23",
+    "evento": "rp14",
+    "atto_modificante": "D.Lgs. 14 settembre 2015, n. 151"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp15",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2021-11-18",
+    "evento": "rp16",
+    "atto_modificante": "L. 5 novembre 2021, n. 162"
+   },
+   {
+    "data": "2022-06-30",
+    "evento": "rp17",
+    "atto_modificante": "D.P.R. 24 giugno 2022, n. 81"
+   },
+   {
+    "data": "2025-11-14",
+    "evento": "rp18",
+    "atto_modificante": "L. 10 novembre 2025, n. 167"
+   },
+   {
+    "data": "2026-05-23",
+    "evento": "rp19",
+    "atto_modificante": "D.Lgs. 7 maggio 2026, n. 91"
+   }
+  ],
+  "ultima_versione": "2026-05-23",
+  "datazione": {
+   "monoblocco": 74,
+   "api": 73,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 30,
+   "chiamate": 74,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Divieto di discriminazione e parita' di trattamento e di opportunita' tra donne e uomini, nonche' integrazione dell'obiettivo della parita' tra donne e uomini in tutte le politiche e attivita'",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "a4bbb48e92a5"
+  },
+  "2": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Promozione e coordinamento delle politiche di pari opportunita' (decreto legislativo 30 luglio 1999, n. 303, articolo 5)",
+   "vigore_da": "2013-01-01",
+   "datazione": "api",
+   "h": "abf8ed2892cf"
+  },
+  "3": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2007-08-16",
+   "datazione": "api",
+   "h": "dbdc2cb2a69b"
+  },
+  "4": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2007-08-16",
+   "datazione": "api",
+   "h": "dbdc2cb2a69b"
+  },
+  "5": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2007-08-16",
+   "datazione": "api",
+   "h": "dbdc2cb2a69b"
+  },
+  "6": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2007-08-16",
+   "datazione": "api",
+   "h": "dbdc2cb2a69b"
+  },
+  "7": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2007-08-16",
+   "datazione": "api",
+   "h": "dbdc2cb2a69b"
+  },
+  "8": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "1b7395be81d3"
+  },
+  "9": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "1b7395be81d3"
+  },
+  "10": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "1b7395be81d3"
+  },
+  "11": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "0db5b296dbe4"
+  },
+  "12": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Nomina (decreto legislativo 23 maggio 2000, n. 196, articolo 1, comma 1; articolo 2, commi 1, 3, 4)",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "771cd0597bdc"
+  },
+  "13": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Requisiti e attribuzioni (decreto legislativo 23 maggio 2000, n. 196, articoli 1, comma 2, 2, comma 2)",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "ce29dffeac6b"
+  },
+  "14": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Mandato",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "a4210d7d05f9"
+  },
+  "15": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Compiti e funzioni",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "973cf1588c97"
+  },
+  "16": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Sede e attrezzature",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "88e0c221a966"
+  },
+  "17": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Permessi",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "13b74f212a5c"
+  },
+  "18": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "1b7395be81d3"
+  },
+  "19": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Rete delle consigliere e dei consiglieri di parita'",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "218d5a192d0e"
+  },
+  "19-bis": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Disposizione transitoria",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "1087a070a5f9"
+  },
+  "20": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "1b7395be81d3"
+  },
+  "21": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2007-08-04",
+   "datazione": "api",
+   "h": "e72b7c2100fe"
+  },
+  "22": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2007-08-04",
+   "datazione": "api",
+   "h": "e72b7c2100fe"
+  },
+  "23": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Pari opportunita' nei rapporti fra coniugi",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "d8aff329e867"
+  },
+  "24": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Violenza nelle relazioni familiari",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "3e0e1ffae3d1"
+  },
+  "25": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Discriminazione diretta e indiretta (legge 10 aprile 1991, n. 125, articolo 4, commi 1 e 2)",
+   "vigore_da": "2021-12-03",
+   "datazione": "api",
+   "h": "d5f4bc170d90"
+  },
+  "26": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Molestie e molestie sessuali (legge 10 aprile 1991, n. 125, articolo 4, commi 2-bis, 2-ter e 2-quater)",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "ab7b98212c22"
+  },
+  "27": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2013-01-01",
+   "datazione": "api",
+   "h": "9531b6a443fa"
+  },
+  "28": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Divieto di discriminazione retributiva (legge 9 dicembre 1977, n. 903, articolo 2)",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "d2d38fa85a30"
+  },
+  "29": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "3f0ccfca6bda"
+  },
+  "30": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Divieti di discriminazione nell'accesso alle prestazioni previdenziali (legge 9 dicembre 1977, n. 903, articoli 4, 9, 10, 11 e 12)",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "01ae557d2672"
+  },
+  "30-bis": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Divieto di discriminazione nelle forme pensionistiche complementari collettive. Differenze di trattamento consentite",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "05757bc39b24"
+  },
+  "31": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Divieti di discriminazione nell'accesso agli impieghi pubblici (legge 9 febbraio 1963, n. 66, articolo 1, comma 1; legge 13 dicembre 1986, n. 874, articoli 1 e 2)",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "d0d957ac449a"
+  },
+  "32": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "33": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "34": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "35": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Divieto di licenziamento per causa di matrimonio (legge 9 gennaio 1963, n. 7, articoli 1, 2 e 6)",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "63a56a03d712"
+  },
+  "35-bis": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Assistenza alle vittime",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "f059bea084cb"
+  },
+  "36": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Legittimazione processuale (legge 10 aprile 1991, n. 125, articolo 4, commi 4 e 5)",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "58ec656d30d9"
+  },
+  "37": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Legittimazione processuale a tutela di piu' soggetti (legge 10 aprile 1991, n. 125, articolo 4, commi 7, 8, 9, 10 e 11)",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "5763531bb9df"
+  },
+  "38": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Provvedimento avverso le discriminazioni (legge 9 dicembre 1977, n. 903, articolo 15; legge 10 aprile 1991, n. 125, articolo 4, comma 13)",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "c0ce3d1cf760"
+  },
+  "39": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Ricorso in via d'urgenza (legge 10 aprile 1991, n. 125, articolo 4, comma 14)",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "ff5cadd330dd"
+  },
+  "39-bis": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Risoluzione alternativa delle controversie",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "d943eeadb1fb"
+  },
+  "40": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Onere della prova (legge 10 aprile 1991, n. 125, articolo 4, comma 6)",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "ebea3532cfd8"
+  },
+  "41": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Adempimenti amministrativi e sanzioni (legge 10 aprile 1991, n. 125, articolo 4, comma 12; legge 9 dicembre 1977, n. 903, articolo 16, comma 1)",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "d42110a6e27b"
+  },
+  "41-bis": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Vittimizzazione",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "5e184a5665a9"
+  },
+  "42": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Adozione e finalita' delle azioni positive (legge 10 aprile 1991, n. 125, articolo 1, commi 1 e 2)",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "5d1ced17c8b3"
+  },
+  "43": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Promozione delle azioni positive (legge 10 aprile 1991, n. 125, articolo 1, comma 3)",
+   "vigore_da": "2015-09-24",
+   "datazione": "api",
+   "h": "c9652650e2b5"
+  },
+  "44": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-07",
+   "datazione": "api",
+   "h": "dcce7e65f372"
+  },
+  "45": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Finanziamento delle azioni positive realizzate mediante la formazione professionale (legge 10 aprile 1991, n. 125, articolo 3)",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "ee0efddd0263"
+  },
+  "46": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Rapporto sulla situazione del personale (legge 10 aprile 1991, n. 125, articolo 9, commi 1, 2, 3 e 4)",
+   "vigore_da": "2021-12-03",
+   "datazione": "api",
+   "h": "b52d4208c4a7"
+  },
+  "46-bis": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Certificazione della parita' di genere",
+   "vigore_da": "2021-12-03",
+   "datazione": "api",
+   "h": "6b8d9d2a6e09"
+  },
+  "47": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Richieste di rimborso degli oneri finanziari connessi all'attuazione di progetti di azioni positive (decreto legislativo 23 maggio 2000, n. 196, articolo 10, comma 1)",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "828fe7c20a03"
+  },
+  "48": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Azioni positive nelle pubbliche amministrazioni (decreto legislativo 23 maggio 2000, n. 196, articolo 7, comma 5)",
+   "vigore_da": "2022-07-15",
+   "datazione": "api",
+   "h": "6a6ca186c0f1"
+  },
+  "49": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Azioni positive nel settore radiotelevisivo (legge 6 agosto 1990, n. 223, articolo 11)",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "9a5c5a8688d5"
+  },
+  "50": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Misure a sostegno della flessibilita' di orario",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "5bd8793323bb"
+  },
+  "50-bis": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Prevenzione delle discriminazioni",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "9ce734a23289"
+  },
+  "51": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Tutela e sostegno della maternita' e paternita'",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "e26ec69c1a4c"
+  },
+  "52": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Principi in materia di azioni positive per l'imprenditoria femminile (legge 25 febbraio 1992, n. 215, articolo 1, commi 1 e 2)",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "613718fdff04"
+  },
+  "53": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Principi in materia di beneficiari delle azioni positive (legge 25 febbraio 1992, n. 215, articolo 2, comma 1)",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "121f9b38604a"
+  },
+  "54": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Fondo nazionale per l'imprenditoria femminile (legge 25 febbraio 1992, n. 215, articolo 3, comma 1)",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "00ff9b4331f9"
+  },
+  "55": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Relazione al Parlamento (legge 25 febbraio 1992, n. 215, articolo 11)",
+   "vigore_da": "2010-02-20",
+   "datazione": "api",
+   "h": "a3df20e41976"
+  },
+  "55-bis": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Nozioni di discriminazione",
+   "vigore_da": "2008-01-18",
+   "datazione": "api",
+   "h": "80cb00c5941f"
+  },
+  "55-ter": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Divieto di discriminazione",
+   "vigore_da": "2007-11-10",
+   "datazione": "api",
+   "h": "c39a522d9c72"
+  },
+  "55-quater": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Parita' di trattamento tra uomini e donne nei servizi assicurativi e altri servizi finanziari",
+   "vigore_da": "2014-11-25",
+   "datazione": "api",
+   "h": "d69b64f8a9a4"
+  },
+  "55-quinquies": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Procedimento per la tutela contro le discriminazioni per ragioni di sesso nell'accesso a beni e servizi e loro fornitura",
+   "vigore_da": "2011-10-06",
+   "datazione": "api",
+   "h": "a8f76a63402b"
+  },
+  "55-sexies": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-06",
+   "datazione": "api",
+   "h": "09cd66a1f84a"
+  },
+  "55-septies": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Legittimazione ad agire di associazioni ed enti",
+   "vigore_da": "2007-11-10",
+   "datazione": "api",
+   "h": "6841b48d24bf"
+  },
+  "55-octies": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Promozione del principio di parita' di trattamento nell'accesso a beni e servizi e loro fornitura",
+   "vigore_da": "2007-11-10",
+   "datazione": "api",
+   "h": "f6a7c6c96fcf"
+  },
+  "55-novies": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Ufficio per la promozione della parita' di trattamento nell'accesso a beni e servizi e loro fornitura",
+   "vigore_da": "2007-11-10",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "07fed02dd33d"
+  },
+  "55-decies": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Relazione alla Commissione europea",
+   "vigore_da": "2007-11-10",
+   "datazione": "api",
+   "h": "85c984575674"
+  },
+  "56": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Pari opportunita' nell'accesso alla carica di membro del Parlamento europeo (legge 8 aprile 2004, n. 90, articolo 3)",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "bf93b0de7f2d"
+  },
+  "57": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Disposizioni abrogate",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "6c75c9dde69c"
+  },
+  "58": {
+   "file": "dlgs-198-2006.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2006-06-15",
+   "datazione": "api",
+   "h": "4fbd08766e66"
+  }
+ }
+}

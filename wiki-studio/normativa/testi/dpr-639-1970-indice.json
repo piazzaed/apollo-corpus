@@ -1,0 +1,518 @@
+{
+ "_meta": {
+  "codice": "dpr-639-1970",
+  "nome": "Revisione degli ordinamenti pensionistici e sicurezza sociale (D.P.R. 639/1970)",
+  "snapshot": "2026-10-02",
+  "formato": 2,
+  "consolidato_normattiva": "2023-05-11",
+  "articoli": 59,
+  "file": [
+   "dpr-639-1970.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.del.presidente.della.repubblica:1970-04-30;639",
+  "versioni": [
+   {
+    "data": "1970-09-08",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1971-11-06",
+    "evento": "rp1",
+    "atto_modificante": "L. 29 ottobre 1971, n. 889"
+   },
+   {
+    "data": "1972-05-24",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "1972-07-01",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 30 giugno 1972, n. 267"
+   },
+   {
+    "data": "1972-08-23",
+    "evento": "rp4",
+    "atto_modificante": "L. 11 agosto 1972, n. 466"
+   },
+   {
+    "data": "1974-01-10",
+    "evento": "rp5",
+    "atto_modificante": "L. 22 dicembre 1973, n. 903"
+   },
+   {
+    "data": "1981-12-31",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 22 dicembre 1981, n. 791"
+   },
+   {
+    "data": "1984-06-16",
+    "evento": "rp7",
+    "atto_modificante": "L. 12 giugno 1984, n. 222"
+   },
+   {
+    "data": "1984-07-19",
+    "evento": "rp8",
+    "atto_modificante": "L. 10 luglio 1984, n. 335"
+   },
+   {
+    "data": "1988-11-12",
+    "evento": "rp9",
+    "atto_modificante": "L. 31 ottobre 1988, n. 480"
+   },
+   {
+    "data": "1989-03-13",
+    "evento": "rp10",
+    "atto_modificante": "L. 9 marzo 1989, n. 88"
+   },
+   {
+    "data": "1992-09-19",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 19 settembre 1992, n. 384"
+   },
+   {
+    "data": "2008-06-25",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 25 giugno 2008, n. 112"
+   },
+   {
+    "data": "2011-07-06",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 6 luglio 2011, n. 98"
+   },
+   {
+    "data": "2023-05-10",
+    "evento": "rp14",
+    "atto_modificante": "D.L. 10 maggio 2023, n. 51"
+   }
+  ],
+  "ultima_versione": "2023-05-10",
+  "datazione": {
+   "monoblocco": 59,
+   "api": 59,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "stima_uguale": 32,
+   "chiamate": 59,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "eeeb09d7ad32"
+  },
+  "2": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "a60fe529f55e"
+  },
+  "3": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "ceffdfbc98db"
+  },
+  "4": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "5": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "d1582556c327"
+  },
+  "6": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "5d2b6e28cc51"
+  },
+  "7": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "aa081de916e7"
+  },
+  "8": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "2023-05-11",
+   "datazione": "api",
+   "h": "cfe98183ce18"
+  },
+  "9": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "72ecd43ccbb5"
+  },
+  "10": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "ea7abb32e975"
+  },
+  "11": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "d27c68d79a1e"
+  },
+  "12": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "c0f041edf929"
+  },
+  "13": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "14": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "740936f54f46"
+  },
+  "15": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "d40ee9a589f2"
+  },
+  "16": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "0bb76b365586"
+  },
+  "17": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "fddc903364cd"
+  },
+  "18": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "cddcf19c85f8"
+  },
+  "19": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "61a9b1c23090"
+  },
+  "20": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "78b2259df190"
+  },
+  "21": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "67c635472ee2"
+  },
+  "22": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "abdc47de563d"
+  },
+  "23": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "2eb7e989fb3b"
+  },
+  "24": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1971-12-01",
+   "datazione": "api",
+   "h": "2980eb93ae1f"
+  },
+  "25": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "9e27b276b443"
+  },
+  "26": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1988-11-27",
+   "datazione": "api",
+   "h": "4f8b0b3737bd"
+  },
+  "27": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1974-01-11",
+   "datazione": "api",
+   "h": "7c7755c6c826"
+  },
+  "28": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1974-01-11",
+   "datazione": "api",
+   "h": "90bec11b8b1a"
+  },
+  "29": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "30": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "31": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "32": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "33": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "59cd8f461044"
+  },
+  "34": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "f828f922bee1"
+  },
+  "35": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "f1248052b266"
+  },
+  "36": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "9b26d69a8cdd"
+  },
+  "37": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "b0a4b5afa085"
+  },
+  "38": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "73ed5f313854"
+  },
+  "39": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "73db48a07dd8"
+  },
+  "40": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "007ccd48f9f2"
+  },
+  "41": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "dc900061cfa7"
+  },
+  "42": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "89dfe5709a7a"
+  },
+  "43": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "2008-08-22",
+   "datazione": "api",
+   "h": "ff92eb263969"
+  },
+  "44": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "45": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "46": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "47": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "2011-07-17",
+   "datazione": "api",
+   "h": "80f77e662f6a"
+  },
+  "48": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "49": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "918548091cd4"
+  },
+  "50": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "51": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "3e21ea092b88"
+  },
+  "52": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "d60c21c0d079"
+  },
+  "53": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1989-03-28",
+   "datazione": "api",
+   "h": "0d3dd175a2bb"
+  },
+  "54": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "413175bd8fff"
+  },
+  "55": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "997bd9598110"
+  },
+  "56": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "4721c7c41405"
+  },
+  "57": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "7a9c7c35ed60"
+  },
+  "58": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "ff3638faf7db"
+  },
+  "59": {
+   "file": "dpr-639-1970.md",
+   "rubrica": "Disposizioni finali e transitorie",
+   "vigore_da": "1970-09-08",
+   "datazione": "api",
+   "h": "2148a25a6ea1"
+  }
+ }
+}
