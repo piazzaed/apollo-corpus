@@ -1,0 +1,50 @@
+name: prova claude (una tantum, da rimuovere)
+
+on:
+  workflow_run:
+    workflows: ["prova lavoro (una tantum)"]
+    types: [completed]
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  claude:
+    if: github.event.workflow_run.head_branch == 'prova-lavoro'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: prova-lavoro
+      - name: Claude (prova del token e dei permessi)
+        id: claude
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        env:
+          CLAUDE_CODE_SUBAGENT_MODEL: opus
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Prova tecnica, nessun altro compito. Scrivi il file prova/esito-claude.md con:
+            1. il nome del modello che stai usando;
+            2. il numero di voci della chiave "atti" in wiki-studio/normativa/codici.json (leggilo con Read);
+            3. le ultime 3 righe dell'uscita di `python3 scripts/diagnostica_rete.py --timeout 15`;
+            4. il titolo del canale RSS https://www.inps.it/it/it.rss.circolari.xml letto con WebFetch.
+            Non modificare nessun altro file.
+          claude_args: >-
+            --model opus
+            --allowedTools "Read,Write,WebFetch,Bash(python3 scripts/diagnostica_rete.py:*)"
+      - name: salva l'esito nel ramo di prova
+        if: always()
+        run: |
+          echo "esito passo claude: ${{ steps.claude.outcome }}" > prova/esito-claude-wr.txt
+          F="${{ steps.claude.outputs.execution_file }}"
+          [ -n "$F" ] && [ -f "$F" ] && python3 -c "import json,sys;d=json.load(open(sys.argv[1]));print(json.dumps(d[-1] if isinstance(d,list) else d,ensure_ascii=False)[:4000])" "$F" > prova/claude-ultimo-messaggio.json || true
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          git add prova/
+          git commit -m "prova: esito del passo Claude (workflow_run)" || true
+          git push origin HEAD:prova-lavoro
