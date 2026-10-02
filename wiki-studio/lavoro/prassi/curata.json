@@ -1,1 +1,18 @@
-{"_meta": {"descrizione": "prassi aggiunta a mano o dal modello quando l indice non la contiene: ogni voce con indirizzo https"}, "voci": {}}
+{
+ "_meta": {
+  "descrizione": "prassi aggiunta a mano o dal modello quando l indice non la contiene: ogni voce con indirizzo https"
+ },
+ "voci": {
+  "minlav:circolare:2025:6": {
+   "ente": "Ministero del lavoro",
+   "tipo": "circolare",
+   "numero": "6",
+   "anno": "2025",
+   "data": "2025-03-27",
+   "titolo": "Circolare n. 6 del 27 marzo 2025 — Legge 13 dicembre 2024, n. 203 recante «Disposizioni in materia di lavoro» (collegato lavoro): prime indicazioni operative (somministrazione, attività stagionali, periodo di prova, lavoro agile, dimissioni per fatti concludenti)",
+   "url": "https://www.lavoro.gov.it/sites/default/files/documenti-pubblicita-legale/Circolare%20n.%206%20del%2027.03.2025.pdf",
+   "visto_il": "2026-10-02",
+   "nota": "assente dall'elenco «Normativa» del sito del Ministero: aggiunta a mano (trasmessa anche con la nota INL n. 3984/2025)"
+  }
+ }
+}

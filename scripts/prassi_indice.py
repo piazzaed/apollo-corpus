@@ -277,6 +277,9 @@ def minlav_circolari_pagina(tip: str, pagina: int, get=None) -> list:
     return _RX_RIGA_MINNORM.findall((get or _get)(f"{MINLAV_NORMATIVA}?tip={quote(tip)}&page={pagina}"))
 
 
+_RX_ALTRO_ENTE = re.compile(r"(?i)circolar[ea]\s+(inps|inl)\b")
+
+
 def voce_minlav_circolare(blocco: str, tipo: str, oggi: str):
     m_url = re.search(r'href="([^"]+)"', blocco)
     m_t = re.search(r"<h2>(.*?)</h2>", blocco, re.S)
@@ -292,6 +295,13 @@ def voce_minlav_circolare(blocco: str, tipo: str, oggi: str):
     url = url if url.startswith("http") else "https://www.lavoro.gov.it" + url
     v = {"ente": "Ministero del lavoro", "tipo": tipo, "numero": m_n.group(1), "anno": data[:4], "data": data,
          "titolo": (titolo + (f" — {_testo(m_d.group(1))}" if m_d else ""))[:400], "url": url, "visto_il": oggi}
+    # l'elenco del Ministero ripubblica anche circolari di altri enti: quelle INPS stanno gia' nell'indice INPS,
+    # quelle dell'INL (2016-2017, prima del sito dell'Ispettorato) prendono l'id dell'INL
+    altro = _RX_ALTRO_ENTE.match(titolo)
+    if altro and altro.group(1).lower() == "inps":
+        return None, None
+    if altro:
+        return _id("inl", tipo, data[:4], m_n.group(1)), {**v, "ente": "INL"}
     return _id("minlav", tipo, data[:4], m_n.group(1)), v
 
 
@@ -380,6 +390,21 @@ def carica(radice: Path) -> dict:
     return {"_meta": {}, "voci": {}}
 
 
+def con_curata(indice: dict, curata: dict) -> dict:
+    """L'indice con le voci aggiunte a mano o dal modello (`curata.json`): la ricerca le trova come le altre."""
+    voci = dict((curata or {}).get("voci") or {})
+    voci.update((indice or {}).get("voci") or {})
+    return {"_meta": (indice or {}).get("_meta") or {}, "voci": voci}
+
+
+def carica_tutto(radice: Path) -> dict:
+    try:
+        curata = json.loads((percorso(radice).parent / "curata.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        curata = {}
+    return con_curata(carica(radice), curata if isinstance(curata, dict) else {})
+
+
 def aggiorna(radice: Path, dal: str = "", quali=None, get=None, oggi: str = "") -> dict:
     """Le novita' di ogni fonte (dal `dal` se dato: il pregresso). Una fonte che fallisce non tocca le sue voci."""
     oggi = oggi or _dt.date.today().isoformat()
@@ -461,7 +486,7 @@ def main(argv=None) -> int:
                 f.write(testo + "\n")
         return 0
     if a.cerca:
-        r = cerca(carica(Path(a.radice)), a.cerca, a.ente)
+        r = cerca(carica_tutto(Path(a.radice)), a.cerca, a.ente)
         if a.json:
             print(json.dumps(r, ensure_ascii=False, indent=1))
         else:
