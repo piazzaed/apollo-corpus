@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-02T20:04Z",
+ "generato_il": "2026-10-02T20:06Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -2651,13 +2651,17 @@
     "sha256": "14e783b2f848d14df0059bbd57315278ac57e8708712e4052f09dddc33d134c7",
     "byte": 8675
    },
+   "memento/indice.json": {
+    "sha256": "ed10301e51a9e16f5eef2fb8445869f7805b2b5f0cdfb4bf5896da0088336053",
+    "byte": 145
+   },
    "prassi/curata.json": {
     "sha256": "8e1df5f2cc9e2ac435f03d99be1057ed5cf95d9a8ab71018df51a03902137c71",
     "byte": 142
    },
    "prassi/indice.json": {
-    "sha256": "2390255b4aa643896281a18e7796f6f90fc5fe7034f61168fed53ff62686a89e",
-    "byte": 4448180
+    "sha256": "d02d4e14c77bb0fe957b30e4491e592e39a5e97d640d3535c14c905413097383",
+    "byte": 4449057
    }
   },
   "descrizione": "stato del triage del memento",
