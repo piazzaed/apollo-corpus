@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-02T20:08Z",
+ "generato_il": "2026-10-02T20:11Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -2748,7 +2748,7 @@
     "byte": 11341
    },
    "memento/impugnazione-licenziamento.md": {
-    "sha256": "83787fd5b0ee651436221ec86c06c1aab7106edac61cc54c5c7b1b5b70f06dc3",
+    "sha256": "8d62a9dbbb6f9a562b3752289d09e288448729aa1872cfdc7f2488470bb592bc",
     "byte": 5268
    },
    "memento/indice.json": {
@@ -2988,7 +2988,7 @@
     "byte": 886
    },
    "prassi/indice.json": {
-    "sha256": "5944e51d04614ab8904398d66ce5c8e59028195029897c61afc5d6a255e0abb6",
+    "sha256": "f9f99073a82b7f9115a6fcdd8c593e0ab5939c5877b811e10ac69cbbaa9cbb7d",
     "byte": 4447859
    }
   },

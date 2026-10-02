@@ -9,7 +9,7 @@ prassi: []
 numeri: []
 stato: "verificata"
 verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+corpus_al: "2026-10-02T20:08Z"
 impronte: {"l-604-1966:6": "c33ff551d5f6", "l-604-1966:2": "400ad544b30b", "l-183-2010:32": "d6ed3efcd9aa", "cpc:410": "fdb6f553f035", "cpc:700": "3f0cb7414845"}
 ---
 # Impugnazione del licenziamento e decadenze — mappa
