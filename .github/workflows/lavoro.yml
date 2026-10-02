@@ -114,4 +114,8 @@ jobs:
           gh issue create --title "memento: schede da rivedere ($(date -u +%F))" --label memento --body-file $RUNNER_TEMP/issue.md || true
       - name: rapporto
         if: always()
-        run: cat $RUNNER_TEMP/lavoro.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+        run: |
+          cat $RUNNER_TEMP/lavoro.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          # il riepilogo si legge solo da autenticati: gli esiti negativi diventano annotazioni pubbliche
+          grep -h -E "❌|⚠️" $RUNNER_TEMP/lavoro.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+          python3 scripts/corpus_pubblica.py --verifica 2>&1 | grep -v "^verifica: OK" | head -10 | sed 's/^ */::warning::/' || true

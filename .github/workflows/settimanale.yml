@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "wiki-studio/normativa/codici.json"
+      - ".github/workflows/settimanale.yml"     # strumenti nuovi: si provano subito
   workflow_dispatch:
     inputs:
       forza:
@@ -47,12 +48,14 @@ jobs:
           ARGS="--settimanale --report $RUNNER_TEMP/rapporto.md"
           if [ "${{ inputs.forza }}" = "true" ]; then ARGS="$ARGS --forza"; fi
           for s in ${{ inputs.solo }}; do ARGS="$ARGS --solo $s"; done
-          python3 scripts/corpus_pubblica.py $ARGS
+          python3 scripts/corpus_pubblica.py $ARGS 2> >(tee $RUNNER_TEMP/giro.err >&2)
       - name: estremi della Cassazione (anno in corso e precedente; se SentenzeWeb non risponde, avviso e si salta)
         continue-on-error: true
         run: python3 scripts/cassazione_indice.py --aggiorna --report $RUNNER_TEMP/cassazione.md
       - name: manifest finale e verifica
-        run: python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+        run: |
+          set -o pipefail
+          python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica | tee $RUNNER_TEMP/verifica.txt
       - name: pubblica
         run: |
           git config user.name "corpus-bot"
@@ -68,4 +71,10 @@ jobs:
           git push
       - name: rapporto
         if: always()
-        run: cat $RUNNER_TEMP/rapporto.md $RUNNER_TEMP/cassazione.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+        run: |
+          cat $RUNNER_TEMP/rapporto.md $RUNNER_TEMP/cassazione.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          # i log e il riepilogo di un'Action si leggono solo da autenticati: gli esiti negativi diventano annotazioni,
+          # che l'API pubblica mostra a chiunque (le legge anche il plugin per la diagnosi)
+          grep -h -E "❌|⚠️" $RUNNER_TEMP/rapporto.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+          grep -v "^verifica: OK" $RUNNER_TEMP/verifica.txt 2>/dev/null | head -10 | sed 's/^ */::error::/' || true
+          tail -n 8 $RUNNER_TEMP/giro.err 2>/dev/null | sed 's/^/::error::/' || true

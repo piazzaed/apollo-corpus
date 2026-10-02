@@ -567,6 +567,19 @@ def costruisci_manifest(root: Path, stato_atti: dict, fonti: dict, precedente: d
             "repo": REPO_PUBBLICO, "fonti": fonti, "atti": atti, **extra}
 
 
+def mai_costruito(slug: str, testi: Path) -> bool:
+    """L'atto non ha nessun file nel repo: e' stato aggiunto a codici.json e nessun giro e' ancora riuscito a costruirlo."""
+    testi = Path(testi)
+    return not (testi / f"{slug}-indice.json").exists() and not (testi / f"{slug}.md").exists() \
+        and not any(testi.glob(f"{slug}-*.md"))
+
+
+def in_attesa(root: Path = ROOT) -> list:
+    """Gli atti di codici.json mai costruiti: restano fuori dal manifest finche' un giro non li costruisce."""
+    testi = dir_testi(Path(root))
+    return [s for s in sorted(cl.CODICI) if mai_costruito(s, testi)]
+
+
 def verifica(root: Path = ROOT, manifest: dict = None) -> list:
     """Errori bloccanti del corpus nel repo (lista vuota = pubblicabile)."""
     root = Path(root)
@@ -579,7 +592,10 @@ def verifica(root: Path = ROOT, manifest: dict = None) -> list:
     for slug, cfg in sorted(cl.CODICI.items()):
         idx = _leggi_json(testi / f"{slug}-indice.json")
         if not idx:
-            errori.append(f"{slug}: indice assente o illeggibile")
+            # v0.36: un atto appena aggiunto che il giro non riesce a costruire non ferma la pubblicazione degli altri
+            # (lo elenca `in_attesa`); un atto gia' costruito che perde l'indice resta un errore
+            if not (mai_costruito(slug, testi) and slug not in (man.get("atti") or {})):
+                errori.append(f"{slug}: indice assente o illeggibile")
             continue
         meta = idx.get("_meta") or {}
         if int(meta.get("formato") or 1) != cl.FORMATO_INDICE:
@@ -703,6 +719,7 @@ def settimanale(root: Path = ROOT, *, oggi: _dt.date = None, forza: bool = False
     esito["secondo_livello_scartati"] = sorted(man.get("secondo_livello_scartati") or {})
     errori = verifica(root, man)
     esito["verifica"] = errori
+    esito["in_attesa"] = in_attesa(root)
     if not errori:
         _scrivi_json(percorso_manifest(root), man)
     return esito
@@ -728,6 +745,8 @@ def rapporto_md(esito: dict) -> str:
                  + (f" · ❌ in quarantena: {', '.join(esito['secondo_livello_scartati'])}" if esito.get("secondo_livello_scartati") else ""))
     for s, e in (esito.get("errori") or {}).items():
         r.append(f"- ❌ {s}: {e}")
+    if esito.get("in_attesa"):
+        r.append(f"- ⚠️ atti di codici.json non ancora costruiti (fuori dal manifest): {', '.join(esito['in_attesa'])}")
     if esito.get("verifica"):
         r.append("- ❌ **verifica fallita, manifest NON pubblicato**: " + "; ".join(esito["verifica"][:10]))
     return "\n".join(r) + "\n"
@@ -782,6 +801,7 @@ on:
     branches: [main]
     paths:
       - "wiki-studio/normativa/codici.json"
+      - ".github/workflows/settimanale.yml"     # strumenti nuovi: si provano subito
   workflow_dispatch:
     inputs:
       forza:
@@ -822,12 +842,14 @@ jobs:
           ARGS="--settimanale --report $RUNNER_TEMP/rapporto.md"
           if [ "${{ inputs.forza }}" = "true" ]; then ARGS="$ARGS --forza"; fi
           for s in ${{ inputs.solo }}; do ARGS="$ARGS --solo $s"; done
-          python3 scripts/corpus_pubblica.py $ARGS
+          python3 scripts/corpus_pubblica.py $ARGS 2> >(tee $RUNNER_TEMP/giro.err >&2)
       - name: estremi della Cassazione (anno in corso e precedente; se SentenzeWeb non risponde, avviso e si salta)
         continue-on-error: true
         run: python3 scripts/cassazione_indice.py --aggiorna --report $RUNNER_TEMP/cassazione.md
       - name: manifest finale e verifica
-        run: python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica
+        run: |
+          set -o pipefail
+          python3 scripts/corpus_pubblica.py --manifest && python3 scripts/corpus_pubblica.py --verifica | tee $RUNNER_TEMP/verifica.txt
       - name: pubblica
         run: |
           git config user.name "corpus-bot"
@@ -843,7 +865,13 @@ jobs:
           git push
       - name: rapporto
         if: always()
-        run: cat $RUNNER_TEMP/rapporto.md $RUNNER_TEMP/cassazione.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+        run: |
+          cat $RUNNER_TEMP/rapporto.md $RUNNER_TEMP/cassazione.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          # i log e il riepilogo di un'Action si leggono solo da autenticati: gli esiti negativi diventano annotazioni,
+          # che l'API pubblica mostra a chiunque (le legge anche il plugin per la diagnosi)
+          grep -h -E "❌|⚠️" $RUNNER_TEMP/rapporto.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+          grep -v "^verifica: OK" $RUNNER_TEMP/verifica.txt 2>/dev/null | head -10 | sed 's/^ */::error::/' || true
+          tail -n 8 $RUNNER_TEMP/giro.err 2>/dev/null | sed 's/^/::error::/' || true
 """
 
 #: v0.34: a ogni caricamento di fonti di secondo livello il manifest le comprende (o le mette in quarantena)
@@ -1017,7 +1045,11 @@ jobs:
           gh issue create --title "memento: schede da rivedere ($(date -u +%F))" --label memento --body-file $RUNNER_TEMP/issue.md || true
       - name: rapporto
         if: always()
-        run: cat $RUNNER_TEMP/lavoro.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+        run: |
+          cat $RUNNER_TEMP/lavoro.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          # il riepilogo si legge solo da autenticati: gli esiti negativi diventano annotazioni pubbliche
+          grep -h -E "❌|⚠️" $RUNNER_TEMP/lavoro.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+          python3 scripts/corpus_pubblica.py --verifica 2>&1 | grep -v "^verifica: OK" | head -10 | sed 's/^ */::warning::/' || true
 """
 
 #: v0.36: la richiesta manuale (creare o rivedere schede) si fa con un push di wiki-studio/lavoro/richiesta.json;
@@ -1277,7 +1309,9 @@ def main(argv=None) -> int:
         return 1 if esito["scartate"] else 0
     if a.verifica:
         errori = verifica(repo)
-        print("verifica: " + ("OK" if not errori else f"{len(errori)} errori\n  " + "\n  ".join(errori)))
+        attesa = in_attesa(repo)
+        print("verifica: " + ("OK" if not errori else f"{len(errori)} errori\n  " + "\n  ".join(errori))
+              + (f"\n⚠️ non ancora costruiti (fuori dal manifest): {', '.join(attesa)}" if attesa else ""))
         return 0 if not errori else 1
     if a.settimanale or a.pubblica:
         kw = {"forza": a.forza, "solo": a.solo, "con_gu": not a.senza_gu}
