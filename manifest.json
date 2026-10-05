@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-05T09:16Z",
+ "generato_il": "2026-10-05T09:19Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -2632,15 +2632,15 @@
  "lavoro": {
   "file": {
    "ccnl/accordi.json": {
-    "sha256": "1cbcc80737aa9704e645b4192d3437d270c953a4460540f4efb6964889f5495c",
+    "sha256": "dd0ecd2a72fa8b4ab9818fd1174f79b3fa579aa176e35c83f7c0ab07dc0f1742",
     "byte": 1583568
    },
    "ccnl/indice.json": {
-    "sha256": "ab2097b4202db8b32e2ab3a5bfc00a8a27d331a281d69be9d3a907bdce5f5b44",
+    "sha256": "28b881d2ab096fb24161f14b2159533733714474b24d02a61f6207c04b43e031",
     "byte": 517577
    },
    "ccnl/novita.json": {
-    "sha256": "ac4329f2ea757ee91683c17f7f1311c2b801827b20158b0177d62fecafecb287",
+    "sha256": "b7f40350e1e4d2d35e1a9d9282a6a265052c055033924eeee8b73ec6ac99537a",
     "byte": 140
    },
    "dati/dati-lavoro.json": {
@@ -2752,7 +2752,7 @@
     "byte": 5268
    },
    "memento/indice.json": {
-    "sha256": "09e83845c484c2d66a22717bf56450c023bc9c8abbe89768907d834a94d058ed",
+    "sha256": "2891b89eb49b90bf1ab7b893e54269afa90ae966db8a5178cfe7836852864b96",
     "byte": 96055
    },
    "memento/infortunio-malattia-professionale.md": {
@@ -2988,12 +2988,12 @@
     "byte": 886
    },
    "prassi/indice.json": {
-    "sha256": "f9f99073a82b7f9115a6fcdd8c593e0ab5939c5877b811e10ac69cbbaa9cbb7d",
+    "sha256": "3d031e0ad24f2393f3c56ca6ffeb3016edbef9e4d731ac0944c16fa27cc63cf5",
     "byte": 4447859
    }
   },
   "descrizione": "stato del triage del memento",
-  "ultimo_triage": "2026-10-02"
+  "ultimo_triage": "2026-10-05"
  },
  "cassazione": {
   "file": {
