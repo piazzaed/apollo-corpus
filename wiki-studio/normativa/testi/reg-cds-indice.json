@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "reg-cds",
   "nome": "Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-10-05",
   "formato": 2,
   "consolidato_normattiva": "2025-03-11",
   "articoli": 409,
@@ -377,13 +377,10 @@
   "ultima_versione": "2025-02-24",
   "datazione": {
    "monoblocco": 409,
-   "api": 372,
-   "riportati": 31,
-   "ignota": 6,
-   "falliti": 6,
-   "stima_anteriore": 186,
-   "chiamate": 378,
-   "errori_rete": 6,
+   "api": 6,
+   "riportati": 403,
+   "ignota": 0,
+   "chiamate": 6,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -776,43 +773,43 @@
   "56": {
    "file": "reg-cds.md",
    "rubrica": "Vigilanza",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1996-12-19",
+   "datazione": "api",
    "h": "6bbfb7171f63"
   },
   "57": {
    "file": "reg-cds.md",
    "rubrica": "Pubblicita' sui veicoli",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1999-11-19",
+   "datazione": "api",
    "h": "e8c100461c3c"
   },
   "58": {
    "file": "reg-cds.md",
    "rubrica": "Adattamenti delle forme di pubblicita' esistenti all'entrata in vigore del codice",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1996-12-19",
+   "datazione": "api",
    "h": "6229fa8b32c3"
   },
   "59": {
    "file": "reg-cds.md",
    "rubrica": "Pubblicita' fonica",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1996-12-19",
+   "datazione": "api",
    "h": "8a303b80efaf"
   },
   "60": {
    "file": "reg-cds.md",
    "rubrica": "Ubicazione delle pertinenze di servizio",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1996-12-19",
+   "datazione": "api",
    "h": "a7fc95c2804a"
   },
   "61": {
    "file": "reg-cds.md",
    "rubrica": "Aree di servizio destinate al rifornimento e al ristoro degli utenti",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1996-12-19",
+   "datazione": "api",
    "h": "d6c158fe304a"
   },
   "62": {

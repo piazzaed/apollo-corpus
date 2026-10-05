@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generato_il": "2026-10-02T20:11Z",
+ "generato_il": "2026-10-05T09:16Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
   "aggiornati_api": "ok",
   "finestra": [
    "2026-09-27",
-   "2026-10-02"
+   "2026-10-05"
   ],
   "atti_dichiarati": 22,
   "gu": "ok",
@@ -17,8 +17,8 @@
   "cad": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-04-21",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 123,
    "formato": 2,
    "in_movimento": false,
@@ -37,8 +37,8 @@
   "cap": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-12",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 613,
    "formato": 2,
    "in_movimento": false,
@@ -57,7 +57,7 @@
   "cc": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-12",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 3249,
    "formato": 2,
@@ -97,7 +97,7 @@
   "ccii": {
    "snapshot": "2026-09-25",
    "consolidato": "2026-08-12",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 415,
    "formato": 2,
@@ -117,8 +117,8 @@
   "cds": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-04-25",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 266,
    "formato": 2,
    "in_movimento": false,
@@ -137,8 +137,8 @@
   "cod-consumo": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-19",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 242,
    "formato": 2,
    "in_movimento": false,
@@ -157,7 +157,7 @@
   "cost": {
    "snapshot": "2026-09-23",
    "consolidato": "2023-10-22",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 139,
    "formato": 2,
@@ -177,7 +177,7 @@
   "cp": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-07-16",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 996,
    "formato": 2,
@@ -205,8 +205,8 @@
   "cpc": {
    "snapshot": "2026-09-28",
    "consolidato": "2026-02-20",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 1056,
    "formato": 2,
    "in_movimento": false,
@@ -237,8 +237,8 @@
   "disp-att-cc": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-04-29",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 314,
    "formato": 2,
    "in_movimento": false,
@@ -257,7 +257,7 @@
   "disp-att-cpc": {
    "snapshot": "2026-09-23",
    "consolidato": "2024-11-26",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 307,
    "formato": 2,
@@ -277,7 +277,7 @@
   "dl-1-2012": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-01-10",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 120,
    "formato": 2,
@@ -297,8 +297,8 @@
   "dl-132-2014": {
    "snapshot": "2026-09-23",
    "consolidato": "2025-01-25",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 39,
    "formato": 2,
    "in_movimento": false,
@@ -317,8 +317,8 @@
   "dl-179-2012": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-28",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 85,
    "formato": 2,
    "in_movimento": false,
@@ -337,7 +337,7 @@
   "dl-262-2006": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-12",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 48,
    "formato": 2,
@@ -357,8 +357,8 @@
   "dl-338-1989": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-03-27",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 10,
    "formato": 2,
    "in_movimento": false,
@@ -377,8 +377,8 @@
   "dl-394-2000": {
    "snapshot": "2026-09-23",
    "consolidato": "2002-03-07",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 2,
    "formato": 2,
    "in_movimento": false,
@@ -397,8 +397,8 @@
   "dl-463-1983": {
    "snapshot": "2026-10-02",
    "consolidato": "2023-05-05",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 28,
    "formato": 2,
    "in_movimento": false,
@@ -417,8 +417,8 @@
   "dl-62-2026": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-06-28",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 30,
    "formato": 2,
    "in_movimento": false,
@@ -437,8 +437,8 @@
   "dl-663-1979": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-01-12",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 52,
    "formato": 2,
    "in_movimento": false,
@@ -457,8 +457,8 @@
   "dl-87-2018": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 26,
    "formato": 2,
    "in_movimento": false,
@@ -477,8 +477,8 @@
   "dlgs-104-2022": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-01-12",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 17,
    "formato": 2,
    "in_movimento": false,
@@ -497,7 +497,7 @@
   "dlgs-116-2017": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-12",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 46,
    "formato": 2,
@@ -517,7 +517,7 @@
   "dlgs-122-2005": {
    "snapshot": "2026-09-23",
    "consolidato": "2022-03-03",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 18,
    "formato": 2,
@@ -537,8 +537,8 @@
   "dlgs-124-2004": {
    "snapshot": "2026-10-02",
    "consolidato": "2024-12-28",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 20,
    "formato": 2,
    "in_movimento": false,
@@ -557,8 +557,8 @@
   "dlgs-136-2016": {
    "snapshot": "2026-10-02",
    "consolidato": "2023-03-21",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 36,
    "formato": 2,
    "in_movimento": false,
@@ -577,7 +577,7 @@
   "dlgs-139-2024": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-04",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 11,
    "formato": 2,
@@ -597,8 +597,8 @@
   "dlgs-148-2015": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 54,
    "formato": 2,
    "in_movimento": false,
@@ -617,8 +617,8 @@
   "dlgs-149-2022": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-12",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 52,
    "formato": 2,
    "in_movimento": false,
@@ -637,8 +637,8 @@
   "dlgs-150-2011": {
    "snapshot": "2026-09-23",
    "consolidato": "2025-03-29",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 39,
    "formato": 2,
    "in_movimento": false,
@@ -657,8 +657,8 @@
   "dlgs-151-2001": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 95,
    "formato": 2,
    "in_movimento": false,
@@ -677,8 +677,8 @@
   "dlgs-151-2015": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-01-12",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 43,
    "formato": 2,
    "in_movimento": false,
@@ -697,8 +697,8 @@
   "dlgs-152-1997": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-06-28",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 6,
    "formato": 2,
    "in_movimento": false,
@@ -715,30 +715,30 @@
    }
   },
   "dlgs-164-2024": {
-   "snapshot": "2026-09-23",
-   "consolidato": "2026-09-23",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "snapshot": "2026-10-05",
+   "consolidato": "2026-10-05",
+   "verificato_il": "2026-10-05",
+   "esito": "ricostruito",
    "articoli": 8,
    "formato": 2,
    "in_movimento": false,
    "articoli_in_movimento": [],
    "file": {
     "dlgs-164-2024.md": {
-     "sha256": "780b6398122249c1df024e37f654a02ead0804cfe666340fc10c0162f2b84016",
+     "sha256": "a157b459f9701de3d2fc25d9e5ba8abf2c17962f410c4271d3c1865143411bd9",
      "byte": 323903
     },
     "dlgs-164-2024-indice.json": {
-     "sha256": "6716195ed1fbaaa0f9a1975940d3b9dc8d0da7a747636e5cf0131c1f83960c3c",
-     "byte": 2209
+     "sha256": "50bb8a7ab8366d4de76a35e103338580e8579b4048999ec0f334bdbb7d95b8a2",
+     "byte": 2185
     }
    }
   },
   "dlgs-165-2001": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-08-26",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 106,
    "formato": 2,
    "in_movimento": false,
@@ -757,7 +757,7 @@
   "dlgs-196-2003": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-02-20",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 221,
    "formato": 2,
@@ -777,8 +777,8 @@
   "dlgs-198-2006": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-06-07",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 74,
    "formato": 2,
    "in_movimento": false,
@@ -797,8 +797,8 @@
   "dlgs-215-2003": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-06-07",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 9,
    "formato": 2,
    "in_movimento": false,
@@ -817,8 +817,8 @@
   "dlgs-216-2003": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-06-07",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 9,
    "formato": 2,
    "in_movimento": false,
@@ -837,8 +837,8 @@
   "dlgs-22-2015": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 19,
    "formato": 2,
    "in_movimento": false,
@@ -857,8 +857,8 @@
   "dlgs-23-2015": {
    "snapshot": "2026-09-23",
    "consolidato": "2025-07-24",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 12,
    "formato": 2,
    "in_movimento": false,
@@ -875,29 +875,29 @@
    }
   },
   "dlgs-231-2001": {
-   "snapshot": "2026-09-23",
-   "consolidato": "2026-07-16",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
-   "articoli": 109,
+   "snapshot": "2026-10-05",
+   "consolidato": "2026-09-30",
+   "verificato_il": "2026-10-05",
+   "esito": "ricostruito",
+   "articoli": 110,
    "formato": 2,
    "in_movimento": false,
    "articoli_in_movimento": [],
    "file": {
     "dlgs-231-2001.md": {
-     "sha256": "bea7ae84c58eb18f2699a63674e5389994129fc396c7352e1b45cef23f9a9f41",
-     "byte": 160054
+     "sha256": "f50dd5b894b4cf29f9ed8d0883197779b5eccdedcfdb4d2a60edc6fe92c2738d",
+     "byte": 160629
     },
     "dlgs-231-2001-indice.json": {
-     "sha256": "703e79437ad426cdea33470e7a1edf328e06751e9570f1ca8f09155fdc17494f",
-     "byte": 27602
+     "sha256": "85c8bddc95e4bb4bb7732d037e416c5bb1d472d4a792a0402bfead01f88b1088",
+     "byte": 27901
     }
    }
   },
   "dlgs-231-2002": {
    "snapshot": "2026-09-23",
    "consolidato": "2020-01-01",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 13,
    "formato": 2,
@@ -917,8 +917,8 @@
   "dlgs-24-2023": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-01-24",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 25,
    "formato": 2,
    "in_movimento": false,
@@ -937,8 +937,8 @@
   "dlgs-25-2008": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-07-16",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 55,
    "formato": 2,
    "in_movimento": false,
@@ -957,8 +957,8 @@
   "dlgs-252-2005": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-06-28",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 54,
    "formato": 2,
    "in_movimento": false,
@@ -977,8 +977,8 @@
   "dlgs-276-2003": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-12-31",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 88,
    "formato": 2,
    "in_movimento": false,
@@ -997,7 +997,7 @@
   "dlgs-28-2010": {
    "snapshot": "2026-09-25",
    "consolidato": "2025-01-25",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 44,
    "formato": 2,
@@ -1017,8 +1017,8 @@
   "dlgs-286-1998": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-07-16",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 79,
    "formato": 2,
    "in_movimento": false,
@@ -1037,8 +1037,8 @@
   "dlgs-38-2000": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-01-12",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 29,
    "formato": 2,
    "in_movimento": false,
@@ -1057,8 +1057,8 @@
   "dlgs-66-2003": {
    "snapshot": "2026-10-02",
    "consolidato": "2019-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 20,
    "formato": 2,
    "in_movimento": false,
@@ -1077,8 +1077,8 @@
   "dlgs-67-2011": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-12-30",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 7,
    "formato": 2,
    "in_movimento": false,
@@ -1097,8 +1097,8 @@
   "dlgs-80-1992": {
    "snapshot": "2026-10-02",
    "consolidato": "2007-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 5,
    "formato": 2,
    "in_movimento": false,
@@ -1117,8 +1117,8 @@
   "dlgs-81-2008": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-04-07",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 321,
    "formato": 2,
    "in_movimento": false,
@@ -1149,7 +1149,7 @@
   "dlgs-81-2015": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-28",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 66,
    "formato": 2,
@@ -1169,7 +1169,7 @@
   "dm-110-2023": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-09-23",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 12,
    "formato": 2,
@@ -1189,8 +1189,8 @@
   "dm-44-2011": {
    "snapshot": "2026-09-23",
    "consolidato": "2024-01-15",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 39,
    "formato": 2,
    "in_movimento": false,
@@ -1209,8 +1209,8 @@
   "dm-55-2014": {
    "snapshot": "2026-09-23",
    "consolidato": "2022-10-23",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 30,
    "formato": 2,
    "in_movimento": false,
@@ -1229,7 +1229,7 @@
   "dpr-1124-1965": {
    "snapshot": "2026-09-25",
    "consolidato": "2023-11-19",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 296,
    "formato": 2,
@@ -1253,7 +1253,7 @@
   "dpr-115-2002": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-26",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 316,
    "formato": 2,
@@ -1273,8 +1273,8 @@
   "dpr-12-2025": {
    "snapshot": "2026-09-25",
    "consolidato": "2026-01-11",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 5,
    "formato": 2,
    "in_movimento": false,
@@ -1291,21 +1291,21 @@
    }
   },
   "dpr-131-1986": {
-   "snapshot": "2026-09-28",
+   "snapshot": "2026-10-05",
    "consolidato": "2026-06-04",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "ricostruito",
    "articoli": 84,
    "formato": 2,
    "in_movimento": false,
    "articoli_in_movimento": [],
    "file": {
     "dpr-131-1986.md": {
-     "sha256": "e515ec64ec93857a071d4f58dd4017c47acae88e65138b5b66fc6000a8200784",
+     "sha256": "c6082d3211a1d1d9e54a9b9c6a40be81d2e6dc79a3a886dd6cf0922425058e16",
      "byte": 143371
     },
     "dpr-131-1986-indice.json": {
-     "sha256": "0a0ab1d5033851738fc7478a6d9d8597de7f492f37d0936bd1df6164dafb04a7",
+     "sha256": "6fe5383f0b939a4dd2d0ca2d4ebebab6b599a56a7903044cb6cdec0d12823e44",
      "byte": 30081
     }
    }
@@ -1313,7 +1313,7 @@
   "dpr-380-2001": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-03-01",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 151,
    "formato": 2,
@@ -1331,30 +1331,30 @@
    }
   },
   "dpr-394-1999": {
-   "snapshot": "2026-09-23",
-   "consolidato": "2025-02-25",
-   "verificato_il": "2026-09-28",
-   "esito": "errore",
+   "snapshot": "2026-10-05",
+   "consolidato": "2026-10-01",
+   "verificato_il": "2026-10-05",
+   "esito": "ricostruito",
    "articoli": 75,
    "formato": 2,
    "in_movimento": false,
    "articoli_in_movimento": [],
    "file": {
     "dpr-394-1999.md": {
-     "sha256": "722532e8d12abeb4688dae27523a15336ab492fc07227ed7b39264df23da147e",
-     "byte": 210108
+     "sha256": "25edf0db8e6565f0321cd9a2f97b302ca21cf0db5a01b3f4ac76c50b0ea1133f",
+     "byte": 208645
     },
     "dpr-394-1999-indice.json": {
-     "sha256": "f91ac58b14c2148afae1c35104eb0e5c724ec21e62f96fac3223d7162fcc08df",
-     "byte": 18254
+     "sha256": "5110d0b8dc595a98bd7735500549a6580948e1c56423075d363a34c98b36a8be",
+     "byte": 18343
     }
    }
   },
   "dpr-445-2000": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-02-19",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 92,
    "formato": 2,
    "in_movimento": false,
@@ -1371,21 +1371,21 @@
    }
   },
   "dpr-602-1973": {
-   "snapshot": "2026-09-28",
+   "snapshot": "2026-10-05",
    "consolidato": "2026-05-23",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "ricostruito",
    "articoli": 135,
    "formato": 2,
    "in_movimento": false,
    "articoli_in_movimento": [],
    "file": {
     "dpr-602-1973.md": {
-     "sha256": "9426f685e7e4c00b859254ed182b036f20d6c254a23bdc3ae4029b4e4ee69fb8",
-     "byte": 193746
+     "sha256": "8644ffbf5e64cc9781254183b61da1dbf16caa6828f9742650064f9255526aec",
+     "byte": 193560
     },
     "dpr-602-1973-indice.json": {
-     "sha256": "1580db7a578ef20ea3c5d37ab7fd6901d0988408c66c1028c5e3502598dbf81a",
+     "sha256": "2e3eb0d545142a3062de6418427b83f7a333ea4712b756e44d4df57d42db3602",
      "byte": 45506
     }
    }
@@ -1393,8 +1393,8 @@
   "dpr-639-1970": {
    "snapshot": "2026-10-02",
    "consolidato": "2023-05-11",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 59,
    "formato": 2,
    "in_movimento": false,
@@ -1413,8 +1413,8 @@
   "l-104-1992": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-10-01",
-   "verificato_il": "2026-10-02",
-   "esito": "ricostruito",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 48,
    "formato": 2,
    "in_movimento": false,
@@ -1433,8 +1433,8 @@
   "l-106-2025": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-10-02",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 5,
    "formato": 2,
    "in_movimento": false,
@@ -1453,8 +1453,8 @@
   "l-108-1990": {
    "snapshot": "2026-10-02",
    "consolidato": "2003-07-14",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 6,
    "formato": 2,
    "in_movimento": false,
@@ -1473,7 +1473,7 @@
   "l-108-1996": {
    "snapshot": "2026-09-23",
    "consolidato": "2025-08-10",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 19,
    "formato": 2,
@@ -1493,7 +1493,7 @@
   "l-118-1971": {
    "snapshot": "2026-09-25",
    "consolidato": "2021-12-21",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 34,
    "formato": 2,
@@ -1513,8 +1513,8 @@
   "l-13-1989": {
    "snapshot": "2026-09-23",
    "consolidato": "2020-07-17",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 12,
    "formato": 2,
    "in_movimento": false,
@@ -1533,8 +1533,8 @@
   "l-130-1999": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-07",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 32,
    "formato": 2,
    "in_movimento": false,
@@ -1553,8 +1553,8 @@
   "l-1338-1962": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-01-12",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 26,
    "formato": 2,
    "in_movimento": false,
@@ -1573,8 +1573,8 @@
   "l-142-2001": {
    "snapshot": "2026-10-02",
    "consolidato": "2013-08-23",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 7,
    "formato": 2,
    "in_movimento": false,
@@ -1593,8 +1593,8 @@
   "l-146-1990": {
    "snapshot": "2026-10-02",
    "consolidato": "2018-08-02",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 21,
    "formato": 2,
    "in_movimento": false,
@@ -1613,8 +1613,8 @@
   "l-160-2019": {
    "snapshot": "2026-09-25",
    "consolidato": "2026-08-12",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 19,
    "formato": 2,
    "in_movimento": false,
@@ -1633,8 +1633,8 @@
   "l-177-2024": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-10-02",
-   "verificato_il": "2026-10-02",
-   "esito": "ricostruito",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 36,
    "formato": 2,
    "in_movimento": false,
@@ -1653,8 +1653,8 @@
   "l-183-2010": {
    "snapshot": "2026-10-02",
    "consolidato": "2023-12-31",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 50,
    "formato": 2,
    "in_movimento": false,
@@ -1673,8 +1673,8 @@
   "l-203-2024": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-10-02",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 34,
    "formato": 2,
    "in_movimento": false,
@@ -1693,8 +1693,8 @@
   "l-218-1995": {
    "snapshot": "2026-09-23",
    "consolidato": "2023-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 80,
    "formato": 2,
    "in_movimento": false,
@@ -1713,7 +1713,7 @@
   "l-222-1984": {
    "snapshot": "2026-09-25",
    "consolidato": "2009-07-04",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 15,
    "formato": 2,
@@ -1733,8 +1733,8 @@
   "l-223-1991": {
    "snapshot": "2026-10-02",
    "consolidato": "2021-10-22",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 31,
    "formato": 2,
    "in_movimento": false,
@@ -1753,8 +1753,8 @@
   "l-24-2017": {
    "snapshot": "2026-09-23",
    "consolidato": "2023-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 18,
    "formato": 2,
    "in_movimento": false,
@@ -1773,8 +1773,8 @@
   "l-241-1990": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-04-21",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 51,
    "formato": 2,
    "in_movimento": false,
@@ -1793,7 +1793,7 @@
   "l-247-2012": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-26",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 69,
    "formato": 2,
@@ -1813,8 +1813,8 @@
   "l-260-1949": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 8,
    "formato": 2,
    "in_movimento": false,
@@ -1833,8 +1833,8 @@
   "l-287-1990": {
    "snapshot": "2026-09-23",
    "consolidato": "2024-08-10",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 53,
    "formato": 2,
    "in_movimento": false,
@@ -1853,8 +1853,8 @@
   "l-297-1982": {
    "snapshot": "2026-10-02",
    "consolidato": "2022-11-10",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 5,
    "formato": 2,
    "in_movimento": false,
@@ -1873,7 +1873,7 @@
   "l-300-1970": {
    "snapshot": "2026-09-23",
    "consolidato": "2025-11-06",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 41,
    "formato": 2,
@@ -1893,8 +1893,8 @@
   "l-335-1995": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-02-20",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 17,
    "formato": 2,
    "in_movimento": false,
@@ -1913,8 +1913,8 @@
   "l-339-1958": {
    "snapshot": "2026-10-02",
    "consolidato": "2009-12-14",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 21,
    "formato": 2,
    "in_movimento": false,
@@ -1933,8 +1933,8 @@
   "l-392-1978": {
    "snapshot": "2026-09-25",
    "consolidato": "2014-11-12",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 85,
    "formato": 2,
    "in_movimento": false,
@@ -1953,8 +1953,8 @@
   "l-4-1953": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-06-28",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 6,
    "formato": 2,
    "in_movimento": false,
@@ -1973,8 +1973,8 @@
   "l-428-1990": {
    "snapshot": "2026-10-02",
    "consolidato": "2024-09-28",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 73,
    "formato": 2,
    "in_movimento": false,
@@ -1993,8 +1993,8 @@
   "l-431-1998": {
    "snapshot": "2026-09-23",
    "consolidato": "2020-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 16,
    "formato": 2,
    "in_movimento": false,
@@ -2013,8 +2013,8 @@
   "l-47-1985": {
    "snapshot": "2026-09-23",
    "consolidato": "2024-10-10",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 53,
    "formato": 2,
    "in_movimento": false,
@@ -2033,7 +2033,7 @@
   "l-49-2023": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-09-23",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 13,
    "formato": 2,
@@ -2053,7 +2053,7 @@
   "l-53-1994": {
    "snapshot": "2026-09-23",
    "consolidato": "2024-11-26",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 14,
    "formato": 2,
@@ -2073,8 +2073,8 @@
   "l-53-2000": {
    "snapshot": "2026-10-02",
    "consolidato": "2022-08-13",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 28,
    "formato": 2,
    "in_movimento": false,
@@ -2093,8 +2093,8 @@
   "l-533-1973": {
    "snapshot": "2026-10-02",
    "consolidato": "2002-07-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 30,
    "formato": 2,
    "in_movimento": false,
@@ -2113,8 +2113,8 @@
   "l-54-1977": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-10-02",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 4,
    "formato": 2,
    "in_movimento": false,
@@ -2133,7 +2133,7 @@
   "l-590-1965": {
    "snapshot": "2026-09-23",
    "consolidato": "2022-07-16",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 39,
    "formato": 2,
@@ -2153,8 +2153,8 @@
   "l-604-1966": {
    "snapshot": "2026-10-02",
    "consolidato": "2025-07-24",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 13,
    "formato": 2,
    "in_movimento": false,
@@ -2173,8 +2173,8 @@
   "l-67-2006": {
    "snapshot": "2026-10-02",
    "consolidato": "2011-10-06",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 4,
    "formato": 2,
    "in_movimento": false,
@@ -2193,8 +2193,8 @@
   "l-68-1999": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-06-28",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 24,
    "formato": 2,
    "in_movimento": false,
@@ -2213,7 +2213,7 @@
   "l-689-1981": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-05-29",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 159,
    "formato": 2,
@@ -2233,8 +2233,8 @@
   "l-742-1969": {
    "snapshot": "2026-09-23",
    "consolidato": "2015-08-21",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 6,
    "formato": 2,
    "in_movimento": false,
@@ -2253,8 +2253,8 @@
   "l-76-2016": {
    "snapshot": "2026-09-23",
    "consolidato": "2024-04-25",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 1,
    "formato": 2,
    "in_movimento": false,
@@ -2273,8 +2273,8 @@
   "l-81-2017": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 26,
    "formato": 2,
    "in_movimento": false,
@@ -2293,7 +2293,7 @@
   "l-817-1971": {
    "snapshot": "2026-09-23",
    "consolidato": "2016-08-25",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 18,
    "formato": 2,
@@ -2313,8 +2313,8 @@
   "l-89-2001": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-12",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 15,
    "formato": 2,
    "in_movimento": false,
@@ -2333,8 +2333,8 @@
   "l-898-1970": {
    "snapshot": "2026-09-23",
    "consolidato": "2024-11-26",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 16,
    "formato": 2,
    "in_movimento": false,
@@ -2353,8 +2353,8 @@
   "l-92-2012": {
    "snapshot": "2026-10-02",
    "consolidato": "2026-04-07",
-   "verificato_il": "2026-10-02",
-   "esito": "nuovo",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 4,
    "formato": 2,
    "in_movimento": false,
@@ -2373,7 +2373,7 @@
   "preleggi": {
    "snapshot": "2026-09-25",
    "consolidato": "2026-04-29",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 31,
    "formato": 2,
@@ -2393,8 +2393,8 @@
   "rd-267-1942": {
    "snapshot": "2026-09-23",
    "consolidato": "2023-01-01",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 301,
    "formato": 2,
    "in_movimento": false,
@@ -2411,29 +2411,29 @@
    }
   },
   "reg-cds": {
-   "snapshot": "2026-09-23",
+   "snapshot": "2026-10-05",
    "consolidato": "2025-03-11",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "ricostruito",
    "articoli": 409,
    "formato": 2,
    "in_movimento": false,
    "articoli_in_movimento": [],
    "file": {
     "reg-cds.md": {
-     "sha256": "5b8934e87ef20b7234f2ed14522c54752982194fa611393f0aef67ed88b496f6",
-     "byte": 801255
+     "sha256": "0b8ccd35424f0c0ea6507e1e580c52239e4bc62ccbe95472e6984cf7a4e2a7f1",
+     "byte": 801441
     },
     "reg-cds-indice.json": {
-     "sha256": "5a866fdcc4a5c3d4d8fc3ed3f3e18e0d064459d72bab35c95739d3dc30588148",
-     "byte": 82051
+     "sha256": "8db2579a18e14836d336ade5bcedcd43cda54cfd36e81343836f1ce3c201c95e",
+     "byte": 82025
     }
    }
   },
   "tu-347-1990": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-12",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 21,
    "formato": 2,
@@ -2453,7 +2453,7 @@
   "tub": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-06-19",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 388,
    "formato": 2,
@@ -2473,8 +2473,8 @@
   "tuel": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-08",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_ricostruzione",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_api",
    "articoli": 294,
    "formato": 2,
    "in_movimento": false,
@@ -2493,8 +2493,8 @@
   "tuf": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-07",
-   "verificato_il": "2026-10-02",
-   "esito": "confermato_api",
+   "verificato_il": "2026-10-05",
+   "esito": "confermato_ricostruzione",
    "articoli": 572,
    "formato": 2,
    "in_movimento": false,
@@ -2513,7 +2513,7 @@
   "tuir": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-27",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 236,
    "formato": 2,
@@ -2533,7 +2533,7 @@
   "tus": {
    "snapshot": "2026-09-23",
    "consolidato": "2026-08-12",
-   "verificato_il": "2026-10-02",
+   "verificato_il": "2026-10-05",
    "esito": "confermato_api",
    "articoli": 66,
    "formato": 2,
@@ -2558,8 +2558,8 @@
  },
  "changelog": {
   "file": "wiki-studio/normativa/changelog-auto.json",
-  "sha256": "aec0dbbad78c75e9635c42badb599cdbae9e359422e50c339b72afb789decab4",
-  "byte": 15260
+  "sha256": "5e11ec5c211a09f6a57f2c0384db32942630ea72bbbff76be640e7aa45df1f87",
+  "byte": 22450
  },
  "secondo_livello": {
   "codice-deontologico-forense": {

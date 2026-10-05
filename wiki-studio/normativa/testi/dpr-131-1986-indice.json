@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "dpr-131-1986",
   "nome": "Testo unico imposta di registro (D.P.R. 131/1986)",
-  "snapshot": "2026-09-28",
+  "snapshot": "2026-10-05",
   "formato": 2,
   "consolidato_normattiva": "2026-06-04",
   "articoli": 84,
@@ -532,12 +532,12 @@
   "ultima_versione": "2026-06-03",
   "datazione": {
    "monoblocco": 84,
-   "api": 3,
-   "riportati": 80,
+   "api": 1,
+   "riportati": 82,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 3,
-   "chiamate": 4,
+   "stima_anteriore": 1,
+   "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -635,7 +635,7 @@
    "vigore_da": "2024-10-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "4b389acf19c6"
+   "h": "062e60d5f89a"
   },
   "12": {
    "file": "dpr-131-1986.md",

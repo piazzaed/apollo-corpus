@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dpr-394-1999",
   "nome": "Regolamento di attuazione del T.U. immigrazione (D.P.R. 394/1999)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-10-05",
   "formato": 2,
-  "consolidato_normattiva": "2025-02-25",
+  "consolidato_normattiva": "2026-10-01",
   "articoli": 75,
   "file": [
    "dpr-394-1999.md"
@@ -177,17 +177,21 @@
     "data": "2025-02-24",
     "evento": "rp32",
     "atto_modificante": "L. 21 febbraio 2025, n. 15"
+   },
+   {
+    "data": "2026-09-30",
+    "evento": "rp33",
+    "atto_modificante": "D.L. 30 settembre 2026, n. 170"
    }
   ],
-  "ultima_versione": "2025-02-24",
+  "ultima_versione": "2026-09-30",
   "datazione": {
    "monoblocco": 75,
-   "api": 69,
-   "riportati": 4,
+   "api": 1,
+   "riportati": 72,
    "ignota": 2,
    "testo_diverso": 2,
-   "stima_anteriore": 22,
-   "chiamate": 71,
+   "chiamate": 3,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -594,9 +598,9 @@
   "45": {
    "file": "dpr-394-1999.md",
    "rubrica": "Iscrizione scolastica",
-   "vigore_da": "1999-11-18",
+   "vigore_da": "2026-10-01",
    "datazione": "api",
-   "h": "000d4e4cc768"
+   "h": "0c527828e120"
   },
   "46": {
    "file": "dpr-394-1999.md",

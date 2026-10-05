@@ -1,11 +1,58 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-10-02 · 28 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-10-05 · 41 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992) (`reg-cds`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 61 — Aree di servizio destinate al rifornimento e al ristoro degli utenti | datazione | — → 1996-12-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
+| Art. 60 — Ubicazione delle pertinenze di servizio | datazione | — → 1996-12-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
+| Art. 59 — Pubblicita' fonica | datazione | — → 1996-12-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
+| Art. 58 — Adattamenti delle forme di pubblicita' esistenti all'entrata in vigore del codice | datazione | — → 1996-12-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
+| Art. 57 — Pubblicita' sui veicoli | datazione | — → 1999-11-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
+| Art. 56 — Vigilanza | datazione | — → 1996-12-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
+
+## Riscossione delle imposte sul reddito (D.P.R. 602/1973) (`dpr-602-1973`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 75-bis — Dichiarazione stragiudiziale del terzo | modificato | 2006-11-29 → 2006-11-29 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 73 — Pignoramento di cose del debitore in possesso di terzi | modificato | 2008-01-01 → 2008-01-01 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 52 — Procedimento di vendita | modificato | 2022-08-20 → 2022-08-20 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 28 — Modalita' di pagamento | modificato | 2008-08-22 → 2008-08-22 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 43-bis — Cessione dei crediti di imposta | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 43 — Recupero di somme erroneamente rimborsare | datazione | — → 2005-08-10 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 42-bis — Esecuzione del rimborso d'ufficio tramite procedura automatizzata | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 42 — Esecuzione del rimborso | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 39 — Sospensione amministrativa della riscossione | datazione | — → 2015-10-22 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 38 — Rimborso di versamenti diretti | datazione | — → 2005-07-26 | D.Lgs. 30 maggio 2005, n. 143 | 2026-09-23 → 2026-09-28 |
+
+## Regolamento di attuazione del T.U. immigrazione (D.P.R. 394/1999) (`dpr-394-1999`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 45 — Iscrizione scolastica | modificato | 1999-11-18 → 2026-10-01 | D.L. 30 settembre 2026, n. 170 | 2026-09-23 → 2026-10-05 |
+
+## Testo unico imposta di registro (D.P.R. 131/1986) (`dpr-131-1986`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 11 — Richiesta di registrazione degli atti scritti | note | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 41 — Liquidazione dell'imposta | note | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 40 — Atti relativi ad operazioni soggette all'imposta sul valore aggiunto | modificato | 2017-01-01 → 2017-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 5 — Registrazione in termine fisso e registrazione in caso d'uso | modificato | 2017-01-01 → 2017-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+
+## Responsabilità amministrativa degli enti (D.Lgs. 231/2001) (`dlgs-231-2001`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 25-vicies — Reati commessi con l'uso di sistemi di intelligenza artificiale | aggiunto | — → 2026-09-30 | D.Lgs. 9 settembre 2026, n. 160 | 2026-09-23 → 2026-10-05 |
 
 ## Interventi in materia di sicurezza stradale e delega per la revisione del codice della strada (L. 177/2024) (`l-177-2024`)
 
@@ -18,25 +65,6 @@
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
 |---|---|---|---|---|
 | Art. 15 — Gruppi per l'inclusione scolastica | modificato | 2019-09-12 → 2026-10-01 | D.L. 30 settembre 2026, n. 170 | 2026-09-23 → 2026-10-02 |
-
-## Riscossione delle imposte sul reddito (D.P.R. 602/1973) (`dpr-602-1973`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 43-bis — Cessione dei crediti di imposta | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 43 — Recupero di somme erroneamente rimborsare | datazione | — → 2005-08-10 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 42-bis — Esecuzione del rimborso d'ufficio tramite procedura automatizzata | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 42 — Esecuzione del rimborso | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 39 — Sospensione amministrativa della riscossione | datazione | — → 2015-10-22 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 38 — Rimborso di versamenti diretti | datazione | — → 2005-07-26 | D.Lgs. 30 maggio 2005, n. 143 | 2026-09-23 → 2026-09-28 |
-
-## Testo unico imposta di registro (D.P.R. 131/1986) (`dpr-131-1986`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 41 — Liquidazione dell'imposta | note | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 40 — Atti relativi ad operazioni soggette all'imposta sul valore aggiunto | modificato | 2017-01-01 → 2017-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 5 — Registrazione in termine fisso e registrazione in caso d'uso | modificato | 2017-01-01 → 2017-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
 
 ## Codice di procedura civile (`cpc`)
 

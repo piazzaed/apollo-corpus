@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dlgs-164-2024",
   "nome": "Correttivo della riforma Cartabia (D.Lgs. 164/2024)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-10-05",
   "formato": 2,
-  "consolidato_normattiva": "2026-09-23",
+  "consolidato_normattiva": "2026-10-05",
   "articoli": 8,
   "file": [
    "dlgs-164-2024.md"
@@ -22,10 +22,9 @@
   "ultima_versione": "2024-11-11",
   "datazione": {
    "monoblocco": 8,
-   "api": 8,
+   "api": 0,
+   "riportati": 8,
    "ignota": 0,
-   "stima_anteriore": 8,
-   "chiamate": 8,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },

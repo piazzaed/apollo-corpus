@@ -1,6 +1,6 @@
 # Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992) — Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)
 
-<!-- codice: reg-cds · snapshot: 2026-09-23 · consolidato-normattiva: 2025-03-11 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1992-12-16;495) -->
+<!-- codice: reg-cds · snapshot: 2026-10-05 · consolidato-normattiva: 2025-03-11 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1992-12-16;495) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -953,6 +953,7 @@ e) data di scadenza. ((Per i mezzi pubblicitari per i quali risulti difficoltosa
 ((2. La targhetta o la scritta di cui al comma 1 devono essere sostituite ad ogni rinnovo dell'autorizzazione ed ogniqualvolta intervenga una variazione di uno dei dati su di esse riportati.))
 
 ### Art. 56 — Vigilanza
+<!-- vigore_da: 1996-12-19 -->
 
 1. Gli enti proprietari delle strade sono tenuti a vigilare, a mezzo del proprio personale competente in materia di viabilita', sulla corretta realizzazione e sull'esatto posizionamento dei cartelli ((, delle insegne di esercizio)) e degli altri mezzi pubblicitari rispetto a quanto autorizzato. Gli stessi enti sono obbligati a vigilare anche sullo stato di conservazione e sulla buona manutenzione dei cartelli (( , delle insegne di esercizio )) e degli altri mezzi pubblicitari oltreche' sui termini di scadenza delle autorizzazioni concesse.
 2. Qualunque inadempienza venga rilevata da parte del personale incaricato della vigilanza, deve essere contestata a mezzo di specifico verbale al soggetto titolare dell'autorizzazione che deve provvedere entro il termine fissato. Decorso tale termine l'ente proprietario, valutate le osservazioni avanzate, entro dieci giorni, dal soggetto, provvede d'ufficio rivalendosi per le spese sul soggetto titolare dell'autorizzazione.
@@ -963,6 +964,7 @@ In caso di inottemperanza si procede d'ufficio.
 6. Tutti i messaggi, esposti difformemente dalle autorizzazioni rilasciate, dovranno essere rimossi, previa contestazione scritta, a cura e spese del soggetto titolare dell'autorizzazione o del concessionario, entro il termine di ((otto giorni)) dalla diffida pervenuta. In caso d'inottemperanza si procede d'ufficio.
 
 ### Art. 57 — Pubblicita' sui veicoli
+<!-- vigore_da: 1999-11-19 -->
 
 1. L'apposizione sui veicoli di pubblicita' non luminosa e' consentita, salvo quanto previsto ai commi 3 e 4, unicamente se non effettuata per conto terzi a titolo oneroso e se realizzata con sporgenze non superiori a 3 cm rispetto alla superficie del veicolo sulla quale sono applicate, fermi restando i limiti di cui all'articolo 61 del codice. Sulle autovetture ad uso privato e' consentita unicamente l'apposizione del marchio e della ragione sociale della ditta cui appartiene il veicolo.
 2. La pubblicita' non luminosa per conto terzi e' consentita sui veicoli adibiti al trasporto di linea e non di linea alle seguenti condizioni:
@@ -992,11 +994,13 @@ AGGIORNAMENTO (17)
 Il D.Lgs. 19 novembre 1997, n. 422, come modificato dal D.Lgs. 20 settembre 1999, n. 400, ha disposto (con l'art. 57, comma 2) che nel comma 2 del presente articolo, dopo le parole: "di linea" sono inserite le seguenti: "e non di linea", ad eccezione dei taxi.
 
 ### Art. 58 — Adattamenti delle forme di pubblicita' esistenti all'entrata in vigore del codice
+<!-- vigore_da: 1996-12-19 -->
 
 1. I cartelli o mezzi pubblicitari installati sulla base di autorizzazioni in essere all'atto dell'entrata in vigore del codice e non rispondenti alle disposizioni dello stesso e del presente regolamento, devono essere ((adeguati entro tre anni)) dalla sua entrata in vigore, a cura e a spese del titolare dell'autorizzazione, fatto salvo il diritto dello stesso al rimborso della somma anticipata per la residua durata dell'autorizzazione non sfruttata ((...))
 ((, qualora il cartello debba essere rimosso per impossibilita' di adeguamento. Qualora l'autorizzazione scada prima del termine suddetto, il rinnovo della stessa e' subordinato all'adeguamento entro il termine di decorrenza del rinnovo stesso.)) 2. Per i cartelli e gli altri mezzi pubblicitari per i quali, in base alle distanze minime previste dall'articolo 51 occorre provvedere, a cura e spesa del titolare dell'autorizzazione, ad uno spostamento, si procede, per ogni lato della strada, nella direzione inversa al corrispondente senso di marcia, effettuando gli spostamenti unicamente negli interspazi risultanti tra i successivi punti di riferimento (intersezioni, segnali stradali). I cartelli e gli altri mezzi pubblicitari che non possono piu' trovare collocazione in ciascuno degli interspazi devono essere rimossi e possono essere ricollocati in altro tratto stradale disponibile solo dopo il rilascio di una nuova autorizzazione per la diversa posizione, fermi restando la durata e gli importi gia' corrisposti per l'autorizzazione originaria.
 
 ### Art. 59 — Pubblicita' fonica
+<!-- vigore_da: 1996-12-19 -->
 
 ((1. La pubblicita' fonica fuori dai centri abitati e' consentita dalle ore 9,00 alle ore 13,00 e dalle ore 16,30 alle ore 19,30.
 2. La pubblicita' fonica entro i centri abitati e' consentita nelle zone e negli orari stabiliti dai regolamenti comunali e, in assenza degli stessi, negli orari fissati al comma 1.
@@ -1005,6 +1009,7 @@ Il D.Lgs. 19 novembre 1997, n. 422, come modificato dal D.Lgs. 20 settembre 1999
 5. In tutti i casi, la pubblicita' fonica non deve superare i limiti massimi di esposizione al rumore fissati dal decreto del Presidente del Consiglio dei Ministri 1 marzo 1991.))
 
 ### Art. 60 — Ubicazione delle pertinenze di servizio
+<!-- vigore_da: 1996-12-19 -->
 
 1. La localizzazione delle pertinenze di servizio indicate nell'articolo 24, comma 4, del codice, e' parte integrante del progetto stradale e deve rispondere ai requisiti di sicurezza e fluidita' del traffico. ((Per le pertinenze che costituiscono aree di servizio destinate al rifornimento e al ristoro, le previsioni progettuali si limitano ad individuarne il numero minimo in relazione alle esigenze, in accordo con i piani regionali di riorganizzazione della rete di distribuzione dei carburanti.))
 2. Le pertinenze di servizio relative alle strade di tipo A, B e D di cui all'articolo 2 del codice, devono essere ubicate su apposite aree ((...)) , comprendenti lo spazio idoneo per i veicoli in movimento ed in sosta, e provviste di accessi separati con corsie di decelerazione ed accelerazione per l'entrata e l'uscita dei veicoli.
@@ -1012,6 +1017,7 @@ Il D.Lgs. 19 novembre 1997, n. 422, come modificato dal D.Lgs. 20 settembre 1999
 4. Ulteriori criteri per la localizzazione e gli standards dimensionali e qualitativi delle pertinenze di servizio sono fissati dalle norme che il Ministro dei lavori pubblici emana ai sensi dell'articolo 13 del codice, ((in conformita' con le specifiche norme di settore vigenti.))
 
 ### Art. 61 — Aree di servizio destinate al rifornimento e al ristoro degli utenti
+<!-- vigore_da: 1996-12-19 -->
 
 1. Le aree di servizio ((relative alle strade di tipo A e B di cui all'articolo 2 del codice,)) destinate al rifornimento ed al ristoro degli utenti sono dotate di tutti i servizi necessari per il raggiungimento delle finalita' suddette, con i distributori di carburante, le officine meccaniche ((ed eventualmente di lavaggio)), i locali di ristoro ed eventualmente di alloggio, i posti telefonici, di pronto soccorso e di polizia stradale, gli adeguati servizi igienici collettivi ed i contenitori per la raccolta anche differenziata dei rifiuti.
 2. Gli impianti di distribuzione di carburante sono da considerare parte delle aree di servizio. La installazione e l'esercizio, lungo le strade, di impianti di distribuzione di carburanti liquidi e gassosi e di lubrificanti per autotrazione o di impianti affini, con le relative attrezzature ed accessori, e' subordinata al parere tecnico favorevole dell'ente proprietario della strada nel rispetto delle norme vigenti. Con le norme di cui all'articolo 13 del codice, il Ministro dei lavori pubblici stabilisce, oltre gli standards e i criteri di cui all'articolo 60, comma 4, le caratteristiche tecniche che devono essere imposte con l'autorizzazione dell'impianto, in relazione alla tipologia delle strade e per tipo di carburante erogato ((, fatte salve le norme di settore vigenti. ))

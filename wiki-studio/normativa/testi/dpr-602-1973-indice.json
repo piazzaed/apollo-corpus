@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "dpr-602-1973",
   "nome": "Riscossione delle imposte sul reddito (D.P.R. 602/1973)",
-  "snapshot": "2026-09-28",
+  "snapshot": "2026-10-05",
   "formato": 2,
   "consolidato_normattiva": "2026-05-23",
   "articoli": 135,
@@ -742,12 +742,12 @@
   "ultima_versione": "2026-05-22",
   "datazione": {
    "monoblocco": 135,
-   "api": 6,
-   "riportati": 126,
+   "api": 4,
+   "riportati": 128,
    "ignota": 3,
    "testo_diverso": 3,
-   "stima_anteriore": 4,
-   "chiamate": 9,
+   "stima_anteriore": 1,
+   "chiamate": 7,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1037,7 +1037,7 @@
    "vigore_da": "2008-08-22",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "e4b866371a1c"
+   "h": "9d02f1426500"
   },
   "28-bis": {
    "file": "dpr-602-1973.md",
@@ -1317,7 +1317,7 @@
    "vigore_da": "2022-08-20",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "6ed69e78733e"
+   "h": "e680ebdd8d77"
   },
   "53": {
    "file": "dpr-602-1973.md",
@@ -1501,7 +1501,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9e24d070b3cd"
+   "h": "11f59b5f6b09"
   },
   "74": {
    "file": "dpr-602-1973.md",
@@ -1525,7 +1525,7 @@
    "vigore_da": "2006-11-29",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "2485cc830a59"
+   "h": "dffcdc2800fd"
   },
   "75-ter": {
    "file": "dpr-602-1973.md",
