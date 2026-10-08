@@ -1,0 +1,185 @@
+{
+ "_meta": {
+  "descrizione": "Contributo unificato (art. 13 d.P.R. 115/2002) e spese forfettarie per inquadra_atto.py e scripts/calcoli/cu_e_spese.py. Importi riscontrati sul testo vigente nel corpus locale (norma.py) il 19 e il 23/09/2026.",
+  "fonte": "d.P.R. 30 maggio 2002 n. 115, art. 13 (importi) e art. 30 (anticipazione forfettaria); tabelle giustizia.it",
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2002-05-30;115~art13",
+  "verificato_il": "2026-09-23",
+  "prossima_verifica": "2026-10-19",
+  "da_confermare": false,
+  "riscontro_testo_locale": {
+   "data": "2026-09-19",
+   "verificato_su": "wiki-studio/normativa/testi/dpr-115-2002.md (normattiva caricaAKN, consolidato al 2026-08-26, snapshot 2026-09-18), art. 13 co. 1, 1-bis, 1-ter, 1-quater, 2, 3; art. 9 co. 1-bis; art. 10",
+   "esito": "gli importi degli scaglioni (43/98/237/518/759/1.214/1.686), l'indeterminabile (518; 237 per il G.d.P.), i moltiplicatori (impugnazione ×1,5; cassazione ×2; sezioni specializzate ×2) e le riduzioni (metà per libro IV titolo I, opposizione a d.i., lavoro salvo art. 9 co. 1-bis) COINCIDONO col testo locale; gli importi fissi dell'esecuzione (278/139/43/168) letti dal co. 2. Le sezioni sotto con da_confermare:false sono state riscontrate in questo giro (inquadra_atto.py le legge); `_meta.da_confermare` resta a discrezione del calcolatore.",
+   "nota_indeterminabile": "art. 13 co. 1 lett. d): «processi civili di valore indeterminabile» = 518 (il co. 6 non esiste nel testo locale: il riferimento della discrepanza_nota è da correggere); lett. c): «indeterminabile di competenza esclusiva del G.d.P.» = 237"
+  }
+ },
+ "scaglioni": [
+  {
+   "da": 0.0,
+   "a": 1100.0,
+   "cu": 43.0,
+   "lettera": "a"
+  },
+  {
+   "da": 1100.01,
+   "a": 5200.0,
+   "cu": 98.0,
+   "lettera": "b"
+  },
+  {
+   "da": 5200.01,
+   "a": 26000.0,
+   "cu": 237.0,
+   "lettera": "c"
+  },
+  {
+   "da": 26000.01,
+   "a": 52000.0,
+   "cu": 518.0,
+   "lettera": "d"
+  },
+  {
+   "da": 52000.01,
+   "a": 260000.0,
+   "cu": 759.0,
+   "lettera": "e"
+  },
+  {
+   "da": 260000.01,
+   "a": 520000.0,
+   "cu": 1214.0,
+   "lettera": "f"
+  },
+  {
+   "da": 520000.01,
+   "a": null,
+   "cu": 1686.0,
+   "lettera": "g"
+  }
+ ],
+ "indeterminabile": {
+  "cu": 518.0,
+  "norma": "art. 13 co. 1 lett. d) d.P.R. 115/2002 (testo locale)",
+  "da_confermare": false
+ },
+ "gradi": {
+  "primo": {
+   "moltiplicatore": 1.0
+  },
+  "appello": {
+   "moltiplicatore": 1.5,
+   "norma": "art. 13 co. 1-bis d.P.R. 115/2002 (aumento della meta')",
+   "da_confermare": false
+  },
+  "cassazione": {
+   "moltiplicatore": 2.0,
+   "norma": "art. 13 co. 1-bis d.P.R. 115/2002 (raddoppio)",
+   "da_confermare": false,
+   "nota": "in più l'imposta fissa di registrazione (art. 13 co. 2-bis); raddoppio ulteriore se l'impugnazione è respinta/inammissibile (co. 1-quater)"
+  }
+ },
+ "riduzioni": {
+  "meta": {
+   "fattore": 0.5,
+   "norma": "art. 13 co. 3 d.P.R. 115/2002 (testo locale): processi speciali del libro IV titolo I c.p.c. (monitorio, cautelari, convalida di sfratto, possessori), opposizione a decreto ingiuntivo, opposizione a sentenza dichiarativa di fallimento, controversie individuali di lavoro salvo art. 9 co. 1-bis; sfratto per morosità: valore = canoni scaduti alla notifica; finita locazione: canone annuo",
+   "da_confermare": false
+  },
+  "esecuzione_mobiliare": {
+   "cu_fisso": 139.0,
+   "cu_sotto_soglia": 43.0,
+   "soglia": 2500.0,
+   "norma": "art. 13 co. 2 d.P.R. 115/2002 (testo locale): altri processi esecutivi = metà di 278; «processi esecutivi mobiliari di valore inferiore a 2.500 euro» = 43 — vale anche per l'espropriazione presso terzi (crediti e cose mobili presso il terzo)",
+   "da_confermare": false
+  },
+  "esecuzione_immobiliare": {
+   "cu_fisso": 278.0,
+   "norma": "art. 13 co. 2 d.P.R. 115/2002 (testo locale)",
+   "da_confermare": false
+  },
+  "opposizione_atti_esecutivi": {
+   "cu_fisso": 168.0,
+   "norma": "art. 13 co. 2 d.P.R. 115/2002 (testo locale)",
+   "da_confermare": false
+  },
+  "precetto": {
+   "cu_fisso": 0.0,
+   "norma": "nessun contributo: atto stragiudiziale notificato; il contributo è dovuto all'iscrizione a ruolo del pignoramento (art. 14 co. 1)",
+   "da_confermare": false
+  },
+  "lavoro": {
+   "fattore": 0.5,
+   "norma": "art. 13 co. 3 d.P.R. 115/2002; art. 9 co. 1-bis: esente sotto la soglia di reddito (3 × art. 76), contributo pieno sopra",
+   "da_confermare": false
+  },
+  "previdenza": {
+   "cu_fisso": 43.0,
+   "norma": "art. 13 co. 1 lett. a) d.P.R. 115/2002 (previdenza e assistenza obbligatorie), salvo art. 9 co. 1-bis",
+   "da_confermare": false
+  }
+ },
+ "esenzioni": [
+  "art. 10 d.P.R. 115/2002 (es. assegni di mantenimento, procedimenti in materia di famiglia elencati)",
+  "art. 131 d.P.R. 115/2002 (patrocinio a spese dello Stato: prenotazione a debito)",
+  "art. 46 L. 374/1991 (giudice di pace, cause fino a 1.033 euro: esenzione da leggere)"
+ ],
+ "spese_forfettarie": {
+  "anticipazione_forfettaria": {
+   "importo": 27.0,
+   "norma": "art. 30 co. 1 d.P.R. 115/2002: anticipazione forfettaria (27 euro) di chi si costituisce per primo, deposita il ricorso o chiede l'assegnazione/vendita; esclusa nei processi dell'articolo unico L. 319/1958 (lavoro, previdenza e assistenza) e in quelli in cui si applica",
+   "esclusa_per": [
+    "lavoro",
+    "previdenza"
+   ],
+   "da_confermare": false,
+   "nota": "L. 319/1958: normattiva la indica come abrogata dal 1/1/2027 — la sentinella deve ricontrollare l'esclusione prima di quella data"
+  },
+  "spese_generali_parcella": {
+   "percentuale": 15.0,
+   "norma": "art. 2 co. 2 D.M. 55/2014 — rimborso forfettario spese generali sul compenso",
+   "da_confermare": false,
+   "fonte": "wiki-studio/parcella/tabelle-vigenti.md"
+  },
+  "marca_bollo_fattura": {
+   "importo": 2.0,
+   "norma": "imposta di bollo su fattura esente IVA > 77,47 euro (regime forfettario)",
+   "fonte": "wiki-studio/parcella/tabelle-vigenti.md"
+  }
+ },
+ "indeterminabile_gdp": {
+  "cu": 237.0,
+  "norma": "art. 13 co. 1 lett. c) d.P.R. 115/2002 (valore indeterminabile di competenza esclusiva del G.d.P.)",
+  "da_confermare": false
+ },
+ "maggiorazioni": {
+  "sezioni_specializzate_imprese": {
+   "moltiplicatore": 2.0,
+   "norma": "art. 13 co. 1-ter d.P.R. 115/2002 (D.Lgs. 168/2003); si cumula col co. 1-bis",
+   "da_confermare": false
+  },
+  "impugnazione_respinta": {
+   "moltiplicatore": 2.0,
+   "norma": "art. 13 co. 1-quater: ulteriore importo pari al contributo dovuto per l'impugnazione respinta integralmente, inammissibile o improcedibile",
+   "da_confermare": false
+  }
+ },
+ "famiglia": {
+  "contenzioso_473bis47": {
+   "cu": 98.0,
+   "norma": "art. 13 co. 1 lett. b) d.P.R. 115/2002",
+   "da_confermare": false
+  },
+  "domanda_congiunta_473bis51": {
+   "cu": 43.0,
+   "norma": "art. 13 co. 1 lett. a) d.P.R. 115/2002",
+   "da_confermare": false
+  },
+  "esenzione": "art. 10 co. 2: esente il processo, anche esecutivo, di opposizione e cautelare, in materia di assegni per il mantenimento della prole"
+ },
+ "endoprocessuali": "nessun contributo: già assolto all'iscrizione a ruolo del grado (art. 9 co. 1: per ciascun grado di giudizio)",
+ "mancata_dichiarazione_valore": {
+  "presunzione": "lettera g",
+  "cu": 1686.0,
+  "norma": "art. 13 co. 6 d.P.R. 115/2002: senza la dichiarazione di valore dell'art. 14 il processo si presume del valore della lettera g) (oltre 520.000 euro)",
+  "da_confermare": false
+ }
+}

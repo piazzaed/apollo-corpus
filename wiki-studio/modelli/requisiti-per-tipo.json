@@ -1,0 +1,319 @@
+{
+ "_meta": {
+  "descrizione": "Requisiti di contenuto per tipo d'atto, ciascuno con la norma che lo impone. sentinella_modelli.py li applica ai modelli del catalogo e ai profili dei motori; lint_atto.py al documento finale. Se l'articolo indicato cambia (changelog-auto), la sentinella segnala anche la regola.",
+  "aggiornato_il": "2026-09-23",
+  "fonte": "testo vigente dal corpus locale (normattiva AKN, snapshot 2026-09-18), letto articolo per articolo con scripts/norma.py: artt. 125, 163, 164, 167, 281-undecies, 342, 347, 366, 480 c.p.c.; art. 2 D.M. 110/2023",
+  "schema": "tipi.<tipo>[]: id, regex (Python, case-insensitive, DOTALL), norma, articolo (slug:art), descrizione, gravita 🔴|🟡",
+  "nota": "23/09/2026: regex allargate alle forme del formulario (numeri in cifre «70 gg.», «gg. 10»; apostrofo tipografico ’; «della udienza»), perché il requisito si controlla nella sostanza, non nella formula esatta. Tipi nuovi: ricorso-semplificato, comparsa, ricorso, cassazione, memoria-difensiva, intervento, atto-di-parte. Parole chiave (D.M. 110/2023, art. 2, co. 1, lett. c) 🟡: il mancato rispetto dei criteri non comporta invalidita' (art. 46 disp. att. c.p.c.) ma pesa sulle spese. Il tipo di ogni modello e' nel sidecar modelli.meta.json (tipi_requisiti)."
+ },
+ "tipi": {
+  "citazione": [
+   {
+    "id": "163-n7-settanta-giorni",
+    "regex": "(?:settanta|70)\\s*(?:giorni|gg\\.?)\\s+prima\\s+(?:della\\s+|dell['’]\\s*)?udienza|termine\\s+di\\s+(?:giorni\\s+)?(?:settanta|70)\\b",
+    "norma": "art. 163, co. 3, n. 7 c.p.c.",
+    "articolo": "cpc:163",
+    "descrizione": "invito a costituirsi nel termine di settanta giorni prima dell'udienza (art. 166)",
+    "gravita": "🔴"
+   },
+   {
+    "id": "163-n7-168bis",
+    "regex": "168[- ]?bis",
+    "norma": "art. 163, co. 3, n. 7 c.p.c.",
+    "articolo": "cpc:163",
+    "descrizione": "comparire dinanzi al giudice designato ai sensi dell'art. 168-bis",
+    "gravita": "🔴"
+   },
+   {
+    "id": "163-n7-decadenze",
+    "regex": "\\b38\\b[^;]{0,200}?decad\\w*[^;]{0,120}?\\b167\\b|\\b167\\b[^;]{0,200}?decad\\w*[^;]{0,120}?\\b38\\b|decad\\w*[^;]{0,120}?(?:\\b38\\b[^;]{0,60}?\\b167\\b|\\b167\\b[^;]{0,60}?\\b38\\b)",
+    "norma": "art. 163, co. 3, n. 7 c.p.c.",
+    "articolo": "cpc:163",
+    "descrizione": "avvertimento delle decadenze ex artt. 38 e 167",
+    "gravita": "🔴"
+   },
+   {
+    "id": "163-n7-difesa-tecnica",
+    "regex": "difesa\\s+tecnica[^;]{0,80}?obbligatori",
+    "norma": "art. 163, co. 3, n. 7 c.p.c.",
+    "articolo": "cpc:163",
+    "descrizione": "avvertimento che la difesa tecnica è obbligatoria salvo art. 86",
+    "gravita": "🔴"
+   },
+   {
+    "id": "163-n7-patrocinio-stato",
+    "regex": "patrocinio\\s+a\\s+spese\\s+dello\\s+stato|gratuito\\s+patrocinio",
+    "norma": "art. 163, co. 3, n. 7 c.p.c.",
+    "articolo": "cpc:163",
+    "descrizione": "avvertimento sulla facoltà di chiedere il patrocinio a spese dello Stato",
+    "gravita": "🔴"
+   },
+   {
+    "id": "163-n3bis-procedibilita",
+    "regex": "procedibilit|mediazione|negoziazione\\s+assistita",
+    "norma": "art. 163, co. 3, n. 3-bis c.p.c.",
+    "articolo": "cpc:163",
+    "descrizione": "indicazione dell'assolvimento della condizione di procedibilità (se la domanda vi è soggetta)",
+    "gravita": "🟡"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "precetto": [
+   {
+    "id": "480-sovraindebitamento",
+    "regex": "sovraindebitamento",
+    "norma": "art. 480, co. 2 c.p.c.",
+    "articolo": "cpc:480",
+    "descrizione": "avvertimento sulla composizione della crisi da sovraindebitamento",
+    "gravita": "🔴"
+   },
+   {
+    "id": "480-giudice-esecuzione",
+    "regex": "giudice\\s+competente\\s+per\\s+l['’]?\\s*esecuzione",
+    "norma": "art. 480, co. 3 c.p.c.",
+    "articolo": "cpc:480",
+    "descrizione": "indicazione del giudice competente per l'esecuzione",
+    "gravita": "🔴"
+   },
+   {
+    "id": "480-dieci-giorni",
+    "regex": "(?:dieci|10)\\s*(?:giorni|gg\\.?)|(?:giorni|gg\\.?)\\s*(?:dieci|10)\\b",
+    "norma": "art. 480, co. 1 c.p.c.",
+    "articolo": "cpc:480",
+    "descrizione": "termine non minore di dieci giorni",
+    "gravita": "🔴"
+   },
+   {
+    "id": "480-avvertimento-esecuzione",
+    "regex": "esecuzione\\s+forzata",
+    "norma": "art. 480, co. 1 c.p.c.",
+    "articolo": "cpc:480",
+    "descrizione": "avvertimento che, in mancanza, si procederà a esecuzione forzata",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   }
+  ],
+  "appello": [
+   {
+    "id": "342-capo",
+    "regex": "cap[oi]\\s+(?:della\\s+(?:\\w+\\s+)?(?:decisione|sentenza)|impugnat)",
+    "norma": "art. 342 c.p.c.",
+    "articolo": "cpc:342",
+    "descrizione": "per ciascun motivo, il capo della decisione impugnato",
+    "gravita": "🔴"
+   },
+   {
+    "id": "342-censure-fatti",
+    "regex": "ricostruzione\\s+dei\\s+fatti|censur",
+    "norma": "art. 342, n. 1 c.p.c.",
+    "articolo": "cpc:342",
+    "descrizione": "censure alla ricostruzione dei fatti",
+    "gravita": "🟡"
+   },
+   {
+    "id": "342-violazioni-legge",
+    "regex": "violazion\\w+\\s+(?:di|della)\\s+legge|violazione\\s+dell['’]?\\s*art",
+    "norma": "art. 342, n. 2 c.p.c.",
+    "articolo": "cpc:342",
+    "descrizione": "violazioni di legge denunciate e loro rilevanza",
+    "gravita": "🟡"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "ricorso-semplificato": [
+   {
+    "id": "281undecies-decadenze",
+    "regex": "decadenz",
+    "norma": "art. 281-undecies, co. 1 c.p.c.",
+    "articolo": "cpc:281-undecies",
+    "descrizione": "avvertimento che la costituzione oltre i termini implica le decadenze (commi terzo e quarto)",
+    "gravita": "🔴"
+   },
+   {
+    "id": "281undecies-difesa-tecnica",
+    "regex": "difesa\\s+tecnica[^;]{0,80}?obbligatori",
+    "norma": "art. 281-undecies, co. 1 c.p.c.",
+    "articolo": "cpc:281-undecies",
+    "descrizione": "avvertimento che la difesa tecnica è obbligatoria salvo art. 86",
+    "gravita": "🔴"
+   },
+   {
+    "id": "281undecies-patrocinio-stato",
+    "regex": "patrocinio\\s+a\\s+spese\\s+dello\\s+stato|gratuito\\s+patrocinio",
+    "norma": "art. 281-undecies, co. 1 c.p.c.",
+    "articolo": "cpc:281-undecies",
+    "descrizione": "avvertimento sulla facoltà di chiedere il patrocinio a spese dello Stato",
+    "gravita": "🔴"
+   },
+   {
+    "id": "163-n3bis-procedibilita",
+    "regex": "procedibilit|mediazione|negoziazione\\s+assistita",
+    "norma": "art. 281-undecies, co. 1 e art. 163, co. 3, n. 3-bis c.p.c.",
+    "articolo": "cpc:281-undecies",
+    "descrizione": "indicazione dell'assolvimento della condizione di procedibilità (se la domanda vi è soggetta)",
+    "gravita": "🟡"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "comparsa": [
+   {
+    "id": "167-cf-convenuto",
+    "regex": "c\\.?\\s?f\\.|codice\\s+fiscale",
+    "norma": "art. 167, co. 1 c.p.c.",
+    "articolo": "cpc:167",
+    "descrizione": "generalità e codice fiscale del convenuto",
+    "gravita": "🟡"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "ricorso": [
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "cassazione": [
+   {
+    "id": "366-provvedimento-impugnato",
+    "regex": "impugnat|avverso\\s+(?:la|il|l['’])",
+    "norma": "art. 366, n. 2 c.p.c.",
+    "articolo": "cpc:366",
+    "descrizione": "indicazione della sentenza o decisione impugnata",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "memoria-difensiva": [
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "intervento": [
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "atto-di-parte": [
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ]
+ }
+}

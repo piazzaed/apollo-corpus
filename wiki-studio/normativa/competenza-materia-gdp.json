@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "fonte": "art. 7 c.p.c. (testo locale normattiva, versione vigente dal 2026-06-12, snapshot 2026-09-18) e note di aggiornamento (155) D.Lgs. 116/2017 art. 27 e (173) D.Lgs. 149/2022 art. 35 co. 1; soglie di VALORE nel sidecar changelog-riforme.meta.json → soglie_competenza (unica fonte)",
+    "verificato_il": "2026-09-19",
+    "prossima_verifica": "2026-12-19",
+    "nota": "Competenza del Giudice di Pace PER MATERIA «qualunque ne sia il valore» (art. 7 co. 3). Le voci inserite dal D.Lgs. 116/2017 (riforma della magistratura onoraria) hanno decorrenza differita: la data qui sotto NON è stata letta sul testo dell'art. 32 D.Lgs. 116/2017 (assente dal corpus) ed è marcata da_confermare. inquadra_atto.py la LEGGE da qui e produce un'ambiguità, non una decisione."
+  },
+  "gate_intertemporale": {
+    "cartabia_dal": "2023-02-28",
+    "norma": "art. 35 co. 1 D.Lgs. 149/2022 come mod. dalla L. 197/2022: si applica ai procedimenti instaurati successivamente al 28/02/2023; ai pendenti le disposizioni anteriori (nota 173 all'art. 7 c.p.c.)",
+    "correttivo_dal": "2024-11-26",
+    "correttivo_norma": "D.Lgs. 31/10/2024 n. 164 (changelog-riforme.md §1.1)",
+    "da_confermare": false
+  },
+  "materie_gdp_qualunque_valore": [
+    {"chiave": "apposizione_termini", "numero": "n. 1", "norma": "art. 7 co. 3 n. 1 c.p.c.", "decorrenza": null, "da_confermare": false},
+    {"chiave": "condominio", "numero": "n. 2", "norma": "art. 7 co. 3 n. 2 c.p.c. (cause in materia di condominio negli edifici come definite dall'art. 71-quater disp. att. c.c.), inserito dall'art. 27 D.Lgs. 116/2017", "decorrenza": "2025-10-31", "decorrenza_norma": "art. 32 co. 4 D.Lgs. 116/2017 (differimento al 31/10/2025) — testo NON nel corpus", "da_confermare": true},
+    {"chiave": "distanze_immissioni", "numero": "n. 3", "norma": "art. 7 co. 3 n. 3 c.p.c. (rapporti tra proprietari/detentori di immobili in tema di immissioni)", "decorrenza": null, "da_confermare": false},
+    {"chiave": "interessi_previdenziali", "numero": "n. 3-bis", "norma": "art. 7 co. 3 n. 3-bis c.p.c.", "decorrenza": null, "da_confermare": false}
+  ],
+  "riservate_al_tribunale": {
+    "norma": "art. 9 co. 2 c.p.c. (imposte e tasse, stato e capacità delle persone, querela di falso, esecuzione forzata) · art. 413 (lavoro) · art. 442 (previdenza) · art. 447-bis + art. 21 (locazione/comodato di immobili, affitto d'azienda) · art. 3 D.Lgs. 168/2003 come sost. dall'art. 2 D.L. 1/2012 (impresa: sezione specializzata, distrettuale) · art. 473-bis (persone, minorenni, famiglie)",
+    "da_confermare": false
+  }
+}

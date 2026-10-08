@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "fonte": "D.M. 21 febbraio 2011, n. 44 (regole tecniche del processo civile telematico) + provvedimento DGSIA recante le specifiche tecniche vigenti (ex art. 34 D.M. 44/2011); artt. 196-quater ss. disp. att. c.p.c. (deposito esclusivamente telematico, come modificati dal D.Lgs. 149/2022 e dal correttivo D.Lgs. 164/2024)",
+    "verificato_il": "2026-09-19",
+    "verificato_su": "NESSUNA fonte primaria nel corpus locale per il D.M. 44/2011 e per le specifiche tecniche: i valori sotto sono la prassi consolidata (check-list compliance, foro-torino.md §7) e vanno TUTTI riletti sul testo prima di trattarli come vincolanti. ⚠️ Verificare inoltre se il D.M. 44/2011 è stato sostituito dal D.M. 29 dicembre 2023, n. 217 e quale provvedimento di specifiche tecniche DGSIA è in vigore alla data del deposito. Da far coprire da aggiorna-corpus/sentinella.",
+    "da_confermare": true,
+    "prossima_verifica": "2026-10-19",
+    "nota": "Parametri LETTI da pct_check.py: mai cifre nel codice. Un limite `da_confermare` produce 🟡, non 🔴, salvo i controlli che non dipendono da cifre (PDF non testuale, elementi attivi, doc. citato ma assente dall'indice)."
+  },
+  "atto_principale": {
+    "formato": "pdf",
+    "nativo_testuale": true,
+    "descrizione": "PDF ottenuto da trasformazione di un documento testuale (non scansione): testo selezionabile/estraibile, senza elementi attivi (script, campi modulo, azioni automatiche)",
+    "elementi_attivi_vietati": ["/JavaScript", "/JS", "/AA", "/AcroForm", "/OpenAction", "/Launch"],
+    "firma": ["p7m (CAdES)", "PAdES"],
+    "norma": "specifiche tecniche DGSIA (art. 12: formato dell'atto del processo); D.M. 44/2011 art. 11",
+    "da_confermare": true
+  },
+  "allegati": {
+    "formati_ammessi": ["pdf", "rtf", "txt", "jpg", "jpeg", "gif", "tiff", "tif", "xml", "eml", "msg"],
+    "contenitori_ammessi": ["zip", "rar", "arj"],
+    "firma_ammessa": ["p7m"],
+    "regola_contenitori": "il contenitore può contenere solo file nei formati ammessi (non contenitori annidati)",
+    "norma": "specifiche tecniche DGSIA (art. 13: formato dei documenti informatici allegati)",
+    "da_confermare": true
+  },
+  "busta": {
+    "dimensione_max_mb": 30,
+    "norma": "specifiche tecniche DGSIA (art. 14: dimensione massima della busta telematica)",
+    "suggerimento_spezzatura": "se il pacchetto supera il limite: depositare l'atto con i documenti essenziali, poi uno o più depositi integrativi («deposito documenti») numerando le buste e riportando in ogni indice la stessa numerazione dei documenti; ridurre i PDF scansionati (300 dpi, bianco/nero) prima di spezzare",
+    "da_confermare": true
+  },
+  "procura": {
+    "descrizione": "procura alle liti in file separato (o in calce all'atto) — se rilasciata su carta: copia informatica per immagine con attestazione di conformità del difensore, firmata digitalmente",
+    "norma": "art. 83 co. 3 c.p.c.; specifiche tecniche DGSIA (procura alle liti come allegato firmato)",
+    "da_confermare": true
+  },
+  "attestazione_conformita": {
+    "quando": "copie informatiche per immagine di documenti analogici; copie/duplicati estratti dal fascicolo telematico da notificare o depositare (es. sentenza, decreto ingiuntivo, titolo esecutivo in forma esecutiva)",
+    "norma": "art. 196-undecies disp. att. c.p.c. (già art. 16-undecies D.L. 179/2012) — riferimento da confermare sul testo locale disp-att-cpc",
+    "da_confermare": true
+  },
+  "nota_iscrizione_ruolo": {
+    "dati_richiesti": ["ufficio e sezione", "parti con codice fiscale / partita IVA", "oggetto (codice materia)", "valore della causa (art. 14 co. 2 d.P.R. 115/2002)", "contributo unificato versato", "difensore con PEC e codice fiscale", "data udienza (citazione)"],
+    "norma": "art. 165 c.p.c. (iscrizione a ruolo); art. 14 d.P.R. 115/2002; il file DatiAtto.xml è prodotto dal redattore di atti",
+    "da_confermare": true
+  },
+  "nomenclatura_allegati": {
+    "regola": "«Doc. NN - descrizione parlante» (zero-padded), numerati come nell'indice dell'atto",
+    "prassi": "Torino, Sezione Lavoro, buone prassi 28/03/2024 punti [2][3]: numerazione 01…99 / 001…, indice con la stessa numerazione e denominazione del corpo",
+    "da_confermare": false
+  }
+}

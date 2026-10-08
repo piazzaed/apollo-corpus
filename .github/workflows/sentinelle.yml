@@ -1,0 +1,379 @@
+name: sentinelle
+
+# Sentinelle automatiche: dati periodici, riforme della watchlist, successioni, modelli d'atto (vedi SENTINELLE.md).
+# Scrivono nel repo solo le aree elencate nella variabile del repo SENTINELLE_AREE_SCRITTURA (es. "dati normativa"):
+# finché un'area non c'è, il giro è «a secco» (rapporto nel riepilogo, nessun push, nessuna issue).
+
+on:
+  workflow_run:
+    workflows: ["lavoro (CCNL, prassi, memento)"]
+    types: [completed]
+  schedule:
+    - cron: "33 3 * * 3"          # mercoledì 05:33 ora italiana: riserva se la catena del lunedì non è partita
+  workflow_dispatch:
+    inputs:
+      area:
+        description: "area da far girare"
+        type: choice
+        options: ["tutte", "dati", "normativa", "successioni", "modelli"]
+        default: "tutte"
+      a_secco:
+        description: "solo rapporto: nessuna scrittura nel repo, nessuna issue"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: corpus
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+
+jobs:
+  dati:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    if: ${{ always() && (github.event_name != 'workflow_dispatch' || inputs.area == 'tutte' || inputs.area == 'dati') }}
+    env:
+      SCRIVE: ${{ contains(vars.SENTINELLE_AREE_SCRITTURA, 'dati') && !(github.event_name == 'workflow_dispatch' && inputs.a_secco) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: cartelle di lavoro fuori dal repo
+        run: |
+          echo "STUDIO_STATO_ROOT=$RUNNER_TEMP/stato" >> "$GITHUB_ENV"
+          echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
+          echo "STUDIO_STATO_PERSISTENTE=$RUNNER_TEMP/persistente" >> "$GITHUB_ENV"
+          echo "FONTI_CACHE=$RUNNER_TEMP/fonti-cache" >> "$GITHUB_ENV"
+          sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1 || echo "pdftotext non installato"
+      - name: passi senza Claude
+        id: det
+        run: >-
+          python3 scripts/sentinelle_giro.py --area dati --fase deterministica --triage $RUNNER_TEMP/triage-dati.json
+          --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: passi senza Claude fissati (commit locale: il controllo vede solo le modifiche di Claude)
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          python3 scripts/sentinelle_pubblica.py --aggiungi dati
+          git commit -m "sentinelle dati: passi senza Claude $(date -u +%F)" || echo "nessuna modifica"
+      - name: Claude
+        id: claude
+        if: steps.det.outputs.claude == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        env:
+          CLAUDE_CODE_SUBAGENT_MODEL: opus
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Segui le istruzioni di .github/claude/sentinella-dati.md.
+            Il lavoro da fare e' in ${{ runner.temp }}/triage-dati.json.
+            Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-dati.json.
+          claude_args: >-
+            --model opus
+            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*)"
+      - name: controllo meccanico
+        id: controllo
+        if: always()
+        run: >-
+          python3 scripts/sentinelle_giro.py --area dati --fase dopo-claude --triage $RUNNER_TEMP/triage-dati.json
+          --esiti $RUNNER_TEMP/esiti-dati.json --claude-ok ${{ steps.claude.outcome != 'failure' }}
+          --issue $RUNNER_TEMP/issue-dati.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: pubblica
+        if: always() && env.SCRIVE == 'true'
+        run: |
+          python3 scripts/sentinelle_pubblica.py --aggiungi dati
+          git commit -m "sentinelle dati $(date -u +%F)" || echo "nessuna modifica"
+          for tentativo in 1 2 3; do
+            git pull --rebase origin main || { git rebase --abort; sleep 15; continue; }
+            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
+            git add -- wiki-studio/sentinelle/manifest.json
+            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
+            git push && exit 0
+            sleep 15
+          done
+          exit 1
+      - name: segnalazione
+        if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create sentinelle --color FBCA04 --description "da ricontrollare (sentinelle automatiche)" --force || true
+          gh label create memento --color 0E8A16 --description "schede del memento da rivedere" --force || true
+          gh issue create --title "sentinelle dati: da ricontrollare ($(date -u +%F))" --label sentinelle --body-file $RUNNER_TEMP/issue-dati.md || true
+      - name: rapporto
+        if: always()
+        run: |
+          echo "scritture: ${{ env.SCRIVE }}" >> $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          cat $RUNNER_TEMP/issue-dati.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-dati.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+
+  normativa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    needs: [dati]
+    if: ${{ always() && (github.event_name != 'workflow_dispatch' || inputs.area == 'tutte' || inputs.area == 'normativa') }}
+    env:
+      SCRIVE: ${{ contains(vars.SENTINELLE_AREE_SCRITTURA, 'normativa') && !(github.event_name == 'workflow_dispatch' && inputs.a_secco) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: cartelle di lavoro fuori dal repo
+        run: |
+          echo "STUDIO_STATO_ROOT=$RUNNER_TEMP/stato" >> "$GITHUB_ENV"
+          echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
+          echo "STUDIO_STATO_PERSISTENTE=$RUNNER_TEMP/persistente" >> "$GITHUB_ENV"
+          echo "FONTI_CACHE=$RUNNER_TEMP/fonti-cache" >> "$GITHUB_ENV"
+          sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1 || echo "pdftotext non installato"
+      - name: passi senza Claude
+        id: det
+        run: >-
+          python3 scripts/sentinelle_giro.py --area normativa --fase deterministica --triage $RUNNER_TEMP/triage-normativa.json
+          --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: passi senza Claude fissati (commit locale: il controllo vede solo le modifiche di Claude)
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          python3 scripts/sentinelle_pubblica.py --aggiungi normativa
+          git commit -m "sentinelle normativa: passi senza Claude $(date -u +%F)" || echo "nessuna modifica"
+      - name: Claude
+        id: claude
+        if: steps.det.outputs.claude == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        env:
+          CLAUDE_CODE_SUBAGENT_MODEL: opus
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Segui le istruzioni di .github/claude/sentinella-normativa.md.
+            Il lavoro da fare e' in ${{ runner.temp }}/triage-normativa.json.
+            Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-normativa.json.
+          claude_args: >-
+            --model opus
+            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/cassazione_indice.py:*)"
+      - name: controllo meccanico
+        id: controllo
+        if: always()
+        run: >-
+          python3 scripts/sentinelle_giro.py --area normativa --fase dopo-claude --triage $RUNNER_TEMP/triage-normativa.json
+          --esiti $RUNNER_TEMP/esiti-normativa.json --claude-ok ${{ steps.claude.outcome != 'failure' }}
+          --issue $RUNNER_TEMP/issue-normativa.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: pubblica
+        if: always() && env.SCRIVE == 'true'
+        run: |
+          python3 scripts/sentinelle_pubblica.py --aggiungi normativa
+          git commit -m "sentinelle normativa $(date -u +%F)" || echo "nessuna modifica"
+          for tentativo in 1 2 3; do
+            git pull --rebase origin main || { git rebase --abort; sleep 15; continue; }
+            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
+            git add -- wiki-studio/sentinelle/manifest.json
+            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
+            git push && exit 0
+            sleep 15
+          done
+          exit 1
+      - name: segnalazione
+        if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create sentinelle --color FBCA04 --description "da ricontrollare (sentinelle automatiche)" --force || true
+          gh label create memento --color 0E8A16 --description "schede del memento da rivedere" --force || true
+          gh issue create --title "sentinelle normativa: da ricontrollare ($(date -u +%F))" --label sentinelle --body-file $RUNNER_TEMP/issue-normativa.md || true
+      - name: rapporto
+        if: always()
+        run: |
+          echo "scritture: ${{ env.SCRIVE }}" >> $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          cat $RUNNER_TEMP/issue-normativa.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-normativa.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+
+  successioni:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    needs: [normativa]
+    if: ${{ always() && (github.event_name != 'workflow_dispatch' || inputs.area == 'tutte' || inputs.area == 'successioni') }}
+    env:
+      SCRIVE: ${{ contains(vars.SENTINELLE_AREE_SCRITTURA, 'successioni') && !(github.event_name == 'workflow_dispatch' && inputs.a_secco) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: cartelle di lavoro fuori dal repo
+        run: |
+          echo "STUDIO_STATO_ROOT=$RUNNER_TEMP/stato" >> "$GITHUB_ENV"
+          echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
+          echo "STUDIO_STATO_PERSISTENTE=$RUNNER_TEMP/persistente" >> "$GITHUB_ENV"
+          echo "FONTI_CACHE=$RUNNER_TEMP/fonti-cache" >> "$GITHUB_ENV"
+          sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1 || echo "pdftotext non installato"
+      - name: passi senza Claude
+        id: det
+        run: >-
+          python3 scripts/sentinelle_giro.py --area successioni --fase deterministica --triage $RUNNER_TEMP/triage-successioni.json
+          --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: passi senza Claude fissati (commit locale: il controllo vede solo le modifiche di Claude)
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          python3 scripts/sentinelle_pubblica.py --aggiungi successioni
+          git commit -m "sentinelle successioni: passi senza Claude $(date -u +%F)" || echo "nessuna modifica"
+      - name: Claude
+        id: claude
+        if: steps.det.outputs.claude == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        env:
+          CLAUDE_CODE_SUBAGENT_MODEL: opus
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Segui le istruzioni di .github/claude/sentinella-successioni.md.
+            Il lavoro da fare e' in ${{ runner.temp }}/triage-successioni.json.
+            Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-successioni.json.
+          claude_args: >-
+            --model opus
+            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*)"
+      - name: controllo meccanico
+        id: controllo
+        if: always()
+        run: >-
+          python3 scripts/sentinelle_giro.py --area successioni --fase dopo-claude --triage $RUNNER_TEMP/triage-successioni.json
+          --esiti $RUNNER_TEMP/esiti-successioni.json --claude-ok ${{ steps.claude.outcome != 'failure' }}
+          --issue $RUNNER_TEMP/issue-successioni.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: pubblica
+        if: always() && env.SCRIVE == 'true'
+        run: |
+          python3 scripts/sentinelle_pubblica.py --aggiungi successioni
+          git commit -m "sentinelle successioni $(date -u +%F)" || echo "nessuna modifica"
+          for tentativo in 1 2 3; do
+            git pull --rebase origin main || { git rebase --abort; sleep 15; continue; }
+            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
+            git add -- wiki-studio/sentinelle/manifest.json
+            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
+            git push && exit 0
+            sleep 15
+          done
+          exit 1
+      - name: segnalazione
+        if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create sentinelle --color FBCA04 --description "da ricontrollare (sentinelle automatiche)" --force || true
+          gh label create memento --color 0E8A16 --description "schede del memento da rivedere" --force || true
+          gh issue create --title "sentinelle successioni: da ricontrollare ($(date -u +%F))" --label sentinelle --body-file $RUNNER_TEMP/issue-successioni.md || true
+      - name: rapporto
+        if: always()
+        run: |
+          echo "scritture: ${{ env.SCRIVE }}" >> $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          cat $RUNNER_TEMP/issue-successioni.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-successioni.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+
+  modelli:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    needs: [successioni]
+    if: ${{ always() && (github.event_name != 'workflow_dispatch' || inputs.area == 'tutte' || inputs.area == 'modelli') }}
+    env:
+      SCRIVE: ${{ contains(vars.SENTINELLE_AREE_SCRITTURA, 'modelli') && !(github.event_name == 'workflow_dispatch' && inputs.a_secco) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: cartelle di lavoro fuori dal repo
+        run: |
+          echo "STUDIO_STATO_ROOT=$RUNNER_TEMP/stato" >> "$GITHUB_ENV"
+          echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
+          echo "STUDIO_STATO_PERSISTENTE=$RUNNER_TEMP/persistente" >> "$GITHUB_ENV"
+          echo "FONTI_CACHE=$RUNNER_TEMP/fonti-cache" >> "$GITHUB_ENV"
+          sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1 || echo "pdftotext non installato"
+      - name: passi senza Claude
+        id: det
+        run: >-
+          python3 scripts/sentinelle_giro.py --area modelli --fase deterministica --triage $RUNNER_TEMP/triage-modelli.json
+          --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: passi senza Claude fissati (commit locale: il controllo vede solo le modifiche di Claude)
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          python3 scripts/sentinelle_pubblica.py --aggiungi modelli
+          git commit -m "sentinelle modelli: passi senza Claude $(date -u +%F)" || echo "nessuna modifica"
+      - name: Claude
+        id: claude
+        if: steps.det.outputs.claude == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        env:
+          CLAUDE_CODE_SUBAGENT_MODEL: opus
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Segui le istruzioni di .github/claude/sentinella-modelli.md.
+            Il lavoro da fare e' in ${{ runner.temp }}/triage-modelli.json.
+            Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-modelli.json.
+          claude_args: >-
+            --model opus
+            --allowedTools "Read,Glob,Grep,Write,Edit,Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/sentinella_modelli.py:*)"
+      - name: controllo meccanico
+        id: controllo
+        if: always()
+        run: >-
+          python3 scripts/sentinelle_giro.py --area modelli --fase dopo-claude --triage $RUNNER_TEMP/triage-modelli.json
+          --esiti $RUNNER_TEMP/esiti-modelli.json --claude-ok ${{ steps.claude.outcome != 'failure' }}
+          --issue $RUNNER_TEMP/issue-modelli.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: pubblica
+        if: always() && env.SCRIVE == 'true'
+        run: |
+          python3 scripts/sentinelle_pubblica.py --aggiungi modelli
+          git commit -m "sentinelle modelli $(date -u +%F)" || echo "nessuna modifica"
+          for tentativo in 1 2 3; do
+            git pull --rebase origin main || { git rebase --abort; sleep 15; continue; }
+            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
+            git add -- wiki-studio/sentinelle/manifest.json
+            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
+            git push && exit 0
+            sleep 15
+          done
+          exit 1
+      - name: segnalazione
+        if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create sentinelle --color FBCA04 --description "da ricontrollare (sentinelle automatiche)" --force || true
+          gh label create memento --color 0E8A16 --description "schede del memento da rivedere" --force || true
+          gh issue create --title "sentinelle modelli: da ricontrollare ($(date -u +%F))" --label sentinelle --body-file $RUNNER_TEMP/issue-modelli.md || true
+      - name: rapporto
+        if: always()
+        run: |
+          echo "scritture: ${{ env.SCRIVE }}" >> $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          cat $RUNNER_TEMP/issue-modelli.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-modelli.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true

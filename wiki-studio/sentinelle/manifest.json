@@ -1,0 +1,1158 @@
+{
+ "schema": 1,
+ "generato_il": "2026-10-08T00:45Z",
+ "versione_sentinelle": 1,
+ "aree": {
+  "dati": {
+   "file": {
+    "dati/tassi-soglia.json": {
+     "sha256": "093e512de9895bc3b2f372856fb069f671fd91149e9ef64eb1bcec117c976386",
+     "byte": 437266,
+     "proprietario": "action"
+    },
+    "dati/tassi.json": {
+     "sha256": "73ba5d8b8d9806e6398b97ed7136ef2746af7913f95911089aa3d1a956432932",
+     "byte": 314094,
+     "proprietario": "action"
+    },
+    "wiki-studio/normativa/competenza-materia-gdp.json": {
+     "sha256": "cfd50443ea8527a596dd35be4aca8b0bf0f4e807362d46f61b32bf3b1ae344f9",
+     "byte": 2604,
+     "proprietario": "action"
+    },
+    "wiki-studio/normativa/limiti-dm-110-2023.json": {
+     "sha256": "302a79054ae2ca1defc5157246d2afa18d14f5f9dc8a083aac3edfa8c0615e92",
+     "byte": 7155,
+     "proprietario": "action"
+    },
+    "wiki-studio/normativa/pct-specifiche.json": {
+     "sha256": "a99426b2b2c5789ec0f04c34c4d359a27701bdcec7cb36f32cfcc70145928778",
+     "byte": 4254,
+     "proprietario": "action"
+    },
+    "wiki-studio/parcella/contributo-unificato.json": {
+     "sha256": "5bb1989560c98dea67a08136d265effbca1419815b4c3e17c740881f5a55be2d",
+     "byte": 7451,
+     "proprietario": "action"
+    }
+   }
+  },
+  "normativa": {
+   "file": {
+    "wiki-studio/normativa/changelog-riforme.md": {
+     "sha256": "02405f4930b45c5c27b9feb2340eb3a37b0ab21679595d88d43ab3de386e5ebc",
+     "byte": 64928,
+     "proprietario": "action"
+    },
+    "wiki-studio/normativa/changelog-riforme.meta.json": {
+     "sha256": "8fe72e111a2c5149b70739f49e9f0e2ac752903039ae476d8e038079266335a2",
+     "byte": 41152,
+     "proprietario": "action"
+    },
+    "wiki-studio/normativa/sentinella-debito.json": {
+     "sha256": "b22c067358abb072db7eefde7cf4d52e5aff06ed49cf952ba67c9f1bc389dca2",
+     "byte": 93230,
+     "proprietario": "action"
+    },
+    "wiki-studio/normativa/stato-orientamenti.md": {
+     "sha256": "2bfa802eadfc1fe1c2f99d213ecbc82469a4c5f950014888a6c3a16a493dc4a7",
+     "byte": 20124,
+     "proprietario": "seme"
+    },
+    "wiki-studio/normativa/vigenza-watchlist.md": {
+     "sha256": "d413cd6794f83be51ffb7eea5ecd9b694816cde8e4c51ce8e68a13a935f032a3",
+     "byte": 14279,
+     "proprietario": "seme"
+    }
+   }
+  },
+  "modelli": {
+   "file": {
+    "wiki-studio/modelli/INDEX-MODELLI.md": {
+     "sha256": "f0d509aea50d4d079bb36647529a5c5972a81e777f061332dfac663ded481c54",
+     "byte": 27692,
+     "proprietario": "seme"
+    },
+    "wiki-studio/modelli/README.md": {
+     "sha256": "7584b4606aba44112dec59a19e2de20de222012ca9c1fdf668f589f71913c313",
+     "byte": 1754,
+     "proprietario": "seme"
+    },
+    "wiki-studio/modelli/STRATEGIA-CATALOGO.md": {
+     "sha256": "9a62e5b18e5b56ac50c22674f419a808f731e0fa66c9092f0d0a95622cfa6571",
+     "byte": 3894,
+     "proprietario": "seme"
+    },
+    "wiki-studio/modelli/catalogo.json": {
+     "sha256": "7436e5337209a55d3a8d9e97634c432c1a6aa71551daa8c81697762e7a6d9e9f",
+     "byte": 173019,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/001-informativa-al-cliente-e-trattamento-dei-dati-personali-redatta-dal-cn.md": {
+     "sha256": "656d34d0069c491c7e31c0f2e11376669bc75f29d74c1d44ca470728e50cf193",
+     "byte": 8797,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/002-informativa-al-cliente-sulla-mediazione.md": {
+     "sha256": "c8604aeacce6392e859fb8d5b292bf36d97df39cd15d59ad414a04198bd1f1b2",
+     "byte": 6160,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/003-procura-alle-liti.md": {
+     "sha256": "b0376d37e683a3465db2ae4d140b0bf5c6ca307a01afa6f18ba4f95d3839d118",
+     "byte": 5171,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/004-revoca-della-procura.md": {
+     "sha256": "66b2a1e1c8ee2e9afea9af00491c2b8696912499bcb6ed10ceb8fc393a9bf17b",
+     "byte": 3788,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/005-rinuncia-alla-procura.md": {
+     "sha256": "506ea4082f9eba4868647e3b57c84edf3a2f405181f7e0b0acf3cc8aa6c6519f",
+     "byte": 4321,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/006-parcella.md": {
+     "sha256": "25b0db04cb34b0974fc4e15c78f70b85611c7b5ced9465680a98986ba216cd26",
+     "byte": 3708,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/007-istanza-di-ammissione-al-gratuito-patrocinio.md": {
+     "sha256": "1b69a0a0ff0a96f8b866389b83108ed20c92cef65276c010f475fe2e294466c0",
+     "byte": 4350,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/008-dichiarazione-da-allegare-allistanza-di-patrocinio.md": {
+     "sha256": "c54d69fdefa88ecb3e88a3063e64c32b15f91839ab9595c8159b8edb0ed0b0e8",
+     "byte": 4034,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/009-opposizione-a-decreto-di-liquidazione-onorario-di-gratuito-patrocinio.md": {
+     "sha256": "9adea8da49cbafc2eb01679f510692945ca209117d4fd9a33ea9db8db0036a86",
+     "byte": 5759,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/010-appello-contro-il-decreto-di-diniego-del-patrocinio.md": {
+     "sha256": "7c60cc0bbda5560e35d4619cc02fca44f95082a2f6a3f0c0124f7879133a42fb",
+     "byte": 5034,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/011-ricorso-per-cassazione-contro-il-decreto-in-appello-di-diniego-del-pat.md": {
+     "sha256": "b59062157f6edb90ec647c1f2dedc1f4f07fdea9cb87c5c1a3e1d81ede529f02",
+     "byte": 5485,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/012-istanza-di-mediazione.md": {
+     "sha256": "f39c39ea9b94c04b2a1ac90ec25765559aa92f3cc928e05971449ec6dd5a15b9",
+     "byte": 9183,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/013-atto-notorio-per-lammissione-al-patrocinio-a-spese-dello-stato-per-il.md": {
+     "sha256": "1e236ec329edef253e9cb8fac38c8fd6b3a28166da84dfba617783851a19896a",
+     "byte": 4719,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/014-istanza-di-mediazione-a-firma-congiunta-delle-parti.md": {
+     "sha256": "e919ec213d0981a4ea9cd8dc04289e546d9de01f8efe526bbfb1961c876b6c76",
+     "byte": 5173,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/015-adesione-della-parte-invitata.md": {
+     "sha256": "8bc7d89309436c02808143848a0a8e66ea0868719dc812e443f69a3b3c35ad7e",
+     "byte": 6448,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/016-adesione-con-domanda-riconvenzionale.md": {
+     "sha256": "746cc7dabd25e82ecdc80fd10fe3c11782bdd34a19f907ce6ff0943beac7ac2e",
+     "byte": 6674,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/017-mediazione-demandata-dal-giudice-perche-obbligatoria.md": {
+     "sha256": "e086c9d87bed88e2d70765f4a8281b0102baa47fb6b4b020e421d1cd23744787",
+     "byte": 4332,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/018-mediazione-delegata-dal-giudice-vista-la-natura-della-causa.md": {
+     "sha256": "b019db9c40ca9596efb7fbdab6050e68bc0bb0b4d5ec68e3eb1f69cc393d0d69",
+     "byte": 4425,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/019-fissazione-di-termine-per-completare-la-procedura-di-mediazione-gia-pr.md": {
+     "sha256": "dc85a2632960323e9559c411f73c28b046ef8693d12a731fa74b9c8c64e3a6d1",
+     "byte": 4584,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/020-istanza-di-mediazione-demandata-dal-giudice.md": {
+     "sha256": "b0dcf2b3a397ec0e201a665390bf5fa84411191839b2e305548c304d00fc7b61",
+     "byte": 7014,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/021-ordinanza-di-integrazione-del-contraddittorio-in-mediazione.md": {
+     "sha256": "4b105bb3f76e7d8b148410fb360853e76c3e326aae4961a29e0b65a462eb68f4",
+     "byte": 4397,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/022-designazione-del-mediatore-e-fissazione-dellincontro.md": {
+     "sha256": "86e35b1a782c23efcaa0fa9ae119038d1a2dc14982e530d7a20ea1b9f5e6d685",
+     "byte": 4807,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/023-esperimento-della-procedura-di-mediazione-nel-procedimento-di-opposizi.md": {
+     "sha256": "e7fcb4248e4790f45dec21fe913624356dc5d1cba70aaf7781953820adc5c66d",
+     "byte": 4003,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/024-verbale-di-mediazione-in-materia-condominiale.md": {
+     "sha256": "d2ca25f0c468a25a054704b9356ec77549fb857e9fdc2e7704af85e2283f173b",
+     "byte": 5895,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/025-verbale-di-mediazione-obbligatoria-facente-seguito-a-clausola-di-media.md": {
+     "sha256": "c87fb73f42e939ff5fc2c8d8c14c87921e7f89a8273b8443363d4d5ab5f10c76",
+     "byte": 6361,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/026-verbale-di-mancata-comparizione.md": {
+     "sha256": "398d23d5c72931337dcde83a6e7085b0d83ac1f3a72eb733ae5df169f6d398ef",
+     "byte": 5050,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/027-verbale-di-accordo.md": {
+     "sha256": "88b0705f06be42d03a5101060071ed7dbca4e8e1fd4c5e8f190c34e4a60cac80",
+     "byte": 7374,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/028-verbale-negativo-di-mancato-accordo.md": {
+     "sha256": "9e75179f55bca57d37867cc2e38d2f9cb0a10fd278595b7927d31e1d87ec4c62",
+     "byte": 6805,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/029-verbale-di-mediazione-con-proposta-di-conciliazione-del-mediatore-e-ri.md": {
+     "sha256": "5e5deb2dc72f0f923df15c6ea137499cc59d341e53b4fae803d8930ecbc852ef",
+     "byte": 5638,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/030-accettazione-o-rifiuto-della-proposta.md": {
+     "sha256": "0b4baced51b510e56cdebedf34d9499d2142370238106910cd2daade20853c36",
+     "byte": 3788,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/031-verbale-di-riconoscimento-di-usucapione.md": {
+     "sha256": "065cdd4e96500e570df426cc31fed9bcaec9ece747d876ff135e48d98a35d476",
+     "byte": 10565,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/032-atto-di-citazione.md": {
+     "sha256": "6fe20401a28b94f1f123135e514bc2964b78eb884a7ae2ec087540572be4a71a",
+     "byte": 7186,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/033-abbreviazione-dei-termini-di-comparizione.md": {
+     "sha256": "aeb11f61b7a7696717ad7617fe8028c0613d82d6f5e16b9f88ba95cafa521506",
+     "byte": 3988,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/034-relazione-di-notificazione-1-cartacea-2-telematica.md": {
+     "sha256": "ea2d643db340606f182de88e97b0081403cb3b6602221d582b184bbe599d5db9",
+     "byte": 5457,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/035-iscrizione-a-ruolo-tabelle-del-cu.md": {
+     "sha256": "a6da31877073350cea4e461e15a1188109e08b1c7a23f32162a9d9d5103e03d9",
+     "byte": 10728,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/036-litisconsorzio-necessario.md": {
+     "sha256": "4ab3b159b08e3113a0ee091adbcd3d020f97a560f0361a31d4bdd4f92e5df901",
+     "byte": 3792,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/037-intervento-volontario.md": {
+     "sha256": "b4cb533058d3f3a62b51678a1887763f2cb35913ba5f2c3811ca03c495e805b7",
+     "byte": 4673,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/038-estromissione-del-garantito.md": {
+     "sha256": "73535502c9c8aaebd989b74a1b202769b4c553274a929a85b42a9f9e462c3321",
+     "byte": 3900,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/039-successione-nel-processo.md": {
+     "sha256": "cccf959ad64253bf4cc21a1d179022642d14b38152362ad7bd2c4f2fe569f814",
+     "byte": 4987,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/040-anticipazione-delludienza-di-comparizione.md": {
+     "sha256": "86167a64fe903fdb909571729411687c965479859a1315e925105b7c9c60a363",
+     "byte": 4219,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/041-nullita-della-citazione.md": {
+     "sha256": "d15b41b1c4876c966e94c27cb2bc56dd8d175b189d8d39a2fb041cbff5641cac",
+     "byte": 4466,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/042-comparsa-di-costituzione-e-risposta.md": {
+     "sha256": "92aeab51be391cfa9ac07ae9312e0cd4f3812e76cbe39953f85375e856762148",
+     "byte": 5454,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/043-comparsa-di-costituzione-e-risposta-con-domanda-riconvenzionale.md": {
+     "sha256": "19a80df9df9954d90858ed5b344023c5ac39030a74eef57d868be621e5bf0cb8",
+     "byte": 7294,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/044-comparsa-di-costituzione-e-risposta-con-eccezione-di-incompetenza-per.md": {
+     "sha256": "cab9d715336e545477d260328f755f725fcb4b9206ff5268197e9dc0d98596e7",
+     "byte": 6568,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/045-comparsa-di-costituzione-e-risposta-con-eccezione-di-incompetenza-per.md": {
+     "sha256": "3e0097944402810f5f58a6f72e30e6034733e5541a5059f0c3e7135268ea08aa",
+     "byte": 6085,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/046-comparsa-di-costituzione-e-risposta-con-eccezione-di-litispendenza.md": {
+     "sha256": "ecd867c8005edb3b230fc3a0acbd54f20e03763113af7a5e5f3f8323e0665a4a",
+     "byte": 6006,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/047-comparsa-di-costituzione-con-richiesta-di-riunione-per-connessione.md": {
+     "sha256": "6411093f00461d0d4d9f430ff578a38e27cd6a8c60d4d2368b6d576ca6b73567",
+     "byte": 6419,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/048-comparsa-di-costituzione-con-chiamata-in-garanzia.md": {
+     "sha256": "b9fa2ff4f2a2e0be1bfe3e67b8248edd8dd8202c0799b0eb6efac79ff11b69d5",
+     "byte": 6829,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/049-comparsa-di-costituzione-con-chiamata-in-causa-di-terzo.md": {
+     "sha256": "30330c6387d15d1c8060aa520b0750d14137ab6b00fd52cc1e75908f887ef6cb",
+     "byte": 7119,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/050-atto-di-citazione-di-chiamata-in-causa-di-terzo.md": {
+     "sha256": "b79d1b33bc100b67ffce9e39a3a6ed49fd6ad240080c154dfbe5f8d2de61f13d",
+     "byte": 8098,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/051-prima-udienza-di-comparizione.md": {
+     "sha256": "3a250de8e6a9b9ca37a9e4bfe8c142f08ea482a5834bcd757702a44f27bc1621",
+     "byte": 5137,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/052a-memorie-integrative-ex-art-171-ter-comma-1-n-1-cpc-1-termine.md": {
+     "sha256": "d7d4fb027dd8ac86bb0fd51b96a83567d65cc99ac2f1929862460b74eda584a6",
+     "byte": 4641,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/052b-memorie-integrative-di-replica-e-note-istruttorie-ex-art-171-ter-comma.md": {
+     "sha256": "d19f9752c15063fab3a098d5ec1327b76acdceb8f875e6a330dd4059f9fc833e",
+     "byte": 5625,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/054-ordinanza-di-accoglimento-della-domanda-su-diritti-disponibili-delle-p.md": {
+     "sha256": "93b253ce9511283e7b3b01cecb792135566f782b46f7d33b93fd08ad258c806f",
+     "byte": 4911,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/055-ordinanza-per-il-pagamento-di-somme-non-contestate.md": {
+     "sha256": "95ad0606d6e45ef3b58bd7d170b630c4d25037f8430c5c11b13d6ab5b183f0dd",
+     "byte": 4245,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/056-ordinanza-ingiunzione-di-pagamento.md": {
+     "sha256": "0246e8b996ee16f3dc385f78b82f21da67f102dda168393f622d26ee8650dd26",
+     "byte": 5246,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/057-dichiarazione-testimoniale-scritta.md": {
+     "sha256": "f693248028cc9a6455fbd9149ef51ca5f0cb09fe11cf3ef542baa9f28adbec55",
+     "byte": 6243,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/058-deferimento-di-giuramento-decisorio.md": {
+     "sha256": "ed25d82701641058aa8f2bd9118b8f8d555d00a816f72646ae4c40c714224aff",
+     "byte": 3753,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/059-deferimento-di-giuramento-suppletorio.md": {
+     "sha256": "e62f8d9639a65ea2f10bfc9304e40a3308801d2902bb84ef0c93e56605a9d9ff",
+     "byte": 4179,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/060-deferimento-di-interrogatorio-formale.md": {
+     "sha256": "cf6983b3a66f855eb9e7f9585d7dcb1531688820f8482eccfdb9d090ee292c41",
+     "byte": 5034,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/061-citazione-di-testimoni-a-mezzo-ufficiale-giudiziario.md": {
+     "sha256": "1b44230fdefccb14a00b6566c4c2c77b88ce1d928ec801817e42df7d3a86fc26",
+     "byte": 4368,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/062-citazione-di-testimoni-a-cura-dellavvocato.md": {
+     "sha256": "fe91faac3b66b37ef94daf6ec45dfc6712fcd989e50bcb011582055377e965aa",
+     "byte": 4316,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/063-note-scritte-di-precisazione-delle-conclusioni.md": {
+     "sha256": "4fd606d1e86eca1681b2a68a058cc0aa6aba0ea7d0b5bf8d8b225240d75b2ff1",
+     "byte": 4180,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/064-comparsa-conclusionale.md": {
+     "sha256": "ee681fa83d417204545e796b9abb56c086547f939a48f5bcafedc883713c3b0f",
+     "byte": 5436,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/065-memorie-di-replica.md": {
+     "sha256": "c0e6551403707c28edc8be71f2172fb7df2e8a1f5efae444ca35dffff6c5d164",
+     "byte": 4991,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/066-istanza-di-correzione-di-sentenze-ed-ordinanze.md": {
+     "sha256": "760d3e3eaac3e4a3e04f03d4b3c2e868b3c11917eb6e9d3c98d8da2ed917cec1",
+     "byte": 4300,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/067-interruzione-del-processo-per-morte-della-parte-o-del-difensore.md": {
+     "sha256": "efab63245080afe8d83b44bc06d1a6534051b00481cd8ad35a96d3e8d000d500",
+     "byte": 3585,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/068-riassunzione-del-processo-interrotto.md": {
+     "sha256": "7bdd611e03b8e416ea555c6389922002ea6dc34690d2407f72148692f95cb95a",
+     "byte": 6107,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/069-estinzione-del-processo-per-rinuncia-o-per-inattivita-delle-parti.md": {
+     "sha256": "6a7969ccca04a093d3e901ded03c24aaf1e68c503762cf2c8c08c7eb26a2bc89",
+     "byte": 3762,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/070-riassunzione-del-processo.md": {
+     "sha256": "b4f8001b78cdf2b4c2c57258cf190dd9f83a3f5559acf8bd3c8591b795b6653c",
+     "byte": 5006,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/071-ricorso-semplificato-ex-artt-316-e-281-undecies-cpc-innanzi-al-gdp.md": {
+     "sha256": "0d6c139c5b17d43f4ad2364859bf433164621bb67591e6a439bb0fb40ae2aa3d",
+     "byte": 6790,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/072-ricorso-semplificato-per-risarcimento-danni-a-cose-da-sinistro-stradal.md": {
+     "sha256": "9754d10592fe1fe93e663daad487b90c0587bcd8d5224893c96044e4754bbb7e",
+     "byte": 8867,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/073-ricorso-semplificato-per-risarcimento-danni-a-persone-da-sinistro-stra.md": {
+     "sha256": "896d6d2e54cca717f270804d4b1307c172fad5c9850d70bc8c2ebd7bd6147cb3",
+     "byte": 9903,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/074-comparsa-di-costituzione-e-risposta.md": {
+     "sha256": "289a833d75fda97a6c19dc7b673df0f26cf39505b94171525020206f4703c7e3",
+     "byte": 5516,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/075-comparsa-di-costituzione-e-risposta-con-domanda-riconvenzionale.md": {
+     "sha256": "c114756c8645f3236e30e0eec58d60075d1deeef455735eaf65bc5676ae1eb39",
+     "byte": 7324,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/076-note-di-trattazione-scritta.md": {
+     "sha256": "e3f63a5b0fa39c49ce08a7447ae958ffbb93c03c102da0897c70b2c5a9d5e25d",
+     "byte": 3737,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/077-opposizione-a-verbale-di-accertamento-per-violazione-del-cds.md": {
+     "sha256": "0b2336088310215768a58eea871b3a12a80ccb603377c525954b2c86983aedad",
+     "byte": 9468,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/078-istanza-per-la-sospensione-dellefficacia-esecutiva-o-lesecuzione-della.md": {
+     "sha256": "6f5b93ed1658a801cf713dec8f683457da5a06075b7ad7a459974b3c83c1917b",
+     "byte": 6061,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/079-appello-contro-le-sentenze-del-giudice-di-pace.md": {
+     "sha256": "1083e6888e13049a4c925ca91cc5be35d9171544134fb3d1b9edd6a7d60b90a5",
+     "byte": 9966,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/080-appello-contro-le-sentenze-del-tribunale.md": {
+     "sha256": "d5056b66d54f9effdb6c7493c2436e178bd99088f803101ea507f1cccee5b75d",
+     "byte": 8769,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/081-appello-incidentale.md": {
+     "sha256": "2c31f312a062bd6a990692d5a9f78b725b9a63f2fd3551b3a726b75fd4b3cc62",
+     "byte": 7062,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/082-costituzione-in-appello.md": {
+     "sha256": "ed205e50ae56165250776a868950a5a5d075e85200422c384e5525a1986ca243",
+     "byte": 5134,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/083-note-per-la-precisazione-delle-conclusioni-innanzi-al-collegio.md": {
+     "sha256": "d8a7a125ecffbc7f5d92c5ace87793fa326a120cfc75165bd200f4781e932e0e",
+     "byte": 4000,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/084-comparsa-collegiale-conclusionale-in-appello.md": {
+     "sha256": "48e8053ccac35665ca4a8e86dd85b7bfeac239c1a7b0cc2f01058b5bb55a4219",
+     "byte": 4811,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/085-ricorso-per-cassazione.md": {
+     "sha256": "137df708a51df8bffc0bd45d20a5fdfa7e97f6e146429ad27a358c84d8bba638",
+     "byte": 7232,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/086-riserva-facoltativa-di-ricorso-per-cassazione.md": {
+     "sha256": "a5e7917f64dc600a9f7358df5e672081d26c6bb11bc9efdf11ef52acb7497b6c",
+     "byte": 4478,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/087-controricorso-per-cassazione.md": {
+     "sha256": "563d7aef23a9302d3b3aa7b224f39fde6944e3a767450c85d5c2e6e0c9372cc0",
+     "byte": 7373,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/088-ricorso-incidentale.md": {
+     "sha256": "2e3f7e99728b6ca0da423894809db8b05f19155269858915939e4465311774b1",
+     "byte": 8159,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/089-riassunzione-per-rinvio-innanzi-alla-corte-di-appello.md": {
+     "sha256": "424db3e956d66dd1e8156f0bb907d9a9f236f17d3665f1ba4b1800be8f64af9e",
+     "byte": 7686,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/090-revocazione.md": {
+     "sha256": "f161babcd4b71a93cc545d298787cb4887fd3b99262da97bf7f0e9f48ad78e6d",
+     "byte": 8724,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/091-opposizione-di-terzo.md": {
+     "sha256": "7f3876fe9c531cfba84018a3f816e778c6a9b8b1400849e90756500a5ecfc08a",
+     "byte": 6414,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/092-procedimento-per-la-decisione-accelerata-dei-ricorsi-inammissibili-imp.md": {
+     "sha256": "721397301a87bdad74c504e38721491b0f2b4e176ec17e0c804c5d2ad4063f82",
+     "byte": 6039,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/093-revocazione-o-correzione-per-errore-materiale-o-di-fatto-contro-le-sen.md": {
+     "sha256": "9cf42ebd3a01e46216bd193dc328e0f1b8dc7e773786f0c3e24bb8edcd9c2f64",
+     "byte": 7465,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/094-revocazione-alla-corte-di-cassazione-per-contrarieta-alla-convenzione.md": {
+     "sha256": "355e072555fe36f5af8e12b0d7cb3d802f895cd6e161d9818ac51a765a0d44a5",
+     "byte": 7113,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/095-istanza-di-negoziazione-ex-articolo-2-del-decreto-legge-n-1322014-comm.md": {
+     "sha256": "08981cf0ef35b4f314e661177adf806e2418e8d228f6d44e51ecefa84403e5ce",
+     "byte": 17798,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/096-istanza-di-conciliazione-obbligatoria-in-materia-di-licenziamento.md": {
+     "sha256": "8fb5dd10b82e26c5f1fe4621e2866d8341c00c5efafcab7c4eb52cb2dff3d56d",
+     "byte": 5246,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/097-ricorso-per-il-pagamento-di-indennita-lavorative.md": {
+     "sha256": "1459ed17483322ab7c5401d445a9e072df606bd8b6e5e4402c8860dd1bc88111",
+     "byte": 8691,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/098-ricorso-per-attribuzione-di-qualifica-superiore.md": {
+     "sha256": "419457978ccd9190b51d6963ffb59821adde78e1f7c5e68b7445a01527aa7bd2",
+     "byte": 8152,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/099-ricorso-per-mobbing.md": {
+     "sha256": "4f956e84003b8e6ac10cd15878079fd0f2329aa446d6ad60465a01803a08f68f",
+     "byte": 22363,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/100-ricorso-per-la-conversione-del-rapporto-di-somministrazione-irregolare.md": {
+     "sha256": "af61946a761e38784cf0ec317c6fe724c0725b8f1269ed6696dd12a26d536753",
+     "byte": 11894,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/101-ricorso-per-la-trasformazione-del-contratto-a-termine.md": {
+     "sha256": "984db18c0be5b6fc935be54a1491beffe00160eec52b38abc174f757b483262b",
+     "byte": 6497,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/102-ricorso-docenti-per-il-risarcimento-del-danno-e-il-riconoscimento-dell.md": {
+     "sha256": "ae1a4035b517bd42cc3cdb2c2fdd8a192b6339fa5148771395a888d82d4061c5",
+     "byte": 12393,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/103-ricorso-ex-art-700-cpc-per-la-reintegra-al-lavoro.md": {
+     "sha256": "07c2195af132abbb5c7771834fd2ca1e8a3b9dbc664fc6ac7f8c88d0ca1bbe87",
+     "byte": 11067,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/104-ricorso-ex-art-441-bis-cpc-per-la-reintegra-al-lavoro.md": {
+     "sha256": "d63bfd8fe26a018f565b532a31d339e525d324b396b29303a8399f2910979382",
+     "byte": 13889,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/105-memoria-difensiva.md": {
+     "sha256": "5ccc69a7fcde9307395bf7f8a819d67a24dd0cbfa7f70bfa6f1605cabbff7252",
+     "byte": 5506,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/106-ricorso-in-appello-rito-del-lavoro.md": {
+     "sha256": "b3d5fe64ea7f10e7de10fdd3d6ab1f04a9f6e266d63ef732bf23d174a2d8216d",
+     "byte": 9772,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/107-costituzione-in-appello-rito-del-lavoro.md": {
+     "sha256": "b512a23b22402e42d208d5c3c826117907b60222b8f54af76919dc57312cec73",
+     "byte": 7864,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/108-ricorso-per-cassazione-in-materia-di-lavoro.md": {
+     "sha256": "d41bcee489e4a3cb655d7cf24336ccf1c0caea8436615315cd4f34a10b739f4c",
+     "byte": 8439,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/109-attestazione-di-conformita-del-provvedimento-giudiziario-esecutivo.md": {
+     "sha256": "2f5c07e52fed72f06b23ebdf36caa77e7ee229641647a35a4c7da1b4f582d5ad",
+     "byte": 3803,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/110-atto-di-precetto-in-forza-di-sentenza.md": {
+     "sha256": "7075039016dbf2d54df4dd495ef17afea4abefb7b6fddd2a500754ca8f2f2ed5",
+     "byte": 6133,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/111-precetto-fondato-su-cambiali.md": {
+     "sha256": "5bb5524c93822cf4d5537b3ca938e97049f430a647fc8c20bb1a369250ab0284",
+     "byte": 5681,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/112-precetto-per-il-rilascio-di-immobile-locazione.md": {
+     "sha256": "9e44a58e8d8a182be6b84a43124e552009223942206ee5b597bb1bfb69b74c6f",
+     "byte": 5491,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/113-atto-di-precetto-per-consegna-o-rilascio-reintegra-nel-possesso.md": {
+     "sha256": "7ceb5402f7f0791b2b3c5717ab5ca08bc5ab5fb1d7d4de55b68c108f7d7353d2",
+     "byte": 6040,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/114-verbale-di-pignoramento-mobiliare-e-ricerca-con-modalita-telematiche.md": {
+     "sha256": "5b48612a65e7dd2b5c954e15185c3fe456d56e37c99fd88d4ba5858ff6cc30a5",
+     "byte": 9780,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/115-conversione-di-pignoramento-mobiliare.md": {
+     "sha256": "0f6ae9ec0862f4159efcfbd9e3ab3ec23f5e516fc438b7de3f0544bf59a81396",
+     "byte": 3882,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/116-intervento-nel-pignoramento-mobiliare.md": {
+     "sha256": "49ab647291c63c192843829804b91de5467f3cb6e90cabf90b0cd70b82d265b3",
+     "byte": 4313,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/117-istanza-di-assegnazione-dei-beni-mobili-pignorati.md": {
+     "sha256": "f390308fb59fdfb7de040309d1c9513c721704a90af45c67edff68722a907f80",
+     "byte": 4097,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/118-istanza-di-attribuzione-della-somma-ricavata-dalla-vendita.md": {
+     "sha256": "e7a1157be4180a5a947c82a4b6857f59bbf5c95ca97e5c8b040375a9a99c3e8a",
+     "byte": 4405,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/119-pignoramento-presso-terzi.md": {
+     "sha256": "d28172e23587a2c381a8f6e3fc10a41fb5e7b340593cbe5d84aa209ff8cbb53f",
+     "byte": 9834,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/120-citazione-per-laccertamento-del-credito-in-caso-di-mancata-dichiarazio.md": {
+     "sha256": "183ec5c363911c5774df74591b87be0d75aa7aa61136a320596795bc93fafe07",
+     "byte": 6732,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/121-atto-di-pignoramento-immobiliare.md": {
+     "sha256": "d7d1614fbc7c930cec1c795e2acfef836a060238ffcad2c6e6ca4ab963b9388c",
+     "byte": 7477,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/122-istanza-di-vendita-immobiliare.md": {
+     "sha256": "c608a676bf2a7f50fc9df4e970baf1ce5eb0cf84b06dfaedda15868791420180",
+     "byte": 4225,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/123-istanza-di-assegnazione-di-beni-immobili-pignorati.md": {
+     "sha256": "2ee456c7c0c377491454a91168d66fa388c6eef055bb7926b45f73e440deea19",
+     "byte": 4537,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/124-opposizione-allesecuzione-non-iniziata.md": {
+     "sha256": "0e8327368f05ac6d960f5a66790b1d7b7710298e5e21f2837deb553e97ded56b",
+     "byte": 6960,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/125-opposizione-allesecuzione-iniziata.md": {
+     "sha256": "0245493be8af95f9d7553f07c486e96d6795351c939f4fa5f87aa5b773df4643",
+     "byte": 6216,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/126-opposizione-alla-regolarita-formale-del-titolo-esecutivo-e-del-precett.md": {
+     "sha256": "88005ed082414f6ba5cd18b457fdb1d32bb627843a7819d94524934d349e72f7",
+     "byte": 8479,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/127-ricorso-per-decreto-ingiuntivo-di-pagamento-fondato-su-prova-scritta.md": {
+     "sha256": "eb17aa627e64669971d3697743a428d2dd326837ebef1c66af920512529f0a91",
+     "byte": 6847,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/128-ricorso-per-decreto-ingiuntivo-di-consegna-di-cosa-mobile.md": {
+     "sha256": "4200c185c5b23b1573e9a0aa482ffe7464dca8a62f00f8bdb9e82ee85201339f",
+     "byte": 5805,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/129-ricorso-per-decreto-ingiuntivo-per-la-consegna-di-cose-fungibili.md": {
+     "sha256": "eb9b3247cf430f59adfb501dea537f4d5de6dddfa0ed90704d755220a8a61253",
+     "byte": 6710,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/130-ricorso-per-decreto-ingiuntivo-per-pagamento-di-credito-professionale.md": {
+     "sha256": "309e9dca8981af715d3a15ddeb95181ebbb67a48ebc80ff38f4d40c258ff556b",
+     "byte": 6890,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/131-ricorso-per-decreto-ingiuntivo-per-il-pagamento-di-spese-condominiali.md": {
+     "sha256": "758ff9528b6e4b7764badd2f1999ad8f73c02ee2e2a82cfb008a3e7870098baa",
+     "byte": 7221,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/132-ricorso-per-decreto-ingiuntivo-su-cambiali-scadute.md": {
+     "sha256": "1c7d2c36ad3a80e37068d0495cdc36775c772707097582e3d6de5fc591c2ede1",
+     "byte": 6992,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/133-opposizione-a-decreto-ingiuntivo.md": {
+     "sha256": "744f53251665437700b25e98fd2d39a31bb87249ee8eaa86609d8b1b3db7ccd0",
+     "byte": 6768,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/134-opposizione-tardiva.md": {
+     "sha256": "6e4a1ca28b1f508b27ee344108813bb0ec5386eabb7ce6186aa7b978dfec7e71",
+     "byte": 7740,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/135-licenza-per-finita-locazione-abitativa.md": {
+     "sha256": "a9b58bcc59073a4ffdf938636f141dc3a12d528acf3912479fa38e823328a195",
+     "byte": 6228,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/136-sfratto-per-finita-locazione-abitativa.md": {
+     "sha256": "a8cbfe7343c458dc4c2b0053540f3e4b273b9c80c1bd5d258b7b5be0a5823058",
+     "byte": 6926,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/137-memoria-di-costituzione-dellintimato.md": {
+     "sha256": "4b13dd43cce42af308f0698a25b4aee9628429c78b4d1b11641abed2fe9d95bd",
+     "byte": 5399,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/138-sfratto-per-finita-locazione-commerciale.md": {
+     "sha256": "7336d2ac02f16c8a3e6da0c066a9899b34d0f47cbd2d6ceb1a804dcac782b063",
+     "byte": 6380,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/139-memoria-di-costituzione-con-domanda-riconvenzionale-per-lavviamento-co.md": {
+     "sha256": "320a51c7ccc6ff34ba07d2780e8622456fdd4c58f0bb372670435386acf0ced5",
+     "byte": 6202,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/140-sfratto-per-morosita.md": {
+     "sha256": "e88faff09ae73cbd255eeba5491f7b6f427313e5c1c1e560d9f28bf283394918",
+     "byte": 5992,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/141-opposizione-dopo-la-convalida-dello-sfratto.md": {
+     "sha256": "852a62549128eea078d8121cc04d9a8a49d22066716af1a53a7aa273dc1e6f2a",
+     "byte": 5588,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/142-memoria-difensiva-del-ricorrente-dopo-il-mutamento-di-rito.md": {
+     "sha256": "31fe1c3b50df485ec15c9a57463539613d1e170ca2331d818b6aebeaa0e6278f",
+     "byte": 5318,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/143-memoria-difensiva-del-resistente-dopo-il-mutamento-di-rito.md": {
+     "sha256": "4a9deac3a8c46698506ff51c96c6945ecb5fac621e7819c026c2eab4619ce325",
+     "byte": 5821,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/144-schema-tipo-di-domanda-per-le-misure-cautelari.md": {
+     "sha256": "2388aa7d47917757a78181e1fd4836d8ccecafb86fcd0efb6a08cbf492eec2b3",
+     "byte": 4616,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/145-provvedimento-di-accoglimento-della-misura-cautelare.md": {
+     "sha256": "5a48a56ba8b38815b885ba83796c80465ddd5e17f594685c6d190ed4a1f96318",
+     "byte": 3811,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/146-domanda-per-linizio-del-giudizio-di-merito.md": {
+     "sha256": "caee9a2576d24cb391681ade337ae5358ac2259dec1f6219d1c81da273e9f21d",
+     "byte": 6726,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/147-revoca-e-modifica-del-provvedimento-cautelare.md": {
+     "sha256": "5672efa5dea65cb25226817730cadb6c659b972c7d0162c6ee808faab017de14",
+     "byte": 4578,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/148-ricorso-per-le-modalita-di-attuazione-dei-provvedimenti-cautelari.md": {
+     "sha256": "003ca1385191753bcf985c4fbd7cad555a6ad63e254d18ae6215fa8c17b7de63",
+     "byte": 6043,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/149-reclamo-contro-i-provvedimenti-cautelari.md": {
+     "sha256": "f97e64fb368a9f9abd2d078c8b12848b172c77dba517afccf37ca856bc710a04",
+     "byte": 5242,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/150-sequestro-giudiziario.md": {
+     "sha256": "c4f3856ca9fdc298004044b00f2e7cc82a5f0c6fabea838620ff7caddf3c42c6",
+     "byte": 5729,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/151-sequestro-conservativo.md": {
+     "sha256": "cd2a922d6baea3e932dc2373483cf26580bcbc8d5cd85804c6286cc866231bb2",
+     "byte": 5348,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/152-giudizio-di-merito-dopo-il-sequestro.md": {
+     "sha256": "37606703d98b1f904c5b66361d0fd2e3ef06536d2979aa16932bcfb9817c13bd",
+     "byte": 6739,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/153-denuncia-di-nuova-opera-e-danno-temuto.md": {
+     "sha256": "2be9cc11dec2287b6cb31ac555147669622ad47b28f28c9eb92280bd2e189e93",
+     "byte": 5735,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/154-giudizio-di-merito-dopo-la-denuncia-di-nuova-opera-o-di-danno-temuto.md": {
+     "sha256": "0c914393fafda4127eb310e3e97416d0e4687abea40e8a6fb51ef64584806fe8",
+     "byte": 6710,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/155-assunzione-preventiva-di-testimoni.md": {
+     "sha256": "718edfa20edc562d2f45b21022f0a669b14c0407969ca80648023a282e3d2f29",
+     "byte": 5304,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/156-accertamento-tecnico-ed-ispezione-giudiziale.md": {
+     "sha256": "c717e8b0dda69eb5fb431a2566181a61e38eb138dd2af48732e12c9042b52c45",
+     "byte": 5225,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/157-ricorso-per-atp-con-tentativo-di-conciliazione.md": {
+     "sha256": "20a384d730e89c42edb3a7f04156364c80ec0c319be3a30141c8c1dccdab43ca",
+     "byte": 8185,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/158-procedimento-di-urgenza.md": {
+     "sha256": "4a02cb91c4ffc1ac47eb2a4788d4fef2e85d8af72fb63b5b613ee7c80bc21586",
+     "byte": 5237,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/159-giudizio-di-merito-dopo-il-provvedimento-di-urgenza.md": {
+     "sha256": "39ce5debf1b18554de04eaa9e3415c66352b550063854c35a447077006c69600",
+     "byte": 6831,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/160-ricorso-semplificato-di-cognizione.md": {
+     "sha256": "7a3e2b56021a53bfe4388fcdfd54493382d82d831d29f0730ed23089e3cdca50",
+     "byte": 8194,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/161-decreto-di-fissazione-delludienza.md": {
+     "sha256": "9da27f92cfb3accb999a36d341d44a5ae0259cbd659a91f7bb791b157bcdd991",
+     "byte": 4169,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/162-costituzione-del-convenuto.md": {
+     "sha256": "c646f41a3ac5e2db0cad20103b89ea2fe78ecac922a1db1c2a1ebf22f67427a7",
+     "byte": 6768,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/163-ordinanza-di-mutamento-del-rito-da-semplificato-ad-ordinario.md": {
+     "sha256": "f1530c5f1a14145ddb217ec24b040adae30353a62e0fff9d43b088bf00cfa6bd",
+     "byte": 4063,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/164-note-autorizzate-per-precisare-le-domande-le-eccezioni-e-le-conclusion.md": {
+     "sha256": "16872ec7fcda58d2e95eab648ac07c14d529491fc48a97d71292c20203fbc5d2",
+     "byte": 4491,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/165-memorie-autorizzate-di-replica-e-prova-contraria.md": {
+     "sha256": "af89eaeb93da69c1aab122b841474167fd8909c28a7c1c8af90057d7ec22c6c3",
+     "byte": 4247,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/166-sentenza.md": {
+     "sha256": "d7857ccb527ebb2ea08d4383f86579fce15dfbb2119dcf71c309df53eb574f0b",
+     "byte": 4761,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/167-reintegrazione-e-manutenzione-nel-possesso.md": {
+     "sha256": "03b60ce04469a30e42654a8d06fddeba48c2d913fe93646b8e79f5318748ada8",
+     "byte": 6230,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/168-giudizio-di-merito-dopo-le-azioni-possessorie.md": {
+     "sha256": "4cc69598c17b663dd23131758c9c804f0c469494a8665488f63a67d05f35b328",
+     "byte": 6654,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/169-ricorso-a-firma-congiunta-dei-coniugi-per-separazione-consensuale.md": {
+     "sha256": "128b1242316435bd5069e9df9dd0665a5135cb6af42f29a10520410ac2b18a97",
+     "byte": 8517,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/170-ricorso-per-separazione-giudiziale.md": {
+     "sha256": "ac2d886edebeae3deab6975cf35fdc5eac38a48eab766d905b0239fb44e52050",
+     "byte": 8031,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/171-piano-genitoriale.md": {
+     "sha256": "b2297889a51945cca23db0b65375aa52d7d0fe0f858c600feb83061632779f32",
+     "byte": 7790,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/172-costituzione-del-convenuto.md": {
+     "sha256": "d282ca8d9101d97c19829f6b9c3dc778535adb50f62022295e49df0d8034d191",
+     "byte": 9620,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/173-richiesta-di-modifica-o-revoca-della-ordinanza-di-provvedimenti-tempor.md": {
+     "sha256": "be8577bee29db4e58cd0af624f3433d97cf818d1d1e93458b50d1e288a534732",
+     "byte": 4996,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/174-istanza-per-la-revisione-dellassegno-di-mantenimento-separazione.md": {
+     "sha256": "f58a68a79f640d2ba2717b6a2380180f0946bddd258020186b9ca1e569ec3905",
+     "byte": 7392,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/175-ricorso-giudiziale-per-la-cessazione-degli-effetti-civili-del-matrimon.md": {
+     "sha256": "012f15978ead1be712c9b27990f11d90434c685d87966b82a8e4f8ebe1a11f6d",
+     "byte": 7594,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/176-ricorso-a-firma-congiunta-per-la-cessazione-degli-effetti-civili-del-m.md": {
+     "sha256": "e37dfba707c8c0b2a7859e30a73a52144a1e6d1d8e91c7e17da997f068545335",
+     "byte": 8188,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/177-comparsa-di-costituzione-e-risposta-divorzio.md": {
+     "sha256": "c90ff3158692ffb2429a08222e97a41d41df8f86eae7e4d44752f7357ce59471",
+     "byte": 5854,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/178-ricorso-per-la-revisione-dellassegno-di-mantenimento-divorzio.md": {
+     "sha256": "9eeceaf7b584ed8c88e6d2d55647ce2255dfce664807e0961f60f281b2c32fdb",
+     "byte": 5845,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/179-verbale-di-negoziazione-assistita-per-la-separazionedivorzio.md": {
+     "sha256": "9e8a6583e5b11130fb9fb8918257a057ef26cd88deba137484b3c6f2d242700c",
+     "byte": 22808,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/180-ricorso-con-cumulo-della-domanda-di-separazione-e-divorzio.md": {
+     "sha256": "755cf136602bf2a6d17a84514abababe637ab77d67cc252be080120b6c4fab55",
+     "byte": 7138,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/181-verbale-di-trasferimento-immobiliare-nellaccordo-di-separazione-o-divo.md": {
+     "sha256": "a8213b0ffec815db90c2b55e0b450355669c068d57c7b6b097e779f60572d0d6",
+     "byte": 9870,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/182-note-di-trattazione-scritta-separazionedivorzio.md": {
+     "sha256": "27133286b65e08a83b073aadc910ed581878e14ec5b0b887aa0ea00ca2d9650f",
+     "byte": 6655,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/183-convenzione-volontaria-di-negoziazione-assistita.md": {
+     "sha256": "32553cd5881ff13a9d786c56f154bf1bb4bbdbb443bdf67e0405c64c1624029e",
+     "byte": 16827,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/184-invito-alla-stipula-di-convenzione-di-negoziazione-quando-e-condizione.md": {
+     "sha256": "19c8b9cb1abb969a1fe0845a95fe914f9cae2f3026ac2510429e007664a26a56",
+     "byte": 6277,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/185-invito-alla-stipula-di-convenzione-di-negoziazione-quando-e-condizione.md": {
+     "sha256": "bfc1c0523596b65a244a67c960ce28c43c51ef6f80bae4a39bbf8dd3d080e5ac",
+     "byte": 5355,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/186-convenzione-di-negoziazione-assistita-quando-e-condizione-di-procedibi.md": {
+     "sha256": "4aae06345cb26423c16c740c922b7496786777bfed52ad52fa079c4f583eff47",
+     "byte": 6262,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/187-adesione-alla-negoziazione-assistita.md": {
+     "sha256": "f6a0e59052accef6e1352c7152b1780f394de16130459c4c6d33117c42525568",
+     "byte": 4629,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/188-dichiarazione-di-mancato-accordo-in-negoziazione-assistita-certificata.md": {
+     "sha256": "bcaa4e76931af8201b69eefd51ec112081041c864c5a47fbaa035fefe9a6621c",
+     "byte": 5255,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/189-verbale-di-accordo.md": {
+     "sha256": "13499d3fe868becce07a8e7a2819b0a7da8c5f757cabf5239c9f49186f568901",
+     "byte": 5473,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/190-eccezione-di-improcedibilita-per-mancato-esperimento-della-procedura-d.md": {
+     "sha256": "32dad8175522717668ad7aa0f385f71d4ada84d5bf70ed96fc593e2b6ad30ca7",
+     "byte": 6168,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/191-negoziazione-assistita-demandata-dal-giudice.md": {
+     "sha256": "b6a981e16310c92e5da5eb4b5b585ae8cbf371429d7aea6b0623e096c91ba734",
+     "byte": 3870,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/192-esecutivita-dellaccordo-di-negoziazione.md": {
+     "sha256": "4329386334426c10153d1f32b2780be9ee4d359709d164b8de4d36ee87ee61cd",
+     "byte": 6468,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/193-clausola-compromissoria-per-arbitrato-rituale.md": {
+     "sha256": "f2451238b235e0291ecd66991aeab5df70eabb6c23f494b3c013ef9e2199783a",
+     "byte": 4085,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/194-clausola-compromissoria-per-arbitrato-irrituale.md": {
+     "sha256": "fb703130a8e66501e025236e777f22ec60468a0a11d0dcc7a3fbe16c9baac328",
+     "byte": 4016,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/195-nomina-di-arbitri-previsti-dalla-convenzione-di-arbitrato.md": {
+     "sha256": "8cd02154889b10bb12ab569903c58987e6e27d68ca4f7d1d80ec166b18e6db95",
+     "byte": 4127,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/196-risposta-della-controparte-alla-nomina-degli-arbitri.md": {
+     "sha256": "ecc0fff889e9e2373a28b503e28692703afad33590b6ecdc1aad7e11c5c554cf",
+     "byte": 4662,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/197-ricorso-al-tribunale-per-la-nomina-di-arbitri.md": {
+     "sha256": "2d2450662f6bed483770c095e6a40e580cd94bc33d3f14aa65bbe81b8448cef2",
+     "byte": 5678,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/198-istruzione-probatoria.md": {
+     "sha256": "acf03625d6d4066512b24fe59b7b611fcce2265135f1a4b38988202c552767b1",
+     "byte": 4357,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/199-lodo-arbitrale.md": {
+     "sha256": "1b0e30a02fb641bb12f0ce2dee738477674fd9dbea1b8ee391b186fb016256f0",
+     "byte": 5250,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/200-deposito-del-lodo.md": {
+     "sha256": "31b393d020fc4353cdf95442e16f45969d5e5f423dfe763bb0dd42f29b554df2",
+     "byte": 4496,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/201-impugnazione-del-lodo-per-nullita.md": {
+     "sha256": "7b20012301e605db6f65cdcb68e4dab91045dd13712dac23ee2a15d0e717912a",
+     "byte": 5984,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/202-istanza-congiunta-di-trasferimento-dei-procedimenti-giudiziari-in-sede.md": {
+     "sha256": "e3d80e087553a69d9cd089d3ee526208ee19ec73a5f1ba57630ad8aad81c5b4c",
+     "byte": 5348,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/203-ordinanza-di-trasmissione-del-fascicolo-al-presidente-del-cdo-per-la-n.md": {
+     "sha256": "7ef8d5250dbf80060b3afb44387c6c528bfeb5f815f70245d23352f3d5915c60",
+     "byte": 4738,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/204-dichiarazione-di-disponibilita-dellavvocato-al-cdo-per-essere-nominato.md": {
+     "sha256": "c7d5decaa5d29c1fd4c7aedacf94e45248302c5e344fd2554f1fba5b1fadbb5b",
+     "byte": 4034,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/205-riassunzione-del-processo-di-appello-per-scadenza-dei-termini-di-concl.md": {
+     "sha256": "b007a9c1be0fd0e3b23bf5583549d983fd44e50dfe1f925148100d5cf63a2346",
+     "byte": 6124,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/civile/206-riassunzione-del-processo-di-appello-per-nullita-del-lodo-arbitrale-em.md": {
+     "sha256": "41100073a80f3b5d43a1901becaff6c1bbb0480c4b8026eb934b9f07949141cd",
+     "byte": 6008,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/formule-obsolete.json": {
+     "sha256": "d089166d05a66811a64e12a32359074155b6a277e39a372a074d9aba40075708",
+     "byte": 5741,
+     "proprietario": "seme"
+    },
+    "wiki-studio/modelli/modelli.meta.json": {
+     "sha256": "4ae30672b4deb7fe15dbbce7fc3fe35aee9a306eb25c7427f6e14311fd694d4d",
+     "byte": 128477,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/norme-citate.json": {
+     "sha256": "688f43a2230773a6ee8518384c75c6d633fa9a29cc31b282cee421bc2bec3428",
+     "byte": 28688,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/requisiti-per-tipo.json": {
+     "sha256": "788976e3df6f747994a861d97bf0b6f1408271f2c6744c639973e2e4f99a5ca1",
+     "byte": 12352,
+     "proprietario": "seme"
+    }
+   }
+  },
+  "successioni": {
+   "file": {
+    "skills/assistente-successioni/references/changelog-normativo.md": {
+     "sha256": "e8e4e701e21f158cbf4043128e15440d1d99dc5ad80195112d3398c44314d921",
+     "byte": 30857,
+     "proprietario": "action"
+    },
+    "skills/assistente-successioni/references/uffici-competenza-successioni.json": {
+     "sha256": "2bd8d481e81c3be6e17a9c68d12895713a851c38ab07a901db48cc2f63601518",
+     "byte": 27385,
+     "proprietario": "action"
+    }
+   }
+  }
+ }
+}

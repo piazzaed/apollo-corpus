@@ -1,0 +1,116 @@
+{
+ "_meta": {
+  "descrizione": "Formule e diciture superate da riforme: lint_atto.py le cerca nel documento finale, sentinella_modelli.py nel catalogo dei modelli (solo nel fac-simile). Ogni voce porta la norma che l'ha superata e la data da cui vale.",
+  "aggiornato_il": "2026-09-23",
+  "fonte": "testo vigente dal corpus locale (normattiva AKN, snapshot 2026-09-18), letto voce per voce con scripts/norma.py; per il fax anche il testo storico dell'art. 125 c.p.c. (storico.py, versione 2023-12-27/2024-03-02)",
+  "schema": "voci[]: id, regex (Python, case-insensitive), norma, dal (AAAA-MM-GG), sostituire_con, gravita 🔴|🟡, si_applica_a [giudiziario|lettera|documento]",
+  "nota": "23/09/2026 (sentinella modelli): tolta la voce «venti-giorni-prima» — falso positivo sugli atti d'appello, dove l'art. 347 co. 1 c.p.c. vigente fa costituire l'appellato «almeno venti giorni prima dell'udienza»; per la citazione di primo grado il termine di settanta giorni lo controlla il requisito 163-n7-settanta di requisiti-per-tipo.json. Le regex accettano l'apostrofo tipografico (’) del formulario. «deposito-in-cancelleria-cartaceo» colpisce solo il deposito di atti e documenti di parte: il c.p.c. usa ancora «depositata in cancelleria» per somme, offerte e cauzioni (artt. 495, 571)."
+ },
+ "voci": [
+  {
+   "id": "formula-esecutiva",
+   "regex": "(?:munit[oa]|spedit[oa]|rilasciat[oa])\\s+(?:in|della|di)\\s+(?:forma|formula)\\s+esecutiva|formula\\s+esecutiva|\\bin\\s+forma\\s+esecutiva",
+   "norma": "art. 475 c.p.c. (D.Lgs. 149/2022, art. 3 co. 34; D.Lgs. 164/2024 art. 7 co. 4)",
+   "dal": "2023-03-01",
+   "sostituire_con": "titolo «rilasciato in copia attestata conforme all'originale (o in duplicato informatico)» ex art. 475 c.p.c.",
+   "gravita": "🔴",
+   "si_applica_a": [
+    "giudiziario",
+    "lettera",
+    "documento"
+   ]
+  },
+  {
+   "id": "invito-costituirsi-generico",
+   "regex": "costituirsi\\s+nei\\s+termini\\s+di\\s+legge(?!\\s+fissati\\s+dal\\s+giudice)",
+   "norma": "art. 163, co. 3, n. 7 c.p.c.",
+   "dal": "2023-03-01",
+   "sostituire_con": "invito a costituirsi «nel termine di settanta giorni prima dell'udienza indicata ai sensi e nelle forme stabilite dall'articolo 166» e a comparire «dinanzi al giudice designato ai sensi dell'articolo 168-bis»",
+   "gravita": "🔴",
+   "si_applica_a": [
+    "giudiziario"
+   ]
+  },
+  {
+   "id": "ricorso-702-bis",
+   "regex": "702[- ]?bis",
+   "norma": "art. 281-decies ss. c.p.c. (artt. 702-bis ss. abrogati dal D.Lgs. 149/2022, come mod. dalla L. 197/2022)",
+   "dal": "2023-03-01",
+   "sostituire_con": "procedimento semplificato di cognizione ex art. 281-decies ss. c.p.c. (salvo procedimenti pendenti al 28/02/2023)",
+   "gravita": "🔴",
+   "si_applica_a": [
+    "giudiziario"
+   ]
+  },
+  {
+   "id": "procedimento-sommario-cognizione",
+   "regex": "(?:procediment\\w+|rito|giudizi\\w*)\\s+sommari\\w*\\s+di\\s+cognizione",
+   "norma": "artt. 702-bis ss. c.p.c. abrogati dal D.Lgs. 149/2022 (come mod. dalla L. 197/2022); art. 281-decies ss. c.p.c.",
+   "dal": "2023-03-01",
+   "sostituire_con": "procedimento semplificato di cognizione (art. 281-decies ss. c.p.c.)",
+   "gravita": "🔴",
+   "si_applica_a": [
+    "giudiziario"
+   ]
+  },
+  {
+   "id": "memorie-183-sesto-comma",
+   "regex": "183,?\\s*(?:comma|co\\.)\\s*6\\b|183,?\\s*sesto\\s+comma|183,?\\s*6°\\s*comma",
+   "norma": "art. 171-ter c.p.c. (memorie integrative; le memorie dell'art. 183 co. 6 appartengono al rito previgente, D.Lgs. 149/2022)",
+   "dal": "2023-03-01",
+   "sostituire_con": "memorie integrative ex art. 171-ter c.p.c. (salvo procedimenti pendenti al 28/02/2023)",
+   "gravita": "🔴",
+   "si_applica_a": [
+    "giudiziario"
+   ]
+  },
+  {
+   "id": "deposito-in-cancelleria-cartaceo",
+   "regex": "(?:mediante|con\\s+il|a\\s+mezzo\\s+(?:del\\s+)?)\\s*deposito\\s+in\\s+cancelleria(?!\\s+telematic)|\\b(?:depositano|producono|offrono|allegano)\\b[^.;\\n]{0,40}?\\bin\\s+cancelleria(?!\\s+telematic)",
+   "norma": "art. 196-quater disp. att. c.p.c. (deposito telematico obbligatorio)",
+   "dal": "2023-03-01",
+   "sostituire_con": "deposito telematico",
+   "gravita": "🟡",
+   "si_applica_a": [
+    "giudiziario"
+   ]
+  },
+  {
+   "id": "fax-difensore",
+   "regex": "\\b(?:n\\.|numero)\\s*(?:di\\s+)?(?:tele)?fax\\b|\\b(?:tele)?fax\\s*(?:n\\.\\s*)?(?:[.…_]{3,}|\\+?\\d[\\d \\/.-]{5,})",
+   "norma": "art. 125, co. 1, c.p.c. (periodo sul numero di fax del difensore soppresso dal D.Lgs. 164/2024) e art. 136 c.p.c. (comunicazioni via PEC)",
+   "dal": "2024-11-26",
+   "sostituire_con": "togliere il numero di fax: bastano codice fiscale e PEC del difensore (domicilio digitale)",
+   "gravita": "🟡",
+   "si_applica_a": [
+    "giudiziario"
+   ]
+  },
+  {
+   "id": "tariffe-diritti-onorari",
+   "regex": "tariff[ae]\\s+(?:professional|forens)\\w*|diritti\\s+ed?\\s+onorari",
+   "norma": "art. 9 D.L. 1/2012 (tariffe delle professioni regolamentate abrogate; compensi a parametri, D.M. 55/2014)",
+   "dal": "2012-01-24",
+   "sostituire_con": "«compensi» liquidati secondo i parametri del D.M. 55/2014",
+   "gravita": "🟡",
+   "si_applica_a": [
+    "giudiziario",
+    "lettera",
+    "documento"
+   ]
+  },
+  {
+   "id": "dlgs-368-2001-abrogato",
+   "regex": "d\\.?\\s?lgs\\.?\\s*(?:n\\.\\s*)?368\\s*/\\s*2001|decreto\\s+legislativo\\s+6\\s+settembre\\s+2001,?\\s*n\\.\\s*368",
+   "norma": "art. 55, co. 1, lett. b) D.Lgs. 81/2015 (D.Lgs. 368/2001 abrogato, salvo il co. 2 per i rapporti anteriori)",
+   "dal": "2015-06-25",
+   "sostituire_con": "artt. 19 ss. D.Lgs. 81/2015 (contratto a tempo determinato), salvo contratti soggetti al regime transitorio",
+   "gravita": "🟡",
+   "si_applica_a": [
+    "giudiziario",
+    "lettera",
+    "documento"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5888 @@
+{
+  "_meta": {
+    "descrizione": "Indice di selezione dei modelli d'atto (LOCAL-FIRST). Letto in F1 del collegio-redazione PRIMA della ricerca web/One Legale.",
+    "fonte": "Catalogo dei modelli d'atto (testi di febbraio 2026)",
+    "data_import": "2026-07-04",
+    "totale_modelli": 206,
+    "nota_uso": "Match per materia/tipo/keywords -> proponi 1-3 schede -> gate freschezza (freshness.py --modelli) -> se fresco usa come scaffold e adatta al foro; se manca/scaduto -> web/One Legale on-demand."
+  },
+  "modelli": [
+    {
+      "id": "001",
+      "numero": 1,
+      "titolo": "Informativa al cliente e trattamento dei dati personali (redatta dal C.N.F.)",
+      "tipo_atto": "informativa",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "attivita'",
+        "cliente",
+        "dati",
+        "informativa",
+        "personali",
+        "redatta",
+        "trattamento"
+      ],
+      "file": "wiki-studio/modelli/civile/001-informativa-al-cliente-e-trattamento-dei-dati-personali-redatta-dal-cn.md"
+    },
+    {
+      "id": "002",
+      "numero": 2,
+      "titolo": "Informativa al cliente sulla mediazione",
+      "tipo_atto": "informativa",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 179/2007",
+        "d.lgs. 385/1993"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "attivita'",
+        "cliente",
+        "informativa",
+        "mediazione",
+        "sulla"
+      ],
+      "file": "wiki-studio/modelli/civile/002-informativa-al-cliente-sulla-mediazione.md"
+    },
+    {
+      "id": "003",
+      "numero": 3,
+      "titolo": "Procura alle liti",
+      "tipo_atto": "procura",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "d.lgs. 196/2003",
+        "d.lgs. 28/2010",
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "d.lgs. n. 196/2003"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "alle",
+        "attivita'",
+        "liti",
+        "procura"
+      ],
+      "file": "wiki-studio/modelli/civile/003-procura-alle-liti.md"
+    },
+    {
+      "id": "004",
+      "numero": 4,
+      "titolo": "Revoca della procura",
+      "tipo_atto": "procura",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 85 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "attivita'",
+        "della",
+        "procura",
+        "revoca"
+      ],
+      "file": "wiki-studio/modelli/civile/004-revoca-della-procura.md"
+    },
+    {
+      "id": "005",
+      "numero": 5,
+      "titolo": "Rinuncia alla procura",
+      "tipo_atto": "procura",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 85 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "alla",
+        "attivita'",
+        "procura",
+        "rinuncia"
+      ],
+      "file": "wiki-studio/modelli/civile/005-rinuncia-alla-procura.md"
+    },
+    {
+      "id": "006",
+      "numero": 6,
+      "titolo": "Parcella",
+      "tipo_atto": "atto",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.m. 55/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "parametri_forensi"
+      ],
+      "volatilita": "alta",
+      "keywords": [
+        "attivita'",
+        "atto",
+        "parcella"
+      ],
+      "file": "wiki-studio/modelli/civile/006-parcella.md"
+    },
+    {
+      "id": "007",
+      "numero": 7,
+      "titolo": "Istanza di ammissione al gratuito patrocinio",
+      "tipo_atto": "istanza",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "ammissione",
+        "attivita'",
+        "gratuito",
+        "istanza",
+        "patrocinio"
+      ],
+      "file": "wiki-studio/modelli/civile/007-istanza-di-ammissione-al-gratuito-patrocinio.md"
+    },
+    {
+      "id": "008",
+      "numero": 8,
+      "titolo": "Dichiarazione da allegare all’istanza di patrocinio",
+      "tipo_atto": "istanza",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "allegare",
+        "attivita'",
+        "dichiarazione",
+        "istanza",
+        "patrocinio"
+      ],
+      "file": "wiki-studio/modelli/civile/008-dichiarazione-da-allegare-allistanza-di-patrocinio.md"
+    },
+    {
+      "id": "009",
+      "numero": 9,
+      "titolo": "Opposizione a decreto di liquidazione onorario di gratuito patrocinio",
+      "tipo_atto": "atto di opposizione",
+      "rito": "n/a",
+      "fase": "rapporto col cliente",
+      "materia": "attivita' preliminare / patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 163 c.p.c.",
+        "d.lgs. 150/2011",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "attivita'",
+        "atto",
+        "decreto",
+        "gratuito",
+        "liquidazione",
+        "onorario",
+        "opposizione",
+        "patrocinio"
+      ],
+      "file": "wiki-studio/modelli/civile/009-opposizione-a-decreto-di-liquidazione-onorario-di-gratuito-patrocinio.md"
+    },
+    {
+      "id": "010",
+      "numero": 10,
+      "titolo": "Appello contro il decreto di diniego del patrocinio",
+      "tipo_atto": "atto di appello",
+      "rito": "impugnazione",
+      "fase": "patrocinio a spese dello Stato",
+      "materia": "gratuito patrocinio",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 325 c.p.c.",
+        "art. 83 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "contro",
+        "decreto",
+        "diniego",
+        "gratuito",
+        "patrocinio"
+      ],
+      "file": "wiki-studio/modelli/civile/010-appello-contro-il-decreto-di-diniego-del-patrocinio.md"
+    },
+    {
+      "id": "011",
+      "numero": 11,
+      "titolo": "Ricorso per Cassazione contro il decreto in appello di diniego del patrocinio",
+      "tipo_atto": "ricorso per cassazione",
+      "rito": "impugnazione",
+      "fase": "patrocinio a spese dello Stato",
+      "materia": "gratuito patrocinio",
+      "competenza_orientativa": "Corte di Cassazione",
+      "norme_chiave": [
+        "art. 325 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "cassazione",
+        "contro",
+        "decreto",
+        "diniego",
+        "gratuito",
+        "patrocinio",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/011-ricorso-per-cassazione-contro-il-decreto-in-appello-di-diniego-del-pat.md"
+    },
+    {
+      "id": "012",
+      "numero": 12,
+      "titolo": "Istanza di mediazione",
+      "tipo_atto": "istanza",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "istanza",
+        "mediazione"
+      ],
+      "file": "wiki-studio/modelli/civile/012-istanza-di-mediazione.md"
+    },
+    {
+      "id": "013",
+      "numero": 13,
+      "titolo": "Atto notorio per l’ammissione al patrocinio a spese dello Stato per il procedimento di mediazione",
+      "tipo_atto": "atto",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "D.P.R. 445/2000",
+        "D.p.r. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "ammissione",
+        "atto",
+        "dello",
+        "mediazione",
+        "notorio",
+        "patrocinio",
+        "procedimento",
+        "spese",
+        "stato"
+      ],
+      "file": "wiki-studio/modelli/civile/013-atto-notorio-per-lammissione-al-patrocinio-a-spese-dello-stato-per-il.md"
+    },
+    {
+      "id": "014",
+      "numero": 14,
+      "titolo": "Istanza di mediazione a firma congiunta delle parti",
+      "tipo_atto": "istanza",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 196/2003"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "congiunta",
+        "delle",
+        "firma",
+        "istanza",
+        "mediazione",
+        "parti"
+      ],
+      "file": "wiki-studio/modelli/civile/014-istanza-di-mediazione-a-firma-congiunta-delle-parti.md"
+    },
+    {
+      "id": "015",
+      "numero": 15,
+      "titolo": "Adesione della parte invitata",
+      "tipo_atto": "adesione",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 196/2003"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adesione",
+        "della",
+        "invitata",
+        "mediazione",
+        "parte"
+      ],
+      "file": "wiki-studio/modelli/civile/015-adesione-della-parte-invitata.md"
+    },
+    {
+      "id": "016",
+      "numero": 16,
+      "titolo": "Adesione con domanda riconvenzionale",
+      "tipo_atto": "adesione",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 196/2003"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adesione",
+        "domanda",
+        "mediazione",
+        "riconvenzionale"
+      ],
+      "file": "wiki-studio/modelli/civile/016-adesione-con-domanda-riconvenzionale.md"
+    },
+    {
+      "id": "017",
+      "numero": 17,
+      "titolo": "Mediazione demandata dal giudice perché obbligatoria",
+      "tipo_atto": "atto",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "demandata",
+        "giudice",
+        "mediazione",
+        "obbligatoria",
+        "perché"
+      ],
+      "file": "wiki-studio/modelli/civile/017-mediazione-demandata-dal-giudice-perche-obbligatoria.md"
+    },
+    {
+      "id": "018",
+      "numero": 18,
+      "titolo": "Mediazione delegata dal giudice vista la natura della causa",
+      "tipo_atto": "atto",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "causa",
+        "delegata",
+        "della",
+        "giudice",
+        "mediazione",
+        "natura",
+        "vista"
+      ],
+      "file": "wiki-studio/modelli/civile/018-mediazione-delegata-dal-giudice-vista-la-natura-della-causa.md"
+    },
+    {
+      "id": "019",
+      "numero": 19,
+      "titolo": "Fissazione di termine per completare la procedura di mediazione già proposta",
+      "tipo_atto": "atto",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.l. 69/2013",
+        "legge 98/2013"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "completare",
+        "fissazione",
+        "mediazione",
+        "procedura",
+        "proposta",
+        "termine"
+      ],
+      "file": "wiki-studio/modelli/civile/019-fissazione-di-termine-per-completare-la-procedura-di-mediazione-gia-pr.md"
+    },
+    {
+      "id": "020",
+      "numero": 20,
+      "titolo": "Istanza di mediazione demandata dal giudice",
+      "tipo_atto": "istanza",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 196/2003"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "demandata",
+        "giudice",
+        "istanza",
+        "mediazione"
+      ],
+      "file": "wiki-studio/modelli/civile/020-istanza-di-mediazione-demandata-dal-giudice.md"
+    },
+    {
+      "id": "021",
+      "numero": 21,
+      "titolo": "Ordinanza di integrazione del contraddittorio in mediazione",
+      "tipo_atto": "ordinanza",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "contraddittorio",
+        "integrazione",
+        "mediazione",
+        "ordinanza"
+      ],
+      "file": "wiki-studio/modelli/civile/021-ordinanza-di-integrazione-del-contraddittorio-in-mediazione.md"
+    },
+    {
+      "id": "022",
+      "numero": 22,
+      "titolo": "Designazione del mediatore e fissazione dell’incontro",
+      "tipo_atto": "atto",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 116 c.p.c.",
+        "d.lgs. 28/2010",
+        "d.lgs. 149/2022",
+        "d.lgs. 216/2024"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "dell",
+        "designazione",
+        "fissazione",
+        "incontro",
+        "mediatore",
+        "mediazione"
+      ],
+      "file": "wiki-studio/modelli/civile/022-designazione-del-mediatore-e-fissazione-dellincontro.md"
+    },
+    {
+      "id": "023",
+      "numero": 23,
+      "titolo": "Esperimento della procedura di mediazione nel procedimento di opposizione a D.I.",
+      "tipo_atto": "atto di opposizione",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "della",
+        "esperimento",
+        "mediazione",
+        "opposizione",
+        "procedimento",
+        "procedura"
+      ],
+      "file": "wiki-studio/modelli/civile/023-esperimento-della-procedura-di-mediazione-nel-procedimento-di-opposizi.md"
+    },
+    {
+      "id": "024",
+      "numero": 24,
+      "titolo": "Verbale di mediazione in materia condominiale",
+      "tipo_atto": "verbale",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "condominiale",
+        "materia",
+        "mediazione",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/024-verbale-di-mediazione-in-materia-condominiale.md"
+    },
+    {
+      "id": "025",
+      "numero": 25,
+      "titolo": "Verbale di mediazione obbligatoria, facente seguito a clausola di mediazione",
+      "tipo_atto": "verbale",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "clausola",
+        "facente",
+        "mediazione",
+        "obbligatoria",
+        "seguito",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/025-verbale-di-mediazione-obbligatoria-facente-seguito-a-clausola-di-media.md"
+    },
+    {
+      "id": "026",
+      "numero": 26,
+      "titolo": "Verbale di mancata comparizione",
+      "tipo_atto": "verbale",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "comparizione",
+        "mancata",
+        "mediazione",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/026-verbale-di-mancata-comparizione.md"
+    },
+    {
+      "id": "027",
+      "numero": 27,
+      "titolo": "Verbale di accordo",
+      "tipo_atto": "verbale",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 149/2022",
+        "d.m. 180/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accordo",
+        "mediazione",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/027-verbale-di-accordo.md"
+    },
+    {
+      "id": "028",
+      "numero": 28,
+      "titolo": "Verbale negativo di mancato accordo",
+      "tipo_atto": "verbale",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accordo",
+        "mancato",
+        "mediazione",
+        "negativo",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/028-verbale-negativo-di-mancato-accordo.md"
+    },
+    {
+      "id": "029",
+      "numero": 29,
+      "titolo": "Verbale di mediazione con proposta di conciliazione del mediatore e rinvio per la definizione",
+      "tipo_atto": "verbale",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "conciliazione",
+        "definizione",
+        "mediatore",
+        "mediazione",
+        "proposta",
+        "rinvio",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/029-verbale-di-mediazione-con-proposta-di-conciliazione-del-mediatore-e-ri.md"
+    },
+    {
+      "id": "030",
+      "numero": 30,
+      "titolo": "Accettazione o rifiuto della proposta",
+      "tipo_atto": "atto",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accettazione",
+        "atto",
+        "della",
+        "mediazione",
+        "proposta",
+        "rifiuto"
+      ],
+      "file": "wiki-studio/modelli/civile/030-accettazione-o-rifiuto-della-proposta.md"
+    },
+    {
+      "id": "031",
+      "numero": 31,
+      "titolo": "Verbale di riconoscimento di usucapione",
+      "tipo_atto": "verbale",
+      "rito": "mediazione",
+      "fase": "condizioni di procedibilita'",
+      "materia": "mediazione (D.Lgs. 28/2010)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.lgs. 28/2010",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "mediazione",
+        "riconoscimento",
+        "usucapione",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/031-verbale-di-riconoscimento-di-usucapione.md"
+    },
+    {
+      "id": "032",
+      "numero": 32,
+      "titolo": "Atto di citazione",
+      "tipo_atto": "atto di citazione",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 163 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 230 c.p.c.",
+        "d.m. 110/2023",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "citazione",
+        "cognizione"
+      ],
+      "file": "wiki-studio/modelli/civile/032-atto-di-citazione.md"
+    },
+    {
+      "id": "033",
+      "numero": 33,
+      "titolo": "Abbreviazione dei termini di comparizione",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 163-bis c.p.c.",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "abbreviazione",
+        "atto",
+        "cognizione",
+        "comparizione",
+        "termini"
+      ],
+      "file": "wiki-studio/modelli/civile/033-abbreviazione-dei-termini-di-comparizione.md"
+    },
+    {
+      "id": "034",
+      "numero": 34,
+      "titolo": "Relazione di notificazione: 1) cartacea; 2) telematica",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "l. 53/1994",
+        "legge 53/1994"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cartacea",
+        "cognizione",
+        "notificazione",
+        "relazione",
+        "telematica"
+      ],
+      "file": "wiki-studio/modelli/civile/034-relazione-di-notificazione-1-cartacea-2-telematica.md"
+    },
+    {
+      "id": "035",
+      "numero": 35,
+      "titolo": "Iscrizione a ruolo – Tabelle del cu",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 473-bis.51 c.p.c.",
+        "art. 492-bis c.p.c.",
+        "d.P.R. 115/2002",
+        "d.lgs. 195/2005",
+        "d.lgs. 104/2010",
+        "D.LGS. 168/2003"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "parametri_forensi"
+      ],
+      "volatilita": "alta",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "iscrizione",
+        "ruolo",
+        "tabelle"
+      ],
+      "file": "wiki-studio/modelli/civile/035-iscrizione-a-ruolo-tabelle-del-cu.md"
+    },
+    {
+      "id": "036",
+      "numero": 36,
+      "titolo": "Litisconsorzio necessario",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 102 c.p.c.",
+        "art. 784 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "litisconsorzio",
+        "necessario"
+      ],
+      "file": "wiki-studio/modelli/civile/036-litisconsorzio-necessario.md"
+    },
+    {
+      "id": "037",
+      "numero": 37,
+      "titolo": "Intervento volontario",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 105 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "intervento",
+        "volontario"
+      ],
+      "file": "wiki-studio/modelli/civile/037-intervento-volontario.md"
+    },
+    {
+      "id": "038",
+      "numero": 38,
+      "titolo": "Estromissione del garantito",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 108 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "estromissione",
+        "garantito"
+      ],
+      "file": "wiki-studio/modelli/civile/038-estromissione-del-garantito.md"
+    },
+    {
+      "id": "039",
+      "numero": 39,
+      "titolo": "Successione nel processo",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 110 c.p.c.",
+        "art. 581 c.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "processo",
+        "successione"
+      ],
+      "file": "wiki-studio/modelli/civile/039-successione-nel-processo.md"
+    },
+    {
+      "id": "040",
+      "numero": 40,
+      "titolo": "Anticipazione dell’udienza di comparizione",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 163-bis c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "anticipazione",
+        "atto",
+        "cognizione",
+        "comparizione",
+        "dell",
+        "udienza"
+      ],
+      "file": "wiki-studio/modelli/civile/040-anticipazione-delludienza-di-comparizione.md"
+    },
+    {
+      "id": "041",
+      "numero": 41,
+      "titolo": "Nullità della citazione",
+      "tipo_atto": "atto di citazione",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 164 c.p.c.",
+        "art. 163 c.p.c.",
+        "legge 353/1990"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "citazione",
+        "cognizione",
+        "della",
+        "nullità"
+      ],
+      "file": "wiki-studio/modelli/civile/041-nullita-della-citazione.md"
+    },
+    {
+      "id": "042",
+      "numero": 42,
+      "titolo": "Comparsa di costituzione e risposta",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 167 c.p.c.",
+        "art. 83 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comparsa",
+        "costituzione",
+        "risposta"
+      ],
+      "file": "wiki-studio/modelli/civile/042-comparsa-di-costituzione-e-risposta.md"
+    },
+    {
+      "id": "043",
+      "numero": 43,
+      "titolo": "Comparsa di costituzione e risposta con domanda riconvenzionale",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 167 c.p.c.",
+        "art. 83 c.p.c.",
+        "d.lgs. 28/2010",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comparsa",
+        "costituzione",
+        "domanda",
+        "riconvenzionale",
+        "risposta"
+      ],
+      "file": "wiki-studio/modelli/civile/043-comparsa-di-costituzione-e-risposta-con-domanda-riconvenzionale.md"
+    },
+    {
+      "id": "044",
+      "numero": 44,
+      "titolo": "Comparsa di costituzione e risposta con eccezione di incompetenza per territorio",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 38 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 18 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comparsa",
+        "costituzione",
+        "eccezione",
+        "incompetenza",
+        "risposta",
+        "territorio"
+      ],
+      "file": "wiki-studio/modelli/civile/044-comparsa-di-costituzione-e-risposta-con-eccezione-di-incompetenza-per.md"
+    },
+    {
+      "id": "045",
+      "numero": 45,
+      "titolo": "Comparsa di costituzione e risposta con eccezione di incompetenza per materia",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 38 c.p.c.",
+        "art. 83 c.p.c.",
+        "d.l. 1/2012",
+        "legge 27/2012"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comparsa",
+        "costituzione",
+        "eccezione",
+        "incompetenza",
+        "materia",
+        "risposta"
+      ],
+      "file": "wiki-studio/modelli/civile/045-comparsa-di-costituzione-e-risposta-con-eccezione-di-incompetenza-per.md"
+    },
+    {
+      "id": "046",
+      "numero": 46,
+      "titolo": "Comparsa di costituzione e risposta con eccezione di litispendenza",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 39 c.p.c.",
+        "art. 83 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comparsa",
+        "costituzione",
+        "eccezione",
+        "litispendenza",
+        "risposta"
+      ],
+      "file": "wiki-studio/modelli/civile/046-comparsa-di-costituzione-e-risposta-con-eccezione-di-litispendenza.md"
+    },
+    {
+      "id": "047",
+      "numero": 47,
+      "titolo": "Comparsa di costituzione con richiesta di riunione per connessione",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 40 c.p.c.",
+        "art. 83 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comparsa",
+        "connessione",
+        "costituzione",
+        "richiesta",
+        "riunione"
+      ],
+      "file": "wiki-studio/modelli/civile/047-comparsa-di-costituzione-con-richiesta-di-riunione-per-connessione.md"
+    },
+    {
+      "id": "048",
+      "numero": 48,
+      "titolo": "Comparsa di costituzione con chiamata in garanzia",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 269 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 171-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "chiamata",
+        "cognizione",
+        "comparsa",
+        "costituzione",
+        "garanzia"
+      ],
+      "file": "wiki-studio/modelli/civile/048-comparsa-di-costituzione-con-chiamata-in-garanzia.md"
+    },
+    {
+      "id": "049",
+      "numero": 49,
+      "titolo": "Comparsa di costituzione con chiamata in causa di terzo",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 269 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 183 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "causa",
+        "chiamata",
+        "cognizione",
+        "comparsa",
+        "costituzione",
+        "terzo"
+      ],
+      "file": "wiki-studio/modelli/civile/049-comparsa-di-costituzione-con-chiamata-in-causa-di-terzo.md"
+    },
+    {
+      "id": "050",
+      "numero": 50,
+      "titolo": "Atto di citazione di chiamata in causa di terzo",
+      "tipo_atto": "atto di citazione",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 269 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 176 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "causa",
+        "chiamata",
+        "citazione",
+        "cognizione",
+        "terzo"
+      ],
+      "file": "wiki-studio/modelli/civile/050-atto-di-citazione-di-chiamata-in-causa-di-terzo.md"
+    },
+    {
+      "id": "051",
+      "numero": 51,
+      "titolo": "Prima udienza di comparizione",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 183 c.p.c.",
+        "art. 171-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "comparizione",
+        "prima",
+        "udienza"
+      ],
+      "file": "wiki-studio/modelli/civile/051-prima-udienza-di-comparizione.md"
+    },
+    {
+      "id": "052a",
+      "numero": 52,
+      "titolo": "Memorie integrative ex art. 171-ter, comma 1, n. 1), c.p.c. (1° termine)",
+      "tipo_atto": "memoria",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 171-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comma",
+        "integrative",
+        "memoria",
+        "memorie",
+        "termine"
+      ],
+      "file": "wiki-studio/modelli/civile/052a-memorie-integrative-ex-art-171-ter-comma-1-n-1-cpc-1-termine.md"
+    },
+    {
+      "id": "052b",
+      "numero": 52,
+      "titolo": "Memorie integrative di replica e note istruttorie ex art. 171-ter, comma 1, n. 2, c.p.c. (2° termine)",
+      "tipo_atto": "memoria",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 171-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comma",
+        "integrative",
+        "istruttorie",
+        "memoria",
+        "memorie",
+        "note",
+        "replica",
+        "termine"
+      ],
+      "file": "wiki-studio/modelli/civile/052b-memorie-integrative-di-replica-e-note-istruttorie-ex-art-171-ter-comma.md"
+    },
+    {
+      "id": "054",
+      "numero": 54,
+      "titolo": "Ordinanza di accoglimento della domanda su diritti disponibili delle parti",
+      "tipo_atto": "ordinanza",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 183-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accoglimento",
+        "cognizione",
+        "della",
+        "delle",
+        "diritti",
+        "disponibili",
+        "domanda",
+        "ordinanza",
+        "parti"
+      ],
+      "file": "wiki-studio/modelli/civile/054-ordinanza-di-accoglimento-della-domanda-su-diritti-disponibili-delle-p.md"
+    },
+    {
+      "id": "055",
+      "numero": 55,
+      "titolo": "Ordinanza per il pagamento di somme non contestate",
+      "tipo_atto": "ordinanza",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 186-bis c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "contestate",
+        "ordinanza",
+        "pagamento",
+        "somme"
+      ],
+      "file": "wiki-studio/modelli/civile/055-ordinanza-per-il-pagamento-di-somme-non-contestate.md"
+    },
+    {
+      "id": "056",
+      "numero": 56,
+      "titolo": "Ordinanza ingiunzione di pagamento",
+      "tipo_atto": "ordinanza",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 186-ter c.p.c.",
+        "art. 642 c.p.c.",
+        "art. 186-quater c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "ingiunzione",
+        "ordinanza",
+        "pagamento"
+      ],
+      "file": "wiki-studio/modelli/civile/056-ordinanza-ingiunzione-di-pagamento.md"
+    },
+    {
+      "id": "057",
+      "numero": 57,
+      "titolo": "Dichiarazione testimoniale scritta",
+      "tipo_atto": "dichiarazione",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 257-bis c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "dichiarazione",
+        "scritta",
+        "testimoniale"
+      ],
+      "file": "wiki-studio/modelli/civile/057-dichiarazione-testimoniale-scritta.md"
+    },
+    {
+      "id": "058",
+      "numero": 58,
+      "titolo": "Deferimento di giuramento decisorio",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 233 c.p.c.",
+        "art. 171-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "decisorio",
+        "deferimento",
+        "giuramento"
+      ],
+      "file": "wiki-studio/modelli/civile/058-deferimento-di-giuramento-decisorio.md"
+    },
+    {
+      "id": "059",
+      "numero": 59,
+      "titolo": "Deferimento di giuramento suppletorio",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 240 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "deferimento",
+        "giuramento",
+        "suppletorio"
+      ],
+      "file": "wiki-studio/modelli/civile/059-deferimento-di-giuramento-suppletorio.md"
+    },
+    {
+      "id": "060",
+      "numero": 60,
+      "titolo": "Deferimento di interrogatorio formale",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 171-ter c.p.c.",
+        "art. 183 c.p.c.",
+        "l. 80/2005",
+        "l. 263/2005"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "deferimento",
+        "formale",
+        "interrogatorio"
+      ],
+      "file": "wiki-studio/modelli/civile/060-deferimento-di-interrogatorio-formale.md"
+    },
+    {
+      "id": "061",
+      "numero": 61,
+      "titolo": "Citazione di testimoni a mezzo ufficiale giudiziario",
+      "tipo_atto": "atto di citazione",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 250 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "citazione",
+        "cognizione",
+        "giudiziario",
+        "mezzo",
+        "testimoni",
+        "ufficiale"
+      ],
+      "file": "wiki-studio/modelli/civile/061-citazione-di-testimoni-a-mezzo-ufficiale-giudiziario.md"
+    },
+    {
+      "id": "062",
+      "numero": 62,
+      "titolo": "Citazione di testimoni a cura dell’avvocato",
+      "tipo_atto": "atto di citazione",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 250 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "avvocato",
+        "citazione",
+        "cognizione",
+        "cura",
+        "dell",
+        "testimoni"
+      ],
+      "file": "wiki-studio/modelli/civile/062-citazione-di-testimoni-a-cura-dellavvocato.md"
+    },
+    {
+      "id": "063",
+      "numero": 63,
+      "titolo": "Note scritte di precisazione delle conclusioni",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 189 c.p.c.",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "conclusioni",
+        "delle",
+        "note",
+        "precisazione",
+        "scritte"
+      ],
+      "file": "wiki-studio/modelli/civile/063-note-scritte-di-precisazione-delle-conclusioni.md"
+    },
+    {
+      "id": "064",
+      "numero": 64,
+      "titolo": "Comparsa conclusionale",
+      "tipo_atto": "comparsa conclusionale",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 189 c.p.c.",
+        "art. 183 c.p.c.",
+        "art. 116 c.p.c.",
+        "art. 232 c.p.c.",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "comparsa",
+        "conclusionale"
+      ],
+      "file": "wiki-studio/modelli/civile/064-comparsa-conclusionale.md"
+    },
+    {
+      "id": "065",
+      "numero": 65,
+      "titolo": "Memorie di replica",
+      "tipo_atto": "memoria",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 189 c.p.c.",
+        "art. 114 c.p.c.",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "memoria",
+        "memorie",
+        "replica"
+      ],
+      "file": "wiki-studio/modelli/civile/065-memorie-di-replica.md"
+    },
+    {
+      "id": "066",
+      "numero": 66,
+      "titolo": "Istanza di correzione di sentenze ed ordinanze",
+      "tipo_atto": "istanza",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 287 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "correzione",
+        "istanza",
+        "ordinanze",
+        "sentenze"
+      ],
+      "file": "wiki-studio/modelli/civile/066-istanza-di-correzione-di-sentenze-ed-ordinanze.md"
+    },
+    {
+      "id": "067",
+      "numero": 67,
+      "titolo": "Interruzione del processo per morte della parte o del difensore",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 300 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "della",
+        "difensore",
+        "interruzione",
+        "morte",
+        "parte",
+        "processo"
+      ],
+      "file": "wiki-studio/modelli/civile/067-interruzione-del-processo-per-morte-della-parte-o-del-difensore.md"
+    },
+    {
+      "id": "068",
+      "numero": 68,
+      "titolo": "Riassunzione del processo interrotto",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 303 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "interrotto",
+        "processo",
+        "riassunzione"
+      ],
+      "file": "wiki-studio/modelli/civile/068-riassunzione-del-processo-interrotto.md"
+    },
+    {
+      "id": "069",
+      "numero": 69,
+      "titolo": "Estinzione del processo per rinuncia o per inattività delle parti",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 306 c.p.c.",
+        "art. 181 c.p.c.",
+        "art. 309 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "delle",
+        "estinzione",
+        "inattività",
+        "parti",
+        "processo",
+        "rinuncia"
+      ],
+      "file": "wiki-studio/modelli/civile/069-estinzione-del-processo-per-rinuncia-o-per-inattivita-delle-parti.md"
+    },
+    {
+      "id": "070",
+      "numero": 70,
+      "titolo": "Riassunzione del processo",
+      "tipo_atto": "atto",
+      "rito": "ordinario di cognizione",
+      "fase": "cognizione di primo grado",
+      "materia": "cognizione ordinaria",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 307 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cognizione",
+        "processo",
+        "riassunzione"
+      ],
+      "file": "wiki-studio/modelli/civile/070-riassunzione-del-processo.md"
+    },
+    {
+      "id": "071",
+      "numero": 71,
+      "titolo": "Ricorso semplificato ex artt. 316 e 281-undecies c.p.c. innanzi al g.d.p.",
+      "tipo_atto": "ricorso",
+      "rito": "semplificato / davanti al g.d.p.",
+      "fase": "cognizione semplificata / giudice di pace",
+      "materia": "sinistri e valore ridotto",
+      "competenza_orientativa": "Giudice di pace / Tribunale (per valore)",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 281-undecies c.p.c.",
+        "art. 116 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "artt",
+        "innanzi",
+        "ricorso",
+        "semplificato",
+        "sinistri",
+        "undecies"
+      ],
+      "file": "wiki-studio/modelli/civile/071-ricorso-semplificato-ex-artt-316-e-281-undecies-cpc-innanzi-al-gdp.md"
+    },
+    {
+      "id": "072",
+      "numero": 72,
+      "titolo": "Ricorso semplificato per risarcimento danni a cose, da sinistro stradale",
+      "tipo_atto": "ricorso",
+      "rito": "semplificato / davanti al g.d.p.",
+      "fase": "cognizione semplificata / giudice di pace",
+      "materia": "sinistri e valore ridotto",
+      "competenza_orientativa": "Giudice di pace / Tribunale (per valore)",
+      "norme_chiave": [
+        "art. 281-undecies c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 183 c.p.c.",
+        "art. 319 c.p.c.",
+        "d.lgs. 209/2005",
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cose",
+        "danni",
+        "ricorso",
+        "risarcimento",
+        "semplificato",
+        "sinistri",
+        "sinistro",
+        "stradale"
+      ],
+      "file": "wiki-studio/modelli/civile/072-ricorso-semplificato-per-risarcimento-danni-a-cose-da-sinistro-stradal.md"
+    },
+    {
+      "id": "073",
+      "numero": 73,
+      "titolo": "Ricorso semplificato per risarcimento danni a persone, da sinistro stradale",
+      "tipo_atto": "ricorso",
+      "rito": "semplificato / davanti al g.d.p.",
+      "fase": "cognizione semplificata / giudice di pace",
+      "materia": "sinistri e valore ridotto",
+      "competenza_orientativa": "Giudice di pace / Tribunale (per valore)",
+      "norme_chiave": [
+        "art. 281-undecies c.p.c.",
+        "art. 83 c.p.c.",
+        "d.lgs. 209/2005",
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "danni",
+        "persone",
+        "ricorso",
+        "risarcimento",
+        "semplificato",
+        "sinistri",
+        "sinistro",
+        "stradale"
+      ],
+      "file": "wiki-studio/modelli/civile/073-ricorso-semplificato-per-risarcimento-danni-a-persone-da-sinistro-stra.md"
+    },
+    {
+      "id": "074",
+      "numero": 74,
+      "titolo": "Comparsa di costituzione e risposta",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "semplificato / davanti al g.d.p.",
+      "fase": "cognizione semplificata / giudice di pace",
+      "materia": "sinistri e valore ridotto",
+      "competenza_orientativa": "Giudice di pace / Tribunale (per valore)",
+      "norme_chiave": [
+        "art. 319 c.p.c.",
+        "art. 83 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "comparsa",
+        "costituzione",
+        "risposta",
+        "sinistri"
+      ],
+      "file": "wiki-studio/modelli/civile/074-comparsa-di-costituzione-e-risposta.md"
+    },
+    {
+      "id": "075",
+      "numero": 75,
+      "titolo": "Comparsa di costituzione e risposta con domanda riconvenzionale",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "semplificato / davanti al g.d.p.",
+      "fase": "cognizione semplificata / giudice di pace",
+      "materia": "sinistri e valore ridotto",
+      "competenza_orientativa": "Giudice di pace / Tribunale (per valore)",
+      "norme_chiave": [
+        "art. 319 c.p.c.",
+        "art. 83 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "comparsa",
+        "costituzione",
+        "domanda",
+        "riconvenzionale",
+        "risposta",
+        "sinistri"
+      ],
+      "file": "wiki-studio/modelli/civile/075-comparsa-di-costituzione-e-risposta-con-domanda-riconvenzionale.md"
+    },
+    {
+      "id": "076",
+      "numero": 76,
+      "titolo": "Note di trattazione scritta",
+      "tipo_atto": "atto",
+      "rito": "semplificato / davanti al g.d.p.",
+      "fase": "cognizione semplificata / giudice di pace",
+      "materia": "sinistri e valore ridotto",
+      "competenza_orientativa": "Giudice di pace / Tribunale (per valore)",
+      "norme_chiave": [
+        "art. 127-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "note",
+        "scritta",
+        "sinistri",
+        "trattazione"
+      ],
+      "file": "wiki-studio/modelli/civile/076-note-di-trattazione-scritta.md"
+    },
+    {
+      "id": "077",
+      "numero": 77,
+      "titolo": "Opposizione a verbale di accertamento per violazione del c.d.s.",
+      "tipo_atto": "atto di opposizione",
+      "rito": "opposizione (rito semplificato)",
+      "fase": "opposizioni ex D.Lgs. 150/2011",
+      "materia": "sanzioni amministrative (C.d.S.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "d.lgs. 150/2011",
+        "l. 120/2010",
+        "legge 689/1981",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accertamento",
+        "atto",
+        "opposizione",
+        "sanzioni",
+        "verbale",
+        "violazione"
+      ],
+      "file": "wiki-studio/modelli/civile/077-opposizione-a-verbale-di-accertamento-per-violazione-del-cds.md"
+    },
+    {
+      "id": "078",
+      "numero": 78,
+      "titolo": "Istanza per la sospensione dell’efficacia esecutiva o l’esecuzione della sentenza impugnata",
+      "tipo_atto": "istanza",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 283 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "dell",
+        "della",
+        "efficacia",
+        "esecutiva",
+        "esecuzione",
+        "impugnata",
+        "istanza",
+        "sentenza",
+        "sospensione"
+      ],
+      "file": "wiki-studio/modelli/civile/078-istanza-per-la-sospensione-dellefficacia-esecutiva-o-lesecuzione-della.md"
+    },
+    {
+      "id": "079",
+      "numero": 79,
+      "titolo": "Appello contro le sentenze del giudice di pace",
+      "tipo_atto": "atto di appello",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Tribunale (appello avverso sentenza g.d.p.)",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "contro",
+        "giudice",
+        "pace",
+        "sentenze"
+      ],
+      "file": "wiki-studio/modelli/civile/079-appello-contro-le-sentenze-del-giudice-di-pace.md"
+    },
+    {
+      "id": "080",
+      "numero": 80,
+      "titolo": "Appello contro le sentenze del tribunale",
+      "tipo_atto": "atto di appello",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 341 c.p.c.",
+        "art. 83 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "contro",
+        "sentenze",
+        "tribunale"
+      ],
+      "file": "wiki-studio/modelli/civile/080-appello-contro-le-sentenze-del-tribunale.md"
+    },
+    {
+      "id": "081",
+      "numero": 81,
+      "titolo": "Appello incidentale",
+      "tipo_atto": "atto di appello incidentale",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 343 c.p.c.",
+        "art. 83 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "incidentale"
+      ],
+      "file": "wiki-studio/modelli/civile/081-appello-incidentale.md"
+    },
+    {
+      "id": "082",
+      "numero": 82,
+      "titolo": "Costituzione in appello",
+      "tipo_atto": "atto di appello",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 347 c.p.c.",
+        "art. 83 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "costituzione"
+      ],
+      "file": "wiki-studio/modelli/civile/082-costituzione-in-appello.md"
+    },
+    {
+      "id": "083",
+      "numero": 83,
+      "titolo": "Note per la precisazione delle conclusioni innanzi al collegio",
+      "tipo_atto": "atto",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 352 c.p.c.",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "collegio",
+        "conclusioni",
+        "delle",
+        "innanzi",
+        "note",
+        "precisazione"
+      ],
+      "file": "wiki-studio/modelli/civile/083-note-per-la-precisazione-delle-conclusioni-innanzi-al-collegio.md"
+    },
+    {
+      "id": "084",
+      "numero": 84,
+      "titolo": "Comparsa collegiale conclusionale in appello",
+      "tipo_atto": "atto di appello",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 352 c.p.c.",
+        "art. 356 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "collegiale",
+        "comparsa",
+        "conclusionale"
+      ],
+      "file": "wiki-studio/modelli/civile/084-comparsa-collegiale-conclusionale-in-appello.md"
+    },
+    {
+      "id": "085",
+      "numero": 85,
+      "titolo": "Ricorso per Cassazione",
+      "tipo_atto": "ricorso per cassazione",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte di Cassazione",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 360 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "cassazione",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/085-ricorso-per-cassazione.md"
+    },
+    {
+      "id": "086",
+      "numero": 86,
+      "titolo": "Riserva facoltativa di ricorso per Cassazione",
+      "tipo_atto": "ricorso per cassazione",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte di Cassazione",
+      "norme_chiave": [
+        "art. 278 c.p.c.",
+        "art. 361 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "cassazione",
+        "facoltativa",
+        "ricorso",
+        "riserva"
+      ],
+      "file": "wiki-studio/modelli/civile/086-riserva-facoltativa-di-ricorso-per-cassazione.md"
+    },
+    {
+      "id": "087",
+      "numero": 87,
+      "titolo": "Controricorso per Cassazione",
+      "tipo_atto": "ricorso per cassazione",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte di Cassazione",
+      "norme_chiave": [
+        "art. 370 c.p.c.",
+        "art. 360 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "cassazione",
+        "controricorso",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/087-controricorso-per-cassazione.md"
+    },
+    {
+      "id": "088",
+      "numero": 88,
+      "titolo": "Ricorso incidentale",
+      "tipo_atto": "ricorso",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 371 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 360 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "incidentale",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/088-ricorso-incidentale.md"
+    },
+    {
+      "id": "089",
+      "numero": 89,
+      "titolo": "Riassunzione per rinvio innanzi alla Corte di Appello",
+      "tipo_atto": "atto di appello",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 392 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "alla",
+        "appello",
+        "atto",
+        "corte",
+        "innanzi",
+        "riassunzione",
+        "rinvio"
+      ],
+      "file": "wiki-studio/modelli/civile/089-riassunzione-per-rinvio-innanzi-alla-corte-di-appello.md"
+    },
+    {
+      "id": "090",
+      "numero": 90,
+      "titolo": "Revocazione",
+      "tipo_atto": "atto di revocazione",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 396 c.p.c.",
+        "art. 395 c.p.c.",
+        "art. 399 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "revocazione"
+      ],
+      "file": "wiki-studio/modelli/civile/090-revocazione.md"
+    },
+    {
+      "id": "091",
+      "numero": 91,
+      "titolo": "Opposizione di terzo",
+      "tipo_atto": "atto di opposizione",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 404 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "opposizione",
+        "terzo"
+      ],
+      "file": "wiki-studio/modelli/civile/091-opposizione-di-terzo.md"
+    },
+    {
+      "id": "092",
+      "numero": 92,
+      "titolo": "Procedimento per la decisione accelerata dei ricorsi inammissibili, improcedibili o manifestamente infondati",
+      "tipo_atto": "atto",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 380-bis c.p.c.",
+        "art. 366 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accelerata",
+        "appello",
+        "atto",
+        "decisione",
+        "improcedibili",
+        "inammissibili",
+        "infondati",
+        "manifestamente",
+        "procedimento",
+        "ricorsi"
+      ],
+      "file": "wiki-studio/modelli/civile/092-procedimento-per-la-decisione-accelerata-dei-ricorsi-inammissibili-imp.md"
+    },
+    {
+      "id": "093",
+      "numero": 93,
+      "titolo": "Revocazione o correzione per errore materiale o di fatto contro le sentenze della Cassazione emesse ex art. 380-bis c.p.c., con decisione accelerata",
+      "tipo_atto": "atto di revocazione",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 380-bis c.p.c.",
+        "art. 391-bis c.p.c.",
+        "art. 366 c.p.c.",
+        "art. 360 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accelerata",
+        "appello",
+        "atto",
+        "cassazione",
+        "contro",
+        "correzione",
+        "decisione",
+        "della",
+        "emesse",
+        "errore",
+        "fatto",
+        "materiale",
+        "revocazione",
+        "sentenze"
+      ],
+      "file": "wiki-studio/modelli/civile/093-revocazione-o-correzione-per-errore-materiale-o-di-fatto-contro-le-sen.md"
+    },
+    {
+      "id": "094",
+      "numero": 94,
+      "titolo": "Revocazione alla Corte di Cassazione per contrarietà alla convenzione europea dei diritti dell’uomo",
+      "tipo_atto": "convenzione",
+      "rito": "impugnazione",
+      "fase": "impugnazioni",
+      "materia": "appello / cassazione / revocazione",
+      "competenza_orientativa": "Corte d'appello / Corte di Cassazione",
+      "norme_chiave": [
+        "art. 391-quater c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "alla",
+        "appello",
+        "cassazione",
+        "contrarietà",
+        "convenzione",
+        "corte",
+        "dell",
+        "diritti",
+        "europea",
+        "revocazione",
+        "uomo"
+      ],
+      "file": "wiki-studio/modelli/civile/094-revocazione-alla-corte-di-cassazione-per-contrarieta-alla-convenzione.md"
+    },
+    {
+      "id": "095",
+      "numero": 95,
+      "titolo": "Istanza di negoziazione ex articolo 2 del decreto legge n. 132/2014, comma 7-bis, aggiunto con il d.lgs. n. 149/2022 (modello redatto dal C.N.F.)",
+      "tipo_atto": "istanza",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 246 c.p.c.",
+        "d.l. 132/2014",
+        "d.lgs. n. 149/2022",
+        "d.l. n. 132/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "aggiunto",
+        "articolo",
+        "comma",
+        "decreto",
+        "istanza",
+        "lavoro",
+        "legge",
+        "modello",
+        "negoziazione",
+        "redatto"
+      ],
+      "file": "wiki-studio/modelli/civile/095-istanza-di-negoziazione-ex-articolo-2-del-decreto-legge-n-1322014-comm.md"
+    },
+    {
+      "id": "096",
+      "numero": 96,
+      "titolo": "Istanza di conciliazione obbligatoria in materia di licenziamento",
+      "tipo_atto": "istanza",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "legge 92/2012",
+        "legge 604/1966"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "conciliazione",
+        "istanza",
+        "lavoro",
+        "licenziamento",
+        "materia",
+        "obbligatoria"
+      ],
+      "file": "wiki-studio/modelli/civile/096-istanza-di-conciliazione-obbligatoria-in-materia-di-licenziamento.md"
+    },
+    {
+      "id": "097",
+      "numero": 97,
+      "titolo": "Ricorso per il pagamento di indennità lavorative",
+      "tipo_atto": "ricorso",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 414 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 2113 c.c.",
+        "art. 36 cost.",
+        "art. 2099 c.c.",
+        "art. 429 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "indennità",
+        "lavorative",
+        "lavoro",
+        "pagamento",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/097-ricorso-per-il-pagamento-di-indennita-lavorative.md"
+    },
+    {
+      "id": "098",
+      "numero": 98,
+      "titolo": "Ricorso per attribuzione di qualifica superiore",
+      "tipo_atto": "ricorso",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 2103 c.c.",
+        "art. 83 c.p.c.",
+        "art. 2087 c.c.",
+        "legge 92/2012",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "attribuzione",
+        "lavoro",
+        "qualifica",
+        "ricorso",
+        "superiore"
+      ],
+      "file": "wiki-studio/modelli/civile/098-ricorso-per-attribuzione-di-qualifica-superiore.md"
+    },
+    {
+      "id": "099",
+      "numero": 99,
+      "titolo": "Ricorso per mobbing",
+      "tipo_atto": "ricorso",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 2087 c.c.",
+        "art. 1226 c.c.",
+        "legge 104/1992",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "lavoro",
+        "mobbing",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/099-ricorso-per-mobbing.md"
+    },
+    {
+      "id": "100",
+      "numero": 100,
+      "titolo": "Ricorso per la conversione del rapporto di somministrazione irregolare in lavoro subordinato",
+      "tipo_atto": "ricorso",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "d.lgs. 81/2015",
+        "legge 183/2010",
+        "d.l. 87/2018",
+        "legge 96/2018",
+        "l. 183/2010"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "conversione",
+        "irregolare",
+        "lavoro",
+        "rapporto",
+        "ricorso",
+        "somministrazione",
+        "subordinato"
+      ],
+      "file": "wiki-studio/modelli/civile/100-ricorso-per-la-conversione-del-rapporto-di-somministrazione-irregolare.md"
+    },
+    {
+      "id": "101",
+      "numero": 101,
+      "titolo": "Ricorso per la trasformazione del contratto a termine",
+      "tipo_atto": "ricorso",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "d.lgs. 81/2015",
+        "d.lgs. 368/2001",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "contratto",
+        "lavoro",
+        "ricorso",
+        "termine",
+        "trasformazione"
+      ],
+      "file": "wiki-studio/modelli/civile/101-ricorso-per-la-trasformazione-del-contratto-a-termine.md"
+    },
+    {
+      "id": "102",
+      "numero": 102,
+      "titolo": "Ricorso (docenti) per il risarcimento del danno e il riconoscimento della progressione di carriera",
+      "tipo_atto": "ricorso",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 415 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "carriera",
+        "danno",
+        "della",
+        "docenti",
+        "lavoro",
+        "progressione",
+        "riconoscimento",
+        "ricorso",
+        "risarcimento"
+      ],
+      "file": "wiki-studio/modelli/civile/102-ricorso-docenti-per-il-risarcimento-del-danno-e-il-riconoscimento-dell.md"
+    },
+    {
+      "id": "103",
+      "numero": 103,
+      "titolo": "Ricorso ex art. 700 c.p.c. per la reintegra al lavoro",
+      "tipo_atto": "ricorso",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 700 c.p.c.",
+        "art. 1345 c.c.",
+        "legge 604/1966"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "lavoro",
+        "reintegra",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/103-ricorso-ex-art-700-cpc-per-la-reintegra-al-lavoro.md"
+    },
+    {
+      "id": "104",
+      "numero": 104,
+      "titolo": "Ricorso ex art. 441-bis c.p.c. per la reintegra al lavoro",
+      "tipo_atto": "ricorso",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 441-bis c.p.c.",
+        "art. 2110 c.c.",
+        "art. 414 c.p.c.",
+        "legge 92/2012",
+        "legge 604/1966",
+        "legge 108/1990",
+        "legge 300/1970",
+        "legge 223/1991",
+        "legge 390/1970",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "lavoro",
+        "reintegra",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/104-ricorso-ex-art-441-bis-cpc-per-la-reintegra-al-lavoro.md"
+    },
+    {
+      "id": "105",
+      "numero": 105,
+      "titolo": "Memoria difensiva",
+      "tipo_atto": "memoria",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 416 c.p.c.",
+        "art. 36 cost.",
+        "art. 414 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "difensiva",
+        "lavoro",
+        "memoria"
+      ],
+      "file": "wiki-studio/modelli/civile/105-memoria-difensiva.md"
+    },
+    {
+      "id": "106",
+      "numero": 106,
+      "titolo": "Ricorso in appello (rito del lavoro)",
+      "tipo_atto": "ricorso in appello",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 433 c.p.c.",
+        "art. 2099 c.c.",
+        "art. 36 cost.",
+        "art. 414 c.p.c.",
+        "art. 246 c.p.c.",
+        "art. 2697 c.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "lavoro",
+        "ricorso",
+        "rito"
+      ],
+      "file": "wiki-studio/modelli/civile/106-ricorso-in-appello-rito-del-lavoro.md"
+    },
+    {
+      "id": "107",
+      "numero": 107,
+      "titolo": "Costituzione in appello (rito del lavoro)",
+      "tipo_atto": "atto di appello",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Tribunale, sezione lavoro (giudice del lavoro)",
+      "norme_chiave": [
+        "art. 463 c.p.c.",
+        "art. 436 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 434 c.p.c.",
+        "d.lgs. 81/2015",
+        "legge 300/1970",
+        "legge n. 604/1966",
+        "legge 604/1966"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "appello",
+        "atto",
+        "costituzione",
+        "lavoro",
+        "rito"
+      ],
+      "file": "wiki-studio/modelli/civile/107-costituzione-in-appello-rito-del-lavoro.md"
+    },
+    {
+      "id": "108",
+      "numero": 108,
+      "titolo": "Ricorso per Cassazione in materia di lavoro",
+      "tipo_atto": "ricorso per cassazione",
+      "rito": "rito del lavoro",
+      "fase": "controversie di lavoro",
+      "materia": "lavoro e previdenza",
+      "competenza_orientativa": "Corte di Cassazione",
+      "norme_chiave": [
+        "art. 360 c.p.c.",
+        "art. 2119 c.c.",
+        "art. 336 c.p.c.",
+        "legge 92/2012",
+        "legge 300/1970",
+        "legge 69/2009"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cassazione",
+        "lavoro",
+        "materia",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/108-ricorso-per-cassazione-in-materia-di-lavoro.md"
+    },
+    {
+      "id": "109",
+      "numero": 109,
+      "titolo": "Attestazione di conformità del provvedimento giudiziario esecutivo",
+      "tipo_atto": "attestazione",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 196-octies disp. att.",
+        "art. 475 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "attestazione",
+        "conformità",
+        "esecutivo",
+        "esecuzione",
+        "giudiziario",
+        "provvedimento"
+      ],
+      "file": "wiki-studio/modelli/civile/109-attestazione-di-conformita-del-provvedimento-giudiziario-esecutivo.md"
+    },
+    {
+      "id": "110",
+      "numero": 110,
+      "titolo": "Atto di precetto in forza di sentenza",
+      "tipo_atto": "atto di precetto",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 480 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "esecuzione",
+        "forza",
+        "precetto",
+        "sentenza"
+      ],
+      "file": "wiki-studio/modelli/civile/110-atto-di-precetto-in-forza-di-sentenza.md"
+    },
+    {
+      "id": "111",
+      "numero": 111,
+      "titolo": "Precetto fondato su cambiali",
+      "tipo_atto": "atto di precetto",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 480 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cambiali",
+        "esecuzione",
+        "fondato",
+        "precetto"
+      ],
+      "file": "wiki-studio/modelli/civile/111-precetto-fondato-su-cambiali.md"
+    },
+    {
+      "id": "112",
+      "numero": 112,
+      "titolo": "Precetto per il rilascio di immobile (locazione)",
+      "tipo_atto": "atto di precetto",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 480 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "esecuzione",
+        "immobile",
+        "locazione",
+        "precetto",
+        "rilascio"
+      ],
+      "file": "wiki-studio/modelli/civile/112-precetto-per-il-rilascio-di-immobile-locazione.md"
+    },
+    {
+      "id": "113",
+      "numero": 113,
+      "titolo": "Atto di precetto per consegna o rilascio (reintegra nel possesso)",
+      "tipo_atto": "atto di precetto",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 605 c.p.c.",
+        "art. 480 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "consegna",
+        "esecuzione",
+        "possesso",
+        "precetto",
+        "reintegra",
+        "rilascio"
+      ],
+      "file": "wiki-studio/modelli/civile/113-atto-di-precetto-per-consegna-o-rilascio-reintegra-nel-possesso.md"
+    },
+    {
+      "id": "114",
+      "numero": 114,
+      "titolo": "Verbale di pignoramento mobiliare e ricerca con modalità telematiche",
+      "tipo_atto": "atto di pignoramento",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 492 c.p.c.",
+        "art. 495 c.p.c.",
+        "art. 518 c.p.c.",
+        "art. 492-bis c.p.c.",
+        "d.l. 132/2014",
+        "legge 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "esecuzione",
+        "mobiliare",
+        "modalità",
+        "pignoramento",
+        "ricerca",
+        "telematiche",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/114-verbale-di-pignoramento-mobiliare-e-ricerca-con-modalita-telematiche.md"
+    },
+    {
+      "id": "115",
+      "numero": 115,
+      "titolo": "Conversione di pignoramento mobiliare",
+      "tipo_atto": "atto di pignoramento",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 495 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "conversione",
+        "esecuzione",
+        "mobiliare",
+        "pignoramento"
+      ],
+      "file": "wiki-studio/modelli/civile/115-conversione-di-pignoramento-mobiliare.md"
+    },
+    {
+      "id": "116",
+      "numero": 116,
+      "titolo": "Intervento nel pignoramento mobiliare",
+      "tipo_atto": "atto di pignoramento",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 525 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "esecuzione",
+        "intervento",
+        "mobiliare",
+        "pignoramento"
+      ],
+      "file": "wiki-studio/modelli/civile/116-intervento-nel-pignoramento-mobiliare.md"
+    },
+    {
+      "id": "117",
+      "numero": 117,
+      "titolo": "Istanza di assegnazione dei beni mobili pignorati",
+      "tipo_atto": "istanza",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "assegnazione",
+        "beni",
+        "esecuzione",
+        "istanza",
+        "mobili",
+        "pignorati"
+      ],
+      "file": "wiki-studio/modelli/civile/117-istanza-di-assegnazione-dei-beni-mobili-pignorati.md"
+    },
+    {
+      "id": "118",
+      "numero": 118,
+      "titolo": "Istanza di attribuzione della somma ricavata dalla vendita",
+      "tipo_atto": "istanza",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 1194 c.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "attribuzione",
+        "dalla",
+        "della",
+        "esecuzione",
+        "istanza",
+        "ricavata",
+        "somma",
+        "vendita"
+      ],
+      "file": "wiki-studio/modelli/civile/118-istanza-di-attribuzione-della-somma-ricavata-dalla-vendita.md"
+    },
+    {
+      "id": "119",
+      "numero": 119,
+      "titolo": "Pignoramento presso terzi",
+      "tipo_atto": "atto di pignoramento",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 543 c.p.c.",
+        "art. 547 c.p.c.",
+        "art. 492 c.p.c.",
+        "art. 495 c.p.c.",
+        "d.l. 132/2014",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "esecuzione",
+        "pignoramento",
+        "presso",
+        "terzi"
+      ],
+      "file": "wiki-studio/modelli/civile/119-pignoramento-presso-terzi.md"
+    },
+    {
+      "id": "120",
+      "numero": 120,
+      "titolo": "Citazione per l’accertamento del credito in caso di mancata dichiarazione o contestazione del terzo",
+      "tipo_atto": "atto di citazione",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 548 c.p.c.",
+        "art. 166 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accertamento",
+        "atto",
+        "caso",
+        "citazione",
+        "contestazione",
+        "credito",
+        "dichiarazione",
+        "esecuzione",
+        "mancata",
+        "terzo"
+      ],
+      "file": "wiki-studio/modelli/civile/120-citazione-per-laccertamento-del-credito-in-caso-di-mancata-dichiarazio.md"
+    },
+    {
+      "id": "121",
+      "numero": 121,
+      "titolo": "Atto di pignoramento immobiliare",
+      "tipo_atto": "atto di pignoramento",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 555 c.p.c.",
+        "art. 492 c.p.c.",
+        "art. 495 c.p.c.",
+        "art. 615 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "esecuzione",
+        "immobiliare",
+        "pignoramento"
+      ],
+      "file": "wiki-studio/modelli/civile/121-atto-di-pignoramento-immobiliare.md"
+    },
+    {
+      "id": "122",
+      "numero": 122,
+      "titolo": "Istanza di vendita immobiliare",
+      "tipo_atto": "istanza",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 567 c.p.c.",
+        "art. 569 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "esecuzione",
+        "immobiliare",
+        "istanza",
+        "vendita"
+      ],
+      "file": "wiki-studio/modelli/civile/122-istanza-di-vendita-immobiliare.md"
+    },
+    {
+      "id": "123",
+      "numero": 123,
+      "titolo": "Istanza di assegnazione di beni immobili pignorati",
+      "tipo_atto": "istanza",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 589 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "assegnazione",
+        "beni",
+        "esecuzione",
+        "immobili",
+        "istanza",
+        "pignorati"
+      ],
+      "file": "wiki-studio/modelli/civile/123-istanza-di-assegnazione-di-beni-immobili-pignorati.md"
+    },
+    {
+      "id": "124",
+      "numero": 124,
+      "titolo": "Opposizione all’esecuzione non iniziata",
+      "tipo_atto": "atto di opposizione",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 615 c.p.c.",
+        "art. 167 c.p.c.",
+        "art. 38 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "esecuzione",
+        "iniziata",
+        "opposizione"
+      ],
+      "file": "wiki-studio/modelli/civile/124-opposizione-allesecuzione-non-iniziata.md"
+    },
+    {
+      "id": "125",
+      "numero": 125,
+      "titolo": "Opposizione all’esecuzione iniziata",
+      "tipo_atto": "atto di opposizione",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 615 c.p.c.",
+        "art. 624 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "esecuzione",
+        "iniziata",
+        "opposizione"
+      ],
+      "file": "wiki-studio/modelli/civile/125-opposizione-allesecuzione-iniziata.md"
+    },
+    {
+      "id": "126",
+      "numero": 126,
+      "titolo": "Opposizione alla regolarità formale del titolo esecutivo e del precetto",
+      "tipo_atto": "atto di precetto",
+      "rito": "esecuzione",
+      "fase": "esecuzione forzata",
+      "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 617 c.p.c.",
+        "art. 480 c.p.c.",
+        "art. 167 c.p.c.",
+        "art. 38 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "alla",
+        "atto",
+        "esecutivo",
+        "esecuzione",
+        "formale",
+        "opposizione",
+        "precetto",
+        "regolarità",
+        "titolo"
+      ],
+      "file": "wiki-studio/modelli/civile/126-opposizione-alla-regolarita-formale-del-titolo-esecutivo-e-del-precett.md"
+    },
+    {
+      "id": "127",
+      "numero": 127,
+      "titolo": "Ricorso per decreto ingiuntivo di pagamento fondato su prova scritta",
+      "tipo_atto": "ricorso",
+      "rito": "monitorio (633 ss.)",
+      "fase": "procedimento monitorio",
+      "materia": "decreto ingiuntivo e opposizione",
+      "competenza_orientativa": "Giudice competente per il monitorio (633 c.p.c.)",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 633 c.p.c.",
+        "art. 634 c.p.c.",
+        "art. 642 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "decreto",
+        "fondato",
+        "ingiuntivo",
+        "pagamento",
+        "prova",
+        "ricorso",
+        "scritta"
+      ],
+      "file": "wiki-studio/modelli/civile/127-ricorso-per-decreto-ingiuntivo-di-pagamento-fondato-su-prova-scritta.md"
+    },
+    {
+      "id": "128",
+      "numero": 128,
+      "titolo": "Ricorso per decreto ingiuntivo di consegna di cosa mobile",
+      "tipo_atto": "ricorso",
+      "rito": "monitorio (633 ss.)",
+      "fase": "procedimento monitorio",
+      "materia": "decreto ingiuntivo e opposizione",
+      "competenza_orientativa": "Giudice competente per il monitorio (633 c.p.c.)",
+      "norme_chiave": [
+        "art. 633 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 634 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "consegna",
+        "cosa",
+        "decreto",
+        "ingiuntivo",
+        "mobile",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/128-ricorso-per-decreto-ingiuntivo-di-consegna-di-cosa-mobile.md"
+    },
+    {
+      "id": "129",
+      "numero": 129,
+      "titolo": "Ricorso per decreto ingiuntivo per la consegna di cose fungibili",
+      "tipo_atto": "ricorso",
+      "rito": "monitorio (633 ss.)",
+      "fase": "procedimento monitorio",
+      "materia": "decreto ingiuntivo e opposizione",
+      "competenza_orientativa": "Giudice competente per il monitorio (633 c.p.c.)",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 633 c.p.c.",
+        "art. 634 c.p.c.",
+        "art. 639 c.p.c.",
+        "art. 642 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "consegna",
+        "cose",
+        "decreto",
+        "fungibili",
+        "ingiuntivo",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/129-ricorso-per-decreto-ingiuntivo-per-la-consegna-di-cose-fungibili.md"
+    },
+    {
+      "id": "130",
+      "numero": 130,
+      "titolo": "Ricorso per decreto ingiuntivo per pagamento di credito professionale",
+      "tipo_atto": "ricorso",
+      "rito": "monitorio (633 ss.)",
+      "fase": "procedimento monitorio",
+      "materia": "decreto ingiuntivo e opposizione",
+      "competenza_orientativa": "Giudice competente per il monitorio (633 c.p.c.)",
+      "norme_chiave": [
+        "art. 83 c.p.c.",
+        "art. 633 c.p.c.",
+        "art. 634 c.p.c.",
+        "art. 642 c.p.c.",
+        "d.l. 1/2012",
+        "legge 27/2012",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "credito",
+        "decreto",
+        "ingiuntivo",
+        "pagamento",
+        "professionale",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/130-ricorso-per-decreto-ingiuntivo-per-pagamento-di-credito-professionale.md"
+    },
+    {
+      "id": "131",
+      "numero": 131,
+      "titolo": "Ricorso per decreto ingiuntivo per il pagamento di spese condominiali",
+      "tipo_atto": "ricorso",
+      "rito": "monitorio (633 ss.)",
+      "fase": "procedimento monitorio",
+      "materia": "decreto ingiuntivo e opposizione",
+      "competenza_orientativa": "Giudice competente per il monitorio (633 c.p.c.)",
+      "norme_chiave": [
+        "art. 63 disp. att.",
+        "art. 83 c.p.c.",
+        "art. 633 c.p.c.",
+        "art. 634 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "condominiali",
+        "decreto",
+        "ingiuntivo",
+        "pagamento",
+        "ricorso",
+        "spese"
+      ],
+      "file": "wiki-studio/modelli/civile/131-ricorso-per-decreto-ingiuntivo-per-il-pagamento-di-spese-condominiali.md"
+    },
+    {
+      "id": "132",
+      "numero": 132,
+      "titolo": "Ricorso per decreto ingiuntivo su cambiali scadute",
+      "tipo_atto": "ricorso",
+      "rito": "monitorio (633 ss.)",
+      "fase": "procedimento monitorio",
+      "materia": "decreto ingiuntivo e opposizione",
+      "competenza_orientativa": "Giudice competente per il monitorio (633 c.p.c.)",
+      "norme_chiave": [
+        "art. 633 c.p.c.",
+        "art. 641 c.p.c.",
+        "art. 642 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cambiali",
+        "decreto",
+        "ingiuntivo",
+        "ricorso",
+        "scadute"
+      ],
+      "file": "wiki-studio/modelli/civile/132-ricorso-per-decreto-ingiuntivo-su-cambiali-scadute.md"
+    },
+    {
+      "id": "133",
+      "numero": 133,
+      "titolo": "Opposizione a decreto ingiuntivo",
+      "tipo_atto": "atto di opposizione",
+      "rito": "monitorio (633 ss.)",
+      "fase": "procedimento monitorio",
+      "materia": "decreto ingiuntivo e opposizione",
+      "competenza_orientativa": "Giudice competente per il monitorio (633 c.p.c.)",
+      "norme_chiave": [
+        "art. 645 c.p.c.",
+        "art. 83 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "decreto",
+        "ingiuntivo",
+        "opposizione"
+      ],
+      "file": "wiki-studio/modelli/civile/133-opposizione-a-decreto-ingiuntivo.md"
+    },
+    {
+      "id": "134",
+      "numero": 134,
+      "titolo": "Opposizione tardiva",
+      "tipo_atto": "atto di opposizione",
+      "rito": "monitorio (633 ss.)",
+      "fase": "procedimento monitorio",
+      "materia": "decreto ingiuntivo e opposizione",
+      "competenza_orientativa": "Giudice competente per il monitorio (633 c.p.c.)",
+      "norme_chiave": [
+        "art. 650 c.p.c.",
+        "art. 641 c.p.c.",
+        "art. 649 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "decreto",
+        "opposizione",
+        "tardiva"
+      ],
+      "file": "wiki-studio/modelli/civile/134-opposizione-tardiva.md"
+    },
+    {
+      "id": "135",
+      "numero": 135,
+      "titolo": "Licenza per finita locazione abitativa",
+      "tipo_atto": "licenza per finita locazione",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "art. 657 c.p.c.",
+        "art. 660 c.p.c.",
+        "art. 663 c.p.c.",
+        "legge 392/1978",
+        "legge 534/1995",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "abitativa",
+        "finita",
+        "licenza",
+        "locazione",
+        "locazioni"
+      ],
+      "file": "wiki-studio/modelli/civile/135-licenza-per-finita-locazione-abitativa.md"
+    },
+    {
+      "id": "136",
+      "numero": 136,
+      "titolo": "Sfratto per finita locazione abitativa",
+      "tipo_atto": "intimazione di sfratto",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "art. 657 c.p.c.",
+        "art. 663 c.p.c.",
+        "legge 392/1978",
+        "legge 431/1998",
+        "legge 534/1995",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "abitativa",
+        "finita",
+        "intimazione",
+        "locazione",
+        "locazioni",
+        "sfratto"
+      ],
+      "file": "wiki-studio/modelli/civile/136-sfratto-per-finita-locazione-abitativa.md"
+    },
+    {
+      "id": "137",
+      "numero": 137,
+      "titolo": "Memoria di costituzione dell’intimato",
+      "tipo_atto": "comparsa di costituzione",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "art. 660 c.p.c.",
+        "art. 1574 c.c.",
+        "art. 2696 c.c.",
+        "legge 392/1978"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "comparsa",
+        "costituzione",
+        "dell",
+        "intimato",
+        "locazioni",
+        "memoria"
+      ],
+      "file": "wiki-studio/modelli/civile/137-memoria-di-costituzione-dellintimato.md"
+    },
+    {
+      "id": "138",
+      "numero": 138,
+      "titolo": "Sfratto per finita locazione commerciale",
+      "tipo_atto": "intimazione di sfratto",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "art. 657 c.p.c.",
+        "art. 660 c.p.c.",
+        "art. 665 c.p.c.",
+        "art. 663 c.p.c.",
+        "legge 392/1978",
+        "legge 534/1995",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "commerciale",
+        "finita",
+        "intimazione",
+        "locazione",
+        "locazioni",
+        "sfratto"
+      ],
+      "file": "wiki-studio/modelli/civile/138-sfratto-per-finita-locazione-commerciale.md"
+    },
+    {
+      "id": "139",
+      "numero": 139,
+      "titolo": "Memoria di costituzione con domanda riconvenzionale per l’avviamento commerciale",
+      "tipo_atto": "comparsa di costituzione",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "legge 392/1978",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "avviamento",
+        "commerciale",
+        "comparsa",
+        "costituzione",
+        "domanda",
+        "locazioni",
+        "memoria",
+        "riconvenzionale"
+      ],
+      "file": "wiki-studio/modelli/civile/139-memoria-di-costituzione-con-domanda-riconvenzionale-per-lavviamento-co.md"
+    },
+    {
+      "id": "140",
+      "numero": 140,
+      "titolo": "Sfratto per morosità",
+      "tipo_atto": "intimazione di sfratto",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "art. 658 c.p.c.",
+        "art. 660 c.p.c.",
+        "art. 663 c.p.c.",
+        "legge 534/1995",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "intimazione",
+        "locazioni",
+        "morosità",
+        "sfratto"
+      ],
+      "file": "wiki-studio/modelli/civile/140-sfratto-per-morosita.md"
+    },
+    {
+      "id": "141",
+      "numero": 141,
+      "titolo": "Opposizione dopo la convalida dello sfratto",
+      "tipo_atto": "atto di opposizione",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "art. 668 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "convalida",
+        "dello",
+        "dopo",
+        "locazioni",
+        "opposizione",
+        "sfratto"
+      ],
+      "file": "wiki-studio/modelli/civile/141-opposizione-dopo-la-convalida-dello-sfratto.md"
+    },
+    {
+      "id": "142",
+      "numero": 142,
+      "titolo": "Memoria difensiva del ricorrente dopo il mutamento di rito",
+      "tipo_atto": "memoria",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "art. 667 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "difensiva",
+        "dopo",
+        "locazioni",
+        "memoria",
+        "mutamento",
+        "ricorrente",
+        "rito"
+      ],
+      "file": "wiki-studio/modelli/civile/142-memoria-difensiva-del-ricorrente-dopo-il-mutamento-di-rito.md"
+    },
+    {
+      "id": "143",
+      "numero": 143,
+      "titolo": "Memoria difensiva del resistente dopo il mutamento di rito",
+      "tipo_atto": "memoria",
+      "rito": "convalida di sfratto (657 ss.)",
+      "fase": "locazioni e sfratti",
+      "materia": "locazioni / convalida di sfratto",
+      "competenza_orientativa": "Tribunale ordinario (convalida di sfratto)",
+      "norme_chiave": [
+        "art. 667 c.p.c.",
+        "art. 665 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "difensiva",
+        "dopo",
+        "locazioni",
+        "memoria",
+        "mutamento",
+        "resistente",
+        "rito"
+      ],
+      "file": "wiki-studio/modelli/civile/143-memoria-difensiva-del-resistente-dopo-il-mutamento-di-rito.md"
+    },
+    {
+      "id": "144",
+      "numero": 144,
+      "titolo": "Schema tipo di domanda per le misure cautelari",
+      "tipo_atto": "atto",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cautelare",
+        "cautelari",
+        "domanda",
+        "misure",
+        "schema",
+        "tipo"
+      ],
+      "file": "wiki-studio/modelli/civile/144-schema-tipo-di-domanda-per-le-misure-cautelari.md"
+    },
+    {
+      "id": "145",
+      "numero": 145,
+      "titolo": "Provvedimento di accoglimento della misura cautelare",
+      "tipo_atto": "atto",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 669-octies c.p.c.",
+        "art. 669-sexies c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accoglimento",
+        "atto",
+        "cautelare",
+        "della",
+        "misura",
+        "provvedimento"
+      ],
+      "file": "wiki-studio/modelli/civile/145-provvedimento-di-accoglimento-della-misura-cautelare.md"
+    },
+    {
+      "id": "146",
+      "numero": 146,
+      "titolo": "Domanda per l’inizio del giudizio di merito",
+      "tipo_atto": "atto",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 669-octies c.p.c.",
+        "art. 125 disp. att.",
+        "art. 166 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cautelare",
+        "domanda",
+        "giudizio",
+        "inizio",
+        "merito"
+      ],
+      "file": "wiki-studio/modelli/civile/146-domanda-per-linizio-del-giudizio-di-merito.md"
+    },
+    {
+      "id": "147",
+      "numero": 147,
+      "titolo": "Revoca e modifica del provvedimento cautelare",
+      "tipo_atto": "atto",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 669-decies c.p.c.",
+        "art. 669-undecies c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cautelare",
+        "modifica",
+        "provvedimento",
+        "revoca"
+      ],
+      "file": "wiki-studio/modelli/civile/147-revoca-e-modifica-del-provvedimento-cautelare.md"
+    },
+    {
+      "id": "148",
+      "numero": 148,
+      "titolo": "Ricorso per le modalità di attuazione dei provvedimenti cautelari",
+      "tipo_atto": "ricorso",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 669-duodecies c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "attuazione",
+        "cautelare",
+        "cautelari",
+        "modalità",
+        "provvedimenti",
+        "ricorso"
+      ],
+      "file": "wiki-studio/modelli/civile/148-ricorso-per-le-modalita-di-attuazione-dei-provvedimenti-cautelari.md"
+    },
+    {
+      "id": "149",
+      "numero": 149,
+      "titolo": "Reclamo contro i provvedimenti cautelari",
+      "tipo_atto": "reclamo",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 669-terdecies c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cautelare",
+        "cautelari",
+        "contro",
+        "provvedimenti",
+        "reclamo"
+      ],
+      "file": "wiki-studio/modelli/civile/149-reclamo-contro-i-provvedimenti-cautelari.md"
+    },
+    {
+      "id": "150",
+      "numero": 150,
+      "titolo": "Sequestro giudiziario",
+      "tipo_atto": "ricorso per sequestro",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 670 c.p.c.",
+        "art. 677 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cautelare",
+        "giudiziario",
+        "ricorso",
+        "sequestro"
+      ],
+      "file": "wiki-studio/modelli/civile/150-sequestro-giudiziario.md"
+    },
+    {
+      "id": "151",
+      "numero": 151,
+      "titolo": "Sequestro conservativo",
+      "tipo_atto": "ricorso per sequestro",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 671 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cautelare",
+        "conservativo",
+        "ricorso",
+        "sequestro"
+      ],
+      "file": "wiki-studio/modelli/civile/151-sequestro-conservativo.md"
+    },
+    {
+      "id": "152",
+      "numero": 152,
+      "titolo": "Giudizio di merito dopo il sequestro",
+      "tipo_atto": "ricorso per sequestro",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 670 c.p.c.",
+        "art. 669-octies c.p.c.",
+        "art. 125 disp. att.",
+        "art. 166 c.p.c.",
+        "art. 38 c.p.c.",
+        "art. 167 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cautelare",
+        "dopo",
+        "giudizio",
+        "merito",
+        "ricorso",
+        "sequestro"
+      ],
+      "file": "wiki-studio/modelli/civile/152-giudizio-di-merito-dopo-il-sequestro.md"
+    },
+    {
+      "id": "153",
+      "numero": 153,
+      "titolo": "Denuncia di nuova opera e danno temuto",
+      "tipo_atto": "ricorso (denuncia)",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 688 c.p.c.",
+        "art. 1172 c.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cautelare",
+        "danno",
+        "denuncia",
+        "nuova",
+        "opera",
+        "ricorso",
+        "temuto"
+      ],
+      "file": "wiki-studio/modelli/civile/153-denuncia-di-nuova-opera-e-danno-temuto.md"
+    },
+    {
+      "id": "154",
+      "numero": 154,
+      "titolo": "Giudizio di merito dopo la denuncia di nuova opera o di danno temuto",
+      "tipo_atto": "ricorso (denuncia)",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 688 c.p.c.",
+        "art. 125 disp. att.",
+        "art. 166 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cautelare",
+        "danno",
+        "denuncia",
+        "dopo",
+        "giudizio",
+        "merito",
+        "nuova",
+        "opera",
+        "ricorso",
+        "temuto"
+      ],
+      "file": "wiki-studio/modelli/civile/154-giudizio-di-merito-dopo-la-denuncia-di-nuova-opera-o-di-danno-temuto.md"
+    },
+    {
+      "id": "155",
+      "numero": 155,
+      "titolo": "Assunzione preventiva di testimoni",
+      "tipo_atto": "atto",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 692 c.p.c.",
+        "art. 695 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "assunzione",
+        "atto",
+        "cautelare",
+        "preventiva",
+        "testimoni"
+      ],
+      "file": "wiki-studio/modelli/civile/155-assunzione-preventiva-di-testimoni.md"
+    },
+    {
+      "id": "156",
+      "numero": 156,
+      "titolo": "Accertamento tecnico ed ispezione giudiziale",
+      "tipo_atto": "atto",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 696 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accertamento",
+        "atto",
+        "cautelare",
+        "giudiziale",
+        "ispezione",
+        "tecnico"
+      ],
+      "file": "wiki-studio/modelli/civile/156-accertamento-tecnico-ed-ispezione-giudiziale.md"
+    },
+    {
+      "id": "157",
+      "numero": 157,
+      "titolo": "Ricorso per A.T.P. con tentativo di conciliazione",
+      "tipo_atto": "ricorso",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 696-bis c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cautelare",
+        "conciliazione",
+        "ricorso",
+        "tentativo"
+      ],
+      "file": "wiki-studio/modelli/civile/157-ricorso-per-atp-con-tentativo-di-conciliazione.md"
+    },
+    {
+      "id": "158",
+      "numero": 158,
+      "titolo": "Procedimento di urgenza",
+      "tipo_atto": "atto",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 700 c.p.c.",
+        "art. 83 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cautelare",
+        "procedimento",
+        "urgenza"
+      ],
+      "file": "wiki-studio/modelli/civile/158-procedimento-di-urgenza.md"
+    },
+    {
+      "id": "159",
+      "numero": 159,
+      "titolo": "Giudizio di merito dopo il provvedimento di urgenza",
+      "tipo_atto": "atto",
+      "rito": "cautelare uniforme (669-bis ss.)",
+      "fase": "tutela cautelare",
+      "materia": "cautelare e istruzione preventiva",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 700 c.p.c.",
+        "art. 125 disp. att.",
+        "art. 83 c.p.c.",
+        "art. 166 c.p.c.",
+        "art. 38 c.p.c.",
+        "art. 167 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "cautelare",
+        "dopo",
+        "giudizio",
+        "merito",
+        "provvedimento",
+        "urgenza"
+      ],
+      "file": "wiki-studio/modelli/civile/159-giudizio-di-merito-dopo-il-provvedimento-di-urgenza.md"
+    },
+    {
+      "id": "160",
+      "numero": 160,
+      "titolo": "Ricorso semplificato di cognizione",
+      "tipo_atto": "ricorso",
+      "rito": "semplificato di cognizione",
+      "fase": "cognizione semplificata (281-decies)",
+      "materia": "rito semplificato di cognizione",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 281-decies c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 281-undecies c.p.c.",
+        "d.lgs. 149/2022"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cognizione",
+        "ricorso",
+        "rito",
+        "semplificato"
+      ],
+      "file": "wiki-studio/modelli/civile/160-ricorso-semplificato-di-cognizione.md"
+    },
+    {
+      "id": "161",
+      "numero": 161,
+      "titolo": "Decreto di fissazione dell’udienza",
+      "tipo_atto": "decreto",
+      "rito": "semplificato di cognizione",
+      "fase": "cognizione semplificata (281-decies)",
+      "materia": "rito semplificato di cognizione",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 281-undecies c.p.c.",
+        "art. 86 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "decreto",
+        "dell",
+        "fissazione",
+        "rito",
+        "udienza"
+      ],
+      "file": "wiki-studio/modelli/civile/161-decreto-di-fissazione-delludienza.md"
+    },
+    {
+      "id": "162",
+      "numero": 162,
+      "titolo": "Costituzione del convenuto",
+      "tipo_atto": "comparsa di costituzione",
+      "rito": "semplificato di cognizione",
+      "fase": "cognizione semplificata (281-decies)",
+      "materia": "rito semplificato di cognizione",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 281-undecies c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 176 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "comparsa",
+        "convenuto",
+        "costituzione",
+        "rito"
+      ],
+      "file": "wiki-studio/modelli/civile/162-costituzione-del-convenuto.md"
+    },
+    {
+      "id": "163",
+      "numero": 163,
+      "titolo": "Ordinanza di mutamento del rito da semplificato ad ordinario",
+      "tipo_atto": "ordinanza",
+      "rito": "semplificato di cognizione",
+      "fase": "cognizione semplificata (281-decies)",
+      "materia": "rito semplificato di cognizione",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 281-duodecies c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "mutamento",
+        "ordinanza",
+        "ordinario",
+        "rito",
+        "semplificato"
+      ],
+      "file": "wiki-studio/modelli/civile/163-ordinanza-di-mutamento-del-rito-da-semplificato-ad-ordinario.md"
+    },
+    {
+      "id": "164",
+      "numero": 164,
+      "titolo": "Note autorizzate per precisare le domande, le eccezioni e le conclusioni, indicare i mezzi di prova e produrre documenti",
+      "tipo_atto": "atto",
+      "rito": "semplificato di cognizione",
+      "fase": "cognizione semplificata (281-decies)",
+      "materia": "rito semplificato di cognizione",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 281-duodecies c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "autorizzate",
+        "conclusioni",
+        "documenti",
+        "domande",
+        "eccezioni",
+        "indicare",
+        "mezzi",
+        "note",
+        "precisare",
+        "produrre",
+        "prova",
+        "rito"
+      ],
+      "file": "wiki-studio/modelli/civile/164-note-autorizzate-per-precisare-le-domande-le-eccezioni-e-le-conclusion.md"
+    },
+    {
+      "id": "165",
+      "numero": 165,
+      "titolo": "Memorie autorizzate di replica e prova contraria",
+      "tipo_atto": "memoria",
+      "rito": "semplificato di cognizione",
+      "fase": "cognizione semplificata (281-decies)",
+      "materia": "rito semplificato di cognizione",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 281-duodecies c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "autorizzate",
+        "contraria",
+        "memoria",
+        "memorie",
+        "prova",
+        "replica",
+        "rito"
+      ],
+      "file": "wiki-studio/modelli/civile/165-memorie-autorizzate-di-replica-e-prova-contraria.md"
+    },
+    {
+      "id": "166",
+      "numero": 166,
+      "titolo": "Sentenza",
+      "tipo_atto": "sentenza",
+      "rito": "semplificato di cognizione",
+      "fase": "cognizione semplificata (281-decies)",
+      "materia": "rito semplificato di cognizione",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 281-terdecies c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "rito",
+        "sentenza"
+      ],
+      "file": "wiki-studio/modelli/civile/166-sentenza.md"
+    },
+    {
+      "id": "167",
+      "numero": 167,
+      "titolo": "Reintegrazione e manutenzione nel possesso",
+      "tipo_atto": "atto",
+      "rito": "possessorio / cautelare",
+      "fase": "tutela possessoria",
+      "materia": "possesso (nunciazione/possessorie)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 703 c.p.c.",
+        "art. 83 c.p.c.",
+        "art. 1168 c.c.",
+        "art. 1170 c.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "manutenzione",
+        "possesso",
+        "reintegrazione"
+      ],
+      "file": "wiki-studio/modelli/civile/167-reintegrazione-e-manutenzione-nel-possesso.md"
+    },
+    {
+      "id": "168",
+      "numero": 168,
+      "titolo": "Giudizio di merito dopo le azioni possessorie",
+      "tipo_atto": "atto",
+      "rito": "possessorio / cautelare",
+      "fase": "tutela possessoria",
+      "materia": "possesso (nunciazione/possessorie)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 703 c.p.c.",
+        "art. 669-octies c.p.c.",
+        "art. 166 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "azioni",
+        "dopo",
+        "giudizio",
+        "merito",
+        "possesso",
+        "possessorie"
+      ],
+      "file": "wiki-studio/modelli/civile/168-giudizio-di-merito-dopo-le-azioni-possessorie.md"
+    },
+    {
+      "id": "169",
+      "numero": 169,
+      "titolo": "Ricorso a firma congiunta dei coniugi per separazione consensuale",
+      "tipo_atto": "ricorso",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "art. 150 c.c.",
+        "d.P.R. 396/2000",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "congiunta",
+        "coniugi",
+        "consensuale",
+        "firma",
+        "ricorso",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/169-ricorso-a-firma-congiunta-dei-coniugi-per-separazione-consensuale.md"
+    },
+    {
+      "id": "170",
+      "numero": 170,
+      "titolo": "Ricorso per separazione giudiziale",
+      "tipo_atto": "ricorso",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "art. 151 c.c.",
+        "d.P.R. 396/2000",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "giudiziale",
+        "ricorso",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/170-ricorso-per-separazione-giudiziale.md"
+    },
+    {
+      "id": "171",
+      "numero": 171,
+      "titolo": "Piano genitoriale",
+      "tipo_atto": "piano genitoriale",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "genitoriale",
+        "piano",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/171-piano-genitoriale.md"
+    },
+    {
+      "id": "172",
+      "numero": 172,
+      "titolo": "Costituzione del convenuto",
+      "tipo_atto": "comparsa di costituzione",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "art. 147 c.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "comparsa",
+        "convenuto",
+        "costituzione",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/172-costituzione-del-convenuto.md"
+    },
+    {
+      "id": "173",
+      "numero": 173,
+      "titolo": "Richiesta di modifica o revoca della ordinanza di provvedimenti temporanei",
+      "tipo_atto": "ordinanza",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "della",
+        "modifica",
+        "ordinanza",
+        "provvedimenti",
+        "revoca",
+        "richiesta",
+        "separazione",
+        "temporanei"
+      ],
+      "file": "wiki-studio/modelli/civile/173-richiesta-di-modifica-o-revoca-della-ordinanza-di-provvedimenti-tempor.md"
+    },
+    {
+      "id": "174",
+      "numero": 174,
+      "titolo": "Istanza per la revisione dell’assegno di mantenimento (separazione)",
+      "tipo_atto": "istanza",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "art. 337-quinquies c.c.",
+        "art. 473-bis.29 c.p.c.",
+        "d.lgs. 154/2013",
+        "legge 54/2006",
+        "d.P.R. 115/2002",
+        "d.lgs. 196/2003"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "assegno",
+        "dell",
+        "istanza",
+        "mantenimento",
+        "revisione",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/174-istanza-per-la-revisione-dellassegno-di-mantenimento-separazione.md"
+    },
+    {
+      "id": "175",
+      "numero": 175,
+      "titolo": "Ricorso giudiziale per la cessazione degli effetti civili del matrimonio (divorzio)",
+      "tipo_atto": "ricorso",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "art. 106 c.c.",
+        "legge 898/1970",
+        "legge 55/2015",
+        "d.P.R. 396/2000",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cessazione",
+        "civili",
+        "degli",
+        "divorzio",
+        "effetti",
+        "giudiziale",
+        "matrimonio",
+        "ricorso",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/175-ricorso-giudiziale-per-la-cessazione-degli-effetti-civili-del-matrimon.md"
+    },
+    {
+      "id": "176",
+      "numero": 176,
+      "titolo": "Ricorso a firma congiunta per la cessazione degli effetti civili del matrimonio (divorzio)",
+      "tipo_atto": "ricorso",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "legge 898/1970",
+        "l. 55/2015",
+        "d.lgs. 154/2013",
+        "d.P.R. 396/2000",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cessazione",
+        "civili",
+        "congiunta",
+        "degli",
+        "divorzio",
+        "effetti",
+        "firma",
+        "matrimonio",
+        "ricorso",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/176-ricorso-a-firma-congiunta-per-la-cessazione-degli-effetti-civili-del-m.md"
+    },
+    {
+      "id": "177",
+      "numero": 177,
+      "titolo": "Comparsa di costituzione e risposta (divorzio)",
+      "tipo_atto": "comparsa di costituzione e risposta",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "legge 898/1970",
+        "legge 74/1983"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "comparsa",
+        "costituzione",
+        "divorzio",
+        "risposta",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/177-comparsa-di-costituzione-e-risposta-divorzio.md"
+    },
+    {
+      "id": "178",
+      "numero": 178,
+      "titolo": "Ricorso per la revisione dell’assegno di mantenimento (divorzio)",
+      "tipo_atto": "ricorso",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "legge 898/1970",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "assegno",
+        "dell",
+        "divorzio",
+        "mantenimento",
+        "revisione",
+        "ricorso",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/178-ricorso-per-la-revisione-dellassegno-di-mantenimento-divorzio.md"
+    },
+    {
+      "id": "179",
+      "numero": 179,
+      "titolo": "Verbale di negoziazione assistita per la separazione/divorzio",
+      "tipo_atto": "verbale",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "art. 246 c.p.c.",
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "d.l. n. 132/2014",
+        "d.lgs. 149/2022",
+        "l. 76/2016"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "assistita",
+        "divorzio",
+        "negoziazione",
+        "separazione",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/179-verbale-di-negoziazione-assistita-per-la-separazionedivorzio.md"
+    },
+    {
+      "id": "180",
+      "numero": 180,
+      "titolo": "Ricorso con cumulo della domanda di separazione e divorzio",
+      "tipo_atto": "ricorso",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "legge 55/2015",
+        "d.P.R. 396/2000",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "cumulo",
+        "della",
+        "divorzio",
+        "domanda",
+        "ricorso",
+        "separazione"
+      ],
+      "file": "wiki-studio/modelli/civile/180-ricorso-con-cumulo-della-domanda-di-separazione-e-divorzio.md"
+    },
+    {
+      "id": "181",
+      "numero": 181,
+      "titolo": "Verbale di trasferimento immobiliare nell’accordo di separazione o divorzio",
+      "tipo_atto": "verbale",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accordo",
+        "divorzio",
+        "immobiliare",
+        "nell",
+        "separazione",
+        "trasferimento",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/181-verbale-di-trasferimento-immobiliare-nellaccordo-di-separazione-o-divo.md"
+    },
+    {
+      "id": "182",
+      "numero": 182,
+      "titolo": "Note di trattazione scritta (separazione/divorzio)",
+      "tipo_atto": "atto",
+      "rito": "unificato famiglia (473-bis c.p.c.)",
+      "fase": "famiglia e persone",
+      "materia": "separazione / divorzio / rito unificato famiglia",
+      "competenza_orientativa": "Tribunale, sezione famiglia (rito 473-bis)",
+      "norme_chiave": [
+        "art. 127-ter c.p.c.",
+        "d.P.R. 369/2000"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "atto",
+        "divorzio",
+        "note",
+        "scritta",
+        "separazione",
+        "trattazione"
+      ],
+      "file": "wiki-studio/modelli/civile/182-note-di-trattazione-scritta-separazionedivorzio.md"
+    },
+    {
+      "id": "183",
+      "numero": 183,
+      "titolo": "Convenzione volontaria di negoziazione assistita",
+      "tipo_atto": "convenzione",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 246 c.p.c.",
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "d.l. n. 132/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adr",
+        "assistita",
+        "convenzione",
+        "negoziazione",
+        "volontaria"
+      ],
+      "file": "wiki-studio/modelli/civile/183-convenzione-volontaria-di-negoziazione-assistita.md"
+    },
+    {
+      "id": "184",
+      "numero": 184,
+      "titolo": "Invito alla stipula di convenzione di negoziazione, quando è condizione di procedibilità della domanda (risarcimento danni da circolazione stradale)",
+      "tipo_atto": "convenzione",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "d.lgs. 105/2006"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adr",
+        "alla",
+        "circolazione",
+        "condizione",
+        "convenzione",
+        "danni",
+        "della",
+        "domanda",
+        "invito",
+        "negoziazione",
+        "procedibilità",
+        "quando",
+        "risarcimento",
+        "stipula",
+        "stradale"
+      ],
+      "file": "wiki-studio/modelli/civile/184-invito-alla-stipula-di-convenzione-di-negoziazione-quando-e-condizione.md"
+    },
+    {
+      "id": "185",
+      "numero": 185,
+      "titolo": "Invito alla stipula di convenzione di negoziazione, quando è condizione di procedibilità della domanda (pagamento somma)",
+      "tipo_atto": "convenzione",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adr",
+        "alla",
+        "condizione",
+        "convenzione",
+        "della",
+        "domanda",
+        "invito",
+        "negoziazione",
+        "pagamento",
+        "procedibilità",
+        "quando",
+        "somma",
+        "stipula"
+      ],
+      "file": "wiki-studio/modelli/civile/185-invito-alla-stipula-di-convenzione-di-negoziazione-quando-e-condizione.md"
+    },
+    {
+      "id": "186",
+      "numero": 186,
+      "titolo": "Convenzione di negoziazione assistita quando è condizione di procedibilità della domanda",
+      "tipo_atto": "convenzione",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "legge 162/2014",
+        "d.lgs. 196/2003"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adr",
+        "assistita",
+        "condizione",
+        "convenzione",
+        "della",
+        "domanda",
+        "negoziazione",
+        "procedibilità",
+        "quando"
+      ],
+      "file": "wiki-studio/modelli/civile/186-convenzione-di-negoziazione-assistita-quando-e-condizione-di-procedibi.md"
+    },
+    {
+      "id": "187",
+      "numero": 187,
+      "titolo": "Adesione alla negoziazione assistita",
+      "tipo_atto": "adesione",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adesione",
+        "adr",
+        "alla",
+        "assistita",
+        "negoziazione"
+      ],
+      "file": "wiki-studio/modelli/civile/187-adesione-alla-negoziazione-assistita.md"
+    },
+    {
+      "id": "188",
+      "numero": 188,
+      "titolo": "Dichiarazione di mancato accordo in negoziazione assistita certificata dagli avvocati",
+      "tipo_atto": "dichiarazione",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accordo",
+        "adr",
+        "assistita",
+        "avvocati",
+        "certificata",
+        "dagli",
+        "dichiarazione",
+        "mancato",
+        "negoziazione"
+      ],
+      "file": "wiki-studio/modelli/civile/188-dichiarazione-di-mancato-accordo-in-negoziazione-assistita-certificata.md"
+    },
+    {
+      "id": "189",
+      "numero": 189,
+      "titolo": "Verbale di accordo",
+      "tipo_atto": "verbale",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accordo",
+        "adr",
+        "verbale"
+      ],
+      "file": "wiki-studio/modelli/civile/189-verbale-di-accordo.md"
+    },
+    {
+      "id": "190",
+      "numero": 190,
+      "titolo": "Eccezione di improcedibilità per mancato esperimento della procedura di negoziazione",
+      "tipo_atto": "atto",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 176 c.p.c.",
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adr",
+        "atto",
+        "della",
+        "eccezione",
+        "esperimento",
+        "improcedibilità",
+        "mancato",
+        "negoziazione",
+        "procedura"
+      ],
+      "file": "wiki-studio/modelli/civile/190-eccezione-di-improcedibilita-per-mancato-esperimento-della-procedura-d.md"
+    },
+    {
+      "id": "191",
+      "numero": 191,
+      "titolo": "Negoziazione assistita demandata dal giudice",
+      "tipo_atto": "atto",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "adr",
+        "assistita",
+        "atto",
+        "demandata",
+        "giudice",
+        "negoziazione"
+      ],
+      "file": "wiki-studio/modelli/civile/191-negoziazione-assistita-demandata-dal-giudice.md"
+    },
+    {
+      "id": "192",
+      "numero": 192,
+      "titolo": "Esecutività dell’accordo di negoziazione",
+      "tipo_atto": "atto",
+      "rito": "negoziazione assistita",
+      "fase": "negoziazione assistita",
+      "materia": "ADR - negoziazione assistita (D.L. 132/2014)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 474 c.p.c.",
+        "art. 480 c.p.c.",
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "volatilita": "media",
+      "keywords": [
+        "accordo",
+        "adr",
+        "atto",
+        "dell",
+        "esecutività",
+        "negoziazione"
+      ],
+      "file": "wiki-studio/modelli/civile/192-esecutivita-dellaccordo-di-negoziazione.md"
+    },
+    {
+      "id": "193",
+      "numero": 193,
+      "titolo": "Clausola compromissoria per arbitrato rituale",
+      "tipo_atto": "clausola",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 808 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrato",
+        "clausola",
+        "compromissoria",
+        "rituale"
+      ],
+      "file": "wiki-studio/modelli/civile/193-clausola-compromissoria-per-arbitrato-rituale.md"
+    },
+    {
+      "id": "194",
+      "numero": 194,
+      "titolo": "Clausola compromissoria per arbitrato irrituale",
+      "tipo_atto": "clausola",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 808-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrato",
+        "clausola",
+        "compromissoria",
+        "irrituale"
+      ],
+      "file": "wiki-studio/modelli/civile/194-clausola-compromissoria-per-arbitrato-irrituale.md"
+    },
+    {
+      "id": "195",
+      "numero": 195,
+      "titolo": "Nomina di arbitri previsti dalla convenzione di arbitrato",
+      "tipo_atto": "convenzione",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 808-bis c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrato",
+        "arbitri",
+        "convenzione",
+        "dalla",
+        "nomina",
+        "previsti"
+      ],
+      "file": "wiki-studio/modelli/civile/195-nomina-di-arbitri-previsti-dalla-convenzione-di-arbitrato.md"
+    },
+    {
+      "id": "196",
+      "numero": 196,
+      "titolo": "Risposta della controparte alla nomina degli arbitri",
+      "tipo_atto": "atto",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 810 c.p.c.",
+        "art. 816 c.p.c.",
+        "art. 809 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "alla",
+        "arbitrato",
+        "arbitri",
+        "atto",
+        "controparte",
+        "degli",
+        "della",
+        "nomina",
+        "risposta"
+      ],
+      "file": "wiki-studio/modelli/civile/196-risposta-della-controparte-alla-nomina-degli-arbitri.md"
+    },
+    {
+      "id": "197",
+      "numero": 197,
+      "titolo": "Ricorso al tribunale per la nomina di arbitri",
+      "tipo_atto": "ricorso",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 810 c.p.c.",
+        "art. 808-bis c.p.c.",
+        "d.lgs. 40/2006",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrato",
+        "arbitri",
+        "nomina",
+        "ricorso",
+        "tribunale"
+      ],
+      "file": "wiki-studio/modelli/civile/197-ricorso-al-tribunale-per-la-nomina-di-arbitri.md"
+    },
+    {
+      "id": "198",
+      "numero": 198,
+      "titolo": "Istruzione probatoria",
+      "tipo_atto": "atto",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 816-ter c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrato",
+        "atto",
+        "istruzione",
+        "probatoria"
+      ],
+      "file": "wiki-studio/modelli/civile/198-istruzione-probatoria.md"
+    },
+    {
+      "id": "199",
+      "numero": 199,
+      "titolo": "Lodo arbitrale",
+      "tipo_atto": "lodo",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrale",
+        "arbitrato",
+        "lodo"
+      ],
+      "file": "wiki-studio/modelli/civile/199-lodo-arbitrale.md"
+    },
+    {
+      "id": "200",
+      "numero": 200,
+      "titolo": "Deposito del lodo",
+      "tipo_atto": "lodo",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 825 c.p.c.",
+        "art. 808-bis c.p.c.",
+        "art. 133 c.p.c."
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrato",
+        "deposito",
+        "lodo"
+      ],
+      "file": "wiki-studio/modelli/civile/200-deposito-del-lodo.md"
+    },
+    {
+      "id": "201",
+      "numero": 201,
+      "titolo": "Impugnazione del lodo per nullità",
+      "tipo_atto": "lodo",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 828 c.p.c.",
+        "art. 808-bis c.p.c.",
+        "art. 823 c.p.c.",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrato",
+        "impugnazione",
+        "lodo",
+        "nullità"
+      ],
+      "file": "wiki-studio/modelli/civile/201-impugnazione-del-lodo-per-nullita.md"
+    },
+    {
+      "id": "202",
+      "numero": 202,
+      "titolo": "Istanza congiunta di trasferimento dei procedimenti giudiziari in sede arbitrale",
+      "tipo_atto": "istanza",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "art. 808 c.p.c.",
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrale",
+        "arbitrato",
+        "congiunta",
+        "giudiziari",
+        "istanza",
+        "procedimenti",
+        "sede",
+        "trasferimento"
+      ],
+      "file": "wiki-studio/modelli/civile/202-istanza-congiunta-di-trasferimento-dei-procedimenti-giudiziari-in-sede.md"
+    },
+    {
+      "id": "203",
+      "numero": 203,
+      "titolo": "Ordinanza di trasmissione del fascicolo al presidente del c.d.o. per la nomina del collegio arbitrale",
+      "tipo_atto": "ordinanza",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrale",
+        "arbitrato",
+        "collegio",
+        "fascicolo",
+        "nomina",
+        "ordinanza",
+        "presidente",
+        "trasmissione"
+      ],
+      "file": "wiki-studio/modelli/civile/203-ordinanza-di-trasmissione-del-fascicolo-al-presidente-del-cdo-per-la-n.md"
+    },
+    {
+      "id": "204",
+      "numero": 204,
+      "titolo": "Dichiarazione di disponibilità dell’avvocato al c.d.o. per essere nominato arbitro",
+      "tipo_atto": "dichiarazione",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "arbitrato",
+        "arbitro",
+        "avvocato",
+        "dell",
+        "dichiarazione",
+        "disponibilità",
+        "essere",
+        "nominato"
+      ],
+      "file": "wiki-studio/modelli/civile/204-dichiarazione-di-disponibilita-dellavvocato-al-cdo-per-essere-nominato.md"
+    },
+    {
+      "id": "205",
+      "numero": 205,
+      "titolo": "Riassunzione del processo di appello per scadenza dei termini di conclusione del procedimento arbitrale",
+      "tipo_atto": "atto di appello",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "legge 162/2014",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "appello",
+        "arbitrale",
+        "arbitrato",
+        "atto",
+        "conclusione",
+        "procedimento",
+        "processo",
+        "riassunzione",
+        "scadenza",
+        "termini"
+      ],
+      "file": "wiki-studio/modelli/civile/205-riassunzione-del-processo-di-appello-per-scadenza-dei-termini-di-concl.md"
+    },
+    {
+      "id": "206",
+      "numero": 206,
+      "titolo": "Riassunzione del processo di appello per nullità del lodo arbitrale emesso in seguito a trasferimento in sede arbitrale",
+      "tipo_atto": "atto di appello",
+      "rito": "arbitrato rituale/irrituale",
+      "fase": "arbitrato",
+      "materia": "arbitrato (806 ss. c.p.c.)",
+      "competenza_orientativa": "Tribunale ordinario, monocratico",
+      "norme_chiave": [
+        "d.l. 132/2014",
+        "l. 162/2014",
+        "d.P.R. 115/2002"
+      ],
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "volatilita": "bassa",
+      "keywords": [
+        "appello",
+        "arbitrale",
+        "arbitrato",
+        "atto",
+        "emesso",
+        "lodo",
+        "nullità",
+        "processo",
+        "riassunzione",
+        "sede",
+        "seguito",
+        "trasferimento"
+      ],
+      "file": "wiki-studio/modelli/civile/206-riassunzione-del-processo-di-appello-per-nullita-del-lodo-arbitrale-em.md"
+    }
+  ]
+}

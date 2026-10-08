@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "fonte": "D.M. Giustizia 7 agosto 2023, n. 110 (Regolamento per la definizione dei criteri di redazione, dei limiti e degli schemi informatici degli atti giudiziari), artt. 1-6; art. 46 disp. att. c.p.c.",
+    "verificato_il": "2026-09-23",
+    "verificato_su": "testo vigente nel corpus locale (dm-110-2023, normattiva caricaAKN urn:nir:ministero.giustizia:decreto:2023-08-07;110, snapshot 2026-09-19): `python3 scripts/norma.py --riferimento \"art. N D.M. 110/2023\"` per N = 1…6. La sentinella lo riconferma a ogni refresh.",
+    "nota": "Parametri LETTI DA QUESTA TABELLA da lint_atto.py e pct_check.py: mai cablati nel codice. Le voci con `da_confermare: true` vanno rilette sul testo primario prima di considerarle vincolanti; il lint le segnala come 🟡, non 🔴. v0.29: corretti i rinvii (fino alla v0.28 esclusioni, deroga e tipografia erano attribuite agli artt. 3 co. 2, 3 co. 3 e 4: sono gli artt. 4, 5 e 6); gli spazi NON si contano; memoria di replica a 50.000; istanze fuori dai 10.000.",
+    "prossima_verifica": "2026-10-23"
+  },
+  "ambito": {
+    "_regola": "art. 1: il decreto «stabilisce altresì i limiti dimensionali degli atti del processo civile per le cause di valore inferiore a euro 500.000»",
+    "valore_massimo_eur": 500000,
+    "da_confermare": false
+  },
+  "caratteri": {
+    "_regola": "art. 3: «Salve le esclusioni e le deroghe previste dagli articoli 4 e 5, l'esposizione è contenuta nel limite massimo di» 80.000 / 50.000 / 10.000 caratteri; ultimo comma: «Nel conteggio del numero massimo di caratteri non si computano gli spazi».",
+    "spazi_computati": false,
+    "80000": {
+      "pagine_circa": 40,
+      "tipi": ["citazione", "ricorso_semplificato", "ricorso_lavoro", "ricorso_monitorio", "comparsa_166_167", "comparsa_opposto_di", "citazione_opposizione_di", "appello_342", "cassazione_366", "comparsa_conclusionale", "ricorso_702bis", "cautelare_669bis", "memoria_costituzione_cautelare"],
+      "descrizione": "art. 3 lett. a): atto di citazione e ricorso, comparsa di risposta e memoria difensiva, atti di intervento e chiamata di terzi, comparse e note conclusionali, atti introduttivi dei giudizi di impugnazione",
+      "da_confermare": false
+    },
+    "50000": {
+      "pagine_circa": 26,
+      "tipi": ["memoria_171ter", "memoria_183_6", "memoria_replica", "memoria_istruttoria", "note_precisazione_conclusioni", "istanza", "note_udienza"],
+      "descrizione": "art. 3 lett. b): memorie, repliche e in genere tutti gli altri atti del giudizio (le «note di precisazione delle conclusioni» dell'art. 189 n. 1 c.p.c. sono qui prudenzialmente: le «note conclusionali» della lett. a) sono le difese conclusive)",
+      "da_confermare": false
+    },
+    "10000": {
+      "pagine_circa": 5,
+      "tipi": ["note_127ter"],
+      "descrizione": "art. 3 lett. c): note scritte in sostituzione dell'udienza di cui all'art. 127-ter c.p.c., quando non è necessario svolgere attività difensive possibili soltanto all'udienza",
+      "da_confermare": false
+    }
+  },
+  "esclusioni": {
+    "_regola": "art. 4: esclusi dai limiti dell'art. 3: a) gli elementi dell'art. 2 lett. a), b), c), d), h), i), l), m), n) (intestazione, parti, parole chiave, estremi del provvedimento impugnato, conclusioni, mezzi di prova e indice dei documenti, valore, distrazione delle spese, ammissione al patrocinio a spese dello Stato); b) l'indice e la sintesi dell'atto; c) le indicazioni, le dichiarazioni e gli avvertimenti previsti dalla legge; d) la data e il luogo, le sottoscrizioni delle parti e dei difensori; e) le relazioni di notifica e le relative richieste e dichiarazioni; f) i riferimenti giurisprudenziali riportati nelle note. Computati: fatti e motivi in diritto (art. 2 lett. e, f, g). NB: l'art. 4 rinvia testualmente all'«articolo 2, comma 2»; l'elenco per lettere è quello dell'art. 2 riportato sotto.",
+    "computati": ["fatto", "diritto", "motivi"],
+    "da_confermare": false
+  },
+  "deroga": {
+    "_regola": "art. 5: co. 1 limiti superabili per «questioni di particolare complessità, anche in ragione della tipologia, del valore, del numero delle parti o della natura degli interessi coinvolti» — «il difensore espone sinteticamente nell'atto le ragioni per le quali si è reso necessario il superamento dei limiti»; co. 2 «dopo l'intestazione il difensore inserisce un indice, preferibilmente con collegamenti ipertestuali, e una breve sintesi del contenuto dell'atto»; co. 3 domanda riconvenzionale, chiamata di terzo, integrazione del contraddittorio, riassunzione, impugnazione incidentale giustificano il ragionevole superamento.",
+    "indice_e_sintesi": true,
+    "da_confermare": false
+  },
+  "tipografia": {
+    "_regola": "art. 6: «caratteri di tipo corrente, preferibilmente: … 12 punti; … interlinea di 1,5; … margini orizzontali e verticali di 2,5 centimetri»; note non consentite salvo precedenti giurisprudenziali e riferimenti dottrinari. Formato PDF nativo: specifiche tecniche PCT (pct-specifiche.json).",
+    "font_pt": 12,
+    "interlinea": 1.5,
+    "margini_cm": 2.5,
+    "note_ammesse": "solo precedenti giurisprudenziali e riferimenti dottrinari",
+    "preferibilmente": true,
+    "da_confermare": false
+  },
+  "struttura": {
+    "_regola": "art. 2: articolazione di citazioni e ricorsi, comparse di risposta, memorie difensive, controricorsi e atti di intervento: a) intestazione (ufficio e tipologia di atto); b) parti, con le indicazioni di legge; c) parole chiave, massimo venti; d) nelle impugnazioni, estremi del provvedimento impugnato (autorità, data di pubblicazione ed eventuale notifica); e) esposizione distinta e specifica, in parti separate e rubricate, di fatti e motivi in diritto; f) nel fatto, riferimento ai documenti in ordine numerico progressivo; g) motivi di diritto: questioni pregiudiziali, preliminari e di merito, norme e precedenti; h) conclusioni distinte per questione e subordinate; i) mezzi di prova e indice dei documenti con la stessa numerazione; l) valore della controversia; m) richiesta di distrazione delle spese; n) provvedimento di ammissione al patrocinio a spese dello Stato. Ultimo comma: si applica in quanto compatibile agli altri atti; gli atti successivi alla costituzione indicano il numero di ruolo.",
+    "parole_chiave_max": 20,
+    "sezioni_obbligatorie": ["intestazione", "parti", "parole_chiave", "fatto", "diritto", "conclusioni", "mezzi_di_prova", "documenti", "valore"],
+    "elementi_se_ricorrono": ["provvedimento_impugnato", "distrazione_spese", "patrocinio_stato"],
+    "indice_e_sintesi_sopra_soglia": true,
+    "da_confermare": false
+  },
+  "sanzioni": {
+    "_regola": "art. 46 disp. att. c.p.c. (testo vigente): «Il mancato rispetto delle specifiche tecniche sulla forma e sullo schema informatico e dei criteri e limiti di redazione dell'atto non comporta invalidità, ma può essere valutato dal giudice ai fini della decisione sulle spese del processo»; il limite non tiene conto dell'intestazione e delle altre indicazioni formali, fra cui indice e breve sintesi.",
+    "invalidita": false,
+    "rileva_per_spese": true,
+    "da_confermare": false
+  }
+}

@@ -1,0 +1,3754 @@
+{
+  "_meta": {
+    "descrizione": "Sidecar freschezza dei modelli d'atto. La freschezza di ogni modello e' DERIVATA dalle voci del changelog in 'changelog_deps' (piu' la propria prossima_verifica). Letto da scripts/freshness.py --modelli.",
+    "verificato_il_globale": "2026-09-23",
+    "fonte": "Catalogo dei modelli d'atto (testi di febbraio 2026)",
+    "regola": "modello SOSPETTO se da_ricontrollare (o stato da_ricontrollare); SCADUTO/SOSPETTO se lo e' una changelog_dep o se e' passata la prossima_verifica; il verdetto sul TESTO (🟢/🟡/🔴) e' della sentinella mensile (sentinella_modelli.py).",
+    "campi_sentinella": "v0.29: ambito (giudiziario|documento: quali formule obsolete si applicano), tipi_requisiti (chiavi di requisiti-per-tipo.json), norme_allineate_al (data a cui il testo del modello e' allineato alle norme citate: ogni modifica successiva e' segnalata da scripts/sentinella_modelli.py), da_ricontrollare {motivo, dal, fonte, norme} (fonte: sentinella | sviluppo | avvocato). Le marcature a runtime vanno nel corpus vivo (corpus.py --patch-json), mai qui.",
+    "primo_giro_sentinella": "2026-09-23: 206 modelli; verificato_il/norme_allineate_al aggiornati solo per i modelli risultati 🟢 (testo confrontato con le norme citate nel corpus locale, snapshot 2026-09-18/23); correzioni non ambigue applicate al fac-simile (wiki-studio/modelli/report-sentinella-2026-09.md); i casi che chiedono un giudizio restano da_ricontrollare."
+  },
+  "modelli": [
+    {
+      "id": "001",
+      "titolo": "Informativa al cliente e trattamento dei dati personali (redatta dal C.N.F.)",
+      "file": "wiki-studio/modelli/civile/001-informativa-al-cliente-e-trattamento-dei-dati-personali-redatta-dal-cn.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "002",
+      "titolo": "Informativa al cliente sulla mediazione",
+      "file": "wiki-studio/modelli/civile/002-informativa-al-cliente-sulla-mediazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "003",
+      "titolo": "Procura alle liti",
+      "file": "wiki-studio/modelli/civile/003-procura-alle-liti.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "004",
+      "titolo": "Revoca della procura",
+      "file": "wiki-studio/modelli/civile/004-revoca-della-procura.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "005",
+      "titolo": "Rinuncia alla procura",
+      "file": "wiki-studio/modelli/civile/005-rinuncia-alla-procura.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "006",
+      "titolo": "Parcella",
+      "file": "wiki-studio/modelli/civile/006-parcella.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "parametri_forensi"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "alta",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "Parcella impostata su «diritti e onorari»: le tariffe delle professioni regolamentate sono abrogate dall'art. 9 D.L. 1/2012 e i compensi si liquidano secondo i parametri del D.M. 55/2014 (nel corpus: dm-55-2014). Rifare lo schema sui compensi per fasi.",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "dl-1-2012:9"
+        ]
+      }
+    },
+    {
+      "id": "007",
+      "titolo": "Istanza di ammissione al gratuito patrocinio",
+      "file": "wiki-studio/modelli/civile/007-istanza-di-ammissione-al-gratuito-patrocinio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "008",
+      "titolo": "Dichiarazione da allegare all’istanza di patrocinio",
+      "file": "wiki-studio/modelli/civile/008-dichiarazione-da-allegare-allistanza-di-patrocinio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "009",
+      "titolo": "Opposizione a decreto di liquidazione onorario di gratuito patrocinio",
+      "file": "wiki-studio/modelli/civile/009-opposizione-a-decreto-di-liquidazione-onorario-di-gratuito-patrocinio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "010",
+      "titolo": "Appello contro il decreto di diniego del patrocinio",
+      "file": "wiki-studio/modelli/civile/010-appello-contro-il-decreto-di-diniego-del-patrocinio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "atto-di-parte"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "011",
+      "titolo": "Ricorso per Cassazione contro il decreto in appello di diniego del patrocinio",
+      "file": "wiki-studio/modelli/civile/011-ricorso-per-cassazione-contro-il-decreto-in-appello-di-diniego-del-pat.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "cassazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "012",
+      "titolo": "Istanza di mediazione",
+      "file": "wiki-studio/modelli/civile/012-istanza-di-mediazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "013",
+      "titolo": "Atto notorio per l’ammissione al patrocinio a spese dello Stato per il procedimento di mediazione",
+      "file": "wiki-studio/modelli/civile/013-atto-notorio-per-lammissione-al-patrocinio-a-spese-dello-stato-per-il.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "014",
+      "titolo": "Istanza di mediazione a firma congiunta delle parti",
+      "file": "wiki-studio/modelli/civile/014-istanza-di-mediazione-a-firma-congiunta-delle-parti.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "015",
+      "titolo": "Adesione della parte invitata",
+      "file": "wiki-studio/modelli/civile/015-adesione-della-parte-invitata.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "016",
+      "titolo": "Adesione con domanda riconvenzionale",
+      "file": "wiki-studio/modelli/civile/016-adesione-con-domanda-riconvenzionale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "017",
+      "titolo": "Mediazione demandata dal giudice perché obbligatoria",
+      "file": "wiki-studio/modelli/civile/017-mediazione-demandata-dal-giudice-perche-obbligatoria.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "018",
+      "titolo": "Mediazione delegata dal giudice vista la natura della causa",
+      "file": "wiki-studio/modelli/civile/018-mediazione-delegata-dal-giudice-vista-la-natura-della-causa.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "019",
+      "titolo": "Fissazione di termine per completare la procedura di mediazione già proposta",
+      "file": "wiki-studio/modelli/civile/019-fissazione-di-termine-per-completare-la-procedura-di-mediazione-gia-pr.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "020",
+      "titolo": "Istanza di mediazione demandata dal giudice",
+      "file": "wiki-studio/modelli/civile/020-istanza-di-mediazione-demandata-dal-giudice.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "021",
+      "titolo": "Ordinanza di integrazione del contraddittorio in mediazione",
+      "file": "wiki-studio/modelli/civile/021-ordinanza-di-integrazione-del-contraddittorio-in-mediazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "022",
+      "titolo": "Designazione del mediatore e fissazione dell’incontro",
+      "file": "wiki-studio/modelli/civile/022-designazione-del-mediatore-e-fissazione-dellincontro.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "023",
+      "titolo": "Esperimento della procedura di mediazione nel procedimento di opposizione a D.I.",
+      "file": "wiki-studio/modelli/civile/023-esperimento-della-procedura-di-mediazione-nel-procedimento-di-opposizi.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "024",
+      "titolo": "Verbale di mediazione in materia condominiale",
+      "file": "wiki-studio/modelli/civile/024-verbale-di-mediazione-in-materia-condominiale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "025",
+      "titolo": "Verbale di mediazione obbligatoria, facente seguito a clausola di mediazione",
+      "file": "wiki-studio/modelli/civile/025-verbale-di-mediazione-obbligatoria-facente-seguito-a-clausola-di-media.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "026",
+      "titolo": "Verbale di mancata comparizione",
+      "file": "wiki-studio/modelli/civile/026-verbale-di-mancata-comparizione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "027",
+      "titolo": "Verbale di accordo",
+      "file": "wiki-studio/modelli/civile/027-verbale-di-accordo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "028",
+      "titolo": "Verbale negativo di mancato accordo",
+      "file": "wiki-studio/modelli/civile/028-verbale-negativo-di-mancato-accordo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "029",
+      "titolo": "Verbale di mediazione con proposta di conciliazione del mediatore e rinvio per la definizione",
+      "file": "wiki-studio/modelli/civile/029-verbale-di-mediazione-con-proposta-di-conciliazione-del-mediatore-e-ri.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "030",
+      "titolo": "Accettazione o rifiuto della proposta",
+      "file": "wiki-studio/modelli/civile/030-accettazione-o-rifiuto-della-proposta.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "031",
+      "titolo": "Verbale di riconoscimento di usucapione",
+      "file": "wiki-studio/modelli/civile/031-verbale-di-riconoscimento-di-usucapione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "032",
+      "titolo": "Atto di citazione",
+      "file": "wiki-studio/modelli/civile/032-atto-di-citazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "033",
+      "titolo": "Abbreviazione dei termini di comparizione",
+      "file": "wiki-studio/modelli/civile/033-abbreviazione-dei-termini-di-comparizione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "034",
+      "titolo": "Relazione di notificazione: 1) cartacea; 2) telematica",
+      "file": "wiki-studio/modelli/civile/034-relazione-di-notificazione-1-cartacea-2-telematica.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "035",
+      "titolo": "Iscrizione a ruolo – Tabelle del cu",
+      "file": "wiki-studio/modelli/civile/035-iscrizione-a-ruolo-tabelle-del-cu.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "parametri_forensi"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "alta",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "036",
+      "titolo": "Litisconsorzio necessario",
+      "file": "wiki-studio/modelli/civile/036-litisconsorzio-necessario.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "037",
+      "titolo": "Intervento volontario",
+      "file": "wiki-studio/modelli/civile/037-intervento-volontario.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "intervento"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "038",
+      "titolo": "Estromissione del garantito",
+      "file": "wiki-studio/modelli/civile/038-estromissione-del-garantito.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "039",
+      "titolo": "Successione nel processo",
+      "file": "wiki-studio/modelli/civile/039-successione-nel-processo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "040",
+      "titolo": "Anticipazione dell’udienza di comparizione",
+      "file": "wiki-studio/modelli/civile/040-anticipazione-delludienza-di-comparizione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "041",
+      "titolo": "Nullità della citazione",
+      "file": "wiki-studio/modelli/civile/041-nullita-della-citazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "042",
+      "titolo": "Comparsa di costituzione e risposta",
+      "file": "wiki-studio/modelli/civile/042-comparsa-di-costituzione-e-risposta.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "043",
+      "titolo": "Comparsa di costituzione e risposta con domanda riconvenzionale",
+      "file": "wiki-studio/modelli/civile/043-comparsa-di-costituzione-e-risposta-con-domanda-riconvenzionale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "044",
+      "titolo": "Comparsa di costituzione e risposta con eccezione di incompetenza per territorio",
+      "file": "wiki-studio/modelli/civile/044-comparsa-di-costituzione-e-risposta-con-eccezione-di-incompetenza-per.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "045",
+      "titolo": "Comparsa di costituzione e risposta con eccezione di incompetenza per materia",
+      "file": "wiki-studio/modelli/civile/045-comparsa-di-costituzione-e-risposta-con-eccezione-di-incompetenza-per.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "046",
+      "titolo": "Comparsa di costituzione e risposta con eccezione di litispendenza",
+      "file": "wiki-studio/modelli/civile/046-comparsa-di-costituzione-e-risposta-con-eccezione-di-litispendenza.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "047",
+      "titolo": "Comparsa di costituzione con richiesta di riunione per connessione",
+      "file": "wiki-studio/modelli/civile/047-comparsa-di-costituzione-con-richiesta-di-riunione-per-connessione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "048",
+      "titolo": "Comparsa di costituzione con chiamata in garanzia",
+      "file": "wiki-studio/modelli/civile/048-comparsa-di-costituzione-con-chiamata-in-garanzia.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "049",
+      "titolo": "Comparsa di costituzione con chiamata in causa di terzo",
+      "file": "wiki-studio/modelli/civile/049-comparsa-di-costituzione-con-chiamata-in-causa-di-terzo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "050",
+      "titolo": "Atto di citazione di chiamata in causa di terzo",
+      "file": "wiki-studio/modelli/civile/050-atto-di-citazione-di-chiamata-in-causa-di-terzo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "051",
+      "titolo": "Prima udienza di comparizione",
+      "file": "wiki-studio/modelli/civile/051-prima-udienza-di-comparizione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "052a",
+      "titolo": "Memorie integrative ex art. 171-ter, comma 1, n. 1), c.p.c. (1° termine)",
+      "file": "wiki-studio/modelli/civile/052a-memorie-integrative-ex-art-171-ter-comma-1-n-1-cpc-1-termine.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "052b",
+      "titolo": "Memorie integrative di replica e note istruttorie ex art. 171-ter, comma 1, n. 2, c.p.c. (2° termine)",
+      "file": "wiki-studio/modelli/civile/052b-memorie-integrative-di-replica-e-note-istruttorie-ex-art-171-ter-comma.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "054",
+      "titolo": "Ordinanza di accoglimento della domanda su diritti disponibili delle parti",
+      "file": "wiki-studio/modelli/civile/054-ordinanza-di-accoglimento-della-domanda-su-diritti-disponibili-delle-p.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "055",
+      "titolo": "Ordinanza per il pagamento di somme non contestate",
+      "file": "wiki-studio/modelli/civile/055-ordinanza-per-il-pagamento-di-somme-non-contestate.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "056",
+      "titolo": "Ordinanza ingiunzione di pagamento",
+      "file": "wiki-studio/modelli/civile/056-ordinanza-ingiunzione-di-pagamento.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "057",
+      "titolo": "Dichiarazione testimoniale scritta",
+      "file": "wiki-studio/modelli/civile/057-dichiarazione-testimoniale-scritta.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "058",
+      "titolo": "Deferimento di giuramento decisorio",
+      "file": "wiki-studio/modelli/civile/058-deferimento-di-giuramento-decisorio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "059",
+      "titolo": "Deferimento di giuramento suppletorio",
+      "file": "wiki-studio/modelli/civile/059-deferimento-di-giuramento-suppletorio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "060",
+      "titolo": "Deferimento di interrogatorio formale",
+      "file": "wiki-studio/modelli/civile/060-deferimento-di-interrogatorio-formale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "061",
+      "titolo": "Citazione di testimoni a mezzo ufficiale giudiziario",
+      "file": "wiki-studio/modelli/civile/061-citazione-di-testimoni-a-mezzo-ufficiale-giudiziario.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "062",
+      "titolo": "Citazione di testimoni a cura dell’avvocato",
+      "file": "wiki-studio/modelli/civile/062-citazione-di-testimoni-a-cura-dellavvocato.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "063",
+      "titolo": "Note scritte di precisazione delle conclusioni",
+      "file": "wiki-studio/modelli/civile/063-note-scritte-di-precisazione-delle-conclusioni.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "064",
+      "titolo": "Comparsa conclusionale",
+      "file": "wiki-studio/modelli/civile/064-comparsa-conclusionale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "065",
+      "titolo": "Memorie di replica",
+      "file": "wiki-studio/modelli/civile/065-memorie-di-replica.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "066",
+      "titolo": "Istanza di correzione di sentenze ed ordinanze",
+      "file": "wiki-studio/modelli/civile/066-istanza-di-correzione-di-sentenze-ed-ordinanze.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "067",
+      "titolo": "Interruzione del processo per morte della parte o del difensore",
+      "file": "wiki-studio/modelli/civile/067-interruzione-del-processo-per-morte-della-parte-o-del-difensore.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "068",
+      "titolo": "Riassunzione del processo interrotto",
+      "file": "wiki-studio/modelli/civile/068-riassunzione-del-processo-interrotto.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "069",
+      "titolo": "Estinzione del processo per rinuncia o per inattività delle parti",
+      "file": "wiki-studio/modelli/civile/069-estinzione-del-processo-per-rinuncia-o-per-inattivita-delle-parti.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "070",
+      "titolo": "Riassunzione del processo",
+      "file": "wiki-studio/modelli/civile/070-riassunzione-del-processo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "071",
+      "titolo": "Ricorso semplificato ex artt. 316 e 281-undecies c.p.c. innanzi al g.d.p.",
+      "file": "wiki-studio/modelli/civile/071-ricorso-semplificato-ex-artt-316-e-281-undecies-cpc-innanzi-al-gdp.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso-semplificato"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "072",
+      "titolo": "Ricorso semplificato per risarcimento danni a cose, da sinistro stradale",
+      "file": "wiki-studio/modelli/civile/072-ricorso-semplificato-per-risarcimento-danni-a-cose-da-sinistro-stradal.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso-semplificato"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "073",
+      "titolo": "Ricorso semplificato per risarcimento danni a persone, da sinistro stradale",
+      "file": "wiki-studio/modelli/civile/073-ricorso-semplificato-per-risarcimento-danni-a-persone-da-sinistro-stra.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso-semplificato"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "074",
+      "titolo": "Comparsa di costituzione e risposta",
+      "file": "wiki-studio/modelli/civile/074-comparsa-di-costituzione-e-risposta.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "075",
+      "titolo": "Comparsa di costituzione e risposta con domanda riconvenzionale",
+      "file": "wiki-studio/modelli/civile/075-comparsa-di-costituzione-e-risposta-con-domanda-riconvenzionale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "076",
+      "titolo": "Note di trattazione scritta",
+      "file": "wiki-studio/modelli/civile/076-note-di-trattazione-scritta.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "077",
+      "titolo": "Opposizione a verbale di accertamento per violazione del c.d.s.",
+      "file": "wiki-studio/modelli/civile/077-opposizione-a-verbale-di-accertamento-per-violazione-del-cds.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "078",
+      "titolo": "Istanza per la sospensione dell’efficacia esecutiva o l’esecuzione della sentenza impugnata",
+      "file": "wiki-studio/modelli/civile/078-istanza-per-la-sospensione-dellefficacia-esecutiva-o-lesecuzione-della.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "079",
+      "titolo": "Appello contro le sentenze del giudice di pace",
+      "file": "wiki-studio/modelli/civile/079-appello-contro-le-sentenze-del-giudice-di-pace.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "appello"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "080",
+      "titolo": "Appello contro le sentenze del tribunale",
+      "file": "wiki-studio/modelli/civile/080-appello-contro-le-sentenze-del-tribunale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "appello"
+      ],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "art. 342 c.p.c. vigente (testo dal 26/11/2024): per ciascun motivo l'appello deve individuare, a pena di inammissibilità, lo specifico capo della decisione impugnato e indicare le censure alla ricostruzione dei fatti e le violazioni di legge; il fac-simile usa ancora «parti della sentenza che si intendono appellare» (formula previgente). Inoltre l'invito a costituirsi richiama gli artt. 166 e 168-bis: in appello valgono l'art. 347, co. 1 (costituzione almeno venti giorni prima dell'udienza) e l'art. 349-bis (componente del collegio designato).",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "cpc:342",
+          "cpc:347",
+          "cpc:349-bis"
+        ]
+      }
+    },
+    {
+      "id": "081",
+      "titolo": "Appello incidentale",
+      "file": "wiki-studio/modelli/civile/081-appello-incidentale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "appello"
+      ],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "art. 342 c.p.c. vigente (testo dal 26/11/2024): per ciascun motivo l'appello deve individuare, a pena di inammissibilità, lo specifico capo della decisione impugnato e indicare le censure alla ricostruzione dei fatti e le violazioni di legge; il fac-simile usa ancora «parti della sentenza che si intendono appellare» (formula previgente). (appello incidentale: art. 343 c.p.c., nella comparsa di risposta depositata nel termine dell'art. 347).",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "cpc:342",
+          "cpc:343"
+        ]
+      }
+    },
+    {
+      "id": "082",
+      "titolo": "Costituzione in appello",
+      "file": "wiki-studio/modelli/civile/082-costituzione-in-appello.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "083",
+      "titolo": "Note per la precisazione delle conclusioni innanzi al collegio",
+      "file": "wiki-studio/modelli/civile/083-note-per-la-precisazione-delle-conclusioni-innanzi-al-collegio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "084",
+      "titolo": "Comparsa collegiale conclusionale in appello",
+      "file": "wiki-studio/modelli/civile/084-comparsa-collegiale-conclusionale-in-appello.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "085",
+      "titolo": "Ricorso per Cassazione",
+      "file": "wiki-studio/modelli/civile/085-ricorso-per-cassazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "cassazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "086",
+      "titolo": "Riserva facoltativa di ricorso per Cassazione",
+      "file": "wiki-studio/modelli/civile/086-riserva-facoltativa-di-ricorso-per-cassazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "087",
+      "titolo": "Controricorso per Cassazione",
+      "file": "wiki-studio/modelli/civile/087-controricorso-per-cassazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "cassazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "088",
+      "titolo": "Ricorso incidentale",
+      "file": "wiki-studio/modelli/civile/088-ricorso-incidentale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "cassazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "089",
+      "titolo": "Riassunzione per rinvio innanzi alla Corte di Appello",
+      "file": "wiki-studio/modelli/civile/089-riassunzione-per-rinvio-innanzi-alla-corte-di-appello.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "090",
+      "titolo": "Revocazione",
+      "file": "wiki-studio/modelli/civile/090-revocazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "atto-di-parte"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "091",
+      "titolo": "Opposizione di terzo",
+      "file": "wiki-studio/modelli/civile/091-opposizione-di-terzo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "atto-di-parte"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "092",
+      "titolo": "Procedimento per la decisione accelerata dei ricorsi inammissibili, improcedibili o manifestamente infondati",
+      "file": "wiki-studio/modelli/civile/092-procedimento-per-la-decisione-accelerata-dei-ricorsi-inammissibili-imp.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "093",
+      "titolo": "Revocazione o correzione per errore materiale o di fatto contro le sentenze della Cassazione emesse ex art. 380-bis c.p.c., con decisione accelerata",
+      "file": "wiki-studio/modelli/civile/093-revocazione-o-correzione-per-errore-materiale-o-di-fatto-contro-le-sen.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "atto-di-parte"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "094",
+      "titolo": "Revocazione alla Corte di Cassazione per contrarietà alla convenzione europea dei diritti dell’uomo",
+      "file": "wiki-studio/modelli/civile/094-revocazione-alla-corte-di-cassazione-per-contrarieta-alla-convenzione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "095",
+      "titolo": "Istanza di negoziazione ex articolo 2 del decreto legge n. 132/2014, comma 7-bis, aggiunto con il d.lgs. n. 149/2022 (modello redatto dal C.N.F.)",
+      "file": "wiki-studio/modelli/civile/095-istanza-di-negoziazione-ex-articolo-2-del-decreto-legge-n-1322014-comm.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "096",
+      "titolo": "Istanza di conciliazione obbligatoria in materia di licenziamento",
+      "file": "wiki-studio/modelli/civile/096-istanza-di-conciliazione-obbligatoria-in-materia-di-licenziamento.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "097",
+      "titolo": "Ricorso per il pagamento di indennità lavorative",
+      "file": "wiki-studio/modelli/civile/097-ricorso-per-il-pagamento-di-indennita-lavorative.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "098",
+      "titolo": "Ricorso per attribuzione di qualifica superiore",
+      "file": "wiki-studio/modelli/civile/098-ricorso-per-attribuzione-di-qualifica-superiore.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "099",
+      "titolo": "Ricorso per mobbing",
+      "file": "wiki-studio/modelli/civile/099-ricorso-per-mobbing.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "100",
+      "titolo": "Ricorso per la conversione del rapporto di somministrazione irregolare in lavoro subordinato",
+      "file": "wiki-studio/modelli/civile/100-ricorso-per-la-conversione-del-rapporto-di-somministrazione-irregolare.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "101",
+      "titolo": "Ricorso per la trasformazione del contratto a termine",
+      "file": "wiki-studio/modelli/civile/101-ricorso-per-la-trasformazione-del-contratto-a-termine.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "L'oggetto cita l'art. 5 D.Lgs. 368/2001, abrogato dall'art. 55, co. 1, lett. b) D.Lgs. 81/2015 (salvo il co. 2); l'art. 19 D.Lgs. 81/2015 è stato modificato dal D.L. 30 aprile 2026, n. 62 (in vigore dal 30/04/2026: nuove disposizioni sui lavoratori somministrati a termine e sulle missioni a termine). Riallineare oggetto e motivi agli artt. 19-22 D.Lgs. 81/2015 vigenti.",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "dlgs-81-2015:19",
+          "dlgs-81-2015:55"
+        ]
+      }
+    },
+    {
+      "id": "102",
+      "titolo": "Ricorso (docenti) per il risarcimento del danno e il riconoscimento della progressione di carriera",
+      "file": "wiki-studio/modelli/civile/102-ricorso-docenti-per-il-risarcimento-del-danno-e-il-riconoscimento-dell.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "103",
+      "titolo": "Ricorso ex art. 700 c.p.c. per la reintegra al lavoro",
+      "file": "wiki-studio/modelli/civile/103-ricorso-ex-art-700-cpc-per-la-reintegra-al-lavoro.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "104",
+      "titolo": "Ricorso ex art. 441-bis c.p.c. per la reintegra al lavoro",
+      "file": "wiki-studio/modelli/civile/104-ricorso-ex-art-441-bis-cpc-per-la-reintegra-al-lavoro.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "105",
+      "titolo": "Memoria difensiva",
+      "file": "wiki-studio/modelli/civile/105-memoria-difensiva.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "memoria-difensiva"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "106",
+      "titolo": "Ricorso in appello (rito del lavoro)",
+      "file": "wiki-studio/modelli/civile/106-ricorso-in-appello-rito-del-lavoro.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso",
+        "appello"
+      ],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "art. 434, co. 1, c.p.c. vigente: per ciascun motivo il ricorso in appello deve individuare, a pena di inammissibilità, lo specifico capo della decisione impugnato e indicare le censure alla ricostruzione dei fatti e le violazioni di legge; il fac-simile usa ancora «parti della sentenza che si intendono appellare».",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "cpc:434"
+        ]
+      }
+    },
+    {
+      "id": "107",
+      "titolo": "Costituzione in appello (rito del lavoro)",
+      "file": "wiki-studio/modelli/civile/107-costituzione-in-appello-rito-del-lavoro.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "memoria-difensiva"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "108",
+      "titolo": "Ricorso per Cassazione in materia di lavoro",
+      "file": "wiki-studio/modelli/civile/108-ricorso-per-cassazione-in-materia-di-lavoro.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "cassazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "109",
+      "titolo": "Attestazione di conformità del provvedimento giudiziario esecutivo",
+      "file": "wiki-studio/modelli/civile/109-attestazione-di-conformita-del-provvedimento-giudiziario-esecutivo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "110",
+      "titolo": "Atto di precetto in forza di sentenza",
+      "file": "wiki-studio/modelli/civile/110-atto-di-precetto-in-forza-di-sentenza.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "precetto"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "111",
+      "titolo": "Precetto fondato su cambiali",
+      "file": "wiki-studio/modelli/civile/111-precetto-fondato-su-cambiali.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "precetto"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "112",
+      "titolo": "Precetto per il rilascio di immobile (locazione)",
+      "file": "wiki-studio/modelli/civile/112-precetto-per-il-rilascio-di-immobile-locazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "precetto"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "113",
+      "titolo": "Atto di precetto per consegna o rilascio (reintegra nel possesso)",
+      "file": "wiki-studio/modelli/civile/113-atto-di-precetto-per-consegna-o-rilascio-reintegra-nel-possesso.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "precetto"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "114",
+      "titolo": "Verbale di pignoramento mobiliare e ricerca con modalità telematiche",
+      "file": "wiki-studio/modelli/civile/114-verbale-di-pignoramento-mobiliare-e-ricerca-con-modalita-telematiche.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "115",
+      "titolo": "Conversione di pignoramento mobiliare",
+      "file": "wiki-studio/modelli/civile/115-conversione-di-pignoramento-mobiliare.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "116",
+      "titolo": "Intervento nel pignoramento mobiliare",
+      "file": "wiki-studio/modelli/civile/116-intervento-nel-pignoramento-mobiliare.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "intervento"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "117",
+      "titolo": "Istanza di assegnazione dei beni mobili pignorati",
+      "file": "wiki-studio/modelli/civile/117-istanza-di-assegnazione-dei-beni-mobili-pignorati.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "118",
+      "titolo": "Istanza di attribuzione della somma ricavata dalla vendita",
+      "file": "wiki-studio/modelli/civile/118-istanza-di-attribuzione-della-somma-ricavata-dalla-vendita.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "119",
+      "titolo": "Pignoramento presso terzi",
+      "file": "wiki-studio/modelli/civile/119-pignoramento-presso-terzi.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "120",
+      "titolo": "Citazione per l’accertamento del credito in caso di mancata dichiarazione o contestazione del terzo",
+      "file": "wiki-studio/modelli/civile/120-citazione-per-laccertamento-del-credito-in-caso-di-mancata-dichiarazio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "L'accertamento dell'obbligo del terzo non si introduce più con citazione: se il terzo non rende la dichiarazione provvede l'art. 548 c.p.c. (non contestazione, assegnazione); se sorgono contestazioni, l'art. 549 c.p.c. (ordinanza del giudice dell'esecuzione su istanza di parte, impugnabile ex art. 617) — testo vigente dal 21/08/2015. Il modello va riscritto come istanza ex art. 549 c.p.c.",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "cpc:548",
+          "cpc:549"
+        ]
+      }
+    },
+    {
+      "id": "121",
+      "titolo": "Atto di pignoramento immobiliare",
+      "file": "wiki-studio/modelli/civile/121-atto-di-pignoramento-immobiliare.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "122",
+      "titolo": "Istanza di vendita immobiliare",
+      "file": "wiki-studio/modelli/civile/122-istanza-di-vendita-immobiliare.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "123",
+      "titolo": "Istanza di assegnazione di beni immobili pignorati",
+      "file": "wiki-studio/modelli/civile/123-istanza-di-assegnazione-di-beni-immobili-pignorati.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "124",
+      "titolo": "Opposizione all’esecuzione non iniziata",
+      "file": "wiki-studio/modelli/civile/124-opposizione-allesecuzione-non-iniziata.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "125",
+      "titolo": "Opposizione all’esecuzione iniziata",
+      "file": "wiki-studio/modelli/civile/125-opposizione-allesecuzione-iniziata.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "126",
+      "titolo": "Opposizione alla regolarità formale del titolo esecutivo e del precetto",
+      "file": "wiki-studio/modelli/civile/126-opposizione-alla-regolarita-formale-del-titolo-esecutivo-e-del-precett.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-02-01"
+    },
+    {
+      "id": "127",
+      "titolo": "Ricorso per decreto ingiuntivo di pagamento fondato su prova scritta",
+      "file": "wiki-studio/modelli/civile/127-ricorso-per-decreto-ingiuntivo-di-pagamento-fondato-su-prova-scritta.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "128",
+      "titolo": "Ricorso per decreto ingiuntivo di consegna di cosa mobile",
+      "file": "wiki-studio/modelli/civile/128-ricorso-per-decreto-ingiuntivo-di-consegna-di-cosa-mobile.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "129",
+      "titolo": "Ricorso per decreto ingiuntivo per la consegna di cose fungibili",
+      "file": "wiki-studio/modelli/civile/129-ricorso-per-decreto-ingiuntivo-per-la-consegna-di-cose-fungibili.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "130",
+      "titolo": "Ricorso per decreto ingiuntivo per pagamento di credito professionale",
+      "file": "wiki-studio/modelli/civile/130-ricorso-per-decreto-ingiuntivo-per-pagamento-di-credito-professionale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "131",
+      "titolo": "Ricorso per decreto ingiuntivo per il pagamento di spese condominiali",
+      "file": "wiki-studio/modelli/civile/131-ricorso-per-decreto-ingiuntivo-per-il-pagamento-di-spese-condominiali.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "132",
+      "titolo": "Ricorso per decreto ingiuntivo su cambiali scadute",
+      "file": "wiki-studio/modelli/civile/132-ricorso-per-decreto-ingiuntivo-su-cambiali-scadute.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "133",
+      "titolo": "Opposizione a decreto ingiuntivo",
+      "file": "wiki-studio/modelli/civile/133-opposizione-a-decreto-ingiuntivo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "134",
+      "titolo": "Opposizione tardiva",
+      "file": "wiki-studio/modelli/civile/134-opposizione-tardiva.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "135",
+      "titolo": "Licenza per finita locazione abitativa",
+      "file": "wiki-studio/modelli/civile/135-licenza-per-finita-locazione-abitativa.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "136",
+      "titolo": "Sfratto per finita locazione abitativa",
+      "file": "wiki-studio/modelli/civile/136-sfratto-per-finita-locazione-abitativa.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "137",
+      "titolo": "Memoria di costituzione dell’intimato",
+      "file": "wiki-studio/modelli/civile/137-memoria-di-costituzione-dellintimato.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "138",
+      "titolo": "Sfratto per finita locazione commerciale",
+      "file": "wiki-studio/modelli/civile/138-sfratto-per-finita-locazione-commerciale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "139",
+      "titolo": "Memoria di costituzione con domanda riconvenzionale per l’avviamento commerciale",
+      "file": "wiki-studio/modelli/civile/139-memoria-di-costituzione-con-domanda-riconvenzionale-per-lavviamento-co.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "140",
+      "titolo": "Sfratto per morosità",
+      "file": "wiki-studio/modelli/civile/140-sfratto-per-morosita.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "141",
+      "titolo": "Opposizione dopo la convalida dello sfratto",
+      "file": "wiki-studio/modelli/civile/141-opposizione-dopo-la-convalida-dello-sfratto.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "142",
+      "titolo": "Memoria difensiva del ricorrente dopo il mutamento di rito",
+      "file": "wiki-studio/modelli/civile/142-memoria-difensiva-del-ricorrente-dopo-il-mutamento-di-rito.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "143",
+      "titolo": "Memoria difensiva del resistente dopo il mutamento di rito",
+      "file": "wiki-studio/modelli/civile/143-memoria-difensiva-del-resistente-dopo-il-mutamento-di-rito.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "144",
+      "titolo": "Schema tipo di domanda per le misure cautelari",
+      "file": "wiki-studio/modelli/civile/144-schema-tipo-di-domanda-per-le-misure-cautelari.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "145",
+      "titolo": "Provvedimento di accoglimento della misura cautelare",
+      "file": "wiki-studio/modelli/civile/145-provvedimento-di-accoglimento-della-misura-cautelare.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "146",
+      "titolo": "Domanda per l’inizio del giudizio di merito",
+      "file": "wiki-studio/modelli/civile/146-domanda-per-linizio-del-giudizio-di-merito.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "147",
+      "titolo": "Revoca e modifica del provvedimento cautelare",
+      "file": "wiki-studio/modelli/civile/147-revoca-e-modifica-del-provvedimento-cautelare.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "148",
+      "titolo": "Ricorso per le modalità di attuazione dei provvedimenti cautelari",
+      "file": "wiki-studio/modelli/civile/148-ricorso-per-le-modalita-di-attuazione-dei-provvedimenti-cautelari.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "149",
+      "titolo": "Reclamo contro i provvedimenti cautelari",
+      "file": "wiki-studio/modelli/civile/149-reclamo-contro-i-provvedimenti-cautelari.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "150",
+      "titolo": "Sequestro giudiziario",
+      "file": "wiki-studio/modelli/civile/150-sequestro-giudiziario.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "151",
+      "titolo": "Sequestro conservativo",
+      "file": "wiki-studio/modelli/civile/151-sequestro-conservativo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "152",
+      "titolo": "Giudizio di merito dopo il sequestro",
+      "file": "wiki-studio/modelli/civile/152-giudizio-di-merito-dopo-il-sequestro.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "153",
+      "titolo": "Denuncia di nuova opera e danno temuto",
+      "file": "wiki-studio/modelli/civile/153-denuncia-di-nuova-opera-e-danno-temuto.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "154",
+      "titolo": "Giudizio di merito dopo la denuncia di nuova opera o di danno temuto",
+      "file": "wiki-studio/modelli/civile/154-giudizio-di-merito-dopo-la-denuncia-di-nuova-opera-o-di-danno-temuto.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "155",
+      "titolo": "Assunzione preventiva di testimoni",
+      "file": "wiki-studio/modelli/civile/155-assunzione-preventiva-di-testimoni.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "156",
+      "titolo": "Accertamento tecnico ed ispezione giudiziale",
+      "file": "wiki-studio/modelli/civile/156-accertamento-tecnico-ed-ispezione-giudiziale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "D.L. 19 febbraio 2026, n. 19 (in vigore dal 20/02/2026) ha aggiunto all'art. 696 c.p.c.: il conferimento dell'incarico al consulente (o il giuramento, se successivo) sospende il procedimento fino al deposito della CTU e comunque per non oltre sei mesi; il procedimento è definito con il deposito della CTU e la liquidazione segue; si applica anche ai pendenti senza CTU depositata (art. 17, co. 4, D.L. 19/2026). Verificare richieste e conclusioni del fac-simile.",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "cpc:696"
+        ]
+      }
+    },
+    {
+      "id": "157",
+      "titolo": "Ricorso per A.T.P. con tentativo di conciliazione",
+      "file": "wiki-studio/modelli/civile/157-ricorso-per-atp-con-tentativo-di-conciliazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "D.L. 19 febbraio 2026, n. 19 (in vigore dal 20/02/2026) ha aggiunto all'art. 696-bis c.p.c. (e all'art. 696): il conferimento dell'incarico al consulente (o il giuramento, se successivo) sospende il procedimento fino al deposito del processo verbale di conciliazione o della CTU e comunque per non oltre sei mesi; il procedimento è definito con il decreto del terzo comma o con il deposito della CTU. Verificare richieste e conclusioni del fac-simile.",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "cpc:696-bis",
+          "cpc:696"
+        ]
+      }
+    },
+    {
+      "id": "158",
+      "titolo": "Procedimento di urgenza",
+      "file": "wiki-studio/modelli/civile/158-procedimento-di-urgenza.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "159",
+      "titolo": "Giudizio di merito dopo il provvedimento di urgenza",
+      "file": "wiki-studio/modelli/civile/159-giudizio-di-merito-dopo-il-provvedimento-di-urgenza.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "160",
+      "titolo": "Ricorso semplificato di cognizione",
+      "file": "wiki-studio/modelli/civile/160-ricorso-semplificato-di-cognizione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso-semplificato"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "161",
+      "titolo": "Decreto di fissazione dell’udienza",
+      "file": "wiki-studio/modelli/civile/161-decreto-di-fissazione-delludienza.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "162",
+      "titolo": "Costituzione del convenuto",
+      "file": "wiki-studio/modelli/civile/162-costituzione-del-convenuto.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "163",
+      "titolo": "Ordinanza di mutamento del rito da semplificato ad ordinario",
+      "file": "wiki-studio/modelli/civile/163-ordinanza-di-mutamento-del-rito-da-semplificato-ad-ordinario.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "164",
+      "titolo": "Note autorizzate per precisare le domande, le eccezioni e le conclusioni, indicare i mezzi di prova e produrre documenti",
+      "file": "wiki-studio/modelli/civile/164-note-autorizzate-per-precisare-le-domande-le-eccezioni-e-le-conclusion.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "165",
+      "titolo": "Memorie autorizzate di replica e prova contraria",
+      "file": "wiki-studio/modelli/civile/165-memorie-autorizzate-di-replica-e-prova-contraria.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "166",
+      "titolo": "Sentenza",
+      "file": "wiki-studio/modelli/civile/166-sentenza.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "167",
+      "titolo": "Reintegrazione e manutenzione nel possesso",
+      "file": "wiki-studio/modelli/civile/167-reintegrazione-e-manutenzione-nel-possesso.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "168",
+      "titolo": "Giudizio di merito dopo le azioni possessorie",
+      "file": "wiki-studio/modelli/civile/168-giudizio-di-merito-dopo-le-azioni-possessorie.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "citazione"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "169",
+      "titolo": "Ricorso a firma congiunta dei coniugi per separazione consensuale",
+      "file": "wiki-studio/modelli/civile/169-ricorso-a-firma-congiunta-dei-coniugi-per-separazione-consensuale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "170",
+      "titolo": "Ricorso per separazione giudiziale",
+      "file": "wiki-studio/modelli/civile/170-ricorso-per-separazione-giudiziale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "171",
+      "titolo": "Piano genitoriale",
+      "file": "wiki-studio/modelli/civile/171-piano-genitoriale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "172",
+      "titolo": "Costituzione del convenuto",
+      "file": "wiki-studio/modelli/civile/172-costituzione-del-convenuto.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "173",
+      "titolo": "Richiesta di modifica o revoca della ordinanza di provvedimenti temporanei",
+      "file": "wiki-studio/modelli/civile/173-richiesta-di-modifica-o-revoca-della-ordinanza-di-provvedimenti-tempor.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "174",
+      "titolo": "Istanza per la revisione dell’assegno di mantenimento (separazione)",
+      "file": "wiki-studio/modelli/civile/174-istanza-per-la-revisione-dellassegno-di-mantenimento-separazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "175",
+      "titolo": "Ricorso giudiziale per la cessazione degli effetti civili del matrimonio (divorzio)",
+      "file": "wiki-studio/modelli/civile/175-ricorso-giudiziale-per-la-cessazione-degli-effetti-civili-del-matrimon.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "176",
+      "titolo": "Ricorso a firma congiunta per la cessazione degli effetti civili del matrimonio (divorzio)",
+      "file": "wiki-studio/modelli/civile/176-ricorso-a-firma-congiunta-per-la-cessazione-degli-effetti-civili-del-m.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-07-04",
+      "prossima_verifica": "2027-07-04",
+      "volatilita": "media",
+      "stato": "da_ricontrollare",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-02-01",
+      "da_ricontrollare": {
+        "motivo": "Il fac-simile cita un «art. 277-ter c.p.c.» che non esiste nel codice vigente; il principio di proporzionalità del mantenimento dei figli è nell'art. 337-ter c.c. (inserito dal D.Lgs. 154/2013, come dice lo stesso modello). Correggere il riferimento.",
+        "dal": "2026-09-23",
+        "fonte": "sviluppo",
+        "norme": [
+          "cpc:277-ter",
+          "cc:337-ter"
+        ]
+      }
+    },
+    {
+      "id": "177",
+      "titolo": "Comparsa di costituzione e risposta (divorzio)",
+      "file": "wiki-studio/modelli/civile/177-comparsa-di-costituzione-e-risposta-divorzio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "comparsa"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "178",
+      "titolo": "Ricorso per la revisione dell’assegno di mantenimento (divorzio)",
+      "file": "wiki-studio/modelli/civile/178-ricorso-per-la-revisione-dellassegno-di-mantenimento-divorzio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "179",
+      "titolo": "Verbale di negoziazione assistita per la separazione/divorzio",
+      "file": "wiki-studio/modelli/civile/179-verbale-di-negoziazione-assistita-per-la-separazionedivorzio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "180",
+      "titolo": "Ricorso con cumulo della domanda di separazione e divorzio",
+      "file": "wiki-studio/modelli/civile/180-ricorso-con-cumulo-della-domanda-di-separazione-e-divorzio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "181",
+      "titolo": "Verbale di trasferimento immobiliare nell’accordo di separazione o divorzio",
+      "file": "wiki-studio/modelli/civile/181-verbale-di-trasferimento-immobiliare-nellaccordo-di-separazione-o-divo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "182",
+      "titolo": "Note di trattazione scritta (separazione/divorzio)",
+      "file": "wiki-studio/modelli/civile/182-note-di-trattazione-scritta-separazionedivorzio.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "183",
+      "titolo": "Convenzione volontaria di negoziazione assistita",
+      "file": "wiki-studio/modelli/civile/183-convenzione-volontaria-di-negoziazione-assistita.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "184",
+      "titolo": "Invito alla stipula di convenzione di negoziazione, quando è condizione di procedibilità della domanda (risarcimento danni da circolazione stradale)",
+      "file": "wiki-studio/modelli/civile/184-invito-alla-stipula-di-convenzione-di-negoziazione-quando-e-condizione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "185",
+      "titolo": "Invito alla stipula di convenzione di negoziazione, quando è condizione di procedibilità della domanda (pagamento somma)",
+      "file": "wiki-studio/modelli/civile/185-invito-alla-stipula-di-convenzione-di-negoziazione-quando-e-condizione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "186",
+      "titolo": "Convenzione di negoziazione assistita quando è condizione di procedibilità della domanda",
+      "file": "wiki-studio/modelli/civile/186-convenzione-di-negoziazione-assistita-quando-e-condizione-di-procedibi.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "187",
+      "titolo": "Adesione alla negoziazione assistita",
+      "file": "wiki-studio/modelli/civile/187-adesione-alla-negoziazione-assistita.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "188",
+      "titolo": "Dichiarazione di mancato accordo in negoziazione assistita certificata dagli avvocati",
+      "file": "wiki-studio/modelli/civile/188-dichiarazione-di-mancato-accordo-in-negoziazione-assistita-certificata.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "189",
+      "titolo": "Verbale di accordo",
+      "file": "wiki-studio/modelli/civile/189-verbale-di-accordo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "190",
+      "titolo": "Eccezione di improcedibilità per mancato esperimento della procedura di negoziazione",
+      "file": "wiki-studio/modelli/civile/190-eccezione-di-improcedibilita-per-mancato-esperimento-della-procedura-d.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "191",
+      "titolo": "Negoziazione assistita demandata dal giudice",
+      "file": "wiki-studio/modelli/civile/191-negoziazione-assistita-demandata-dal-giudice.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "192",
+      "titolo": "Esecutività dell’accordo di negoziazione",
+      "file": "wiki-studio/modelli/civile/192-esecutivita-dellaccordo-di-negoziazione.md",
+      "changelog_deps": [
+        "cartabia_processo_civile",
+        "correttivo_cartabia"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "media",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "193",
+      "titolo": "Clausola compromissoria per arbitrato rituale",
+      "file": "wiki-studio/modelli/civile/193-clausola-compromissoria-per-arbitrato-rituale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "194",
+      "titolo": "Clausola compromissoria per arbitrato irrituale",
+      "file": "wiki-studio/modelli/civile/194-clausola-compromissoria-per-arbitrato-irrituale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "195",
+      "titolo": "Nomina di arbitri previsti dalla convenzione di arbitrato",
+      "file": "wiki-studio/modelli/civile/195-nomina-di-arbitri-previsti-dalla-convenzione-di-arbitrato.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "196",
+      "titolo": "Risposta della controparte alla nomina degli arbitri",
+      "file": "wiki-studio/modelli/civile/196-risposta-della-controparte-alla-nomina-degli-arbitri.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "197",
+      "titolo": "Ricorso al tribunale per la nomina di arbitri",
+      "file": "wiki-studio/modelli/civile/197-ricorso-al-tribunale-per-la-nomina-di-arbitri.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "198",
+      "titolo": "Istruzione probatoria",
+      "file": "wiki-studio/modelli/civile/198-istruzione-probatoria.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "199",
+      "titolo": "Lodo arbitrale",
+      "file": "wiki-studio/modelli/civile/199-lodo-arbitrale.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "200",
+      "titolo": "Deposito del lodo",
+      "file": "wiki-studio/modelli/civile/200-deposito-del-lodo.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "ricorso"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "201",
+      "titolo": "Impugnazione del lodo per nullità",
+      "file": "wiki-studio/modelli/civile/201-impugnazione-del-lodo-per-nullita.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [
+        "atto-di-parte"
+      ],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "202",
+      "titolo": "Istanza congiunta di trasferimento dei procedimenti giudiziari in sede arbitrale",
+      "file": "wiki-studio/modelli/civile/202-istanza-congiunta-di-trasferimento-dei-procedimenti-giudiziari-in-sede.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "203",
+      "titolo": "Ordinanza di trasmissione del fascicolo al presidente del c.d.o. per la nomina del collegio arbitrale",
+      "file": "wiki-studio/modelli/civile/203-ordinanza-di-trasmissione-del-fascicolo-al-presidente-del-cdo-per-la-n.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "204",
+      "titolo": "Dichiarazione di disponibilità dell’avvocato al c.d.o. per essere nominato arbitro",
+      "file": "wiki-studio/modelli/civile/204-dichiarazione-di-disponibilita-dellavvocato-al-cdo-per-essere-nominato.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "documento",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "205",
+      "titolo": "Riassunzione del processo di appello per scadenza dei termini di conclusione del procedimento arbitrale",
+      "file": "wiki-studio/modelli/civile/205-riassunzione-del-processo-di-appello-per-scadenza-dei-termini-di-concl.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    },
+    {
+      "id": "206",
+      "titolo": "Riassunzione del processo di appello per nullità del lodo arbitrale emesso in seguito a trasferimento in sede arbitrale",
+      "file": "wiki-studio/modelli/civile/206-riassunzione-del-processo-di-appello-per-nullita-del-lodo-arbitrale-em.md",
+      "changelog_deps": [
+        "cartabia_processo_civile"
+      ],
+      "verificato_il": "2026-09-23",
+      "prossima_verifica": "2027-09-23",
+      "volatilita": "bassa",
+      "stato": "congelato",
+      "giurisprudenza_stato": "da_popolare",
+      "ambito": "giudiziario",
+      "tipi_requisiti": [],
+      "norme_allineate_al": "2026-09-23"
+    }
+  ]
+}
