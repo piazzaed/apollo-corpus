@@ -90,6 +90,9 @@ jobs:
           python3 scripts/sentinelle_giro.py --area dati --fase dopo-claude --triage $RUNNER_TEMP/triage-dati.json
           --esiti $RUNNER_TEMP/esiti-dati.json --claude-ok ${{ steps.claude.outcome != 'failure' }}
           --issue $RUNNER_TEMP/issue-dati.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: cosa pubblicherebbe il giro (diff, per rivederlo)
+        if: always()
+        run: git diff origin/main -- . > $RUNNER_TEMP/diff-dati.patch || true
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
         run: |
@@ -115,10 +118,26 @@ jobs:
       - name: rapporto
         if: always()
         run: |
-          echo "scritture: ${{ env.SCRIVE }}" >> $GITHUB_STEP_SUMMARY
-          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
-          cat $RUNNER_TEMP/issue-dati.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          echo "scritture: ${{ env.SCRIVE }}" | tee -a $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          cat $RUNNER_TEMP/issue-dati.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          git diff --stat origin/main -- . 2>/dev/null | tail -15 || true
+          python3 -c "import json,sys; d=json.load(open(sys.argv[1])); r=([m for m in d if m.get('type')=='result'] or [dict()])[-1]; print('Claude:', r.get('num_turns'), 'passi.', str(r.get('result') or '')[:3000]); [print('::warning::permesso negato a Claude:', x.get('tool_name'), json.dumps(x.get('tool_input'), ensure_ascii=False)[:200]) for x in r.get('permission_denials') or []]" $RUNNER_TEMP/claude-execution-output.json 2>/dev/null || true
           grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-dati.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+      - name: file del giro (triage, esiti, segnalazioni, diff)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinelle-dati
+          path: |
+            ${{ runner.temp }}/triage-dati.json
+            ${{ runner.temp }}/triage-dati.json.giro.json
+            ${{ runner.temp }}/esiti-dati.json
+            ${{ runner.temp }}/issue-dati.md
+            ${{ runner.temp }}/sentinelle.md
+            ${{ runner.temp }}/diff-dati.patch
+          retention-days: 14
+          if-no-files-found: ignore
 
   normativa:
     runs-on: ubuntu-latest
@@ -176,6 +195,9 @@ jobs:
           python3 scripts/sentinelle_giro.py --area normativa --fase dopo-claude --triage $RUNNER_TEMP/triage-normativa.json
           --esiti $RUNNER_TEMP/esiti-normativa.json --claude-ok ${{ steps.claude.outcome != 'failure' }}
           --issue $RUNNER_TEMP/issue-normativa.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: cosa pubblicherebbe il giro (diff, per rivederlo)
+        if: always()
+        run: git diff origin/main -- . > $RUNNER_TEMP/diff-normativa.patch || true
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
         run: |
@@ -201,10 +223,26 @@ jobs:
       - name: rapporto
         if: always()
         run: |
-          echo "scritture: ${{ env.SCRIVE }}" >> $GITHUB_STEP_SUMMARY
-          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
-          cat $RUNNER_TEMP/issue-normativa.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          echo "scritture: ${{ env.SCRIVE }}" | tee -a $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          cat $RUNNER_TEMP/issue-normativa.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          git diff --stat origin/main -- . 2>/dev/null | tail -15 || true
+          python3 -c "import json,sys; d=json.load(open(sys.argv[1])); r=([m for m in d if m.get('type')=='result'] or [dict()])[-1]; print('Claude:', r.get('num_turns'), 'passi.', str(r.get('result') or '')[:3000]); [print('::warning::permesso negato a Claude:', x.get('tool_name'), json.dumps(x.get('tool_input'), ensure_ascii=False)[:200]) for x in r.get('permission_denials') or []]" $RUNNER_TEMP/claude-execution-output.json 2>/dev/null || true
           grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-normativa.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+      - name: file del giro (triage, esiti, segnalazioni, diff)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinelle-normativa
+          path: |
+            ${{ runner.temp }}/triage-normativa.json
+            ${{ runner.temp }}/triage-normativa.json.giro.json
+            ${{ runner.temp }}/esiti-normativa.json
+            ${{ runner.temp }}/issue-normativa.md
+            ${{ runner.temp }}/sentinelle.md
+            ${{ runner.temp }}/diff-normativa.patch
+          retention-days: 14
+          if-no-files-found: ignore
 
   successioni:
     runs-on: ubuntu-latest
@@ -262,6 +300,9 @@ jobs:
           python3 scripts/sentinelle_giro.py --area successioni --fase dopo-claude --triage $RUNNER_TEMP/triage-successioni.json
           --esiti $RUNNER_TEMP/esiti-successioni.json --claude-ok ${{ steps.claude.outcome != 'failure' }}
           --issue $RUNNER_TEMP/issue-successioni.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: cosa pubblicherebbe il giro (diff, per rivederlo)
+        if: always()
+        run: git diff origin/main -- . > $RUNNER_TEMP/diff-successioni.patch || true
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
         run: |
@@ -287,10 +328,26 @@ jobs:
       - name: rapporto
         if: always()
         run: |
-          echo "scritture: ${{ env.SCRIVE }}" >> $GITHUB_STEP_SUMMARY
-          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
-          cat $RUNNER_TEMP/issue-successioni.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          echo "scritture: ${{ env.SCRIVE }}" | tee -a $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          cat $RUNNER_TEMP/issue-successioni.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          git diff --stat origin/main -- . 2>/dev/null | tail -15 || true
+          python3 -c "import json,sys; d=json.load(open(sys.argv[1])); r=([m for m in d if m.get('type')=='result'] or [dict()])[-1]; print('Claude:', r.get('num_turns'), 'passi.', str(r.get('result') or '')[:3000]); [print('::warning::permesso negato a Claude:', x.get('tool_name'), json.dumps(x.get('tool_input'), ensure_ascii=False)[:200]) for x in r.get('permission_denials') or []]" $RUNNER_TEMP/claude-execution-output.json 2>/dev/null || true
           grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-successioni.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+      - name: file del giro (triage, esiti, segnalazioni, diff)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinelle-successioni
+          path: |
+            ${{ runner.temp }}/triage-successioni.json
+            ${{ runner.temp }}/triage-successioni.json.giro.json
+            ${{ runner.temp }}/esiti-successioni.json
+            ${{ runner.temp }}/issue-successioni.md
+            ${{ runner.temp }}/sentinelle.md
+            ${{ runner.temp }}/diff-successioni.patch
+          retention-days: 14
+          if-no-files-found: ignore
 
   modelli:
     runs-on: ubuntu-latest
@@ -348,6 +405,9 @@ jobs:
           python3 scripts/sentinelle_giro.py --area modelli --fase dopo-claude --triage $RUNNER_TEMP/triage-modelli.json
           --esiti $RUNNER_TEMP/esiti-modelli.json --claude-ok ${{ steps.claude.outcome != 'failure' }}
           --issue $RUNNER_TEMP/issue-modelli.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: cosa pubblicherebbe il giro (diff, per rivederlo)
+        if: always()
+        run: git diff origin/main -- . > $RUNNER_TEMP/diff-modelli.patch || true
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
         run: |
@@ -373,7 +433,23 @@ jobs:
       - name: rapporto
         if: always()
         run: |
-          echo "scritture: ${{ env.SCRIVE }}" >> $GITHUB_STEP_SUMMARY
-          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
-          cat $RUNNER_TEMP/issue-modelli.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          echo "scritture: ${{ env.SCRIVE }}" | tee -a $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          cat $RUNNER_TEMP/issue-modelli.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          git diff --stat origin/main -- . 2>/dev/null | tail -15 || true
+          python3 -c "import json,sys; d=json.load(open(sys.argv[1])); r=([m for m in d if m.get('type')=='result'] or [dict()])[-1]; print('Claude:', r.get('num_turns'), 'passi.', str(r.get('result') or '')[:3000]); [print('::warning::permesso negato a Claude:', x.get('tool_name'), json.dumps(x.get('tool_input'), ensure_ascii=False)[:200]) for x in r.get('permission_denials') or []]" $RUNNER_TEMP/claude-execution-output.json 2>/dev/null || true
           grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-modelli.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+      - name: file del giro (triage, esiti, segnalazioni, diff)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinelle-modelli
+          path: |
+            ${{ runner.temp }}/triage-modelli.json
+            ${{ runner.temp }}/triage-modelli.json.giro.json
+            ${{ runner.temp }}/esiti-modelli.json
+            ${{ runner.temp }}/issue-modelli.md
+            ${{ runner.temp }}/sentinelle.md
+            ${{ runner.temp }}/diff-modelli.patch
+          retention-days: 14
+          if-no-files-found: ignore

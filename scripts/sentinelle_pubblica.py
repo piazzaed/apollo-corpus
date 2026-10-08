@@ -369,6 +369,9 @@ def _job(area: str, prec: str) -> str:
           python3 scripts/sentinelle_giro.py --area {area} --fase dopo-claude --triage $RUNNER_TEMP/triage-{area}.json
           --esiti $RUNNER_TEMP/esiti-{area}.json --claude-ok ${{{{ steps.claude.outcome != 'failure' }}}}
           --issue $RUNNER_TEMP/issue-{area}.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
+      - name: cosa pubblicherebbe il giro (diff, per rivederlo)
+        if: always()
+        run: git diff origin/main -- . > $RUNNER_TEMP/diff-{area}.patch || true
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
         run: |
@@ -394,10 +397,26 @@ def _job(area: str, prec: str) -> str:
       - name: rapporto
         if: always()
         run: |
-          echo "scritture: ${{{{ env.SCRIVE }}}}" >> $GITHUB_STEP_SUMMARY
-          cat $RUNNER_TEMP/sentinelle.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
-          cat $RUNNER_TEMP/issue-{area}.md >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          echo "scritture: ${{{{ env.SCRIVE }}}}" | tee -a $GITHUB_STEP_SUMMARY
+          cat $RUNNER_TEMP/sentinelle.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          cat $RUNNER_TEMP/issue-{area}.md 2>/dev/null | tee -a $GITHUB_STEP_SUMMARY || true
+          git diff --stat origin/main -- . 2>/dev/null | tail -15 || true
+          python3 -c "import json,sys; d=json.load(open(sys.argv[1])); r=([m for m in d if m.get('type')=='result'] or [dict()])[-1]; print('Claude:', r.get('num_turns'), 'passi.', str(r.get('result') or '')[:3000]); [print('::warning::permesso negato a Claude:', x.get('tool_name'), json.dumps(x.get('tool_input'), ensure_ascii=False)[:200]) for x in r.get('permission_denials') or []]" $RUNNER_TEMP/claude-execution-output.json 2>/dev/null || true
           grep -h -E "❌|⚠️|non verificat|respint|interrott" $RUNNER_TEMP/sentinelle.md $RUNNER_TEMP/issue-{area}.md 2>/dev/null | head -20 | sed 's/^- */::warning::/' || true
+      - name: file del giro (triage, esiti, segnalazioni, diff)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinelle-{area}
+          path: |
+            ${{{{ runner.temp }}}}/triage-{area}.json
+            ${{{{ runner.temp }}}}/triage-{area}.json.giro.json
+            ${{{{ runner.temp }}}}/esiti-{area}.json
+            ${{{{ runner.temp }}}}/issue-{area}.md
+            ${{{{ runner.temp }}}}/sentinelle.md
+            ${{{{ runner.temp }}}}/diff-{area}.patch
+          retention-days: 14
+          if-no-files-found: ignore
 """
 
 
