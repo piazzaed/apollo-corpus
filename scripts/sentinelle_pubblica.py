@@ -360,6 +360,8 @@ def sonda() -> dict:
 # ----------------------------------------------------------------------------------------------- workflow
 
 _AREE_WF = ("dati", "normativa", "successioni", "modelli")
+#: in sola lettura e innocui: controllare il JSON degli esiti, vedere cosa e' cambiato nel repo
+_TOOL_LETTURA = "Bash(python3 -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
 _TOOL_CLAUDE = {
     "dati": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*)",
     "normativa": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/cassazione_indice.py:*)",
@@ -419,7 +421,7 @@ def _job(area: str, prec: str) -> str:
             Alla fine scrivi gli esiti in ${{{{ runner.temp }}}}/esiti-{area}.json.
           claude_args: >-
             --model opus
-            --allowedTools "{_TOOL_CLAUDE[area]}"
+            --allowedTools "{_TOOL_CLAUDE[area]},{_TOOL_LETTURA}"
       - name: controllo meccanico
         id: controllo
         if: always()

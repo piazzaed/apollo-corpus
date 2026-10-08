@@ -82,7 +82,7 @@ jobs:
             Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-dati.json.
           claude_args: >-
             --model opus
-            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*)"
+            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
       - name: controllo meccanico
         id: controllo
         if: always()
@@ -178,7 +178,7 @@ jobs:
             Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-normativa.json.
           claude_args: >-
             --model opus
-            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/cassazione_indice.py:*)"
+            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/cassazione_indice.py:*),Bash(python3 -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
       - name: controllo meccanico
         id: controllo
         if: always()
@@ -274,7 +274,7 @@ jobs:
             Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-successioni.json.
           claude_args: >-
             --model opus
-            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*)"
+            --allowedTools "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
       - name: controllo meccanico
         id: controllo
         if: always()
@@ -370,7 +370,7 @@ jobs:
             Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-modelli.json.
           claude_args: >-
             --model opus
-            --allowedTools "Read,Glob,Grep,Write,Edit,Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/sentinella_modelli.py:*)"
+            --allowedTools "Read,Glob,Grep,Write,Edit,Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/sentinella_modelli.py:*),Bash(python3 -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
       - name: controllo meccanico
         id: controllo
         if: always()
