@@ -339,7 +339,7 @@ def _job(area: str, prec: str) -> str:
         run: >-
           python3 scripts/sentinelle_giro.py --area {area} --fase deterministica --triage $RUNNER_TEMP/triage-{area}.json
           --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
-      - name: passi senza Claude fissati (commit locale: il controllo vede solo le modifiche di Claude)
+      - name: passi senza Claude fissati (commit locale, cosi' il controllo vede solo le modifiche di Claude)
         run: |
           git config user.name "corpus-bot"
           git config user.email "corpus-bot@users.noreply.github.com"
