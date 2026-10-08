@@ -145,10 +145,26 @@ def deterministico(radice: Path, giro: sb.Giro, oggi: _dt.date = None, gu=None, 
                       "contenuto delle release DEAS nuove (pagina degli aggiornamenti di Geo Network)"]}
 
 
+def _norm(s: str) -> str:
+    return re.sub(r"[^0-9a-z]", "", (s or "").lower())
+
+
+def _estremi_riga(riga: str) -> str:
+    """Gli estremi di una riga del changelog («… (estremi) — sintesi»), o il nome se non ci sono."""
+    nome = riga.split(" · ", 1)[-1].split(" — ", 1)[0]
+    m = re.search(r"\(([^()]*)\)\s*$", nome)
+    return m.group(1) if m else nome
+
+
 def aggiungi_al_changelog(p: Path, righe: list) -> None:
+    """In coda alla sezione delle sentinelle; una novita' gia' scritta (stessi estremi) non si riscrive."""
     if not righe:
         return
     testo = p.read_text(encoding="utf-8") if p.exists() else ""
+    gia = _norm(testo.split(SEZIONE_AUTO, 1)[1]) if SEZIONE_AUTO in testo else ""
+    righe = [r for r in righe if not (gia and len(_norm(_estremi_riga(r))) >= 8 and _norm(_estremi_riga(r)) in gia)]
+    if not righe:
+        return
     if SEZIONE_AUTO not in testo:
         testo = testo.rstrip("\n") + "\n\n" + SEZIONE_AUTO + "\n\n" + INTRO_AUTO + "\n\n"
     p.write_text(testo.rstrip("\n") + "\n" + "\n".join(righe) + "\n", encoding="utf-8")
@@ -189,7 +205,8 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _d
                                      "Il gate di freschezza del plugin vale come data di controllo se l'esito non è «parziale»."},
             "verificato_il": oggi.isoformat() if esito != "parziale" else prec.get("verificato_il"),
             "ultimo_giro": oggi.isoformat(), "esito": esito,
-            "deas_versione": giro.dati.get("deas_versione") or prec.get("deas_versione"),
+            # con un giro parziale la release nota non avanza: le novita' della release si cercano di nuovo al giro dopo
+            "deas_versione": (giro.dati.get("deas_versione") if esito != "parziale" else None) or prec.get("deas_versione"),
             "claude_il": oggi.isoformat() if (triage and claude_ok) else prec.get("claude_il"),
             "novita": novita, "segnali": [s.get("cosa") for s in giro.dati.get("segnali") or []][:20]}
     sb.scrivi_json(radice / REL_ESITO, dati)

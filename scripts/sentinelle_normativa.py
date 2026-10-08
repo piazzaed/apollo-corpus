@@ -44,6 +44,10 @@ CORPUS_FRESCO_GIORNI = 8
 #: una voce di debito riaperta si ricontrolla dopo tanti giorni
 RINVIO_DEBITO_GIORNI = 7
 SEZIONE_AUTO = "## Aggiornamenti verificati dalle sentinelle automatiche"
+#: una sintesi che dice che resta qualcosa da seguire non chiude un debito
+_RX_ANCORA = re.compile(r"\b(rest(?:a|ano)\s+da|ancora\s+da|da\s+seguire|in\s+attesa\s+d)", re.I)
+_RX_FINO_AL = re.compile(r"\bfino\s+al\s+(\d{1,2})/(\d{1,2})/(\d{4})\b")
+_RX_ATTO = re.compile(r"\b(D\.?\s?L(?:gs)?\.?|L\.|D\.?\s?M\.?|d\.?\s?P\.?\s?R\.?|sent\.|ord\.)\s*[^,;—]*?\bn\.\s*(\d+)", re.I)
 INTRO_AUTO = ("Voci aggiunte dall'Action «sentinelle» del corpus pubblico: ognuna ha superato il controllo meccanico (fonte "
               "ufficiale riscaricata, estremi e citazione ritrovati). Sono notizie da recepire nelle sezioni sopra: il "
               "sidecar marca le voci toccate «da ricontrollare» finché il corpus non recepisce la modifica.")
@@ -114,21 +118,30 @@ def _atti_ok(atti: list, manifest: dict, righe: list, dal: str, oggi: _dt.date) 
     return (bool(atti) and not motivi), motivi
 
 
+_RX_N_ANNO = re.compile(r"(?<![\d/])(\d{1,4})\s*/\s*((?:19|20)\d{2})\b")
+
+
+def numeri_atto(estremi: str) -> set:
+    """{(numero, anno)} degli atti negli estremi: «168/2026» e «29/09/2026 n. 168» (mai i pezzi di una data)."""
+    out = set(_RX_N_ANNO.findall(estremi or ""))
+    n, anno = re.search(r"\bn\.\s*(\d+)", estremi or ""), re.search(r"\b(?:19|20)\d{2}\b", estremi or "")
+    if n and anno:
+        out.add((n.group(1), anno.group(0)))
+    return out
+
+
 def _recepita(voce: dict, atti: list, manifest: dict, righe: list) -> bool:
-    """La modifica provata (modificata_da) compare nel changelog-auto degli atti della voce e nessuno e' in movimento."""
+    """Ogni modifica provata (modificata_da) compare nel changelog-auto degli atti della voce e nessuno e' in movimento."""
     mod = voce.get("modificata_da") or []
     if not mod or not atti or any(sb.stato_atto(manifest, s).get("in_movimento") for s in atti):
         return False
-    coppie = set()
-    for m in mod:
-        coppie |= set(sb._RX_ESTREMI.findall(str(m.get("estremi") or "")))
-    if not coppie:
-        return False
-    for r in righe:
-        if r.get("slug") in atti and r.get("tipo") in sb.TIPI_CAMBIO:
-            if coppie & set(sb._RX_ESTREMI.findall(str(r.get("atto_modificante") or ""))):
-                return True
-    return False
+    modificanti = [numeri_atto(str(r.get("atto_modificante") or "")) for r in righe
+                   if r.get("slug") in atti and r.get("tipo") in sb.TIPI_CAMBIO]
+    for m in mod:  # TUTTE: una modifica rilevata prima delle sentinelle (senza estremi) si chiude solo a mano
+        coppie = numeri_atto(str(m.get("estremi") or ""))
+        if not coppie or not any(coppie & x for x in modificanti):
+            return False
+    return True
 
 
 def deterministico(radice: Path, giro: sb.Giro, oggi: _dt.date = None, gu=None) -> dict:
@@ -207,6 +220,29 @@ def _prove_ok(esito: dict, get=None) -> tuple:
     return bool(buone), motivi, buone
 
 
+def ancora_da_seguire(debito: dict, esito: dict, oggi: _dt.date) -> str:
+    """Perche' un RISOLTO non chiude il debito ('' se lo chiude): sorveglianza con un termine futuro, o una sintesi che
+    dice che resta qualcosa da seguire."""
+    if _RX_ANCORA.search(str(esito.get("sintesi") or "")):
+        return "la sintesi dice che resta qualcosa da seguire"
+    for g, m, a in _RX_FINO_AL.findall(f"{debito.get('cosa') or ''} {debito.get('perche') or ''}"):
+        try:
+            if _dt.date(int(a), int(m), int(g)) > oggi:
+                return f"la sorveglianza dura fino al {int(g):02d}/{int(m):02d}/{a}"
+        except ValueError:
+            continue
+    return ""
+
+
+def chiave_atto(estremi: str):
+    """(tipo, numero, anno) del primo atto negli estremi, per non scrivere due volte la stessa novità; None se non c'e'."""
+    m = _RX_ATTO.search(estremi or "")
+    anno = re.search(r"\b(19|20)\d{2}\b", estremi or "")
+    if not (m and anno):
+        return None
+    return re.sub(r"[\s.]", "", m.group(1)).lower(), m.group(2), anno.group(0)
+
+
 def _voce_changelog(oggi: _dt.date, estremi: str, sintesi: str, url: str) -> str:
     return f"- **{oggi.strftime('%d/%m/%Y')}** · {estremi or 'atto da identificare'} — {sintesi.strip()} ([fonte ufficiale]({url}))"
 
@@ -215,6 +251,17 @@ def aggiungi_al_changelog(p: Path, righe: list) -> None:
     if not righe:
         return
     testo = p.read_text(encoding="utf-8") if p.exists() else ""
+    viste = {chiave_atto(r.split(" · ", 1)[1].split(" — ", 1)[0]) for r in testo.split(SEZIONE_AUTO, 1)[-1].splitlines()
+             if SEZIONE_AUTO in testo and r.startswith("- **") and " · " in r}
+    nuove = []
+    for r in righe:
+        k = chiave_atto(r.split(" · ", 1)[1].split(" — ", 1)[0]) if " · " in r else None
+        if k is None or k not in viste:
+            nuove.append(r)
+            viste.add(k) if k else None
+    righe = nuove
+    if not righe:
+        return
     if SEZIONE_AUTO not in testo:
         testo = testo.rstrip("\n") + "\n\n---\n\n" + SEZIONE_AUTO + "\n\n" + INTRO_AUTO + "\n\n"
     p.write_text(testo.rstrip("\n") + "\n" + "\n".join(righe) + "\n", encoding="utf-8")
@@ -247,6 +294,10 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _d
             continue
         if tipo == "CONFERMATO" and ok:
             mod = e.get("modificata_da") or {}
+            if voce.get("stato") == "da_ricontrollare" and not voce.get("modificata_da"):
+                voce["modificata_da"] = [{"estremi": "", "verificato_il": voce.get("verificato_il"),
+                                          "nota": "modifica rilevata prima delle sentinelle automatiche (vedi verificato_su): "
+                                                  "la voce si richiude a mano"}]
             voce["stato"] = "da_ricontrollare"
             voce.setdefault("modificata_da", []).append({"estremi": mod.get("estremi") or "", "vigente_da": mod.get("vigente_da"),
                                                           "url": buone[0]["url"], "verificato_il": oggi.isoformat()})
@@ -261,10 +312,14 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _d
             giro.problema(f"**{vid}**: modifica confermata ({mod.get('estremi') or 'atto'}) — la voce e' «da ricontrollare» "
                           f"finché il corpus non la recepisce; debito #{nid} per recepirla nel changelog umano", vid)
         elif tipo == "INVARIATO" and ok:
-            voce["stato"] = "congelato" if voce.get("stato") == "da_ricontrollare" and not voce.get("modificata_da") else voce.get("stato")
-            voce["verificato_il"] = oggi.isoformat()
-            voce["prossima_verifica"] = _piu_mesi(oggi, _mesi(voce.get("volatilita"), meta)).isoformat()
-            voce["verificato_su"] = f"sentinelle (Action del corpus), {oggi.isoformat()}: {str(e.get('sintesi') or '')[:300]} ({buone[0]['url']})"
+            nota = f"sentinelle (Action del corpus), {oggi.isoformat()}: {str(e.get('sintesi') or '')[:300]} ({buone[0]['url']})"
+            if voce.get("stato") == "da_ricontrollare":
+                # «nessun atto nuovo» non chiude una modifica gia' rilevata e non ancora recepita: la voce resta com'e'
+                voce["ultimo_controllo_sentinelle"] = nota
+            else:
+                voce["verificato_il"] = oggi.isoformat()
+                voce["prossima_verifica"] = _piu_mesi(oggi, _mesi(voce.get("volatilita"), meta)).isoformat()
+                voce["verificato_su"] = nota
             drift["invariati"].append((vid, e.get("sintesi") or "", buone[0]["url"]))
         else:
             motivo = "; ".join(motivi) if motivi else (f"esito {tipo or 'mancante'}")
@@ -279,6 +334,10 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _d
             continue
         ok, motivi, buone = _prove_ok(e, get) if tipo in ("RISOLTO", "ANCORA_APERTO") else (False, [], [])
         nota = f"{oggi.strftime('%d/%m/%Y')} - sentinelle automatiche: "
+        aperto = ancora_da_seguire(d, e, oggi) if tipo == "RISOLTO" and ok else ""
+        if aperto:
+            tipo = "ANCORA_APERTO"
+            e = dict(e, sintesi=f"RISOLTO non applicato ({aperto}): {str(e.get('sintesi') or '')}")
         if tipo == "RISOLTO" and ok:
             d["stato"], d["chiuso_il"] = "chiuso", oggi.isoformat()
             d["esito"] = f"{str(e.get('sintesi') or '')[:400]} ({buone[0]['url']})"

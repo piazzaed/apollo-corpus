@@ -21,6 +21,7 @@ Solo stdlib (pdftotext per il PDF del MEF), Python 3.9.
 from __future__ import annotations
 
 import datetime as _dt
+import json
 import re
 import sys
 from pathlib import Path
@@ -197,6 +198,53 @@ def link_decreto_mef(html: str, inizio: str) -> str:
     return ""
 
 
+def estremi_gu(gu: Gazzetta, inizio: str, testo: str = None, giro: sb.Giro = None) -> tuple:
+    """(decreto, gu, codice) del decreto di RILEVAZIONE del trimestre `inizio` nei sommari della G.U., o tre None.
+
+    Nella G.U. di fine settembre esce anche il decreto annuale di classificazione delle operazioni, con le stesse
+    parole: si scarta. Se c'e' il testo del PDF del Tesoro («emesso alla data del protocollo»), la data del protocollo
+    deve essere quella del decreto in G.U."""
+    d0 = _dt.date.fromisoformat(inizio)
+    candidati = [a for a in gu.cerca(r"rilevazione\s+dei\s+tassi(\s+di\s+interesse)?\s+effettiv[io]\s+global[ei]\s+med[io]")
+                 if a["data"] >= (d0 - _dt.timedelta(days=45)).isoformat()
+                 and not re.search(r"\bclassificazione\b", a.get("titolo") or "", re.I)]
+    applicazione = re.compile(rf"applicazione\s+dal\s+{d0.day}\D{{0,2}}\s*{_MESI_IT[d0.month - 1]}\b", re.I)
+    atto = next((a for a in reversed(candidati) if applicazione.search(a.get("titolo") or "")), None) or (
+        candidati[0] if len(candidati) == 1 else None)
+    m = re.search(r"DECRETO\s+(\d{1,2}\s+\w+\s+\d{4})", (atto or {}).get("titolo") or "", re.I)
+    if not (atto and m):
+        return None, None, None
+    decreto = f"D.M. MEF {m.group(1).lower()}"
+    gu_txt = f"G.U. Serie Generale n. {atto.get('numero')} del {_dt.date.fromisoformat(atto['data']).strftime('%d/%m/%Y')}"
+    prot = re.search(r"Prot\.?\s*Num\.?\s*:?\s*[\d/]+\s+del\s+(\d{1,2})/(\d{1,2})/(\d{4})", testo or "", re.I)
+    if prot:
+        data_prot = f"{int(prot.group(1))} {_MESI_IT[int(prot.group(2)) - 1]} {prot.group(3)}"
+        if data_prot != m.group(1).lower():
+            if giro:
+                giro.problema(f"soglie d'usura {inizio}: il decreto in G.U. ({m.group(1)}, {atto['codice']}) non ha la data "
+                              f"del protocollo del PDF ({data_prot}): estremi non scritti", "dati:usura")
+            return None, None, None
+    return decreto, gu_txt, atto["codice"]
+
+
+def _completa_estremi(path: Path, giro: sb.Giro, oggi: _dt.date, gu: Gazzetta) -> None:
+    """L'ultimo trimestre preso dal decreto senza gli estremi della G.U.: si cercano di nuovo nei sommari."""
+    tab = json.loads(path.read_text(encoding="utf-8"))
+    ultimo = (tab.get("trimestri") or [{}])[-1]
+    dec = ultimo.get("decreto") or {}
+    if ultimo.get("origine") != "decreto MEF" or not dec.get("da_verificare"):
+        return
+    decreto, gu_txt, codice = estremi_gu(gu, ultimo["inizio"])
+    if not decreto:
+        if oggi > _dt.date.fromisoformat(ultimo["inizio"]) + _dt.timedelta(days=30):
+            giro.problema(f"soglie d'usura {ultimo['inizio']}: estremi del decreto ancora da verificare (non trovati nei "
+                          "sommari della G.U.)", "dati:usura")
+        return
+    dec.update(decreto=decreto, gu=gu_txt, codice_redazionale=codice, verificato_il=oggi.isoformat(), da_verificare=False)
+    path.write_text(json.dumps(tab, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    giro.riga(f"soglie d'usura {ultimo['inizio']}: estremi del decreto completati ({decreto}, {gu_txt})")
+
+
 def _usura(radice: Path, giro: sb.Giro, oggi: _dt.date, gu: Gazzetta, get_html=None, get_pdf=None) -> None:
     import soglia_usura as su
     path = Path(radice) / REL_SOGLIE
@@ -204,6 +252,7 @@ def _usura(radice: Path, giro: sb.Giro, oggi: _dt.date, gu: Gazzetta, get_html=N
     trimestri = tab.get("trimestri") or []
     if not trimestri:
         return
+    _completa_estremi(path, giro, oggi, gu)
     inizio, fine = trimestre_atteso(trimestri[-1]["fine"])
     if oggi < _dt.date.fromisoformat(inizio) - _dt.timedelta(days=15):
         giro.riga(f"soglie d'usura: coperte fino al {trimestri[-1]['fine']}")
@@ -244,22 +293,15 @@ def _usura(radice: Path, giro: sb.Giro, oggi: _dt.date, gu: Gazzetta, get_html=N
     if errori:
         giro.problema(f"soglie d'usura {inizio}: " + "; ".join(errori), "dati:usura")
         return
-    # gli estremi della G.U. (seconda fonte): il decreto del trimestre nei sommari
-    atto = next((a for a in reversed(gu.cerca(r"tass[io]\s+effettiv[io]\s+global[ei]\s+med[io]")) if a["data"] >= (
-        _dt.date.fromisoformat(inizio) - _dt.timedelta(days=45)).isoformat()), None)
-    decreto = gu_txt = codice = None
-    if atto:
-        m = re.search(r"DECRETO\s+(\d{1,2}\s+\w+\s+\d{4})", atto.get("titolo") or "", re.I)
-        decreto = f"D.M. MEF {m.group(1).lower()}" if m else None
-        gu_txt = f"G.U. Serie Generale n. {atto.get('numero')} del {_dt.date.fromisoformat(atto['data']).strftime('%d/%m/%Y')}"
-        codice = atto["codice"]
+    # gli estremi della G.U. (seconda fonte)
+    decreto, gu_txt, codice = estremi_gu(gu, inizio, testo, giro)
     r = su.aggiungi_decreto(testo, decreto=decreto, gu=gu_txt, codice=codice, url=url, dest=path, oggi=oggi)
     if r.get("esito") != "AGGIUNTO":
         sb.git(radice, "checkout", "--", REL_SOGLIE)
         giro.problema(f"soglie d'usura {inizio}: non aggiunte ({r.get('esito')})", "dati:usura")
         return
     giro.riga(f"soglie d'usura {inizio} → {fine}: {len(voci)} categorie dal decreto MEF"
-              + (f" ({decreto}, {gu_txt})" if atto else " (estremi della G.U. non ancora nei sommari: si completano al giro dopo)"))
+              + (f" ({decreto}, {gu_txt})" if decreto else " (estremi della G.U. non ancora trovati: si cercano di nuovo ai prossimi giri)"))
 
 
 # ----------------------------------------------------------------------------------------------- tabelle datate

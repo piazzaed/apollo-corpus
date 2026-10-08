@@ -10,6 +10,7 @@ un plugin che non lo conosce semplicemente non lo legge.
   python3 scripts/sentinelle_pubblica.py --manifest [--radice R]      manifest delle aree dal disco
   python3 scripts/sentinelle_pubblica.py --verifica [--radice R]      sha, percorsi ammessi, nomi vietati, dati personali
   python3 scripts/sentinelle_pubblica.py --aggiungi AREA [--radice R] git add dei soli file di un'area (nel workflow)
+  python3 scripts/sentinelle_pubblica.py --pubblica AREA [--radice R] commit, rebase, stato e manifest, verifica, push
   python3 scripts/sentinelle_pubblica.py --scansiona                  nomi vietati e dati personali nei file del plugin
   python3 scripts/sentinelle_pubblica.py --aggiorna-strumenti CLONE   script, workflow e regole nel clone del repo
   python3 scripts/sentinelle_pubblica.py --carica-semi CLONE [--forza] primo caricamento dei dati delle aree nel clone
@@ -165,13 +166,70 @@ def verifica(radice: Path = ROOT) -> list:
 
 
 def aggiungi(radice: Path, area: str) -> list:
-    """`git add` dei soli file di un'area (e dello stato e del manifest delle aree): mai un `git add -A` generico."""
+    """`git add` dei soli file di un'area (e dei suoi file di stato): mai un `git add -A` generico.
+
+    Restano fuori lo stato comune (`stato.json`) e il manifest delle aree: tutti i job del giro partono dal commit del
+    lancio e li scriverebbero insieme, quindi li riscrive `pubblica` sopra la versione appena scaricata."""
     radice = Path(radice)
     rels = [rel for st, rel in sb.toccati(radice) if (aree.classifica(rel) or ("", ""))[0] in (area, "stato")
-            or rel == aree.MANIFEST]
+            and rel not in (aree.STATO, aree.MANIFEST)]
     for rel in rels:
         sb.git(radice, "add", "-A", "--", rel)
     return rels
+
+
+def _rimetti(radice: Path, rel: str) -> None:
+    """Il file com'e' nell'ultimo commit (tolto, se nell'ultimo commit non c'e')."""
+    if sb.git(radice, "cat-file", "-e", f"HEAD:{rel}").returncode == 0:
+        sb.git(radice, "checkout", "--", rel)
+    else:
+        (Path(radice) / rel).unlink(missing_ok=True)
+
+
+def pubblica(radice: Path, area: str, tentativi: int = 3, attesa: float = 15.0, remoto: str = "origin",
+             ramo: str = "main") -> tuple:
+    """Commit dei file dell'area, rebase sul ramo remoto, voce dell'area riapplicata sullo stato appena scaricato,
+    manifest, verifica, push. Se il push non passa (un altro giro ha pubblicato intanto) si toglie il commit di stato e
+    manifest e si riprova da capo. Ritorna (pubblicato?, messaggi)."""
+    import time
+    radice = Path(radice)
+    p_stato = radice / aree.STATO
+    voce = ((sb.leggi_json(p_stato, {}) or {}).get("aree") or {}).get(area)
+    _rimetti(radice, aree.STATO)
+    _rimetti(radice, aree.MANIFEST)
+    msg = [f"aggiunti: {', '.join(aggiungi(radice, area)) or 'nessuno'}"]
+    if sb.git(radice, "diff", "--cached", "--quiet").returncode != 0:
+        sb.git(radice, "commit", "-q", "-m", f"sentinelle {area} {sb.oggi().isoformat()}")
+    for n in range(1, tentativi + 1):
+        if sb.git(radice, "pull", "-q", "--rebase", "--autostash", remoto, ramo).returncode != 0:
+            sb.git(radice, "rebase", "--abort")
+            msg.append(f"tentativo {n}: rebase non riuscito")
+            time.sleep(attesa)
+            continue
+        base = sb.git(radice, "rev-parse", "HEAD").stdout.strip()
+        if voce is not None:
+            st = sb.leggi_json(p_stato, {}) or {}
+            st.setdefault("_meta", {})["descrizione"] = ("Stato dell'ultimo giro delle sentinelle automatiche (GitHub Action "
+                                                         "«sentinelle» del corpus pubblico), per area.")
+            st["_meta"]["aggiornato_il"] = sb.adesso()
+            st.setdefault("aree", {})[area] = voce
+            sb.scrivi_json(p_stato, st)
+        scrivi_manifest(radice)
+        errori = verifica(radice)
+        if errori:
+            msg += [f"verifica: {e}" for e in errori]
+            return False, msg
+        sb.git(radice, "add", "--", aree.STATO, aree.MANIFEST)
+        if sb.git(radice, "diff", "--cached", "--quiet").returncode != 0:
+            sb.git(radice, "commit", "-q", "-m", f"sentinelle: stato e manifest {sb.oggi().isoformat()}")
+        r = sb.git(radice, "push", "-q", remoto, f"HEAD:{ramo}")
+        if r.returncode == 0:
+            msg.append(f"pubblicato al tentativo {n}")
+            return True, msg
+        msg.append(f"tentativo {n}: push respinto ({(r.stderr or '').strip()[:120]})")
+        sb.git(radice, "reset", "-q", "--hard", base)
+        time.sleep(attesa)
+    return False, msg
 
 
 # ----------------------------------------------------------------------------------------------- strumenti e semi
@@ -371,21 +429,12 @@ def _job(area: str, prec: str) -> str:
           --issue $RUNNER_TEMP/issue-{area}.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
       - name: cosa pubblicherebbe il giro (diff, per rivederlo)
         if: always()
-        run: git diff origin/main -- . > $RUNNER_TEMP/diff-{area}.patch || true
+        run: |
+          git diff origin/main -- . > $RUNNER_TEMP/diff-{area}.patch || true
+          git ls-files --others --exclude-standard | while read -r f; do git diff --no-index -- /dev/null "$f" || true; done >> $RUNNER_TEMP/diff-{area}.patch
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
-        run: |
-          python3 scripts/sentinelle_pubblica.py --aggiungi {area}
-          git commit -m "sentinelle {area} $(date -u +%F)" || echo "nessuna modifica"
-          for tentativo in 1 2 3; do
-            git pull --rebase origin main || {{ git rebase --abort; sleep 15; continue; }}
-            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
-            git add -- wiki-studio/sentinelle/manifest.json
-            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
-            git push && exit 0
-            sleep 15
-          done
-          exit 1
+        run: python3 scripts/sentinelle_pubblica.py --pubblica {area}
       - name: segnalazione
         if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
         env:
@@ -410,7 +459,7 @@ def _job(area: str, prec: str) -> str:
           name: sentinelle-{area}
           path: |
             ${{{{ runner.temp }}}}/triage-{area}.json
-            ${{{{ runner.temp }}}}/triage-{area}.json.giro.json
+            ${{{{ runner.temp }}}}/triage-{area}.giro.json
             ${{{{ runner.temp }}}}/esiti-{area}.json
             ${{{{ runner.temp }}}}/issue-{area}.md
             ${{{{ runner.temp }}}}/sentinelle.md
@@ -473,6 +522,7 @@ def main(argv=None) -> int:
     g.add_argument("--manifest", action="store_true")
     g.add_argument("--verifica", action="store_true")
     g.add_argument("--aggiungi", metavar="AREA")
+    g.add_argument("--pubblica", metavar="AREA", help="commit, rebase, stato e manifest, verifica, push (nel workflow)")
     g.add_argument("--scansiona", action="store_true")
     g.add_argument("--aggiorna-strumenti", metavar="CLONE")
     g.add_argument("--carica-semi", metavar="CLONE")
@@ -495,6 +545,10 @@ def main(argv=None) -> int:
     if a.aggiungi:
         print("aggiunti: " + (", ".join(aggiungi(radice, a.aggiungi)) or "nessuno"))
         return 0
+    if a.pubblica:
+        ok, msg = pubblica(radice, a.pubblica)
+        print("\n".join(msg))
+        return 0 if ok else 1
     if a.scansiona:
         errori = scansiona(radice)
         for e in errori:

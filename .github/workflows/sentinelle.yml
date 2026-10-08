@@ -92,21 +92,12 @@ jobs:
           --issue $RUNNER_TEMP/issue-dati.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
       - name: cosa pubblicherebbe il giro (diff, per rivederlo)
         if: always()
-        run: git diff origin/main -- . > $RUNNER_TEMP/diff-dati.patch || true
+        run: |
+          git diff origin/main -- . > $RUNNER_TEMP/diff-dati.patch || true
+          git ls-files --others --exclude-standard | while read -r f; do git diff --no-index -- /dev/null "$f" || true; done >> $RUNNER_TEMP/diff-dati.patch
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
-        run: |
-          python3 scripts/sentinelle_pubblica.py --aggiungi dati
-          git commit -m "sentinelle dati $(date -u +%F)" || echo "nessuna modifica"
-          for tentativo in 1 2 3; do
-            git pull --rebase origin main || { git rebase --abort; sleep 15; continue; }
-            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
-            git add -- wiki-studio/sentinelle/manifest.json
-            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
-            git push && exit 0
-            sleep 15
-          done
-          exit 1
+        run: python3 scripts/sentinelle_pubblica.py --pubblica dati
       - name: segnalazione
         if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
         env:
@@ -131,7 +122,7 @@ jobs:
           name: sentinelle-dati
           path: |
             ${{ runner.temp }}/triage-dati.json
-            ${{ runner.temp }}/triage-dati.json.giro.json
+            ${{ runner.temp }}/triage-dati.giro.json
             ${{ runner.temp }}/esiti-dati.json
             ${{ runner.temp }}/issue-dati.md
             ${{ runner.temp }}/sentinelle.md
@@ -197,21 +188,12 @@ jobs:
           --issue $RUNNER_TEMP/issue-normativa.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
       - name: cosa pubblicherebbe il giro (diff, per rivederlo)
         if: always()
-        run: git diff origin/main -- . > $RUNNER_TEMP/diff-normativa.patch || true
+        run: |
+          git diff origin/main -- . > $RUNNER_TEMP/diff-normativa.patch || true
+          git ls-files --others --exclude-standard | while read -r f; do git diff --no-index -- /dev/null "$f" || true; done >> $RUNNER_TEMP/diff-normativa.patch
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
-        run: |
-          python3 scripts/sentinelle_pubblica.py --aggiungi normativa
-          git commit -m "sentinelle normativa $(date -u +%F)" || echo "nessuna modifica"
-          for tentativo in 1 2 3; do
-            git pull --rebase origin main || { git rebase --abort; sleep 15; continue; }
-            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
-            git add -- wiki-studio/sentinelle/manifest.json
-            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
-            git push && exit 0
-            sleep 15
-          done
-          exit 1
+        run: python3 scripts/sentinelle_pubblica.py --pubblica normativa
       - name: segnalazione
         if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
         env:
@@ -236,7 +218,7 @@ jobs:
           name: sentinelle-normativa
           path: |
             ${{ runner.temp }}/triage-normativa.json
-            ${{ runner.temp }}/triage-normativa.json.giro.json
+            ${{ runner.temp }}/triage-normativa.giro.json
             ${{ runner.temp }}/esiti-normativa.json
             ${{ runner.temp }}/issue-normativa.md
             ${{ runner.temp }}/sentinelle.md
@@ -302,21 +284,12 @@ jobs:
           --issue $RUNNER_TEMP/issue-successioni.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
       - name: cosa pubblicherebbe il giro (diff, per rivederlo)
         if: always()
-        run: git diff origin/main -- . > $RUNNER_TEMP/diff-successioni.patch || true
+        run: |
+          git diff origin/main -- . > $RUNNER_TEMP/diff-successioni.patch || true
+          git ls-files --others --exclude-standard | while read -r f; do git diff --no-index -- /dev/null "$f" || true; done >> $RUNNER_TEMP/diff-successioni.patch
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
-        run: |
-          python3 scripts/sentinelle_pubblica.py --aggiungi successioni
-          git commit -m "sentinelle successioni $(date -u +%F)" || echo "nessuna modifica"
-          for tentativo in 1 2 3; do
-            git pull --rebase origin main || { git rebase --abort; sleep 15; continue; }
-            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
-            git add -- wiki-studio/sentinelle/manifest.json
-            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
-            git push && exit 0
-            sleep 15
-          done
-          exit 1
+        run: python3 scripts/sentinelle_pubblica.py --pubblica successioni
       - name: segnalazione
         if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
         env:
@@ -341,7 +314,7 @@ jobs:
           name: sentinelle-successioni
           path: |
             ${{ runner.temp }}/triage-successioni.json
-            ${{ runner.temp }}/triage-successioni.json.giro.json
+            ${{ runner.temp }}/triage-successioni.giro.json
             ${{ runner.temp }}/esiti-successioni.json
             ${{ runner.temp }}/issue-successioni.md
             ${{ runner.temp }}/sentinelle.md
@@ -407,21 +380,12 @@ jobs:
           --issue $RUNNER_TEMP/issue-modelli.md --github-output "$GITHUB_OUTPUT" --report $RUNNER_TEMP/sentinelle.md
       - name: cosa pubblicherebbe il giro (diff, per rivederlo)
         if: always()
-        run: git diff origin/main -- . > $RUNNER_TEMP/diff-modelli.patch || true
+        run: |
+          git diff origin/main -- . > $RUNNER_TEMP/diff-modelli.patch || true
+          git ls-files --others --exclude-standard | while read -r f; do git diff --no-index -- /dev/null "$f" || true; done >> $RUNNER_TEMP/diff-modelli.patch
       - name: pubblica
         if: always() && env.SCRIVE == 'true'
-        run: |
-          python3 scripts/sentinelle_pubblica.py --aggiungi modelli
-          git commit -m "sentinelle modelli $(date -u +%F)" || echo "nessuna modifica"
-          for tentativo in 1 2 3; do
-            git pull --rebase origin main || { git rebase --abort; sleep 15; continue; }
-            python3 scripts/sentinelle_pubblica.py --manifest && python3 scripts/sentinelle_pubblica.py --verifica || exit 1
-            git add -- wiki-studio/sentinelle/manifest.json
-            git commit -m "sentinelle: manifest $(date -u +%F)" || echo "manifest invariato"
-            git push && exit 0
-            sleep 15
-          done
-          exit 1
+        run: python3 scripts/sentinelle_pubblica.py --pubblica modelli
       - name: segnalazione
         if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
         env:
@@ -446,7 +410,7 @@ jobs:
           name: sentinelle-modelli
           path: |
             ${{ runner.temp }}/triage-modelli.json
-            ${{ runner.temp }}/triage-modelli.json.giro.json
+            ${{ runner.temp }}/triage-modelli.giro.json
             ${{ runner.temp }}/esiti-modelli.json
             ${{ runner.temp }}/issue-modelli.md
             ${{ runner.temp }}/sentinelle.md

@@ -23,7 +23,11 @@ Formato degli esiti:
 ```
 - CONFERMATO: la modifica c'è e la prova lo mostra (`modificata_da` obbligatorio per le voci);
 - INVARIATO: la prova mostra lo stato attuale (es. la scheda normattiva con la data dell'ultimo aggiornamento, il sommario
-  della G.U. senza il decreto atteso);
+  della G.U. senza il decreto atteso). Su una voce già «da ricontrollare» vuol dire solo «nessun atto nuovo»: la modifica
+  già rilevata resta da recepire e la voce resta com'è;
+- RISOLTO: solo se ciò che il debito chiede è fatto per intero. Un debito di sorveglianza («monitorare … fino al …»)
+  resta ANCORA_APERTO fino al termine, anche se nel frattempo arriva una tappa (uno schema, un parere): scrivila nella
+  sintesi. Se resta qualcosa da seguire, l'esito è ANCORA_APERTO;
 - in `watchlist` metti solo le novità confermate; in `nuove` gli atti nuovi rilevanti per un avvocato civilista non coperti
   da alcuna voce.
 
