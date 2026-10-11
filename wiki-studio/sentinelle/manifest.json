@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generato_il": "2026-10-11T13:35Z",
+ "generato_il": "2026-10-11T13:45Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
    "file": {
     "dati/tassi-soglia.json": {
-     "sha256": "093e512de9895bc3b2f372856fb069f671fd91149e9ef64eb1bcec117c976386",
-     "byte": 437266,
+     "sha256": "5fef07ca3b2fd235c89f754611d1867780a9298f6361b925d8921ab4508d7699",
+     "byte": 445361,
      "proprietario": "action"
     },
     "dati/tassi.json": {
@@ -39,9 +39,7 @@
    "stato": {
     "ultimo_giro": "2026-10-11",
     "esito": "ok",
-    "da_ricontrollare": [
-     "dati:usura"
-    ]
+    "da_ricontrollare": []
    }
   },
   "normativa": {
@@ -1150,8 +1148,8 @@
   "stato": {
    "file": {
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "c07e9f23fffa888f06a627e0247597f688073764b9a1cccb201f4d6fbffa0b28",
-     "byte": 320,
+     "sha256": "324a702e6cd8c37dc3d92444a06a4a0e6fac39a9ed9a40df07855bc4c755913a",
+     "byte": 299,
      "proprietario": "action"
     }
    }
