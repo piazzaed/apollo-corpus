@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-11T13:45Z",
+ "generato_il": "2026-10-11T14:04Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -45,18 +45,23 @@
   "normativa": {
    "file": {
     "wiki-studio/normativa/changelog-riforme.md": {
-     "sha256": "02405f4930b45c5c27b9feb2340eb3a37b0ab21679595d88d43ab3de386e5ebc",
-     "byte": 64928,
+     "sha256": "0339d1474f204672c0aa89bf28be267c3ff035b2c1d0df022de2326bd9fb3725",
+     "byte": 68245,
      "proprietario": "action"
     },
     "wiki-studio/normativa/changelog-riforme.meta.json": {
-     "sha256": "8fe72e111a2c5149b70739f49e9f0e2ac752903039ae476d8e038079266335a2",
-     "byte": 41152,
+     "sha256": "e96a0aae5cce70c5ef7ceef5b0dd5df907306ff020e05321dcd3d05b250e7749",
+     "byte": 42696,
+     "proprietario": "action"
+    },
+    "wiki-studio/normativa/drift-reports/2026-10-11.md": {
+     "sha256": "184ae30943f6fcc6c658d7f3ef16d2465b9ffb4559c6633236a26e70752bbf9d",
+     "byte": 9296,
      "proprietario": "action"
     },
     "wiki-studio/normativa/sentinella-debito.json": {
-     "sha256": "b22c067358abb072db7eefde7cf4d52e5aff06ed49cf952ba67c9f1bc389dca2",
-     "byte": 93230,
+     "sha256": "ef64c495d47a61b0bea0671629561d54b54bfbaaa542c9305596b0b6750e5b61",
+     "byte": 97107,
      "proprietario": "action"
     },
     "wiki-studio/normativa/stato-orientamenti.md": {
@@ -69,6 +74,17 @@
      "byte": 14279,
      "proprietario": "seme"
     }
+   },
+   "stato": {
+    "ultimo_giro": "2026-10-11",
+    "esito": "ok",
+    "da_ricontrollare": [
+     "immigrazione_37_2025",
+     "imposta_successione_donazione",
+     "paesi_origine_sicuri",
+     "testi_unici_fiscali_2026",
+     "tu_adempimenti_accertamento_141_2026"
+    ]
    }
   },
   "modelli": {
@@ -1148,8 +1164,8 @@
   "stato": {
    "file": {
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "324a702e6cd8c37dc3d92444a06a4a0e6fac39a9ed9a40df07855bc4c755913a",
-     "byte": 299,
+     "sha256": "2567719c729c77ce071bc55d1d30aa362cdfe72133d1e256596f63546cb63e9b",
+     "byte": 569,
      "proprietario": "action"
     }
    }
