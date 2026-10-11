@@ -361,11 +361,11 @@ def sonda() -> dict:
 
 _AREE_WF = ("dati", "normativa", "successioni", "modelli")
 #: in sola lettura e innocui: controllare il JSON degli esiti, vedere cosa e' cambiato nel repo
-_TOOL_LETTURA = "Bash(python3 -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
+_TOOL_LETTURA = "Bash(python3 -m json.tool:*),Bash(python3 -I -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
 _TOOL_CLAUDE = {
     "dati": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*)",
-    "normativa": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/cassazione_indice.py:*)",
-    "successioni": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*)",
+    "normativa": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/cassazione_indice.py:*),Bash(python3 scripts/fonti_fetch.py:*)",
+    "successioni": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/fonti_fetch.py:*)",
     "modelli": "Read,Glob,Grep,Write,Edit,Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/sentinella_modelli.py:*)",
 }
 
@@ -375,7 +375,7 @@ def _job(area: str, prec: str) -> str:
     cond = (f"always() && (github.event_name != 'workflow_dispatch' || inputs.area == 'tutte' || inputs.area == '{area}')")
     return f"""
   {area}:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04           # non ubuntu-latest: su Ubuntu 26 (dal 19/10/2026) Python 3.9 non c'e'
     timeout-minutes: 240
 {needs}    if: ${{{{ {cond} }}}}
     env:

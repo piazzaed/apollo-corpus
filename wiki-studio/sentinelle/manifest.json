@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-11T14:04Z",
+ "generato_il": "2026-10-11T14:11Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -60,8 +60,8 @@
      "proprietario": "action"
     },
     "wiki-studio/normativa/sentinella-debito.json": {
-     "sha256": "ef64c495d47a61b0bea0671629561d54b54bfbaaa542c9305596b0b6750e5b61",
-     "byte": 97107,
+     "sha256": "9778449aa32fe577bc8c14d0f15c73275781dcf10a22ec586e0d6e3d31dadcab",
+     "byte": 97315,
      "proprietario": "action"
     },
     "wiki-studio/normativa/stato-orientamenti.md": {

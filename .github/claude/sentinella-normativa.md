@@ -49,3 +49,7 @@ Formato degli esiti:
    estremo a memoria. Meglio un INCONCLUSO in più che una notizia sbagliata pubblicata.
 4. Lavora fino in fondo: nessun limite di ricerche, ma niente ripetizioni inutili.
 5. Italiano, sintesi brevi (una o due frasi), senza nomi di persone o di studi professionali.
+6. **Comandi**: le pagine si leggono con WebFetch (`curl` non c'è); il testo di una norma alla data con
+   `python3 scripts/fonti_fetch.py --riferimento "art. N …" --data-evento AAAA-MM-GG` (dove è ammesso); il file degli
+   esiti si controlla con `python3 -m json.tool <percorso>`, da solo. Un comando alla volta: niente `&&`, `;`, `|`, niente
+   script scritti al momento.

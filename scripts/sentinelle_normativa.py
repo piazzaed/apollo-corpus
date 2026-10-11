@@ -130,6 +130,14 @@ def numeri_atto(estremi: str) -> set:
     return out
 
 
+_RX_CODICE_REDAZIONALE = re.compile(r"\b\d{2}[AG]\d{5}\b")
+
+
+def chiavi_debito(testo: str) -> set:
+    """Gli atti nominati in un testo (numero/anno e codici redazionali della G.U.), per riconoscere un debito gemello."""
+    return numeri_atto(testo) | set(_RX_CODICE_REDAZIONALE.findall(testo or ""))
+
+
 def _recepita(voce: dict, atti: list, manifest: dict, righe: list) -> bool:
     """Ogni modifica provata (modificata_da) compare nel changelog-auto degli atti della voce e nessuno e' in movimento."""
     mod = voce.get("modificata_da") or []
@@ -302,12 +310,20 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _d
             voce.setdefault("modificata_da", []).append({"estremi": mod.get("estremi") or "", "vigente_da": mod.get("vigente_da"),
                                                           "url": buone[0]["url"], "verificato_il": oggi.isoformat()})
             changelog.append(_voce_changelog(oggi, mod.get("estremi") or t.get("estremi") or "", e.get("sintesi") or vid, buone[0]["url"]))
-            nid = _nuovo_id(deb)
-            deb.setdefault("debito", []).append({
-                "id": nid, "voce_id": vid, "cosa": f"Recepire nel changelog umano la modifica di «{vid}»: {str(e.get('sintesi') or '')[:300]}",
-                "perche": f"Confermata dalle sentinelle automatiche il {oggi.isoformat()} su {buone[0]['url']}.",
-                "aperto_il": oggi.isoformat(), "scadenza": (oggi + _dt.timedelta(days=30)).isoformat(), "stato": "aperto",
-                "fonte": "sentinelle"})
+            chiavi = chiavi_debito(str(mod.get("estremi") or ""))
+            gemello = next((d for d in deb.get("debito") or [] if str(d.get("stato")) == "aperto" and str(d.get("voce_id")) == vid
+                            and chiavi & chiavi_debito(f"{d.get('cosa') or ''} {d.get('perche') or ''}")), None)
+            if gemello:  # la stessa modifica e' gia' nel debito: si annota li', non se ne apre un altro
+                gemello["perche"] = (str(gemello.get("perche") or "") + f" | {oggi.strftime('%d/%m/%Y')} - sentinelle "
+                                     f"automatiche: modifica confermata ({buone[0]['url']})").strip(" |")
+                nid = gemello["id"]
+            else:
+                nid = _nuovo_id(deb)
+                deb.setdefault("debito", []).append({
+                    "id": nid, "voce_id": vid, "cosa": f"Recepire nel changelog umano la modifica di «{vid}»: {str(e.get('sintesi') or '')[:300]}",
+                    "perche": f"Confermata dalle sentinelle automatiche il {oggi.isoformat()} su {buone[0]['url']}.",
+                    "aperto_il": oggi.isoformat(), "scadenza": (oggi + _dt.timedelta(days=30)).isoformat(), "stato": "aperto",
+                    "fonte": "sentinelle"})
             drift["confermati"].append((vid, e.get("sintesi") or "", buone[0]["url"]))
             giro.problema(f"**{vid}**: modifica confermata ({mod.get('estremi') or 'atto'}) — la voce e' «da ricontrollare» "
                           f"finché il corpus non la recepisce; debito #{nid} per recepirla nel changelog umano", vid)
