@@ -1048,6 +1048,12 @@ def esporta_norme_citate(fonte: FonteNorme = None, scrivi: bool = True) -> dict:
         "corpus sincronizzato e con gli atti in movimento.")}, "modelli": out}
     if scrivi:
         p = WIKI / REL_NORME_CITATE
+        try:
+            prima = json.loads(p.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            prima = {}
+        if prima.get("modelli") == out and (prima.get("_meta") or {}).get("descrizione") == dati["_meta"]["descrizione"]:
+            return prima  # stessa mappa: il file resta com'e' (niente commit a vuoto nel repo pubblico, pacchetto = sentinelle)
         p.write_text(json.dumps(dati, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     return dati
 
