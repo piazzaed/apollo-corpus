@@ -32,7 +32,7 @@ concurrency:
 
 jobs:
   lavoro:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04           # non ubuntu-latest: su Ubuntu 26 (dal 19/10/2026) Python 3.9 non c'e'
     timeout-minutes: 360
     env:
       PYTHONDONTWRITEBYTECODE: "1"
