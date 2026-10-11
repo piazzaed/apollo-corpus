@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-11T17:24Z",
+ "generato_il": "2026-10-11T21:40Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -990,8 +990,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/177-comparsa-di-costituzione-e-risposta-divorzio.md": {
-     "sha256": "c90ff3158692ffb2429a08222e97a41d41df8f86eae7e4d44752f7357ce59471",
-     "byte": 5854,
+     "sha256": "c5c1ce2cbb1d06733e8e56548be65e3aca8b0934d24a918f4b350364acc4e134",
+     "byte": 6117,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/178-ricorso-per-la-revisione-dellassegno-di-mantenimento-divorzio.md": {
@@ -1145,13 +1145,13 @@
      "proprietario": "seme"
     },
     "wiki-studio/modelli/modelli.meta.json": {
-     "sha256": "4ae30672b4deb7fe15dbbce7fc3fe35aee9a306eb25c7427f6e14311fd694d4d",
-     "byte": 128477,
+     "sha256": "ae2b6175eeb893495bf37a6b8acf7e59b2352de0268315d53db0b1d611b3ed47",
+     "byte": 128888,
      "proprietario": "action"
     },
     "wiki-studio/modelli/norme-citate.json": {
-     "sha256": "688f43a2230773a6ee8518384c75c6d633fa9a29cc31b282cee421bc2bec3428",
-     "byte": 28688,
+     "sha256": "135e7f460f643c03979d5135e5a4b10ff25bb044208f02f670ffa3ea8bc4556e",
+     "byte": 28690,
      "proprietario": "action"
     },
     "wiki-studio/modelli/requisiti-per-tipo.json": {
@@ -1159,13 +1159,33 @@
      "byte": 12352,
      "proprietario": "seme"
     }
+   },
+   "stato": {
+    "ultimo_giro": "2026-10-11",
+    "esito": "ok",
+    "da_ricontrollare": [
+     "modello:006",
+     "modello:080",
+     "modello:081",
+     "modello:101",
+     "modello:106",
+     "modello:120",
+     "modello:156",
+     "modello:157",
+     "modello:176"
+    ]
    }
   },
   "stato": {
    "file": {
+    "wiki-studio/sentinelle/modelli-stato.json": {
+     "sha256": "718d024c2700e0957df83f064e9ac6f9460d09144485338ddc1d705e9b195e58",
+     "byte": 76807,
+     "proprietario": "action"
+    },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "af3dd798e54564a6e4345065e7ea24fabe9cbd938891db40f3aa60091a259633",
-     "byte": 669,
+     "sha256": "811ac14dd03db81ca3bbfe42c2dc0129c8e69d758c9a4372f0ec14fffc7e0097",
+     "byte": 939,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {
