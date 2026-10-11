@@ -393,7 +393,11 @@ def _job(area: str, prec: str) -> str:
           echo "STUDIO_CORPUS=$RUNNER_TEMP/corpus-vivo" >> "$GITHUB_ENV"
           echo "STUDIO_STATO_PERSISTENTE=$RUNNER_TEMP/persistente" >> "$GITHUB_ENV"
           echo "FONTI_CACHE=$RUNNER_TEMP/fonti-cache" >> "$GITHUB_ENV"
-          sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1 || echo "pdftotext non installato"
+          if ! command -v pdftotext >/dev/null; then
+            sudo apt-get update -qq || true
+            sudo apt-get install -y -qq --no-install-recommends poppler-utils || true
+          fi
+          command -v pdftotext >/dev/null && pdftotext -v 2>&1 | head -1 || echo "::warning::pdftotext non installato: in questo giro i PDF (decreti MEF) non si leggono"
       - name: passi senza Claude
         id: det
         run: >-
