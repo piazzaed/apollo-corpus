@@ -1,7 +1,7 @@
 {
  "_meta": {
   "descrizione": "Articoli citati nel fac-simile di ogni modello (slug:articolo) e data di allineamento del modello. Generato da sentinella_modelli.py --esporta; a runtime flag_runtime() lo incrocia con il changelog del corpus sincronizzato e con gli atti in movimento.",
-  "generato_il": "2026-10-07"
+  "generato_il": "2026-10-11"
  },
  "modelli": {
   "001": {
@@ -1622,11 +1622,11 @@
    ]
   },
   "177": {
-   "data_base": "2026-09-23",
+   "data_base": "2026-10-11",
    "norme": [
     "cpc:473-bis.16",
-    "dm-110-2023:2",
-    "l-898-1970:4"
+    "cpc:473-bis.21",
+    "dm-110-2023:2"
    ]
   },
   "178": {

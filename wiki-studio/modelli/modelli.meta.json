@@ -3250,20 +3250,21 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-09-23",
-      "prossima_verifica": "2027-09-23",
+      "verificato_il": "2026-10-11",
+      "prossima_verifica": "2027-10-11",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
         "comparsa"
       ],
-      "norme_allineate_al": "2026-09-23",
-      "da_ricontrollare": {
-        "motivo": "art. 4 legge 898/1970: ARTICOLO ABROGATO (((ARTICOLO ABROGATO DAL D.LGS. 10 OTTOBRE 2022, N. 149, COME MODIFICATO DALLA L. 29 DICEMBRE 2022, N. 197)))",
-        "dal": "2026-10-11",
-        "fonte": "sentinella"
+      "norme_allineate_al": "2026-10-11",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-10-11",
+        "fonte": "sentinella-action",
+        "motivo": "Tolto il richiamo all'art. 4, co. 13, L. 898/1970 (abrogato dal D.Lgs. 149/2022, come da testo del corpus): l'adesione del convenuto e la rimessione in decisione seguono ora l'art. 473-bis.21, co. 3, c.p.c. vigente. Controllo della sentinella: VERDE."
       }
     },
     {

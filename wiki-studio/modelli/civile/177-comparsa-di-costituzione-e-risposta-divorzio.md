@@ -83,7 +83,7 @@ Con ricorso notificato a mezzo posta il ....................................... 
 A mezzo del sottoscritto procuratore, si costituisce la convenuta ............ 
 DIRITTO
 La convenuta fa propria la domanda di cessazione degli effetti civili del matrimonio perché ricorrono i presupposti di fatto e di diritto previsti dall’art. 2, legge 1° dicembre 1970, n. 898.
-Chiede altresì che il ricorso sia considerato a firma congiunta e che la causa sia rimessa al tribunale in forma collegiale ex art. 4, comma 13, legge 898/1970, integrata con legge 74/1983, per la decisione.
+Dichiara di aderire alla domanda e di volersi conciliare sulle condizioni del ricorso, e chiede che, dato atto della conciliazione all'udienza di comparizione, la causa sia rimessa in decisione ai sensi dell'art. 473-bis.21, terzo comma, c.p.c.
 Fa presente che non vi è prole né richiesta di assegno di mantenimento. 
 Conclude perché il tribunale adito voglia dichiarare la cessazione degli effetti civili del matrimonio concordatario contratto il ................... e trascritto presso l’Ufficio dello stato civile di .................... nell’anno ...................., atto n. ...................., ed ordinare all’Ufficiale dello stato civile di ........................ di procedere alle annotazioni e trascrizioni di legge.
 Dichiara che il valore è contenuto nella domanda principale, non avendo proposto domanda riconvenzionale.
@@ -93,3 +93,4 @@ Luogo e data .........................	Avv. ....................................
 
 ## Aggiornamenti
 - 2026-07-04 — importato nel catalogo (testo 2026-02); normativa agganciata al changelog verificato; giurisprudenza da popolare (on-demand/Sentinella).
+- 2026-10-11 — tolto il richiamo all'art. 4, comma 13, legge 898/1970 (abrogato dal D.Lgs. 149/2022): l'adesione del convenuto e la rimessione in decisione seguono ora l'art. 473-bis.21, terzo comma, c.p.c. (rito unificato).
