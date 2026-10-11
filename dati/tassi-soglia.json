@@ -4,8 +4,8 @@
   "fonte": "Banca d'Italia — Tassi Effettivi Globali Medi (TEGM) ex L. 108/96, serie storica (TEGM_serie_storica.zip)",
   "url": "file locale tegm.zip (copia di https://www.bancaditalia.it/compiti/vigilanza/compiti-vigilanza/tegm/TEGM_serie_storica.zip)",
   "url_pagina": "https://www.bancaditalia.it/compiti/vigilanza/compiti-vigilanza/tegm/index.html",
-  "verificato_il": "2026-09-23",
-  "prossima_verifica": "2026-09-28",
+  "verificato_il": "2026-10-11",
+  "prossima_verifica": "2026-12-29",
   "cadenza": "trimestrale: il D.M. MEF esce a fine marzo/giugno/settembre/dicembre; --aggiorna riscarica la serie",
   "formula": {
    "dl70-2011": "soglia = min(TEGM × 1,25 + 4, TEGM + 8) — art. 2 co. 4 L. 108/1996 come sostituito dall'art. 8 co. 5 lett. d) D.L. 70/2011 conv. L. 106/2011 (in vigore dal 14/05/2011)",
@@ -14,7 +14,7 @@
   },
   "decreti": "gli estremi del D.M. e della G.U. sono in tabella solo per i trimestri verificati su fonte primaria (decreto.da_verificare=false); per gli altri il valore e' comunque quello ufficiale di Banca d'Italia, ma l'estremo va letto dal sommario G.U.",
   "dal": "2010-01-01",
-  "trimestri": 68,
+  "trimestri": 69,
   "righe_csv_scartate": 984,
   "origine_dati": "csv Banca d'Italia",
   "ultimo_trimestre_csv": "2025-07-01",
@@ -23,7 +23,8 @@
    "2025-10-01",
    "2026-01-01",
    "2026-04-01",
-   "2026-07-01"
+   "2026-07-01",
+   "2026-10-01"
   ],
   "correzioni_csv": {
    "2020-07-01": "titolo del D.M. MEF 25 giugno 2020, G.U. Serie Generale n. 163 del 30/06/2020 (20A03453): «Applicazione dal 1° luglio al 30 settembre 2020»; il CSV Banca d'Italia riporta come fine trimestre 01/09/2020 (senza la correzione le date dal 2 al 30 settembre 2020 risultavano FUORI_TABELLA)"
@@ -32,7 +33,7 @@
   "url_decreti": "https://www.dt.mef.gov.it/it/attivita_istituzionali/sistema_bancario_finanziario/anti_usura/categorie_creditizie/",
   "copertura": {
    "dal": "2010-01-01",
-   "al": "2026-09-30"
+   "al": "2026-12-31"
   }
  },
  "trimestri": [
@@ -14588,6 +14589,240 @@
     "url": "https://www.dt.mef.gov.it/export/sites/sitodt/modules/documenti_it/prevenzione_reati_finanziari/antiusura/Decreto-tassi-usura-luglio-settembre-2026.pdf",
     "testo_letto": "Allegato A del decreto (PDF del Dipartimento del Tesoro)",
     "verificato_il": "2026-09-23",
+    "da_verificare": false
+   }
+  },
+  {
+   "inizio": "2026-10-01",
+   "fine": "2026-12-31",
+   "voci": [
+    {
+     "categoria": "APERTURE DI CREDITO IN CONTO CORRENTE",
+     "categoria_decreto": "APERTURE DI CREDITO IN CONTO CORRENTE",
+     "classe": "fino a 5.000 euro",
+     "tegm": 10.8,
+     "soglia_pubblicata": 17.5,
+     "soglia_calcolata": 17.5,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "APERTURE DI CREDITO IN CONTO CORRENTE",
+     "categoria_decreto": "APERTURE DI CREDITO IN CONTO CORRENTE",
+     "classe": "oltre 5.000 euro",
+     "tegm": 9.12,
+     "soglia_pubblicata": 15.4,
+     "soglia_calcolata": 15.4,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "SCOPERTI SENZA AFFIDAMENTO (dal 1° gennaio 2010)",
+     "categoria_decreto": "SCOPERTI SENZA AFFIDAMENTO",
+     "classe": "fino a 1.500 euro",
+     "tegm": 16.08,
+     "soglia_pubblicata": 24.08,
+     "soglia_calcolata": 24.08,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "SCOPERTI SENZA AFFIDAMENTO (dal 1° gennaio 2010)",
+     "categoria_decreto": "SCOPERTI SENZA AFFIDAMENTO",
+     "classe": "oltre 1.500 euro",
+     "tegm": 16.11,
+     "soglia_pubblicata": 24.11,
+     "soglia_calcolata": 24.11,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "ANTICIPI, SCONTI COMMERCIALI E FINANZIAMENTI ALL'IMPORTAZIONE",
+     "categoria_decreto": "FINANZIAMENTI PER ANTICIPI SU CREDITI E DOCUMENTI E SCONTO DI PORTAFOGLIO COMMERCIALE, FINANZIAMENTI ALL'IMPORTAZIONE E ANTICIPO FORNITORI",
+     "classe": "fino a 50.000 euro",
+     "tegm": 8.3,
+     "soglia_pubblicata": 14.375,
+     "soglia_calcolata": 14.375,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "ANTICIPI, SCONTI COMMERCIALI E FINANZIAMENTI ALL'IMPORTAZIONE",
+     "categoria_decreto": "FINANZIAMENTI PER ANTICIPI SU CREDITI E DOCUMENTI E SCONTO DI PORTAFOGLIO COMMERCIALE, FINANZIAMENTI ALL'IMPORTAZIONE E ANTICIPO FORNITORI",
+     "classe": "da 50.000 a 200.000 euro",
+     "tegm": 6.88,
+     "soglia_pubblicata": 12.6,
+     "soglia_calcolata": 12.6,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "ANTICIPI, SCONTI COMMERCIALI E FINANZIAMENTI ALL'IMPORTAZIONE",
+     "categoria_decreto": "FINANZIAMENTI PER ANTICIPI SU CREDITI E DOCUMENTI E SCONTO DI PORTAFOGLIO COMMERCIALE, FINANZIAMENTI ALL'IMPORTAZIONE E ANTICIPO FORNITORI",
+     "classe": "oltre 200.000 euro",
+     "tegm": 5.31,
+     "soglia_pubblicata": 10.6375,
+     "soglia_calcolata": 10.6375,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "CREDITO PERSONALE (dal 1° gennaio 2010)",
+     "categoria_decreto": "CREDITO PERSONALE",
+     "classe": "intera distribuzione",
+     "tegm": 12.08,
+     "soglia_pubblicata": 19.1,
+     "soglia_calcolata": 19.1,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "CREDITO FINALIZZATO ALL'ACQUISTO RATEALE",
+     "categoria_decreto": "CREDITO FINALIZZATO",
+     "classe": "intera distribuzione",
+     "tegm": 11.3,
+     "soglia_pubblicata": 18.125,
+     "soglia_calcolata": 18.125,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "FACTORING",
+     "categoria_decreto": "FACTORING",
+     "classe": "fino a 50.000 euro",
+     "tegm": 6.58,
+     "soglia_pubblicata": 12.225,
+     "soglia_calcolata": 12.225,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "FACTORING",
+     "categoria_decreto": "FACTORING",
+     "classe": "oltre 50.000 euro",
+     "tegm": 5.38,
+     "soglia_pubblicata": 10.725,
+     "soglia_calcolata": 10.725,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "LEASING IMMOBILIARE A TASSO FISSO (dal 1° aprile 2011)",
+     "categoria_decreto": "LEASING IMMOBILIARE A TASSO FISSO",
+     "classe": "intera distribuzione",
+     "tegm": 6.52,
+     "soglia_pubblicata": 12.15,
+     "soglia_calcolata": 12.15,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "LEASING IMMOBILIARE A TASSO VARIABILE (dal 1° aprile 2011)",
+     "categoria_decreto": "LEASING IMMOBILIARE A TASSO VARIABILE",
+     "classe": "intera distribuzione",
+     "tegm": 5.82,
+     "soglia_pubblicata": 11.275,
+     "soglia_calcolata": 11.275,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "LEASING AUTOVEICOLI E AERONAVALI (dal 1° gennaio 2010)",
+     "categoria_decreto": "LEASING AERONAVALE E SU AUTOVEICOLI",
+     "classe": "fino a 25.000 euro",
+     "tegm": 9.51,
+     "soglia_pubblicata": 15.8875,
+     "soglia_calcolata": 15.8875,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "LEASING AUTOVEICOLI E AERONAVALI (dal 1° gennaio 2010)",
+     "categoria_decreto": "LEASING AERONAVALE E SU AUTOVEICOLI",
+     "classe": "oltre 25.000 euro",
+     "tegm": 8.4,
+     "soglia_pubblicata": 14.5,
+     "soglia_calcolata": 14.5,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "LEASING STRUMENTALE (dal 1° gennaio 2010)",
+     "categoria_decreto": "LEASING STRUMENTALE",
+     "classe": "fino a 25.000 euro",
+     "tegm": 10.27,
+     "soglia_pubblicata": 16.8375,
+     "soglia_calcolata": 16.8375,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "LEASING STRUMENTALE (dal 1° gennaio 2010)",
+     "categoria_decreto": "LEASING STRUMENTALE",
+     "classe": "oltre 25.000 euro",
+     "tegm": 7.5,
+     "soglia_pubblicata": 13.375,
+     "soglia_calcolata": 13.375,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "MUTUI IPOTECARI A TASSO FISSO (dal 1° luglio 2004)",
+     "categoria_decreto": "MUTUI CON GARANZIA IPOTECARIA A TASSO FISSO",
+     "classe": "intera distribuzione",
+     "tegm": 4.52,
+     "soglia_pubblicata": 9.65,
+     "soglia_calcolata": 9.65,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "MUTUI IPOTECARI A TASSO VARIABILE (dal 1° luglio 2004)",
+     "categoria_decreto": "MUTUI CON GARANZIA IPOTECARIA A TASSO VARIABILE",
+     "classe": "intera distribuzione",
+     "tegm": 4.34,
+     "soglia_pubblicata": 9.425,
+     "soglia_calcolata": 9.425,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "PRESTITI CONTRO CESSIONE DEL QUINTO STIPENDIO E PENSIONE (dal 1° gennaio 2010)",
+     "categoria_decreto": "PRESTITI CONTRO CESSIONE DEL QUINTO DELLO STIPENDIO E DELLA PENSIONE",
+     "classe": "fino a 15.000 euro",
+     "tegm": 14.23,
+     "soglia_pubblicata": 21.7875,
+     "soglia_calcolata": 21.7875,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "PRESTITI CONTRO CESSIONE DEL QUINTO STIPENDIO E PENSIONE (dal 1° gennaio 2010)",
+     "categoria_decreto": "PRESTITI CONTRO CESSIONE DEL QUINTO DELLO STIPENDIO E DELLA PENSIONE",
+     "classe": "oltre 15.000 euro",
+     "tegm": 9.88,
+     "soglia_pubblicata": 16.35,
+     "soglia_calcolata": 16.35,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "CREDITO REVOLVING (dal 1° gennaio 2010)",
+     "categoria_decreto": "CREDITO REVOLVING",
+     "classe": "intera distribuzione",
+     "tegm": 16.5,
+     "soglia_pubblicata": 24.5,
+     "soglia_calcolata": 24.5,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "FINANZIAMENTI RATEALI CON CARTE DI CREDITO (dal 1° aprile 2017)",
+     "categoria_decreto": "FINANZIAMENTI CON UTILIZZO DI CARTE DI CREDITO",
+     "classe": "intera distribuzione",
+     "tegm": 12.15,
+     "soglia_pubblicata": 19.1875,
+     "soglia_calcolata": 19.1875,
+     "regime": "dl70-2011"
+    },
+    {
+     "categoria": "ALTRI FINANZIAMENTI ALLE FAMIGLIE E ALLE IMPRESE (dal 1° aprile 2010)",
+     "categoria_decreto": "ALTRI FINANZIAMENTI",
+     "classe": "intera distribuzione",
+     "tegm": 14.41,
+     "soglia_pubblicata": 22.0125,
+     "soglia_calcolata": 22.0125,
+     "regime": "dl70-2011"
+    }
+   ],
+   "regime": "dl70-2011",
+   "origine": "decreto MEF",
+   "rilevazione": "2026-04-01 → 2026-06-30",
+   "decreto": {
+    "decreto": "D.M. MEF 28 settembre 2026",
+    "gu": "G.U. Serie Generale n. 227 del 30/09/2026",
+    "codice_redazionale": "26A05180",
+    "url": "https://www.dt.mef.gov.it/export/sites/sitodt/modules/documenti_it/prevenzione_reati_finanziari/antiusura/decreto-tassi-usura-ottobre-dicembre-2026.pdf",
+    "testo_letto": "Allegato A del decreto (PDF del Dipartimento del Tesoro)",
+    "verificato_il": "2026-10-11",
     "da_verificare": false
    }
   }
