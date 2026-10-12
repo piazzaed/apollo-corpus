@@ -1,6 +1,6 @@
 # Codice civile — Libro II — Delle successioni
 
-<!-- codice: cc · snapshot: 2026-09-23 · consolidato-normattiva: 2026-06-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
+<!-- codice: cc · snapshot: 2026-10-12 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -248,9 +248,12 @@ AGGIORNAMENTO (112a)
 Il D.Lgs. 19 febbraio 1998, n. 51, come modificato dalla L. 16 giugno 1998, n. 188 ha disposto (con l'art. 247, comma 1) che "Il presente decreto legislativo entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e diventa efficace a decorrere dal 2 giugno 1999, fatta eccezione per le disposizioni previste dagli articoli 17, 33, comma 1, 38, comma 1 e 40, commi 1 e 3."
 
 ### Art. 485 — Chiamato all'eredita' che e' nel possesso di beni
-<!-- vigore_da: 2026-06-12 -->
+<!-- vigore_da: 2021-10-31 -->
 
-Il chiamato all'eredita', quando a qualsiasi titolo e' nel possesso di beni ereditari, deve fare l'inventario entro tre mesi dal giorno dell'apertura della successione o della notizia della devoluta eredita'. Se entro questo termine lo ha cominciato ma non e' stato in grado di completarlo, puo' ottenere dal giudice di pace del luogo in cui si e' aperta la successione una proroga che, salvo gravi circostanze, non deve eccedere i tre mesi.(111) (112a) (273) (300) (341) ((351))
+Il chiamato all'eredita', quando a qualsiasi titolo e' nel possesso di beni ereditari, deve fare l'inventario entro tre mesi dal giorno dell'apertura della successione o della notizia della devoluta eredita'. Se entro questo termine lo ha cominciato ma non e' stato in grado di completarlo, puo' ottenere dal ((giudice di pace)) del luogo in cui si e' aperta la successione una proroga che, salvo gravi circostanze, non deve eccedere i tre mesi.(111) (112a) ((273))
+((300))
+((341))
+((351))
 
 Trascorso tale termine senza che l'inventario sia stato compiuto, il chiamato all'eredita' e' considerato erede puro e semplice.
 
@@ -279,7 +282,7 @@ Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117
 ---------------
 AGGIORNAMENTO (351)
 
-Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027"
+Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 12 giugno 2026, n. 100, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027".
 
 ### Art. 486 — Poteri
 <!-- vigore_da: 1942-04-19 -->
@@ -1443,11 +1446,14 @@ I testamenti previsti in questa sezione sono nulli quando manca la redazione in 
 Per gli altri difetti di forma si osserva il disposto del secondo comma dell'art. 606.
 
 ### Art. 620 — Pubblicazione del testamento olografo
-<!-- vigore_da: 2026-06-12 -->
+<!-- vigore_da: 2021-10-31 -->
 
 Chiunque e' in possesso di un testamento olografo deve presentarlo a un notaio per la pubblicazione, appena ha notizia della morte del testatore.
 
-Chiunque crede di avervi interesse puo' chiedere, con ricorso al giudice di pace del luogo in cui si e' aperta la successione, che sia fissato un termine per la presentazione.(111) (112a) (273) (300) (341) ((351))
+Chiunque crede di avervi interesse puo' chiedere, con ricorso al ((giudice di pace del luogo)) in cui si e' aperta la successione, che sia fissato un termine per la presentazione.(111) (112a) ((273))
+((300))
+((341))
+((351))
 
 Il notaio procede alla pubblicazione del testamento in presenza di due testimoni, redigendo nella forma degli atti pubblici un verbale nel quale descrive lo stato del testamento, ne riproduce il contenuto e fa menzione della sua apertura, se e' stato presentato chiuso con sigillo. Il verbale e' sottoscritto dalla persona che presenta il testamento, dai testimoni e dal notaio. Ad esso sono uniti la carta in cui e' scritto il testamento, vidimata in ciascun mezzo foglio dal notaio e dai testimoni, e l'estratto dell'atto di morte del testatore o copia del provvedimento che ordina l'apertura degli atti di ultima volonta' dell'assente o della sentenza che dichiara la morte presunta.
 
@@ -1455,7 +1461,10 @@ Nel caso in cui il testamento e' stato depositato dal testatore presso un notaio
 
 Avvenuta la pubblicazione, il testamento olografo ha esecuzione.
 
-Per giustificati motivi, su istanza di chiunque vi ha interesse, il giudice di pace puo' disporre che periodi o frasi di carattere non patrimoniale siano cancellati dal testamento e omessi nelle copie che fossero richieste, salvo che l'autorita' giudiziaria ordini il rilascio di copia integrale.(111) (112a) (273) (300) (341) ((351))
+Per giustificati motivi, su istanza di chiunque vi ha interesse, il ((giudice di pace)) puo' disporre che periodi o frasi di carattere non patrimoniale siano cancellati dal testamento e omessi nelle copie che fossero richieste, salvo che l'autorita' giudiziaria ordini il rilascio di copia integrale.(111) (112a) ((273))
+((300))
+((341))
+((351))
 
 ---------------
 AGGIORNAMENTO (111)
@@ -1480,12 +1489,15 @@ Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117
 ---------------
 AGGIORNAMENTO (351)
 
-Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027"
+Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 12 giugno 2026, n. 100, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027".
 
 ### Art. 621 — Pubblicazione del testamento segreto
-<!-- vigore_da: 2026-06-12 -->
+<!-- vigore_da: 2021-10-31 -->
 
-Il testamento segreto deve essere aperto e pubblicato dal notaio appena gli perviene la notizia della morte del testatore. Chiunque crede di avervi interesse puo' chiedere, con ricorso al giudice di pace del luogo in cui si e' aperta la successione, che sia fissato un termine per l'apertura e la pubblicazione.(111) (112a) (273) (300) (341) ((351))
+Il testamento segreto deve essere aperto e pubblicato dal notaio appena gli perviene la notizia della morte del testatore. Chiunque crede di avervi interesse puo' chiedere, con ricorso al ((giudice di pace del luogo)) in cui si e' aperta la successione, che sia fissato un termine per l'apertura e la pubblicazione.(111) (112a) ((273))
+((300))
+((341))
+((351))
 
 Si applicano le disposizioni del terzo comma dell'articolo 620.
 
@@ -1512,7 +1524,7 @@ Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117
 ---------------
 AGGIORNAMENTO (351)
 
-Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027"
+Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 12 giugno 2026, n. 100, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027".
 
 ### Art. 622 — Comunicazione dei testamenti alla pretura
 <!-- vigore_da: 1998-07-04 -->
@@ -2306,11 +2318,14 @@ La divisione nella quale il testatore non abbia compreso qualcuno dei legittimar
 Il coerede che e' stato leso nella quota di riserva puo' esercitare l'azione di riduzione contro gli altri coeredi.
 
 ### Art. 736 — Consegna dei documenti
-<!-- vigore_da: 2026-06-12 -->
+<!-- vigore_da: 2021-10-31 -->
 
 Compiuta la divisione, si devono rimettere a ciascuno dei condividenti i documenti relativi ai beni e diritti particolarmente loro assegnati.
 
-I documenti di una proprieta' che e' stata divisa rimangono a quello che ne ha la parte maggiore, con l'obbligo di comunicarli agli altri condividenti che vi hanno interesse, ogni qualvolta se ne faccia richiesta. Gli stessi documenti, se la proprieta' e' divisa in parti eguali, e quelli comuni all'intera eredita' si consegnano alla persona scelta a tal fine da tutti gli interessati, la quale ha obbligo di comunicarli a ciascuno di essi, a ogni loro domanda. Se vi e' contrasto nella scelta, la persona e' determinata con decreto dal giudice di pace del luogo dell'aperta successione, su ricorso di alcuno degli interessati, sentiti gli altri.(111) (112a) (273) (300) (341) ((351))
+I documenti di una proprieta' che e' stata divisa rimangono a quello che ne ha la parte maggiore, con l'obbligo di comunicarli agli altri condividenti che vi hanno interesse, ogni qualvolta se ne faccia richiesta. Gli stessi documenti, se la proprieta' e' divisa in parti eguali, e quelli comuni all'intera eredita' si consegnano alla persona scelta a tal fine da tutti gli interessati, la quale ha obbligo di comunicarli a ciascuno di essi, a ogni loro domanda. Se vi e' contrasto nella scelta, la persona e' determinata con decreto dal ((giudice di pace)) del luogo dell'aperta successione, su ricorso di alcuno degli interessati, sentiti gli altri.(111) (112a) ((273))
+((300))
+((341))
+((351))
 
 --------------
 AGGIORNAMENTO (111)
@@ -2335,7 +2350,7 @@ Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117
 ---------------
 AGGIORNAMENTO (351)
 
-Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027"
+Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 12 giugno 2026, n. 100, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027".
 
 ### Art. 737
 <!-- vigore_da: 2014-02-07 -->

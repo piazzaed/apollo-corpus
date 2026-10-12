@@ -1,6 +1,6 @@
 # Codice civile — Libro IV — Delle obbligazioni
 
-<!-- codice: cc · snapshot: 2026-09-23 · consolidato-normattiva: 2026-06-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
+<!-- codice: cc · snapshot: 2026-10-12 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -265,9 +265,12 @@ Se il creditore rifiuta di accettare l'offerta reale o non si presenta per ricev
 Eseguito il deposito, quando questo e' accettato dal creditore o e' dichiarato valido con sentenza passata in giudicato, il debitore non puo' piu' ritirarlo ed e' liberato dalla sua obbligazione.
 
 ### Art. 1211 — Cose deperibili o di dispendiosa custodia
-<!-- vigore_da: 2026-06-12 -->
+<!-- vigore_da: 2021-10-31 -->
 
-Se le cose non possono essere conservate o sono deteriorabili, oppure se le spese della loro custodia sono eccessive, il debitore, dopo l'offerta reale o l'intimazione di ritirarle, puo' farsi autorizzare dal giudice di pace a venderle nei modi stabiliti per le cose pignorate e a depositarne il prezzo. (111) (112a) (273) (300) (341) ((351))
+Se le cose non possono essere conservate o sono deteriorabili, oppure se le spese della loro custodia sono eccessive, il debitore, dopo l'offerta reale o l'intimazione di ritirarle, puo' farsi autorizzare dal ((giudice di pace)) a venderle nei modi stabiliti per le cose pignorate e a depositarne il prezzo. (111) (112a) ((273))
+((300))
+((341))
+((351))
 
 -----------
 AGGIORNAMENTO (111)
@@ -292,7 +295,7 @@ Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117
 ---------------
 AGGIORNAMENTO (351)
 
-Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027"
+Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 12 giugno 2026, n. 100, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027".
 
 ### Art. 1212 — Requisiti del deposito
 <!-- vigore_da: 1942-04-19 -->
@@ -2370,9 +2373,12 @@ In caso di divergenza sulla qualita' o condizione della cosa, il venditore o il 
 La parte che non ha chiesto la verifica della cosa, deve, in caso di contestazione, provarne rigorosamente l'identita' e lo stato.
 
 ### Art. 1514 — Deposito della cosa venduta
-<!-- vigore_da: 2026-06-12 -->
+<!-- vigore_da: 2021-10-31 -->
 
-Se il compratore non si presenta per ricevere la cosa acquistata, il venditore puo' depositarla, per conto e a spese del compratore medesimo, in un locale di pubblico deposito, oppure in altro locale idoneo determinato dal giudice di pace del luogo in cui la consegna doveva essere fatta. (111) (112a) (273) (300) (341) ((351))
+Se il compratore non si presenta per ricevere la cosa acquistata, il venditore puo' depositarla, per conto e a spese del compratore medesimo, in un locale di pubblico deposito, oppure in altro locale idoneo determinato dal ((giudice di pace)) del luogo in cui la consegna doveva essere fatta. (111) (112a) ((273))
+((300))
+((341))
+((351))
 
 Il venditore deve dare al compratore pronta notizia del deposito eseguito.
 
@@ -2399,16 +2405,19 @@ Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117
 ---------------
 AGGIORNAMENTO (351)
 
-Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027"
+Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 12 giugno 2026, n. 100, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027".
 
 ### Art. 1515 — Esecuzione coattiva per inadempimento del compratore
-<!-- vigore_da: 2026-06-12 -->
+<!-- vigore_da: 2021-10-31 -->
 
 Se il compratore non adempie l'obbligazione di pagare il prezzo, il venditore puo' far vendere senza ritardo la cosa per conto e a spese di lui.
 
 La vendita e' fatta all'incanto a mezzo di una persona autorizzata a tali atti o, in mancanza di essa nel luogo in cui la vendita deve essere eseguita, a mezzo di un ufficiale giudiziario. Il venditore deve dare tempestiva notizia al compratore del giorno, del luogo e dell'ora in cui la vendita sara' eseguita.
 
-Se la cosa ha un prezzo corrente, stabilito per atto della pubblica autorita' o da norme corporative, ovvero risultante da listini di borsa o da mercuriali, la vendita puo' essere fatta senza incanto, al prezzo corrente, a mezzo delle persone indicate nel comma precedente o di un commissario nominato dal giudice di pace. In tal caso il venditore deve dare al compratore pronta notizia della vendita. (111) (112a) (273) (300) (341) ((351))
+Se la cosa ha un prezzo corrente, stabilito per atto della pubblica autorita' o da norme corporative, ovvero risultante da listini di borsa o da mercuriali, la vendita puo' essere fatta senza incanto, al prezzo corrente, a mezzo delle persone indicate nel comma precedente o di un commissario nominato ((dal giudice di pace)). In tal caso il venditore deve dare al compratore pronta notizia della vendita. (111) (112a) ((273))
+((300))
+((341))
+((351))
 
 Il venditore ha diritto alla differenza tra il prezzo convenuto e il ricavo netto della vendita, oltre al risarcimento del maggior danno.
 
@@ -2432,6 +2441,10 @@ Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 30 dicembre 2019, n. 
 AGGIORNAMENTO (341)
 
 Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117, convertito con modificazioni dalla L. 3 ottobre 2025, n. 148, ha disposto (con l'art. 32, comma 3) che la modifica di cui al terzo comma del presente articolo entra in vigore il 31 ottobre 2026.
+---------------
+AGGIORNAMENTO (351)
+
+Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 12 giugno 2026, n. 100, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027".
 
 ### Art. 1516 — Esecuzione coattiva per inadempimento del venditore
 <!-- vigore_da: 1942-04-19 -->
@@ -4710,14 +4723,22 @@ Se la cassetta e' intestata a piu' persone, l'apertura di essa e' consentita sin
 In caso di morte dell'intestatario o di uno degli intestatari, la banca che ne abbia ricevuto comunicazione non puo' consentire l'apertura della cassetta se non con l'accordo di tutti gli aventi diritto o secondo le modalita' stabilite dall'autorita' giudiziaria.
 
 ### Art. 1841 — Apertura forzata della cassetta
-<!-- vigore_da: 2026-06-12 -->
+<!-- vigore_da: 2021-10-31 -->
 
-Quando il contratto e' scaduto, la banca, previa intimazione all'intestatario e decorsi sei mesi dalla data della medesima, puo' chiedere al giudice di pace l'autorizzazione ad aprire la cassetta.
-L'intimazione puo' farsi anche mediante raccomandata con avviso di ricevimento. (273) (300) (341) ((351))
+Quando il contratto e' scaduto, la banca, previa intimazione all'intestatario e decorsi sei mesi dalla data della medesima, puo' chiedere al ((giudice di pace)) l'autorizzazione ad aprire la cassetta. L'intimazione puo' farsi anche mediante raccomandata con avviso di ricevimento. ((273))
+((300))
+((341))
+((351))
 
-L'apertura si esegue con l'assistenza di un notaio all'uopo designato e con le cautele che il giudice di pace ritiene opportune. (273) (300) (341) ((351))
+L'apertura si esegue con l'assistenza di un notaio all'uopo designato e con le cautele che il ((giudice di pace)) ritiene opportune. ((273))
+((300))
+((341))
+((351))
 
-Il giudice di pace puo' dare le disposizioni necessarie per la conservazione degli oggetti rinvenuti e puo' ordinare la vendita di quella parte di essi che occorra al soddisfacimento di quanto e' dovuto alla banca per canoni e spese. (273) (300) (341) ((351))
+Il ((giudice di pace)) puo' dare le disposizioni necessarie per la conservazione degli oggetti rinvenuti e puo' ordinare la vendita di quella parte di essi che occorra al soddisfacimento di quanto e' dovuto alla banca per canoni e spese. ((273))
+((300))
+((341))
+((351))
 (111) (112a)
 
 ---------------
@@ -4743,7 +4764,7 @@ Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117
 ---------------
 AGGIORNAMENTO (351)
 
-Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 8 agosto 2025, n. 117, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027"
+Il D.Lgs. 13 luglio 2017, n. 116, come modificato dal D.L. 12 giugno 2026, n. 100, ha disposto (con l'art. 32, comma 3) che "Le disposizioni dell'articolo 27 entrano in vigore il 31 ottobre 2027".
 
 ### Art. 1842 — Nozione
 <!-- vigore_da: 1942-04-19 -->

@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "l-49-2023",
   "nome": "Equo compenso delle prestazioni professionali (L. 49/2023)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-10-12",
   "formato": 2,
-  "consolidato_normattiva": "2026-09-23",
+  "consolidato_normattiva": "2026-10-12",
   "articoli": 13,
   "file": [
    "l-49-2023.md"
@@ -22,11 +22,9 @@
   "ultima_versione": "2023-05-05",
   "datazione": {
    "monoblocco": 13,
-   "api": 12,
-   "riportati": 1,
+   "api": 0,
+   "riportati": 13,
    "ignota": 0,
-   "stima_anteriore": 12,
-   "chiamate": 12,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },

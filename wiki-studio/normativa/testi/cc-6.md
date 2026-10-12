@@ -1,6 +1,6 @@
 # Codice civile — Libro VI — Della tutela dei diritti
 
-<!-- codice: cc · snapshot: 2026-09-23 · consolidato-normattiva: 2026-06-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
+<!-- codice: cc · snapshot: 2026-10-12 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -963,7 +963,7 @@ AGGIORNAMENTO (320)
 La Corte Costituzionale, con sentenza 9 giugno - 1 luglio 2022, n. 167 (in G.U. 1ª s.s. 06/07/2022, n. 27), ha dichiarato l'illegittimita' costituzionale dell'art. 2751-bis, numero 3), e dell'art. 1, comma 474, della legge 27 dicembre 2017, n. 205 (che ha modificato il comma 1, numero 2) del presenete articolo) "nella parte in cui non prevedono, in favore dell'agente che svolga una prestazione di opera continuativa e coordinata, prevalentemente personale, il privilegio generale sui mobili esteso al credito di rivalsa per l'imposta sul valore aggiunto (IVA) sulle provvigioni dovute per l'ultimo anno di prestazione".
 
 ### Art. 2752
-<!-- vigore_da: 2011-12-28 -->
+<!-- vigore_da: 2026-08-12 -->
 
 Crediti per tributi diretti dello Stato, per imposta sul valore aggiunto e per tributi degli enti locali.
 
@@ -973,7 +973,7 @@ COMMA SOPPRESSO DAL D.LGS. 26 FEBBRAIO 1999, N. 46.
 
 Hanno altresi' privilegio generale sui mobili del debitore i crediti dello Stato per le imposte, le pene pecuniarie e le soprattasse dovute secondo le norme relative all'imposta sul valore aggiunto.
 
-Hanno lo stesso privilegio, subordinatamente a quello dello Stato, i crediti per le imposte, tasse e tributi dei comuni e delle province previsti dalla legge per la finanza locale e dalle norme relative all'imposta comunale sulla pubblicita' e ai diritti sulle pubbliche affissioni. ((202))
+Hanno lo stesso privilegio, subordinatamente a quello dello Stato, i crediti per le imposte, tasse e tributi dei comuni e delle province previsti dalla legge per la finanza locale e dalle norme relative all'imposta comunale sulla pubblicita' e ai diritti sulle pubbliche affissioni. (202) ((352))
 
 -------------
 AGGIORNAMENTO (197)
@@ -987,6 +987,10 @@ Successivamente la Corte Costituzionale, con sentenza 1 - 4 luglio 2013, n. 170 
 AGGIORNAMENTO (202)
 
 Il D.L. 6 dicembre 2011, n. 201, convertito con modificazioni dalla L. 22 dicembre 2011, n. 214, ha disposto (con l'art. 13, comma 13) che "Ai fini del quarto comma dell'articolo 2752 del codice civile il riferimento alla "legge per la finanza locale" si intende effettuato a tutte disposizioni che disciplinano i singoli tributi comunali e provinciali".
+-------------
+AGGIORNAMENTO (352)
+
+Il D.L. 6 dicembre 2011, n. 201, convertito con modificazioni dalla L. 22 dicembre 2011, n. 214, come modificato dal D.Lgs. 7 agosto 2026, n. 147, ha disposto (con l'art. 13, comma 13) che "Ai fini del quarto comma dell'articolo 2752 del codice civile il riferimento alla "legge per la finanza locale" si intende effettuato a tutte disposizioni che disciplinano i singoli tributi delle regioni e degli enti locali".
 
 ### Art. 2753
 <!-- vigore_da: 1975-09-14 -->
