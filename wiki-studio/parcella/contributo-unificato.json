@@ -3,15 +3,16 @@
   "descrizione": "Contributo unificato (art. 13 d.P.R. 115/2002) e spese forfettarie per inquadra_atto.py e scripts/calcoli/cu_e_spese.py. Importi riscontrati sul testo vigente nel corpus locale (norma.py) il 19 e il 23/09/2026.",
   "fonte": "d.P.R. 30 maggio 2002 n. 115, art. 13 (importi) e art. 30 (anticipazione forfettaria); tabelle giustizia.it",
   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2002-05-30;115~art13",
-  "verificato_il": "2026-09-23",
-  "prossima_verifica": "2026-10-19",
+  "verificato_il": "2026-10-12",
+  "prossima_verifica": "2026-11-11",
   "da_confermare": false,
   "riscontro_testo_locale": {
    "data": "2026-09-19",
    "verificato_su": "wiki-studio/normativa/testi/dpr-115-2002.md (normattiva caricaAKN, consolidato al 2026-08-26, snapshot 2026-09-18), art. 13 co. 1, 1-bis, 1-ter, 1-quater, 2, 3; art. 9 co. 1-bis; art. 10",
    "esito": "gli importi degli scaglioni (43/98/237/518/759/1.214/1.686), l'indeterminabile (518; 237 per il G.d.P.), i moltiplicatori (impugnazione ×1,5; cassazione ×2; sezioni specializzate ×2) e le riduzioni (metà per libro IV titolo I, opposizione a d.i., lavoro salvo art. 9 co. 1-bis) COINCIDONO col testo locale; gli importi fissi dell'esecuzione (278/139/43/168) letti dal co. 2. Le sezioni sotto con da_confermare:false sono state riscontrate in questo giro (inquadra_atto.py le legge); `_meta.da_confermare` resta a discrezione del calcolatore.",
    "nota_indeterminabile": "art. 13 co. 1 lett. d): «processi civili di valore indeterminabile» = 518 (il co. 6 non esiste nel testo locale: il riferimento della discrepanza_nota è da correggere); lett. c): «indeterminabile di competenza esclusiva del G.d.P.» = 237"
-  }
+  },
+  "rinnovata_da": "sentinelle (Action del corpus): articoli di riferimento verificati nel corpus questa settimana, non in movimento, senza modifiche dopo la verifica precedente"
  },
  "scaglioni": [
   {
