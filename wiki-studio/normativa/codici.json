@@ -3012,6 +3012,207 @@
     ]
    ],
    "citazione": "L. 54/1977"
+  },
+  "cpp": {
+   "nome": "Codice di procedura penale (D.P.R. 447/1988)",
+   "urn": "urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447:1",
+   "doc_prefix": "",
+   "min_articoli": 700,
+   "libri": [
+    [
+     "Libro I — Soggetti",
+     1,
+     108
+    ],
+    [
+     "Libro II — Atti",
+     109,
+     186
+    ],
+    [
+     "Libro III — Prove",
+     187,
+     271
+    ],
+    [
+     "Libro IV — Misure cautelari",
+     272,
+     325
+    ],
+    [
+     "Libro V — Indagini preliminari e udienza preliminare",
+     326,
+     437
+    ],
+    [
+     "Libro VI — Procedimenti speciali",
+     438,
+     464
+    ],
+    [
+     "Libro VII — Giudizio",
+     465,
+     548
+    ],
+    [
+     "Libro VIII — Procedimento davanti al tribunale in composizione monocratica",
+     549,
+     567
+    ],
+    [
+     "Libro IX — Impugnazioni",
+     568,
+     647
+    ],
+    [
+     "Libro X — Esecuzione",
+     648,
+     695
+    ],
+    [
+     "Libro XI — Rapporti giurisdizionali con autorità straniere",
+     696,
+     999
+    ]
+   ],
+   "alias": [
+    "c.p.p.",
+    "cpp",
+    "codice di procedura penale",
+    "cod. proc. pen.",
+    "d.p.r. 447/1988",
+    "dpr 447/1988"
+   ],
+   "materie": [
+    "penale",
+    "processo_penale"
+   ],
+   "solo_corpo": false,
+   "citazione": "c.p.p."
+  },
+  "rd-773-1931": {
+   "nome": "Testo unico delle leggi di pubblica sicurezza (TULPS, R.D. 773/1931)",
+   "urn": "urn:nir:stato:regio.decreto:1931-06-18;773",
+   "doc_prefix": "Testo unico delle leggi di pubblica sicurezza",
+   "min_articoli": 150,
+   "solo_corpo": false,
+   "libri": [
+    [
+     "TULPS (R.D. 773/1931)",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "r.d. 773/1931",
+    "rd 773/1931",
+    "tulps",
+    "t.u.l.p.s.",
+    "t.u.p.s.",
+    "testo unico delle leggi di pubblica sicurezza"
+   ],
+   "materie": [
+    "penale",
+    "amministrativo",
+    "pubblica_sicurezza"
+   ],
+   "citazione": "TULPS"
+  },
+  "l-47-1948": {
+   "nome": "Disposizioni sulla stampa (L. 47/1948)",
+   "urn": "urn:nir:stato:legge:1948-02-08;47",
+   "doc_prefix": "",
+   "min_articoli": 20,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 47/1948",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 47/1948",
+    "legge 47/1948",
+    "legge sulla stampa",
+    "legge stampa"
+   ],
+   "materie": [
+    "penale",
+    "diffamazione",
+    "stampa"
+   ],
+   "citazione": "L. 47/1948"
+  },
+  "dlgs-7-2016": {
+   "nome": "Abrogazione di reati e illeciti con sanzioni pecuniarie civili (D.Lgs. 7/2016)",
+   "urn": "urn:nir:stato:decreto.legislativo:2016-01-15;7",
+   "doc_prefix": "",
+   "min_articoli": 10,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.Lgs. 7/2016",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.lgs. 7/2016",
+    "dlgs 7/2016"
+   ],
+   "materie": [
+    "penale",
+    "responsabilita_civile",
+    "diffamazione"
+   ],
+   "citazione": "D.Lgs. 7/2016"
+  },
+  "l-374-1991": {
+   "nome": "Istituzione del giudice di pace (L. 374/1991)",
+   "urn": "urn:nir:stato:legge:1991-11-21;374",
+   "doc_prefix": "",
+   "min_articoli": 30,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 374/1991",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 374/1991",
+    "legge 374/1991"
+   ],
+   "materie": [
+    "processo_civile",
+    "giudice_di_pace"
+   ],
+   "citazione": "L. 374/1991"
+  },
+  "dlgs-150-2022": {
+   "nome": "Riforma del processo penale (D.Lgs. 150/2022, «riforma Cartabia»)",
+   "urn": "urn:nir:stato:decreto.legislativo:2022-10-10;150",
+   "doc_prefix": "",
+   "min_articoli": 50,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.Lgs. 150/2022",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.lgs. 150/2022",
+    "dlgs 150/2022"
+   ],
+   "materie": [
+    "penale",
+    "processo_penale"
+   ],
+   "citazione": "D.Lgs. 150/2022"
   }
  }
 }

@@ -1,0 +1,130 @@
+{
+ "_meta": {
+  "codice": "dlgs-7-2016",
+  "nome": "Abrogazione di reati e illeciti con sanzioni pecuniarie civili (D.Lgs. 7/2016)",
+  "snapshot": "2026-10-13",
+  "formato": 2,
+  "consolidato_normattiva": "2017-01-01",
+  "articoli": 13,
+  "file": [
+   "dlgs-7-2016.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2016-01-15;7",
+  "versioni": [
+   {
+    "data": "2016-01-22",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2016-12-21",
+    "evento": "rp1",
+    "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   }
+  ],
+  "ultima_versione": "2016-12-21",
+  "datazione": {
+   "monoblocco": 13,
+   "api": 13,
+   "ignota": 0,
+   "stima_anteriore": 11,
+   "chiamate": 13,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Abrogazione di reati",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "b41cbf8183c4"
+  },
+  "2": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Modifiche al codice penale",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "58a164af2bd6"
+  },
+  "3": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "d18229aa36dd"
+  },
+  "4": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Illeciti civili sottoposti a sanzioni pecuniarie",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "41fb0e54d6cc"
+  },
+  "5": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Criteri di commisurazione delle sanzioni pecuniarie",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "6c679051aca6"
+  },
+  "6": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Reiterazione dell'illecito",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "c450ee2845fb"
+  },
+  "7": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Concorso di persone",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "5430dad5a1c5"
+  },
+  "8": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Procedimento",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "9240c3627d96"
+  },
+  "9": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Pagamento della sanzione",
+   "vigore_da": "2017-01-01",
+   "datazione": "api",
+   "h": "8b743e1a125e"
+  },
+  "10": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Destinazione del provento della sanzione",
+   "vigore_da": "2017-01-01",
+   "datazione": "api",
+   "h": "ee40a6357c33"
+  },
+  "11": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Registro informatizzato dei provvedimenti in materia di sanzioni pecuniarie",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "fd2960ee9ed4"
+  },
+  "12": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Disposizioni transitorie",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "62f99d06094e"
+  },
+  "13": {
+   "file": "dlgs-7-2016.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "4c137fa35aba"
+  }
+ }
+}

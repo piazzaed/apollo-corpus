@@ -1,0 +1,240 @@
+{
+ "_meta": {
+  "codice": "l-47-1948",
+  "nome": "Disposizioni sulla stampa (L. 47/1948)",
+  "snapshot": "2026-10-13",
+  "formato": 2,
+  "consolidato_normattiva": "2021-07-15",
+  "articoli": 25,
+  "file": [
+   "l-47-1948.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1948-02-08;47",
+  "versioni": [
+   {
+    "data": "1948-02-20",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1968-10-25",
+    "evento": "rp1",
+    "atto_modificante": "D.P.R. 25 ottobre 1968, n. 1084"
+   },
+   {
+    "data": "1970-05-22",
+    "evento": "rp2",
+    "atto_modificante": "D.P.R. 22 maggio 1970, n. 283"
+   },
+   {
+    "data": "1971-07-21",
+    "evento": "rp3",
+    "atto_modificante": "atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "1981-08-06",
+    "evento": "rp4",
+    "atto_modificante": "L. 5 agosto 1981, n. 416"
+   },
+   {
+    "data": "2009-12-14",
+    "evento": "rp5",
+    "atto_modificante": "D.Lgs. 1 dicembre 2009, n. 179"
+   },
+   {
+    "data": "2021-07-14",
+    "evento": "rp6",
+    "atto_modificante": "atto modificante non indicato (rp6)"
+   }
+  ],
+  "ultima_versione": "2021-07-14",
+  "datazione": {
+   "monoblocco": 25,
+   "api": 24,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 22,
+   "chiamate": 25,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-47-1948.md",
+   "rubrica": "Definizione di stampa o stampato",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "c8039d3e0d96"
+  },
+  "2": {
+   "file": "l-47-1948.md",
+   "rubrica": "Indicazioni obbligatorie sugli stampati",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "9d43199df2ff"
+  },
+  "3": {
+   "file": "l-47-1948.md",
+   "rubrica": "Direttore responsabile",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "c96ffbc2dd2c"
+  },
+  "4": {
+   "file": "l-47-1948.md",
+   "rubrica": "Proprietario",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "1acfbb093443"
+  },
+  "5": {
+   "file": "l-47-1948.md",
+   "rubrica": "Registrazione",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "146f0e91a65b"
+  },
+  "6": {
+   "file": "l-47-1948.md",
+   "rubrica": "Dichiarazione dei mutamenti",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "c84be947ec7f"
+  },
+  "7": {
+   "file": "l-47-1948.md",
+   "rubrica": "Decadenza della registrazione",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "e86b7cdfdfc3"
+  },
+  "8": {
+   "file": "l-47-1948.md",
+   "rubrica": "Risposte e rettifiche",
+   "vigore_da": "1981-08-21",
+   "datazione": "api",
+   "h": "1376f980842f"
+  },
+  "9": {
+   "file": "l-47-1948.md",
+   "rubrica": "Pubblicazione obbligatoria di sentenze",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "e174b9006261"
+  },
+  "10": {
+   "file": "l-47-1948.md",
+   "rubrica": "Giornali murali",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "232f29bd3e50"
+  },
+  "11": {
+   "file": "l-47-1948.md",
+   "rubrica": "",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "977c9265193a"
+  },
+  "12": {
+   "file": "l-47-1948.md",
+   "rubrica": "Riparazione pecuniaria",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "a64e5a27d959"
+  },
+  "13": {
+   "file": "l-47-1948.md",
+   "rubrica": "",
+   "vigore_da": "2021-07-15",
+   "datazione": "api",
+   "h": "cebb201358ca"
+  },
+  "14": {
+   "file": "l-47-1948.md",
+   "rubrica": "Pubblicazioni destinate all'infanzia o all'adolescenza",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "9c1ef4dfcd03"
+  },
+  "15": {
+   "file": "l-47-1948.md",
+   "rubrica": "Pubblicazioni a contenuto impressionante o raccapricciante",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "39555e3cba87"
+  },
+  "16": {
+   "file": "l-47-1948.md",
+   "rubrica": "Stampa clandestina",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "aac041e9ef55"
+  },
+  "17": {
+   "file": "l-47-1948.md",
+   "rubrica": "Omissione delle indicazioni obbligatorie sugli stampati",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "01430aa152a8"
+  },
+  "18": {
+   "file": "l-47-1948.md",
+   "rubrica": "Violazione degli obblighi stabiliti dall'art. 6",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "2b2c29bade0d"
+  },
+  "19": {
+   "file": "l-47-1948.md",
+   "rubrica": "False dichiarazioni nella registrazione di periodici",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "7141632f8f4e"
+  },
+  "20": {
+   "file": "l-47-1948.md",
+   "rubrica": "Asportazione, distruzione o deterioramento di stampati",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "dee043163ffb"
+  },
+  "21": {
+   "file": "l-47-1948.md",
+   "rubrica": "Competenza e forme del giudizio",
+   "vigore_da": "1981-08-21",
+   "datazione": "api",
+   "h": "5c3a34b8d910"
+  },
+  "22": {
+   "file": "l-47-1948.md",
+   "rubrica": "Periodici gia' autorizzati",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "f1eaa06e0cb4"
+  },
+  "23": {
+   "file": "l-47-1948.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "f67659a36568"
+  },
+  "24": {
+   "file": "l-47-1948.md",
+   "rubrica": "Norme di attuazione",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "a10eb2b44ad5"
+  },
+  "25": {
+   "file": "l-47-1948.md",
+   "rubrica": "Entrata in vigore della legge",
+   "vigore_da": "1948-02-21",
+   "datazione": "api",
+   "h": "5229bc32feef"
+  }
+ }
+}

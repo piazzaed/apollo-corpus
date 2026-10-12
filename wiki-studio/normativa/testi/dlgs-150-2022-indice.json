@@ -1,0 +1,838 @@
+{
+ "_meta": {
+  "codice": "dlgs-150-2022",
+  "nome": "Riforma del processo penale (D.Lgs. 150/2022, «riforma Cartabia»)",
+  "snapshot": "2026-10-13",
+  "formato": 2,
+  "consolidato_normattiva": "2025-07-31",
+  "articoli": 107,
+  "file": [
+   "dlgs-150-2022.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2022-10-10;150",
+  "versioni": [
+   {
+    "data": "2022-10-17",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2022-10-31",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 31 ottobre 2022, n. 162"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp2",
+    "atto_modificante": "L. 29 dicembre 2022, n. 197"
+   },
+   {
+    "data": "2022-12-30",
+    "evento": "rp3",
+    "atto_modificante": "L. 30 dicembre 2022, n. 199"
+   },
+   {
+    "data": "2023-06-22",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 22 giugno 2023, n. 75"
+   },
+   {
+    "data": "2023-08-16",
+    "evento": "rp5",
+    "atto_modificante": "L. 10 agosto 2023, n. 112"
+   },
+   {
+    "data": "2023-12-30",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 30 dicembre 2023, n. 215"
+   },
+   {
+    "data": "2024-02-28",
+    "evento": "rp7",
+    "atto_modificante": "L. 23 febbraio 2024, n. 18"
+   },
+   {
+    "data": "2024-03-02",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 2 marzo 2024, n. 19"
+   },
+   {
+    "data": "2024-03-20",
+    "evento": "rp9",
+    "atto_modificante": "D.Lgs. 19 marzo 2024, n. 31"
+   },
+   {
+    "data": "2024-04-30",
+    "evento": "rp10",
+    "atto_modificante": "L. 29 aprile 2024, n. 56"
+   },
+   {
+    "data": "2025-07-30",
+    "evento": "rp11",
+    "atto_modificante": "atto modificante non indicato (rp11)"
+   }
+  ],
+  "ultima_versione": "2025-07-30",
+  "datazione": {
+   "monoblocco": 107,
+   "api": 107,
+   "ignota": 0,
+   "stima_anteriore": 92,
+   "chiamate": 107,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Libro I del codice penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "ae7d9d523386"
+  },
+  "2": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Libro II del codice penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "ce149752aa8e"
+  },
+  "3": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Libro III del codice penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "166a79b9fa85"
+  },
+  "4": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo I del Libro I del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "5f33dc436f24"
+  },
+  "5": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo IV del Libro I del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "902bd5b27e14"
+  },
+  "6": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo I del Libro II del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "1f4a80e31e03"
+  },
+  "7": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro II del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "facc61b8fd43"
+  },
+  "8": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Inserimento del Titolo II bis del Libro II del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "d5c50b071c63"
+  },
+  "9": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo III del Libro II del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "de919a2b65b1"
+  },
+  "10": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo V del Libro II del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "0a2cdb8d7124"
+  },
+  "11": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo VI del Libro II del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "7b9bb067ce09"
+  },
+  "12": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo III del Libro III del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "e48a5093fb12"
+  },
+  "13": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo I del Libro IV del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "08483d54f63f"
+  },
+  "14": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro IV del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "80f5ede78538"
+  },
+  "15": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "36941d8224c8"
+  },
+  "16": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo III del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "2b904a113e6c"
+  },
+  "17": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo IV del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "d99f03cfa757"
+  },
+  "18": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo V del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "3dd6516239fe"
+  },
+  "19": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo VI del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "167dba4c3c08"
+  },
+  "20": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo VI-bis del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "66695cf483d9"
+  },
+  "21": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo VII del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "e3a92b615be8"
+  },
+  "22": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo VIII del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "1d1e49873443"
+  },
+  "23": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo IX del Libro V del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "06d546b590b4"
+  },
+  "24": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo I del Libro VI del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "021e042ac938"
+  },
+  "25": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro VI del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "0cd53150f372"
+  },
+  "26": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo III del Libro VI del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "3671186b8752"
+  },
+  "27": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo IV del Libro VI del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "d365c4358614"
+  },
+  "28": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo V del Libro VI del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "91a6eeff5e20"
+  },
+  "29": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo V bis del Libro VI del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "9660bf02328c"
+  },
+  "30": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro VII del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "4fe276c8df39"
+  },
+  "31": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo III del Libro VII del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "c3f37a8aed4a"
+  },
+  "32": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro VIII del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "a210e06e9c6f"
+  },
+  "33": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo I del Libro IX del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "cce70c30be2b"
+  },
+  "34": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro IX del codice di procedura penale",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "fc14d54363f1"
+  },
+  "35": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo III del Libro IX del codice di procedura penale",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "eb805bce0c7f"
+  },
+  "36": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Inserimento del Titolo III bis del Libro IX del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "38ef0fdcf576"
+  },
+  "37": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo IV del Libro IX del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "7a887792c04d"
+  },
+  "38": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro X del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "7230878c8b52"
+  },
+  "39": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo III del Libro X del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "36ca84f300d4"
+  },
+  "40": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al Titolo II del Libro XI del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "f16070e7756b"
+  },
+  "41": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche alle norme di attuazione, di coordinamento e transitorie del codice di procedura penale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "27f1fe6a8133"
+  },
+  "42": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "051b985a375c"
+  },
+  "43": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Principi generali e obiettivi",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "0d11569db66d"
+  },
+  "44": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Principi sull'accesso",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "d644c10bf077"
+  },
+  "45": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Partecipanti ai programmi di giustizia riparativa",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "1efe0020792f"
+  },
+  "46": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "105e3bb0e713"
+  },
+  "47": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Diritto all'informazione",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "6121a2ae8b99"
+  },
+  "48": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Consenso alla partecipazione ai programmi di giustizia riparativa",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "80c4d07aa600"
+  },
+  "49": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Diritto all'assistenza linguistica",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "00981c28211c"
+  },
+  "50": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Dovere di riservatezza",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "4414c872fae0"
+  },
+  "51": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "31eb5235a369"
+  },
+  "52": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Tutela del segreto",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "50aed4581954"
+  },
+  "53": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Programmi di giustizia riparativa",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "86dde49cd903"
+  },
+  "54": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "375f8852d0a0"
+  },
+  "55": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Svolgimento degli incontri",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "58acf4e0dac2"
+  },
+  "56": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disciplina degli esiti riparativi",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "9dcb30b166b2"
+  },
+  "57": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "311d11227db0"
+  },
+  "58": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Valutazione dell'esito del programma di giustizia riparativa",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "6820e5f61c36"
+  },
+  "59": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Formazione dei mediatori esperti in programmi di giustizia riparativa",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "ddbb43047b4a"
+  },
+  "60": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "cf58b1a219cc"
+  },
+  "61": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Coordinamento dei servizi e Conferenza nazionale per la giustizia riparativa",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "c1f890452837"
+  },
+  "62": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Livelli essenziali delle prestazioni",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "042904f13653"
+  },
+  "63": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Istituzione dei Centri per la giustizia riparativa e Conferenza locale per la giustizia riparativa",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "2121ac8069df"
+  },
+  "64": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Forme di gestione",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "48b68d0e71a1"
+  },
+  "65": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Trattamento dei dati personali",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "2dacbb4e6deb"
+  },
+  "66": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Vigilanza del Ministero della giustizia",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "ba95bdf4b920"
+  },
+  "67": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Finanziamento",
+   "vigore_da": "2023-01-01",
+   "datazione": "api",
+   "h": "198d1b267a8a"
+  },
+  "68": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al decreto legislativo 8 giugno 2001, n. 231",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "a179a96bca39"
+  },
+  "69": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche in materia di giustizia digitale",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "9f443cf32f7e"
+  },
+  "70": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche alla legge 30 aprile 1962, n. 283",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "d1dfff2ddfbc"
+  },
+  "71": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche alla legge 24 novembre 1981, n. 689",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "be710abfa4d4"
+  },
+  "72": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al decreto legislativo 28 agosto 2000, n. 274",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "83614aeda9a3"
+  },
+  "73": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al decreto del Presidente della Repubblica 22 settembre 1988, n. 448",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "347d218ee1bb"
+  },
+  "74": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al decreto legislativo 28 luglio 1989, n. 272",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "a9654ab4ecc6"
+  },
+  "75": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche alla legge 28 aprile 2014, n. 67",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "b7a799a8be80"
+  },
+  "76": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al codice penale militare di pace, approvato con regio decreto 20 febbraio 1941, n. 303",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "090a2135d78b"
+  },
+  "77": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche alla legge 9 dicembre 1941, n. 1383",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "fc55d26cd2d7"
+  },
+  "78": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche alla legge 26 luglio 1975, n. 354",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "7679dd503d62"
+  },
+  "79": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Relazione annuale al Parlamento sullo stato dell'esecuzione delle pene pecuniarie",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "b98e9a0c9de3"
+  },
+  "80": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al decreto del Presidente della Repubblica 30 maggio 2002, n. 115",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "c86728a989d5"
+  },
+  "81": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche alla legge 24 dicembre 2007, n. 244",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "29f617d78277"
+  },
+  "82": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al decreto del Presidente della Repubblica 14 novembre 2002, n. 313",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "c9d2048ea018"
+  },
+  "83": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al decreto del Presidente della Repubblica 22 settembre 1988, n. 448",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "50e2bc570d1f"
+  },
+  "84": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Modifiche al decreto legislativo 2 ottobre 2018, n. 121",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "2356fb06542e"
+  },
+  "85": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "",
+   "vigore_da": "2025-07-31",
+   "datazione": "api",
+   "h": "de44bc9286db"
+  },
+  "85-bis": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di termini per la costituzione di parte civile",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "eb0e108a5f77"
+  },
+  "86": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di notificazioni al querelante",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "b85645244c4f"
+  },
+  "87": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di processo penale telematico",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "4b1f6df208c2"
+  },
+  "87-bis": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di semplificazione delle attivita' di deposito di atti, documenti e istanze",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "75dbe5259e1d"
+  },
+  "88": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di restituzione nel termine",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "1aee878304a4"
+  },
+  "88-bis": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di indagini preliminari",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "957477865944"
+  },
+  "88-ter": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di inappellabilita' delle sentenze di non luogo a procedere",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "d016db18b81c"
+  },
+  "89": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di assenza",
+   "vigore_da": "2024-04-04",
+   "datazione": "api",
+   "h": "d0f7fd9100be"
+  },
+  "89-bis": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di udienza predibattimentale",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "9f231514c207"
+  },
+  "90": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di sospensione del procedimento con messa alla prova dell'imputato",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "82bde1629f1a"
+  },
+  "91": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di rimedi per l'esecuzione delle decisioni della Corte europea dei diritti dell'uomo",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "640bce289a43"
+  },
+  "92": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di giustizia riparativa. Servizi esistenti",
+   "vigore_da": "2024-05-01",
+   "datazione": "api",
+   "h": "99db80776777"
+  },
+  "93": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di giustizia riparativa. Inserimento nell'elenco dei mediatori",
+   "vigore_da": "2024-03-02",
+   "datazione": "api",
+   "h": "7933a9b29dae"
+  },
+  "93-bis": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di mutamento del giudice nel corso del dibattimento",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "a1fc7d089a7d"
+  },
+  "94": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di videoregistrazioni e di giudizi di impugnazione",
+   "vigore_da": "2024-02-29",
+   "datazione": "api",
+   "h": "e4b9afbb0d24"
+  },
+  "95": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di pene sostitutive delle pene detentive brevi",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "a076b36e8ee7"
+  },
+  "96": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di estinzione delle contravvenzioni in materia di alimenti",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "4e12df330e5f"
+  },
+  "97": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di esecuzione e conversione delle pene pecuniarie",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "a1e769ebbaa9"
+  },
+  "97-bis": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni transitorie in materia di iscrizione nel casellario giudiziale di provvedimenti di condanna alle sanzioni sostitutive",
+   "vigore_da": "2022-12-31",
+   "datazione": "api",
+   "h": "1af7dc1f2ed1"
+  },
+  "98": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "26d0eedb3749"
+  },
+  "99": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "cb6624dbadcd"
+  },
+  "99-bis": {
+   "file": "dlgs-150-2022.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2022-12-30",
+   "datazione": "api",
+   "h": "8a795736925d"
+  }
+ }
+}

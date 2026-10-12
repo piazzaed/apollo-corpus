@@ -1,0 +1,671 @@
+{
+ "_meta": {
+  "codice": "l-374-1991",
+  "nome": "Istituzione del giudice di pace (L. 374/1991)",
+  "snapshot": "2026-10-13",
+  "formato": 2,
+  "consolidato_normattiva": "2024-09-14",
+  "articoli": 56,
+  "file": [
+   "l-374-1991.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1991-11-21;374",
+  "versioni": [
+   {
+    "data": "1991-11-27",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1992-12-12",
+    "evento": "rp1",
+    "atto_modificante": "L. 4 dicembre 1992, n. 477"
+   },
+   {
+    "data": "1994-10-10",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 7 ottobre 1994, n. 571"
+   },
+   {
+    "data": "1998-03-20",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 19 febbraio 1998, n. 51"
+   },
+   {
+    "data": "1998-06-19",
+    "evento": "rp4",
+    "atto_modificante": "L. 16 giugno 1998, n. 188"
+   },
+   {
+    "data": "1999-02-01",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 1 febbraio 1999, n. 16"
+   },
+   {
+    "data": "1999-12-15",
+    "evento": "rp6",
+    "atto_modificante": "L. 24 novembre 1999, n. 468"
+   },
+   {
+    "data": "1999-12-18",
+    "evento": "rp7",
+    "atto_modificante": "L. 16 dicembre 1999, n. 479"
+   },
+   {
+    "data": "2000-11-24",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 24 novembre 2000, n. 341"
+   },
+   {
+    "data": "2000-11-29",
+    "evento": "rp9",
+    "atto_modificante": "atto modificante non indicato (rp9)"
+   },
+   {
+    "data": "2001-03-12",
+    "evento": "rp10",
+    "atto_modificante": "L. 13 febbraio 2001, n. 48"
+   },
+   {
+    "data": "2002-09-18",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 11 settembre 2002, n. 201"
+   },
+   {
+    "data": "2002-11-12",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 11 novembre 2002, n. 251"
+   },
+   {
+    "data": "2004-09-14",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 14 settembre 2004, n. 241"
+   },
+   {
+    "data": "2004-12-31",
+    "evento": "rp14",
+    "atto_modificante": "L. 30 dicembre 2004, n. 311"
+   },
+   {
+    "data": "2005-07-01",
+    "evento": "rp15",
+    "atto_modificante": "D.L. 30 giugno 2005, n. 115"
+   },
+   {
+    "data": "2006-02-22",
+    "evento": "rp16",
+    "atto_modificante": "atto modificante non indicato (rp16)"
+   },
+   {
+    "data": "2012-09-12",
+    "evento": "rp17",
+    "atto_modificante": "D.Lgs. 7 settembre 2012, n. 156"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp18",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2013-06-21",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 21 giugno 2013, n. 69"
+   },
+   {
+    "data": "2013-12-30",
+    "evento": "rp20",
+    "atto_modificante": "D.L. 30 dicembre 2013, n. 150"
+   },
+   {
+    "data": "2014-02-27",
+    "evento": "rp21",
+    "atto_modificante": "D.Lgs. 19 febbraio 2014, n. 14"
+   },
+   {
+    "data": "2014-04-14",
+    "evento": "rp22",
+    "atto_modificante": "atto modificante non indicato (rp22)"
+   },
+   {
+    "data": "2014-09-12",
+    "evento": "rp23",
+    "atto_modificante": "D.L. 12 settembre 2014, n. 132"
+   },
+   {
+    "data": "2014-12-01",
+    "evento": "rp24",
+    "atto_modificante": "atto modificante non indicato (rp24)"
+   },
+   {
+    "data": "2014-12-29",
+    "evento": "rp25",
+    "atto_modificante": "L. 23 dicembre 2014, n. 190"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp26",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208"
+   },
+   {
+    "data": "2017-03-31",
+    "evento": "rp27",
+    "atto_modificante": "atto modificante non indicato (rp27)"
+   },
+   {
+    "data": "2017-06-01",
+    "evento": "rp28",
+    "atto_modificante": "atto modificante non indicato (rp28)"
+   },
+   {
+    "data": "2017-06-23",
+    "evento": "rp29",
+    "atto_modificante": "atto modificante non indicato (rp29)"
+   },
+   {
+    "data": "2017-07-31",
+    "evento": "rp30",
+    "atto_modificante": "D.Lgs. 13 luglio 2017, n. 116"
+   },
+   {
+    "data": "2017-10-02",
+    "evento": "rp31",
+    "atto_modificante": "atto modificante non indicato (rp31)"
+   },
+   {
+    "data": "2017-11-06",
+    "evento": "rp32",
+    "atto_modificante": "atto modificante non indicato (rp32)"
+   },
+   {
+    "data": "2018-01-15",
+    "evento": "rp33",
+    "atto_modificante": "atto modificante non indicato (rp33)"
+   },
+   {
+    "data": "2018-01-18",
+    "evento": "rp34",
+    "atto_modificante": "L. 29 dicembre 2017, n. 222"
+   },
+   {
+    "data": "2018-03-21",
+    "evento": "rp35",
+    "atto_modificante": "atto modificante non indicato (rp35)"
+   },
+   {
+    "data": "2018-05-29",
+    "evento": "rp36",
+    "atto_modificante": "atto modificante non indicato (rp36)"
+   },
+   {
+    "data": "2018-06-12",
+    "evento": "rp37",
+    "atto_modificante": "atto modificante non indicato (rp37)"
+   },
+   {
+    "data": "2019-08-21",
+    "evento": "rp38",
+    "atto_modificante": "atto modificante non indicato (rp38)"
+   },
+   {
+    "data": "2020-02-22",
+    "evento": "rp39",
+    "atto_modificante": "atto modificante non indicato (rp39)"
+   },
+   {
+    "data": "2020-05-06",
+    "evento": "rp40",
+    "atto_modificante": "atto modificante non indicato (rp40)"
+   },
+   {
+    "data": "2021-01-18",
+    "evento": "rp41",
+    "atto_modificante": "atto modificante non indicato (rp41)"
+   },
+   {
+    "data": "2021-02-04",
+    "evento": "rp42",
+    "atto_modificante": "atto modificante non indicato (rp42)"
+   },
+   {
+    "data": "2021-03-30",
+    "evento": "rp43",
+    "atto_modificante": "atto modificante non indicato (rp43)"
+   },
+   {
+    "data": "2021-06-09",
+    "evento": "rp44",
+    "atto_modificante": "D.L. 9 giugno 2021, n. 80"
+   },
+   {
+    "data": "2021-08-07",
+    "evento": "rp45",
+    "atto_modificante": "L. 6 agosto 2021, n. 113"
+   },
+   {
+    "data": "2022-01-11",
+    "evento": "rp46",
+    "atto_modificante": "atto modificante non indicato (rp46)"
+   },
+   {
+    "data": "2022-03-30",
+    "evento": "rp47",
+    "atto_modificante": "atto modificante non indicato (rp47)"
+   },
+   {
+    "data": "2023-01-23",
+    "evento": "rp48",
+    "atto_modificante": "atto modificante non indicato (rp48)"
+   },
+   {
+    "data": "2024-08-30",
+    "evento": "rp49",
+    "atto_modificante": "atto modificante non indicato (rp49)"
+   }
+  ],
+  "ultima_versione": "2024-08-30",
+  "datazione": {
+   "monoblocco": 56,
+   "api": 56,
+   "ignota": 0,
+   "stima_anteriore": 32,
+   "chiamate": 56,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-374-1991.md",
+   "rubrica": "Istituzione e funzioni del giudice di pace",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "68be0bdc0893"
+  },
+  "2": {
+   "file": "l-374-1991.md",
+   "rubrica": "Sede e circondario degli uffici del giudice di pace",
+   "vigore_da": "2012-09-13",
+   "datazione": "api",
+   "h": "4258d6dd1abd"
+  },
+  "3": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "4": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "4-bis": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "5": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "6": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "7": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "8": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "8-bis": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "1999-12-30",
+   "datazione": "api",
+   "h": "bc536dbb2880"
+  },
+  "9": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "10": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "10-bis": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "10-ter": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "10-quater": {
+   "file": "l-374-1991.md",
+   "rubrica": "Sostituzione dei rappresentanti designati dai consigli dell'ordine degli avvocati",
+   "vigore_da": "1999-12-30",
+   "datazione": "api",
+   "h": "d8ee983a4d86"
+  },
+  "11": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "34559cb4a042"
+  },
+  "12": {
+   "file": "l-374-1991.md",
+   "rubrica": "Cancelleria del giudice di pace e personale ausiliario",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "7ea1514285c4"
+  },
+  "13": {
+   "file": "l-374-1991.md",
+   "rubrica": "Notificazione degli atti",
+   "vigore_da": "2000-01-02",
+   "datazione": "api",
+   "h": "31443fff7330"
+  },
+  "14": {
+   "file": "l-374-1991.md",
+   "rubrica": "Locali, attrezzature e servizi degli uffici del Giudice di Pace",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "127fc647614c"
+  },
+  "15": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-15",
+   "datazione": "api",
+   "h": "bc4b614def05"
+  },
+  "16": {
+   "file": "l-374-1991.md",
+   "rubrica": "Sorveglianza",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "f37474fdb097"
+  },
+  "17": {
+   "file": "l-374-1991.md",
+   "rubrica": "Competenza del giudice di pace",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "3a83cf5b1ad2"
+  },
+  "18": {
+   "file": "l-374-1991.md",
+   "rubrica": "Competenza del pretore",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "47de0f31f5e1"
+  },
+  "19": {
+   "file": "l-374-1991.md",
+   "rubrica": "Connessione",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "d777a1c44b52"
+  },
+  "20": {
+   "file": "l-374-1991.md",
+   "rubrica": "Patrocinio",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "0d2ca5bfaba0"
+  },
+  "21": {
+   "file": "l-374-1991.md",
+   "rubrica": "Giudizio secondo equita'",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "fb05a9dcb31f"
+  },
+  "22": {
+   "file": "l-374-1991.md",
+   "rubrica": "Rinvio alle norme relative al procedimento davanti al tribunale",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "a2ffbeb081c9"
+  },
+  "23": {
+   "file": "l-374-1991.md",
+   "rubrica": "Poteri istruttori del giudice",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "05783a717578"
+  },
+  "24": {
+   "file": "l-374-1991.md",
+   "rubrica": "Querela di falso",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "4f67ee724532"
+  },
+  "25": {
+   "file": "l-374-1991.md",
+   "rubrica": "Forma della domanda",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "f6dd7c4ff5a2"
+  },
+  "26": {
+   "file": "l-374-1991.md",
+   "rubrica": "Rappresentanza davanti al giudice di pace",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "eccb16bc0d13"
+  },
+  "27": {
+   "file": "l-374-1991.md",
+   "rubrica": "Contenuto della domanda",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "c4c5ddc99297"
+  },
+  "28": {
+   "file": "l-374-1991.md",
+   "rubrica": "Costituzione delle parti",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "366880c0b25a"
+  },
+  "29": {
+   "file": "l-374-1991.md",
+   "rubrica": "Trattazione della causa",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "3fc7bc294c42"
+  },
+  "30": {
+   "file": "l-374-1991.md",
+   "rubrica": "Decisione",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "3cb6d2b61245"
+  },
+  "31": {
+   "file": "l-374-1991.md",
+   "rubrica": "Conciliazione in sede non contenziosa",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "14631987fd6a"
+  },
+  "32": {
+   "file": "l-374-1991.md",
+   "rubrica": "Termini per le impugnazioni",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "aa98ba10d420"
+  },
+  "33": {
+   "file": "l-374-1991.md",
+   "rubrica": "Impugnazione",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "04ce5e8d9f33"
+  },
+  "34": {
+   "file": "l-374-1991.md",
+   "rubrica": "Giudice dell'appello",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "2e178d863764"
+  },
+  "35": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "1999-12-30",
+   "datazione": "api",
+   "h": "bc536dbb2880"
+  },
+  "36": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "1999-12-30",
+   "datazione": "api",
+   "h": "bc536dbb2880"
+  },
+  "37": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "1999-12-30",
+   "datazione": "api",
+   "h": "bc536dbb2880"
+  },
+  "38": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "1999-12-30",
+   "datazione": "api",
+   "h": "bc536dbb2880"
+  },
+  "39": {
+   "file": "l-374-1991.md",
+   "rubrica": "Coordinamento",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "4728d0d9bb24"
+  },
+  "40": {
+   "file": "l-374-1991.md",
+   "rubrica": "Norme per le regioni Trentino-Alto Adige e Valle d'Aosta",
+   "vigore_da": "1999-12-30",
+   "datazione": "api",
+   "h": "4d57eb50c340"
+  },
+  "41": {
+   "file": "l-374-1991.md",
+   "rubrica": "Conoscenza delle lingue italiana, tedesca e francese",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "e8139cc812d7"
+  },
+  "42": {
+   "file": "l-374-1991.md",
+   "rubrica": "Norme di coordinamento e di attuazione",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "4538b07e001e"
+  },
+  "43": {
+   "file": "l-374-1991.md",
+   "rubrica": "Cause pendenti",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "6852115bbd49"
+  },
+  "44": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "2000-01-02",
+   "datazione": "api",
+   "h": "e861ff0fd32d"
+  },
+  "45": {
+   "file": "l-374-1991.md",
+   "rubrica": "Dei giudici",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "4a6800156e4d"
+  },
+  "46": {
+   "file": "l-374-1991.md",
+   "rubrica": "Regime fiscale",
+   "vigore_da": "2015-01-01",
+   "datazione": "api",
+   "h": "f87dcaa79671"
+  },
+  "47": {
+   "file": "l-374-1991.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "567f2add5c2a"
+  },
+  "48": {
+   "file": "l-374-1991.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "a7820c0db701"
+  },
+  "49": {
+   "file": "l-374-1991.md",
+   "rubrica": "Efficacia di singole disposizioni",
+   "vigore_da": "1994-12-10",
+   "datazione": "api",
+   "h": "2093af52c379"
+  },
+  "50": {
+   "file": "l-374-1991.md",
+   "rubrica": "Entrata in vigore della legge 26 novembre 1990, n. 353",
+   "vigore_da": "1991-12-12",
+   "datazione": "api",
+   "h": "c6606b67cf09"
+  },
+  "51": {
+   "file": "l-374-1991.md",
+   "rubrica": "",
+   "vigore_da": "1994-12-10",
+   "datazione": "api",
+   "h": "b7d897cb525b"
+  }
+ }
+}
