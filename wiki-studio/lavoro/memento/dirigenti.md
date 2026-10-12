@@ -7,7 +7,8 @@ parole_chiave: ["dirigenti", "dirigente", "personale dirigente", "indennità sup
 norme: ["cc:2095", "l-604-1966:10", "l-604-1966:2", "l-604-1966:6", "l-183-2010:32", "cc:2118", "cc:2119", "l-300-1970:18", "l-300-1970:7", "dlgs-23-2015:1", "l-223-1991:24", "dlgs-81-2015:29", "cc:2125", "cc:2113", "dlgs-22-2015:2", "dlgs-148-2015:1", "dlgs-148-2015:2-bis", "l-92-2012:4", "dlgs-151-2015:26", "tuir:17", "l-108-1990:2", "l-108-1990:3"]
 prassi: []
 numeri: []
-stato: "verificata"
+stato: "da_ricontrollare"
+motivi: ["norma tuir:17: testo cambiato (triage del 2026-10-12)"]
 verificato_il: "2026-10-02"
 corpus_al: "2026-10-02T20:04Z"
 impronte: {"cc:2095": "bd61206a613e", "l-604-1966:10": "30748c552944", "l-604-1966:2": "400ad544b30b", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "cc:2118": "ae6b9df54670", "cc:2119": "8018617a3dce", "l-300-1970:18": "306d02af77ea", "l-300-1970:7": "f2f4481e0c6b", "dlgs-23-2015:1": "25d2e1d8e06d", "l-223-1991:24": "ac4b5cbed4c9", "dlgs-81-2015:29": "6ca155580b28", "cc:2125": "a5c8031886f6", "cc:2113": "5151b805b4dc", "dlgs-22-2015:2": "6df998bace7b", "dlgs-148-2015:1": "ead3b700c7c4", "dlgs-148-2015:2-bis": "cd4b5ee6742d", "l-92-2012:4": "6b40ea48288b", "dlgs-151-2015:26": "330296d5632b", "tuir:17": "6a9e680d7788", "l-108-1990:2": "3ef85f5fa665", "l-108-1990:3": "217e8f17b46b"}

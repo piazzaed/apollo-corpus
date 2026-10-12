@@ -7,7 +7,8 @@ parole_chiave: ["prestazioni occasionali", "lavoro occasionale", "Libretto Famig
 norme: ["cc:2222", "tuir:67", "dlgs-81-2008:14", "cc:2094", "dlgs-81-2015:2", "cpc:409", "dlgs-104-2022:1", "dlgs-66-2003:7", "dlgs-66-2003:8", "dlgs-66-2003:9", "l-81-2017:1", "l-81-2017:3", "cc:2948", "l-335-1995:3", "l-604-1966:6", "l-183-2010:32"]
 prassi: ["inps:circolare:2017:107", "inps:circolare:2023:6", "inl:nota:2022:29"]
 numeri: []
-stato: "verificata"
+stato: "da_ricontrollare"
+motivi: ["norma tuir:67: testo cambiato (triage del 2026-10-12)"]
 verificato_il: "2026-10-02"
 corpus_al: "2026-10-02T20:04Z"
 impronte: {"cc:2222": "7c70aa7a62a4", "tuir:67": "47c1135c5df1", "dlgs-81-2008:14": "100cd510654e", "cc:2094": "ee64834613a4", "dlgs-81-2015:2": "f30cf736d55b", "cpc:409": "1d89895ecc22", "dlgs-104-2022:1": "47ae561b3fb0", "dlgs-66-2003:7": "822062c71722", "dlgs-66-2003:8": "bac479047b73", "dlgs-66-2003:9": "053d9f610fd1", "l-81-2017:1": "e327184b3f21", "l-81-2017:3": "f3b8f5bd5a78", "cc:2948": "bc6f9787a72a", "l-335-1995:3": "8b17222b970a", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa"}

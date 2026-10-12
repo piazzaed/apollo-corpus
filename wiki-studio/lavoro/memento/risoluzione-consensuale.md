@@ -7,7 +7,8 @@ parole_chiave: ["risoluzione consensuale", "incentivo all'esodo", "conciliazione
 norme: ["cc:1372", "dlgs-151-2015:26", "cc:2113", "dlgs-276-2003:76", "dlgs-276-2003:82", "dlgs-151-2001:55", "l-604-1966:7", "l-300-1970:18", "dlgs-22-2015:3", "dlgs-22-2015:6", "cpc:410", "cpc:411", "cpc:412-ter", "cpc:412-quater", "l-203-2024:20", "tuir:17", "l-92-2012:4", "dlgs-23-2015:6", "cc:2118", "cc:2120", "cc:1427", "cc:1442"]
 prassi: ["minlav:circolare:2016:12", "inps:circolare:2015:94", "inps:circolare:2015:142", "inps:circolare:2025:98", "inl:nota:2024:862"]
 numeri: []
-stato: "verificata"
+stato: "da_ricontrollare"
+motivi: ["norma tuir:17: testo cambiato (triage del 2026-10-12)"]
 verificato_il: "2026-10-02"
 corpus_al: "2026-10-02T20:04Z"
 impronte: {"cc:1372": "66326713f49a", "dlgs-151-2015:26": "330296d5632b", "cc:2113": "5151b805b4dc", "dlgs-276-2003:76": "86b8e9fe9796", "dlgs-276-2003:82": "74cea6380c53", "dlgs-151-2001:55": "45f72d9a563b", "l-604-1966:7": "6e34f661c41d", "l-300-1970:18": "306d02af77ea", "dlgs-22-2015:3": "4b83a959d45d", "dlgs-22-2015:6": "322f2d00caba", "cpc:410": "fdb6f553f035", "cpc:411": "db80026fb535", "cpc:412-ter": "d0c50684b738", "cpc:412-quater": "453ddf6e6b01", "l-203-2024:20": "7debcafecb03", "tuir:17": "6a9e680d7788", "l-92-2012:4": "6b40ea48288b", "dlgs-23-2015:6": "11b054d5190f", "cc:2118": "ae6b9df54670", "cc:2120": "36ad7357bea7", "cc:1427": "1c4c004013b5", "cc:1442": "6f303bfaf8fc"}
