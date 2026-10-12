@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-10-06"
+  "aggiornato_il": "2026-10-12"
  },
  "schede": {
   "altri-congedi": {
@@ -623,7 +623,7 @@
     "inl:nota:2026:831"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-12"
   },
   "crediti-lavoro-accessori": {
    "titolo": "Rivalutazione e interessi sui crediti di lavoro",
@@ -948,7 +948,7 @@
     "l-108-1990:3"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-12"
   },
   "discriminazioni-molestie": {
    "titolo": "Discriminazioni e molestie",
@@ -1750,7 +1750,7 @@
     "inl:nota:2022:29"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-12"
   },
   "lavoro-piattaforma": {
    "titolo": "Lavoro tramite piattaforme digitali",
@@ -2442,7 +2442,7 @@
     "trattamento_minimo_mensile"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-12"
   },
   "mensilita-aggiuntive": {
    "titolo": "Tredicesima e mensilità aggiuntive",
@@ -3079,7 +3079,7 @@
     "minlav:circolare:2016:12"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-12"
   },
   "prescrizione-contributi": {
    "titolo": "Prescrizione dei contributi",
@@ -3554,7 +3554,7 @@
     "inl:nota:2024:862"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-12"
   },
   "rito-lavoro": {
    "titolo": "Rito del lavoro",
@@ -4118,7 +4118,7 @@
     "inl:nota:2021:2002"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-12"
   },
   "whistleblowing": {
    "titolo": "Segnalazioni di illeciti (whistleblowing)",

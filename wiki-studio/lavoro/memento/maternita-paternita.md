@@ -8,8 +8,8 @@ norme: ["dlgs-151-2001:6", "dlgs-151-2001:7", "dlgs-151-2001:11", "dlgs-151-2001
 prassi: ["inps:circolare:2022:106", "inl:nota:2025:5944", "inps:circolare:2022:122", "inps:messaggio:2024:4301", "inps:messaggio:2026:251", "inps:circolare:2025:95", "inps:circolare:2023:32", "inl:nota:2024:862", "inl:nota:2020:749", "minlav:interpello:2019:2"]
 numeri: ["trattamento_minimo_mensile"]
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-10-12"
+corpus_al: "2026-10-12T09:27Z"
 impronte: {"dlgs-151-2001:6": "f995eb5ec91f", "dlgs-151-2001:7": "a42a0dfcaea3", "dlgs-151-2001:11": "1a5c8278708a", "dlgs-151-2001:12": "b2b722e548c7", "dlgs-151-2001:14": "3c10a203890b", "dlgs-151-2001:16": "bc078311b6b8", "dlgs-151-2001:16-bis": "701bda0d1743", "dlgs-151-2001:17": "685c4e006ff5", "dlgs-151-2001:20": "00115d4a607f", "dlgs-151-2001:21": "985206a770dd", "dlgs-151-2001:22": "b3d72f956649", "dlgs-151-2001:23": "fe800142947b", "dlgs-151-2001:24": "150fbb4e7ece", "dlgs-151-2001:26": "89462eba6b01", "dlgs-151-2001:27-bis": "3e4217e696e7", "dlgs-151-2001:28": "62cf9346167c", "dlgs-151-2001:29": "3e9c7f1f1ff5", "dlgs-151-2001:31": "8f4eb186d1be", "dlgs-151-2001:32": "be7d75d03875", "dlgs-151-2001:34": "488935d1b454", "dlgs-151-2001:39": "c8a77b9cbda3", "dlgs-151-2001:40": "918e517827b9", "dlgs-151-2001:41": "76d7a588f752", "dlgs-151-2001:43": "d09d92e0179b", "dlgs-151-2001:47": "fc867978ec02", "dlgs-151-2001:48": "73ab2d02d8d0", "dlgs-151-2001:53": "54ee8023eae8", "dlgs-151-2001:54": "156bbedb3d99", "dlgs-151-2001:55": "45f72d9a563b", "dlgs-151-2001:56": "b643e777321e", "dlgs-151-2015:26": "330296d5632b", "dlgs-198-2006:25": "1fa922b77e1d", "dlgs-81-2015:8": "a84268bd68d6", "l-81-2017:18": "7067c0846e3e", "cost:37": "79aca7b7dad8", "cc:2110": "a80628491e3d", "dpr-639-1970:47": "4a3a716141e7"}
 ---
 # Maternità, paternità e congedi parentali — mappa

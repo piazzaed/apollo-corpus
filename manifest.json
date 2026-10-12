@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-12T09:27Z",
+ "generato_il": "2026-10-12T09:31Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -2639,16 +2639,16 @@
  "lavoro": {
   "file": {
    "ccnl/accordi.json": {
-    "sha256": "f702daafd93c3ccf424aa3a10cb7ec8372e3f2c5b8e5843b60842d37e38e4a3f",
-    "byte": 1583568
+    "sha256": "271ff8af9ddea03ab904e59dd5c2825a8cbc681c49e4f37065b8757381ea680a",
+    "byte": 1584256
    },
    "ccnl/indice.json": {
-    "sha256": "a46cfb46a4cd9f78fa05ac2d0e0d039b4ab0c95ac5a6b1135010ff4781a4fbf7",
-    "byte": 517696
+    "sha256": "b62a37327b26c3c7603fa0b7fe5442d1d52e808bbb298fb386b63e3adc504977",
+    "byte": 352764
    },
    "ccnl/novita.json": {
-    "sha256": "8347a52a5d1c372e67661d880fa7cf88c2b6e0e37b7816b1fc5d9a1fd4ca6571",
-    "byte": 140
+    "sha256": "07dba960d372a8b831389ac5c144bfea2bd11558f6f8e4473c5347b8b06bf0d1",
+    "byte": 496
    },
    "dati/dati-lavoro.json": {
     "sha256": "45dff932a5e5ac109e5f59da1fccc886f39ae5ddce1d5c3403491494f11cb739",
@@ -2699,7 +2699,7 @@
     "byte": 11314
    },
    "memento/controlli-distanza.md": {
-    "sha256": "e13ee9a8af58554b9595209ab2011b214c0e8204ea26871763a4b61e5b91013e",
+    "sha256": "ab1a724e4d2293eec49bfd29756d5bea570fc1a6a48961a533e1723bb49654b7",
     "byte": 11839
    },
    "memento/crediti-lavoro-accessori.md": {
@@ -2723,7 +2723,7 @@
     "byte": 16291
    },
    "memento/dirigenti.md": {
-    "sha256": "d497004d4359378f3231af5cc42c246c4fe70e601fb0832ea0d0b367a6b65981",
+    "sha256": "a2c5ed0a901f29fa6e3ad36104f549d08289f5ce4d5795b4f186ae8e0f9774f3",
     "byte": 9653
    },
    "memento/discriminazioni-molestie.md": {
@@ -2759,7 +2759,7 @@
     "byte": 5268
    },
    "memento/indice.json": {
-    "sha256": "52bf352caf7ee6a2c6776ec3f567d6442d2537a4864ef52978a83467adbaabbe",
+    "sha256": "177ec4961df964153e68196c221949886d1c9a89d3efc2d6c464791ed9a1e8d6",
     "byte": 96055
    },
    "memento/infortunio-malattia-professionale.md": {
@@ -2795,7 +2795,7 @@
     "byte": 10941
    },
    "memento/lavoro-occasionale.md": {
-    "sha256": "4a8a4dba61084050712003d4172d85b9cb8d98fe14c880bf5a813aa5662930f0",
+    "sha256": "b61d1a137b8dcc833bbd8e200f8b6b3b105d9fba0884d28667fb3be473b2ad10",
     "byte": 7628
    },
    "memento/lavoro-piattaforma.md": {
@@ -2847,7 +2847,7 @@
     "byte": 8102
    },
    "memento/maternita-paternita.md": {
-    "sha256": "46c4e8e5456f42119b91d59888d7c771e1fdc84d3e97e429fd93358d76612ab8",
+    "sha256": "dfa786a99250d3859a23debb2c24e9d0bc97512910aa68a5a2cded7d072a1758",
     "byte": 16152
    },
    "memento/mensilita-aggiuntive.md": {
@@ -2899,7 +2899,7 @@
     "byte": 9779
    },
    "memento/preavviso.md": {
-    "sha256": "57a438c350ab6ab70cde20ac712571d9fd63c24c2d63a55bf8af0a6ad3ebecf9",
+    "sha256": "27fa71a3004026517fe0424807891e6272af23f745947d1b9ab4fba0e1e43154",
     "byte": 8375
    },
    "memento/prescrizione-contributi.md": {
@@ -2935,7 +2935,7 @@
     "byte": 9144
    },
    "memento/risoluzione-consensuale.md": {
-    "sha256": "253769c3e7486bd3e7a233bdbee966a43dd596b1c3e701c1291f856e36af3c3b",
+    "sha256": "8885c5ccb63006fcc1e0b003ebfb5dbfc85501da23b88ec6bf51904a4cf0ac61",
     "byte": 9779
    },
    "memento/rito-lavoro.md": {
@@ -2983,7 +2983,7 @@
     "byte": 10427
    },
    "memento/trasferte-indennita.md": {
-    "sha256": "4c412b258d41b812654489f1df38fa20e79990edcc45907eac4d953cab3179ab",
+    "sha256": "2d937b26dd58e4204cad86a7a4d37f7a553372a0acf7e21c5da40774fbb3170d",
     "byte": 8035
    },
    "memento/whistleblowing.md": {
@@ -2995,12 +2995,12 @@
     "byte": 886
    },
    "prassi/indice.json": {
-    "sha256": "ad124f19bc064319eda1c0b7db50f7d0e7dca94d61122fa4dc0a9028762af4ea",
-    "byte": 4448610
+    "sha256": "a52879623d5607b1ba528f676b47884dab59fb6958f18dc6982610a266a710e2",
+    "byte": 4451309
    }
   },
   "descrizione": "stato del triage del memento",
-  "ultimo_triage": "2026-10-06"
+  "ultimo_triage": "2026-10-12"
  },
  "cassazione": {
   "file": {

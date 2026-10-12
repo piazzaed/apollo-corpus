@@ -7,11 +7,10 @@ parole_chiave: ["trasferta", "trasferte", "trasfertismo", "trasfertisti", "inden
 norme: ["cc:2103", "dlgs-276-2003:30", "dlgs-66-2003:1", "cc:2120", "cc:2121", "tuir:51", "dlgs-152-1997:1", "dlgs-152-1997:2", "dlgs-104-2022:4", "cost:36", "cc:2099", "l-4-1953:1", "cc:2697", "cc:2948", "cc:2113", "l-183-2010:32", "l-604-1966:6"]
 prassi: ["inps:circolare:2019:158", "inl:nota:2021:337", "inl:nota:2018:6201", "inl:nota:2021:2002"]
 numeri: []
-stato: "da_ricontrollare"
-motivi: ["norma tuir:51: testo cambiato (triage del 2026-10-12)"]
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
-impronte: {"cc:2103": "446608f284fd", "dlgs-276-2003:30": "1966ac7a9794", "dlgs-66-2003:1": "ce5922c040dd", "cc:2120": "36ad7357bea7", "cc:2121": "77a99a7a8aac", "tuir:51": "24127aa948a1", "dlgs-152-1997:1": "494387466111", "dlgs-152-1997:2": "ef6f842039fb", "dlgs-104-2022:4": "4daf8f515ce7", "cost:36": "1ac7dcfcba7a", "cc:2099": "a8c2e0bce15d", "l-4-1953:1": "28bfbdc754aa", "cc:2697": "c452fca98518", "cc:2948": "bc6f9787a72a", "cc:2113": "5151b805b4dc", "l-183-2010:32": "d6ed3efcd9aa", "l-604-1966:6": "c33ff551d5f6"}
+stato: "verificata"
+verificato_il: "2026-10-12"
+corpus_al: "2026-10-12T09:27Z"
+impronte: {"cc:2103": "446608f284fd", "dlgs-276-2003:30": "1966ac7a9794", "dlgs-66-2003:1": "ce5922c040dd", "cc:2120": "36ad7357bea7", "cc:2121": "77a99a7a8aac", "tuir:51": "641e31a8705f", "dlgs-152-1997:1": "494387466111", "dlgs-152-1997:2": "ef6f842039fb", "dlgs-104-2022:4": "4daf8f515ce7", "cost:36": "1ac7dcfcba7a", "cc:2099": "a8c2e0bce15d", "l-4-1953:1": "28bfbdc754aa", "cc:2697": "c452fca98518", "cc:2948": "bc6f9787a72a", "cc:2113": "5151b805b4dc", "l-183-2010:32": "d6ed3efcd9aa", "l-604-1966:6": "c33ff551d5f6"}
 ---
 # Trasferte e indennità — mappa
 

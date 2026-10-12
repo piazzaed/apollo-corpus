@@ -8,8 +8,8 @@ norme: ["l-300-1970:4", "dlgs-151-2015:23", "dlgs-196-2003:114", "dlgs-196-2003:
 prassi: ["inl:circolare:2018:5", "inl:circolare:2016:2", "minlav:interpello:2019:3", "inl:nota:2024:7020", "inl:nota:2026:1511", "inl:nota:2026:831"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-10-12"
+corpus_al: "2026-10-12T09:27Z"
 impronte: {"l-300-1970:4": "830124320e4a", "dlgs-151-2015:23": "7f37840779af", "dlgs-196-2003:114": "719ea50907d3", "dlgs-196-2003:171": "9dd79d43ba10", "l-300-1970:38": "53ea3c3c7e09", "l-300-1970:8": "4725453d3be5", "l-300-1970:2": "ad71fbf70bad", "l-300-1970:3": "82f31bcec724", "l-300-1970:6": "ec65b2a1dab0", "l-81-2017:21": "b4a584a5d8db", "dlgs-104-2022:4": "4daf8f515ce7", "dlgs-152-1997:1-bis": "a832189efdc2", "dlgs-152-1997:4": "62db3b1fdd14", "dl-62-2026:14": "a628259d4bb0", "dl-62-2026:11-bis": "0b90532c9c6a", "cost:41": "e48228e156cb", "dlgs-196-2003:160-bis": "1a82e8409687", "dlgs-196-2003:140-bis": "bfa3d308b43b", "dlgs-196-2003:143": "58df2bc06a30", "dlgs-196-2003:152": "6fca0d632948", "dlgs-150-2011:10": "62f1e033f58f", "l-300-1970:28": "0e7fb5c75781"}
 ---
 # Controlli a distanza — mappa
