@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-12T09:32Z",
+ "generato_il": "2026-10-12T09:47Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -45,13 +45,13 @@
   "normativa": {
    "file": {
     "wiki-studio/normativa/changelog-riforme.md": {
-     "sha256": "0339d1474f204672c0aa89bf28be267c3ff035b2c1d0df022de2326bd9fb3725",
-     "byte": 68245,
+     "sha256": "95e8388144643fb4360cf1746f3a081786c49bed502419363462f2e4b45ac851",
+     "byte": 69485,
      "proprietario": "action"
     },
     "wiki-studio/normativa/changelog-riforme.meta.json": {
-     "sha256": "e96a0aae5cce70c5ef7ceef5b0dd5df907306ff020e05321dcd3d05b250e7749",
-     "byte": 42696,
+     "sha256": "dc460690194f12f02395b4df43cbb8825038e4febd514b069c644e670e969ef7",
+     "byte": 43944,
      "proprietario": "action"
     },
     "wiki-studio/normativa/drift-reports/2026-10-11.md": {
@@ -59,9 +59,14 @@
      "byte": 9296,
      "proprietario": "action"
     },
+    "wiki-studio/normativa/drift-reports/2026-10-12.md": {
+     "sha256": "61a17f8ddd178a27b5c52fc853fdfd7d761d653144e1fd66dfc34a4e90b9e367",
+     "byte": 46772,
+     "proprietario": "action"
+    },
     "wiki-studio/normativa/sentinella-debito.json": {
-     "sha256": "9778449aa32fe577bc8c14d0f15c73275781dcf10a22ec586e0d6e3d31dadcab",
-     "byte": 97315,
+     "sha256": "1d31f2f7fe2e282d83dc43823e8a0d2b87af8694f3929d7d9296648cad056e01",
+     "byte": 97876,
      "proprietario": "action"
     },
     "wiki-studio/normativa/stato-orientamenti.md": {
@@ -76,7 +81,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-11",
+    "ultimo_giro": "2026-10-12",
     "esito": "ok",
     "da_ricontrollare": [
      "immigrazione_37_2025",
@@ -1184,7 +1189,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "8ba19786d7b29b185f84b91c4e786a505c3a6644f5db3475ed90d1fbf23826ae",
+     "sha256": "aae7f5098c2715be7c1fe1a1531af07c216b46aad8ae5176821bd273ed5b71ab",
      "byte": 939,
      "proprietario": "action"
     },
