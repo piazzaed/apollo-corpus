@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-11T21:40Z",
+ "generato_il": "2026-10-12T09:32Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -31,13 +31,13 @@
      "proprietario": "action"
     },
     "wiki-studio/parcella/contributo-unificato.json": {
-     "sha256": "5bb1989560c98dea67a08136d265effbca1419815b4c3e17c740881f5a55be2d",
-     "byte": 7451,
+     "sha256": "b50a49fb455530e3d4f6cb65f668fb473b0789504a375c7c55b76884a9ab009d",
+     "byte": 7630,
      "proprietario": "action"
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-11",
+    "ultimo_giro": "2026-10-12",
     "esito": "ok",
     "da_ricontrollare": []
    }
@@ -1184,7 +1184,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "811ac14dd03db81ca3bbfe42c2dc0129c8e69d758c9a4372f0ec14fffc7e0097",
+     "sha256": "8ba19786d7b29b185f84b91c4e786a505c3a6644f5db3475ed90d1fbf23826ae",
      "byte": 939,
      "proprietario": "action"
     },
