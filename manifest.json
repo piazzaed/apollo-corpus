@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-12T09:31Z",
+ "generato_il": "2026-10-12T23:55Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -233,6 +233,66 @@
     "cpc-indice.json": {
      "sha256": "b90a12240b97a2ef92f03257a2e70e35429dc974ee33a431c414f1a2e0e1a81e",
      "byte": 144029
+    }
+   }
+  },
+  "cpp": {
+   "snapshot": "2026-10-13",
+   "consolidato": "2026-09-30",
+   "verificato_il": "2026-10-13",
+   "esito": "iniziale",
+   "articoli": 907,
+   "formato": 2,
+   "in_movimento": false,
+   "articoli_in_movimento": [],
+   "file": {
+    "cpp-1.md": {
+     "sha256": "2f97a9dcd27367d79fbeb7469ed4489c0f878f6e0e42881a60e50cff36ae0c76",
+     "byte": 171038
+    },
+    "cpp-2.md": {
+     "sha256": "ff0880fbb79fb5489de8374b417a838423a9eea6b568aac341a126eb13230bea",
+     "byte": 115053
+    },
+    "cpp-3.md": {
+     "sha256": "edd6242c60eb2e87068364231fe668e5788321e3795c9184a0361f92f3feffd8",
+     "byte": 127794
+    },
+    "cpp-4.md": {
+     "sha256": "e43e58e0aead10768f13f43f69f96824edc8e6aaea96e970f09c04350a96f6b5",
+     "byte": 158358
+    },
+    "cpp-5.md": {
+     "sha256": "f2c6dc75d14d7758d24a20577bef682dee724a04f096a554698d6dceb06f656c",
+     "byte": 237458
+    },
+    "cpp-6.md": {
+     "sha256": "530f986247000733618a2ff615bb3c95e73f3b43617e119dc3c9cb40ce25fffb",
+     "byte": 74478
+    },
+    "cpp-7.md": {
+     "sha256": "4d0a6f58e6de7d8747e9457312094939c2eae0524429cf088495c26a5d4d0e38",
+     "byte": 99126
+    },
+    "cpp-8.md": {
+     "sha256": "d2462fa0f5ffc23150b7b2445dc5d9566b9b470bf4b26c0640300a3f9c67dc19",
+     "byte": 33373
+    },
+    "cpp-9.md": {
+     "sha256": "0814b959ac3b956ea4bf54648eb162713d487dc1d52158f422db370ded6c6753",
+     "byte": 112019
+    },
+    "cpp-10.md": {
+     "sha256": "2b5530fd9244f8c846961848541f8e81ebad3ce4f61dfb2478a4f7f5a1279646",
+     "byte": 77031
+    },
+    "cpp-11.md": {
+     "sha256": "32774ab8c2475a165de7a40141ed991f77ee64a505ea104a0a090c59e1dc5ca7",
+     "byte": 90066
+    },
+    "cpp-indice.json": {
+     "sha256": "87d9969e9da733ef0d417f3d18c2490cb7c2272b6264950beb8b7fa9434e474a",
+     "byte": 197591
     }
    }
   },
@@ -653,6 +713,26 @@
     "dlgs-150-2011-indice.json": {
      "sha256": "3005e9ab7a2d21fadff5a32a6da1189be47af83b3d6ead51489c8f233ba207e8",
      "byte": 11689
+    }
+   }
+  },
+  "dlgs-150-2022": {
+   "snapshot": "2026-10-13",
+   "consolidato": "2025-07-31",
+   "verificato_il": "2026-10-13",
+   "esito": "iniziale",
+   "articoli": 107,
+   "formato": 2,
+   "in_movimento": false,
+   "articoli_in_movimento": [],
+   "file": {
+    "dlgs-150-2022.md": {
+     "sha256": "75b6ad29c99d6722bdcea94366c57f0cf35dd7a15c15fab5b7a5d52135870705",
+     "byte": 699365
+    },
+    "dlgs-150-2022-indice.json": {
+     "sha256": "6fae5af66f6c4958d3c0e28eecb041f3b1b9657272acb759464e9cf59f8250fd",
+     "byte": 23145
     }
    }
   },
@@ -1093,6 +1173,26 @@
     "dlgs-67-2011-indice.json": {
      "sha256": "d5f01b29c76a46bbcc7acce7d63b0c4cf865dbe9c34e69f635a0c097d7a9790b",
      "byte": 2686
+    }
+   }
+  },
+  "dlgs-7-2016": {
+   "snapshot": "2026-10-13",
+   "consolidato": "2017-01-01",
+   "verificato_il": "2026-10-13",
+   "esito": "iniziale",
+   "articoli": 13,
+   "formato": 2,
+   "in_movimento": false,
+   "articoli_in_movimento": [],
+   "file": {
+    "dlgs-7-2016.md": {
+     "sha256": "8360a50817e6d48aca0a9aaffd805ec9c58963da7fd580a6daa5c01d71547d06",
+     "byte": 31431
+    },
+    "dlgs-7-2016-indice.json": {
+     "sha256": "a3445924ebe872ae77f6a5d2a5a597f3b0553f0917f5a3a5166e7504504936ec",
+     "byte": 3043
     }
    }
   },
@@ -1932,6 +2032,26 @@
     }
    }
   },
+  "l-374-1991": {
+   "snapshot": "2026-10-13",
+   "consolidato": "2024-09-14",
+   "verificato_il": "2026-10-13",
+   "esito": "iniziale",
+   "articoli": 56,
+   "formato": 2,
+   "in_movimento": false,
+   "articoli_in_movimento": [],
+   "file": {
+    "l-374-1991.md": {
+     "sha256": "fef3cba2ff5939543bc73bf524c1003270fd3cf36765e5e1208cbd614c45fdb7",
+     "byte": 49108
+    },
+    "l-374-1991-indice.json": {
+     "sha256": "141d28a30727d2f9eb487394f4d868f91a08f53c0fafa4425d641afd8db4bf5b",
+     "byte": 15229
+    }
+   }
+  },
   "l-392-1978": {
    "snapshot": "2026-09-25",
    "consolidato": "2014-11-12",
@@ -2009,6 +2129,26 @@
     "l-431-1998-indice.json": {
      "sha256": "55a3c3d39fdb822fca60fe19e0325cfd54ff120aedf0928dc4cbd2f42b7037e2",
      "byte": 5626
+    }
+   }
+  },
+  "l-47-1948": {
+   "snapshot": "2026-10-13",
+   "consolidato": "2021-07-15",
+   "verificato_il": "2026-10-13",
+   "esito": "iniziale",
+   "articoli": 25,
+   "formato": 2,
+   "in_movimento": false,
+   "articoli_in_movimento": [],
+   "file": {
+    "l-47-1948.md": {
+     "sha256": "6a0f761afc6fbb902336a830e25cd079f161d78280232c8ff0d827e7dffe0884",
+     "byte": 16743
+    },
+    "l-47-1948-indice.json": {
+     "sha256": "d0241252c207647e3214c90f52fb19acb97e79993fb75d5cacaaa43961a52094",
+     "byte": 5525
     }
    }
   },
@@ -2412,6 +2552,26 @@
     }
    }
   },
+  "rd-773-1931": {
+   "snapshot": "2026-10-13",
+   "consolidato": "2026-04-25",
+   "verificato_il": "2026-10-13",
+   "esito": "iniziale",
+   "articoli": 234,
+   "formato": 2,
+   "in_movimento": false,
+   "articoli_in_movimento": [],
+   "file": {
+    "rd-773-1931.md": {
+     "sha256": "dca8ce2c973afc5bb7abb31f0db2cbbed9d74f91cea6114259a1fa5af6c29e79",
+     "byte": 214847
+    },
+    "rd-773-1931-indice.json": {
+     "sha256": "799209546c0bb51f038dc5774b470809691f5b9a923ead97123b9eac182e17c1",
+     "byte": 44444
+    }
+   }
+  },
   "reg-cds": {
    "snapshot": "2026-10-05",
    "consolidato": "2025-03-11",
@@ -2555,8 +2715,8 @@
  },
  "codici": {
   "file": "wiki-studio/normativa/codici.json",
-  "sha256": "9454caa19204f4b1634c83251af718006447cbe868649a9e2b42b833b183be94",
-  "byte": 66494
+  "sha256": "947cc16ae7db0068bf34a50fd973522da0084a9b857e488fe49ed982e8fbd680",
+  "byte": 70261
  },
  "changelog": {
   "file": "wiki-studio/normativa/changelog-auto.json",
@@ -2600,6 +2760,19 @@
    "nome": "Disposizioni della Banca d'Italia «Trasparenza delle operazioni e dei servizi bancari e finanziari; correttezza delle relazioni tra intermediari e clienti» (provvedimento 29 luglio 2009 e successive modifiche — testo consolidato)",
    "scaricato_il": "2026-09-19T22:36:28",
    "articoli": 0,
+   "fedelta": "verificata"
+  },
+  "gdpr": {
+   "file": "gdpr.md",
+   "sha256": "e47659656f49a00d3c0ceed5efd9e9dedd965399cce2b788b201e04bf0626314",
+   "byte": 211045,
+   "famiglia": "gdpr",
+   "genere": "regolamento",
+   "nome": "Regolamento (UE) 2016/679 — regolamento generale sulla protezione dei dati (GDPR), testo consolidato con le rettifiche",
+   "scaricato_il": "2026-10-13",
+   "articoli": 99,
+   "natura": "testo-coordinato",
+   "vigenza_da": "2018-05-25",
    "fedelta": "verificata"
   },
   "istruzioni-tegm-2016": {
