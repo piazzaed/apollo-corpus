@@ -322,15 +322,15 @@
     "24 mesi"
    ],
    "estremi": "81/2015",
-   "verificato_il": "2026-09-22",
-   "prossima_verifica": "2026-10-15",
+   "verificato_il": "2026-10-12",
+   "prossima_verifica": "2027-04-12",
    "volatilita": "alta",
    "fonte_primaria_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015;81~art19!vig=",
    "stato": "congelato",
    "vigente_da": "2015-06-25",
    "vigente_a": null,
    "nota": "ALTA volatilita: la causale 'esigenze individuate dalle parti' (art. 19 co. 1 lett. b) SCADE il 31/12/2026 - ricontrollare a ridosso e dopo quella data (proroga o riforma attese). Impugnazione termine: 180 gg dalla cessazione del singolo contratto (art. 28). — Cronaca datata dei giri: wiki-studio/normativa/note-storiche-sidecar.md §contratto_termine_causali.",
-   "verificato_su": "22/09/2026 - INVARIATO: art. 19 co. 1 lett. b) nello snapshot normattiva AKN del 18/09 (diff nullo) recita ancora 'e comunque entro il 31 dicembre 2026'; nessuna proroga nei sommari G.U. 216-220 (D.L. 162/2026 letto: accise, bollo auto, frontalieri, contributo L. 199/2025 - nulla sul lavoro a termine)."
+   "verificato_su": "sentinelle (Action del corpus), 2026-10-12: atti dlgs-81-2015 verificati nel corpus, non in movimento, senza modifiche dopo la verifica precedente"
   },
   {
    "voce_id": "successioni_rendite_vitalizie",
