@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-13T03:41Z",
+ "generato_il": "2026-10-13T12:58Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -2836,8 +2836,8 @@
     "byte": 1584751
    },
    "ccnl/indice.json": {
-    "sha256": "3d4939a474d757d5958fbb6dedf58a9165eae8329ccc9bd919437f048573fc19",
-    "byte": 352967
+    "sha256": "5777839c3b45c65e1adc039ff7bf559d37bdff22bc705ee2b438452f51eb308b",
+    "byte": 352747
    },
    "ccnl/novita.json": {
     "sha256": "91bfdde8135727b8dace2f5d4b70bac2e6b3553bd9191e88a20a7d69947b99a2",
@@ -3188,8 +3188,8 @@
     "byte": 886
    },
    "prassi/indice.json": {
-    "sha256": "5b842f91a825ca051b947ba2f9f3c6160e1f783da422006e225ff1dc294f8bd9",
-    "byte": 4451309
+    "sha256": "91a578840db8205c3a161db33d5c0bba2c0d4b000801f923cf3d38c856b7875e",
+    "byte": 4452767
    }
   },
   "descrizione": "stato del triage del memento",
