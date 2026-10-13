@@ -694,6 +694,16 @@
       "fonte": "sentinelle",
       "chiuso_il": "2026-10-11",
       "esito": "doppione del debito #55 (stesso avviso di rettifica 26A04895): si segue lì"
+    },
+    {
+      "id": 61,
+      "voce_id": "testi_unici_fiscali_2026",
+      "cosa": "Recepire nel changelog umano la modifica di «testi_unici_fiscali_2026»: La L. 25/09/2026 n. 166 (26G00184, G.U. S.G. 223, in vigore 26/09/2026), di conversione del D.L. 133/2026, inserisce l'art. 2-ter, il cui co. 3 aggiunge i commi 2-bis e 2-ter all'art. 117 del T.U. imposte sui redditi (D.Lgs. 117/2026): spese di rappresentanza per gli investimenti dei concessionari d",
+      "perche": "Confermata dalle sentinelle automatiche il 2026-10-13 su https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-07-27;133~art2ter.",
+      "aperto_il": "2026-10-13",
+      "scadenza": "2026-11-12",
+      "stato": "aperto",
+      "fonte": "sentinelle"
     }
   ],
   "decisioni_pendenti": [
