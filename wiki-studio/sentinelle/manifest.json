@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-13T03:52Z",
+ "generato_il": "2026-10-13T03:54Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -1194,7 +1194,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "61782f1b99615bb0c472031131a1274ed123e1891ef73ce3db5870dfc8565737",
+     "sha256": "355eb29dc2e0a599e755e6f7d91cf7377597ecb427c751a540c6a8f6e0c02d5e",
      "byte": 939,
      "proprietario": "action"
     },
