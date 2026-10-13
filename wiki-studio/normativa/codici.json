@@ -386,6 +386,7 @@
   "tus": {
    "nome": "Testo unico imposta sulle successioni e donazioni (D.Lgs. 346/1990)",
    "urn": "urn:nir:stato:decreto.legislativo:1990-10-31;346",
+   "urn_permalink": "urn:nir:stato:decreto.legislativo:1990-10-31;346:1",
    "min_articoli": 55,
    "alias": [
     "d.lgs. 346/1990",
@@ -411,6 +412,7 @@
   "tu-347-1990": {
    "nome": "Testo unico imposte ipotecaria e catastale (D.Lgs. 347/1990)",
    "urn": "urn:nir:stato:decreto.legislativo:1990-10-31;347",
+   "urn_permalink": "urn:nir:stato:decreto.legislativo:1990-10-31;347:1",
    "min_articoli": 15,
    "alias": [
     "d.lgs. 347/1990",
@@ -1355,6 +1357,7 @@
   "rd-267-1942": {
    "nome": "Legge fallimentare (R.D. 267/1942)",
    "urn": "urn:nir:stato:regio.decreto:1942-03-16;267",
+   "urn_permalink": "urn:nir:stato:regio.decreto:1942-03-16;267:1",
    "doc_prefix": "",
    "min_articoli": 200,
    "alias": [
@@ -3016,6 +3019,7 @@
   "cpp": {
    "nome": "Codice di procedura penale (D.P.R. 447/1988)",
    "urn": "urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447:1",
+   "urn_permalink": "urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447",
    "doc_prefix": "",
    "min_articoli": 700,
    "libri": [
@@ -3093,6 +3097,7 @@
   "rd-773-1931": {
    "nome": "Testo unico delle leggi di pubblica sicurezza (TULPS, R.D. 773/1931)",
    "urn": "urn:nir:stato:regio.decreto:1931-06-18;773",
+   "urn_permalink": "urn:nir:stato:regio.decreto:1931-06-18;773:1",
    "doc_prefix": "Testo unico delle leggi di pubblica sicurezza",
    "min_articoli": 150,
    "solo_corpo": false,
@@ -3213,6 +3218,31 @@
     "processo_penale"
    ],
    "citazione": "D.Lgs. 150/2022"
+  },
+  "l-132-2025": {
+   "nome": "Disposizioni e deleghe al Governo in materia di intelligenza artificiale (L. 132/2025)",
+   "urn": "urn:nir:stato:legge:2025-09-23;132",
+   "doc_prefix": "",
+   "min_articoli": 20,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 132/2025",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 132/2025",
+    "legge 132/2025",
+    "legge sull'intelligenza artificiale"
+   ],
+   "materie": [
+    "privacy",
+    "intelligenza_artificiale",
+    "professioni"
+   ],
+   "citazione": "L. 132/2025"
   }
  }
 }

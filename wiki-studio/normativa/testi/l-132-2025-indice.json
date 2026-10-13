@@ -1,0 +1,251 @@
+{
+ "_meta": {
+  "codice": "l-132-2025",
+  "nome": "Disposizioni e deleghe al Governo in materia di intelligenza artificiale (L. 132/2025)",
+  "snapshot": "2026-10-13",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-27",
+  "articoli": 28,
+  "file": [
+   "l-132-2025.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:2025-09-23;132",
+  "versioni": [
+   {
+    "data": "2025-09-25",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2025-10-17",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "2025-10-31",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 31 ottobre 2025, n. 159"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp3",
+    "atto_modificante": "L. 29 dicembre 2025, n. 198"
+   },
+   {
+    "data": "2026-06-26",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 26 giugno 2026, n. 107"
+   }
+  ],
+  "ultima_versione": "2026-06-26",
+  "datazione": {
+   "monoblocco": 28,
+   "api": 27,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 24,
+   "chiamate": 28,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-132-2025.md",
+   "rubrica": "Finalita' e ambito di applicazione",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "b659f5cb09ca"
+  },
+  "2": {
+   "file": "l-132-2025.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "67a9da2437f7"
+  },
+  "3": {
+   "file": "l-132-2025.md",
+   "rubrica": "Principi generali",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "baad6a56ec2e"
+  },
+  "4": {
+   "file": "l-132-2025.md",
+   "rubrica": "Principi in materia di informazione e di riservatezza dei dati personali",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "1ddd476fbef9"
+  },
+  "5": {
+   "file": "l-132-2025.md",
+   "rubrica": "Principi in materia di sviluppo economico",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "8ce9bff087ec"
+  },
+  "6": {
+   "file": "l-132-2025.md",
+   "rubrica": "Disposizioni in materia di sicurezza e difesa nazionale",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "70c59952050a"
+  },
+  "7": {
+   "file": "l-132-2025.md",
+   "rubrica": "Uso dell'intelligenza artificiale in ambito sanitario e di disabilita'",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "5b115175a799"
+  },
+  "8": {
+   "file": "l-132-2025.md",
+   "rubrica": "Ricerca e sperimentazione scientifica nella realizzazione di sistemi di intelligenza artificiale in ambito sanitario",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "a13d3948ffee"
+  },
+  "9": {
+   "file": "l-132-2025.md",
+   "rubrica": "Disposizioni in materia di trattamento di dati personali",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "267845eca3ac"
+  },
+  "10": {
+   "file": "l-132-2025.md",
+   "rubrica": "Disposizioni in materia di fascicolo sanitario elettronico, sistemi di sorveglianza nel settore sanitario e governo della sanita' digitale",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "1bca6c9424a3"
+  },
+  "11": {
+   "file": "l-132-2025.md",
+   "rubrica": "Disposizioni sull'uso dell'intelligenza artificiale in materia di lavoro",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "7b3a2a9e2f5e"
+  },
+  "12": {
+   "file": "l-132-2025.md",
+   "rubrica": "Osservatorio sull'adozione di sistemi di intelligenza artificiale nel mondo del lavoro",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "5f7083b14190"
+  },
+  "13": {
+   "file": "l-132-2025.md",
+   "rubrica": "Disposizioni in materia di professioni intellettuali",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "bed1c43041bd"
+  },
+  "14": {
+   "file": "l-132-2025.md",
+   "rubrica": "Uso dell'intelligenza artificiale nella pubblica amministrazione",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "ca3017bd8b3a"
+  },
+  "15": {
+   "file": "l-132-2025.md",
+   "rubrica": "Impiego dei sistemi di intelligenza artificiale nell'attivita' giudiziaria",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "8d619897757c"
+  },
+  "16": {
+   "file": "l-132-2025.md",
+   "rubrica": "Delega al Governo in materia di dati, algoritmi e metodi matematici per l'addestramento di sistemi di intelligenza artificiale",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "d1149438830a"
+  },
+  "17": {
+   "file": "l-132-2025.md",
+   "rubrica": "Modifica al codice di procedura civile",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "7a2139bd91bd"
+  },
+  "18": {
+   "file": "l-132-2025.md",
+   "rubrica": "Uso dell'intelligenza artificiale per il rafforzamento della cybersicurezza nazionale",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "c9fee780f125"
+  },
+  "19": {
+   "file": "l-132-2025.md",
+   "rubrica": "",
+   "vigore_da": "2025-12-31",
+   "datazione": "api",
+   "h": "aebb1c463ebb"
+  },
+  "20": {
+   "file": "l-132-2025.md",
+   "rubrica": "Autorita' nazionali per l'intelligenza artificiale",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "a3df3bbd50b4"
+  },
+  "21": {
+   "file": "l-132-2025.md",
+   "rubrica": "Applicazione sperimentale dell'intelligenza artificiale ai servizi forniti dal Ministero degli affari esteri e della cooperazione internazionale",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "3df7e7a8ebb4"
+  },
+  "22": {
+   "file": "l-132-2025.md",
+   "rubrica": "Misure di sostegno ai giovani e allo sport",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "55c3cd0a177d"
+  },
+  "23": {
+   "file": "l-132-2025.md",
+   "rubrica": "Investimenti nei settori dell'intelligenza artificiale, della cybersicurezza e del calcolo quantistico",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "f706a33c1877"
+  },
+  "24": {
+   "file": "l-132-2025.md",
+   "rubrica": "Deleghe al Governo in materia di intelligenza artificiale",
+   "vigore_da": "2026-06-27",
+   "datazione": "api",
+   "h": "b08727d06497"
+  },
+  "25": {
+   "file": "l-132-2025.md",
+   "rubrica": "Tutela del diritto d'autore delle opere generate con l'ausilio dell'intelligenza artificiale",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "5234ace57af3"
+  },
+  "26": {
+   "file": "l-132-2025.md",
+   "rubrica": "Modifiche al codice penale e ad ulteriori disposizioni penali",
+   "vigore_da": "2025-10-17",
+   "datazione": "api",
+   "h": "f7c053c668f3"
+  },
+  "27": {
+   "file": "l-132-2025.md",
+   "rubrica": "Clausola di invarianza finanziaria",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "5757dd2b5803"
+  },
+  "28": {
+   "file": "l-132-2025.md",
+   "rubrica": "Disposizioni finali",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "6b9da37a67b8"
+  }
+ }
+}
