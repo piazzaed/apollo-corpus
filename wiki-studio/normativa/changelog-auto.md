@@ -1,11 +1,17 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-10-12 · 277 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-10-13 · 278 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Testo unico spese di giustizia (D.P.R. 115/2002) (`dpr-115-2002`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 73 — Procedura per la registrazione degli atti giudiziari | modificato | 2016-12-03 → 2016-12-03 | non indicato nell’AKN | 2026-09-23 → 2026-10-13 |
 
 ## Testo unico delle imposte sui redditi (D.P.R. 917/1986) (`tuir`)
 

@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "dpr-115-2002",
   "nome": "Testo unico spese di giustizia (D.P.R. 115/2002)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-10-13",
   "formato": 2,
   "consolidato_normattiva": "2026-08-26",
   "articoli": 316,
@@ -557,12 +557,11 @@
   "ultima_versione": "2026-08-11",
   "datazione": {
    "monoblocco": 316,
-   "api": 300,
-   "riportati": 12,
+   "api": 1,
+   "riportati": 311,
    "ignota": 4,
    "testo_diverso": 4,
-   "stima_anteriore": 252,
-   "chiamate": 304,
+   "chiamate": 5,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1096,7 +1095,7 @@
    "vigore_da": "2016-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "19bdacb4740d"
+   "h": "30a9651a4cb2"
   },
   "73-bis": {
    "file": "dpr-115-2002.md",
