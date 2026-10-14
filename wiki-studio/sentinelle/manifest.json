@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-14T08:56Z",
+ "generato_il": "2026-10-14T09:06Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -50,8 +50,8 @@
      "proprietario": "action"
     },
     "wiki-studio/normativa/changelog-riforme.meta.json": {
-     "sha256": "65c15de907cd154ce9bfbc89b5a59d1c26a27e263d39fece6a6a99683fea7538",
-     "byte": 44200,
+     "sha256": "f64610f09a3c51deac7613d8d9089b9348e77037799ba478b43f485d1395c792",
+     "byte": 44315,
      "proprietario": "action"
     },
     "wiki-studio/normativa/drift-reports/2026-10-11.md": {
@@ -67,6 +67,11 @@
     "wiki-studio/normativa/drift-reports/2026-10-13.md": {
      "sha256": "e24efa71655cf9ae4e8cbf5fc762433308b2b5728df1db808f38f86e399f7078",
      "byte": 45481,
+     "proprietario": "action"
+    },
+    "wiki-studio/normativa/drift-reports/2026-10-14.md": {
+     "sha256": "476a6e18137db9b55295eea04f00ecd51b6590c79fb42b736a7cd0c7fe9fb557",
+     "byte": 42897,
      "proprietario": "action"
     },
     "wiki-studio/normativa/sentinella-debito.json": {
@@ -86,7 +91,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-13",
+    "ultimo_giro": "2026-10-14",
     "esito": "ok",
     "da_ricontrollare": [
      "immigrazione_37_2025",
@@ -1194,7 +1199,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "f87e93ff2e722826daf78560aa020a4930e7e2164de093a665c06acf94c96dd1",
+     "sha256": "d122cde3775d6d388ef85f7fae64e3ca1affb0fd4f9e08dc7d8460e318207dc8",
      "byte": 939,
      "proprietario": "action"
     },
