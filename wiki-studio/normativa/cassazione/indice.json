@@ -17,7 +17,7 @@
    "OI": "Ordinanza Interlocutoria",
    "S": "Sentenza"
   },
-  "verificato_il": "2026-09-25"
+  "verificato_il": "2026-10-18"
  },
  "anni": {
   "2021": {
@@ -48,13 +48,13 @@
    "aggiornato_il": "2026-09-25",
    "righe": 35009,
    "sha256": "a35ac761b59792edd6627a048123d894bf9aca16b6b2ce4ba2aa9ad0e160cb36",
-   "verificato_il": "2026-09-25"
+   "verificato_il": "2026-10-18"
   },
   "2026": {
-   "aggiornato_il": "2026-09-25",
-   "righe": 25489,
-   "sha256": "61cd4cdefe7b49b6a81b427ef6d3f782ddd3b24ffedee6739ee1c60fd75db754",
-   "verificato_il": "2026-09-25"
+   "aggiornato_il": "2026-10-18",
+   "righe": 26928,
+   "sha256": "3a9e0edece06085b745a29600b1d6a7e3999e17392a28ebfc31a20884abbef9a",
+   "verificato_il": "2026-10-18"
   }
  }
 }
