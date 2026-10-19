@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-19T08:04Z",
+ "generato_il": "2026-10-19T08:19Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -45,13 +45,13 @@
   "normativa": {
    "file": {
     "wiki-studio/normativa/changelog-riforme.md": {
-     "sha256": "d1da19ac57fb003c4a453571e7bf8aa710c586789f96923615529291ccfa93ea",
-     "byte": 71451,
+     "sha256": "86bc11639352646f9039ba83ad751641f544909dec0aa586ec73d79a67bc05df",
+     "byte": 73431,
      "proprietario": "action"
     },
     "wiki-studio/normativa/changelog-riforme.meta.json": {
-     "sha256": "f64610f09a3c51deac7613d8d9089b9348e77037799ba478b43f485d1395c792",
-     "byte": 44315,
+     "sha256": "c47d704385064ebd848f73d390666c66fe1867bdf1472641c98205e49bb4282b",
+     "byte": 44445,
      "proprietario": "action"
     },
     "wiki-studio/normativa/drift-reports/2026-10-11.md": {
@@ -74,9 +74,14 @@
      "byte": 42897,
      "proprietario": "action"
     },
+    "wiki-studio/normativa/drift-reports/2026-10-19.md": {
+     "sha256": "f4ce1b8e1ab217b76f0af6d4c80a0025e7a36d202bf326ffde986123c4f45f44",
+     "byte": 48836,
+     "proprietario": "action"
+    },
     "wiki-studio/normativa/sentinella-debito.json": {
-     "sha256": "c1bd67e1399efcd8566557c4408c4de531a1011d2494c3d545ea751697403eaf",
-     "byte": 98627,
+     "sha256": "0f40129e1996e6f0c2ab4e5c1debcf8cfc458fa290b3175930782bfc50c65fe9",
+     "byte": 101082,
      "proprietario": "action"
     },
     "wiki-studio/normativa/stato-orientamenti.md": {
@@ -91,7 +96,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-14",
+    "ultimo_giro": "2026-10-19",
     "esito": "ok",
     "da_ricontrollare": [
      "immigrazione_37_2025",
@@ -1199,7 +1204,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "c317b21b4eb1382fe060fffc194fb38320ed70b046be9392cd95f8436c6def39",
+     "sha256": "5000681e675ce6509cb7a6f2dd0dbad5da78c4e40a2935dec46528e80b728b1c",
      "byte": 945,
      "proprietario": "action"
     },
