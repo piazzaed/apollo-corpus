@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-14T09:10Z",
+ "generato_il": "2026-10-19T08:04Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -11,7 +11,7 @@
      "proprietario": "action"
     },
     "dati/tassi.json": {
-     "sha256": "359350d973d6f24d917cec8530891c2c8c0a6eb82a9c2a0f980923fe99aa8107",
+     "sha256": "baf8e905859e7d5da7194e3a091fc93494510e041859237d6a96ecce44df0679",
      "byte": 314094,
      "proprietario": "action"
     },
@@ -21,8 +21,8 @@
      "proprietario": "action"
     },
     "wiki-studio/normativa/limiti-dm-110-2023.json": {
-     "sha256": "302a79054ae2ca1defc5157246d2afa18d14f5f9dc8a083aac3edfa8c0615e92",
-     "byte": 7155,
+     "sha256": "62e4e4a625e73665cfc7282708e361b0524abf29aba042f0686449d34d7051ca",
+     "byte": 7636,
      "proprietario": "action"
     },
     "wiki-studio/normativa/pct-specifiche.json": {
@@ -37,8 +37,8 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-14",
-    "esito": "ok",
+    "ultimo_giro": "2026-10-19",
+    "esito": "parziale",
     "da_ricontrollare": []
    }
   },
@@ -1199,8 +1199,8 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "2bba1276a35b7ea01aa70befe47ce6351e1f2184137bf7911671bf97070c0988",
-     "byte": 939,
+     "sha256": "c317b21b4eb1382fe060fffc194fb38320ed70b046be9392cd95f8436c6def39",
+     "byte": 945,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {
