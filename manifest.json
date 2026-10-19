@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-19T16:47Z",
+ "generato_il": "2026-10-19T16:48Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -2852,6 +2852,18 @@
    "nome": "Istruzioni per la rilevazione dei tassi effettivi globali medi ai sensi della legge sull'usura — luglio 2016 (in vigore dalle segnalazioni del 1° ottobre 2016)",
    "scaricato_il": "2026-09-19T22:36:20",
    "articoli": 0,
+   "fedelta": "verificata"
+  },
+  "parametri-forensi-tabelle": {
+   "file": "parametri-forensi-tabelle.md",
+   "sha256": "39322f765aa0bd3380506bf746901e0e7c17f40d6d537ccc367e35c08d31faaa",
+   "byte": 34278,
+   "famiglia": "parametri-forensi-tabelle",
+   "genere": "regolamento",
+   "nome": "Tabelle dei parametri forensi allegate al D.M. 10 marzo 2014, n. 55, come sostituite dal D.M. 13 agosto 2022, n. 147 (G.U. n. 236 dell'8 ottobre 2022, in vigore dal 23 ottobre 2022)",
+   "scaricato_il": "2026-10-19T16:14:12",
+   "articoli": 0,
+   "vigenza_da": "2022-10-23",
    "fedelta": "verificata"
   },
   "reg-ivass-40-2018": {
