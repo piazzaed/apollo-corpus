@@ -1,8 +1,16 @@
 {
  "_meta": {
   "descrizione": "stato del triage del memento",
-  "ultimo_triage": "2026-10-13"
+  "ultimo_triage": "2026-10-19"
  },
- "ultimo_triage": "2026-10-13",
- "movimento_visti": []
+ "ultimo_triage": "2026-10-19",
+ "movimento_visti": [
+  "cp:583",
+  "cp:590",
+  "cp:603-bis",
+  "cp:612-bis",
+  "cp:622",
+  "cp:623",
+  "cp:650"
+ ]
 }
