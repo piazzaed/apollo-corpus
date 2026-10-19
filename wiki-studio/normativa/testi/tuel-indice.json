@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "tuel",
   "nome": "Testo unico degli enti locali (D.Lgs. 267/2000)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-10-19",
   "formato": 2,
-  "consolidato_normattiva": "2026-08-08",
+  "consolidato_normattiva": "2026-10-07",
   "articoli": 294,
   "file": [
    "tuel.md"
@@ -812,17 +812,22 @@
     "data": "2026-08-07",
     "evento": "rp162",
     "atto_modificante": "D.L. 7 agosto 2026, n. 144"
+   },
+   {
+    "data": "2026-10-06",
+    "evento": "rp163",
+    "atto_modificante": "L. 5 ottobre 2026, n. 174"
    }
   ],
-  "ultima_versione": "2026-08-07",
+  "ultima_versione": "2026-10-06",
   "datazione": {
    "monoblocco": 294,
-   "api": 293,
+   "api": 2,
+   "riportati": 291,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 208,
-   "stima_posteriore": 2,
-   "chiamate": 294,
+   "stima_anteriore": 1,
+   "chiamate": 3,
    "urn_api": "urn:nir:stato:decreto.legislativo:2000;267",
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
@@ -1477,7 +1482,7 @@
    "rubrica": "Assunzioni",
    "vigore_da": "2026-08-08",
    "datazione": "api",
-   "h": "b09110fcd2e1"
+   "h": "b712a62f99a6"
   },
   "92": {
    "file": "tuel.md",
@@ -2728,9 +2733,9 @@
   "255": {
    "file": "tuel.md",
    "rubrica": "Acquisizione e gestione dei mezzi finanziari per il risanamento",
-   "vigore_da": "2026-08-08",
+   "vigore_da": "2026-10-07",
    "datazione": "api",
-   "h": "30b0700d2441"
+   "h": "84b4da78114e"
   },
   "256": {
    "file": "tuel.md",

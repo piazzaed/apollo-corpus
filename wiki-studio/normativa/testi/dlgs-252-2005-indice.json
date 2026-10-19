@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dlgs-252-2005",
   "nome": "Forme pensionistiche complementari (D.Lgs. 252/2005)",
-  "snapshot": "2026-10-02",
+  "snapshot": "2026-10-19",
   "formato": 2,
-  "consolidato_normattiva": "2026-06-28",
+  "consolidato_normattiva": "2026-10-07",
   "articoli": 54,
   "file": [
    "dlgs-252-2005.md"
@@ -172,15 +172,31 @@
     "data": "2026-06-27",
     "evento": "rp31",
     "atto_modificante": "L. 25 giugno 2026, n. 112"
+   },
+   {
+    "data": "2026-07-03",
+    "evento": "rp32",
+    "atto_modificante": "D.Lgs. 19 giugno 2026, n. 117"
+   },
+   {
+    "data": "2026-08-07",
+    "evento": "rp33",
+    "atto_modificante": "D.L. 7 agosto 2026, n. 144"
+   },
+   {
+    "data": "2026-10-06",
+    "evento": "rp34",
+    "atto_modificante": "L. 5 ottobre 2026, n. 174"
    }
   ],
-  "ultima_versione": "2026-06-27",
+  "ultima_versione": "2026-10-06",
   "datazione": {
    "monoblocco": 54,
-   "api": 54,
+   "api": 3,
+   "riportati": 51,
    "ignota": 0,
-   "stima_anteriore": 8,
-   "chiamate": 54,
+   "stima_anteriore": 1,
+   "chiamate": 3,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -346,7 +362,7 @@
    "vigore_da": "2026-06-28",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "530606cf3eb2"
+   "h": "e602c167e543"
   },
   "12": {
    "file": "dlgs-252-2005.md",
@@ -474,7 +490,7 @@
    "vigore_da": "2017-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "57495b25c7e9"
+   "h": "6072865ee2c6"
   },
   "17-bis": {
    "file": "dlgs-252-2005.md",
@@ -486,9 +502,9 @@
   "18": {
    "file": "dlgs-252-2005.md",
    "rubrica": "Vigilanza sulle forme pensionistiche complementari",
-   "vigore_da": "2026-04-21",
+   "vigore_da": "2026-10-07",
    "datazione": "api",
-   "h": "0ad3b563c1d7"
+   "h": "6165e5d24d47"
   },
   "18-bis": {
    "file": "dlgs-252-2005.md",

@@ -1,11 +1,38 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-10-13 · 278 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-10-19 · 285 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Testo unico degli enti locali (D.Lgs. 267/2000) (`tuel`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 255 — Acquisizione e gestione dei mezzi finanziari per il risanamento | modificato | 2026-08-08 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-09-23 → 2026-10-19 |
+| Art. 91 — Assunzioni | note | 2026-08-08 → 2026-08-08 | L. 5 ottobre 2026, n. 174 | 2026-09-23 → 2026-10-19 |
+
+## Socio lavoratore di cooperativa (L. 142/2001) (`l-142-2001`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 5 — Altre normative applicabili al socio lavoratore | datazione | — → 2003-03-13 | non indicato nell’AKN | 2026-10-02 → 2026-10-19 |
+
+## Forme pensionistiche complementari (D.Lgs. 252/2005) (`dlgs-252-2005`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 18 — Vigilanza sulle forme pensionistiche complementari | modificato | 2026-04-21 → 2026-10-07 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
+| Art. 17 — Regime tributario delle forme pensionistiche complementari | modificato | 2017-01-01 → 2017-01-01 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
+| Art. 11 — Prestazioni | note | 2026-06-28 → 2026-06-28 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
+
+## Codice penale (`cp`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 437-bis — Omessa adozione di misure di sicurezza nei sistemi di intelligenza artificiale e alterazione illecita dei sistemi | aggiunto | — → 2026-09-30 | D.Lgs. 9 settembre 2026, n. 160 | 2026-09-23 → 2026-10-19 |
 
 ## Testo unico spese di giustizia (D.P.R. 115/2002) (`dpr-115-2002`)
 

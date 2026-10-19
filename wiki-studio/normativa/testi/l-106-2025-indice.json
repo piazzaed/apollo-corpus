@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "l-106-2025",
   "nome": "Conservazione del posto e permessi per malattie oncologiche, invalidanti e croniche (L. 106/2025)",
-  "snapshot": "2026-10-02",
+  "snapshot": "2026-10-19",
   "formato": 2,
-  "consolidato_normattiva": "2026-10-02",
+  "consolidato_normattiva": "2026-10-19",
   "articoli": 5,
   "file": [
    "l-106-2025.md"
@@ -22,11 +22,11 @@
   "ultima_versione": "2025-07-25",
   "datazione": {
    "monoblocco": 5,
-   "api": 4,
+   "api": 0,
+   "riportati": 4,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 4,
-   "chiamate": 5,
+   "chiamate": 1,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },

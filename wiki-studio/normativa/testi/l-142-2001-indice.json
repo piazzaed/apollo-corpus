@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "l-142-2001",
   "nome": "Socio lavoratore di cooperativa (L. 142/2001)",
-  "snapshot": "2026-10-02",
+  "snapshot": "2026-10-19",
   "formato": 2,
   "consolidato_normattiva": "2013-08-23",
   "articoli": 7,
@@ -47,12 +47,10 @@
   "ultima_versione": "2013-06-28",
   "datazione": {
    "monoblocco": 7,
-   "api": 6,
-   "ignota": 1,
-   "falliti": 1,
-   "stima_anteriore": 3,
-   "chiamate": 7,
-   "errori_rete": 1,
+   "api": 1,
+   "riportati": 6,
+   "ignota": 0,
+   "chiamate": 1,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -88,8 +86,8 @@
   "5": {
    "file": "l-142-2001.md",
    "rubrica": "Altre normative applicabili al socio lavoratore",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2003-03-13",
+   "datazione": "api",
    "h": "28d2e70ba362"
   },
   "6": {

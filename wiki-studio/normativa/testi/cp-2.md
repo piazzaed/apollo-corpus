@@ -1,6 +1,6 @@
 # Codice penale — Libro II — Dei delitti in particolare
 
-<!-- codice: cp · snapshot: 2026-09-23 · consolidato-normattiva: 2026-07-16 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1930-10-19;1398:1) -->
+<!-- codice: cp · snapshot: 2026-10-19 · consolidato-normattiva: 2026-09-30 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1930-10-19;1398:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -3191,6 +3191,16 @@ AGGIORNAMENTO (7)
 
 Il D.Lgs. Luogotenenziale 10 maggio 1945, n. 234 ha disposto (con l'art. 4, comma 1) che "Salvo quanto disposto negli articoli precedenti, le pene previste per i reati contemplati nel libro secondo, titolo sesto, capo primo, e titolo tredicesimo, capo primo del Codice penale, sono aumentate da un terzo alla meta'".
 Ha inoltre disposto (con l'art. 7, comma 1) che la presente modifica ha efficacia fino ad un anno dopo la cessazione dello stato di guerra.
+
+### Art. 437-bis — Omessa adozione di misure di sicurezza nei sistemi di intelligenza artificiale e alterazione illecita dei sistemi
+<!-- vigore_da: 2026-09-30 -->
+
+.
+
+((Chiunque omette di adottare le misure tecniche di sicurezza, previste per la progettazione, l'addestramento, la produzione, l'immissione sul mercato di sistemi di intelligenza artificiale ad alto rischio, idonee a prevenire malfunzionamenti o alterazioni del funzionamento dei sistemi ovvero omette di adottare misure di sorveglianza umana e' punito con la reclusione da uno a cinque anni, quando da tali omissioni derivi pericolo per la vita o l'incolumita' pubblica o individuale. Qualora dal fatto derivi un pericolo per la sicurezza dello Stato, la pena e' della reclusione da due a otto anni)).
+((Salvo che il fatto costituisca piu' grave reato, chiunque, al di fuori dei casi indicati al primo comma, altera sistemi di intelligenza artificiale ad alto rischio e' punito, qualora dal fatto derivi un pericolo per la vita o l'incolumita' pubblica o individuale, con la reclusione da due a sei anni. Qualora dal fatto derivi un pericolo per la sicurezza dello Stato, la pena e' della reclusione da tre a dieci anni)).
+((Se taluno dei fatti previsti dal comma primo e' commesso per colpa grave, la pena e' ridotta da un terzo a un sesto)).
+((L'utilizzatore professionale di sistemi di intelligenza artificiale ad alto rischio che omette intenzionalmente di adottare misure di sorveglianza umana e' punito con le pene previste dal primo comma, primo e secondo periodo, qualora da tale omissione derivi, rispettivamente, pericolo per la vita o l'incolumita' pubblica o individuale oppure un pericolo per la sicurezza dello Stato)).
 
 ### Art. 438 — Epidemia
 <!-- vigore_da: 1944-10-05 -->

@@ -13,5 +13,71 @@
    }
   ],
   "stato": "in_movimento"
+ },
+ "reg-cds": {
+  "dal": "2026-10-19",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00198",
+    "data_gu": "2026-10-13",
+    "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 4 agosto 2026, n. 183 — Regolamento recante modifiche al decreto del Presidente della Repubblica 16 dicembre 1992, n. 495, per l'introduzione della sigla di individuazione delle province di Sulcis Iglesiente, Medio Campidano, Ogliastra e Gallura nord-est Sarde",
+    "articoli": [],
+    "tutto_l_atto": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26G00198/sg",
+    "rilevato_il": "2026-10-19"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "tuf": {
+  "dal": "2026-10-19",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00202",
+    "data_gu": "2026-10-15",
+    "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 184 — Recepimento della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, e adeguamento dell'ordinamento nazionale alle disposizioni dei regolamenti (UE) 2023/2859 e (UE) 2023/2869 del Parlamento europeo e del Consiglio, ",
+    "articoli": [
+     "1"
+    ],
+    "tutto_l_atto": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26G00202/sg",
+    "rilevato_il": "2026-10-19"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "cap": {
+  "dal": "2026-10-19",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00202",
+    "data_gu": "2026-10-15",
+    "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 184 — Recepimento della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, e adeguamento dell'ordinamento nazionale alle disposizioni dei regolamenti (UE) 2023/2859 e (UE) 2023/2869 del Parlamento europeo e del Consiglio, ",
+    "articoli": [
+     "1"
+    ],
+    "tutto_l_atto": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26G00202/sg",
+    "rilevato_il": "2026-10-19"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "cp": {
+  "dal": "2026-10-19",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00203",
+    "data_gu": "2026-10-16",
+    "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 186 — Attuazione della direttiva (UE) 2024/1260 del Parlamento europeo e del Consiglio, del 24 aprile 2024, riguardante il recupero e la confisca dei beni. (26G00203) Pag. 7",
+    "articoli": [
+     "240-bis"
+    ],
+    "tutto_l_atto": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00203/sg",
+    "rilevato_il": "2026-10-19"
+   }
+  ],
+  "stato": "in_movimento"
  }
 }

@@ -1,6 +1,6 @@
 # Codice penale — Libro I — Dei reati in generale
 
-<!-- codice: cp · snapshot: 2026-09-23 · consolidato-normattiva: 2026-07-16 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1930-10-19;1398:1) -->
+<!-- codice: cp · snapshot: 2026-10-19 · consolidato-normattiva: 2026-09-30 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1930-10-19;1398:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
