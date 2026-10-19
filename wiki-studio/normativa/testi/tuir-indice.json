@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "tuir",
   "nome": "Testo unico delle imposte sui redditi (D.P.R. 917/1986)",
-  "snapshot": "2026-10-12",
+  "snapshot": "2026-10-19",
   "formato": 2,
   "consolidato_normattiva": "2026-09-26",
   "articoli": 236,
@@ -1262,12 +1262,14 @@
   "ultima_versione": "2026-09-25",
   "datazione": {
    "monoblocco": 236,
-   "api": 225,
-   "riportati": 9,
-   "ignota": 2,
+   "api": 220,
+   "riportati": 10,
+   "ignota": 6,
+   "falliti": 4,
    "testo_diverso": 2,
-   "stima_anteriore": 142,
-   "chiamate": 227,
+   "stima_anteriore": 141,
+   "chiamate": 226,
+   "errori_rete": 4,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1285,7 +1287,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "05170032bf68"
+   "h": "6d7b26940967"
   },
   "2": {
    "file": "tuir.md",
@@ -1293,7 +1295,7 @@
    "vigore_da": "2023-12-29",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "22ed1e9d8ce7"
+   "h": "b4c3abe2dc49"
   },
   "3": {
    "file": "tuir.md",
@@ -1301,7 +1303,7 @@
    "vigore_da": "2026-05-23",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "37ff5cfbc6de"
+   "h": "7a32555ec56d"
   },
   "4": {
    "file": "tuir.md",
@@ -1309,7 +1311,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "11f9cccacb15"
+   "h": "f5920e27912d"
   },
   "5": {
    "file": "tuir.md",
@@ -1317,7 +1319,7 @@
    "vigore_da": "2023-12-29",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9f92e77d0dbf"
+   "h": "b1a097a0d4c0"
   },
   "6": {
    "file": "tuir.md",
@@ -1325,7 +1327,7 @@
    "vigore_da": "2006-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "beb52b111c87"
+   "h": "402c385c740e"
   },
   "7": {
    "file": "tuir.md",
@@ -1333,7 +1335,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "174301580964"
+   "h": "053536cd415a"
   },
   "8": {
    "file": "tuir.md",
@@ -1341,7 +1343,7 @@
    "vigore_da": "2019-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "4f79b5ac061f"
+   "h": "2d733cdc9732"
   },
   "9": {
    "file": "tuir.md",
@@ -1349,7 +1351,7 @@
    "vigore_da": "2024-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "a0c60b32fd3d"
+   "h": "cc4b9c40269e"
   },
   "10": {
    "file": "tuir.md",
@@ -1357,7 +1359,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ef8dbcb4d615"
+   "h": "4a676937a45c"
   },
   "10-bis": {
    "file": "tuir.md",
@@ -1365,7 +1367,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0546f147c28a"
+   "h": "f78dddffafee"
   },
   "11": {
    "file": "tuir.md",
@@ -1373,7 +1375,7 @@
    "vigore_da": "2026-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "de317946978f"
+   "h": "62ff07f49eb4"
   },
   "12": {
    "file": "tuir.md",
@@ -1381,7 +1383,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "32b657ba97c1"
+   "h": "db3d70687d0d"
   },
   "13": {
    "file": "tuir.md",
@@ -1389,7 +1391,7 @@
    "vigore_da": "2025-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "e825065d379a"
+   "h": "e7654037012b"
   },
   "13-bis": {
    "file": "tuir.md",
@@ -1397,7 +1399,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "324e60a46609"
+   "h": "d6a076499a96"
   },
   "13-ter": {
    "file": "tuir.md",
@@ -1405,7 +1407,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "75709a2a64df"
+   "h": "d0fba039ccd2"
   },
   "14": {
    "file": "tuir.md",
@@ -1421,7 +1423,7 @@
    "vigore_da": "2025-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ad1bba2e54bc"
+   "h": "bbddd9f099ff"
   },
   "16": {
    "file": "tuir.md",
@@ -1429,7 +1431,7 @@
    "vigore_da": "2022-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "dda4c35e5cad"
+   "h": "8bf609a27ac4"
   },
   "16-bis": {
    "file": "tuir.md",
@@ -1437,7 +1439,7 @@
    "vigore_da": "2025-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "81a9440fc7d0"
+   "h": "ca59b6753092"
   },
   "16-ter": {
    "file": "tuir.md",
@@ -1453,7 +1455,7 @@
    "vigore_da": "2025-06-18",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "48c527daa139"
+   "h": "55c75d5c9300"
   },
   "17-bis": {
    "file": "tuir.md",
@@ -1461,7 +1463,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "40a9f7884939"
+   "h": "2e182c9f1705"
   },
   "18": {
    "file": "tuir.md",
@@ -1469,7 +1471,7 @@
    "vigore_da": "2011-09-17",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0da09c968909"
+   "h": "0ed00db8b280"
   },
   "19": {
    "file": "tuir.md",
@@ -1477,7 +1479,7 @@
    "vigore_da": "2006-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "3a5de3b4fb52"
+   "h": "7bde8b7db2c8"
   },
   "20": {
    "file": "tuir.md",
@@ -1493,7 +1495,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "013487b09be9"
+   "h": "8afa060096d0"
   },
   "21": {
    "file": "tuir.md",
@@ -1501,7 +1503,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "f55f666ce905"
+   "h": "ba4f9c0d1f88"
   },
   "22": {
    "file": "tuir.md",
@@ -1509,7 +1511,7 @@
    "vigore_da": "2016-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "82f5434cc266"
+   "h": "4f152ffb0afa"
   },
   "23": {
    "file": "tuir.md",
@@ -1517,7 +1519,7 @@
    "vigore_da": "2023-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "13de2b3e4f23"
+   "h": "e7c5d48322bb"
   },
   "24": {
    "file": "tuir.md",
@@ -1525,7 +1527,7 @@
    "vigore_da": "2016-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "d362b45168fb"
+   "h": "038b8554c0b4"
   },
   "24-bis": {
    "file": "tuir.md",
@@ -1533,7 +1535,7 @@
    "vigore_da": "2026-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "bd90e20f7ee6"
+   "h": "16d04d7bcf6b"
   },
   "24-ter": {
    "file": "tuir.md",
@@ -1541,7 +1543,7 @@
    "vigore_da": "2026-04-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "3b96ca207535"
+   "h": "26e47bf73946"
   },
   "25": {
    "file": "tuir.md",
@@ -1549,7 +1551,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "37407a63b4ad"
+   "h": "1860017f9c29"
   },
   "26": {
    "file": "tuir.md",
@@ -1557,7 +1559,7 @@
    "vigore_da": "2021-05-22",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0ae0e2e9e1d4"
+   "h": "0e5d3dc8ba98"
   },
   "27": {
    "file": "tuir.md",
@@ -1565,7 +1567,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "eadd9d82b803"
+   "h": "afcdb7601b53"
   },
   "28": {
    "file": "tuir.md",
@@ -1573,7 +1575,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "75967f83f8d9"
+   "h": "a6b6b5c7b502"
   },
   "29": {
    "file": "tuir.md",
@@ -1581,7 +1583,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "e5656ec9197a"
+   "h": "22104e682bf2"
   },
   "30": {
    "file": "tuir.md",
@@ -1589,7 +1591,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "f87a1b820abf"
+   "h": "49072cb185a2"
   },
   "31": {
    "file": "tuir.md",
@@ -1597,7 +1599,7 @@
    "vigore_da": "2014-06-25",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "31091583f9c6"
+   "h": "f5955856e2dc"
   },
   "32": {
    "file": "tuir.md",
@@ -1605,7 +1607,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "32a43f8d4c59"
+   "h": "c818b0aa9676"
   },
   "33": {
    "file": "tuir.md",
@@ -1613,7 +1615,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "715f7699b585"
+   "h": "4623e89c68d3"
   },
   "34": {
    "file": "tuir.md",
@@ -1621,7 +1623,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "193a9ed8dc66"
+   "h": "0628e7379e12"
   },
   "35": {
    "file": "tuir.md",
@@ -1629,7 +1631,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c95d1586d83b"
+   "h": "ddb2e8fa5be8"
   },
   "36": {
    "file": "tuir.md",
@@ -1637,7 +1639,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "cca2a26b0085"
+   "h": "767a9b16fd0a"
   },
   "37": {
    "file": "tuir.md",
@@ -1645,7 +1647,7 @@
    "vigore_da": "2012-07-18",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "d29d13913492"
+   "h": "b75fe2790eb5"
   },
   "38": {
    "file": "tuir.md",
@@ -1653,7 +1655,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "40763959e91c"
+   "h": "638ec3639eb7"
   },
   "39": {
    "file": "tuir.md",
@@ -1661,7 +1663,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9669d3cd8881"
+   "h": "8f6b05873934"
   },
   "40": {
    "file": "tuir.md",
@@ -1669,7 +1671,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "cae185914c91"
+   "h": "65a1cc5bc81f"
   },
   "41": {
    "file": "tuir.md",
@@ -1677,7 +1679,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "647096baea7d"
+   "h": "821f5f23a0b3"
   },
   "42": {
    "file": "tuir.md",
@@ -1685,7 +1687,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "58e3ca1e4984"
+   "h": "82cf25aae1c3"
   },
   "43": {
    "file": "tuir.md",
@@ -1693,7 +1695,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c7aebb5ce4b5"
+   "h": "f6f5ddce64ae"
   },
   "44": {
    "file": "tuir.md",
@@ -1701,7 +1703,7 @@
    "vigore_da": "2019-12-25",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "da1be332e694"
+   "h": "5dc4a0097c2e"
   },
   "45": {
    "file": "tuir.md",
@@ -1709,7 +1711,7 @@
    "vigore_da": "2019-10-27",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9191d385b7d5"
+   "h": "a5b12d5ed6a8"
   },
   "46": {
    "file": "tuir.md",
@@ -1717,7 +1719,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c86f8e2d64e6"
+   "h": "f8bd5f620847"
   },
   "47": {
    "file": "tuir.md",
@@ -1725,7 +1727,7 @@
    "vigore_da": "2019-01-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "5afadae5dd17"
+   "h": "abd427abc8b6"
   },
   "47-bis": {
    "file": "tuir.md",
@@ -1733,7 +1735,7 @@
    "vigore_da": "2025-12-20",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "fa23c2fa0ed0"
+   "h": "f114008ce2a0"
   },
   "48": {
    "file": "tuir.md",
@@ -1741,7 +1743,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ab78ebc5e18c"
+   "h": "e98481d523e3"
   },
   "48-bis": {
    "file": "tuir.md",
@@ -1749,7 +1751,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "74c2171aa6e6"
+   "h": "389ad27a1846"
   },
   "49": {
    "file": "tuir.md",
@@ -1757,7 +1759,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0e4b795e3089"
+   "h": "7576c728d0f0"
   },
   "50": {
    "file": "tuir.md",
@@ -1765,7 +1767,7 @@
    "vigore_da": "2025-05-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "1fbf1dab9955"
+   "h": "8a837686516c"
   },
   "51": {
    "file": "tuir.md",
@@ -1773,7 +1775,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c6dd7dde37db"
+   "h": "b0163ee21fbf"
   },
   "52": {
    "file": "tuir.md",
@@ -1781,7 +1783,7 @@
    "vigore_da": "2025-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "85b15bfe4d91"
+   "h": "8ad46e5a0b37"
   },
   "53": {
    "file": "tuir.md",
@@ -1789,7 +1791,7 @@
    "vigore_da": "2024-06-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "39452f8e87f7"
+   "h": "8c4be9c10db1"
   },
   "54": {
    "file": "tuir.md",
@@ -1797,7 +1799,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "6af7f87f613b"
+   "h": "624321e58d16"
   },
   "54-bis": {
    "file": "tuir.md",
@@ -1805,7 +1807,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "7c1db56587c3"
+   "h": "74b14a8e8b64"
   },
   "54-ter": {
    "file": "tuir.md",
@@ -1813,7 +1815,7 @@
    "vigore_da": "2025-06-18",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "3a47805814fb"
+   "h": "de11ffb5f9e3"
   },
   "54-quater": {
    "file": "tuir.md",
@@ -1821,7 +1823,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "99d4f42ac47a"
+   "h": "52133cb99370"
   },
   "54-quinquies": {
    "file": "tuir.md",
@@ -1829,7 +1831,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "8bff686d05b2"
+   "h": "b14532cc2366"
   },
   "54-sexies": {
    "file": "tuir.md",
@@ -1837,7 +1839,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "bb44f6350377"
+   "h": "eebd4ca204e9"
   },
   "54-septies": {
    "file": "tuir.md",
@@ -1845,7 +1847,7 @@
    "vigore_da": "2025-08-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "75c6dd1e28ff"
+   "h": "0085476aa8ca"
   },
   "54-octies": {
    "file": "tuir.md",
@@ -1853,7 +1855,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "05e7b020982b"
+   "h": "94f2d7010b4b"
   },
   "55": {
    "file": "tuir.md",
@@ -1861,7 +1863,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "5e83fc44647c"
+   "h": "3122bbd8beae"
   },
   "55-bis": {
    "file": "tuir.md",
@@ -1869,7 +1871,7 @@
    "vigore_da": "2019-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "b0ef823a5058"
+   "h": "81653a56df91"
   },
   "56": {
    "file": "tuir.md",
@@ -1877,7 +1879,7 @@
    "vigore_da": "2019-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "10cbb8b205cc"
+   "h": "5bd83278d492"
   },
   "56-bis": {
    "file": "tuir.md",
@@ -1885,7 +1887,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "875fa79cf563"
+   "h": "999a7ce578cf"
   },
   "57": {
    "file": "tuir.md",
@@ -1893,7 +1895,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "67a21a6137c7"
+   "h": "e54eca0908fa"
   },
   "58": {
    "file": "tuir.md",
@@ -1901,7 +1903,7 @@
    "vigore_da": "2026-03-28",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "4e1e1cc33906"
+   "h": "1ccb49a9fce1"
   },
   "59": {
    "file": "tuir.md",
@@ -1909,7 +1911,7 @@
    "vigore_da": "2026-03-28",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "819f507c9aa8"
+   "h": "5e0c21df251d"
   },
   "60": {
    "file": "tuir.md",
@@ -1917,7 +1919,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "b313bdbf7564"
+   "h": "ea2ef7e0f647"
   },
   "61": {
    "file": "tuir.md",
@@ -1925,7 +1927,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "22456ae6ccff"
+   "h": "a898707a37d2"
   },
   "62": {
    "file": "tuir.md",
@@ -1933,7 +1935,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "030c38799164"
+   "h": "40b823d5073c"
   },
   "63": {
    "file": "tuir.md",
@@ -1941,7 +1943,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "030c38799164"
+   "h": "40b823d5073c"
   },
   "64": {
    "file": "tuir.md",
@@ -1949,7 +1951,7 @@
    "vigore_da": "2005-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "631b2e7b211d"
+   "h": "53373760c1f5"
   },
   "65": {
    "file": "tuir.md",
@@ -1957,7 +1959,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ea02daea4972"
+   "h": "494aef33d6c0"
   },
   "66": {
    "file": "tuir.md",
@@ -1965,7 +1967,7 @@
    "vigore_da": "2017-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "d102003cbaa3"
+   "h": "fa4cc9a11f0c"
   },
   "67": {
    "file": "tuir.md",
@@ -1973,7 +1975,7 @@
    "vigore_da": "2025-08-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "782e039b0496"
+   "h": "fd06974cd741"
   },
   "68": {
    "file": "tuir.md",
@@ -1981,7 +1983,7 @@
    "vigore_da": "2025-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "1590ca1c2b79"
+   "h": "c7f76beb4750"
   },
   "69": {
    "file": "tuir.md",
@@ -1989,7 +1991,7 @@
    "vigore_da": "2018-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "8a49ef2f709b"
+   "h": "2e7a8609f978"
   },
   "70": {
    "file": "tuir.md",
@@ -1997,7 +1999,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "5ff1cd68eede"
+   "h": "b684af9fd0f9"
   },
   "71": {
    "file": "tuir.md",
@@ -2005,7 +2007,7 @@
    "vigore_da": "2004-05-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "322b65a17259"
+   "h": "1c2f508180f1"
   },
   "72": {
    "file": "tuir.md",
@@ -2013,7 +2015,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "5a2a8ca30872"
+   "h": "0fb7f6181baf"
   },
   "73": {
    "file": "tuir.md",
@@ -2021,7 +2023,7 @@
    "vigore_da": "2023-12-29",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "51d93009f33c"
+   "h": "409ae1a461be"
   },
   "74": {
    "file": "tuir.md",
@@ -2029,7 +2031,7 @@
    "vigore_da": "2020-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "18846fad32bc"
+   "h": "12305dc5c709"
   },
   "75": {
    "file": "tuir.md",
@@ -2037,7 +2039,7 @@
    "vigore_da": "2011-09-17",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "1fcdeb6b04e8"
+   "h": "99411bf435a2"
   },
   "76": {
    "file": "tuir.md",
@@ -2045,7 +2047,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9d7614b1830c"
+   "h": "b3cb85e5559c"
   },
   "77": {
    "file": "tuir.md",
@@ -2053,7 +2055,7 @@
    "vigore_da": "2020-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "24a12c497c7f"
+   "h": "2f2906000b3a"
   },
   "78": {
    "file": "tuir.md",
@@ -2061,7 +2063,7 @@
    "vigore_da": "2013-12-28",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "fa07ebe370ab"
+   "h": "317cbdd3c0f4"
   },
   "78-bis": {
    "file": "tuir.md",
@@ -2069,7 +2071,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "8f4994933ee3"
+   "h": "7c5c70102b61"
   },
   "79": {
    "file": "tuir.md",
@@ -2077,7 +2079,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "82efaa4c9a8f"
+   "h": "a39a63924f70"
   },
   "80": {
    "file": "tuir.md",
@@ -2085,7 +2087,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "226e78e1676d"
+   "h": "14ee28578f54"
   },
   "81": {
    "file": "tuir.md",
@@ -2093,7 +2095,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "36d1eb1b5ab3"
+   "h": "f11c7d778f32"
   },
   "82": {
    "file": "tuir.md",
@@ -2101,7 +2103,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0ee2a5f1dd03"
+   "h": "5f97980899d7"
   },
   "83": {
    "file": "tuir.md",
@@ -2109,7 +2111,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9818e4426ea9"
+   "h": "2cbd38cb5314"
   },
   "84": {
    "file": "tuir.md",
@@ -2117,7 +2119,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "394f91f8f9fe"
+   "h": "50f0a9d21b69"
   },
   "85": {
    "file": "tuir.md",
@@ -2125,7 +2127,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "7b6297a15884"
+   "h": "8b05d4aa5682"
   },
   "86": {
    "file": "tuir.md",
@@ -2133,7 +2135,7 @@
    "vigore_da": "2026-03-28",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "47519c61e509"
+   "h": "04b999b32ecb"
   },
   "87": {
    "file": "tuir.md",
@@ -2141,7 +2143,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "b8b1769925e6"
+   "h": "7b4217b89614"
   },
   "88": {
    "file": "tuir.md",
@@ -2149,7 +2151,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "edec63c5bd3d"
+   "h": "b2da5f44b305"
   },
   "89": {
    "file": "tuir.md",
@@ -2157,7 +2159,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0c27bffb9302"
+   "h": "ae7ad94197bc"
   },
   "90": {
    "file": "tuir.md",
@@ -2165,7 +2167,7 @@
    "vigore_da": "2012-04-29",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "70ccc2e96d71"
+   "h": "c561103fb94a"
   },
   "91": {
    "file": "tuir.md",
@@ -2173,7 +2175,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "4ffeac2b25e3"
+   "h": "5cac3a1e33a5"
   },
   "91-bis": {
    "file": "tuir.md",
@@ -2181,7 +2183,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "a864f05a713f"
+   "h": "641c0435a923"
   },
   "92": {
    "file": "tuir.md",
@@ -2189,7 +2191,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "579024932faa"
+   "h": "d368a08d86fe"
   },
   "92-bis": {
    "file": "tuir.md",
@@ -2197,7 +2199,7 @@
    "vigore_da": "2008-08-22",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ff215175eb16"
+   "h": "686779c55304"
   },
   "93": {
    "file": "tuir.md",
@@ -2205,7 +2207,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "04d045e5faf8"
+   "h": "5ee4b05470e4"
   },
   "94": {
    "file": "tuir.md",
@@ -2213,7 +2215,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "6866122fbd02"
+   "h": "5d12bc2713bd"
   },
   "95": {
    "file": "tuir.md",
@@ -2221,7 +2223,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "3ddac6b7a02c"
+   "h": "dc636125918e"
   },
   "96": {
    "file": "tuir.md",
@@ -2229,7 +2231,7 @@
    "vigore_da": "2019-10-27",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "51bdad11a7e1"
+   "h": "7f8e295179dd"
   },
   "96-bis": {
    "file": "tuir.md",
@@ -2245,7 +2247,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "030c38799164"
+   "h": "40b823d5073c"
   },
   "98": {
    "file": "tuir.md",
@@ -2253,7 +2255,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c80c5245511b"
+   "h": "5c122bd46026"
   },
   "99": {
    "file": "tuir.md",
@@ -2261,7 +2263,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "5f996caf6ddb"
+   "h": "35a1960745dc"
   },
   "100": {
    "file": "tuir.md",
@@ -2269,7 +2271,7 @@
    "vigore_da": "2017-12-06",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "71aa7775419f"
+   "h": "65ee95777bc5"
   },
   "101": {
    "file": "tuir.md",
@@ -2277,7 +2279,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "e70318e39931"
+   "h": "3b855a7654d8"
   },
   "102": {
    "file": "tuir.md",
@@ -2285,7 +2287,7 @@
    "vigore_da": "2014-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "da28048c5a34"
+   "h": "66137e448564"
   },
   "102-bis": {
    "file": "tuir.md",
@@ -2293,7 +2295,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "79771190be14"
+   "h": "ebd23a892279"
   },
   "103": {
    "file": "tuir.md",
@@ -2301,7 +2303,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9dc84a397804"
+   "h": "8a139fa8ec8c"
   },
   "103-bis": {
    "file": "tuir.md",
@@ -2309,7 +2311,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "026a098bc1cc"
+   "h": "70588d7e2d35"
   },
   "104": {
    "file": "tuir.md",
@@ -2317,7 +2319,7 @@
    "vigore_da": "2014-12-13",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "d3402732bed8"
+   "h": "7110949c6b53"
   },
   "105": {
    "file": "tuir.md",
@@ -2325,7 +2327,7 @@
    "vigore_da": "2007-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "a2d82332cb78"
+   "h": "65494b27239a"
   },
   "105-bis": {
    "file": "tuir.md",
@@ -2341,7 +2343,7 @@
    "vigore_da": "2019-01-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "b5bfd4a20473"
+   "h": "ef049de4218a"
   },
   "106-bis": {
    "file": "tuir.md",
@@ -2357,7 +2359,7 @@
    "vigore_da": "2011-07-17",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "66f04e8a0688"
+   "h": "7bf97410cc4c"
   },
   "108": {
    "file": "tuir.md",
@@ -2365,7 +2367,7 @@
    "vigore_da": "2026-09-26",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "1ce08b598a46"
+   "h": "5d0ee8943572"
   },
   "109": {
    "file": "tuir.md",
@@ -2373,7 +2375,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "44a265428936"
+   "h": "5bb6fbae95b2"
   },
   "109-bis": {
    "file": "tuir.md",
@@ -2381,7 +2383,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "80a8d1f6a5e3"
+   "h": "fd283c0f4c13"
   },
   "110": {
    "file": "tuir.md",
@@ -2389,7 +2391,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "435a8cdca247"
+   "h": "34dea16c2985"
   },
   "110-bis": {
    "file": "tuir.md",
@@ -2397,7 +2399,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c68ff13ec7e5"
+   "h": "67fa82fe6aa7"
   },
   "111": {
    "file": "tuir.md",
@@ -2405,7 +2407,7 @@
    "vigore_da": "2014-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9da9701c5a00"
+   "h": "cfe38acb45b3"
   },
   "111-bis": {
    "file": "tuir.md",
@@ -2413,7 +2415,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "7faaae17a930"
+   "h": "d8445db2e6d0"
   },
   "111-ter": {
    "file": "tuir.md",
@@ -2421,7 +2423,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "eb7914d8668d"
+   "h": "08d9d04898fb"
   },
   "112": {
    "file": "tuir.md",
@@ -2429,7 +2431,7 @@
    "vigore_da": "2026-07-04",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "1350401934a9"
+   "h": "e64ca79f96fb"
   },
   "113": {
    "file": "tuir.md",
@@ -2437,7 +2439,7 @@
    "vigore_da": "2025-12-20",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "e6bae581a207"
+   "h": "7ee475cd5326"
   },
   "114": {
    "file": "tuir.md",
@@ -2445,7 +2447,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ccb995ca7302"
+   "h": "c91d3c5ca687"
   },
   "115": {
    "file": "tuir.md",
@@ -2453,7 +2455,7 @@
    "vigore_da": "2016-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "811eca3e5715"
+   "h": "381edbbcaa70"
   },
   "116": {
    "file": "tuir.md",
@@ -2461,7 +2463,7 @@
    "vigore_da": "2019-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "d47fad9b711c"
+   "h": "1b5e94165528"
   },
   "117": {
    "file": "tuir.md",
@@ -2469,7 +2471,7 @@
    "vigore_da": "2016-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "cdd620d20492"
+   "h": "d3b1110dfd29"
   },
   "118": {
    "file": "tuir.md",
@@ -2477,7 +2479,7 @@
    "vigore_da": "2016-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "00fb7864825a"
+   "h": "17b3a286958e"
   },
   "119": {
    "file": "tuir.md",
@@ -2485,7 +2487,7 @@
    "vigore_da": "2014-12-13",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0624cd13dde4"
+   "h": "ffaaabc22725"
   },
   "120": {
    "file": "tuir.md",
@@ -2493,7 +2495,7 @@
    "vigore_da": "2015-10-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "eb6ccce0d84d"
+   "h": "4ec7c77e60c2"
   },
   "121": {
    "file": "tuir.md",
@@ -2501,7 +2503,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "f429a1dc0b60"
+   "h": "7d1ccbc0c138"
   },
   "121-bis": {
    "file": "tuir.md",
@@ -2509,7 +2511,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "3d0229a404d2"
+   "h": "59deeb40b342"
   },
   "122": {
    "file": "tuir.md",
@@ -2517,7 +2519,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "7c14565a4461"
+   "h": "4ea6a8538c06"
   },
   "123": {
    "file": "tuir.md",
@@ -2525,7 +2527,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "cdcd1901ce13"
+   "h": "eceb44e86d0b"
   },
   "123-bis": {
    "file": "tuir.md",
@@ -2533,7 +2535,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "b9b7df8d2f5e"
+   "h": "e623de225e39"
   },
   "124": {
    "file": "tuir.md",
@@ -2541,7 +2543,7 @@
    "vigore_da": "2025-12-20",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "56afdbe46248"
+   "h": "dffd65457b24"
   },
   "125": {
    "file": "tuir.md",
@@ -2549,7 +2551,7 @@
    "vigore_da": "2016-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "15dd46b86d39"
+   "h": "0a2db0f9a32c"
   },
   "126": {
    "file": "tuir.md",
@@ -2557,7 +2559,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "83f372adb44e"
+   "h": "67bcd8102c6a"
   },
   "127": {
    "file": "tuir.md",
@@ -2565,7 +2567,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "1f31005807dd"
+   "h": "a248ea524956"
   },
   "127-bis": {
    "file": "tuir.md",
@@ -2573,14 +2575,14 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "89732a5a13dc"
+   "h": "262ee50fb008"
   },
   "128": {
    "file": "tuir.md",
-   "rubrica": "Norma transitoria 1. Fino a concorrenza delle svalutazioni determinatesi per effetto di rettifiche di valore ed accantonamenti fiscalmente non riconosciuti, al netto delle rivalutazioni assoggettate a tassazione, dedotte nel periodo d'imposta antecedente a quello dal quale ha effetto l'opzione di cui all'articolo 117 e nei nove precedenti dalla societa' o ente controllante o da altra societa' controllata, anche se non esercente l'opzione di cui all'articolo 117, i valori fiscali degli elementi dell'attivo e del passivo della societa' partecipata se, rispettivamente, superiori o inferiori a quelli contabili sono ridotti o aumentati dell'importo delle predette svalutazioni in proporzione ai rapporti tra la differenza dei valori contabili e fiscali dell'attivo e del passivo e l'ammontare complessivo di tali differenze",
+   "rubrica": "Norma transitoria",
    "vigore_da": "",
    "datazione": "ignota",
-   "h": "61b2f447dcdc"
+   "h": "78b3d1923e3d"
   },
   "129": {
    "file": "tuir.md",
@@ -2588,7 +2590,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "356ee65ad3d2"
+   "h": "46b1dc40957f"
   },
   "130": {
    "file": "tuir.md",
@@ -2596,7 +2598,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "d0ebc6ebeef4"
+   "h": "52379a90d9b6"
   },
   "131": {
    "file": "tuir.md",
@@ -2604,7 +2606,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "1b51ed4e0446"
+   "h": "8bab4e1824d4"
   },
   "132": {
    "file": "tuir.md",
@@ -2612,7 +2614,7 @@
    "vigore_da": "2025-12-20",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "2a95dc9b931d"
+   "h": "ab02e0a7f1f3"
   },
   "133": {
    "file": "tuir.md",
@@ -2620,7 +2622,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "17beebb9eeb3"
+   "h": "9cd00bacae68"
   },
   "134": {
    "file": "tuir.md",
@@ -2628,7 +2630,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "e680cddda983"
+   "h": "84533b918054"
   },
   "135": {
    "file": "tuir.md",
@@ -2636,7 +2638,7 @@
    "vigore_da": "2008-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "cdcd1901ce13"
+   "h": "eceb44e86d0b"
   },
   "136": {
    "file": "tuir.md",
@@ -2644,7 +2646,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "55027d62d55b"
+   "h": "4becb14663b5"
   },
   "137": {
    "file": "tuir.md",
@@ -2652,7 +2654,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c5fbdb37ce5c"
+   "h": "1a8d80d49eb2"
   },
   "138": {
    "file": "tuir.md",
@@ -2668,7 +2670,7 @@
    "vigore_da": "2016-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9374b0c051b3"
+   "h": "6d3e044fb340"
   },
   "139-bis": {
    "file": "tuir.md",
@@ -2676,7 +2678,7 @@
    "vigore_da": "2016-12-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "4f3f707737e6"
+   "h": "7f4f5ed76a03"
   },
   "140": {
    "file": "tuir.md",
@@ -2684,7 +2686,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "48f305e351bd"
+   "h": "25e9039d975c"
   },
   "141": {
    "file": "tuir.md",
@@ -2692,7 +2694,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c5770a30c56f"
+   "h": "fb1a29342e4d"
   },
   "142": {
    "file": "tuir.md",
@@ -2708,7 +2710,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "88747dc4a782"
+   "h": "9cc47564a3a0"
   },
   "144": {
    "file": "tuir.md",
@@ -2716,7 +2718,7 @@
    "vigore_da": "2012-04-29",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "378bebd286dc"
+   "h": "6dcb2817db33"
   },
   "145": {
    "file": "tuir.md",
@@ -2724,7 +2726,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "b8eebdd43126"
+   "h": "9f9346ed67a4"
   },
   "146": {
    "file": "tuir.md",
@@ -2732,7 +2734,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "24cefbd8d55f"
+   "h": "525da9abe04b"
   },
   "147": {
    "file": "tuir.md",
@@ -2740,7 +2742,7 @@
    "vigore_da": "2007-04-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "a10006deec1a"
+   "h": "71864c4ecded"
   },
   "148": {
    "file": "tuir.md",
@@ -2748,7 +2750,7 @@
    "vigore_da": "2025-06-18",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0488d62cd028"
+   "h": "5051933e320a"
   },
   "149": {
    "file": "tuir.md",
@@ -2764,7 +2766,7 @@
    "vigore_da": "2017-08-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "8876d39926fd"
+   "h": "b1835886ee53"
   },
   "151": {
    "file": "tuir.md",
@@ -2772,7 +2774,7 @@
    "vigore_da": "2015-10-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0a44830eb0a0"
+   "h": "654f1c61d8da"
   },
   "152": {
    "file": "tuir.md",
@@ -2780,7 +2782,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "d1b97ba2b384"
+   "h": "a42c1fb3dac2"
   },
   "153": {
    "file": "tuir.md",
@@ -2788,7 +2790,7 @@
    "vigore_da": "2015-10-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "4e694f85234d"
+   "h": "2b7c5eef7c01"
   },
   "154": {
    "file": "tuir.md",
@@ -2796,7 +2798,7 @@
    "vigore_da": "2015-10-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ff6298199d3e"
+   "h": "2afdd755fd9b"
   },
   "155": {
    "file": "tuir.md",
@@ -2804,7 +2806,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "04438a678368"
+   "h": "6c73a797e350"
   },
   "156": {
    "file": "tuir.md",
@@ -2812,7 +2814,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "09fc10ae913f"
+   "h": "daa6c400fed9"
   },
   "157": {
    "file": "tuir.md",
@@ -2820,7 +2822,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "f02b0314cfaf"
+   "h": "d9c495e8786b"
   },
   "157-bis": {
    "file": "tuir.md",
@@ -2828,7 +2830,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "66eb65812a30"
+   "h": "5dabf4fa82ff"
   },
   "158": {
    "file": "tuir.md",
@@ -2836,7 +2838,7 @@
    "vigore_da": "2016-07-23",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "b332a5cdb132"
+   "h": "0cd8b71f84a1"
   },
   "159": {
    "file": "tuir.md",
@@ -2844,7 +2846,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "72ef69b0f3b8"
+   "h": "8dc780df5bc3"
   },
   "160": {
    "file": "tuir.md",
@@ -2852,7 +2854,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "bd83e8c8744f"
+   "h": "7cdfe70b2e98"
   },
   "161": {
    "file": "tuir.md",
@@ -2860,7 +2862,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "979a9940019b"
+   "h": "6f86f8b5b8dc"
   },
   "162": {
    "file": "tuir.md",
@@ -2868,7 +2870,7 @@
    "vigore_da": "2023-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ee2cd2b67d73"
+   "h": "338f91306eeb"
   },
   "162-bis": {
    "file": "tuir.md",
@@ -2876,7 +2878,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "a95081547137"
+   "h": "934decbc2a8d"
   },
   "163": {
    "file": "tuir.md",
@@ -2884,7 +2886,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "f43386380c54"
+   "h": "c90b4547d7b4"
   },
   "164": {
    "file": "tuir.md",
@@ -2892,7 +2894,7 @@
    "vigore_da": "2018-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "a54a1fe645f4"
+   "h": "0e3b28b9e261"
   },
   "165": {
    "file": "tuir.md",
@@ -2900,7 +2902,7 @@
    "vigore_da": "2015-10-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "f1610aa81f0f"
+   "h": "801f812cc39b"
   },
   "166": {
    "file": "tuir.md",
@@ -2908,7 +2910,7 @@
    "vigore_da": "2019-01-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "74a828f68d34"
+   "h": "ce7b670be8b4"
   },
   "166-bis": {
    "file": "tuir.md",
@@ -2916,7 +2918,7 @@
    "vigore_da": "2019-01-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "475134bc59fc"
+   "h": "a9153a97b663"
   },
   "167": {
    "file": "tuir.md",
@@ -2924,7 +2926,7 @@
    "vigore_da": "2025-08-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "2ecc2752e5d4"
+   "h": "18346f311d5c"
   },
   "168": {
    "file": "tuir.md",
@@ -2932,7 +2934,7 @@
    "vigore_da": "2015-10-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "5ca4d2394a0c"
+   "h": "74825a86dc40"
   },
   "168-bis": {
    "file": "tuir.md",
@@ -2940,7 +2942,7 @@
    "vigore_da": "2015-10-07",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "dca4b293df25"
+   "h": "f1f114f668ea"
   },
   "168-ter": {
    "file": "tuir.md",
@@ -2948,7 +2950,7 @@
    "vigore_da": "2019-01-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "f618aa75fa8a"
+   "h": "88c2cc905f64"
   },
   "169": {
    "file": "tuir.md",
@@ -2956,7 +2958,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "332481dcdc00"
+   "h": "024a95b1a342"
   },
   "170": {
    "file": "tuir.md",
@@ -2964,7 +2966,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0060f42e3916"
+   "h": "51310e8850be"
   },
   "171": {
    "file": "tuir.md",
@@ -2972,7 +2974,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "71df15730491"
+   "h": "ab0ed69ec0fb"
   },
   "172": {
    "file": "tuir.md",
@@ -2980,7 +2982,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "897f774b85c7"
+   "h": "64ad605ee6bc"
   },
   "173": {
    "file": "tuir.md",
@@ -2988,7 +2990,7 @@
    "vigore_da": "2025-12-20",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c961c9dbd20c"
+   "h": "9bd0d92b512b"
   },
   "174": {
    "file": "tuir.md",
@@ -2996,7 +2998,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "71311af23dff"
+   "h": "645c9b59f0f4"
   },
   "175": {
    "file": "tuir.md",
@@ -3004,7 +3006,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "4da676335a02"
+   "h": "1ae7362fbfb5"
   },
   "176": {
    "file": "tuir.md",
@@ -3012,7 +3014,7 @@
    "vigore_da": "2025-06-18",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "4d3c98786164"
+   "h": "508a2b34e725"
   },
   "177": {
    "file": "tuir.md",
@@ -3020,7 +3022,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "45ca2588b51f"
+   "h": "1e5bf4ea517e"
   },
   "177-bis": {
    "file": "tuir.md",
@@ -3028,7 +3030,7 @@
    "vigore_da": "2025-06-18",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "23a96579d78d"
+   "h": "0a0ab7c24cd2"
   },
   "177-ter": {
    "file": "tuir.md",
@@ -3036,7 +3038,7 @@
    "vigore_da": "2025-06-18",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "24cc4dedb705"
+   "h": "9dc1ecdfc808"
   },
   "178": {
    "file": "tuir.md",
@@ -3044,7 +3046,7 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9358069bd8ee"
+   "h": "f43b059bc617"
   },
   "179": {
    "file": "tuir.md",
@@ -3052,15 +3054,14 @@
    "vigore_da": "2019-01-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "5374295689e4"
+   "h": "7f644e353ad3"
   },
   "180": {
    "file": "tuir.md",
    "rubrica": "Riserve in sospensione d'imposta",
-   "vigore_da": "2004-01-01",
-   "datazione": "api",
-   "vigore_a": "2026-12-31",
-   "h": "9c5b024b4340"
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "4fc4e3961515"
   },
   "181": {
    "file": "tuir.md",
@@ -3068,7 +3069,7 @@
    "vigore_da": "2026-08-12",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "22957df7b067"
+   "h": "e83e083524a9"
   },
   "182": {
    "file": "tuir.md",
@@ -3076,23 +3077,21 @@
    "vigore_da": "2024-12-31",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "31c519bca12c"
+   "h": "d66c9fa586af"
   },
   "183": {
    "file": "tuir.md",
    "rubrica": "Fallimento e liquidazione coatta",
-   "vigore_da": "2005-12-02",
-   "datazione": "api",
-   "vigore_a": "2026-12-31",
-   "h": "e21e326bae04"
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "ff201f7c6ff2"
   },
   "184": {
    "file": "tuir.md",
    "rubrica": "Applicazione analogica",
-   "vigore_da": "2004-01-01",
-   "datazione": "api",
-   "vigore_a": "2026-12-31",
-   "h": "86d5809aa6d7"
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "e974f6226c98"
   },
   "185": {
    "file": "tuir.md",
@@ -3100,7 +3099,7 @@
    "vigore_da": "2005-12-02",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "ee1f7c1046cb"
+   "h": "25d26d3d608a"
   },
   "186": {
    "file": "tuir.md",
@@ -3108,7 +3107,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "a669d5690627"
+   "h": "04e8fa69e8fa"
   },
   "187": {
    "file": "tuir.md",
@@ -3116,7 +3115,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "93dad8812a6b"
+   "h": "8f7efb8722cb"
   },
   "188": {
    "file": "tuir.md",
@@ -3129,10 +3128,9 @@
   "188-bis": {
    "file": "tuir.md",
    "rubrica": "Campione d'Italia",
-   "vigore_da": "2020-01-01",
-   "datazione": "api",
-   "vigore_a": "2026-12-31",
-   "h": "d898da000c63"
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "0c0fac04c9e0"
   },
   "189": {
    "file": "tuir.md",
@@ -3140,7 +3138,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "12d0eb00f026"
+   "h": "405ed0516b9e"
   },
   "190": {
    "file": "tuir.md",
@@ -3148,7 +3146,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "adad2fe52131"
+   "h": "e2bd26dacb62"
   },
   "191": {
    "file": "tuir.md",
@@ -3156,7 +3154,7 @@
    "vigore_da": "2004-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "bd3598e7bbd9"
+   "h": "8ace9361a6f7"
   }
  }
 }
