@@ -1,0 +1,915 @@
+{
+ "_meta": {
+  "codice": "dlgs-231-2007",
+  "nome": "Antiriciclaggio (D.Lgs. 231/2007)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2026-08-07",
+  "articoli": 88,
+  "file": [
+   "dlgs-231-2007.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2007-11-21;231",
+  "versioni": [
+   {
+    "data": "2007-12-14",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2008-06-25",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 25 giugno 2008, n. 112"
+   },
+   {
+    "data": "2009-07-24",
+    "evento": "rp2",
+    "atto_modificante": "L. 15 luglio 2009, n. 94"
+   },
+   {
+    "data": "2009-11-03",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 25 settembre 2009, n. 151"
+   },
+   {
+    "data": "2010-02-13",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 27 gennaio 2010, n. 11"
+   },
+   {
+    "data": "2010-03-05",
+    "evento": "rp5",
+    "atto_modificante": "D.Lgs. 4 marzo 2010, n. 28"
+   },
+   {
+    "data": "2010-03-26",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 25 marzo 2010, n. 40"
+   },
+   {
+    "data": "2010-05-31",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 31 maggio 2010, n. 78"
+   },
+   {
+    "data": "2010-09-04",
+    "evento": "rp8",
+    "atto_modificante": "D.Lgs. 13 agosto 2010, n. 141"
+   },
+   {
+    "data": "2010-12-18",
+    "evento": "rp9",
+    "atto_modificante": "D.Lgs. 14 dicembre 2010, n. 218"
+   },
+   {
+    "data": "2011-08-13",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 13 agosto 2011, n. 138"
+   },
+   {
+    "data": "2011-12-06",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 6 dicembre 2011, n. 201"
+   },
+   {
+    "data": "2012-03-02",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 2 marzo 2012, n. 16"
+   },
+   {
+    "data": "2012-04-28",
+    "evento": "rp13",
+    "atto_modificante": "D.Lgs. 16 aprile 2012, n. 45"
+   },
+   {
+    "data": "2012-08-08",
+    "evento": "rp14",
+    "atto_modificante": "D.Lgs. 30 luglio 2012, n. 130"
+   },
+   {
+    "data": "2012-10-02",
+    "evento": "rp15",
+    "atto_modificante": "D.Lgs. 19 settembre 2012, n. 169"
+   },
+   {
+    "data": "2012-10-27",
+    "evento": "rp16",
+    "atto_modificante": "atto modificante non indicato (rp16)"
+   },
+   {
+    "data": "2013-12-27",
+    "evento": "rp17",
+    "atto_modificante": "L. 27 dicembre 2013, n. 147"
+   },
+   {
+    "data": "2014-09-12",
+    "evento": "rp18",
+    "atto_modificante": "D.L. 12 settembre 2014, n. 132"
+   },
+   {
+    "data": "2015-02-19",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 18 febbraio 2015, n. 7"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp20",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208"
+   },
+   {
+    "data": "2016-09-13",
+    "evento": "rp21",
+    "atto_modificante": "D.Lgs. 26 agosto 2016, n. 179"
+   },
+   {
+    "data": "2016-11-09",
+    "evento": "rp22",
+    "atto_modificante": "D.Lgs. 29 ottobre 2016, n. 202"
+   },
+   {
+    "data": "2017-06-19",
+    "evento": "rp23",
+    "atto_modificante": "D.Lgs. 25 maggio 2017, n. 90"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp24",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-03-22",
+    "evento": "rp25",
+    "atto_modificante": "D.Lgs. 1 marzo 2018, n. 21"
+   },
+   {
+    "data": "2018-10-23",
+    "evento": "rp26",
+    "atto_modificante": "D.L. 23 ottobre 2018, n. 119"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp27",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2019-10-26",
+    "evento": "rp28+rp29",
+    "atto_modificante": "D.Lgs. 4 ottobre 2019, n. 125; D.L. 26 ottobre 2019, n. 124"
+   },
+   {
+    "data": "2020-07-16",
+    "evento": "rp30",
+    "atto_modificante": "D.L. 16 luglio 2020, n. 76"
+   },
+   {
+    "data": "2021-10-21",
+    "evento": "rp31",
+    "atto_modificante": "D.L. 21 ottobre 2021, n. 146"
+   },
+   {
+    "data": "2021-12-20",
+    "evento": "rp32",
+    "atto_modificante": "L. 17 dicembre 2021, n. 215"
+   },
+   {
+    "data": "2021-12-30",
+    "evento": "rp33",
+    "atto_modificante": "D.L. 30 dicembre 2021, n. 228"
+   },
+   {
+    "data": "2022-01-27",
+    "evento": "rp34",
+    "atto_modificante": "D.L. 27 gennaio 2022, n. 4"
+   },
+   {
+    "data": "2022-02-28",
+    "evento": "rp35",
+    "atto_modificante": "L. 25 febbraio 2022, n. 15"
+   },
+   {
+    "data": "2022-03-28",
+    "evento": "rp36",
+    "atto_modificante": "L. 28 marzo 2022, n. 25"
+   },
+   {
+    "data": "2022-05-17",
+    "evento": "rp37",
+    "atto_modificante": "D.L. 17 maggio 2022, n. 50"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp38",
+    "atto_modificante": "L. 29 dicembre 2022, n. 197"
+   },
+   {
+    "data": "2023-03-17",
+    "evento": "rp39",
+    "atto_modificante": "D.L. 17 marzo 2023, n. 25"
+   },
+   {
+    "data": "2023-05-15",
+    "evento": "rp40",
+    "atto_modificante": "L. 10 maggio 2023, n. 52"
+   },
+   {
+    "data": "2023-08-10",
+    "evento": "rp41",
+    "atto_modificante": "D.L. 10 agosto 2023, n. 104"
+   },
+   {
+    "data": "2023-10-09",
+    "evento": "rp42",
+    "atto_modificante": "L. 9 ottobre 2023, n. 136"
+   },
+   {
+    "data": "2023-10-18",
+    "evento": "rp43",
+    "atto_modificante": "D.L. 18 ottobre 2023, n. 145"
+   },
+   {
+    "data": "2023-12-16",
+    "evento": "rp44",
+    "atto_modificante": "L. 15 dicembre 2023, n. 191"
+   },
+   {
+    "data": "2023-12-30",
+    "evento": "rp45",
+    "atto_modificante": "L. 30 dicembre 2023, n. 213"
+   },
+   {
+    "data": "2024-12-28",
+    "evento": "rp46",
+    "atto_modificante": "D.Lgs. 27 dicembre 2024, n. 204"
+   },
+   {
+    "data": "2025-03-20",
+    "evento": "rp47",
+    "atto_modificante": "L. 11 marzo 2025, n. 28"
+   },
+   {
+    "data": "2025-06-30",
+    "evento": "rp48",
+    "atto_modificante": "D.L. 30 giugno 2025, n. 95"
+   },
+   {
+    "data": "2025-08-09",
+    "evento": "rp49",
+    "atto_modificante": "L. 8 agosto 2025, n. 118"
+   },
+   {
+    "data": "2025-12-03",
+    "evento": "rp50",
+    "atto_modificante": "L. 2 dicembre 2025, n. 182"
+   },
+   {
+    "data": "2026-01-08",
+    "evento": "rp51",
+    "atto_modificante": "D.Lgs. 31 dicembre 2025, n. 210"
+   },
+   {
+    "data": "2026-04-14",
+    "evento": "rp52",
+    "atto_modificante": "D.Lgs. 27 marzo 2026, n. 47"
+   },
+   {
+    "data": "2026-07-08",
+    "evento": "rp53",
+    "atto_modificante": "D.Lgs. 10 giugno 2026, n. 122"
+   },
+   {
+    "data": "2026-07-23",
+    "evento": "rp54",
+    "atto_modificante": "D.Lgs. 25 giugno 2026, n. 128"
+   }
+  ],
+  "ultima_versione": "2026-07-23",
+  "datazione": {
+   "monoblocco": 88,
+   "api": 88,
+   "ignota": 0,
+   "stima_anteriore": 35,
+   "chiamate": 88,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2025-08-10",
+   "datazione": "api",
+   "h": "4c0402523ccd"
+  },
+  "2": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Finalita' e principi",
+   "vigore_da": "2025-07-01",
+   "datazione": "api",
+   "h": "3c21553a24c3"
+  },
+  "3": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Soggetti obbligati",
+   "vigore_da": "2026-04-29",
+   "datazione": "api",
+   "h": "f10a04686c22"
+  },
+  "4": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Ministro dell'economia e delle finanze",
+   "vigore_da": "2025-07-01",
+   "datazione": "api",
+   "h": "967da82ba750"
+  },
+  "5": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Ministero dell'economia e delle finanze e Comitato di sicurezza finanziaria",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "062a92fd9431"
+  },
+  "6": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Unita' d'informazione finanziaria",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "d547bd0480a5"
+  },
+  "7": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Autorita' di vigilanza di settore",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "51e0d0b048fd"
+  },
+  "8": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Direzione nazionale antimafia e antiterrorismo",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "cad35ef61514"
+  },
+  "9": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Nucleo speciale di polizia valutaria della Guardia di finanza e Direzione investigativa antimafia",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "74459cca845b"
+  },
+  "10": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Pubbliche amministrazioni",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "bf3b7abfc254"
+  },
+  "11": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Organismi di autoregolamentazione",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "d6955e49dd58"
+  },
+  "12": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Collaborazione e scambio di informazioni tra autorita' nazionali",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "0f8fa6e1df33"
+  },
+  "13": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Cooperazione internazionale",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "600937d0f194"
+  },
+  "13-bis": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Cooperazione tra Unita' di informazione finanziaria per l'Italia e altre FIU",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "a8c68a884233"
+  },
+  "13-ter": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Cooperazione tra le autorita' di vigilanza di settore degli Stati membri",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "be9e06d256b5"
+  },
+  "14": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Analisi nazionale del rischio",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "02d7c92bd723"
+  },
+  "15": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Valutazione del rischio da parte dei soggetti obbligati",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "443bc31e040d"
+  },
+  "16": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Procedure di mitigazione del rischio",
+   "vigore_da": "2023-10-10",
+   "datazione": "api",
+   "h": "d8d11584ee9b"
+  },
+  "16-bis": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Individuazione e valutazione dei rischi associati ai trasferimenti di cripto-attivita' diretti a o provenienti da un indirizzo auto-ospitato",
+   "vigore_da": "2024-12-30",
+   "datazione": "api",
+   "h": "066960248675"
+  },
+  "16-ter": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Analisi dei rischi della proliferazione delle armi di distruzione di massa",
+   "vigore_da": "2025-08-10",
+   "datazione": "api",
+   "h": "033801e371a8"
+  },
+  "17": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Disposizioni generali",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "16dbbdb7b4f4"
+  },
+  "18": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Contenuto degli obblighi di adeguata verifica",
+   "vigore_da": "2020-07-17",
+   "datazione": "api",
+   "h": "5440d7bce2d6"
+  },
+  "19": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Modalita' di adempimento degli obblighi di adeguata verifica",
+   "vigore_da": "2022-03-01",
+   "datazione": "api",
+   "h": "ff9b0258dcdf"
+  },
+  "20": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Criteri per la determinazione della titolarita' effettiva di clienti diversi dalle persone fisiche",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "aa6bd54bc4ee"
+  },
+  "21": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Comunicazione e accesso alle informazioni sulla titolarita' effettiva di persone giuridiche e trust",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "ffc7493c889e"
+  },
+  "21-bis": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Accesso da parte delle autorita'",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "22465dee2e93"
+  },
+  "21-ter": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Accesso da parte dei soggetti obbligati",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "3f2d0adb2b98"
+  },
+  "21-quater": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Accesso da parte dei soggetti aventi un legittimo interesse",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "79b7478fe1d1"
+  },
+  "21-quinquies": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Procedura per la verifica e il riconoscimento di un legittimo interesse all'accesso",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "b401c2a238da"
+  },
+  "21-sexies": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Casi di esclusione dell'accesso",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "46ad382332d4"
+  },
+  "21-septies": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Diritti di segreteria e rilascio di copie e certificati",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "ceab399db4ba"
+  },
+  "22": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Obblighi del cliente",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "738c5c6c1295"
+  },
+  "23": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Misure semplificate di adeguata verifica della clientela",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "4e487eaf0f0f"
+  },
+  "24": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Obblighi di adeguata verifica rafforzata della clientela",
+   "vigore_da": "2024-12-30",
+   "datazione": "api",
+   "h": "26f98fcc7fd5"
+  },
+  "25": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Modalita' di esecuzione degli obblighi di adeguata verifica rafforzata della clientela",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "1c6a00a3ec85"
+  },
+  "25-bis": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Modalita' di esecuzione degli obblighi di adeguata verifica rafforzata della clientela per i rapporti di corrispondenza transfrontalieri che comportano l'esecuzione di servizi per le cripto-attivita'",
+   "vigore_da": "2024-12-30",
+   "datazione": "api",
+   "h": "ab64c8bb0f32"
+  },
+  "26": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Esecuzione degli obblighi di adeguata verifica da parte di terzi",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "5aa0f668e694"
+  },
+  "27": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Modalita' di esecuzione degli obblighi di adeguata verifica della clientela da parte di terzi",
+   "vigore_da": "2025-07-01",
+   "datazione": "api",
+   "h": "dba2af605d70"
+  },
+  "28": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Responsabilita' dei soggetti obbligati",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "42891252d622"
+  },
+  "29": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Esecuzione da parte di terzi aventi sede in Paesi ad alto rischio",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "8b029de12375"
+  },
+  "30": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Esclusioni",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "efb596765f7c"
+  },
+  "31": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Obblighi di conservazione",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "dfe8fe0d6e38"
+  },
+  "32": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Modalita' di conservazione dei dati e delle informazioni",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "18dcd18ec6e0"
+  },
+  "33": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Obbligo di invio dei dati aggregati alla UIF",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "be60dff2fd4c"
+  },
+  "34": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Disposizioni specifiche",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "c865337f2e18"
+  },
+  "34-bis": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Organismo di gestione accentrata dei dati antiriciclaggio presso il Consiglio nazionale del notariato",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "954667efb823"
+  },
+  "35": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Obbligo di segnalazione delle operazioni sospette",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "d7c8b15233e1"
+  },
+  "36": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Modalita' di segnalazione da parte degli intermediari bancari e finanziari, degli altri operatori finanziari, delle societa' di gestione degli strumenti finanziari e dei soggetti convenzionati e agenti",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "6ab4c970f239"
+  },
+  "37": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Modalita' di segnalazione da parte dei professionisti",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "efc58ac85e0d"
+  },
+  "38": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Tutela del segnalante",
+   "vigore_da": "2022-03-01",
+   "datazione": "api",
+   "h": "023d6a1d8f14"
+  },
+  "39": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Divieto di comunicazioni inerenti le segnalazioni di operazioni sospette",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "413cc859fe87"
+  },
+  "40": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Analisi e sviluppo delle segnalazioni",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "1d80311f01c9"
+  },
+  "41": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Flusso di ritorno delle informazioni",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "307349c41ceb"
+  },
+  "42": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Astensione",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "da4eb1e50f29"
+  },
+  "43": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Misure di controllo di soggetti convenzionati e agenti",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "830d804d9b60"
+  },
+  "44": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Adempimenti a carico dei soggetti convenzionati e degli agenti",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "5c20b4239572"
+  },
+  "45": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Registro dei soggetti convenzionati ed agenti di prestatori di servizi di pagamento e istituti emittenti moneta elettronica",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "9bd6b8ab32b5"
+  },
+  "45-bis": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Obbligo di istituzione del punto di contatto centrale dei prestatori di servizi per le cripto-attivita'",
+   "vigore_da": "2025-08-10",
+   "datazione": "api",
+   "h": "9264f37a7c54"
+  },
+  "46": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Obblighi di comunicazione degli organi di controllo dei soggetti obbligati",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "281f4d1eb6dd"
+  },
+  "47": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Comunicazioni oggettive",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "204b4fd76141"
+  },
+  "48": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Sistemi interni di segnalazione delle violazioni",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "383451c308de"
+  },
+  "49": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Limitazioni all'uso del contante e dei titoli al portatore",
+   "vigore_da": "2023-01-01",
+   "datazione": "api",
+   "h": "b1d907ef1e13"
+  },
+  "50": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Divieto di conti o libretti di risparmio in forma anonima o con intestazione fittizia e di prodotti di moneta elettronica anonimi",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "df485a49b1c0"
+  },
+  "51": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Obbligo di comunicazione al Ministero dell'economia e delle finanze delle infrazioni di cui al presente Titolo",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "c9d7330f126c"
+  },
+  "52": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Misure per la mitigazione del rischio",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "fb060d40a3f4"
+  },
+  "52-bis": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Registro dei distributori ed esercenti",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "02a3f028ca34"
+  },
+  "53": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Disposizioni integrative in materia di adeguata verifica e conservazione",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "71e67651d0d4"
+  },
+  "54": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Autorita' e cooperazione nel comparto del gioco",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "a6315deebc07"
+  },
+  "55": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Fattispecie incriminatrici",
+   "vigore_da": "2018-04-06",
+   "datazione": "api",
+   "h": "d7cfef3f68a3"
+  },
+  "56": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Inosservanza degli obblighi di adeguata verifica e dell'obbligo di astensione",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "ef4d7c71ce92"
+  },
+  "57": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Inosservanza degli obblighi di conservazione",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "3e2fd8847d99"
+  },
+  "58": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Inosservanza delle disposizioni relative all'obbligo di segnalazione delle operazioni sospette",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "32194b54b934"
+  },
+  "59": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Inosservanza degli obblighi di comunicazione da parte dei componenti degli organi di controllo dei soggetti obbligati",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "f67f20d03abe"
+  },
+  "60": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Inosservanza degli obblighi informativi nei riguardi dell'Unita' di informazione finanziaria e degli ispettori del Ministero dell'economia e delle finanze",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "38541bb4c02d"
+  },
+  "61": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Sanzioni per inosservanza delle disposizioni specifiche in materia di soggetti convenzionati e agenti di prestatori di servizi di pagamento e istituti emittenti moneta elettronica",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "645a34e4ab34"
+  },
+  "62": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Disposizioni sanzionatorie specifiche per soggetti obbligati vigilati",
+   "vigore_da": "2025-07-01",
+   "datazione": "api",
+   "h": "3f233916fb58"
+  },
+  "63": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Inosservanza delle disposizioni di cui al Titolo III",
+   "vigore_da": "2019-10-27",
+   "datazione": "api",
+   "h": "9d2bbfb0992e"
+  },
+  "64": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Inosservanza delle disposizioni di cui al Titolo IV commesse da distributori ed esercenti nel comparto del gioco",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "3bb5257f42df"
+  },
+  "65": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Procedimento sanzionatorio",
+   "vigore_da": "2026-08-07",
+   "datazione": "api",
+   "h": "ec7b327cd87a"
+  },
+  "66": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Misure ulteriori",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "25e5494c8aa9"
+  },
+  "67": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Criteri per l'applicazione delle sanzioni",
+   "vigore_da": "2026-07-23",
+   "datazione": "api",
+   "h": "5c4f71b6f7c5"
+  },
+  "68": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Applicazione della sanzione in misura ridotta",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "96612a1ed314"
+  },
+  "69": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Successione di leggi nel tempo",
+   "vigore_da": "2019-11-10",
+   "datazione": "api",
+   "h": "212adc51cfbb"
+  },
+  "70": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "",
+   "vigore_da": "2024-12-30",
+   "datazione": "api",
+   "h": "3da47d524e2c"
+  },
+  "71": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Disposizioni sull'Ufficio italiano dei cambi",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "a97e16259e87"
+  },
+  "72": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Modifiche a disposizioni normative vigenti",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "788b3cf068bf"
+  },
+  "73": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Norme abrogate",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "60dfea2bff7a"
+  },
+  "74": {
+   "file": "dlgs-231-2007.md",
+   "rubrica": "Clausola di invarianza",
+   "vigore_da": "2017-07-04",
+   "datazione": "api",
+   "h": "be9d347e6e26"
+  }
+ }
+}

@@ -1677,15 +1677,12 @@
   "ultima_versione": "2026-09-29",
   "datazione": {
    "monoblocco": 907,
-   "api": 901,
-   "ignota": 6,
-   "falliti": 4,
+   "api": 4,
+   "riportati": 901,
+   "ignota": 2,
    "testo_diverso": 2,
-   "stima_anteriore": 446,
-   "stima_posteriore": 1,
-   "chiamate": 907,
+   "chiamate": 6,
    "urn_api": "urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447",
-   "errori_rete": 4,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -5102,8 +5099,8 @@
   "403": {
    "file": "cpp-5.md",
    "rubrica": "Utilizzabilita' nel dibattimento delle prove assunte con incidente probatorio",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1997-08-12",
+   "datazione": "api",
    "h": "47f10f6192a3"
   },
   "404": {
@@ -5123,8 +5120,8 @@
   "406": {
    "file": "cpp-5.md",
    "rubrica": "Proroga dei termini",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2024-07-17",
+   "datazione": "api",
    "h": "8d4d57600fcf"
   },
   "407": {
@@ -5144,8 +5141,8 @@
   "408": {
    "file": "cpp-5.md",
    "rubrica": "Richiesta di archiviazione per infondatezza della notizia di reato",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2024-04-04",
+   "datazione": "api",
    "h": "46310371b715"
   },
   "409": {
@@ -5165,8 +5162,8 @@
   "410-bis": {
    "file": "cpp-5.md",
    "rubrica": "Nullita' del provvedimento di archiviazione",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2017-08-03",
+   "datazione": "api",
    "h": "c3e4d55cfc9d"
   },
   "411": {

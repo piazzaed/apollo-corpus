@@ -3243,6 +3243,54 @@
     "professioni"
    ],
    "citazione": "L. 132/2025"
+  },
+  "dlgs-11-2010": {
+   "nome": "Servizi di pagamento nel mercato interno (D.Lgs. 11/2010)",
+   "urn": "urn:nir:stato:decreto.legislativo:2010-01-27;11",
+   "doc_prefix": "",
+   "min_articoli": 30,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.Lgs. 11/2010",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.lgs. 11/2010",
+    "dlgs 11/2010"
+   ],
+   "materie": [
+    "usura_bancario",
+    "consumo",
+    "pagamenti"
+   ],
+   "citazione": "D.Lgs. 11/2010"
+  },
+  "dlgs-231-2007": {
+   "nome": "Antiriciclaggio (D.Lgs. 231/2007)",
+   "urn": "urn:nir:stato:decreto.legislativo:2007-11-21;231",
+   "doc_prefix": "",
+   "min_articoli": 60,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.Lgs. 231/2007",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.lgs. 231/2007",
+    "dlgs 231/2007"
+   ],
+   "materie": [
+    "usura_bancario",
+    "compliance_231",
+    "antiriciclaggio"
+   ],
+   "citazione": "D.Lgs. 231/2007"
   }
  }
 }

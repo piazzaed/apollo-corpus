@@ -1,6 +1,6 @@
 {
  "versione": "v0.37",
- "generato_il": "2026-10-13T05:16:57",
+ "generato_il": "2026-10-19T16:22:14",
  "atti": {
   "cad": {
    "file": "cad.jsonl.gz",
@@ -58,9 +58,9 @@
   },
   "cpp": {
    "file": "cpp.jsonl.gz",
-   "sha256": "c816a5a107aa6151f2a3f94b45a657521d2f90a269cb7560e5d486e32fdba2d8",
-   "byte": 139969,
-   "testi": 260
+   "sha256": "885e0db4aa5bf38d60ac332dad122368ba73224f552e48b6217c3aa68b89e9fd",
+   "byte": 141104,
+   "testi": 262
   },
   "disp-att-cc": {
    "file": "disp-att-cc.jsonl.gz",
@@ -133,6 +133,12 @@
    "sha256": "28776fe3c91dc71a1d56ae16d4af27657414a2a81967552eb6fe477ab1c77965",
    "byte": 2107,
    "testi": 17
+  },
+  "dlgs-11-2010": {
+   "file": "dlgs-11-2010.jsonl.gz",
+   "sha256": "0fde1e7a74b19f7d20647f31311f27c89c6b685a939b02e3cd5a791a9d70c854",
+   "byte": 5734,
+   "testi": 4
   },
   "dlgs-116-2017": {
    "file": "dlgs-116-2017.jsonl.gz",
@@ -259,6 +265,12 @@
    "sha256": "99deb34c087f9d58b36f3fd1ac5aa05bd91e6a15b05d2184672c0458b03f39c9",
    "byte": 12189,
    "testi": 27
+  },
+  "dlgs-231-2007": {
+   "file": "dlgs-231-2007.jsonl.gz",
+   "sha256": "d811352bd88cc07aea35ffb1a1d1ba77befcea17e82413794bfbfc4bb2f57664",
+   "byte": 51558,
+   "testi": 44
   },
   "dlgs-24-2023": {
    "file": "dlgs-24-2023.jsonl.gz",

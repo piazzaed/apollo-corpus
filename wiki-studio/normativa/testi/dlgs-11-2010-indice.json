@@ -1,0 +1,514 @@
+{
+ "_meta": {
+  "codice": "dlgs-11-2010",
+  "nome": "Servizi di pagamento nel mercato interno (D.Lgs. 11/2010)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2025-03-21",
+  "articoli": 64,
+  "file": [
+   "dlgs-11-2010.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2010-01-27;11",
+  "versioni": [
+   {
+    "data": "2010-02-13",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2010-09-04",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 13 agosto 2010, n. 141"
+   },
+   {
+    "data": "2011-05-13",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 13 maggio 2011, n. 70"
+   },
+   {
+    "data": "2018-01-13",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 15 dicembre 2017, n. 218"
+   },
+   {
+    "data": "2018-07-09",
+    "evento": "rp4",
+    "atto_modificante": "Circ. Ministero Dell'Economia E Delle Finanze 15 giugno 2018, n. 22"
+   },
+   {
+    "data": "2020-05-26",
+    "evento": "rp5",
+    "atto_modificante": "D.Lgs. 8 aprile 2020, n. 36"
+   },
+   {
+    "data": "2025-03-20",
+    "evento": "rp6",
+    "atto_modificante": "L. 11 marzo 2025, n. 28"
+   }
+  ],
+  "ultima_versione": "2025-03-20",
+  "datazione": {
+   "monoblocco": 64,
+   "api": 63,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 7,
+   "stima_uguale": 8,
+   "chiamate": 64,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "3cfd46e25f6b"
+  },
+  "2": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2025-03-21",
+   "datazione": "api",
+   "h": "5a9a44d89304"
+  },
+  "3": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Spese applicabili",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "6255bc9f4a6a"
+  },
+  "4": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Deroga per gli strumenti di pagamento di basso valore e moneta elettronica",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "9d306a4afedd"
+  },
+  "5": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Consenso e revoca del consenso",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "117751a312d3"
+  },
+  "5-bis": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Conferma della disponibilita' di fondi",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "e78e18226430"
+  },
+  "5-ter": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Disposizioni per l'accesso ai conti di pagamento in caso di servizi di disposizione di ordine di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "f28fdd858e89"
+  },
+  "5-quater": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Disposizioni per l'accesso alle informazioni sui conti di pagamento e all'utilizzo delle stesse in caso di servizi di informazioni sui conti",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "e5e4e7dad2a1"
+  },
+  "6": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Limiti all'utilizzo degli strumenti di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "055b93cc5953"
+  },
+  "6-bis": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Limiti all'accesso ai conti di pagamento da parte dei prestatori di servizi di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "c58505f1d876"
+  },
+  "6-ter": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Notifica dei dati relativi alle frodi",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "ab5cd736987b"
+  },
+  "7": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Obblighi a carico dell'utente dei servizi di pagamento in relazione agli strumenti di pagamento e alle credenziali di sicurezza personalizzate",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "2dd4ecf5cdc0"
+  },
+  "8": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Obblighi a carico del prestatore di servizi di pagamento in relazione agli strumenti di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "7dcd8022a47e"
+  },
+  "9": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Notifica e rettifica di operazioni non autorizzate o non correttamente eseguite",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "0d4671982d4b"
+  },
+  "10": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Prova di autenticazione ed esecuzione delle operazioni di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "623c6820dbf8"
+  },
+  "10-bis": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Autenticazione e misure di sicurezza",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "0b8feb765b91"
+  },
+  "11": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Responsabilita' del prestatore di servizi di pagamento per le operazioni di pagamento non autorizzate",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "f4c821783a8f"
+  },
+  "12": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Responsabilita' del pagatore per l'utilizzo non autorizzato di strumenti o servizi di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "08f2a5cc6915"
+  },
+  "12-bis": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Operazioni di pagamento il cui importo non sia noto in anticipo",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "c2d1c447cb0a"
+  },
+  "13": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "b32088235fce"
+  },
+  "14": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "44ee1f5b4a2c"
+  },
+  "15": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Ricezione degli ordini di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "48f45945cec1"
+  },
+  "16": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Rifiuto degli ordini di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "bd7aa9d19464"
+  },
+  "17": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Irrevocabilita' di un ordine di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "8eb6c01d7b36"
+  },
+  "18": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Importi trasferiti e importi ricevuti",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "2f3b8a3a29df"
+  },
+  "19": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "fdfffeccfa8c"
+  },
+  "20": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Operazioni di pagamento su un conto di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "32033f57c164"
+  },
+  "21": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Mancanza di un conto di pagamento dei beneficiari presso il prestatore di servizi di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "38c5835da1c6"
+  },
+  "22": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Depositi versati in un conto di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "a07feacef721"
+  },
+  "23": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Data valuta e disponibilita' dei fondi",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "11cf4a9470e7"
+  },
+  "24": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Identificativi unici inesatti",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "8381617a9030"
+  },
+  "25": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Responsabilita' dei prestatori di servizi di pagamento per la mancata, inesatta o tardiva esecuzione delle operazioni di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "0adb1969a3ea"
+  },
+  "25-bis": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Responsabilita' in caso di prestazione dei servizi di disposizione di ordine di pagamento per la mancata, inesatta o tardiva esecuzione dell'operazione di pagamento",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "40c36173c44e"
+  },
+  "26": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Risarcimento dei danni ulteriori",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "b3fa4999203b"
+  },
+  "27": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Diritto di regresso",
+   "vigore_da": "2020-06-10",
+   "datazione": "api",
+   "h": "60f8faf7fcbe"
+  },
+  "28": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Circostanze anormali e imprevedibili",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "e277bb7863d1"
+  },
+  "29": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Protezione dei dati",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "7afb7d7b0ebc"
+  },
+  "30": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Accesso ai sistemi di pagamento",
+   "vigore_da": "2025-03-21",
+   "datazione": "api",
+   "h": "38eb1b0f7519"
+  },
+  "30-bis": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Condizioni per richiedere la partecipazione a sistemi di pagamento designati",
+   "vigore_da": "2025-03-21",
+   "datazione": "api",
+   "h": "9664b1634b8c"
+  },
+  "31": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "6f729b752512"
+  },
+  "32": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2025-03-21",
+   "datazione": "api",
+   "h": "55caad193c0b"
+  },
+  "32-bis": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Altre sanzioni amministrative agli esponenti o al personale",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "ad5f0eeba473"
+  },
+  "32-ter": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Criteri per la determinazione delle sanzioni e procedura sanzionatoria",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "f2d04be9c4db"
+  },
+  "32-quater": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Controlli sui servizi di prelievo di contante tramite sportelli automatici",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "4c93d44fa164"
+  },
+  "32-quinquies": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Procedura di riscossione",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "3c3270ece4ce"
+  },
+  "33": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Disciplina degli istituti di pagamento",
+   "vigore_da": "2010-03-01",
+   "datazione": "api",
+   "h": "574f5c753fc8"
+  },
+  "34": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Trasparenza dei servizi di pagamento",
+   "vigore_da": "2010-03-01",
+   "datazione": "api",
+   "h": "644942b243df"
+  },
+  "34-bis": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Limite alle commissioni interbancarie applicate alle operazioni di pagamento nazionali effettuate con carta di debito ad uso dei consumatori",
+   "vigore_da": "2020-06-10",
+   "datazione": "api",
+   "h": "209f2b9cc4b8"
+  },
+  "34-ter": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Limite alle commissioni interbancarie applicate alle operazioni di pagamento nazionali effettuate con carta di credito ad uso dei consumatori",
+   "vigore_da": "2020-06-10",
+   "datazione": "api",
+   "h": "46dac7e5cfe2"
+  },
+  "34-quater": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Autorita' competenti",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "8d61e62b58dc"
+  },
+  "34-quinquies": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Sanzioni in materia di commissioni interbancarie",
+   "vigore_da": "2020-06-10",
+   "datazione": "api",
+   "h": "03d797bc5c7b"
+  },
+  "34-sexies": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Altre sanzioni ai sensi del Regolamento (UE) n. 751/2015",
+   "vigore_da": "2020-06-10",
+   "datazione": "api",
+   "h": "957d8b745b57"
+  },
+  "34-septies": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Altre sanzioni amministrative agli esponenti o al personale",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "9265b6e4da9a"
+  },
+  "34-octies": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Criteri per la determinazione delle sanzioni",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "df951d03727f"
+  },
+  "34-novies": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Procedura sanzionatoria",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "36533fb414e9"
+  },
+  "34-decies": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Esposti",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "dab59e351d60"
+  },
+  "35": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Altre modifiche al decreto legislativo 1° settembre 1993, n. 385",
+   "vigore_da": "2010-03-01",
+   "datazione": "api",
+   "h": "ed9686c893c5"
+  },
+  "36": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "6138604fa55b"
+  },
+  "37": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Disposizioni transitorie",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "4635ada2af2a"
+  },
+  "38": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "6138604fa55b"
+  },
+  "39": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Esposti",
+   "vigore_da": "2018-01-13",
+   "datazione": "api",
+   "h": "9d76a7b62080"
+  },
+  "40": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Ricorso stragiudiziale",
+   "vigore_da": "2010-03-01",
+   "datazione": "api",
+   "h": "5ce817798f20"
+  },
+  "41": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2010-03-01",
+   "datazione": "api",
+   "h": "2c0e05a94b0b"
+  },
+  "42": {
+   "file": "dlgs-11-2010.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2010-03-01",
+   "datazione": "api",
+   "h": "984026ebe963"
+  }
+ }
+}
