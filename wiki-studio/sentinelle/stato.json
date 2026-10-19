@@ -1,7 +1,7 @@
 {
  "_meta": {
   "descrizione": "Stato dell'ultimo giro delle sentinelle automatiche (GitHub Action «sentinelle» del corpus pubblico), per area.",
-  "aggiornato_il": "2026-10-19T08:22Z"
+  "aggiornato_il": "2026-10-19T08:26Z"
  },
  "aree": {
   "dati": {
@@ -26,7 +26,7 @@
    "da_ricontrollare": []
   },
   "modelli": {
-   "ultimo_giro": "2026-10-14",
+   "ultimo_giro": "2026-10-19",
    "esito": "ok",
    "da_ricontrollare": [
     "modello:006",
