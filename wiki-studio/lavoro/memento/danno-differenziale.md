@@ -8,8 +8,8 @@ norme: ["dpr-1124-1965:2", "dpr-1124-1965:3", "dpr-1124-1965:10", "dpr-1124-1965
 prassi: ["inail:circolare:2026:37"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-10-19"
+corpus_al: "2026-10-19T07:57Z"
 impronte: {"dpr-1124-1965:2": "37af8c3b164b", "dpr-1124-1965:3": "13b7a92c7a68", "dpr-1124-1965:10": "9a47084dd23c", "dpr-1124-1965:11": "ed6cbb76215b", "dpr-1124-1965:112": "36333d1e75fb", "dlgs-38-2000:10": "bb396deba851", "dlgs-38-2000:13": "4771a5f25fe1", "cc:2087": "45cfcb73a809", "cc:1218": "4d6a7899e9e6", "cc:2043": "8f23a6e3a6a9", "cc:2049": "a3e0fea314e9", "cc:2059": "6ab4c342d14c", "cc:2697": "c452fca98518", "cc:2935": "10e46ea142dc", "cc:2946": "6541ac691e8b", "cc:2947": "d6290d2e6ed1", "cp:590": "20dfa61280c2", "cp:583": "aa68a93a56ab", "dlgs-81-2008:26": "6b1e43238d52"}
 ---
 # Danno differenziale — mappa

@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-10-13"
+  "aggiornato_il": "2026-10-19"
  },
  "schede": {
   "altri-congedi": {
@@ -457,7 +457,7 @@
     "minlav:interpello:2023:1"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-19"
   },
   "contratto-a-termine": {
    "titolo": "Contratto a tempo determinato",
@@ -712,7 +712,7 @@
     "inail:circolare:2026:37"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-19"
   },
   "decreto-ingiuntivo-lavoro": {
    "titolo": "Decreto ingiuntivo per crediti di lavoro",
@@ -1650,7 +1650,7 @@
     "minimale_retributivo_giornaliero"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-19"
   },
   "lavoro-notturno-festivo": {
    "titolo": "Lavoro notturno, domenicale e festivo",
@@ -2545,7 +2545,7 @@
     "inps:messaggio:2026:2540"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-19"
   },
   "naspi": {
    "titolo": "NASpI",
@@ -2657,7 +2657,7 @@
     "dlgs-24-2023:20"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-19"
   },
   "offerta-conciliazione": {
    "titolo": "Offerta di conciliazione dopo il licenziamento",
@@ -3862,7 +3862,7 @@
     "inl:circolare:2020:7"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-10-19"
   },
   "superminimo-assorbimento": {
    "titolo": "Superminimo e assorbimento",

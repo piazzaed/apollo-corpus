@@ -8,8 +8,8 @@ norme: ["cc:2087", "cc:1218", "cost:2", "cost:32", "cost:41", "cc:2043", "cc:204
 prassi: ["inps:circolare:2023:21", "inps:messaggio:2026:2540"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-10-19"
+corpus_al: "2026-10-19T07:57Z"
 impronte: {"cc:2087": "45cfcb73a809", "cc:1218": "4d6a7899e9e6", "cost:2": "9784e57f36e4", "cost:32": "40dce5270bde", "cost:41": "e48228e156cb", "cc:2043": "8f23a6e3a6a9", "cc:2049": "a3e0fea314e9", "cc:2059": "6ab4c342d14c", "cc:2697": "c452fca98518", "cc:2729": "33c27612c76a", "cc:2103": "446608f284fd", "dlgs-81-2008:15": "178bae2f504d", "dlgs-81-2008:28": "9c2d0c339699", "dlgs-198-2006:26": "4abd18ead214", "dlgs-216-2003:2": "e0ef660ffc7d", "dlgs-165-2001:7": "815b4ce24a90", "cc:2119": "8018617a3dce", "dlgs-22-2015:3": "4b83a959d45d", "dpr-1124-1965:3": "13b7a92c7a68", "dlgs-38-2000:10": "bb396deba851", "cc:2946": "6541ac691e8b", "cc:2947": "d6290d2e6ed1", "cc:2113": "5151b805b4dc", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "dpr-1124-1965:112": "36333d1e75fb", "cp:612-bis": "cc12b37aefc2"}
 ---
 # Mobbing e straining — mappa

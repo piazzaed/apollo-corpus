@@ -8,8 +8,8 @@ norme: ["cc:2105", "cc:2104", "cc:2106", "cc:1175", "cc:1375", "l-300-1970:7", "
 prassi: []
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-10-19"
+corpus_al: "2026-10-19T07:57Z"
 impronte: {"cc:2105": "52e48595567e", "cc:2104": "dc7f67b4582d", "cc:2106": "0e46ef3e0f5f", "cc:1175": "a469fa912288", "cc:1375": "ab3b88fbed80", "l-300-1970:7": "f2f4481e0c6b", "cc:2119": "8018617a3dce", "l-604-1966:3": "9db304820f24", "l-604-1966:6": "c33ff551d5f6", "dlgs-104-2022:8": "11aa16c2ae49", "dlgs-104-2022:16": "b3ee1fac4cc0", "dlgs-165-2001:53": "9b852fb6cf47", "cc:2598": "33168221c292", "cc:2125": "a5c8031886f6", "cp:622": "99510e2c9fc8", "cp:623": "664392b79187", "dlgs-24-2023:20": "09417bca9a41"}
 ---
 # Obbligo di fedeltà — mappa

@@ -8,8 +8,8 @@ norme: ["cc:2094", "cc:2104", "cc:2222", "cost:36", "cc:2099", "dlgs-81-2015:2",
 prassi: ["inl:circolare:2020:7"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-10-19"
+corpus_al: "2026-10-19T07:57Z"
 impronte: {"cc:2094": "ee64834613a4", "cc:2104": "dc7f67b4582d", "cc:2222": "7c70aa7a62a4", "cost:36": "1ac7dcfcba7a", "cc:2099": "a8c2e0bce15d", "dlgs-81-2015:2": "f30cf736d55b", "cpc:409": "1d89895ecc22", "cpc:413": "289b0fa488e6", "cpc:421": "a71fa789fffe", "cc:2697": "c452fca98518", "dlgs-276-2003:80": "394a15c8b1f3", "dlgs-81-2015:54": "4215b594b444", "dlgs-124-2004:12": "c30c902ae95a", "cc:2113": "5151b805b4dc", "cc:2116": "5efd50331f7b", "l-335-1995:3": "8b17222b970a", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "cc:2948": "bc6f9787a72a", "dl-62-2026:7": "5815f1ef9243", "l-1338-1962:13": "0b19310ac4c3"}
 ---
 # Subordinazione e lavoro autonomo — mappa

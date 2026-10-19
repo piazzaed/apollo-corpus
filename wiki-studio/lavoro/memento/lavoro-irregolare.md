@@ -8,8 +8,8 @@ norme: ["cc:2094", "dlgs-81-2015:2", "cpc:409", "cc:2126", "cost:36", "cc:2099",
 prassi: ["inl:nota:2022:1959"]
 numeri: ["minimale_retributivo_giornaliero"]
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-10-19"
+corpus_al: "2026-10-19T07:57Z"
 impronte: {"cc:2094": "ee64834613a4", "dlgs-81-2015:2": "f30cf736d55b", "cpc:409": "1d89895ecc22", "cc:2126": "8889fdbe8c10", "cost:36": "1ac7dcfcba7a", "cc:2099": "a8c2e0bce15d", "l-4-1953:1": "28bfbdc754aa", "cpc:414": "94c250f3a949", "cpc:421": "a71fa789fffe", "cc:2116": "5efd50331f7b", "dpr-1124-1965:67": "e0979c9c9a11", "dlgs-124-2004:11": "b6c36c2db757", "dlgs-124-2004:12": "c30c902ae95a", "dlgs-81-2008:14": "100cd510654e", "cp:603-bis": "292a420809c1", "dlgs-286-1998:18-ter": "4f3ef75ec6f7", "cc:2948": "bc6f9787a72a", "cc:2943": "2bedfe207225", "l-335-1995:3": "8b17222b970a", "cc:2113": "5151b805b4dc", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "dl-62-2026:7": "5815f1ef9243", "dl-62-2026:11": "616409c02775", "dl-338-1989:1": "a79a20c4cc66", "dl-463-1983:7": "515afe3a24f6", "l-1338-1962:13": "0b19310ac4c3"}
 ---
 # Lavoro irregolare e accertamento del rapporto — mappa
