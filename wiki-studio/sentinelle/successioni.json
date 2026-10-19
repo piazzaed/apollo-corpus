@@ -4,11 +4,9 @@
  },
  "verificato_il": "2026-10-19",
  "ultimo_giro": "2026-10-19",
- "esito": "novita",
+ "esito": "invariato",
  "deas_versione": "2.25p",
  "claude_il": "2026-10-19",
- "novita": 1,
- "segnali": [
-  "release DEAS 2.25p (il plugin conosce la 2.25o)"
- ]
+ "novita": 0,
+ "segnali": []
 }
