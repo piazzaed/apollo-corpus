@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-20T10:28Z",
+ "generato_il": "2026-10-20T10:30Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -1209,12 +1209,12 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "e0c23cbf2cfcc7529ae19d80cc8984dddcfab24b98ead36fde816d36c28b06f4",
+     "sha256": "ebeddc51a626a44bbab8ed04ce02371ed7aefd12b55039d1fbeda28388b8cc3c",
      "byte": 951,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {
-     "sha256": "aa798d3d303f8e827dafc76565f05f351282fc8f8bd7f5097dd35ec263496174",
+     "sha256": "8014d8b839f87d72bc6c87debcb8cb7e2be0194e47de7ff9e0cf5bb635991c82",
      "byte": 395,
      "proprietario": "action"
     }
@@ -1228,13 +1228,13 @@
      "proprietario": "action"
     },
     "skills/assistente-successioni/references/uffici-competenza-successioni.json": {
-     "sha256": "82807f6d9b7c32c8c2aeb69f355f1d7b21920f0d9eedd446c28608d2164996da",
+     "sha256": "7e4f9d53c52cf66af916d24d54e6c30f807e61446fcd2c83275cf3a379322ad1",
      "byte": 27385,
      "proprietario": "action"
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-19",
+    "ultimo_giro": "2026-10-20",
     "esito": "ok",
     "da_ricontrollare": []
    }
