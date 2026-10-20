@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-20T10:30Z",
+ "generato_il": "2026-10-20T10:31Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -1186,8 +1186,8 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-19",
-    "esito": "ok",
+    "ultimo_giro": "2026-10-20",
+    "esito": "parziale",
     "da_ricontrollare": [
      "modello:006",
      "modello:080",
@@ -1204,13 +1204,13 @@
   "stato": {
    "file": {
     "wiki-studio/sentinelle/modelli-stato.json": {
-     "sha256": "f1c4ec2c4e6511b5a2b2a5f5b05e11d6e174cb1967289826bab17bc6fc6b6a26",
+     "sha256": "dfcefa426822d1475d38dc15cccb8e3cf4bba6a183aec977fe39cedef3bc603e",
      "byte": 76807,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "ebeddc51a626a44bbab8ed04ce02371ed7aefd12b55039d1fbeda28388b8cc3c",
-     "byte": 951,
+     "sha256": "75e7734a407caf8a6c157c59cbec742b08003e4464c7a5f37bd28603df3a3f90",
+     "byte": 957,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {
