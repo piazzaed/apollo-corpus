@@ -7,10 +7,9 @@ parole_chiave: ["preavviso", "mancato preavviso", "indennità sostitutiva del pr
 norme: ["cc:2118", "cc:2119", "cc:2121", "cc:2122", "cc:2120", "cc:2109", "cc:2110", "cc:2096", "dlgs-151-2001:55", "l-92-2012:1", "l-604-1966:7", "l-604-1966:6", "ccii:189", "tuir:17", "cc:2948", "cc:2935", "dlgs-22-2015:6", "dlgs-151-2015:26"]
 prassi: ["inps:circolare:2015:94", "minlav:circolare:2016:12"]
 numeri: []
-stato: "da_ricontrollare"
-motivi: ["changelog: art. 17 tuir modificato"]
-verificato_il: "2026-10-19"
-corpus_al: "2026-10-19T16:31Z"
+stato: "verificata"
+verificato_il: "2026-10-23"
+corpus_al: "2026-10-23T18:31Z"
 impronte: {"cc:2118": "ae6b9df54670", "cc:2119": "8018617a3dce", "cc:2121": "77a99a7a8aac", "cc:2122": "95e0d043d900", "cc:2120": "36ad7357bea7", "cc:2109": "7714958e4087", "cc:2110": "a80628491e3d", "cc:2096": "4129e415d2e1", "dlgs-151-2001:55": "45f72d9a563b", "l-92-2012:1": "6a388cf5884c", "l-604-1966:7": "6e34f661c41d", "l-604-1966:6": "c33ff551d5f6", "ccii:189": "16f44fcac631", "tuir:17": "6a9e680d7788", "cc:2948": "bc6f9787a72a", "cc:2935": "10e46ea142dc", "dlgs-22-2015:6": "322f2d00caba", "dlgs-151-2015:26": "330296d5632b"}
 ---
 # Preavviso e indennità sostitutiva — mappa

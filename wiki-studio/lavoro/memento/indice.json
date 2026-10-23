@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-10-20"
+  "aggiornato_il": "2026-10-23"
  },
  "schede": {
   "altri-congedi": {
@@ -947,11 +947,8 @@
     "l-108-1990:2",
     "l-108-1990:3"
    ],
-   "stato": "da_ricontrollare",
-   "motivi": [
-    "changelog: art. 17 tuir modificato"
-   ],
-   "verificato_il": "2026-10-19"
+   "stato": "verificata",
+   "verificato_il": "2026-10-23"
   },
   "discriminazioni-molestie": {
    "titolo": "Discriminazioni e molestie",
@@ -1752,11 +1749,8 @@
     "inps:circolare:2023:6",
     "inl:nota:2022:29"
    ],
-   "stato": "da_ricontrollare",
-   "motivi": [
-    "changelog: art. 67 tuir modificato"
-   ],
-   "verificato_il": "2026-10-19"
+   "stato": "verificata",
+   "verificato_il": "2026-10-23"
   },
   "lavoro-piattaforma": {
    "titolo": "Lavoro tramite piattaforme digitali",
@@ -3084,11 +3078,8 @@
     "inps:circolare:2015:94",
     "minlav:circolare:2016:12"
    ],
-   "stato": "da_ricontrollare",
-   "motivi": [
-    "changelog: art. 17 tuir modificato"
-   ],
-   "verificato_il": "2026-10-19"
+   "stato": "verificata",
+   "verificato_il": "2026-10-23"
   },
   "prescrizione-contributi": {
    "titolo": "Prescrizione dei contributi",
@@ -3562,11 +3553,8 @@
     "inps:circolare:2025:98",
     "inl:nota:2024:862"
    ],
-   "stato": "da_ricontrollare",
-   "motivi": [
-    "changelog: art. 17 tuir modificato"
-   ],
-   "verificato_il": "2026-10-19"
+   "stato": "verificata",
+   "verificato_il": "2026-10-23"
   },
   "rito-lavoro": {
    "titolo": "Rito del lavoro",
@@ -4129,11 +4117,8 @@
     "inl:nota:2018:6201",
     "inl:nota:2021:2002"
    ],
-   "stato": "da_ricontrollare",
-   "motivi": [
-    "changelog: art. 51 tuir modificato"
-   ],
-   "verificato_il": "2026-10-19"
+   "stato": "verificata",
+   "verificato_il": "2026-10-23"
   },
   "whistleblowing": {
    "titolo": "Segnalazioni di illeciti (whistleblowing)",
