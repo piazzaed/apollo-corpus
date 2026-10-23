@@ -1,6 +1,6 @@
 {
  "versione": "v0.37",
- "generato_il": "2026-10-19T16:22:14",
+ "generato_il": "2026-10-23T20:25:48",
  "atti": {
   "cad": {
    "file": "cad.jsonl.gz",
@@ -10,8 +10,8 @@
   },
   "cap": {
    "file": "cap.jsonl.gz",
-   "sha256": "6cbc322871883448f9a83ae9257c947a9bd77941479b65fb0babb6a64d21fc01",
-   "byte": 64696,
+   "sha256": "aac9ab47e94ad09689541519985e6bcd1c2bf538c8003d468f4f2bad4540e107",
+   "byte": 62482,
    "testi": 93
   },
   "cc": {
@@ -80,6 +80,12 @@
    "byte": 18277,
    "testi": 12
   },
+  "dl-105-2019": {
+   "file": "dl-105-2019.jsonl.gz",
+   "sha256": "b5744b2608d694560be8505dfb15cf0e89228196161305e16d568798b1010eef",
+   "byte": 16792,
+   "testi": 6
+  },
   "dl-132-2014": {
    "file": "dl-132-2014.jsonl.gz",
    "sha256": "91f390dc595d1d703770ec062f5e96282a34b1238a25f699d2bb41dbe4fb8f5a",
@@ -94,8 +100,8 @@
   },
   "dl-262-2006": {
    "file": "dl-262-2006.jsonl.gz",
-   "sha256": "8af38e64e99dcf78dd0e07ae8b49e3fbc310f16b02e1dce2aab5cf54ad8364fb",
-   "byte": 38242,
+   "sha256": "3efd4bc3bec64b52e4b129d1fb3e0321bd3a43c8aa53b09202b880a3084753e5",
+   "byte": 38054,
    "testi": 2
   },
   "dl-338-1989": {
@@ -112,8 +118,8 @@
   },
   "dl-62-2026": {
    "file": "dl-62-2026.jsonl.gz",
-   "sha256": "2a6900dd97781256a777a57a2722e45a946a6cd175e6aab06b52d370032dda5d",
-   "byte": 13565,
+   "sha256": "021a13f88e758a9047bb6f00123e2ecd467d15c9e1f66050290edfdbab09c002",
+   "byte": 12262,
    "testi": 30
   },
   "dl-663-1979": {
@@ -148,8 +154,8 @@
   },
   "dlgs-122-2005": {
    "file": "dlgs-122-2005.jsonl.gz",
-   "sha256": "cf225f5b35765ed063a597a0851ec5e23df484643dac95c2f8ae60b5e33fb4b5",
-   "byte": 4898,
+   "sha256": "333981cf1309e69c1ce22d5f4bd16cbb3617e04e737629b4ed6e6dcbef7ac8fa",
+   "byte": 4520,
    "testi": 4
   },
   "dlgs-124-2004": {
@@ -178,8 +184,8 @@
   },
   "dlgs-149-2022": {
    "file": "dlgs-149-2022.jsonl.gz",
-   "sha256": "55052572782e24c21bfdb92076ca976e315de79b0f55ba02b78a0e8331ef5985",
-   "byte": 21687,
+   "sha256": "0060921ed7d8d4671efb991f9af7d9ab296fc462dbfacb5110dce32b51942991",
+   "byte": 20461,
    "testi": 50
   },
   "dlgs-150-2011": {
@@ -208,9 +214,15 @@
   },
   "dlgs-152-1997": {
    "file": "dlgs-152-1997.jsonl.gz",
-   "sha256": "cf0c45919a931eb94a1bc2c09857d2ad85f0e489ca1d6efba1dd29300aed4d71",
-   "byte": 5896,
+   "sha256": "6a721ce86537698ebd13f268bdb6500d090abc9623263120805dbbaaca1c8399",
+   "byte": 5512,
    "testi": 5
+  },
+  "dlgs-152-2006": {
+   "file": "dlgs-152-2006.jsonl.gz",
+   "sha256": "5794734d0a4023fbc6da19eb6d85735813223871cd6c2fc6ef1283aecce00cd3",
+   "byte": 170136,
+   "testi": 112
   },
   "dlgs-164-2024": {
    "file": "dlgs-164-2024.jsonl.gz",
@@ -268,8 +280,8 @@
   },
   "dlgs-231-2007": {
    "file": "dlgs-231-2007.jsonl.gz",
-   "sha256": "d811352bd88cc07aea35ffb1a1d1ba77befcea17e82413794bfbfc4bb2f57664",
-   "byte": 51558,
+   "sha256": "20406424d4f87bf0735207c41e4f0ff458129150c72ae49601a118b7e8b5b748",
+   "byte": 50715,
    "testi": 44
   },
   "dlgs-24-2023": {
@@ -304,8 +316,8 @@
   },
   "dlgs-286-1998": {
    "file": "dlgs-286-1998.jsonl.gz",
-   "sha256": "152dc1248a012df93653b84004b1e2d939ef867e1014deed308b79d374530abd",
-   "byte": 82250,
+   "sha256": "c636cd3db4fe642accb2c6c0de35035f50f616419e2c095478366323ef200255",
+   "byte": 81724,
    "testi": 44
   },
   "dlgs-38-2000": {
@@ -314,11 +326,23 @@
    "byte": 4092,
    "testi": 3
   },
+  "dlgs-504-1995": {
+   "file": "dlgs-504-1995.jsonl.gz",
+   "sha256": "9005729e1b5677f01411a9096501210243d77efc869ca9cb9c9d329f72bbd387",
+   "byte": 62344,
+   "testi": 82
+  },
   "dlgs-67-2011": {
    "file": "dlgs-67-2011.jsonl.gz",
-   "sha256": "945984bbadadfdf72241b69cb1faee1a344e9cb7513a18d775b52d2d3ef70d29",
-   "byte": 3497,
+   "sha256": "b23c70c9ac6f311322eb5bd07cad9e8cbb61782554fd88f7c5da0bc59d3e505a",
+   "byte": 3068,
    "testi": 1
+  },
+  "dlgs-74-2000": {
+   "file": "dlgs-74-2000.jsonl.gz",
+   "sha256": "cff5f806486cb187ec125db0a0ce27832db50b99d758a4c39c84fc603da3ce7b",
+   "byte": 6978,
+   "testi": 14
   },
   "dlgs-81-2008": {
    "file": "dlgs-81-2008.jsonl.gz",
@@ -352,8 +376,8 @@
   },
   "dpr-1124-1965": {
    "file": "dpr-1124-1965.jsonl.gz",
-   "sha256": "32bc5d3ecc46e4706a356adc7b5f1597e4050195236ee18f04d7a8139301538e",
-   "byte": 4201,
+   "sha256": "bf71d7dd019d2d8f1c0ba8858a90d6bd45256766cbdc038fa8eaff9a78a7efd8",
+   "byte": 3959,
    "testi": 1
   },
   "dpr-115-2002": {
@@ -373,6 +397,12 @@
    "sha256": "ed111d79b1f0c2b6fc088c3644a3bc93b942d017847e700873efbe61e12fbb05",
    "byte": 23054,
    "testi": 38
+  },
+  "dpr-309-1990": {
+   "file": "dpr-309-1990.jsonl.gz",
+   "sha256": "aefab7cffde5343907b0a9cdf89eacf91efb32d3a0ee97c8a746f0a1078413e3",
+   "byte": 13970,
+   "testi": 10
   },
   "dpr-380-2001": {
    "file": "dpr-380-2001.jsonl.gz",
@@ -430,8 +460,8 @@
   },
   "l-130-1999": {
    "file": "l-130-1999.jsonl.gz",
-   "sha256": "8c49cf8aa1f05b9792c677e2915b329ea01ad57b5f7340bb4be2983b03c41d00",
-   "byte": 11398,
+   "sha256": "0730c987baa7f0e4c510aa13e852e04a0abe498bdb4663035e41306d17988ffd",
+   "byte": 11310,
    "testi": 30
   },
   "l-132-2025": {
@@ -445,6 +475,12 @@
    "sha256": "2704e2a5194f1f03a2fe430fe38292c0d2ea10771ad9a401a9a065ad3dd49cc7",
    "byte": 1664,
    "testi": 1
+  },
+  "l-150-1992": {
+   "file": "l-150-1992.jsonl.gz",
+   "sha256": "241218c32d4baeb8dfc5039b658d3bf16697334fa4ec95cc0167a5f78d66f785",
+   "byte": 2379,
+   "testi": 2
   },
   "l-177-2024": {
    "file": "l-177-2024.jsonl.gz",
@@ -520,8 +556,8 @@
   },
   "l-335-1995": {
    "file": "l-335-1995.jsonl.gz",
-   "sha256": "13393bde7587191594d0a50ac6efd4110edf88d409c6dde69c0a98196dd99e92",
-   "byte": 36430,
+   "sha256": "4d9232aa560d58780de8f9d35e1b45ba2399d9c76f85f80f3e687d99b19c6605",
+   "byte": 36340,
    "testi": 4
   },
   "l-374-1991": {
@@ -532,9 +568,15 @@
   },
   "l-4-1953": {
    "file": "l-4-1953.jsonl.gz",
-   "sha256": "9c91c0bf90204f6c36d163b200c1a14debf4cc3da1721897212cf139962e8ff3",
-   "byte": 1025,
+   "sha256": "08dcc5dae4c9e733eee4ef736193ef344eb228f34bede84ce8239adc3224f8f1",
+   "byte": 932,
    "testi": 1
+  },
+  "l-401-1989": {
+   "file": "l-401-1989.jsonl.gz",
+   "sha256": "e4e2e162b8393dedb2c43458f26184bbb6905064745dd20005463627b0fff0f4",
+   "byte": 1643,
+   "testi": 2
   },
   "l-428-1990": {
    "file": "l-428-1990.jsonl.gz",
@@ -584,6 +626,12 @@
    "byte": 4654,
    "testi": 4
   },
+  "l-633-1941": {
+   "file": "l-633-1941.jsonl.gz",
+   "sha256": "76b73e4220718a6044a1da8cdcc444c30864d89f866bb4f356a6521579727b23",
+   "byte": 19413,
+   "testi": 60
+  },
   "l-68-1999": {
    "file": "l-68-1999.jsonl.gz",
    "sha256": "aec1f2eeb9bf73a8894a3eba137b6cb5b8fd9ee900063a00c291ec23eed55594",
@@ -598,8 +646,8 @@
   },
   "l-76-2016": {
    "file": "l-76-2016.jsonl.gz",
-   "sha256": "009fd087511658e52f48519a7edd93f43b7e90abcb6a8ed5af5e301b60350521",
-   "byte": 8911,
+   "sha256": "76672f9f42732ad496c49f08427eec4da5a1cbf260acd2061531cdd06dc85d1e",
+   "byte": 8835,
    "testi": 1
   },
   "l-81-2017": {
@@ -620,10 +668,16 @@
    "byte": 7528,
    "testi": 6
   },
+  "l-898-1986": {
+   "file": "l-898-1986.jsonl.gz",
+   "sha256": "6776d59007a4efe35a54f7ac16b7486003fac74fd65ca2b23ee19247987350d9",
+   "byte": 1346,
+   "testi": 1
+  },
   "l-92-2012": {
    "file": "l-92-2012.jsonl.gz",
-   "sha256": "6b4c8090215003bd0f5e9d38896e1d2fe4f0cfbc15dfacc879989dcc47c77e5b",
-   "byte": 42962,
+   "sha256": "3d33cceb452e968749c2ae94ae5def71a79530c645bec0dfc12cc4e9e03c6b30",
+   "byte": 42867,
    "testi": 3
   },
   "rd-267-1942": {
@@ -646,8 +700,8 @@
   },
   "tub": {
    "file": "tub.jsonl.gz",
-   "sha256": "9b07530fe928f48a35ecda7a5896eca33af80e54cb4b447614a7ca991c21b453",
-   "byte": 97048,
+   "sha256": "068980356fc84a906eb7f833c04fd991d6df5e11420551eaeb57aaa0601b0661",
+   "byte": 96726,
    "testi": 178
   },
   "tuel": {
@@ -658,8 +712,8 @@
   },
   "tuf": {
    "file": "tuf.jsonl.gz",
-   "sha256": "4268e5584715174e3b4e7cf06d84008b40a8c0b245ecc4a7d0064c63c2e9c5f5",
-   "byte": 199689,
+   "sha256": "5936e76623dde89e3f367620881f5676f16c8fefeb5e23cf4039707ef43ee048",
+   "byte": 199287,
    "testi": 304
   },
   "tuir": {
@@ -670,9 +724,10 @@
   },
   "tus": {
    "file": "tus.jsonl.gz",
-   "sha256": "c14ab899b3082bb3f92cbdb476d505d0e69abbd0e3921fe768737bc47045c7c0",
-   "byte": 31763,
+   "sha256": "b8b78be23c7afdaace8428fc6579a46f518d874f69566118fff74a241fce844d",
+   "byte": 30577,
    "testi": 49
   }
- }
+ },
+ "scartati": []
 }

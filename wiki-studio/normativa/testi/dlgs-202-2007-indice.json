@@ -1,0 +1,139 @@
+{
+ "_meta": {
+  "codice": "dlgs-202-2007",
+  "nome": "Inquinamento provocato dalle navi (D.Lgs. 202/2007)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2026-10-19",
+  "articoli": 15,
+  "file": [
+   "dlgs-202-2007.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2007-11-06;202",
+  "versioni": [
+   {
+    "data": "2007-11-09",
+    "evento": "ro1",
+    "atto_modificante": null
+   }
+  ],
+  "ultima_versione": "2007-11-09",
+  "datazione": {
+   "monoblocco": 15,
+   "api": 15,
+   "ignota": 0,
+   "stima_anteriore": 15,
+   "chiamate": 15,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Finalita'",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "c9dc1fdee0db"
+  },
+  "2": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "9973a46d2451"
+  },
+  "3": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "0275a6bedb2d"
+  },
+  "4": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Divieti",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "93055c60362b"
+  },
+  "5": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Deroghe",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "1640d4fbb62a"
+  },
+  "6": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Misure di controllo per le navi che si trovano in porto",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "e0213dce69d2"
+  },
+  "7": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Misure di controllo per le navi in transito",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "920e727d7b2e"
+  },
+  "8": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Inquinamento doloso",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "d4000c1193b3"
+  },
+  "9": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Inquinamento colposo",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "8e262bab5c64"
+  },
+  "10": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Pene accessorie",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "b8aa4b02e66d"
+  },
+  "11": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Divieto di attracco",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "b8c548fd10e1"
+  },
+  "12": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Controlli ed accertamento delle violazioni",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "1516b0b55f99"
+  },
+  "13": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Comunicazione delle informazioni",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "3431f88e8b06"
+  },
+  "14": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "221b953a83d9"
+  },
+  "15": {
+   "file": "dlgs-202-2007.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "d19592140973"
+  }
+ }
+}

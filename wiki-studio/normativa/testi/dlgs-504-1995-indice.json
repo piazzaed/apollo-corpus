@@ -1,0 +1,1631 @@
+{
+ "_meta": {
+  "codice": "dlgs-504-1995",
+  "nome": "Testo unico delle accise (D.Lgs. 504/1995)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2026-09-26",
+  "articoli": 122,
+  "file": [
+   "dlgs-504-1995.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:1995-10-26;504",
+  "versioni": [
+   {
+    "data": "1995-11-29",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1995-12-11",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "1996-03-21",
+    "evento": "rp2+rp3",
+    "atto_modificante": "atto modificante non indicato (rp2); atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "1996-06-20",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 20 giugno 1996, n. 323"
+   },
+   {
+    "data": "1996-12-31",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 31 dicembre 1996, n. 669"
+   },
+   {
+    "data": "1997-06-02",
+    "evento": "rp6",
+    "atto_modificante": "Circ. Ministero Delle Finanze 19 marzo 1997, n. 85"
+   },
+   {
+    "data": "1998-01-08",
+    "evento": "rp7",
+    "atto_modificante": "D.Lgs. 18 dicembre 1997, n. 473"
+   },
+   {
+    "data": "1998-12-29",
+    "evento": "rp8",
+    "atto_modificante": "L. 23 dicembre 1998, n. 448"
+   },
+   {
+    "data": "1999-02-22",
+    "evento": "rp9",
+    "atto_modificante": "L. 18 febbraio 1999, n. 28"
+   },
+   {
+    "data": "1999-05-17",
+    "evento": "rp10",
+    "atto_modificante": "L. 13 maggio 1999, n. 133"
+   },
+   {
+    "data": "1999-12-27",
+    "evento": "rp11",
+    "atto_modificante": "L. 23 dicembre 1999, n. 488"
+   },
+   {
+    "data": "2000-09-27",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 26 settembre 2000, n. 265"
+   },
+   {
+    "data": "2000-10-02",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 30 settembre 2000, n. 268"
+   },
+   {
+    "data": "2000-11-25",
+    "evento": "rp14",
+    "atto_modificante": "L. 21 novembre 2000, n. 342"
+   },
+   {
+    "data": "2000-12-29",
+    "evento": "rp15",
+    "atto_modificante": "L. 23 dicembre 2000, n. 388"
+   },
+   {
+    "data": "2001-06-30",
+    "evento": "rp16",
+    "atto_modificante": "D.L. 30 giugno 2001, n. 246"
+   },
+   {
+    "data": "2001-10-01",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 1 ottobre 2001, n. 356"
+   },
+   {
+    "data": "2001-10-12",
+    "evento": "rp18",
+    "atto_modificante": "atto modificante non indicato (rp18)"
+   },
+   {
+    "data": "2001-12-29",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 28 dicembre 2001, n. 452"
+   },
+   {
+    "data": "2001-12-31",
+    "evento": "rp20",
+    "atto_modificante": "D.M. Ministero Dell'Economia E Delle Finanze 14 dicembre 2001, n. 454"
+   },
+   {
+    "data": "2002-09-25",
+    "evento": "rp21",
+    "atto_modificante": "D.L. 24 settembre 2002, n. 209"
+   },
+   {
+    "data": "2003-12-27",
+    "evento": "rp22",
+    "atto_modificante": "L. 24 dicembre 2003, n. 350"
+   },
+   {
+    "data": "2004-12-31",
+    "evento": "rp23",
+    "atto_modificante": "L. 30 dicembre 2004, n. 311"
+   },
+   {
+    "data": "2005-02-21",
+    "evento": "rp24",
+    "atto_modificante": "D.L. 21 febbraio 2005, n. 16"
+   },
+   {
+    "data": "2005-03-16",
+    "evento": "rp25",
+    "atto_modificante": "D.L. 14 marzo 2005, n. 35"
+   },
+   {
+    "data": "2005-12-29",
+    "evento": "rp26",
+    "atto_modificante": "L. 23 dicembre 2005, n. 266"
+   },
+   {
+    "data": "2006-01-11",
+    "evento": "rp27",
+    "atto_modificante": "D.L. 10 gennaio 2006, n. 2"
+   },
+   {
+    "data": "2006-10-03",
+    "evento": "rp28+rp29",
+    "atto_modificante": "D.L. 3 ottobre 2006, n. 262; Circ. Agenzia Delle Dogane 15 settembre 2006, n. 33"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp30",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2007-02-17",
+    "evento": "rp31",
+    "atto_modificante": "L. 6 febbraio 2007, n. 13"
+   },
+   {
+    "data": "2007-03-22",
+    "evento": "rp32",
+    "atto_modificante": "D.Lgs. 2 febbraio 2007, n. 26"
+   },
+   {
+    "data": "2007-09-10",
+    "evento": "rp33",
+    "atto_modificante": "atto modificante non indicato (rp33)"
+   },
+   {
+    "data": "2007-10-02",
+    "evento": "rp34",
+    "atto_modificante": "D.L. 1 ottobre 2007, n. 159"
+   },
+   {
+    "data": "2007-12-28",
+    "evento": "rp35",
+    "atto_modificante": "L. 24 dicembre 2007, n. 244"
+   },
+   {
+    "data": "2008-03-06",
+    "evento": "rp36",
+    "atto_modificante": "L. 25 febbraio 2008, n. 34"
+   },
+   {
+    "data": "2008-07-31",
+    "evento": "rp37",
+    "atto_modificante": "atto modificante non indicato (rp37)"
+   },
+   {
+    "data": "2008-11-04",
+    "evento": "rp38",
+    "atto_modificante": "D.L. 3 novembre 2008, n. 171"
+   },
+   {
+    "data": "2009-09-25",
+    "evento": "rp39",
+    "atto_modificante": "D.L. 25 settembre 2009, n. 135"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp40+rp41",
+    "atto_modificante": "L. 23 dicembre 2009, n. 191; D.L. 30 dicembre 2009, n. 194"
+   },
+   {
+    "data": "2010-03-31",
+    "evento": "rp42",
+    "atto_modificante": "D.Lgs. 29 marzo 2010, n. 48"
+   },
+   {
+    "data": "2010-05-31",
+    "evento": "rp43",
+    "atto_modificante": "D.L. 31 maggio 2010, n. 78"
+   },
+   {
+    "data": "2010-06-24",
+    "evento": "rp44",
+    "atto_modificante": "D.L. 23 giugno 2010, n. 94"
+   },
+   {
+    "data": "2010-08-28",
+    "evento": "rp45",
+    "atto_modificante": "atto modificante non indicato (rp45)"
+   },
+   {
+    "data": "2011-04-29",
+    "evento": "rp46",
+    "atto_modificante": "D.Lgs. 31 marzo 2011, n. 57"
+   },
+   {
+    "data": "2011-05-12",
+    "evento": "rp47",
+    "atto_modificante": "D.Lgs. 6 maggio 2011, n. 68"
+   },
+   {
+    "data": "2011-05-13",
+    "evento": "rp48",
+    "atto_modificante": "D.L. 13 maggio 2011, n. 70"
+   },
+   {
+    "data": "2011-11-14",
+    "evento": "rp49",
+    "atto_modificante": "L. 12 novembre 2011, n. 183"
+   },
+   {
+    "data": "2011-12-06",
+    "evento": "rp50",
+    "atto_modificante": "D.L. 6 dicembre 2011, n. 201"
+   },
+   {
+    "data": "2011-12-31",
+    "evento": "rp51",
+    "atto_modificante": "atto modificante non indicato (rp51)"
+   },
+   {
+    "data": "2012-01-16",
+    "evento": "rp52",
+    "atto_modificante": "atto modificante non indicato (rp52)"
+   },
+   {
+    "data": "2012-03-02",
+    "evento": "rp53",
+    "atto_modificante": "D.L. 2 marzo 2012, n. 16"
+   },
+   {
+    "data": "2012-10-19",
+    "evento": "rp54",
+    "atto_modificante": "D.L. 18 ottobre 2012, n. 179"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp55",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2013-06-28",
+    "evento": "rp56",
+    "atto_modificante": "D.L. 28 giugno 2013, n. 76"
+   },
+   {
+    "data": "2013-08-09",
+    "evento": "rp57",
+    "atto_modificante": "D.L. 8 agosto 2013, n. 91"
+   },
+   {
+    "data": "2013-09-12",
+    "evento": "rp58",
+    "atto_modificante": "D.L. 12 settembre 2013, n. 104"
+   },
+   {
+    "data": "2013-12-27",
+    "evento": "rp59",
+    "atto_modificante": "L. 27 dicembre 2013, n. 147"
+   },
+   {
+    "data": "2014-06-24",
+    "evento": "rp60",
+    "atto_modificante": "D.L. 24 giugno 2014, n. 91"
+   },
+   {
+    "data": "2014-11-10",
+    "evento": "rp61",
+    "atto_modificante": "L. 30 ottobre 2014, n. 161"
+   },
+   {
+    "data": "2014-12-23",
+    "evento": "rp62",
+    "atto_modificante": "D.Lgs. 15 dicembre 2014, n. 188"
+   },
+   {
+    "data": "2014-12-29",
+    "evento": "rp63",
+    "atto_modificante": "L. 23 dicembre 2014, n. 190"
+   },
+   {
+    "data": "2015-05-20",
+    "evento": "rp64",
+    "atto_modificante": "atto modificante non indicato (rp64)"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp65",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208"
+   },
+   {
+    "data": "2016-01-18",
+    "evento": "rp66",
+    "atto_modificante": "D.Lgs. 12 gennaio 2016, n. 6"
+   },
+   {
+    "data": "2016-04-01",
+    "evento": "rp67",
+    "atto_modificante": "atto modificante non indicato (rp67)"
+   },
+   {
+    "data": "2016-10-24",
+    "evento": "rp68",
+    "atto_modificante": "D.L. 22 ottobre 2016, n. 193"
+   },
+   {
+    "data": "2016-12-21",
+    "evento": "rp69",
+    "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   },
+   {
+    "data": "2017-06-19",
+    "evento": "rp70",
+    "atto_modificante": "atto modificante non indicato (rp70)"
+   },
+   {
+    "data": "2017-08-14",
+    "evento": "rp71",
+    "atto_modificante": "L. 4 agosto 2017, n. 124"
+   },
+   {
+    "data": "2017-10-16",
+    "evento": "rp72",
+    "atto_modificante": "D.L. 16 ottobre 2017, n. 148"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp73",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-07-25",
+    "evento": "rp74",
+    "atto_modificante": "D.L. 25 luglio 2018, n. 91"
+   },
+   {
+    "data": "2018-10-23",
+    "evento": "rp75",
+    "atto_modificante": "D.L. 23 ottobre 2018, n. 119"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp76",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2019-04-30",
+    "evento": "rp77",
+    "atto_modificante": "D.L. 30 aprile 2019, n. 34"
+   },
+   {
+    "data": "2019-06-29",
+    "evento": "rp78",
+    "atto_modificante": "L. 28 giugno 2019, n. 58"
+   },
+   {
+    "data": "2019-10-26",
+    "evento": "rp79",
+    "atto_modificante": "D.L. 26 ottobre 2019, n. 124"
+   },
+   {
+    "data": "2019-12-24",
+    "evento": "rp80",
+    "atto_modificante": "L. 19 dicembre 2019, n. 157"
+   },
+   {
+    "data": "2019-12-30",
+    "evento": "rp81",
+    "atto_modificante": "L. 27 dicembre 2019, n. 160"
+   },
+   {
+    "data": "2019-12-31",
+    "evento": "rp82",
+    "atto_modificante": "D.L. 30 dicembre 2019, n. 162"
+   },
+   {
+    "data": "2020-02-29",
+    "evento": "rp83",
+    "atto_modificante": "L. 28 febbraio 2020, n. 8"
+   },
+   {
+    "data": "2020-03-17",
+    "evento": "rp84",
+    "atto_modificante": "D.L. 17 marzo 2020, n. 18"
+   },
+   {
+    "data": "2020-04-29",
+    "evento": "rp85",
+    "atto_modificante": "L. 24 aprile 2020, n. 27"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp86",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2020-12-30",
+    "evento": "rp87",
+    "atto_modificante": "L. 30 dicembre 2020, n. 178"
+   },
+   {
+    "data": "2021-05-25",
+    "evento": "rp88",
+    "atto_modificante": "D.L. 25 maggio 2021, n. 73"
+   },
+   {
+    "data": "2021-07-24",
+    "evento": "rp89",
+    "atto_modificante": "L. 23 luglio 2021, n. 106"
+   },
+   {
+    "data": "2021-10-21",
+    "evento": "rp90",
+    "atto_modificante": "D.L. 21 ottobre 2021, n. 146"
+   },
+   {
+    "data": "2021-11-29",
+    "evento": "rp91",
+    "atto_modificante": "D.Lgs. 5 novembre 2021, n. 180"
+   },
+   {
+    "data": "2021-12-20",
+    "evento": "rp92",
+    "atto_modificante": "L. 17 dicembre 2021, n. 215"
+   },
+   {
+    "data": "2021-12-30",
+    "evento": "rp93",
+    "atto_modificante": "D.L. 30 dicembre 2021, n. 228"
+   },
+   {
+    "data": "2021-12-31",
+    "evento": "rp94",
+    "atto_modificante": "L. 30 dicembre 2021, n. 234"
+   },
+   {
+    "data": "2022-01-27",
+    "evento": "rp95",
+    "atto_modificante": "D.L. 27 gennaio 2022, n. 4"
+   },
+   {
+    "data": "2022-02-28",
+    "evento": "rp96",
+    "atto_modificante": "L. 25 febbraio 2022, n. 15"
+   },
+   {
+    "data": "2022-03-21",
+    "evento": "rp97+rp98",
+    "atto_modificante": "atto modificante non indicato (rp97); D.L. 21 marzo 2022, n. 21"
+   },
+   {
+    "data": "2022-04-16",
+    "evento": "rp99",
+    "atto_modificante": "atto modificante non indicato (rp99)"
+   },
+   {
+    "data": "2022-05-02",
+    "evento": "rp100",
+    "atto_modificante": "D.L. 2 maggio 2022, n. 38"
+   },
+   {
+    "data": "2022-05-20",
+    "evento": "rp101",
+    "atto_modificante": "L. 20 maggio 2022, n. 51"
+   },
+   {
+    "data": "2022-06-20",
+    "evento": "rp102",
+    "atto_modificante": "D.Lgs. 27 maggio 2022, n. 72"
+   },
+   {
+    "data": "2022-06-21",
+    "evento": "rp103",
+    "atto_modificante": "D.L. 21 giugno 2022, n. 73"
+   },
+   {
+    "data": "2022-07-04",
+    "evento": "rp104",
+    "atto_modificante": "atto modificante non indicato (rp104)"
+   },
+   {
+    "data": "2022-07-25",
+    "evento": "rp105",
+    "atto_modificante": "atto modificante non indicato (rp105)"
+   },
+   {
+    "data": "2022-08-09",
+    "evento": "rp106",
+    "atto_modificante": "D.L. 9 agosto 2022, n. 115"
+   },
+   {
+    "data": "2022-08-19",
+    "evento": "rp107",
+    "atto_modificante": "L. 4 agosto 2022, n. 122"
+   },
+   {
+    "data": "2022-09-15",
+    "evento": "rp108",
+    "atto_modificante": "atto modificante non indicato (rp108)"
+   },
+   {
+    "data": "2022-09-21",
+    "evento": "rp109",
+    "atto_modificante": "atto modificante non indicato (rp109)"
+   },
+   {
+    "data": "2022-09-23",
+    "evento": "rp110",
+    "atto_modificante": "D.L. 23 settembre 2022, n. 144"
+   },
+   {
+    "data": "2022-10-21",
+    "evento": "rp111+rp112",
+    "atto_modificante": "atto modificante non indicato (rp111); D.L. 20 ottobre 2022, n. 153"
+   },
+   {
+    "data": "2022-11-17",
+    "evento": "rp113",
+    "atto_modificante": "L. 17 novembre 2022, n. 175"
+   },
+   {
+    "data": "2022-11-18",
+    "evento": "rp114",
+    "atto_modificante": "D.L. 18 novembre 2022, n. 176"
+   },
+   {
+    "data": "2022-11-23",
+    "evento": "rp115",
+    "atto_modificante": "D.L. 23 novembre 2022, n. 179"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp116+rp117",
+    "atto_modificante": "L. 29 dicembre 2022, n. 197; D.L. 29 dicembre 2022, n. 198"
+   },
+   {
+    "data": "2023-01-17",
+    "evento": "rp118",
+    "atto_modificante": "L. 13 gennaio 2023, n. 6"
+   },
+   {
+    "data": "2023-02-27",
+    "evento": "rp119",
+    "atto_modificante": "L. 24 febbraio 2023, n. 14"
+   },
+   {
+    "data": "2023-03-30",
+    "evento": "rp120",
+    "atto_modificante": "D.L. 30 marzo 2023, n. 34"
+   },
+   {
+    "data": "2023-05-29",
+    "evento": "rp121",
+    "atto_modificante": "D.L. 29 maggio 2023, n. 57"
+   },
+   {
+    "data": "2023-06-13",
+    "evento": "rp122",
+    "atto_modificante": "D.L. 13 giugno 2023, n. 69"
+   },
+   {
+    "data": "2023-06-28",
+    "evento": "rp123",
+    "atto_modificante": "D.L. 28 giugno 2023, n. 79"
+   },
+   {
+    "data": "2023-07-27",
+    "evento": "rp124",
+    "atto_modificante": "L. 26 luglio 2023, n. 95"
+   },
+   {
+    "data": "2023-08-10",
+    "evento": "rp125",
+    "atto_modificante": "L. 10 agosto 2023, n. 103"
+   },
+   {
+    "data": "2023-10-18",
+    "evento": "rp126",
+    "atto_modificante": "D.L. 18 ottobre 2023, n. 145"
+   },
+   {
+    "data": "2023-12-16",
+    "evento": "rp127",
+    "atto_modificante": "L. 15 dicembre 2023, n. 191"
+   },
+   {
+    "data": "2023-12-30",
+    "evento": "rp128",
+    "atto_modificante": "L. 30 dicembre 2023, n. 213"
+   },
+   {
+    "data": "2024-10-03",
+    "evento": "rp129",
+    "atto_modificante": "D.Lgs. 26 settembre 2024, n. 141"
+   },
+   {
+    "data": "2024-12-31",
+    "evento": "rp130",
+    "atto_modificante": "L. 30 dicembre 2024, n. 207"
+   },
+   {
+    "data": "2025-04-04",
+    "evento": "rp131",
+    "atto_modificante": "D.Lgs. 28 marzo 2025, n. 43"
+   },
+   {
+    "data": "2025-05-14",
+    "evento": "rp132",
+    "atto_modificante": "atto modificante non indicato (rp132)"
+   },
+   {
+    "data": "2025-06-17",
+    "evento": "rp133",
+    "atto_modificante": "D.L. 17 giugno 2025, n. 84"
+   },
+   {
+    "data": "2025-12-19",
+    "evento": "rp134",
+    "atto_modificante": "D.Lgs. 18 dicembre 2025, n. 192"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp135",
+    "atto_modificante": "L. 30 dicembre 2025, n. 199"
+   },
+   {
+    "data": "2026-03-18",
+    "evento": "rp136",
+    "atto_modificante": "D.L. 18 marzo 2026, n. 33"
+   },
+   {
+    "data": "2026-03-19",
+    "evento": "rp137",
+    "atto_modificante": "atto modificante non indicato (rp137)"
+   },
+   {
+    "data": "2026-03-27",
+    "evento": "rp138",
+    "atto_modificante": "D.L. 27 marzo 2026, n. 38"
+   },
+   {
+    "data": "2026-04-03",
+    "evento": "rp139+rp140",
+    "atto_modificante": "atto modificante non indicato (rp139); D.L. 3 aprile 2026, n. 42"
+   },
+   {
+    "data": "2026-04-30",
+    "evento": "rp141",
+    "atto_modificante": "D.L. 30 aprile 2026, n. 63"
+   },
+   {
+    "data": "2026-05-09",
+    "evento": "rp142",
+    "atto_modificante": "atto modificante non indicato (rp142)"
+   },
+   {
+    "data": "2026-05-16",
+    "evento": "rp143",
+    "atto_modificante": "L. 13 maggio 2026, n. 79"
+   },
+   {
+    "data": "2026-05-22",
+    "evento": "rp144+rp145",
+    "atto_modificante": "L. 22 maggio 2026, n. 88; D.L. 22 maggio 2026, n. 89"
+   },
+   {
+    "data": "2026-06-06",
+    "evento": "rp146",
+    "atto_modificante": "atto modificante non indicato (rp146)"
+   },
+   {
+    "data": "2026-06-27",
+    "evento": "rp147",
+    "atto_modificante": "L. 25 giugno 2026, n. 113"
+   },
+   {
+    "data": "2026-07-27",
+    "evento": "rp148+rp149",
+    "atto_modificante": "atto modificante non indicato (rp148); D.L. 27 luglio 2026, n. 133"
+   },
+   {
+    "data": "2026-08-05",
+    "evento": "rp150",
+    "atto_modificante": "D.L. 5 agosto 2026, n. 139"
+   },
+   {
+    "data": "2026-08-11",
+    "evento": "rp151",
+    "atto_modificante": "D.Lgs. 7 agosto 2026, n. 148"
+   },
+   {
+    "data": "2026-08-24",
+    "evento": "rp152",
+    "atto_modificante": "atto modificante non indicato (rp152)"
+   },
+   {
+    "data": "2026-08-26",
+    "evento": "rp153",
+    "atto_modificante": "D.L. 26 agosto 2026, n. 153"
+   },
+   {
+    "data": "2026-09-04",
+    "evento": "rp154",
+    "atto_modificante": "atto modificante non indicato (rp154)"
+   },
+   {
+    "data": "2026-09-10",
+    "evento": "rp155",
+    "atto_modificante": "D.L. 10 settembre 2026, n. 157"
+   },
+   {
+    "data": "2026-09-17",
+    "evento": "rp156",
+    "atto_modificante": "D.L. 17 settembre 2026, n. 162"
+   },
+   {
+    "data": "2026-09-25",
+    "evento": "rp157",
+    "atto_modificante": "L. 25 settembre 2026, n. 166"
+   }
+  ],
+  "ultima_versione": "2026-09-25",
+  "datazione": {
+   "monoblocco": 122,
+   "api": 120,
+   "ignota": 2,
+   "falliti": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 50,
+   "chiamate": 122,
+   "errori_rete": 1,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "01": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "29a81e0ee33d"
+  },
+  "1": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Ambito applicativo e definizioni",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "4775a508624e"
+  },
+  "2": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Fatto generatore ed esigibilita' dell'accisa",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "2c325ab3f748"
+  },
+  "3": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "1350 - Art. 79 D.P.R. 23 gennaio 1973, n. 43, come modificato dall'art. 3-quinquies D.L. 6 luglio 1974, n. 251, convertito, con modificazioni, dalla legge 14 agosto 1974, n. 346 . Accertamento, liquidazione e pagamento",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "c1c3d9f0ed69"
+  },
+  "4": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Abbuoni per perdite, distruzione e cali",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "5c314d7202d4"
+  },
+  "5": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Regime del deposito fiscale",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "42b87e69d0ab"
+  },
+  "6": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Circolazione in regime sospensivo di prodotti sottoposti ad accisa",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "76296a026258"
+  },
+  "7": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Irregolarita' nella circolazione di prodotti soggetti ad accisa",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "441d3127b946"
+  },
+  "7-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni particolari per la circolazione degli oli lubrificanti e di altri specifici prodotti",
+   "vigore_da": "2020-05-19",
+   "datazione": "api",
+   "h": "30dd2bb11000"
+  },
+  "8": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Destinatario registrato",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "682f921b16c8"
+  },
+  "8-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Destinatario certificato",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "ad3e56aee386"
+  },
+  "9": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Speditore registrato",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "665a1cdfae9c"
+  },
+  "9-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Speditore certificato",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "4613a2c26e79"
+  },
+  "9-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Soggetto obbligato accreditato",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "e34a55eacb32"
+  },
+  "9-quater": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Requisiti di ammissione",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "e5845f110d54"
+  },
+  "9-quinquies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Riconoscimento della qualifica di soggetto obbligato accreditato",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "cd57802d4bc2"
+  },
+  "9-sexies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Attivazione dei benefici conseguenti al riconoscimento della qualifica di soggetto obbligato accreditato",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "372273c01b46"
+  },
+  "9-septies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Monitoraggio e revoca della qualifica di soggetto obbligato accreditato",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "5a6188c5f6a4"
+  },
+  "9-octies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni attuative per la qualifica di soggetto obbligato accreditato",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "b981c85dfc25"
+  },
+  "10": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Circolazione di prodotti gia' immessi in consumo in un altro Stato membro e consegnati per scopi commerciali nel territorio dello Stato",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "08fc50b1565a"
+  },
+  "10-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Altre disposizioni relative alla circolazione di prodotti gia' immessi in consumo in un altro Stato membro",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "1e7a035c0966"
+  },
+  "10-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Irregolarita' nella circolazione di prodotti gia' immessi in consumo in un altro Stato membro",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "096195d7cafb"
+  },
+  "11": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Prodotti assoggettati ad accisa ed immessi in consumo in altro Stato membro e acquistati da privati",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "c700dcf6e370"
+  },
+  "12": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Deposito e circolazione di prodotti assoggettati ad accisa",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "74349c06e406"
+  },
+  "13": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Contrassegni fiscali",
+   "vigore_da": "2022-08-20",
+   "datazione": "api",
+   "h": "1cd3b6dd03f6"
+  },
+  "14": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Rimborsi dell'accisa",
+   "vigore_da": "2016-12-03",
+   "datazione": "api",
+   "h": "1ece66d74e71"
+  },
+  "15": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Recupero dell'accisa e prescrizione del diritto all'imposta",
+   "vigore_da": "2016-12-03",
+   "datazione": "api",
+   "h": "7a63876c570e"
+  },
+  "16": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Privilegio",
+   "vigore_da": "2012-12-19",
+   "datazione": "api",
+   "h": "250985d2671c"
+  },
+  "17": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Esenzioni",
+   "vigore_da": "2022-07-05",
+   "datazione": "api",
+   "h": "c1d43ec620dd"
+  },
+  "18": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "334/1939 - Art. 8 D.L. n. 271/1957 - Art. 16 D.L. n. 688/1982 * - Art. 32 D.L. n. 331/1993 - Art. 29 D.P.R. 10 gennaio 1962, n. 83 - Art. 27 decreto legislativo 26 aprile 1990, n. 105 . Poteri e controlli",
+   "vigore_da": "2017-01-01",
+   "datazione": "api",
+   "h": "fdb9579ee29c"
+  },
+  "19": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Accertamento delle violazioni",
+   "vigore_da": "2016-12-03",
+   "datazione": "api",
+   "h": "de80b1025620"
+  },
+  "19-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Utilizzo della posta elettronica certificata",
+   "vigore_da": "2016-12-03",
+   "datazione": "api",
+   "h": "97e13675078d"
+  },
+  "20": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "6f03b153506b"
+  },
+  "21": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Prodotti sottoposti ad accisa",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "f658067f25d8"
+  },
+  "21-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni particolari per le emulsioni",
+   "vigore_da": "2014-01-01",
+   "datazione": "api",
+   "h": "dc7d1f1d5289"
+  },
+  "22": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Impieghi di prodotti energetici negli stabilimenti di produzione",
+   "vigore_da": "2007-06-01",
+   "datazione": "api",
+   "h": "5919587526da"
+  },
+  "22-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni particolari in materia di biodiesel ed alcuni prodotti derivati dalla biomassa",
+   "vigore_da": "2010-01-01",
+   "datazione": "api",
+   "h": "01be1fda5da1"
+  },
+  "23": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Depositi fiscali di prodotti energetici",
+   "vigore_da": "2022-05-21",
+   "datazione": "api",
+   "h": "31237a606d1b"
+  },
+  "24": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Impieghi agevolati (Art. 20 D.L. n. 331/1993)",
+   "vigore_da": "2007-06-01",
+   "datazione": "api",
+   "h": "9716385b49de"
+  },
+  "24-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Denaturazione dei prodotti energetici",
+   "vigore_da": "2007-06-01",
+   "datazione": "api",
+   "h": "d4487999f570"
+  },
+  "24-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Gasolio commerciale",
+   "vigore_da": "2026-06-28",
+   "datazione": "api",
+   "h": "fe88c4f82e7e"
+  },
+  "25": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Deposito e circolazione di prodotti energetici assoggettati ad accisa - Art. 12, comma 2, D.L. n. 331/1993 - Art. 1 legge 15 dicembre 1971, n. 1161",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "dc569df36c0f"
+  },
+  "26": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Gas naturale",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "6b74a5e4843b"
+  },
+  "26-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Rilascio dell'autorizzazione",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "413d4b39fb60"
+  },
+  "26-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Accertamento, liquidazione e versamento dell'accisa",
+   "vigore_da": "2025-12-20",
+   "datazione": "api",
+   "h": "7eeb2f37e20d"
+  },
+  "26-quater": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Altre disposizioni",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "f52bd7a7f5b8"
+  },
+  "26-quinquies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni attuative",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "f5dd9af48252"
+  },
+  "27": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Ambito applicativo ed esenzioni",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "1032c964b67b"
+  },
+  "28": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Depositi fiscali di alcole e bevande alcoliche",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "e989e080009b"
+  },
+  "29": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "a385b9d5cf03"
+  },
+  "30": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "n. 3/1956 - Art. 9 legge 28 marzo 1968, n. 415 - Art. 14-bis D.L. n. 216/1978 - Art. 8 legge 11 marzo 1988, n. 67 . Circolazione di prodotti alcolici assoggettati ad accisa",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "900c9f75def2"
+  },
+  "30-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Circolazione dell'alcole e delle bevande alcoliche non completamente denaturati",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "ba4fc7cc3544"
+  },
+  "31": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "n. 3/1956 - Artt. 10, 11, 12, 13 e 14 D.P.R. 19 aprile 1956, n. 1019 Disposizioni per il condizionamento e per l'etichettatura",
+   "vigore_da": "1995-12-14",
+   "datazione": "api",
+   "h": "708b58d1b67e"
+  },
+  "32": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Oggetto dell'imposizione",
+   "vigore_da": "1995-12-14",
+   "datazione": "api",
+   "h": "b86679b65588"
+  },
+  "33": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Accertamento dell'accisa sull'alcole",
+   "vigore_da": "1995-12-14",
+   "datazione": "api",
+   "h": "e892c0e31794"
+  },
+  "33-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Piccole distillerie indipendenti",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "aba1609bb5c5"
+  },
+  "33-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Produzione di alcole etilico da processi di dealcolazione",
+   "vigore_da": "2025-06-18",
+   "datazione": "api",
+   "h": "092fa68e1605"
+  },
+  "34": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Oggetto dell'imposizione",
+   "vigore_da": "1995-12-14",
+   "datazione": "api",
+   "h": "983ac24cbcb2"
+  },
+  "35": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Accertamento dell'accisa sulla birra",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "e1832db7b60a"
+  },
+  "36": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Oggetto dell'imposizione e modalita' di accertamento",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "c347bfdc3417"
+  },
+  "37": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni particolari per il vino",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "ce9f90f7bc65"
+  },
+  "37-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Piccolo produttore indipendente di vino",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "737648ffe877"
+  },
+  "38": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Oggetto dell'imposizione e modalita' di accertamento",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "c96734c9fcad"
+  },
+  "38-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Piccolo produttore indipendente di bevande fermentate diverse dal vino e dalla birra",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "03f42c7519b0"
+  },
+  "39": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Oggetto dell'imposizione e modalita' di accertamento",
+   "vigore_da": "2021-12-21",
+   "datazione": "api",
+   "h": "e388de461760"
+  },
+  "39-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Oggetto dell'imposizione",
+   "vigore_da": "2023-10-23",
+   "datazione": "api",
+   "h": "bf8938fe811f"
+  },
+  "39-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Prodotti assimilati ai tabacchi lavorati",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "7541956a72f3"
+  },
+  "39-quater": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Tariffe di vendita",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "189e26b2240e"
+  },
+  "39-quinquies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Tabelle di ripartizione dei prezzi di vendita al pubblico",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "b599a56501c4"
+  },
+  "39-sexies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni in materia di imposta sul valore aggiunto",
+   "vigore_da": "2011-07-13",
+   "datazione": "api",
+   "h": "5167f32bc3d6"
+  },
+  "39-septies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni in materia di aggio ai rivenditori",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "782b76cbc41b"
+  },
+  "39-octies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Aliquote di base e calcolo dell'accisa applicabile ai tabacchi lavorati",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "fc17057127f2"
+  },
+  "39-novies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Esenzioni",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "df6c735d1bb6"
+  },
+  "39-decies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Accertamento, liquidazione e pagamento dell'accisa",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "d7103d5a54c3"
+  },
+  "39-undecies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Vigilanza",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "5efa997e5c71"
+  },
+  "39-duodecies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Contrassegni di legittimazione della circolazione dei tabacchi lavorati",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "de00fbe0b916"
+  },
+  "39-terdecies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni in tema di tabacchi da inalazione senza combustione",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "fcdca6df955a"
+  },
+  "40": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Sottrazione all'accertamento o al pagamento dell'accisa sugli prodotti energetici Art. 6 D.L. n. 46/1976 - Artt. 22 e 23 R.D.L. n. 334/1939",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "a91fa4fefa0f"
+  },
+  "40-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Sottrazione all'accertamento o al pagamento dell'accisa sui tabacchi lavorati",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "ba94666468e6"
+  },
+  "40-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Circostanze aggravanti del delitto di sottrazione all'accertamento o al pagamento dell'accisa sui tabacchi",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "86efa0506610"
+  },
+  "40-quater": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Circostanze attenuanti",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "5215f2367e0b"
+  },
+  "40-quinquies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Vendita di tabacchi lavorati senza autorizzazione o acquisto da persone non autorizzate alla vendita",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "5151d23c3007"
+  },
+  "40-sexies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Ulteriori disposizioni in materia di vendita di tabacchi lavorati",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "05609cc4721d"
+  },
+  "41": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Fabbricazione clandestina di alcole e di bevande alcoliche",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "81f61bd040fb"
+  },
+  "42": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Associazione a scopo di fabbricazione clandestina di alcole e di bevande alcoliche",
+   "vigore_da": "1995-12-14",
+   "datazione": "api",
+   "h": "226f90fe8fc1"
+  },
+  "43": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "n. 1200/1948 - Art. 15 legge 28 marzo 1968, n. 417 - Art. 21 T.U. birra 1924 . Sottrazione all'accertamento ed al pagamento dell'accisa sull'alcole e sulle bevande alcoliche",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "911a87fd0776"
+  },
+  "44": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Confisca",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "f7fe25f2fe4c"
+  },
+  "44-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Destinazione di beni sequestrati o confiscati",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "59b7bc1d6cd2"
+  },
+  "44-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Custodia, distruzione, vendita e campionatura delle cose sequestrate o confiscate",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "397adfb06bcf"
+  },
+  "45": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Circostanze aggravanti",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "c656c0c548bd"
+  },
+  "46": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Alterazione di congegni, impronte e contrassegni",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "e25e255bb185"
+  },
+  "47": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Deficienze ed eccedenze nel deposito e nella circolazione dei prodotti soggetti ad accisa",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
+   "h": "18f6a44c67a0"
+  },
+  "48": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "- Art. 5, comma 6-bis, D.L. n. 16/1993 * - Artt. 1 e 2 legge 28 dicembre 1993, n. 561 . Irregolarita' nell'esercizio degli impianti di lavorazione e di deposito di prodotti sottoposti ad accisa",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "e6f241d61c54"
+  },
+  "49": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "1993, n. 561 . Irregolarita' nella circolazione",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "3eea62c5ae75"
+  },
+  "50": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "n. 331/1993 Inosservanza di prescrizioni e regolamenti",
+   "vigore_da": "2012-04-29",
+   "datazione": "api",
+   "h": "08f9a12b32dc"
+  },
+  "51": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Obbligazione civile dell'esercente per la sanzione pecuniaria inflitta a persona dipendente",
+   "vigore_da": "1995-12-14",
+   "datazione": "api",
+   "h": "4e717817b6bd"
+  },
+  "52": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Oggetto dell'imposizione",
+   "vigore_da": "2025-12-20",
+   "datazione": "api",
+   "h": "29a63ec01021"
+  },
+  "53": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Soggetti obbligati",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "e062a53250e9"
+  },
+  "53-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Rilascio dell'autorizzazione o della licenza di esercizio",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "9fd1ff44064a"
+  },
+  "54": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "7bce1376aae8"
+  },
+  "55": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Accertamento, liquidazione e versamento dell'accisa",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "d86c571efdf0"
+  },
+  "56": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Particolari modalita' di pagamento dell'accisa",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "77c99d033092"
+  },
+  "56-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Altre disposizioni",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "290e1b7045bb"
+  },
+  "56-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni attuative in materia di accisa sull'energia elettrica",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "d44cfcebe2cf"
+  },
+  "57": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Privilegi e prescrizione",
+   "vigore_da": "2007-06-01",
+   "datazione": "api",
+   "h": "243e688bee12"
+  },
+  "58": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Poteri e controlli",
+   "vigore_da": "2007-06-01",
+   "datazione": "api",
+   "h": "a212a896419e"
+  },
+  "59": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Sanzioni Art. 2 legge 28 dicembre 1993, n. 562",
+   "vigore_da": "2012-04-29",
+   "datazione": "api",
+   "h": "91777a377733"
+  },
+  "60": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Addizionali dell'accisa",
+   "vigore_da": "2007-06-01",
+   "datazione": "api",
+   "h": "1e1b9cd1f42b"
+  },
+  "61": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni generali",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "0ededfee54c2"
+  },
+  "62": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Imposizione sugli oli lubrificanti, sui bitumi di petrolio ed altri prodotti",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "7dc6ed2e9edd"
+  },
+  "62-bis": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "",
+   "vigore_da": "2015-01-01",
+   "datazione": "api",
+   "h": "e8b9f39a37bb"
+  },
+  "62-ter": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "",
+   "vigore_da": "2015-01-01",
+   "datazione": "api",
+   "h": "e8b9f39a37bb"
+  },
+  "62-quater": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Imposta di consumo sui prodotti succedanei dei prodotti da fumo",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "e11862efe5d4"
+  },
+  "62-quater.1": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Imposta di consumo sui prodotti che contengono nicotina",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "0f7bbe1d352d"
+  },
+  "62-quater.2": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Prodotti da inalazione senza combustione costituiti da sostanze solide diverse dal tabacco",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "3653b57d9696"
+  },
+  "62-quinquies": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Imposta di consumo sui prodotti accessori ai tabacchi da fumo",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "6b01ef6c4da9"
+  },
+  "63": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "elettrica, approvati con D.M. 8 luglio 1924 - Art. 2 R.D.L. n. 23/1933 - Art. 4 R.D.L. n. 334/1939 - Artt. 4, 5 e 7, allegato H, del D.L.Lgt. 26 aprile 1945, n. 223 - Art. 7 D.L. n. 707/1949 * - Art. 10 D.L. n. 50/1950 ** - Art. 3 D.L. n. 271/1957 - D.P.C.M. 21 dicembre 1990 . Licenze di esercizio e diritti annuali",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "d7045108bce3"
+  },
+  "64": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Prestazione della cauzione",
+   "vigore_da": "2025-04-05",
+   "datazione": "api",
+   "h": "a0d4ca7b4d4c"
+  },
+  "65": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Adeguamenti alla normativa comunitaria",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "9c2ccb888e6e"
+  },
+  "66": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "(Art. 2 D.L. n. 282/1986 (*) - Art. 32, comma 2, D.L. n. 331/1993) Regime di vigilanza per gli alcoli metilico, propilico ed isopropilico",
+   "vigore_da": "1995-12-14",
+   "datazione": "api",
+   "h": "6aff3220e8c0"
+  },
+  "67": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "",
+   "vigore_da": "2010-04-01",
+   "datazione": "api",
+   "h": "c8f52e4ec2e7"
+  },
+  "68": {
+   "file": "dlgs-504-1995.md",
+   "rubrica": "Disposizioni finali",
+   "vigore_da": "2007-06-01",
+   "datazione": "api",
+   "h": "efbc876a2f4f"
+  }
+ }
+}

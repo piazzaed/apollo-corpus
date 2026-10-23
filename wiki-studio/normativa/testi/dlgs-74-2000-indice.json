@@ -1,0 +1,381 @@
+{
+ "_meta": {
+  "codice": "dlgs-74-2000",
+  "nome": "Reati tributari (D.Lgs. 74/2000)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2025-01-01",
+  "articoli": 34,
+  "file": [
+   "dlgs-74-2000.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2000-03-10;74",
+  "versioni": [
+   {
+    "data": "2000-03-31",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2004-12-31",
+    "evento": "rp1",
+    "atto_modificante": "L. 30 dicembre 2004, n. 311"
+   },
+   {
+    "data": "2006-07-04",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 4 luglio 2006, n. 223"
+   },
+   {
+    "data": "2010-05-31",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 31 maggio 2010, n. 78"
+   },
+   {
+    "data": "2011-08-13",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 13 agosto 2011, n. 138"
+   },
+   {
+    "data": "2014-04-16",
+    "evento": "rp5",
+    "atto_modificante": "atto modificante non indicato (rp5)"
+   },
+   {
+    "data": "2015-10-07",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 24 settembre 2015, n. 158"
+   },
+   {
+    "data": "2017-04-24",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 24 aprile 2017, n. 50"
+   },
+   {
+    "data": "2019-10-26",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 26 ottobre 2019, n. 124"
+   },
+   {
+    "data": "2019-12-24",
+    "evento": "rp9",
+    "atto_modificante": "L. 19 dicembre 2019, n. 157"
+   },
+   {
+    "data": "2020-07-15",
+    "evento": "rp10",
+    "atto_modificante": "D.Lgs. 14 luglio 2020, n. 75"
+   },
+   {
+    "data": "2022-07-20",
+    "evento": "rp11",
+    "atto_modificante": "atto modificante non indicato (rp11)"
+   },
+   {
+    "data": "2022-10-22",
+    "evento": "rp12",
+    "atto_modificante": "D.Lgs. 4 ottobre 2022, n. 156"
+   },
+   {
+    "data": "2024-06-28",
+    "evento": "rp13",
+    "atto_modificante": "D.Lgs. 14 giugno 2024, n. 87"
+   },
+   {
+    "data": "2024-11-28",
+    "evento": "rp14+rp15",
+    "atto_modificante": "D.Lgs. 5 novembre 2024, n. 173; D.Lgs. 14 novembre 2024, n. 175"
+   },
+   {
+    "data": "2024-12-31",
+    "evento": "rp16",
+    "atto_modificante": "L. 30 dicembre 2024, n. 207"
+   }
+  ],
+  "ultima_versione": "2024-12-31",
+  "datazione": {
+   "monoblocco": 34,
+   "api": 33,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 18,
+   "chiamate": 34,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "6b39be9e38f5"
+  },
+  "2": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Dichiarazione fraudolenta mediante uso di fatture o altri documenti per operazioni inesistenti",
+   "vigore_da": "2019-10-27",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "ed09d147c3af"
+  },
+  "3": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Dichiarazione fraudolenta mediante altri artifici",
+   "vigore_da": "2019-10-27",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "d01133455ed5"
+  },
+  "4": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Dichiarazione infedele",
+   "vigore_da": "2019-12-25",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "1e4dd2ddf157"
+  },
+  "5": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Omessa dichiarazione",
+   "vigore_da": "2019-12-25",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "e2a6cff7d91b"
+  },
+  "6": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "T e n t a t i v o",
+   "vigore_da": "2022-11-06",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "46d29ab68f5b"
+  },
+  "7": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "",
+   "vigore_da": "2015-10-22",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "1d2293397030"
+  },
+  "8": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Emissione di fatture o altri documenti per operazioni inesistenti",
+   "vigore_da": "2019-10-27",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "7d73dcfbd2b7"
+  },
+  "9": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Concorso di persone nei casi di emissione o utilizzazione di fatture o altri documenti per operazioni inesistenti",
+   "vigore_da": "2000-04-15",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "03a102585068"
+  },
+  "10": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Occultamento o distruzione di documenti contabili",
+   "vigore_da": "2019-10-27",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "a536cb2df095"
+  },
+  "10-bis": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Omesso versamento di ritenute certificate",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "0c0f1388c6c4"
+  },
+  "10-ter": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Omesso versamento di IVA",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "1277ce80d4f0"
+  },
+  "10-quater": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Indebita compensazione",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "51dbb6630bb8"
+  },
+  "11": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Sottrazione fraudolenta al pagamento di imposte",
+   "vigore_da": "2010-07-31",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "d85d6f097720"
+  },
+  "12": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Pene accessorie",
+   "vigore_da": "2011-09-17",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "6f5df4589ebb"
+  },
+  "12-bis": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Sequestro e confisca",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "27ccde161322"
+  },
+  "12-ter": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Casi particolari di confisca",
+   "vigore_da": "2019-12-25",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "0c410e9fcfaa"
+  },
+  "13": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "334ef80fdc57"
+  },
+  "13-bis": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Circostanze del reato",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "90c4d40d62b1"
+  },
+  "14": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Circostanza attenuante. Riparazione dell'offesa nel caso di estinzione per prescrizione del debito tributario",
+   "vigore_da": "2000-04-15",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "893913c571f4"
+  },
+  "15": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Violazioni dipendenti da interpretazione delle norme tributarie",
+   "vigore_da": "2000-04-15",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "e41cd86981d0"
+  },
+  "16": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "",
+   "vigore_da": "2015-10-22",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "1d2293397030"
+  },
+  "17": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Interruzione della prescrizione",
+   "vigore_da": "2011-09-17",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "076122650dcd"
+  },
+  "18": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Competenza per territorio",
+   "vigore_da": "2000-04-15",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "a58dd6d12ddf"
+  },
+  "18-bis": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Custodia giudiziale dei beni sequestrati",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "b4504aed7dae"
+  },
+  "19": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Principio di specialita'",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "63c9c6be59fd"
+  },
+  "20": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Rapporti tra procedimento penale e processo tributario",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "68335a4ea139"
+  },
+  "21": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Sanzioni amministrative per le violazioni ritenute penalmente rilevanti",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "887c3aaebc00"
+  },
+  "21-bis": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Efficacia delle sentenze penali nel processo tributario e nel processo di Cassazione",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "eb449773e116"
+  },
+  "21-ter": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Applicazione ed esecuzione delle sanzioni penali e amministrative",
+   "vigore_da": "2024-06-29",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "851bcfaddc80"
+  },
+  "22": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Modalita' di documentazione dell'avvenuta estinzione dei debiti tributari",
+   "vigore_da": "2000-04-15",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "3a87f6883c3d"
+  },
+  "23": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Modifiche in tema di utilizzazione di documenti da parte della Guardia di finanza",
+   "vigore_da": "2000-04-15",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "657a5a32b0e0"
+  },
+  "24": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Modifica dell'articolo 2 della legge 26 gennaio 1983, n. 18",
+   "vigore_da": "2000-04-15",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "6b128bebcad4"
+  },
+  "25": {
+   "file": "dlgs-74-2000.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "6dbdd08f87b3"
+  }
+ }
+}

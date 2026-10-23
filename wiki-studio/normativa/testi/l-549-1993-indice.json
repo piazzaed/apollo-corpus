@@ -1,0 +1,163 @@
+{
+ "_meta": {
+  "codice": "l-549-1993",
+  "nome": "Tutela dell'ozono stratosferico (L. 549/1993)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2002-08-28",
+  "articoli": 17,
+  "file": [
+   "l-549-1993.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1993-12-28;549",
+  "versioni": [
+   {
+    "data": "1993-12-30",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1997-06-24",
+    "evento": "rp1",
+    "atto_modificante": "L. 16 giugno 1997, n. 179"
+   },
+   {
+    "data": "2002-08-13",
+    "evento": "rp2",
+    "atto_modificante": "L. 31 luglio 2002, n. 179"
+   }
+  ],
+  "ultima_versione": "2002-08-13",
+  "datazione": {
+   "monoblocco": 17,
+   "api": 17,
+   "ignota": 0,
+   "stima_anteriore": 10,
+   "chiamate": 17,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-549-1993.md",
+   "rubrica": "Finalita' della legge",
+   "vigore_da": "1997-06-25",
+   "datazione": "api",
+   "h": "19b50838681f"
+  },
+  "2": {
+   "file": "l-549-1993.md",
+   "rubrica": "Oggetto della legge",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "54ff188bccd8"
+  },
+  "3": {
+   "file": "l-549-1993.md",
+   "rubrica": "Cessazione e riduzione dell'impiego delle sostanze lesive",
+   "vigore_da": "2002-08-28",
+   "datazione": "api",
+   "h": "863d90304a8b"
+  },
+  "4": {
+   "file": "l-549-1993.md",
+   "rubrica": "Competenze in materia di protezione dell'ozono stratosferico",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "82b35921550e"
+  },
+  "5": {
+   "file": "l-549-1993.md",
+   "rubrica": "Funzioni dell'Agenzia nazionale per la protezione dell'ambiente",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "53572d7ceae8"
+  },
+  "6": {
+   "file": "l-549-1993.md",
+   "rubrica": "Obblighi in materia di recupero e smaltimento",
+   "vigore_da": "1997-06-25",
+   "datazione": "api",
+   "h": "7893b2edd0ee"
+  },
+  "7": {
+   "file": "l-549-1993.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-25",
+   "datazione": "api",
+   "h": "0b491e27f612"
+  },
+  "8": {
+   "file": "l-549-1993.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-25",
+   "datazione": "api",
+   "h": "0b491e27f612"
+  },
+  "9": {
+   "file": "l-549-1993.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-25",
+   "datazione": "api",
+   "h": "0b491e27f612"
+  },
+  "10": {
+   "file": "l-549-1993.md",
+   "rubrica": "Incentivi per la riconversione produttiva e per la ricerca finalizzata alla individuazione di tecnologie e di prodotti sostitutivi delle sostanze lesive",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "c361e4db8310"
+  },
+  "11": {
+   "file": "l-549-1993.md",
+   "rubrica": "Campagne di informazione e di educazione",
+   "vigore_da": "1997-06-25",
+   "datazione": "api",
+   "h": "822a00dcc173"
+  },
+  "12": {
+   "file": "l-549-1993.md",
+   "rubrica": "Etichettatura e informazione del consumatore",
+   "vigore_da": "1997-06-25",
+   "datazione": "api",
+   "h": "57cf993307a3"
+  },
+  "13": {
+   "file": "l-549-1993.md",
+   "rubrica": "Monitoraggio dei livelli dell'ozono stratosferico e della radiazione ultravioletta",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "92ba99af7e59"
+  },
+  "14": {
+   "file": "l-549-1993.md",
+   "rubrica": "Tutela giurisdizionale dei diritti",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "62bf0a1d03b8"
+  },
+  "15": {
+   "file": "l-549-1993.md",
+   "rubrica": "Relazione al Parlamento",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "c8c6dd71f0ac"
+  },
+  "16": {
+   "file": "l-549-1993.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "ad6a6d100109"
+  },
+  "17": {
+   "file": "l-549-1993.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "1994-01-01",
+   "datazione": "api",
+   "h": "28b05fe37334"
+  }
+ }
+}

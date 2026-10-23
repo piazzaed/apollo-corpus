@@ -1,0 +1,165 @@
+{
+ "_meta": {
+  "codice": "l-150-1992",
+  "nome": "Commercio internazionale di specie protette (L. 150/1992)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2022-09-27",
+  "articoli": 14,
+  "file": [
+   "l-150-1992.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1992-02-07;150",
+  "versioni": [
+   {
+    "data": "1992-02-22",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1993-01-12",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 12 gennaio 1993, n. 2"
+   },
+   {
+    "data": "1998-12-14",
+    "evento": "rp2",
+    "atto_modificante": "L. 9 dicembre 1998, n. 426"
+   },
+   {
+    "data": "2000-12-29",
+    "evento": "rp3",
+    "atto_modificante": "L. 23 dicembre 2000, n. 388"
+   },
+   {
+    "data": "2001-07-11",
+    "evento": "rp4",
+    "atto_modificante": "D.Lgs. 18 maggio 2001, n. 275"
+   },
+   {
+    "data": "2015-05-28",
+    "evento": "rp5",
+    "atto_modificante": "L. 22 maggio 2015, n. 68"
+   },
+   {
+    "data": "2022-09-12",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 5 agosto 2022, n. 135"
+   }
+  ],
+  "ultima_versione": "2022-09-12",
+  "datazione": {
+   "monoblocco": 14,
+   "api": 12,
+   "ignota": 2,
+   "falliti": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 1,
+   "chiamate": 14,
+   "errori_rete": 1,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "7bff5b63fcbe"
+  },
+  "2": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "7a129ab86bce"
+  },
+  "3": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "1992-03-08",
+   "datazione": "api",
+   "h": "de7757d42233"
+  },
+  "3-bis": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2001-07-26",
+   "datazione": "api",
+   "h": "65b4b858b66f"
+  },
+  "4": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2001-07-26",
+   "datazione": "api",
+   "h": "9e4baf6a4367"
+  },
+  "5": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "92f692c0b412"
+  },
+  "5-bis": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2022-09-27",
+   "datazione": "api",
+   "h": "2030758edec9"
+  },
+  "5-ter": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "1993-03-14",
+   "datazione": "api",
+   "h": "01e5c0e970d0"
+  },
+  "6": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2022-09-27",
+   "datazione": "api",
+   "h": "3bb84e67718b"
+  },
+  "7": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "81c7cf306b11"
+  },
+  "8": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "f36bbf6e5fee"
+  },
+  "8-bis": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "5731307b0c61"
+  },
+  "8-ter": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "1b05f7d742bc"
+  },
+  "8-quinquies": {
+   "file": "l-150-1992.md",
+   "rubrica": "",
+   "vigore_da": "2001-01-01",
+   "datazione": "api",
+   "h": "4cdad60a5096"
+  }
+ }
+}

@@ -388,6 +388,8 @@ def _carica_codici_json() -> dict:
             voce["solo_corpo"] = True
         if a.get("solo_allegati"):
             voce["solo_allegati"] = True
+        if a.get("doppi_esclusi"):
+            voce["doppi_esclusi"] = [str(x) for x in a["doppi_esclusi"]]
         if a.get("urn_permalink"):
             voce["urn_permalink"] = a["urn_permalink"]
         if a.get("peso_ricerca") is not None:
@@ -419,7 +421,7 @@ def _carica_codici_remoti() -> list:
         CODICI[slug] = {"nome": a.get("nome") or slug, "doc_prefix": a.get("doc_prefix") or "",
                         "min_articoli": int(a.get("min_articoli") or 5), "urn": a["urn"],
                         "libri": [tuple(x) for x in (a.get("libri") or [[a.get("nome") or slug, 1, 9999]])]}
-        for k in ("solo_corpo", "solo_allegati", "urn_permalink", "peso_ricerca"):
+        for k in ("solo_corpo", "solo_allegati", "urn_permalink", "peso_ricerca", "doppi_esclusi"):
             if a.get(k) is not None:
                 CODICI[slug][k] = a[k]
         for al in a.get("alias") or []:
@@ -1172,6 +1174,12 @@ def costruisci(slug: str, xml: str, dest: Path, *, datazione_api: bool = False, 
     for a in articoli:
         conta[a["token"]] = conta.get(a["token"], 0) + 1
     doppi = sorted((t for t, n in conta.items() if n > 1), key=_ord_token)
+    # un numero DAVVERO doppio nel testo della legge (d.lgs. 152/2006: due art. 298-bis) dichiarato in codici.json
+    # (`doppi_esclusi`) esce del tutto — nessuna delle due copie: chi lo chiede va su normattiva, mai una delle due a caso
+    esclusi = [t for t in doppi if t in set(str(x) for x in cfg.get("doppi_esclusi") or [])]
+    if esclusi:
+        articoli = [a for a in articoli if a["token"] not in esclusi]
+        doppi = [t for t in doppi if t not in esclusi]
     if doppi:
         # Un numero doppio vuol dire due serie nello stesso AKN (corpo e allegati, decreto e testo
         # unico): l'indice ne terrebbe una a caso e il lookup l'altra. D.Lgs. 196/2003 senza
@@ -1245,6 +1253,8 @@ def costruisci(slug: str, xml: str, dest: Path, *, datazione_api: bool = False, 
             "vita_refresh_giorni": VITA_REFRESH_GIORNI,
             "urn": cfg["urn"], "versioni": versioni,
             "ultima_versione": versioni[-1]["data"] if versioni else None}
+    if esclusi:
+        meta["doppi_esclusi"] = esclusi      # numeri doppi nel testo della legge: fuori dal corpus, chi li chiede va in rete
     if stat_datazione.get("monoblocco"):
         meta["datazione"] = {k: v for k, v in stat_datazione.items() if v or k in ("api", "ignota")}
         meta["datazione"]["fonte"] = "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"

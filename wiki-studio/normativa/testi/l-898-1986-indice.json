@@ -1,0 +1,104 @@
+{
+ "_meta": {
+  "codice": "l-898-1986",
+  "nome": "Frodi comunitarie in agricoltura (L. 898/1986)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2022-11-06",
+  "articoli": 5,
+  "file": [
+   "l-898-1986.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1986-12-23;898",
+  "versioni": [
+   {
+    "data": "1986-12-27",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1987-09-10",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 7 settembre 1987, n. 370"
+   },
+   {
+    "data": "1992-02-20",
+    "evento": "rp2",
+    "atto_modificante": "L. 19 febbraio 1992, n. 142"
+   },
+   {
+    "data": "2000-10-25",
+    "evento": "rp3",
+    "atto_modificante": "L. 29 settembre 2000, n. 300"
+   },
+   {
+    "data": "2009-07-14",
+    "evento": "rp4",
+    "atto_modificante": "L. 7 luglio 2009, n. 88"
+   },
+   {
+    "data": "2010-06-25",
+    "evento": "rp5",
+    "atto_modificante": "L. 4 giugno 2010, n. 96"
+   },
+   {
+    "data": "2020-07-15",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 14 luglio 2020, n. 75"
+   },
+   {
+    "data": "2022-10-22",
+    "evento": "rp7",
+    "atto_modificante": "D.Lgs. 4 ottobre 2022, n. 156"
+   }
+  ],
+  "ultima_versione": "2022-10-22",
+  "datazione": {
+   "monoblocco": 5,
+   "api": 5,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "chiamate": 5,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-898-1986.md",
+   "rubrica": "",
+   "vigore_da": "1986-12-28",
+   "datazione": "api",
+   "h": "197cca62aca1"
+  },
+  "2": {
+   "file": "l-898-1986.md",
+   "rubrica": "",
+   "vigore_da": "2022-11-06",
+   "datazione": "api",
+   "h": "12452c5848d0"
+  },
+  "3": {
+   "file": "l-898-1986.md",
+   "rubrica": "",
+   "vigore_da": "2010-07-10",
+   "datazione": "api",
+   "h": "40967a5fcaba"
+  },
+  "4": {
+   "file": "l-898-1986.md",
+   "rubrica": "",
+   "vigore_da": "1986-12-28",
+   "datazione": "api",
+   "h": "befafafda133"
+  },
+  "5": {
+   "file": "l-898-1986.md",
+   "rubrica": "",
+   "vigore_da": "1986-12-28",
+   "datazione": "api",
+   "h": "2f2f82eb38ab"
+  }
+ }
+}

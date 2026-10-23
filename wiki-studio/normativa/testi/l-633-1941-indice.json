@@ -1,0 +1,2523 @@
+{
+ "_meta": {
+  "codice": "l-633-1941",
+  "nome": "Diritto d'autore (L. 633/1941)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2026-06-12",
+  "articoli": 308,
+  "file": [
+   "l-633-1941.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1941-04-22;633",
+  "versioni": [
+   {
+    "data": "1941-07-16",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1945-08-16",
+    "evento": "rp1",
+    "atto_modificante": "Decreto Legislativo Luogotenenziale 20 luglio 1945, n. 440"
+   },
+   {
+    "data": "1946-09-12",
+    "evento": "rp2",
+    "atto_modificante": "Decreto Legislativo Del Capo Provvisorio Dello Stato 23 agosto 1946, n. 82"
+   },
+   {
+    "data": "1951-06-14",
+    "evento": "rp3",
+    "atto_modificante": "L. 21 maggio 1951, n. 391"
+   },
+   {
+    "data": "1955-01-12",
+    "evento": "rp4",
+    "atto_modificante": "L. 20 dicembre 1954, n. 1227"
+   },
+   {
+    "data": "1973-05-16",
+    "evento": "rp5",
+    "atto_modificante": "L. 16 aprile 1973, n. 198"
+   },
+   {
+    "data": "1974-10-19",
+    "evento": "rp6",
+    "atto_modificante": "D.P.R. 14 maggio 1974, n. 490"
+   },
+   {
+    "data": "1975-03-10",
+    "evento": "rp7",
+    "atto_modificante": "L. 8 marzo 1975, n. 39"
+   },
+   {
+    "data": "1976-06-12",
+    "evento": "rp8",
+    "atto_modificante": "L. 5 maggio 1976, n. 404"
+   },
+   {
+    "data": "1979-01-30",
+    "evento": "rp9",
+    "atto_modificante": "D.P.R. 8 gennaio 1979, n. 19"
+   },
+   {
+    "data": "1981-08-01",
+    "evento": "rp10",
+    "atto_modificante": "L. 29 luglio 1981, n. 406"
+   },
+   {
+    "data": "1992-12-31",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 29 dicembre 1992, n. 518"
+   },
+   {
+    "data": "1993-05-27",
+    "evento": "rp12",
+    "atto_modificante": "L. 22 maggio 1993, n. 159"
+   },
+   {
+    "data": "1994-12-16",
+    "evento": "rp13",
+    "atto_modificante": "D.Lgs. 16 novembre 1994, n. 685"
+   },
+   {
+    "data": "1996-02-10",
+    "evento": "rp14",
+    "atto_modificante": "L. 6 febbraio 1996, n. 52"
+   },
+   {
+    "data": "1996-04-24",
+    "evento": "rp15+rp16",
+    "atto_modificante": "D.Lgs. 15 marzo 1996, n. 204; D.Lgs. 15 marzo 1996, n. 205"
+   },
+   {
+    "data": "1996-10-23",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 23 ottobre 1996, n. 545"
+   },
+   {
+    "data": "1996-11-18",
+    "evento": "rp18",
+    "atto_modificante": "D.Lgs. 23 ottobre 1996, n. 581"
+   },
+   {
+    "data": "1996-12-06",
+    "evento": "rp19",
+    "atto_modificante": "atto modificante non indicato (rp19)"
+   },
+   {
+    "data": "1996-12-31",
+    "evento": "rp20",
+    "atto_modificante": "D.L. 31 dicembre 1996, n. 669"
+   },
+   {
+    "data": "1997-06-13",
+    "evento": "rp21",
+    "atto_modificante": "D.Lgs. 26 maggio 1997, n. 154"
+   },
+   {
+    "data": "1999-06-15",
+    "evento": "rp22",
+    "atto_modificante": "D.Lgs. 6 maggio 1999, n. 169"
+   },
+   {
+    "data": "1999-11-15",
+    "evento": "rp23",
+    "atto_modificante": "D.Lgs. 29 ottobre 1999, n. 419"
+   },
+   {
+    "data": "2000-09-04",
+    "evento": "rp24",
+    "atto_modificante": "L. 18 agosto 2000, n. 248"
+   },
+   {
+    "data": "2001-04-04",
+    "evento": "rp25",
+    "atto_modificante": "D.Lgs. 2 febbraio 2001, n. 95"
+   },
+   {
+    "data": "2002-12-14",
+    "evento": "rp26",
+    "atto_modificante": "L. 12 dicembre 2002, n. 273"
+   },
+   {
+    "data": "2003-04-14",
+    "evento": "rp27",
+    "atto_modificante": "D.Lgs. 9 aprile 2003, n. 68"
+   },
+   {
+    "data": "2004-03-23",
+    "evento": "rp28",
+    "atto_modificante": "D.L. 22 marzo 2004, n. 72"
+   },
+   {
+    "data": "2005-01-05",
+    "evento": "rp29",
+    "atto_modificante": "atto modificante non indicato (rp29)"
+   },
+   {
+    "data": "2005-01-31",
+    "evento": "rp30",
+    "atto_modificante": "D.L. 31 gennaio 2005, n. 7"
+   },
+   {
+    "data": "2005-06-30",
+    "evento": "rp31",
+    "atto_modificante": "atto modificante non indicato (rp31)"
+   },
+   {
+    "data": "2006-03-25",
+    "evento": "rp32",
+    "atto_modificante": "D.Lgs. 13 febbraio 2006, n. 118"
+   },
+   {
+    "data": "2006-04-07",
+    "evento": "rp33",
+    "atto_modificante": "D.Lgs. 16 marzo 2006, n. 140"
+   },
+   {
+    "data": "2006-10-03",
+    "evento": "rp34",
+    "atto_modificante": "D.L. 3 ottobre 2006, n. 262"
+   },
+   {
+    "data": "2007-12-31",
+    "evento": "rp35",
+    "atto_modificante": "D.L. 31 dicembre 2007, n. 248"
+   },
+   {
+    "data": "2008-01-25",
+    "evento": "rp36",
+    "atto_modificante": "L. 9 gennaio 2008, n. 2"
+   },
+   {
+    "data": "2008-02-01",
+    "evento": "rp37",
+    "atto_modificante": "D.Lgs. 9 gennaio 2008, n. 9"
+   },
+   {
+    "data": "2008-03-06",
+    "evento": "rp38",
+    "atto_modificante": "L. 25 febbraio 2008, n. 34"
+   },
+   {
+    "data": "2008-12-31",
+    "evento": "rp39",
+    "atto_modificante": "D.L. 30 dicembre 2008, n. 207"
+   },
+   {
+    "data": "2009-12-14",
+    "evento": "rp40",
+    "atto_modificante": "D.Lgs. 1 dicembre 2009, n. 179"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp41",
+    "atto_modificante": "L. 23 dicembre 2009, n. 191"
+   },
+   {
+    "data": "2010-04-30",
+    "evento": "rp42",
+    "atto_modificante": "D.L. 30 aprile 2010, n. 64"
+   },
+   {
+    "data": "2013-08-09",
+    "evento": "rp43",
+    "atto_modificante": "D.L. 8 agosto 2013, n. 91"
+   },
+   {
+    "data": "2014-03-11",
+    "evento": "rp44",
+    "atto_modificante": "D.Lgs. 21 febbraio 2014, n. 22"
+   },
+   {
+    "data": "2014-11-10",
+    "evento": "rp45",
+    "atto_modificante": "D.Lgs. 10 novembre 2014, n. 163"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp46",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208"
+   },
+   {
+    "data": "2016-01-22",
+    "evento": "rp47",
+    "atto_modificante": "D.Lgs. 15 gennaio 2016, n. 8"
+   },
+   {
+    "data": "2016-11-26",
+    "evento": "rp48",
+    "atto_modificante": "L. 14 novembre 2016, n. 220"
+   },
+   {
+    "data": "2017-03-27",
+    "evento": "rp49",
+    "atto_modificante": "D.Lgs. 15 marzo 2017, n. 35"
+   },
+   {
+    "data": "2017-08-14",
+    "evento": "rp50",
+    "atto_modificante": "L. 4 agosto 2017, n. 124"
+   },
+   {
+    "data": "2017-10-16",
+    "evento": "rp51",
+    "atto_modificante": "D.L. 16 ottobre 2017, n. 148"
+   },
+   {
+    "data": "2019-05-11",
+    "evento": "rp52",
+    "atto_modificante": "L. 3 maggio 2019, n. 37"
+   },
+   {
+    "data": "2021-05-25",
+    "evento": "rp53",
+    "atto_modificante": "D.L. 25 maggio 2021, n. 73"
+   },
+   {
+    "data": "2021-07-24",
+    "evento": "rp54",
+    "atto_modificante": "L. 23 luglio 2021, n. 106"
+   },
+   {
+    "data": "2021-11-27",
+    "evento": "rp55",
+    "atto_modificante": "D.Lgs. 8 novembre 2021, n. 177"
+   },
+   {
+    "data": "2021-11-29",
+    "evento": "rp56",
+    "atto_modificante": "D.Lgs. 8 novembre 2021, n. 181"
+   },
+   {
+    "data": "2022-08-09",
+    "evento": "rp57",
+    "atto_modificante": "D.L. 9 agosto 2022, n. 115"
+   },
+   {
+    "data": "2022-09-21",
+    "evento": "rp58",
+    "atto_modificante": "L. 21 settembre 2022, n. 142"
+   },
+   {
+    "data": "2023-07-24",
+    "evento": "rp59",
+    "atto_modificante": "L. 14 luglio 2023, n. 93"
+   },
+   {
+    "data": "2023-12-30",
+    "evento": "rp60",
+    "atto_modificante": "L. 30 dicembre 2023, n. 214"
+   },
+   {
+    "data": "2024-08-09",
+    "evento": "rp61",
+    "atto_modificante": "D.L. 9 agosto 2024, n. 113"
+   },
+   {
+    "data": "2024-09-16",
+    "evento": "rp62",
+    "atto_modificante": "D.L. 16 settembre 2024, n. 131"
+   },
+   {
+    "data": "2024-10-08",
+    "evento": "rp63",
+    "atto_modificante": "L. 7 ottobre 2024, n. 143"
+   },
+   {
+    "data": "2024-11-14",
+    "evento": "rp64",
+    "atto_modificante": "L. 14 novembre 2024, n. 166"
+   },
+   {
+    "data": "2025-09-25",
+    "evento": "rp65",
+    "atto_modificante": "L. 23 settembre 2025, n. 132"
+   },
+   {
+    "data": "2025-12-03",
+    "evento": "rp66",
+    "atto_modificante": "L. 2 dicembre 2025, n. 182"
+   },
+   {
+    "data": "2026-06-12",
+    "evento": "rp67",
+    "atto_modificante": "D.L. 12 giugno 2026, n. 100"
+   }
+  ],
+  "ultima_versione": "2026-06-12",
+  "datazione": {
+   "monoblocco": 308,
+   "api": 299,
+   "ignota": 9,
+   "falliti": 9,
+   "stima_anteriore": 174,
+   "chiamate": 308,
+   "assenti": 1,
+   "errori_rete": 8,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "4a9fce95e782"
+  },
+  "2": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2002-12-29",
+   "datazione": "api",
+   "h": "3286d0f1adf1"
+  },
+  "3": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "61fd24b223d4"
+  },
+  "4": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "c491739e78c4"
+  },
+  "5": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "94f875ada663"
+  },
+  "6": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "522fee3eaff4"
+  },
+  "7": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "211d8bbbc1c3"
+  },
+  "8": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a24eec1e8ac1"
+  },
+  "9": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "5f37f1e429ca"
+  },
+  "10": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a47d720ec3b5"
+  },
+  "11": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "121ffc08d594"
+  },
+  "12": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "28fc03c603c8"
+  },
+  "12-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1999-06-16",
+   "datazione": "api",
+   "h": "2187d99faa25"
+  },
+  "12-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2001-04-19",
+   "datazione": "api",
+   "h": "df90ee5c3dcb"
+  },
+  "13": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "0bf12d537129"
+  },
+  "14": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "b68113bc508a"
+  },
+  "15": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2013-10-09",
+   "datazione": "api",
+   "h": "fd2b750041be"
+  },
+  "15-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2024-09-17",
+   "datazione": "api",
+   "h": "619fccec74a0"
+  },
+  "16": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "c15b8d720eb3"
+  },
+  "16-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "f02cf5a8c3b4"
+  },
+  "16-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "d4fdb902da6f"
+  },
+  "16-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "7c04ecf60d68"
+  },
+  "16-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "3863ba186bfa"
+  },
+  "17": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "1a4858314b83"
+  },
+  "18": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "8b8478ad0589"
+  },
+  "18-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "2107559b5f20"
+  },
+  "19": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "5437700f0b45"
+  },
+  "20": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1979-01-31",
+   "datazione": "api",
+   "h": "6c8da6d8f570"
+  },
+  "21": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "5f7ce52c5410"
+  },
+  "22": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "1c927a61f10b"
+  },
+  "23": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "8b616838d63f"
+  },
+  "24": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "835100898979"
+  },
+  "25": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1996-02-25",
+   "datazione": "api",
+   "h": "adca47eb97e2"
+  },
+  "26": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1996-02-25",
+   "datazione": "api",
+   "h": "3af71e4593f8"
+  },
+  "27": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1996-02-25",
+   "datazione": "api",
+   "h": "3d5a7780fc40"
+  },
+  "27-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-14",
+   "datazione": "api",
+   "h": "c64fd5cf65f9"
+  },
+  "28": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2002-12-29",
+   "datazione": "api",
+   "h": "d000b12ef404"
+  },
+  "29": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "89b90abb67db"
+  },
+  "30": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "56b383abec85"
+  },
+  "31": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-14",
+   "datazione": "api",
+   "h": "d36fce4ce0cf"
+  },
+  "32": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-14",
+   "datazione": "api",
+   "h": "f6e373309ded"
+  },
+  "32-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-14",
+   "datazione": "api",
+   "h": "09dacee5bbad"
+  },
+  "32-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-14",
+   "datazione": "api",
+   "h": "fa3e0bf45cf3"
+  },
+  "32-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "e08cc99ce3be"
+  },
+  "33": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "f1fa7c5dcee0"
+  },
+  "34": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "1cf32806ef12"
+  },
+  "35": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "e81a2848e58b"
+  },
+  "36": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "8edcfe3f42cd"
+  },
+  "37": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "692b270a0e14"
+  },
+  "38": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "40f421867502"
+  },
+  "39": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "9171d598a7a2"
+  },
+  "40": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "f4c163044a8c"
+  },
+  "41": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "d7a70e05b863"
+  },
+  "42": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "1591d7534615"
+  },
+  "43": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "2e36cb6e18ad"
+  },
+  "43-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "52b26bf0f180"
+  },
+  "44": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2022-09-22",
+   "datazione": "api",
+   "h": "810d79b72104"
+  },
+  "45": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "b811d00184c0"
+  },
+  "46": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "215da26fb21e"
+  },
+  "46-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "4625d78ff3cf"
+  },
+  "47": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "558b38c7bb21"
+  },
+  "48": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a7ecc0d5f876"
+  },
+  "49": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "704842fc666b"
+  },
+  "50": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "5e23ac6ada54"
+  },
+  "51": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "de530f9a192b"
+  },
+  "52": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "452ad31dadb1"
+  },
+  "53": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "86f253122d66"
+  },
+  "54": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "ddc4f093c3bc"
+  },
+  "55": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "6d2abf2076f5"
+  },
+  "56": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "b3a30214fd6f"
+  },
+  "57": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "837c527a59fa"
+  },
+  "58": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "dbbdec44c2a0"
+  },
+  "59": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "689a9244e128"
+  },
+  "60": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "f7384b937dcf"
+  },
+  "61": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "f7efe96c0e0e"
+  },
+  "62": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "6bb724056386"
+  },
+  "63": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "b81607bbb40e"
+  },
+  "64": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "5f27933e2ea5"
+  },
+  "64-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1993-01-15",
+   "datazione": "api",
+   "h": "c3387e5a8b6e"
+  },
+  "64-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1996-05-09",
+   "datazione": "api",
+   "h": "775b8c1f6805"
+  },
+  "64-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1996-05-09",
+   "datazione": "api",
+   "h": "5160e6dc87d5"
+  },
+  "64-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1999-06-16",
+   "datazione": "api",
+   "h": "4c1313cb0cfc"
+  },
+  "64-sexies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1999-06-16",
+   "datazione": "api",
+   "h": "bdf007f75475"
+  },
+  "65": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "51a09d8c5a56"
+  },
+  "66": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "7c7ba93a1960"
+  },
+  "67": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "dc904a75ede6"
+  },
+  "68": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "a86dd74a8c92"
+  },
+  "68-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "89b0189b30d9"
+  },
+  "69": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-11-29",
+   "datazione": "api",
+   "h": "f9fe8c8d221a"
+  },
+  "69-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-11-25",
+   "datazione": "api",
+   "h": "554501d2f84d"
+  },
+  "69-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-11-25",
+   "datazione": "api",
+   "h": "7081d784b43f"
+  },
+  "69-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "082320a28471"
+  },
+  "69-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-11-25",
+   "datazione": "api",
+   "h": "0ff65ea96e73"
+  },
+  "69-sexies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-11-25",
+   "datazione": "api",
+   "h": "96fa9c08be16"
+  },
+  "69-septies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-11-25",
+   "datazione": "api",
+   "h": "61acf3073baf"
+  },
+  "70": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-09",
+   "datazione": "api",
+   "h": "61b28ccfcf92"
+  },
+  "70-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "0df74cf29942"
+  },
+  "70-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "6ecdd7a85ae2"
+  },
+  "70-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "d2982ef15352"
+  },
+  "70-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "3ac0f5a789bd"
+  },
+  "70-sexies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "385bde496b10"
+  },
+  "70-septies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "bb5ec18bb7da"
+  },
+  "71": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "f7800fa1f566"
+  },
+  "71-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2019-05-26",
+   "datazione": "api",
+   "h": "d05d15cd0c99"
+  },
+  "71-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "0520cd3cda73"
+  },
+  "71-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "51847f49d2a1"
+  },
+  "71-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "ef9c372f5385"
+  },
+  "71-sexies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "ddcdf2df17ae"
+  },
+  "71-septies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2008-12-31",
+   "datazione": "api",
+   "h": "f44ed0b68c3a"
+  },
+  "71-octies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-07-25",
+   "datazione": "api",
+   "h": "8c131a9489ea"
+  },
+  "71-novies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "322d86bf442c"
+  },
+  "71-decies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "259fc1895516"
+  },
+  "72": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "276a77c1f6be"
+  },
+  "73": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2017-08-29",
+   "datazione": "api",
+   "h": "ce2405e443ec"
+  },
+  "73-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1994-12-31",
+   "datazione": "api",
+   "h": "250df529ecf5"
+  },
+  "74": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "02eba07b9791"
+  },
+  "75": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-03-26",
+   "datazione": "api",
+   "h": "dc8a1e165590"
+  },
+  "76": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "88e3be68e20c"
+  },
+  "77": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "a5621329adb3"
+  },
+  "78": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "8747ba02096f"
+  },
+  "78-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "277313052c48"
+  },
+  "78-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "a988cdef0536"
+  },
+  "78-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-16",
+   "datazione": "api",
+   "h": "8c79a087013d"
+  },
+  "79": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "974a17a67360"
+  },
+  "79-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "9e665be6c34f"
+  },
+  "80": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "d5eff8af6fc8"
+  },
+  "81": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "278723c3680f"
+  },
+  "82": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1994-12-31",
+   "datazione": "api",
+   "h": "3ef6567a966f"
+  },
+  "83": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "717d93a2e797"
+  },
+  "84": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "09ab5ec946d7"
+  },
+  "84-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-03-26",
+   "datazione": "api",
+   "h": "63ab1c205eb2"
+  },
+  "84-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-03-26",
+   "datazione": "api",
+   "h": "5a5ba21c9879"
+  },
+  "85": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2014-03-26",
+   "datazione": "api",
+   "h": "3bb21833dbad"
+  },
+  "85-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "e5fd4d4ee05b"
+  },
+  "85-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-14",
+   "datazione": "api",
+   "h": "85d39f752128"
+  },
+  "85-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-14",
+   "datazione": "api",
+   "h": "6d35f10fb004"
+  },
+  "85-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-06-14",
+   "datazione": "api",
+   "h": "4b6faa276f1d"
+  },
+  "86": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "5a5a1e3bda11"
+  },
+  "87": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "1473c52fde9c"
+  },
+  "88": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "1d42545dc0c4"
+  },
+  "89": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "0ba8a5bfca39"
+  },
+  "90": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "2d0e22cd2952"
+  },
+  "91": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "db5b32c7bc13"
+  },
+  "92": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2025-12-18",
+   "datazione": "api",
+   "h": "eb67a714afb7"
+  },
+  "93": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "4295e288a9c3"
+  },
+  "94": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "8dbf7fe8cd81"
+  },
+  "95": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "0970e3e663af"
+  },
+  "96": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "4465152587e5"
+  },
+  "97": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "0931154cf830"
+  },
+  "98": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "dfa156ed83bb"
+  },
+  "99": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1945-08-17",
+   "datazione": "api",
+   "h": "28d5a3655359"
+  },
+  "99-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "38378c268dd0"
+  },
+  "100": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "78cf53fa61ed"
+  },
+  "101": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "015a7b65f809"
+  },
+  "102": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "97ce995ff564"
+  },
+  "102-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1999-06-16",
+   "datazione": "api",
+   "h": "85bcb7805b8b"
+  },
+  "102-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1999-06-16",
+   "datazione": "api",
+   "h": "aae659271039"
+  },
+  "102-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "1754209035d8"
+  },
+  "102-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "d8e14847bbd5"
+  },
+  "102-sexies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "83ca9da08faf"
+  },
+  "102-septies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "03a4e86f81f0"
+  },
+  "102-octies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "7d4bd9886e71"
+  },
+  "102-novies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "323f915cb3a0"
+  },
+  "102-decies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "085348c0ef1c"
+  },
+  "102-undecies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "b49554589da2"
+  },
+  "102-duodecies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "365169484161"
+  },
+  "102-terdecies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "80271bb8fbab"
+  },
+  "102-quaterdecies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "94fd032fbc21"
+  },
+  "102-quindecies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "e8ea1972c976"
+  },
+  "102-sex-decies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "88c249e0b991"
+  },
+  "102-septies-decies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "0743eea24463"
+  },
+  "103": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2017-01-01",
+   "datazione": "api",
+   "h": "b6b3db89bf47"
+  },
+  "104": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "fd782f6167bd"
+  },
+  "105": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1993-01-15",
+   "datazione": "api",
+   "h": "f7e8fb104cda"
+  },
+  "106": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "3df452a02129"
+  },
+  "107": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "5ca6bcba28fd"
+  },
+  "108": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1975-03-10",
+   "datazione": "api",
+   "h": "a98cb2fddd91"
+  },
+  "109": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "b7b5cce33c3d"
+  },
+  "110": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "b7ae8ca86103"
+  },
+  "110-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "0c93e09c32dd"
+  },
+  "110-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "312ca7584ac6"
+  },
+  "110-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "47c21150d339"
+  },
+  "110-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "e8e9622b7c23"
+  },
+  "110-sexies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "415bc7e15afe"
+  },
+  "110-septies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "622ffcb1aeca"
+  },
+  "111": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "6471ebe1f80f"
+  },
+  "112": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a70cdd29db27"
+  },
+  "113": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "da85c162ea8e"
+  },
+  "114": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "f497868c45d8"
+  },
+  "114-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "39fce95d7a5c"
+  },
+  "115": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "bc9c6220c8cd"
+  },
+  "116": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "2108c5950403"
+  },
+  "117": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a84c7454427c"
+  },
+  "118": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "3bbe8bd1afcb"
+  },
+  "119": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "60d96411663d"
+  },
+  "120": {
+   "file": "l-633-1941.md",
+   "rubrica": "null",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "8eb1126b260a"
+  },
+  "121": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "e470fed13177"
+  },
+  "122": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "d4b1fae6dbf1"
+  },
+  "123": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "1235c10efc9e"
+  },
+  "124": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "2f181aba8deb"
+  },
+  "125": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "73485d91c62d"
+  },
+  "126": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "7cc2226bcbc6"
+  },
+  "127": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "d9de314fe153"
+  },
+  "128": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a6ba8f6e4d66"
+  },
+  "129": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "5a4171955f40"
+  },
+  "130": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "662472d84876"
+  },
+  "131": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "dd79028fbb26"
+  },
+  "132": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "2cbd873455fa"
+  },
+  "133": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "03490a623715"
+  },
+  "134": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "60f979f79f7d"
+  },
+  "135": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "d53da81ac6b9"
+  },
+  "136": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "3ca953c8facb"
+  },
+  "137": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "c02cbbc77e7a"
+  },
+  "138": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "8daf876ae59a"
+  },
+  "139": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "2e2899190278"
+  },
+  "140": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "ad4ae98fe4d7"
+  },
+  "141": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "b06627940904"
+  },
+  "142": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a822252f7e02"
+  },
+  "143": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "173cee2142cf"
+  },
+  "144": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "32db157f8145"
+  },
+  "145": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "1d6572445d3e"
+  },
+  "146": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "a72acf5420a5"
+  },
+  "147": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "ff603fa7be05"
+  },
+  "148": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "85507af9a4a4"
+  },
+  "149": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "29c9efb0f6be"
+  },
+  "150": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2008-03-21",
+   "datazione": "api",
+   "h": "76fc9fc5c9fb"
+  },
+  "151": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "14a79390eb48"
+  },
+  "152": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "1b9ae84fb9c0"
+  },
+  "153": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "362909b9eafb"
+  },
+  "154": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "d1a5d9db7985"
+  },
+  "155": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "88a62eeca6fd"
+  },
+  "156": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2017-04-11",
+   "datazione": "api",
+   "h": "1eccb43d9118"
+  },
+  "156-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "f86b712cd1c7"
+  },
+  "156-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "a90c257aaa52"
+  },
+  "157": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "ddeed64c1d38"
+  },
+  "158": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "b9677e8b4c4a"
+  },
+  "159": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "a90508594894"
+  },
+  "160": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "22c426c2391f"
+  },
+  "161": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "55c730ac3e82"
+  },
+  "162": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "f6632e6f39e2"
+  },
+  "162-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2026-06-12",
+   "datazione": "api",
+   "h": "b8df4c2db2dc"
+  },
+  "162-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "f8a9a08d82c2"
+  },
+  "163": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "e3278db9e96f"
+  },
+  "164": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "21fe4c884b29"
+  },
+  "165": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "62bf5dc6c4c1"
+  },
+  "166": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "b6d595f9b8f4"
+  },
+  "167": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-22",
+   "datazione": "api",
+   "h": "ac485e6ae745"
+  },
+  "168": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "638c58823b97"
+  },
+  "169": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "97d43b83c4df"
+  },
+  "170": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "72c1286ce884"
+  },
+  "171": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2025-10-10",
+   "datazione": "api",
+   "h": "38c538a1aa33"
+  },
+  "171-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2024-11-15",
+   "datazione": "api",
+   "h": "0714d9376294"
+  },
+  "171-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2024-11-15",
+   "datazione": "api",
+   "h": "c92a11aa240d"
+  },
+  "171-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "a14fd87b6d90"
+  },
+  "171-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "cc09a9b4b693"
+  },
+  "171-sexies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2024-11-15",
+   "datazione": "api",
+   "h": "f72e6eb216b9"
+  },
+  "171-septies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2024-11-15",
+   "datazione": "api",
+   "h": "ca30697dacb6"
+  },
+  "171-octies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2005-01-06",
+   "datazione": "api",
+   "h": "b2e49a39899d"
+  },
+  "171-novies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "68e2ed587622"
+  },
+  "171-octies-1": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "255900897410"
+  },
+  "172": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "df4f89b767be"
+  },
+  "173": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "cc48a370ce38"
+  },
+  "174": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "27e739a63fd0"
+  },
+  "174-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "75afcc96b16e"
+  },
+  "174-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2023-08-08",
+   "datazione": "api",
+   "h": "88b0e2a05663"
+  },
+  "174-quater": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "a9762b58a1f2"
+  },
+  "174-quinquies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "676014aba59f"
+  },
+  "174-sexies": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2024-10-09",
+   "datazione": "api",
+   "h": "9449436d7059"
+  },
+  "175": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-03-02",
+   "datazione": "api",
+   "h": "7deeafe2a993"
+  },
+  "176": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1997-03-02",
+   "datazione": "api",
+   "h": "7deeafe2a993"
+  },
+  "177": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1993-06-11",
+   "datazione": "api",
+   "h": "119fa6c8daca"
+  },
+  "178": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1993-06-11",
+   "datazione": "api",
+   "h": "119fa6c8daca"
+  },
+  "179": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1993-06-11",
+   "datazione": "api",
+   "h": "119fa6c8daca"
+  },
+  "180": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2024-11-15",
+   "datazione": "api",
+   "h": "c75a7a236812"
+  },
+  "180-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-14",
+   "datazione": "api",
+   "h": "6337ee1ea77f"
+  },
+  "180-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-12",
+   "datazione": "api",
+   "h": "57bc9d1cb851"
+  },
+  "181": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "c306445706eb"
+  },
+  "181-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2024-11-15",
+   "datazione": "api",
+   "h": "612177927e1a"
+  },
+  "181-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "6d513a1b743e"
+  },
+  "182": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1999-11-30",
+   "datazione": "api",
+   "h": "b670c1ffad7f"
+  },
+  "182-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2006-04-09",
+   "datazione": "api",
+   "h": "cc4b6d53b915"
+  },
+  "182-ter": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "83d724675ca9"
+  },
+  "183": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a5d6d8fe9386"
+  },
+  "184": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "df0ee4ac1d65"
+  },
+  "185": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "1853587761a3"
+  },
+  "186": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "80f3d505915b"
+  },
+  "187": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "1d9092a6af83"
+  },
+  "188": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1946-09-13",
+   "datazione": "api",
+   "h": "7ba16dacf2e2"
+  },
+  "189": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1946-09-13",
+   "datazione": "api",
+   "h": "de025dfe9019"
+  },
+  "190": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "dd84abeaf383"
+  },
+  "191": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "b6599718ce3c"
+  },
+  "192": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "f2987e0c57cc"
+  },
+  "193": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "e2519ade2d21"
+  },
+  "194": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "ac97ea876f80"
+  },
+  "194-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
+   "h": "5d434cf6c70e"
+  },
+  "195": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a35db63b6d55"
+  },
+  "196": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "bdb390ea2dad"
+  },
+  "197": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "edfb22d13224"
+  },
+  "198": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1973-05-31",
+   "datazione": "api",
+   "h": "c3feb24ed140"
+  },
+  "199": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "a68d1a8f506c"
+  },
+  "199-bis": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "8b3def188470"
+  },
+  "200": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "9f7085e69996"
+  },
+  "201": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "1b28ba0d53da"
+  },
+  "202": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
+   "h": "f3cf86423a95"
+  },
+  "203": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "5e607efa7b8a"
+  },
+  "204": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
+   "h": "e714dc2802ca"
+  },
+  "205": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "a143dba38599"
+  },
+  "206": {
+   "file": "l-633-1941.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "da4fe626a72b"
+  }
+ }
+}

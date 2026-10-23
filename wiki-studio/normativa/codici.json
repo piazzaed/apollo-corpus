@@ -3291,6 +3291,284 @@
     "antiriciclaggio"
    ],
    "citazione": "D.Lgs. 231/2007"
+  },
+  "dlgs-74-2000": {
+   "nome": "Reati tributari (D.Lgs. 74/2000)",
+   "urn": "urn:nir:stato:decreto.legislativo:2000-03-10;74",
+   "doc_prefix": "",
+   "min_articoli": 20,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.Lgs. 74/2000",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.lgs. 74/2000",
+    "dlgs 74/2000"
+   ],
+   "materie": [
+    "tributario",
+    "compliance_231"
+   ],
+   "citazione": "D.Lgs. 74/2000"
+  },
+  "dlgs-152-2006": {
+   "nome": "Codice dell'ambiente (D.Lgs. 152/2006)",
+   "urn": "urn:nir:stato:decreto.legislativo:2006-04-03;152",
+   "doc_prefix": "",
+   "min_articoli": 250,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.Lgs. 152/2006",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.lgs. 152/2006",
+    "dlgs 152/2006"
+   ],
+   "materie": [
+    "ambiente",
+    "compliance_231"
+   ],
+   "citazione": "D.Lgs. 152/2006",
+   "doppi_esclusi": [
+    "298-bis"
+   ]
+  },
+  "l-633-1941": {
+   "nome": "Diritto d'autore (L. 633/1941)",
+   "urn": "urn:nir:stato:legge:1941-04-22;633",
+   "doc_prefix": "",
+   "min_articoli": 150,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 633/1941",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 633/1941",
+    "legge 633/1941"
+   ],
+   "materie": [
+    "proprieta_intellettuale",
+    "compliance_231"
+   ],
+   "citazione": "L. 633/1941"
+  },
+  "dpr-309-1990": {
+   "nome": "Testo unico stupefacenti (D.P.R. 309/1990)",
+   "urn": "urn:nir:stato:decreto.del.presidente.della.repubblica:1990-10-09;309",
+   "doc_prefix": "",
+   "min_articoli": 80,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.P.R. 309/1990",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.p.r. 309/1990",
+    "dpr 309/1990"
+   ],
+   "materie": [
+    "penale",
+    "compliance_231"
+   ],
+   "citazione": "D.P.R. 309/1990"
+  },
+  "dl-105-2019": {
+   "nome": "Perimetro di sicurezza nazionale cibernetica (D.L. 105/2019)",
+   "urn": "urn:nir:stato:decreto.legge:2019-09-21;105",
+   "doc_prefix": "",
+   "min_articoli": 4,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.L. 105/2019",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.l. 105/2019",
+    "dl 105/2019"
+   ],
+   "materie": [
+    "compliance_231"
+   ],
+   "citazione": "D.L. 105/2019"
+  },
+  "dlgs-504-1995": {
+   "nome": "Testo unico delle accise (D.Lgs. 504/1995)",
+   "urn": "urn:nir:stato:decreto.legislativo:1995-10-26;504",
+   "doc_prefix": "",
+   "min_articoli": 40,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.Lgs. 504/1995",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.lgs. 504/1995",
+    "dlgs 504/1995"
+   ],
+   "materie": [
+    "tributario",
+    "compliance_231"
+   ],
+   "citazione": "D.Lgs. 504/1995"
+  },
+  "dlgs-202-2007": {
+   "nome": "Inquinamento provocato dalle navi (D.Lgs. 202/2007)",
+   "urn": "urn:nir:stato:decreto.legislativo:2007-11-06;202",
+   "doc_prefix": "",
+   "min_articoli": 8,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "D.Lgs. 202/2007",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "d.lgs. 202/2007",
+    "dlgs 202/2007"
+   ],
+   "materie": [
+    "ambiente",
+    "compliance_231"
+   ],
+   "citazione": "D.Lgs. 202/2007"
+  },
+  "l-150-1992": {
+   "nome": "Commercio internazionale di specie protette (L. 150/1992)",
+   "urn": "urn:nir:stato:legge:1992-02-07;150",
+   "doc_prefix": "",
+   "min_articoli": 6,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 150/1992",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 150/1992",
+    "legge 150/1992"
+   ],
+   "materie": [
+    "ambiente",
+    "compliance_231"
+   ],
+   "citazione": "L. 150/1992"
+  },
+  "l-549-1993": {
+   "nome": "Tutela dell'ozono stratosferico (L. 549/1993)",
+   "urn": "urn:nir:stato:legge:1993-12-28;549",
+   "doc_prefix": "",
+   "min_articoli": 6,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 549/1993",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 549/1993",
+    "legge 549/1993"
+   ],
+   "materie": [
+    "ambiente",
+    "compliance_231"
+   ],
+   "citazione": "L. 549/1993"
+  },
+  "l-654-1975": {
+   "nome": "Convenzione contro la discriminazione razziale (L. 654/1975)",
+   "urn": "urn:nir:stato:legge:1975-10-13;654",
+   "doc_prefix": "",
+   "min_articoli": 2,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 654/1975",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 654/1975",
+    "legge 654/1975"
+   ],
+   "materie": [
+    "penale",
+    "compliance_231"
+   ],
+   "citazione": "L. 654/1975"
+  },
+  "l-401-1989": {
+   "nome": "Frodi in competizioni sportive (L. 401/1989)",
+   "urn": "urn:nir:stato:legge:1989-12-13;401",
+   "doc_prefix": "",
+   "min_articoli": 3,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 401/1989",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 401/1989",
+    "legge 401/1989"
+   ],
+   "materie": [
+    "penale",
+    "compliance_231"
+   ],
+   "citazione": "L. 401/1989"
+  },
+  "l-898-1986": {
+   "nome": "Frodi comunitarie in agricoltura (L. 898/1986)",
+   "urn": "urn:nir:stato:legge:1986-12-23;898",
+   "doc_prefix": "",
+   "min_articoli": 2,
+   "solo_corpo": true,
+   "libri": [
+    [
+     "L. 898/1986",
+     1,
+     9999
+    ]
+   ],
+   "alias": [
+    "l. 898/1986",
+    "legge 898/1986"
+   ],
+   "materie": [
+    "penale",
+    "compliance_231"
+   ],
+   "citazione": "L. 898/1986"
   }
  }
 }

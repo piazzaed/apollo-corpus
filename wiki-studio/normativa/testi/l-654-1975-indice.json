@@ -1,0 +1,92 @@
+{
+ "_meta": {
+  "codice": "l-654-1975",
+  "nome": "Convenzione contro la discriminazione razziale (L. 654/1975)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2018-04-06",
+  "articoli": 4,
+  "file": [
+   "l-654-1975.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1975-10-13;654",
+  "versioni": [
+   {
+    "data": "1975-12-23",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1989-03-23",
+    "evento": "rp1",
+    "atto_modificante": "L. 8 marzo 1989, n. 101"
+   },
+   {
+    "data": "1993-04-27",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 26 aprile 1993, n. 122"
+   },
+   {
+    "data": "2006-03-13",
+    "evento": "rp3",
+    "atto_modificante": "L. 24 febbraio 2006, n. 85"
+   },
+   {
+    "data": "2016-06-28",
+    "evento": "rp4",
+    "atto_modificante": "L. 16 giugno 2016, n. 115"
+   },
+   {
+    "data": "2017-11-27",
+    "evento": "rp5",
+    "atto_modificante": "L. 20 novembre 2017, n. 167"
+   },
+   {
+    "data": "2018-03-22",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 1 marzo 2018, n. 21"
+   }
+  ],
+  "ultima_versione": "2018-03-22",
+  "datazione": {
+   "monoblocco": 4,
+   "api": 4,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "chiamate": 4,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-654-1975.md",
+   "rubrica": "",
+   "vigore_da": "1976-01-07",
+   "datazione": "api",
+   "h": "abec3cebcc90"
+  },
+  "2": {
+   "file": "l-654-1975.md",
+   "rubrica": "",
+   "vigore_da": "1976-01-07",
+   "datazione": "api",
+   "h": "1762348fdc23"
+  },
+  "3": {
+   "file": "l-654-1975.md",
+   "rubrica": "",
+   "vigore_da": "2018-04-06",
+   "datazione": "api",
+   "h": "245f8be77bb8"
+  },
+  "4": {
+   "file": "l-654-1975.md",
+   "rubrica": "",
+   "vigore_da": "1976-01-07",
+   "datazione": "api",
+   "h": "01ca556db117"
+  }
+ }
+}

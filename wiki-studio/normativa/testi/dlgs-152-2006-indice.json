@@ -1,0 +1,4340 @@
+{
+ "_meta": {
+  "codice": "dlgs-152-2006",
+  "nome": "Codice dell'ambiente (D.Lgs. 152/2006)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2026-10-07",
+  "articoli": 442,
+  "file": [
+   "dlgs-152-2006.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2006-04-03;152",
+  "versioni": [
+   {
+    "data": "2006-04-14",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2006-05-13",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 12 maggio 2006, n. 173"
+   },
+   {
+    "data": "2006-10-03",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 3 ottobre 2006, n. 262"
+   },
+   {
+    "data": "2006-11-24",
+    "evento": "rp3",
+    "atto_modificante": "D.Lgs. 8 novembre 2006, n. 284"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp4",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2006-12-28",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 28 dicembre 2006, n. 300"
+   },
+   {
+    "data": "2007-05-11",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 11 maggio 2007, n. 61"
+   },
+   {
+    "data": "2007-07-10",
+    "evento": "rp7",
+    "atto_modificante": "D.P.R. 14 maggio 2007, n. 90"
+   },
+   {
+    "data": "2007-10-31",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 30 ottobre 2007, n. 180"
+   },
+   {
+    "data": "2007-11-09",
+    "evento": "rp9",
+    "atto_modificante": "D.Lgs. 9 novembre 2007, n. 205"
+   },
+   {
+    "data": "2007-12-31",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 31 dicembre 2007, n. 248"
+   },
+   {
+    "data": "2008-01-29",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 16 gennaio 2008, n. 4"
+   },
+   {
+    "data": "2008-04-09",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 8 aprile 2008, n. 59"
+   },
+   {
+    "data": "2008-05-23",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 23 maggio 2008, n. 90"
+   },
+   {
+    "data": "2008-07-07",
+    "evento": "rp14",
+    "atto_modificante": "D.Lgs. 30 maggio 2008, n. 117"
+   },
+   {
+    "data": "2008-08-11",
+    "evento": "rp15",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 16 giugno 2008, n. 131"
+   },
+   {
+    "data": "2008-10-15",
+    "evento": "rp16",
+    "atto_modificante": "atto modificante non indicato (rp16)"
+   },
+   {
+    "data": "2008-11-04",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 3 novembre 2008, n. 171"
+   },
+   {
+    "data": "2008-11-06",
+    "evento": "rp18",
+    "atto_modificante": "D.L. 6 novembre 2008, n. 172"
+   },
+   {
+    "data": "2008-11-29",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 29 novembre 2008, n. 185"
+   },
+   {
+    "data": "2008-12-03",
+    "evento": "rp20",
+    "atto_modificante": "D.Lgs. 20 novembre 2008, n. 188"
+   },
+   {
+    "data": "2008-12-31",
+    "evento": "rp21",
+    "atto_modificante": "D.L. 30 dicembre 2008, n. 208"
+   },
+   {
+    "data": "2009-04-04",
+    "evento": "rp22",
+    "atto_modificante": "D.Lgs. 16 marzo 2009, n. 30"
+   },
+   {
+    "data": "2009-04-28",
+    "evento": "rp23",
+    "atto_modificante": "D.L. 28 aprile 2009, n. 39"
+   },
+   {
+    "data": "2009-05-30",
+    "evento": "rp24",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 14 aprile 2009, n. 56"
+   },
+   {
+    "data": "2009-07-01",
+    "evento": "rp25",
+    "atto_modificante": "D.L. 1 luglio 2009, n. 78"
+   },
+   {
+    "data": "2009-07-29",
+    "evento": "rp26+rp27+rp28+rp29+rp30",
+    "atto_modificante": "atto modificante non indicato (rp26); atto modificante non indicato (rp27); atto modificante non indicato (rp28); atto modificante non indicato (rp29); atto modificante non indicato (rp30)"
+   },
+   {
+    "data": "2009-07-31",
+    "evento": "rp31",
+    "atto_modificante": "L. 23 luglio 2009, n. 99"
+   },
+   {
+    "data": "2009-09-25",
+    "evento": "rp32",
+    "atto_modificante": "D.L. 25 settembre 2009, n. 135"
+   },
+   {
+    "data": "2009-10-01",
+    "evento": "rp33",
+    "atto_modificante": "D.P.R. 3 agosto 2009, n. 140"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp34",
+    "atto_modificante": "D.L. 30 dicembre 2009, n. 194"
+   },
+   {
+    "data": "2010-01-26",
+    "evento": "rp35",
+    "atto_modificante": "D.L. 25 gennaio 2010, n. 2"
+   },
+   {
+    "data": "2010-02-03",
+    "evento": "rp36",
+    "atto_modificante": "atto modificante non indicato (rp36)"
+   },
+   {
+    "data": "2010-03-12",
+    "evento": "rp37",
+    "atto_modificante": "L. 25 febbraio 2010, n. 36"
+   },
+   {
+    "data": "2010-05-31",
+    "evento": "rp38",
+    "atto_modificante": "D.L. 31 maggio 2010, n. 78"
+   },
+   {
+    "data": "2010-07-07",
+    "evento": "rp39",
+    "atto_modificante": "D.Lgs. 2 luglio 2010, n. 104"
+   },
+   {
+    "data": "2010-07-09",
+    "evento": "rp40",
+    "atto_modificante": "D.L. 8 luglio 2010, n. 105"
+   },
+   {
+    "data": "2010-08-11",
+    "evento": "rp41",
+    "atto_modificante": "D.Lgs. 29 giugno 2010, n. 128"
+   },
+   {
+    "data": "2010-10-12",
+    "evento": "rp42",
+    "atto_modificante": "D.P.R. 7 settembre 2010, n. 168"
+   },
+   {
+    "data": "2010-11-26",
+    "evento": "rp43",
+    "atto_modificante": "D.L. 26 novembre 2010, n. 196"
+   },
+   {
+    "data": "2010-12-10",
+    "evento": "rp44",
+    "atto_modificante": "D.Lgs. 3 dicembre 2010, n. 205"
+   },
+   {
+    "data": "2010-12-20",
+    "evento": "rp45",
+    "atto_modificante": "D.Lgs. 10 dicembre 2010, n. 219"
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp46",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2011-02-07",
+    "evento": "rp47",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 8 novembre 2010, n. 260"
+   },
+   {
+    "data": "2011-03-28",
+    "evento": "rp48",
+    "atto_modificante": "atto modificante non indicato (rp48)"
+   },
+   {
+    "data": "2011-04-28",
+    "evento": "rp49",
+    "atto_modificante": "D.Lgs. 31 marzo 2011, n. 55"
+   },
+   {
+    "data": "2011-05-13",
+    "evento": "rp50",
+    "atto_modificante": "D.L. 13 maggio 2011, n. 70"
+   },
+   {
+    "data": "2011-07-20",
+    "evento": "rp51",
+    "atto_modificante": "D.P.R. 18 luglio 2011, n. 116"
+   },
+   {
+    "data": "2011-08-01",
+    "evento": "rp52",
+    "atto_modificante": "D.Lgs. 7 luglio 2011, n. 121"
+   },
+   {
+    "data": "2011-09-21",
+    "evento": "rp53",
+    "atto_modificante": "D.Lgs. 1 settembre 2011, n. 150"
+   },
+   {
+    "data": "2011-10-04",
+    "evento": "rp54",
+    "atto_modificante": "D.Lgs. 14 settembre 2011, n. 162"
+   },
+   {
+    "data": "2011-12-06",
+    "evento": "rp55",
+    "atto_modificante": "D.L. 6 dicembre 2011, n. 201"
+   },
+   {
+    "data": "2011-12-29",
+    "evento": "rp56",
+    "atto_modificante": "D.L. 29 dicembre 2011, n. 216"
+   },
+   {
+    "data": "2012-01-24",
+    "evento": "rp57",
+    "atto_modificante": "D.L. 24 gennaio 2012, n. 1"
+   },
+   {
+    "data": "2012-01-25",
+    "evento": "rp58",
+    "atto_modificante": "D.L. 25 gennaio 2012, n. 2"
+   },
+   {
+    "data": "2012-02-09",
+    "evento": "rp59",
+    "atto_modificante": "D.L. 9 febbraio 2012, n. 5"
+   },
+   {
+    "data": "2012-03-02",
+    "evento": "rp60",
+    "atto_modificante": "D.L. 2 marzo 2012, n. 16"
+   },
+   {
+    "data": "2012-06-26",
+    "evento": "rp61",
+    "atto_modificante": "D.L. 22 giugno 2012, n. 83"
+   },
+   {
+    "data": "2012-08-06",
+    "evento": "rp62",
+    "atto_modificante": "D.Lgs. 30 luglio 2012, n. 125"
+   },
+   {
+    "data": "2012-10-19",
+    "evento": "rp63",
+    "atto_modificante": "D.L. 18 ottobre 2012, n. 179"
+   },
+   {
+    "data": "2013-04-02",
+    "evento": "rp64",
+    "atto_modificante": "atto modificante non indicato (rp64)"
+   },
+   {
+    "data": "2013-05-29",
+    "evento": "rp65",
+    "atto_modificante": "D.P.R. 13 marzo 2013, n. 59"
+   },
+   {
+    "data": "2013-06-04",
+    "evento": "rp66",
+    "atto_modificante": "D.L. 4 giugno 2013, n. 61"
+   },
+   {
+    "data": "2013-06-21",
+    "evento": "rp67",
+    "atto_modificante": "D.L. 21 giugno 2013, n. 69"
+   },
+   {
+    "data": "2013-08-19",
+    "evento": "rp68",
+    "atto_modificante": "atto modificante non indicato (rp68)"
+   },
+   {
+    "data": "2013-08-20",
+    "evento": "rp69",
+    "atto_modificante": "L. 6 agosto 2013, n. 97"
+   },
+   {
+    "data": "2013-08-31",
+    "evento": "rp70",
+    "atto_modificante": "D.L. 31 agosto 2013, n. 101"
+   },
+   {
+    "data": "2013-12-10",
+    "evento": "rp71",
+    "atto_modificante": "D.L. 10 dicembre 2013, n. 136"
+   },
+   {
+    "data": "2013-12-23",
+    "evento": "rp72",
+    "atto_modificante": "D.L. 23 dicembre 2013, n. 145"
+   },
+   {
+    "data": "2013-12-30",
+    "evento": "rp73",
+    "atto_modificante": "D.L. 30 dicembre 2013, n. 150"
+   },
+   {
+    "data": "2014-01-14",
+    "evento": "rp74",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 27 novembre 2013, n. 156"
+   },
+   {
+    "data": "2014-02-10",
+    "evento": "rp75",
+    "atto_modificante": "atto modificante non indicato (rp75)"
+   },
+   {
+    "data": "2014-03-27",
+    "evento": "rp76",
+    "atto_modificante": "D.Lgs. 4 marzo 2014, n. 46"
+   },
+   {
+    "data": "2014-03-28",
+    "evento": "rp77",
+    "atto_modificante": "D.Lgs. 14 marzo 2014, n. 49"
+   },
+   {
+    "data": "2014-06-14",
+    "evento": "rp78",
+    "atto_modificante": "atto modificante non indicato (rp78)"
+   },
+   {
+    "data": "2014-06-24",
+    "evento": "rp79",
+    "atto_modificante": "D.L. 24 giugno 2014, n. 91"
+   },
+   {
+    "data": "2014-08-12",
+    "evento": "rp80",
+    "atto_modificante": "D.Lgs. 16 luglio 2014, n. 112"
+   },
+   {
+    "data": "2014-09-12",
+    "evento": "rp81",
+    "atto_modificante": "D.L. 12 settembre 2014, n. 133"
+   },
+   {
+    "data": "2014-11-10",
+    "evento": "rp82",
+    "atto_modificante": "L. 30 ottobre 2014, n. 161"
+   },
+   {
+    "data": "2014-12-29",
+    "evento": "rp83",
+    "atto_modificante": "L. 23 dicembre 2014, n. 190"
+   },
+   {
+    "data": "2014-12-31",
+    "evento": "rp84",
+    "atto_modificante": "D.L. 31 dicembre 2014, n. 192"
+   },
+   {
+    "data": "2015-01-05",
+    "evento": "rp85",
+    "atto_modificante": "D.L. 5 gennaio 2015, n. 1"
+   },
+   {
+    "data": "2015-05-28",
+    "evento": "rp86",
+    "atto_modificante": "L. 22 maggio 2015, n. 68"
+   },
+   {
+    "data": "2015-06-19",
+    "evento": "rp87",
+    "atto_modificante": "D.L. 19 giugno 2015, n. 78"
+   },
+   {
+    "data": "2015-07-04",
+    "evento": "rp88",
+    "atto_modificante": "D.L. 4 luglio 2015, n. 92"
+   },
+   {
+    "data": "2015-08-03",
+    "evento": "rp89",
+    "atto_modificante": "L. 29 luglio 2015, n. 115"
+   },
+   {
+    "data": "2015-09-16",
+    "evento": "rp90",
+    "atto_modificante": "D.Lgs. 18 agosto 2015, n. 145"
+   },
+   {
+    "data": "2015-10-27",
+    "evento": "rp91",
+    "atto_modificante": "D.Lgs. 13 ottobre 2015, n. 172"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp92+rp93",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208; D.L. 30 dicembre 2015, n. 210"
+   },
+   {
+    "data": "2016-01-18",
+    "evento": "rp94",
+    "atto_modificante": "L. 28 dicembre 2015, n. 221"
+   },
+   {
+    "data": "2016-03-16",
+    "evento": "rp95",
+    "atto_modificante": "atto modificante non indicato (rp95)"
+   },
+   {
+    "data": "2016-06-11",
+    "evento": "rp96",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 8 aprile 2016, n. 99"
+   },
+   {
+    "data": "2016-06-30",
+    "evento": "rp97",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 19 maggio 2016, n. 118"
+   },
+   {
+    "data": "2016-07-01",
+    "evento": "rp98",
+    "atto_modificante": "atto modificante non indicato (rp98)"
+   },
+   {
+    "data": "2016-07-08",
+    "evento": "rp99",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 19 maggio 2016, n. 123"
+   },
+   {
+    "data": "2016-07-13",
+    "evento": "rp100",
+    "atto_modificante": "D.Lgs. 30 giugno 2016, n. 127"
+   },
+   {
+    "data": "2016-07-16",
+    "evento": "rp101",
+    "atto_modificante": "atto modificante non indicato (rp101)"
+   },
+   {
+    "data": "2016-07-20",
+    "evento": "rp102",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 19 maggio 2016, n. 134"
+   },
+   {
+    "data": "2016-07-21",
+    "evento": "rp103",
+    "atto_modificante": "atto modificante non indicato (rp103)"
+   },
+   {
+    "data": "2016-08-10",
+    "evento": "rp104",
+    "atto_modificante": "L. 28 luglio 2016, n. 154"
+   },
+   {
+    "data": "2016-12-30",
+    "evento": "rp105",
+    "atto_modificante": "D.L. 30 dicembre 2016, n. 244"
+   },
+   {
+    "data": "2017-01-13",
+    "evento": "rp106",
+    "atto_modificante": "D.Lgs. 16 dicembre 2016, n. 257"
+   },
+   {
+    "data": "2017-02-09",
+    "evento": "rp107",
+    "atto_modificante": "D.L. 9 febbraio 2017, n. 8"
+   },
+   {
+    "data": "2017-04-12",
+    "evento": "rp108",
+    "atto_modificante": "atto modificante non indicato (rp108)"
+   },
+   {
+    "data": "2017-04-19",
+    "evento": "rp109",
+    "atto_modificante": "atto modificante non indicato (rp109)"
+   },
+   {
+    "data": "2017-04-24",
+    "evento": "rp110",
+    "atto_modificante": "D.L. 24 aprile 2017, n. 50"
+   },
+   {
+    "data": "2017-06-20",
+    "evento": "rp111",
+    "atto_modificante": "D.L. 20 giugno 2017, n. 91"
+   },
+   {
+    "data": "2017-06-24",
+    "evento": "rp112",
+    "atto_modificante": "D.Lgs. 29 maggio 2017, n. 98"
+   },
+   {
+    "data": "2017-07-06",
+    "evento": "rp113",
+    "atto_modificante": "D.Lgs. 16 giugno 2017, n. 104"
+   },
+   {
+    "data": "2017-08-07",
+    "evento": "rp114",
+    "atto_modificante": "D.P.R. 13 giugno 2017, n. 120"
+   },
+   {
+    "data": "2017-08-14",
+    "evento": "rp115",
+    "atto_modificante": "L. 4 agosto 2017, n. 124"
+   },
+   {
+    "data": "2017-11-27",
+    "evento": "rp116",
+    "atto_modificante": "L. 20 novembre 2017, n. 167"
+   },
+   {
+    "data": "2017-12-16",
+    "evento": "rp117",
+    "atto_modificante": "D.Lgs. 15 novembre 2017, n. 183"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp118",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-01-05",
+    "evento": "rp119",
+    "atto_modificante": "atto modificante non indicato (rp119)"
+   },
+   {
+    "data": "2018-01-22",
+    "evento": "rp120",
+    "atto_modificante": "D.Lgs. 2 gennaio 2018, n. 1"
+   },
+   {
+    "data": "2018-03-22",
+    "evento": "rp121",
+    "atto_modificante": "D.Lgs. 1 marzo 2018, n. 21"
+   },
+   {
+    "data": "2018-12-14",
+    "evento": "rp122",
+    "atto_modificante": "D.L. 14 dicembre 2018, n. 135"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp123",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2019-03-29",
+    "evento": "rp124",
+    "atto_modificante": "D.L. 29 marzo 2019, n. 27"
+   },
+   {
+    "data": "2019-04-18",
+    "evento": "rp125",
+    "atto_modificante": "D.L. 18 aprile 2019, n. 32"
+   },
+   {
+    "data": "2019-05-11",
+    "evento": "rp126",
+    "atto_modificante": "L. 3 maggio 2019, n. 37"
+   },
+   {
+    "data": "2019-08-06",
+    "evento": "rp127",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Tutela Del Territorio E Del Mare 29 maggio 2019, n. 74"
+   },
+   {
+    "data": "2019-09-04",
+    "evento": "rp128",
+    "atto_modificante": "D.L. 3 settembre 2019, n. 101"
+   },
+   {
+    "data": "2019-10-24",
+    "evento": "rp129",
+    "atto_modificante": "D.L. 24 ottobre 2019, n. 123"
+   },
+   {
+    "data": "2019-11-02",
+    "evento": "rp130",
+    "atto_modificante": "L. 2 novembre 2019, n. 128"
+   },
+   {
+    "data": "2019-12-30",
+    "evento": "rp131",
+    "atto_modificante": "L. 27 dicembre 2019, n. 160"
+   },
+   {
+    "data": "2020-03-17",
+    "evento": "rp132",
+    "atto_modificante": "D.L. 17 marzo 2020, n. 18"
+   },
+   {
+    "data": "2020-04-29",
+    "evento": "rp133",
+    "atto_modificante": "L. 24 aprile 2020, n. 27"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp134",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2020-07-16",
+    "evento": "rp135",
+    "atto_modificante": "D.L. 16 luglio 2020, n. 76"
+   },
+   {
+    "data": "2020-07-18",
+    "evento": "rp136",
+    "atto_modificante": "L. 17 luglio 2020, n. 77"
+   },
+   {
+    "data": "2020-08-13",
+    "evento": "rp137",
+    "atto_modificante": "D.Lgs. 30 luglio 2020, n. 102"
+   },
+   {
+    "data": "2020-09-11",
+    "evento": "rp138",
+    "atto_modificante": "D.Lgs. 3 settembre 2020, n. 116"
+   },
+   {
+    "data": "2020-09-14",
+    "evento": "rp139",
+    "atto_modificante": "L. 11 settembre 2020, n. 120"
+   },
+   {
+    "data": "2020-12-31",
+    "evento": "rp140",
+    "atto_modificante": "D.L. 31 dicembre 2020, n. 183"
+   },
+   {
+    "data": "2021-03-01",
+    "evento": "rp141",
+    "atto_modificante": "D.L. 1 marzo 2021, n. 22"
+   },
+   {
+    "data": "2021-03-22",
+    "evento": "rp142",
+    "atto_modificante": "D.L. 22 marzo 2021, n. 41"
+   },
+   {
+    "data": "2021-04-29",
+    "evento": "rp143",
+    "atto_modificante": "L. 22 aprile 2021, n. 55"
+   },
+   {
+    "data": "2021-05-21",
+    "evento": "rp144",
+    "atto_modificante": "L. 21 maggio 2021, n. 69"
+   },
+   {
+    "data": "2021-05-31",
+    "evento": "rp145",
+    "atto_modificante": "D.L. 31 maggio 2021, n. 77"
+   },
+   {
+    "data": "2021-06-09",
+    "evento": "rp146",
+    "atto_modificante": "D.L. 9 giugno 2021, n. 80"
+   },
+   {
+    "data": "2021-06-23",
+    "evento": "rp147",
+    "atto_modificante": "D.L. 23 giugno 2021, n. 92"
+   },
+   {
+    "data": "2021-07-30",
+    "evento": "rp148",
+    "atto_modificante": "L. 29 luglio 2021, n. 108"
+   },
+   {
+    "data": "2021-08-07",
+    "evento": "rp149",
+    "atto_modificante": "L. 6 agosto 2021, n. 113"
+   },
+   {
+    "data": "2021-09-09",
+    "evento": "rp150",
+    "atto_modificante": "D.L. 8 settembre 2021, n. 120"
+   },
+   {
+    "data": "2021-09-10",
+    "evento": "rp151",
+    "atto_modificante": "D.L. 10 settembre 2021, n. 121"
+   },
+   {
+    "data": "2021-11-06",
+    "evento": "rp152",
+    "atto_modificante": "D.L. 6 novembre 2021, n. 152"
+   },
+   {
+    "data": "2021-11-08",
+    "evento": "rp153",
+    "atto_modificante": "L. 8 novembre 2021, n. 155"
+   },
+   {
+    "data": "2021-11-09",
+    "evento": "rp154",
+    "atto_modificante": "L. 9 novembre 2021, n. 156"
+   },
+   {
+    "data": "2021-11-30",
+    "evento": "rp155+rp156",
+    "atto_modificante": "D.Lgs. 8 novembre 2021, n. 197; D.Lgs. 8 novembre 2021, n. 196"
+   },
+   {
+    "data": "2021-12-30",
+    "evento": "rp157",
+    "atto_modificante": "D.L. 30 dicembre 2021, n. 228"
+   },
+   {
+    "data": "2021-12-31",
+    "evento": "rp158+rp159",
+    "atto_modificante": "L. 30 dicembre 2021, n. 234; L. 29 dicembre 2021, n. 233"
+   },
+   {
+    "data": "2022-01-27",
+    "evento": "rp160",
+    "atto_modificante": "D.L. 27 gennaio 2022, n. 4"
+   },
+   {
+    "data": "2022-02-28",
+    "evento": "rp161",
+    "atto_modificante": "L. 25 febbraio 2022, n. 15"
+   },
+   {
+    "data": "2022-03-01",
+    "evento": "rp162",
+    "atto_modificante": "D.L. 1 marzo 2022, n. 17"
+   },
+   {
+    "data": "2022-03-28",
+    "evento": "rp163",
+    "atto_modificante": "L. 28 marzo 2022, n. 25"
+   },
+   {
+    "data": "2022-04-28",
+    "evento": "rp164",
+    "atto_modificante": "L. 27 aprile 2022, n. 34"
+   },
+   {
+    "data": "2022-04-30",
+    "evento": "rp165",
+    "atto_modificante": "D.L. 30 aprile 2022, n. 36"
+   },
+   {
+    "data": "2022-05-17",
+    "evento": "rp166",
+    "atto_modificante": "D.L. 17 maggio 2022, n. 50"
+   },
+   {
+    "data": "2022-06-10",
+    "evento": "rp167",
+    "atto_modificante": "L. 17 maggio 2022, n. 60"
+   },
+   {
+    "data": "2022-06-16",
+    "evento": "rp168",
+    "atto_modificante": "D.L. 16 giugno 2022, n. 68"
+   },
+   {
+    "data": "2022-06-29",
+    "evento": "rp169",
+    "atto_modificante": "L. 29 giugno 2022, n. 79"
+   },
+   {
+    "data": "2022-07-15",
+    "evento": "rp170",
+    "atto_modificante": "L. 15 luglio 2022, n. 91"
+   },
+   {
+    "data": "2022-08-05",
+    "evento": "rp171",
+    "atto_modificante": "L. 5 agosto 2022, n. 108"
+   },
+   {
+    "data": "2022-08-09",
+    "evento": "rp172",
+    "atto_modificante": "D.L. 9 agosto 2022, n. 115"
+   },
+   {
+    "data": "2022-08-12",
+    "evento": "rp173",
+    "atto_modificante": "L. 5 agosto 2022, n. 118"
+   },
+   {
+    "data": "2022-09-21",
+    "evento": "rp174",
+    "atto_modificante": "L. 21 settembre 2022, n. 142"
+   },
+   {
+    "data": "2022-09-23",
+    "evento": "rp175",
+    "atto_modificante": "D.L. 23 settembre 2022, n. 144"
+   },
+   {
+    "data": "2022-11-11",
+    "evento": "rp176",
+    "atto_modificante": "D.L. 11 novembre 2022, n. 173"
+   },
+   {
+    "data": "2022-11-18",
+    "evento": "rp177",
+    "atto_modificante": "D.L. 18 novembre 2022, n. 176"
+   },
+   {
+    "data": "2022-12-29",
+    "evento": "rp178",
+    "atto_modificante": "D.L. 29 dicembre 2022, n. 198"
+   },
+   {
+    "data": "2023-01-03",
+    "evento": "rp179",
+    "atto_modificante": "D.Lgs. 25 novembre 2022, n. 203"
+   },
+   {
+    "data": "2023-01-04",
+    "evento": "rp180",
+    "atto_modificante": "L. 16 dicembre 2022, n. 204"
+   },
+   {
+    "data": "2023-01-17",
+    "evento": "rp181",
+    "atto_modificante": "L. 13 gennaio 2023, n. 6"
+   },
+   {
+    "data": "2023-02-24",
+    "evento": "rp182",
+    "atto_modificante": "D.L. 24 febbraio 2023, n. 13"
+   },
+   {
+    "data": "2023-02-27",
+    "evento": "rp183",
+    "atto_modificante": "L. 24 febbraio 2023, n. 14"
+   },
+   {
+    "data": "2023-04-14",
+    "evento": "rp184",
+    "atto_modificante": "D.L. 14 aprile 2023, n. 39"
+   },
+   {
+    "data": "2023-04-21",
+    "evento": "rp185",
+    "atto_modificante": "L. 21 aprile 2023, n. 41"
+   },
+   {
+    "data": "2023-05-29",
+    "evento": "rp186",
+    "atto_modificante": "D.L. 29 maggio 2023, n. 57"
+   },
+   {
+    "data": "2023-06-01",
+    "evento": "rp187",
+    "atto_modificante": "D.Lgs. 23 dicembre 2022, n. 213"
+   },
+   {
+    "data": "2023-06-13",
+    "evento": "rp188",
+    "atto_modificante": "L. 13 giugno 2023, n. 68"
+   },
+   {
+    "data": "2023-06-22",
+    "evento": "rp189",
+    "atto_modificante": "D.L. 22 giugno 2023, n. 75"
+   },
+   {
+    "data": "2023-07-17",
+    "evento": "rp190",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Sicurezza Energetica 8 maggio 2023, n. 90"
+   },
+   {
+    "data": "2023-07-20",
+    "evento": "rp191",
+    "atto_modificante": "atto modificante non indicato (rp191)"
+   },
+   {
+    "data": "2023-08-10",
+    "evento": "rp192",
+    "atto_modificante": "D.L. 10 agosto 2023, n. 105"
+   },
+   {
+    "data": "2023-08-16",
+    "evento": "rp193",
+    "atto_modificante": "L. 10 agosto 2023, n. 112"
+   },
+   {
+    "data": "2023-10-09",
+    "evento": "rp194",
+    "atto_modificante": "L. 9 ottobre 2023, n. 137"
+   },
+   {
+    "data": "2023-10-18",
+    "evento": "rp195",
+    "atto_modificante": "D.L. 18 ottobre 2023, n. 145"
+   },
+   {
+    "data": "2023-12-09",
+    "evento": "rp196",
+    "atto_modificante": "D.L. 9 dicembre 2023, n. 181"
+   },
+   {
+    "data": "2023-12-16",
+    "evento": "rp197",
+    "atto_modificante": "L. 15 dicembre 2023, n. 191"
+   },
+   {
+    "data": "2023-12-30",
+    "evento": "rp198+rp199",
+    "atto_modificante": "L. 30 dicembre 2023, n. 214; D.L. 30 dicembre 2023, n. 215"
+   },
+   {
+    "data": "2024-02-07",
+    "evento": "rp200",
+    "atto_modificante": "L. 2 febbraio 2024, n. 11"
+   },
+   {
+    "data": "2024-02-28",
+    "evento": "rp201",
+    "atto_modificante": "L. 23 febbraio 2024, n. 18"
+   },
+   {
+    "data": "2024-03-02",
+    "evento": "rp202",
+    "atto_modificante": "D.L. 2 marzo 2024, n. 19"
+   },
+   {
+    "data": "2024-04-30",
+    "evento": "rp203",
+    "atto_modificante": "L. 29 aprile 2024, n. 56"
+   },
+   {
+    "data": "2024-05-07",
+    "evento": "rp204",
+    "atto_modificante": "D.L. 7 maggio 2024, n. 60"
+   },
+   {
+    "data": "2024-06-07",
+    "evento": "rp205",
+    "atto_modificante": "D.M. Ministero Dell'Ambiente E Della Sicurezza Energetica 21 marzo 2024, n. 74"
+   },
+   {
+    "data": "2024-06-25",
+    "evento": "rp206",
+    "atto_modificante": "D.L. 25 giugno 2024, n. 84"
+   },
+   {
+    "data": "2024-07-06",
+    "evento": "rp207",
+    "atto_modificante": "L. 4 luglio 2024, n. 95"
+   },
+   {
+    "data": "2024-08-13",
+    "evento": "rp208",
+    "atto_modificante": "L. 8 agosto 2024, n. 115"
+   },
+   {
+    "data": "2024-09-16",
+    "evento": "rp209",
+    "atto_modificante": "D.L. 16 settembre 2024, n. 131"
+   },
+   {
+    "data": "2024-10-17",
+    "evento": "rp210",
+    "atto_modificante": "D.L. 17 ottobre 2024, n. 153"
+   },
+   {
+    "data": "2024-11-14",
+    "evento": "rp211",
+    "atto_modificante": "L. 14 novembre 2024, n. 166"
+   },
+   {
+    "data": "2024-12-12",
+    "evento": "rp212",
+    "atto_modificante": "D.Lgs. 25 novembre 2024, n. 190"
+   },
+   {
+    "data": "2024-12-16",
+    "evento": "rp213",
+    "atto_modificante": "L. 13 dicembre 2024, n. 191"
+   },
+   {
+    "data": "2024-12-17",
+    "evento": "rp214",
+    "atto_modificante": "L. 16 dicembre 2024, n. 193"
+   },
+   {
+    "data": "2024-12-27",
+    "evento": "rp215",
+    "atto_modificante": "D.L. 27 dicembre 2024, n. 202"
+   },
+   {
+    "data": "2024-12-31",
+    "evento": "rp216",
+    "atto_modificante": "L. 30 dicembre 2024, n. 207"
+   },
+   {
+    "data": "2025-02-24",
+    "evento": "rp217",
+    "atto_modificante": "L. 21 febbraio 2025, n. 15"
+   },
+   {
+    "data": "2025-02-28",
+    "evento": "rp218",
+    "atto_modificante": "D.L. 28 febbraio 2025, n. 19"
+   },
+   {
+    "data": "2025-03-14",
+    "evento": "rp219",
+    "atto_modificante": "D.L. 14 marzo 2025, n. 25"
+   },
+   {
+    "data": "2025-04-01",
+    "evento": "rp220",
+    "atto_modificante": "L. 18 marzo 2025, n. 40"
+   },
+   {
+    "data": "2025-04-29",
+    "evento": "rp221",
+    "atto_modificante": "L. 24 aprile 2025, n. 60"
+   },
+   {
+    "data": "2025-05-13",
+    "evento": "rp222",
+    "atto_modificante": "L. 9 maggio 2025, n. 69"
+   },
+   {
+    "data": "2025-05-21",
+    "evento": "rp223",
+    "atto_modificante": "D.L. 21 maggio 2025, n. 73"
+   },
+   {
+    "data": "2025-07-19",
+    "evento": "rp224",
+    "atto_modificante": "L. 18 luglio 2025, n. 105"
+   },
+   {
+    "data": "2025-08-08",
+    "evento": "rp225",
+    "atto_modificante": "D.L. 8 agosto 2025, n. 116"
+   },
+   {
+    "data": "2025-10-07",
+    "evento": "rp226",
+    "atto_modificante": "L. 3 ottobre 2025, n. 147"
+   },
+   {
+    "data": "2025-11-21",
+    "evento": "rp227",
+    "atto_modificante": "D.L. 21 novembre 2025, n. 175"
+   },
+   {
+    "data": "2025-11-26",
+    "evento": "rp228",
+    "atto_modificante": "D.Lgs. 26 novembre 2025, n. 178"
+   },
+   {
+    "data": "2025-12-03",
+    "evento": "rp229",
+    "atto_modificante": "L. 2 dicembre 2025, n. 182"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp230",
+    "atto_modificante": "L. 30 dicembre 2025, n. 199"
+   },
+   {
+    "data": "2025-12-31",
+    "evento": "rp231",
+    "atto_modificante": "D.L. 31 dicembre 2025, n. 200"
+   },
+   {
+    "data": "2026-01-20",
+    "evento": "rp232",
+    "atto_modificante": "L. 15 gennaio 2026, n. 4"
+   },
+   {
+    "data": "2026-01-27",
+    "evento": "rp233",
+    "atto_modificante": "L. 26 gennaio 2026, n. 9"
+   },
+   {
+    "data": "2026-02-05",
+    "evento": "rp234",
+    "atto_modificante": "L. 26 gennaio 2026, n. 14"
+   },
+   {
+    "data": "2026-02-19",
+    "evento": "rp235",
+    "atto_modificante": "D.L. 19 febbraio 2026, n. 19"
+   },
+   {
+    "data": "2026-02-20",
+    "evento": "rp236",
+    "atto_modificante": "D.L. 20 febbraio 2026, n. 21"
+   },
+   {
+    "data": "2026-02-28",
+    "evento": "rp237",
+    "atto_modificante": "L. 27 febbraio 2026, n. 26"
+   },
+   {
+    "data": "2026-03-06",
+    "evento": "rp238",
+    "atto_modificante": "D.Lgs. 10 febbraio 2026, n. 29"
+   },
+   {
+    "data": "2026-03-27",
+    "evento": "rp239",
+    "atto_modificante": "D.L. 27 marzo 2026, n. 38"
+   },
+   {
+    "data": "2026-04-18",
+    "evento": "rp240",
+    "atto_modificante": "L. 10 aprile 2026, n. 49"
+   },
+   {
+    "data": "2026-04-20",
+    "evento": "rp241",
+    "atto_modificante": "L. 20 aprile 2026, n. 50"
+   },
+   {
+    "data": "2026-05-18",
+    "evento": "rp242",
+    "atto_modificante": "D.Lgs. 21 aprile 2026, n. 81"
+   },
+   {
+    "data": "2026-05-22",
+    "evento": "rp243",
+    "atto_modificante": "L. 22 maggio 2026, n. 88"
+   },
+   {
+    "data": "2026-07-27",
+    "evento": "rp244",
+    "atto_modificante": "D.L. 27 luglio 2026, n. 133"
+   },
+   {
+    "data": "2026-08-07",
+    "evento": "rp245",
+    "atto_modificante": "D.L. 7 agosto 2026, n. 143"
+   },
+   {
+    "data": "2026-08-11",
+    "evento": "rp246",
+    "atto_modificante": "D.Lgs. 7 agosto 2026, n. 147"
+   },
+   {
+    "data": "2026-08-28",
+    "evento": "rp247",
+    "atto_modificante": "D.L. 28 agosto 2026, n. 154"
+   },
+   {
+    "data": "2026-09-25",
+    "evento": "rp248",
+    "atto_modificante": "L. 25 settembre 2026, n. 166"
+   },
+   {
+    "data": "2026-10-06",
+    "evento": "rp249",
+    "atto_modificante": "L. 5 ottobre 2026, n. 173"
+   }
+  ],
+  "ultima_versione": "2026-10-06",
+  "doppi_esclusi": [
+   "298-bis"
+  ],
+  "datazione": {
+   "monoblocco": 442,
+   "api": 430,
+   "ignota": 12,
+   "falliti": 11,
+   "testo_diverso": 1,
+   "stima_anteriore": 113,
+   "stima_posteriore": 1,
+   "chiamate": 442,
+   "errori_rete": 11,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "ambito di applicazione",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "78a1c94c3a3f"
+  },
+  "2": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "finalita'",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "0fe0032b8ca1"
+  },
+  "3": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "criteri per l'adozione dei provvedimenti successivi",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "44517d283cc0"
+  },
+  "3-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Principi sulla produzione del diritto ambientale",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "b89313c8bb26"
+  },
+  "3-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Principio dell'azione ambientale",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "2a2ec4d346fe"
+  },
+  "3-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Principio dello sviluppo sostenibile",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "bf7426a087a7"
+  },
+  "3-quinquies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Principi di sussidiarieta' e di leale collaborazione",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "7078fa9a7beb"
+  },
+  "3-sexies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Diritto di accesso alle informazioni ambientali e di partecipazione a scopo collaborativo",
+   "vigore_da": "2014-08-21",
+   "datazione": "api",
+   "h": "209d6672cdef"
+  },
+  "3-septies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Interpello in materia ambientale",
+   "vigore_da": "2021-07-31",
+   "datazione": "api",
+   "h": "80ce31f892ee"
+  },
+  "4": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Finalita'",
+   "vigore_da": "2017-07-21",
+   "datazione": "api",
+   "h": "48f8c6748a46"
+  },
+  "5": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2020-07-17",
+   "datazione": "api",
+   "h": "a8a7164d6be1"
+  },
+  "6": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Oggetto della disciplina",
+   "vigore_da": "2025-07-20",
+   "datazione": "api",
+   "h": "bf9bca39563e"
+  },
+  "7": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Competenze in materia di VAS e di AIA",
+   "vigore_da": "2026-09-26",
+   "datazione": "api",
+   "h": "3acaf129fc32"
+  },
+  "7-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Competenze in materia di VIA e di verifica di assoggettabilita' a VIA",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "85ac0ca242d0"
+  },
+  "8": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Commissione tecnica di verifica dell'impatto ambientale - VIA e VAS",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "0b0365bf76bf"
+  },
+  "8-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Commissione istruttoria per l'autorizzazione integrata ambientale - IPPC",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "28aa3d528aa3"
+  },
+  "9": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Norme procedurali generali",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "3cd636d12241"
+  },
+  "10": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Coordinamento delle procedure di VAS, VIA, Verifica di assoggettabilita' a VIA, Valutazione di incidenza e Autorizzazione integrata ambientale",
+   "vigore_da": "2017-07-21",
+   "datazione": "api",
+   "h": "bffeff40a159"
+  },
+  "11": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Modalita' di svolgimento",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "608fd85d3cc6"
+  },
+  "12": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Verifica di assoggettabilita",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "46bf21eb66d3"
+  },
+  "13": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Redazione del rapporto ambientale",
+   "vigore_da": "2021-11-07",
+   "datazione": "api",
+   "h": "ea79fb598531"
+  },
+  "14": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consultazione",
+   "vigore_da": "2021-11-07",
+   "datazione": "api",
+   "h": "179753279238"
+  },
+  "15": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Valutazione del rapporto ambientale e degli esiti della consultazione",
+   "vigore_da": "2021-11-07",
+   "datazione": "api",
+   "h": "4f9fdcd3cf39"
+  },
+  "16": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Decisione",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "5e11d6ad63b3"
+  },
+  "17": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Informazione sulla decisione",
+   "vigore_da": "2014-08-21",
+   "datazione": "api",
+   "h": "364c3139041f"
+  },
+  "18": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Monitoraggio",
+   "vigore_da": "2021-06-01",
+   "datazione": "api",
+   "h": "a8c677e5f29b"
+  },
+  "19": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Modalita' di svolgimento del procedimento di verifica di assoggettabilita' a VIA",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "31f8eac1f566"
+  },
+  "20": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consultazione preventiva",
+   "vigore_da": "2021-06-01",
+   "datazione": "api",
+   "h": "14d5e588b903"
+  },
+  "21": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Definizione dei contenuti dello studio di impatto ambientale",
+   "vigore_da": "2020-07-17",
+   "datazione": "api",
+   "h": "4316bfcfc3c9"
+  },
+  "22": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Studio di impatto ambientale",
+   "vigore_da": "2017-07-21",
+   "datazione": "api",
+   "h": "4969c27b6b7b"
+  },
+  "23": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Presentazione dell'istanza, avvio del procedimento di VIA e pubblicazione degli atti",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "189bcc8990ec"
+  },
+  "24": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consultazione del pubblico, acquisizione dei pareri e consultazioni transfrontaliere",
+   "vigore_da": "2024-10-18",
+   "datazione": "api",
+   "h": "18d480e76761"
+  },
+  "24-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Inchiesta pubblica",
+   "vigore_da": "2017-07-21",
+   "datazione": "api",
+   "h": "c11cc480fda9"
+  },
+  "25": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Valutazione degli impatti ambientali e provvedimento di VIA",
+   "vigore_da": "2026-04-19",
+   "datazione": "api",
+   "h": "213c0371c29a"
+  },
+  "26": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Integrazione del provvedimento di VIA negli atti autorizzatori",
+   "vigore_da": "2017-07-21",
+   "datazione": "api",
+   "h": "35ee055fe5fe"
+  },
+  "26-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Fase preliminare al provvedimento autorizzatorio unico regionale",
+   "vigore_da": "2024-10-18",
+   "datazione": "api",
+   "h": "658e2d456cb4"
+  },
+  "27": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Provvedimento unico in materia ambientale",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "f421d8085615"
+  },
+  "27-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Provvedimento autorizzatorio unico regionale",
+   "vigore_da": "2021-07-31",
+   "datazione": "api",
+   "h": "b2b5613f6708"
+  },
+  "27-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Procedimento autorizzatorio unico accelerato regionale per settori di rilevanza strategica",
+   "vigore_da": "2023-06-14",
+   "datazione": "api",
+   "h": "3a5853a98ab2"
+  },
+  "28": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Monitoraggio",
+   "vigore_da": "2024-05-01",
+   "datazione": "api",
+   "h": "4cb5bae50dbc"
+  },
+  "29": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sistema sanzionatorio",
+   "vigore_da": "2017-07-21",
+   "datazione": "api",
+   "h": "ad9b740ab1cd"
+  },
+  "29-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Individuazione e utilizzo delle migliori tecniche disponibili",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "f46fc8e195e7"
+  },
+  "29-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Domanda di autorizzazione integrata ambientale",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "8eea4a62eea4"
+  },
+  "29-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Procedura per il rilascio dell'autorizzazione integrata ambientale",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "99201dc4feff"
+  },
+  "29-quinquies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Coordinamento per l'uniforme applicazione sul territorio nazionale",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "67b535065baf"
+  },
+  "29-sexies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Autorizzazione integrata ambientale",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "7860b511f8f0"
+  },
+  "29-septies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Migliori tecniche disponibili e norme di qualita' ambientale",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "a8d7669dd8f0"
+  },
+  "29-octies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Rinnovo e riesame",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "809a598e6417"
+  },
+  "29-novies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Modifica degli impianti o variazione del gestore",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "365fa202b5c7"
+  },
+  "29-decies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Rispetto delle condizioni dell'autorizzazione integrata ambientale",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "c3e78219fb38"
+  },
+  "29-undecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Incidenti o imprevisti",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "00b1d3ab4371"
+  },
+  "29-duodecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Comunicazioni",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "24a304fbbdc9"
+  },
+  "29-terdecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Scambio di informazioni",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "f21b3c97d24b"
+  },
+  "29-quaterdecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "56ee6086bc0a"
+  },
+  "30": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Impatti ambientali interregionali",
+   "vigore_da": "2017-07-21",
+   "datazione": "api",
+   "h": "3af6e977168e"
+  },
+  "31": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Attribuzione competenze",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "967db7751ab5"
+  },
+  "32": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consultazioni transfrontaliere",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "986f4a848ed0"
+  },
+  "32-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Effetti transfrontalieri",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "e01105d950db"
+  },
+  "33": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Oneri istruttori",
+   "vigore_da": "2017-07-21",
+   "datazione": "api",
+   "h": "80c1bf6851da"
+  },
+  "34": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Norme tecniche, organizzative e integrative",
+   "vigore_da": "2021-04-30",
+   "datazione": "api",
+   "h": "99f1f9e35114"
+  },
+  "35": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Disposizioni transitorie e finali",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "d855d3041556"
+  },
+  "36": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Abrogazioni e modifiche",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "1eb692b4ed4c"
+  },
+  "37": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "38": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "39": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "40": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "41": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "42": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "43": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "44": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "45": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "46": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "47": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "48": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "49": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "b3363275c147"
+  },
+  "50": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "51": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "52": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "5c418ab4f7f5"
+  },
+  "53": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "finalita",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "71f5ff4f5059"
+  },
+  "54": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "definizioni",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "a3dbdfd8efc3"
+  },
+  "55": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "attivita' conoscitiva",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "abff20a59e26"
+  },
+  "56": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "attivita' di pianificazione, di programmazione e di attuazione",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "67dba59f14ec"
+  },
+  "57": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Presidente del Consiglio dei Ministri, Comitato dei Ministri per gli interventi nel settore della difesa del suolo",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "035b2dc548f4"
+  },
+  "57-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Comitato interministeriale per la transizione ecologica",
+   "vigore_da": "2026-02-11",
+   "datazione": "api",
+   "h": "3ef6ca549a21"
+  },
+  "58": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "836635fd7d30"
+  },
+  "59": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze della Conferenza Stato-regioni",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "2aeb0c3cf74b"
+  },
+  "60": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "f66bc8472424"
+  },
+  "61": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze delle regioni",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "ae6fe04b43de"
+  },
+  "62": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze degli enti locali e di altri soggetti",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "aaece76fe813"
+  },
+  "63": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Autorita' di bacino distrettuale",
+   "vigore_da": "2023-04-15",
+   "datazione": "api",
+   "h": "1c0ad5fef6eb"
+  },
+  "63-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Osservatorio distrettuale permanente sugli utilizzi idrici",
+   "vigore_da": "2023-06-14",
+   "datazione": "api",
+   "h": "cea4b2121323"
+  },
+  "64": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Distretti idrografici",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "c6a4f38241b4"
+  },
+  "65": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "valore, finalita' e contenuti del piano di bacino distrettuale",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "40017ec109a5"
+  },
+  "66": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "adozione ed approvazione dei piani di bacino",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "b5143f33aaf9"
+  },
+  "67": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "i piani stralcio per la tutela dal rischio idrogeologico e le misure di prevenzione per le aree a rischio",
+   "vigore_da": "2018-02-06",
+   "datazione": "api",
+   "h": "dde569e933c3"
+  },
+  "68": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "procedura per l'adozione dei progetti di piani stralcio",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "9b107e98433b"
+  },
+  "68-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Contratti di fiume",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "1acb391263d6"
+  },
+  "69": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "programmi di intervento",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "f7cbfd02528f"
+  },
+  "70": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "adozione dei programmi",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "99b947384f79"
+  },
+  "71": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "attuazione degli interventi",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "f875ebeb9566"
+  },
+  "72": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "finanziamento",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "f178191bf32a"
+  },
+  "72-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Disposizioni per il finanziamento degli interventi di rimozione o di demolizione di immobili abusivi realizzati in aree soggette a rischio idrogeologico elevato o molto elevato ovvero esposti a rischio idrogeologico",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "7e0b954c8462"
+  },
+  "73": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "finalita",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "04a74ae7f3aa"
+  },
+  "74": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "38d60d92cca6"
+  },
+  "75": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "88ab15ba6060"
+  },
+  "76": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disposizioni generali",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "873a4f4197a1"
+  },
+  "77": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "individuazione e perseguimento dell'obiettivo di qualita' ambientale",
+   "vigore_da": "2024-10-18",
+   "datazione": "api",
+   "h": "585633911518"
+  },
+  "78": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Standard di qualita' ambientale per le acque superficiali",
+   "vigore_da": "2015-11-11",
+   "datazione": "api",
+   "h": "8324368f87ed"
+  },
+  "78-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Zone di mescolamento",
+   "vigore_da": "2011-01-04",
+   "datazione": "api",
+   "h": "44c55924a706"
+  },
+  "78-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Inventario dei rilasci da fonte diffusa, degli scarichi e delle perdite",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "9cdd4f7fdadf"
+  },
+  "78-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Inquinamento transfrontaliero",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "a1178a17b801"
+  },
+  "78-quinquies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Metodi di analisi per le acque superficiali e sotterranee",
+   "vigore_da": "2011-01-04",
+   "datazione": "api",
+   "h": "a2db03e0b924"
+  },
+  "78-sexies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Requisiti minimi di prestazione per i metodi di analisi",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "175cb81ea4ca"
+  },
+  "78-septies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Calcolo dei valori medi",
+   "vigore_da": "2015-11-11",
+   "datazione": "api",
+   "h": "65bc4784a39e"
+  },
+  "78-octies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Garanzia e controllo di qualita'",
+   "vigore_da": "2011-01-04",
+   "datazione": "api",
+   "h": "dc0e2a5df43f"
+  },
+  "78-novies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Aggiornamento dei piani di gestione",
+   "vigore_da": "2015-11-11",
+   "datazione": "api",
+   "h": "39967cbed26d"
+  },
+  "78-decies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Disposizioni specifiche per alcune sostanze",
+   "vigore_da": "2015-11-11",
+   "datazione": "api",
+   "h": "5d5230ec3fe4"
+  },
+  "78-undecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Elenco di controllo",
+   "vigore_da": "2015-11-11",
+   "datazione": "api",
+   "h": "124179a6c576"
+  },
+  "79": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "obiettivo di qualita' per specifica destinazione",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "5bf2f6357ada"
+  },
+  "80": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "acque superficiali destinate alla produzione di acqua potabile",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "eddc001e0eca"
+  },
+  "81": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "deroghe",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "35835407cea0"
+  },
+  "82": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "acque utilizzate per l'estrazione di acqua potabile",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "96152d89181a"
+  },
+  "83": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "acque di balneazione",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "87b907210063"
+  },
+  "84": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "acque dolci idonee alla vita dei pesci",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "419633a485f6"
+  },
+  "85": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "accertamento della qualita' delle acque idonee alla vita dei pesci",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "8276914e1edc"
+  },
+  "86": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "deroghe",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "de82a05f0134"
+  },
+  "87": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "acque destinate alla vita dei molluschi",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "b96765f55115"
+  },
+  "88": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "accertamento della qualita' delle acque destinate alla vita dei molluschi",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "897b505aa644"
+  },
+  "89": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "deroghe",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "ee4552b1bba1"
+  },
+  "90": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "norme sanitarie",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "a7e033466653"
+  },
+  "91": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "aree sensibili",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "5e5cedd6b951"
+  },
+  "92": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "zone vulnerabili da nitrati di origine agricola",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "f3710c9735f2"
+  },
+  "93": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "zone vulnerabili da prodotti fitosanitari e zone vulnerabili alla desertificazione",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "da3f8b665304"
+  },
+  "94": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disciplina delle aree di salvaguardia delle acque superficiali e sotterranee destinate al consumo umano",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "7a4e399c75c5"
+  },
+  "95": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "pianificazione del bilancio idrico",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "9a6d9a3a9f78"
+  },
+  "96": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Modifiche al regio decreto 11 dicembre 1933, n. 1775",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "35d693f5efb8"
+  },
+  "97": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "acque minerali naturali e di sorgenti",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "5d43c2c93180"
+  },
+  "98": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "risparmio idrico",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "d88beeb674d4"
+  },
+  "99": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "riutilizzo dell'acqua",
+   "vigore_da": "2024-02-08",
+   "datazione": "api",
+   "h": "8a553ff1b69b"
+  },
+  "100": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "reti fognarie",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "c9422ba8e43f"
+  },
+  "101": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "criteri generali della disciplina degli scarichi",
+   "vigore_da": "2023-06-14",
+   "datazione": "api",
+   "h": "c441c06d6505"
+  },
+  "102": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "scarichi di acque termali",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "d895d02d0d25"
+  },
+  "103": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "scarichi sul suolo",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "0ac4320f50fe"
+  },
+  "104": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Scarichi nel sottosuolo e nelle acque sotterranee",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "b5695decb086"
+  },
+  "105": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "scarichi in acque superficiali",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "b46e591d7e4c"
+  },
+  "106": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "scarichi di acque reflue urbane in corpi idrici ricadenti in aree sensibili",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "3efc4fe274ea"
+  },
+  "107": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Scarichi in reti fognarie",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "eb36616c1f1d"
+  },
+  "108": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "scarichi di sostanze pericolose",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "bec92e134711"
+  },
+  "109": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Immersione in mare di materiale derivante da attivita' di escavo e attivita' di posa in mare di cavi e condotte",
+   "vigore_da": "2023-06-14",
+   "datazione": "api",
+   "h": "25658cc7ea65"
+  },
+  "110": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "trattamento di rifiuti presso impianti di trattamento delle acque reflue urbane",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "22b5662d3236"
+  },
+  "111": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "impianti di acquacoltura e piscicoltura",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "24da63d8df27"
+  },
+  "112": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "utilizzazione agronomica",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "ad51514e2c8d"
+  },
+  "113": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "acque meteoriche di dilavamento e acque di prima pioggia",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "18bf91b20028"
+  },
+  "114": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "dighe",
+   "vigore_da": "2021-09-11",
+   "datazione": "api",
+   "h": "b2063d932382"
+  },
+  "115": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "tutela delle aree di pertinenza dei corpi idrici",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "b8f5330d3cd5"
+  },
+  "116": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "programmi di misure",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "a3ad483a1d8e"
+  },
+  "117": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "piani di gestione e registro delle aree protette",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "f168fc3562cd"
+  },
+  "118": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "rilevamento delle caratteristiche del bacino idrografico ed analisi dell'impatto esercitato dall'attivita' antropica",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "fa6e7ec147be"
+  },
+  "119": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "principio del recupero dei costi relativi ai servizi idrici",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "fa0ca9ae7cf3"
+  },
+  "120": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "rilevamento dello stato di qualita' dei corpi idrici",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "c80cb796779c"
+  },
+  "121": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Piani di tutela delle acque",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "07cfde9880cb"
+  },
+  "122": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "informazione e consultazione pubblica",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "ada037ecf9ef"
+  },
+  "123": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "trasmissione delle informazioni e delle relazioni",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "8b9c7ecd3162"
+  },
+  "124": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "criteri generali",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "ea566d32543e"
+  },
+  "125": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "domanda di autorizzazione agli scarichi di acque reflue industriali",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "89418c1e99ef"
+  },
+  "126": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "approvazione dei progetti degli impianti di trattamento delle acque reflue urbane",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "2f217cf4e134"
+  },
+  "127": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "fanghi derivanti dal trattamento delle acque reflue",
+   "vigore_da": "2023-04-15",
+   "datazione": "api",
+   "h": "04ed46509884"
+  },
+  "128": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "soggetti tenuti al controllo",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "45014a735e03"
+  },
+  "129": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "accessi ed ispezioni",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "c18a83706b48"
+  },
+  "130": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "inosservanza delle prescrizioni della autorizzazione allo scarico",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "e02c2c2d4a77"
+  },
+  "131": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "controllo degli scarichi di sostanze pericolose",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "9bbfad1e1c67"
+  },
+  "132": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "interventi sostitutivi",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "11063e78d371"
+  },
+  "133": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "sanzioni amministrative",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "eafd1bdcf2d5"
+  },
+  "134": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "sanzioni in materia di aree di salvaguardia",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "bf9068ee6fdb"
+  },
+  "135": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenza e giurisdizione",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "5a30458e573a"
+  },
+  "136": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "proventi delle sanzioni amministrative pecuniarie",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "0be15401e455"
+  },
+  "137": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "sanzioni penali",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "966217e96ebb"
+  },
+  "138": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "ulteriori provvedimenti sanzionatori per l'attivita' di molluschicoltura",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "8a981520ae2f"
+  },
+  "139": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "obblighi del condannato",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "afb6198e8c0f"
+  },
+  "140": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "circostanza attenuante",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "b76573d3e058"
+  },
+  "141": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "ambito di applicazione",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "8bdc2a548773"
+  },
+  "142": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "358abbb380ab"
+  },
+  "143": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "proprieta' delle infrastrutture",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "2e7bb5d0c3f5"
+  },
+  "144": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "tutela e uso delle risorse idriche",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "7425e8b958c2"
+  },
+  "145": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "equilibrio del bilancio idrico",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "ef70dd9926d0"
+  },
+  "146": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "risparmio idrico",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "3e10922c6f7a"
+  },
+  "147": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "organizzazione territoriale del servizio idrico integrato",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "e3ae696e0f7e"
+  },
+  "148": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2012-12-31",
+   "datazione": "api",
+   "h": "d996365cc834"
+  },
+  "149": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "piano d'ambito",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "91f1fedbd1fd"
+  },
+  "149-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Affidamento del servizio",
+   "vigore_da": "2015-01-01",
+   "datazione": "api",
+   "h": "1476977d590f"
+  },
+  "150": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "97c929afd061"
+  },
+  "151": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "a49619698957"
+  },
+  "152": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "poteri di controllo e sostitutivi",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "86a58dfb9e06"
+  },
+  "153": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "dotazioni dei soggetti gestori del servizio idrico integrato",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "d86e32b5d010"
+  },
+  "154": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "tariffa del servizio idrico integrato",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "2ff634427f0f"
+  },
+  "155": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "tariffa del servizio di fognatura e depurazione",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "550ec2d71c1a"
+  },
+  "156": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "riscossione della tariffa",
+   "vigore_da": "2026-05-23",
+   "datazione": "api",
+   "h": "789b2be8b79a"
+  },
+  "157": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "opere di adeguamento del servizio idrico",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "4b03d8650d90"
+  },
+  "158": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "opere e interventi per il trasferimento di acqua",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "8ae8dc2cbd10"
+  },
+  "158-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Approvazione dei progetti degli interventi e individuazione dell'autorita' espropriante",
+   "vigore_da": "2018-02-06",
+   "datazione": "api",
+   "h": "f55d7444cb66"
+  },
+  "159": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2006-11-25",
+   "datazione": "api",
+   "h": "55bec81c9405"
+  },
+  "160": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2006-11-25",
+   "datazione": "api",
+   "h": "f17173ba2676"
+  },
+  "161": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Comitato per la vigilanza sull'uso delle risorse idriche",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "60bb522cea5e"
+  },
+  "162": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "partecipazione, garanzia e informazione degli utenti",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "63d9199de749"
+  },
+  "163": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "gestione delle aree di salvaguardia",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "d5201adbe5df"
+  },
+  "164": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disciplina delle acque nelle aree protette",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "2b291dacbbea"
+  },
+  "165": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "controlli",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "760fb2dea6cf"
+  },
+  "166": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "usi delle acque irrigue e di bonifica",
+   "vigore_da": "2014-08-21",
+   "datazione": "api",
+   "h": "75dda413f1f8"
+  },
+  "166-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Usi delle acque per approvvigionamento potabile",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "15dc16a6f6b2"
+  },
+  "167": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "usi agricoli delle acque",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "095db783ec45"
+  },
+  "168": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "utilizzazione delle acque destinate ad uso idroelettrico",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "b04678c15a6b"
+  },
+  "169": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "piani, studi e ricerche",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "a939debfeab3"
+  },
+  "170": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Norme transitorie",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "aad5856b5d77"
+  },
+  "171": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "canoni per le utenze di acqua pubblica",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "c8708541f087"
+  },
+  "172": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "gestioni esistenti",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "1a5462145dac"
+  },
+  "173": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "personale",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "48cc9e3848fc"
+  },
+  "174": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disposizioni di attuazione e di esecuzione",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "22e89ab2fe05"
+  },
+  "175": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "abrogazione di norme",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "42c9111afa40"
+  },
+  "176": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "norma finale",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "05715112e76a"
+  },
+  "177": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Campo di applicazione e finalita'",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "2c439bf07259"
+  },
+  "178": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Principi",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "73fccc21dedc"
+  },
+  "178-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Responsabilita' estesa del produttore",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "93feabce7cca"
+  },
+  "178-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Requisiti generali minimi in materia di responsabilita' estesa del produttore",
+   "vigore_da": "2023-12-31",
+   "datazione": "api",
+   "h": "d7f69b2143da"
+  },
+  "178-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Modalita' per adempiere agli obblighi della responsabilita' estesa del produttore nel settore del commercio elettronico",
+   "vigore_da": "2025-02-25",
+   "datazione": "api",
+   "h": "97814aa45a1b"
+  },
+  "179": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Criteri di priorita' nella gestione dei rifiuti",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "c3abbe5693dc"
+  },
+  "180": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Prevenzione della produzione di rifiuti",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "f328c0a5a2d5"
+  },
+  "180-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "4f5b1b40ade9"
+  },
+  "181": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Preparazione per il riutilizzo, riciclaggio e recupero dei rifiuti",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "c48e51501912"
+  },
+  "181-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-12-25",
+   "datazione": "api",
+   "h": "8837aa4e4ec2"
+  },
+  "182": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "smaltimento dei rifiuti",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "0750cead0e7b"
+  },
+  "182-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Principi di autosufficienza e prossimita'",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "00cfff89e0ec"
+  },
+  "182-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Rifiuti organici",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "79a3651a6a9a"
+  },
+  "183": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2025-04-02",
+   "datazione": "api",
+   "h": "2563284a8e1c"
+  },
+  "184": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "classificazione",
+   "vigore_da": "2025-04-02",
+   "datazione": "api",
+   "h": "edd5fe4e4cc7"
+  },
+  "184-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sottoprodotto",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "51cca1bcbecc"
+  },
+  "184-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Cessazione della qualifica di rifiuto",
+   "vigore_da": "2026-03-07",
+   "datazione": "api",
+   "h": "3d265ad91382"
+  },
+  "184-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Utilizzo dei materiali di dragaggio",
+   "vigore_da": "2023-12-10",
+   "datazione": "api",
+   "h": "016342c96e65"
+  },
+  "185": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Esclusioni dall'ambito di applicazione",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "d89ba8aa8b7c"
+  },
+  "185-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Deposito temporaneo prima della raccolta",
+   "vigore_da": "2025-12-18",
+   "datazione": "api",
+   "h": "27d13212f53f"
+  },
+  "186": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Terre e rocce da scavo",
+   "vigore_da": "2012-03-25",
+   "datazione": "api",
+   "h": "577234b9ea95"
+  },
+  "187": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Divieto di miscelazione di rifiuti pericolosi",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "bf32d379b72f"
+  },
+  "188": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Responsabilita' della gestione dei rifiuti",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "866a45b4ac4e"
+  },
+  "188-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sistema di tracciabilita' dei rifiuti",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "26656458dce2"
+  },
+  "188-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "4f5b1b40ade9"
+  },
+  "189": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Catasto dei rifiuti",
+   "vigore_da": "2021-06-01",
+   "datazione": "api",
+   "h": "5e5a1718d83d"
+  },
+  "190": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Registro cronologico di carico e scarico",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "dc8b5c6f8bcb"
+  },
+  "191": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Ordinanze contingibili e urgenti e poteri sostitutivi",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "ff7b53b8029c"
+  },
+  "192": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "divieto di abbandono",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "e0878e912c27"
+  },
+  "193": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Trasporto dei rifiuti",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "3d5a254384ad"
+  },
+  "193-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Trasporto intermodale",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "149d1a68cec4"
+  },
+  "194": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Spedizioni transfrontaliere",
+   "vigore_da": "2021-06-01",
+   "datazione": "api",
+   "h": "8bfa557ada30"
+  },
+  "194-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2021-11-07",
+   "datazione": "api",
+   "h": "25c1736ff591"
+  },
+  "195": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Competenze dello Stato",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "d355265a91bf"
+  },
+  "196": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze delle regioni",
+   "vigore_da": "2021-06-01",
+   "datazione": "api",
+   "h": "6b8922856780"
+  },
+  "197": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze delle province",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "4ea36ca5bd5d"
+  },
+  "198": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze dei comuni",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "a68e336d69df"
+  },
+  "198-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Programma nazionale per la gestione dei rifiuti",
+   "vigore_da": "2022-05-01",
+   "datazione": "api",
+   "h": "09e2b31d5bb4"
+  },
+  "199": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Piani regionali",
+   "vigore_da": "2022-05-01",
+   "datazione": "api",
+   "h": "9c3e55267df3"
+  },
+  "200": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "organizzazione territoriale del servizio di gestione integrata dei rifiuti urbani",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "31e402fc92ee"
+  },
+  "201": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2012-12-31",
+   "datazione": "api",
+   "h": "25689dd90f2c"
+  },
+  "202": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "affidamento del servizio",
+   "vigore_da": "2022-08-27",
+   "datazione": "api",
+   "h": "655004131df8"
+  },
+  "203": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "schema tipo di contratto di servizio",
+   "vigore_da": "2008-02-13",
+   "datazione": "api",
+   "h": "74179d180a34"
+  },
+  "204": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "gestioni esistenti",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "819ac55dee0a"
+  },
+  "205": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "misure per incrementare la raccolta differenziata",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "79c6631d404f"
+  },
+  "205-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Regole per il calcolo degli obiettivi",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "df4ee93b18dc"
+  },
+  "206": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Accordi, contratti di programma, incentivi",
+   "vigore_da": "2009-03-01",
+   "datazione": "api",
+   "h": "9e97e73b2fb2"
+  },
+  "206-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Vigilanza e controllo in materia di gestione dei rifiuti",
+   "vigore_da": "2022-09-24",
+   "datazione": "api",
+   "h": "005b0f4f8988"
+  },
+  "206-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Accordi e contratti di programma per incentivare l'acquisto di prodotti derivanti da materiali post consumo o dal recupero degli scarti e dei materiali rivenienti dal disassemblaggio dei prodotti complessi",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "880a3286092e"
+  },
+  "206-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Incentivi per i prodotti derivanti da materiali post consumo o dal recupero degli scarti e dei materiali rivenienti dal disassemblaggio dei prodotti complessi",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "087b059efbb3"
+  },
+  "206-quinquies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Incentivi per l'acquisto e la commercializzazione di prodotti che impiegano materiali post consumo o derivanti dal recupero degli scarti e dei materiali rivenienti dal disassemblaggio dei prodotti complessi",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "3a1288e88350"
+  },
+  "206-sexies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Azioni premianti l'utilizzo di prodotti che impiegano materiali post consumo o derivanti dal recupero degli scarti e dei materiali rivenienti dal disassemblaggio dei prodotti complessi negli interventi concernenti gli edifici scolastici, le pavimentazioni stradali e le barriere acustiche",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "19204ffb1866"
+  },
+  "207": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "f17173ba2676"
+  },
+  "208": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "autorizzazione unica per i nuovi impianti di smaltimento e di recupero dei rifiuti",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "01fa154061bc"
+  },
+  "209": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "rinnovo delle autorizzazioni alle imprese in possesso di certificazione ambientale",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "db5412c64c0b"
+  },
+  "210": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-12-25",
+   "datazione": "api",
+   "h": "8837aa4e4ec2"
+  },
+  "211": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "autorizzazione di impianti di ricerca e di sperimentazione",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "2f66e06b234f"
+  },
+  "212": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Albo nazionale gestori ambientali",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "4acfd162ea2c"
+  },
+  "213": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "autorizzazioni integrate ambientali",
+   "vigore_da": "2010-12-25",
+   "datazione": "api",
+   "h": "d05b7f0e7dca"
+  },
+  "214": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Determinazione delle attivita' e delle caratteristiche dei rifiuti per l'ammissione alle procedure semplificate",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "431d9b78e55d"
+  },
+  "214-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sgombero della neve",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "6ae5825fc6a1"
+  },
+  "214-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Determinazione delle condizioni per l'esercizio delle operazioni di preparazione per il riutilizzo in forma semplificata",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "3cb25b37bd85"
+  },
+  "215": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "autosmaltimento",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "43f1fd0529e4"
+  },
+  "216": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "operazioni di recupero",
+   "vigore_da": "2026-02-20",
+   "datazione": "api",
+   "h": "305c690cb31a"
+  },
+  "216-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Oli usati",
+   "vigore_da": "2014-08-21",
+   "datazione": "api",
+   "h": "ad673dd100b5"
+  },
+  "216-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Comunicazioni alla Commissione europea",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "81298067f05a"
+  },
+  "217": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "d8dd047f1165"
+  },
+  "218": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "definizioni",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "ae544d299d05"
+  },
+  "219": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "criteri informatori dell'attivita' di gestione dei rifiuti di imballaggio",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "6c9d9bac3eee"
+  },
+  "219-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sistema di riutilizzo di specifiche tipologie di imballaggi",
+   "vigore_da": "2021-07-31",
+   "datazione": "api",
+   "h": "914950248805"
+  },
+  "220": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Obiettivi di recupero e di riciclaggio",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "25825e07990b"
+  },
+  "220-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Obbligo di relazione sull'utilizzo delle borse di plastica",
+   "vigore_da": "2017-08-13",
+   "datazione": "api",
+   "h": "fe523223fb05"
+  },
+  "221": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Obblighi dei produttori e degli utilizzatori",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "fb1b3599f735"
+  },
+  "221-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sistemi autonomi",
+   "vigore_da": "2024-12-18",
+   "datazione": "api",
+   "h": "04cf4dac67f2"
+  },
+  "222": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "raccolta differenziata e obblighi della pubblica amministrazione",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "fb3d86e645d8"
+  },
+  "223": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "consorzi",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "a999f7e492e9"
+  },
+  "224": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consorzio nazionale imballaggi",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "69749ffd3336"
+  },
+  "225": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "programma generale di prevenzione e di gestione degli imballaggi e dei rifiuti di imballaggio",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "ed082cafdb0f"
+  },
+  "226": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "divieti",
+   "vigore_da": "2015-08-18",
+   "datazione": "api",
+   "h": "9d0546aa19b8"
+  },
+  "226-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Divieti di commercializzazione delle borse di plastica",
+   "vigore_da": "2017-08-13",
+   "datazione": "api",
+   "h": "8901d452315a"
+  },
+  "226-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Riduzione della commercializzazione delle borse di plastica in materiale ultraleggero",
+   "vigore_da": "2017-08-13",
+   "datazione": "api",
+   "h": "70e4e7a5e559"
+  },
+  "226-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Plastiche monouso",
+   "vigore_da": "2022-01-14",
+   "datazione": "api",
+   "h": "602048603373"
+  },
+  "226-quinquies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Obbligo di compostabilita' per determinate tipologie di imballaggio",
+   "vigore_da": "2026-10-07",
+   "datazione": "api",
+   "h": "494c9c5bb78d"
+  },
+  "227": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Rifiuti elettrici ed elettronici, rifiuti di pile e accumulatori, rifiuti sanitari, veicoli fuori uso e prodotti contenenti amianto",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "f359c382f508"
+  },
+  "228": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "pneumatici fuori uso",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "07e3156c980f"
+  },
+  "229": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2010-12-25",
+   "datazione": "api",
+   "h": "8837aa4e4ec2"
+  },
+  "230": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "rifiuti derivanti da attivita' di manutenzione delle infrastrutture",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "350081168067"
+  },
+  "231": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "veicoli fuori uso non disciplinati dal decreto legislativo 24 giugno 2003, n. 209",
+   "vigore_da": "2026-02-20",
+   "datazione": "api",
+   "h": "e93cb88ec97f"
+  },
+  "232": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "rifiuti prodotti dalle navi e residui di carico",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "5d2b167a64d3"
+  },
+  "232-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Rifiuti di prodotti da fumo",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "2185852b8b21"
+  },
+  "232-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Divieto di abbandono di rifiuti di piccolissime dimensioni",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "9fb112c6b12b"
+  },
+  "233": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consorzio nazionale di raccolta e trattamento degli oli e dei grassi vegetali ed animali esausti",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "7cc1be453429"
+  },
+  "234": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consorzio Nazionale per il riciclaggio di rifiuti di beni in Polietilene",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "700e405710b0"
+  },
+  "235": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2008-12-18",
+   "datazione": "api",
+   "h": "0cac5d48413f"
+  },
+  "236": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consorzio nazionale per la gestione, raccolta e trattamento degli oli minerali usati",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "462209081f30"
+  },
+  "237": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Criteri direttivi dei sistemi di gestione",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
+   "h": "f8af9c061fc2"
+  },
+  "237-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Finalita' e oggetto",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "914a16ed50e0"
+  },
+  "237-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "c7ae4c6e89b6"
+  },
+  "237-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Ambito di applicazione ed esclusioni",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "9dedde5aaaaa"
+  },
+  "237-quinquies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Domanda di autorizzazione",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "9bf7b0fcb3f8"
+  },
+  "237-sexies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Contenuto dell'autorizzazione",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "4d620dfc6205"
+  },
+  "237-septies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Consegna e ricezione dei rifiuti",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "1fe2f9b3d590"
+  },
+  "237-octies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Condizioni di esercizio degli impianti di incenerimento e coincenerimento",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "d2f8bf0c67c4"
+  },
+  "237-novies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Modifica delle condizioni di esercizio e modifica sostanziale dell'attivita'",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "5fe256d44a6b"
+  },
+  "237-decies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Coincenerimento di olii usati",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "8ecc18f21a63"
+  },
+  "237-undecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Coincenerimento di rifiuti animali rientranti nell'ambito di applicazione del regolamento n. 1069/2009/UE",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "b55504b8a55d"
+  },
+  "237-duodecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Emissione in atmosfera",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "6a009364dee8"
+  },
+  "237-terdecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Scarico di acque reflue",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "45ce293bc3b4"
+  },
+  "237-quaterdecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Campionamento ed analisi delle emissioni in atmosfera degli impianti di incenerimento e di coincenerimento",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "d2477d2b3b53"
+  },
+  "237-quindecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Controllo e sorveglianza delle emissioni nei corpi idrici",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "c1ecff27e189"
+  },
+  "237-sexdecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Residui",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "527c01f1c585"
+  },
+  "237-septiesdecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Obblighi di comunicazione, informazione, accesso e partecipazione",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "ac4cb29778a4"
+  },
+  "237-duodevicies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Condizioni anomale di funzionamento",
+   "vigore_da": "2017-12-12",
+   "datazione": "api",
+   "h": "3eaab63ddabb"
+  },
+  "237-undevicies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Incidenti o inconvenienti",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "1756e4975b56"
+  },
+  "237-vicies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Accessi ed ispezioni",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "496b91215495"
+  },
+  "237-viciessemel": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Spese",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "df2989219aa6"
+  },
+  "237-viciesbis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Disposizioni transitorie e finali",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "aba342fab235"
+  },
+  "238": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Corrispettivi dovuti per il conferimento di rifiuti al servizio pubblico",
+   "vigore_da": "2026-08-12",
+   "datazione": "api",
+   "h": "12fd9933fc5c"
+  },
+  "239": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "principi e campo di applicazione",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "72cbd12ce00b"
+  },
+  "240": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "definizioni",
+   "vigore_da": "2012-03-25",
+   "datazione": "api",
+   "h": "781aec4c370b"
+  },
+  "241": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "regolamento aree agricole",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "a432819f60d1"
+  },
+  "241-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Aree Militari",
+   "vigore_da": "2021-07-31",
+   "datazione": "api",
+   "h": "e9c0b5f6dd6c"
+  },
+  "242": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "procedure operative ed amministrative",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "88dcea82df22"
+  },
+  "242-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Procedura semplificata per le operazioni di bonifica",
+   "vigore_da": "2014-11-12",
+   "datazione": "api",
+   "h": "c81d502fedcb"
+  },
+  "242-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Interventi e opere nei siti oggetto di bonifica",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "7bd020a0359a"
+  },
+  "243": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Gestione delle acque sotterranee emunte",
+   "vigore_da": "2025-12-18",
+   "datazione": "api",
+   "h": "dcc8d712e221"
+  },
+  "244": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "ordinanze",
+   "vigore_da": "2024-12-17",
+   "datazione": "api",
+   "h": "6aee24581b34"
+  },
+  "245": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "obblighi di intervento e di notifica da parte dei soggetti non responsabili della potenziale contaminazione",
+   "vigore_da": "2021-06-01",
+   "datazione": "api",
+   "h": "50ec9a028287"
+  },
+  "246": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "accordi di programma",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "5be6db109c3e"
+  },
+  "247": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "siti soggetti a sequestro",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "7d191f5bc802"
+  },
+  "248": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "controlli",
+   "vigore_da": "2021-06-01",
+   "datazione": "api",
+   "h": "7ab5ed882883"
+  },
+  "249": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "aree contaminate di ridotte dimensioni",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "2b07448d2ad3"
+  },
+  "250": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "bonifica da parte dell'amministrazione",
+   "vigore_da": "2022-05-01",
+   "datazione": "api",
+   "h": "14d7a0e9671e"
+  },
+  "251": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "censimento ed anagrafe dei siti da bonificare",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "f9f0883ed91d"
+  },
+  "252": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "siti di interesse nazionale",
+   "vigore_da": "2021-07-31",
+   "datazione": "api",
+   "h": "f83461d6a8e4"
+  },
+  "252-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Siti inquinati nazionali di preminente interesse pubblico per la riconversione industriale",
+   "vigore_da": "2021-06-01",
+   "datazione": "api",
+   "h": "70b633117d49"
+  },
+  "253": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "oneri reali e privilegi speciali",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "8090eb1e35e1"
+  },
+  "254": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "norme speciali",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "f82b172d96ae"
+  },
+  "255": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Abbandono di rifiuti non pericolosi",
+   "vigore_da": "2025-10-08",
+   "datazione": "api",
+   "h": "74e97fb04353"
+  },
+  "255-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Abbandono di rifiuti non pericolosi in casi particolari",
+   "vigore_da": "2025-10-08",
+   "datazione": "api",
+   "h": "386473364b14"
+  },
+  "255-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Abbandono di rifiuti pericolosi",
+   "vigore_da": "2025-08-09",
+   "datazione": "api",
+   "h": "e84df081a97e"
+  },
+  "256": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "attivita' di gestione di rifiuti non autorizzata",
+   "vigore_da": "2026-06-02",
+   "datazione": "api",
+   "h": "88dedf6d96b3"
+  },
+  "256-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Combustione illecita di rifiuti",
+   "vigore_da": "2025-08-09",
+   "datazione": "api",
+   "h": "464d77b85060"
+  },
+  "257": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "bonifica dei siti",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "a519947ef1f9"
+  },
+  "258": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Violazione degli obblighi di comunicazione, di tenuta dei registri obbligatori e dei formulari",
+   "vigore_da": "2026-03-01",
+   "datazione": "api",
+   "h": "023e23f73db3"
+  },
+  "259": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Spedizione illegale di rifiuti",
+   "vigore_da": "2025-10-08",
+   "datazione": "api",
+   "h": "447ac3a6a976"
+  },
+  "259-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Aggravante dell'attivita' di impresa",
+   "vigore_da": "2025-10-08",
+   "datazione": "api",
+   "h": "ec9f64643459"
+  },
+  "259-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Delitti colposi in materia di rifiuti",
+   "vigore_da": "2025-08-09",
+   "datazione": "api",
+   "h": "da9313677278"
+  },
+  "260": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2018-04-06",
+   "datazione": "api",
+   "h": "5f5f74f5b56b"
+  },
+  "260-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sistema informatico di controllo della tracciabilita' dei rifiuti",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "102165951d68"
+  },
+  "260-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sanzioni amministrative accessorie. Confisca",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "fb0a27417d9d"
+  },
+  "261": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "imballaggi",
+   "vigore_da": "2026-10-07",
+   "datazione": "api",
+   "h": "a02dd82b1c7d"
+  },
+  "261-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "0692e4ee47bb"
+  },
+  "262": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenza e giurisdizione",
+   "vigore_da": "2011-10-06",
+   "datazione": "api",
+   "h": "dd9c44068259"
+  },
+  "263": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "proventi delle sanzioni amministrative pecuniarie",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
+   "h": "2ce583f1b545"
+  },
+  "264": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "abrogazione di norme",
+   "vigore_da": "2012-03-25",
+   "datazione": "api",
+   "h": "b1f712eb50d9"
+  },
+  "264-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Abrogazioni e modifiche di disposizioni del decreto del Presidente del Consiglio dei Ministri in data 27 aprile 2010",
+   "vigore_da": "2010-12-25",
+   "datazione": "api",
+   "h": "79b4da7845a8"
+  },
+  "264-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "4f5b1b40ade9"
+  },
+  "264-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "4f5b1b40ade9"
+  },
+  "265": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disposizioni transitorie",
+   "vigore_da": "2024-02-29",
+   "datazione": "api",
+   "h": "2733b4b9a4c0"
+  },
+  "266": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disposizioni finali",
+   "vigore_da": "2020-09-26",
+   "datazione": "api",
+   "h": "60e6be46e612"
+  },
+  "267": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "campo di applicazione",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "5101cf055c7f"
+  },
+  "268": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "definizioni",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "eae360fd40ce"
+  },
+  "269": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Autorizzazione alle emissioni in atmosfera per gli stabilimenti",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "424c8a99a31e"
+  },
+  "270": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Individuazione degli impianti e convogliamento delle emissioni",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "847e80503694"
+  },
+  "271": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Valori limite di emissione e prescrizioni per gli impianti e le attivita'",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "4d2fa8b3f222"
+  },
+  "272": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "impianti e attivita' in deroga",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "bb4088f36943"
+  },
+  "272-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Emissioni odorigene",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "25dfeb3644a1"
+  },
+  "273": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "grandi impianti di combustione",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "5ce2128f3c8d"
+  },
+  "273-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Medi impianti di combustione",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "9a30a6aaee88"
+  },
+  "274": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Raccolta e trasmissione dei dati sulle emissioni dei grandi impianti di combustione e dei medi impianti di combustione",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "75a82a0435d3"
+  },
+  "275": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "emissioni di cov",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "dd2cfaaeacdf"
+  },
+  "276": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "controllo delle emissioni di cov derivanti dal deposito della benzina e dalla sua distribuzione dai terminali agli impianti di distribuzione",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "c7313be0792a"
+  },
+  "277": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Recupero di cov prodotti durante le operazioni di rifornimento presso gli impianti di distribuzione di benzina",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "fe1603863b05"
+  },
+  "278": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "poteri di ordinanza",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "1ac2b5dd34b8"
+  },
+  "279": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "sanzioni",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "61848d694b0a"
+  },
+  "280": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "abrogazioni",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "cb0f90d53422"
+  },
+  "281": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disposizioni transitorie e finali",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "3c10922ccc81"
+  },
+  "282": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Campo di applicazione",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "bdbaec7e8456"
+  },
+  "283": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "definizioni",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "477de3734abb"
+  },
+  "284": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Installazione o modifica",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "2ee3fb9153ed"
+  },
+  "285": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Caratteristiche tecniche",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "0792e760ddc1"
+  },
+  "286": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "valori limite di emissione",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "a9eb904de631"
+  },
+  "287": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "abilitazione alla conduzione",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "0b8555afd18b"
+  },
+  "288": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "controlli e sanzioni",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "214dbd0a631e"
+  },
+  "289": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "abrogazioni",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "240531daca3b"
+  },
+  "290": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disposizioni transitorie e finali",
+   "vigore_da": "2017-12-19",
+   "datazione": "api",
+   "h": "da4936390e80"
+  },
+  "291": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "campo di applicazione",
+   "vigore_da": "2007-11-24",
+   "datazione": "api",
+   "h": "c34238114c74"
+  },
+  "292": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2014-08-27",
+   "datazione": "api",
+   "h": "d3060853f0c4"
+  },
+  "293": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Combustibili consentiti",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "35cf886a9367"
+  },
+  "294": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Prescrizioni per il rendimento di combustione",
+   "vigore_da": "2020-08-28",
+   "datazione": "api",
+   "h": "9b0183871c50"
+  },
+  "295": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Combustibili per uso marittimo",
+   "vigore_da": "2014-08-27",
+   "datazione": "api",
+   "h": "0a0cfb663957"
+  },
+  "296": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Controlli e sanzioni",
+   "vigore_da": "2014-08-27",
+   "datazione": "api",
+   "h": "951a5085e13a"
+  },
+  "297": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "abrogazioni",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "4d4ca0ada90c"
+  },
+  "298": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "disposizioni transitorie e finali",
+   "vigore_da": "2024-02-08",
+   "datazione": "api",
+   "h": "d1655deef3db"
+  },
+  "299": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "competenze ministeriali",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "16e0da588aeb"
+  },
+  "300": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "danno ambientale",
+   "vigore_da": "2015-09-17",
+   "datazione": "api",
+   "h": "ce54f29a9224"
+  },
+  "301": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "attuazione del principio di precauzione",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "8aa9984f5f7a"
+  },
+  "302": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "definizioni",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "42c7d012f1ab"
+  },
+  "303": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "esclusioni",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "c5f7a749149b"
+  },
+  "304": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "azione di prevenzione",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "3518efa67e52"
+  },
+  "305": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "ripristino ambientale",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "ce93448a0c20"
+  },
+  "306": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "determinazione delle misure per il ripristino ambientale",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "f494be722e2a"
+  },
+  "306-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Determinazione delle misure per il risarcimento del danno ambientale e il ripristino ambientale dei siti di interesse nazionale",
+   "vigore_da": "2020-09-15",
+   "datazione": "api",
+   "h": "a63675306851"
+  },
+  "307": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "notificazione delle misure preventive e di ripristino",
+   "vigore_da": "2006-04-29",
+   "datazione": "api",
+   "h": "6b7c35fd5aa8"
+  },
+  "308": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "costi dell'attivita' di prevenzione e di ripristino",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "39eedf327134"
+  },
+  "309": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "richiesta di intervento statale",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "8a9f1a1bd262"
+  },
+  "310": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "ricorsi",
+   "vigore_da": "2010-09-16",
+   "datazione": "api",
+   "h": "7551af3722e8"
+  },
+  "311": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "azione risarcitoria in forma specifica ...",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "3b8b4ab95609"
+  },
+  "312": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "istruttoria per l'emanazione dell'ordinanza ministeriale",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "8f7352b6ac5b"
+  },
+  "313": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "ordinanza",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "4bd4f92054cf"
+  },
+  "314": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "contenuto dell'ordinanza",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "c33fb39f3beb"
+  },
+  "315": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "effetti dell'ordinanza sull'azione giudiziaria",
+   "vigore_da": "2010-08-26",
+   "datazione": "api",
+   "h": "117af585fd09"
+  },
+  "316": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "ricorso avverso l'ordinanza",
+   "vigore_da": "2010-09-16",
+   "datazione": "api",
+   "h": "cd26e9dbffc2"
+  },
+  "317": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "riscossione dei crediti e fondo di rotazione",
+   "vigore_da": "2013-09-04",
+   "datazione": "api",
+   "h": "86b64fbd16f8"
+  },
+  "318": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "norme transitorie e finali",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "2f2289a1ddc0"
+  },
+  "318-bis": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "c6d8be7ff4fd"
+  },
+  "318-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Prescrizioni",
+   "vigore_da": "2022-06-30",
+   "datazione": "api",
+   "h": "755835e305b8"
+  },
+  "318-quater": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Verifica dell'adempimento",
+   "vigore_da": "2022-06-30",
+   "datazione": "api",
+   "h": "b6dcd2376517"
+  },
+  "318-quinquies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Notizie di reato non pervenute dall'organo accertatore",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "6695f02c6ac5"
+  },
+  "318-sexies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Sospensione del procedimento penale",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "ab4389669e42"
+  },
+  "318-septies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Estinzione del reato",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "eb166989c88a"
+  },
+  "318-octies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Norme di coordinamento e transitorie",
+   "vigore_da": "2015-05-29",
+   "datazione": "api",
+   "h": "1553cb65dc7a"
+  }
+ }
+}

@@ -1,0 +1,298 @@
+{
+ "_meta": {
+  "codice": "l-401-1989",
+  "nome": "Frodi in competizioni sportive (L. 401/1989)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2025-08-10",
+  "articoli": 19,
+  "file": [
+   "l-401-1989.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1989-12-13;401",
+  "versioni": [
+   {
+    "data": "1989-12-18",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1993-12-28",
+    "evento": "rp1",
+    "atto_modificante": "L. 24 dicembre 1993, n. 537"
+   },
+   {
+    "data": "1993-12-30",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 30 dicembre 1993, n. 557"
+   },
+   {
+    "data": "1994-12-28",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 22 dicembre 1994, n. 717"
+   },
+   {
+    "data": "1996-05-15",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "1997-05-28",
+    "evento": "rp5",
+    "atto_modificante": "atto modificante non indicato (rp5)"
+   },
+   {
+    "data": "2000-12-29",
+    "evento": "rp6",
+    "atto_modificante": "L. 23 dicembre 2000, n. 388"
+   },
+   {
+    "data": "2001-08-21",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 20 agosto 2001, n. 336"
+   },
+   {
+    "data": "2003-02-24",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 24 febbraio 2003, n. 28"
+   },
+   {
+    "data": "2005-03-16",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 14 marzo 2005, n. 35"
+   },
+   {
+    "data": "2005-07-01",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 30 giugno 2005, n. 115"
+   },
+   {
+    "data": "2005-08-18",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 17 agosto 2005, n. 162"
+   },
+   {
+    "data": "2005-12-29",
+    "evento": "rp12",
+    "atto_modificante": "L. 23 dicembre 2005, n. 266"
+   },
+   {
+    "data": "2007-02-08",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 8 febbraio 2007, n. 8"
+   },
+   {
+    "data": "2009-07-14",
+    "evento": "rp14",
+    "atto_modificante": "L. 7 luglio 2009, n. 88"
+   },
+   {
+    "data": "2010-11-12",
+    "evento": "rp15",
+    "atto_modificante": "D.L. 12 novembre 2010, n. 187"
+   },
+   {
+    "data": "2011-09-28",
+    "evento": "rp16",
+    "atto_modificante": "D.Lgs. 6 settembre 2011, n. 159"
+   },
+   {
+    "data": "2013-08-16",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 14 agosto 2013, n. 93"
+   },
+   {
+    "data": "2014-08-22",
+    "evento": "rp18",
+    "atto_modificante": "D.L. 22 agosto 2014, n. 119"
+   },
+   {
+    "data": "2017-02-20",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 20 febbraio 2017, n. 14"
+   },
+   {
+    "data": "2018-10-04",
+    "evento": "rp20",
+    "atto_modificante": "D.L. 4 ottobre 2018, n. 113"
+   },
+   {
+    "data": "2019-01-28",
+    "evento": "rp21",
+    "atto_modificante": "D.L. 28 gennaio 2019, n. 4"
+   },
+   {
+    "data": "2019-05-16",
+    "evento": "rp22",
+    "atto_modificante": "L. 3 maggio 2019, n. 39"
+   },
+   {
+    "data": "2019-06-14",
+    "evento": "rp23",
+    "atto_modificante": "D.L. 14 giugno 2019, n. 53"
+   },
+   {
+    "data": "2019-08-09",
+    "evento": "rp24",
+    "atto_modificante": "L. 8 agosto 2019, n. 77"
+   },
+   {
+    "data": "2025-06-30",
+    "evento": "rp25",
+    "atto_modificante": "D.L. 30 giugno 2025, n. 96"
+   },
+   {
+    "data": "2025-08-09",
+    "evento": "rp26",
+    "atto_modificante": "L. 8 agosto 2025, n. 119"
+   }
+  ],
+  "ultima_versione": "2025-08-09",
+  "datazione": {
+   "monoblocco": 19,
+   "api": 18,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 3,
+   "chiamate": 19,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-401-1989.md",
+   "rubrica": "Frode in competizioni sportive",
+   "vigore_da": "2014-08-23",
+   "datazione": "api",
+   "h": "c038bf03a146"
+  },
+  "2": {
+   "file": "l-401-1989.md",
+   "rubrica": "Non influenza del procedimento penale",
+   "vigore_da": "2025-08-10",
+   "datazione": "api",
+   "h": "09a43e8ab0c5"
+  },
+  "3": {
+   "file": "l-401-1989.md",
+   "rubrica": "Obbligo del rapporto",
+   "vigore_da": "1990-01-02",
+   "datazione": "api",
+   "h": "46475f14dceb"
+  },
+  "4": {
+   "file": "l-401-1989.md",
+   "rubrica": "Esercizio abusivo di attivita' di giuoco o di scommessa",
+   "vigore_da": "2019-03-30",
+   "datazione": "api",
+   "h": "76916164a2dc"
+  },
+  "5": {
+   "file": "l-401-1989.md",
+   "rubrica": "Pene accessorie",
+   "vigore_da": "2001-10-21",
+   "datazione": "api",
+   "h": "f236a4999e23"
+  },
+  "5-bis": {
+   "file": "l-401-1989.md",
+   "rubrica": "Confisca",
+   "vigore_da": "2019-05-17",
+   "datazione": "api",
+   "h": "eab52b559500"
+  },
+  "6": {
+   "file": "l-401-1989.md",
+   "rubrica": "Divieto di accesso ai luoghi dove si svolgono manifestazioni sportive",
+   "vigore_da": "2019-08-10",
+   "datazione": "api",
+   "h": "40a2cbce9480"
+  },
+  "6-bis": {
+   "file": "l-401-1989.md",
+   "rubrica": "Lancio di materiale pericoloso, scavalcamento e invasione di campo in occasione di manifestazioni sportive",
+   "vigore_da": "2007-04-06",
+   "datazione": "api",
+   "h": "0e421dde51fd"
+  },
+  "6-ter": {
+   "file": "l-401-1989.md",
+   "rubrica": "Possesso di artifizi pirotecnici in occasione di manifestazioni sportive",
+   "vigore_da": "2007-04-06",
+   "datazione": "api",
+   "h": "49b8b02b4fac"
+  },
+  "6-quater": {
+   "file": "l-401-1989.md",
+   "rubrica": "Violenza o minaccia nei confronti degli addetti ai controlli dei luoghi ove si svolgono manifestazioni sportive",
+   "vigore_da": "2019-06-15",
+   "datazione": "api",
+   "h": "04b36021269d"
+  },
+  "6-quinquies": {
+   "file": "l-401-1989.md",
+   "rubrica": "Lesioni personali gravi o gravissime nei confronti degli addetti ai controlli dei luoghi ove si svolgono manifestazioni sportive",
+   "vigore_da": "2025-08-10",
+   "datazione": "api",
+   "h": "0b0396009f1c"
+  },
+  "7": {
+   "file": "l-401-1989.md",
+   "rubrica": "Turbativa di manifestazioni sportive",
+   "vigore_da": "2001-10-21",
+   "datazione": "api",
+   "h": "e4cff1fb88cd"
+  },
+  "7-bis": {
+   "file": "l-401-1989.md",
+   "rubrica": "Differimento o divieto di manifestazioni sportive",
+   "vigore_da": "2003-04-25",
+   "datazione": "api",
+   "h": "936893f0bfef"
+  },
+  "7-bis.1": {
+   "file": "l-401-1989.md",
+   "rubrica": "Divieto di trasferta",
+   "vigore_da": "2014-10-22",
+   "datazione": "api",
+   "h": "9cfa0b1ed7fa"
+  },
+  "7-ter": {
+   "file": "l-401-1989.md",
+   "rubrica": "",
+   "vigore_da": "2011-10-13",
+   "datazione": "api",
+   "h": "074184ec97da"
+  },
+  "8": {
+   "file": "l-401-1989.md",
+   "rubrica": "Effetti dell'arresto in flagranza durante o in occasione di manifestazioni sportive",
+   "vigore_da": "2017-04-22",
+   "datazione": "api",
+   "h": "ef9056d4a548"
+  },
+  "8-bis": {
+   "file": "l-401-1989.md",
+   "rubrica": "Casi di giudizio direttissimo",
+   "vigore_da": "2007-04-06",
+   "datazione": "api",
+   "h": "9d26af6fcb82"
+  },
+  "8-ter": {
+   "file": "l-401-1989.md",
+   "rubrica": "Trasferte",
+   "vigore_da": "2001-10-21",
+   "datazione": "api",
+   "h": "1ecd10559a4a"
+  },
+  "9": {
+   "file": "l-401-1989.md",
+   "rubrica": "Abrogazione di norme e disposizioni finali",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "1fd986cdd039"
+  }
+ }
+}

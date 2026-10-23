@@ -1,0 +1,1681 @@
+{
+ "_meta": {
+  "codice": "dpr-309-1990",
+  "nome": "Testo unico stupefacenti (D.P.R. 309/1990)",
+  "snapshot": "2026-10-19",
+  "formato": 2,
+  "consolidato_normattiva": "2026-08-21",
+  "articoli": 145,
+  "file": [
+   "dpr-309-1990.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.del.presidente.della.repubblica:1990-10-09;309",
+  "versioni": [
+   {
+    "data": "1990-10-31",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1991-05-09",
+    "evento": "rp1",
+    "atto_modificante": "Circ. Ministero Dell'Interno 3 maggio 1991, n. 1350"
+   },
+   {
+    "data": "1991-11-29",
+    "evento": "rp2",
+    "atto_modificante": "Circ. Ministero Dell'Interno 22 novembre 1991, n. 2923"
+   },
+   {
+    "data": "1992-06-08",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 8 giugno 1992, n. 306"
+   },
+   {
+    "data": "1992-11-14",
+    "evento": "rp4",
+    "atto_modificante": "atto modificante non indicato (rp4)"
+   },
+   {
+    "data": "1993-05-15",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 14 maggio 1993, n. 139"
+   },
+   {
+    "data": "1993-06-05",
+    "evento": "rp6",
+    "atto_modificante": "D.P.R. 5 giugno 1993, n. 171"
+   },
+   {
+    "data": "1993-09-09",
+    "evento": "rp7",
+    "atto_modificante": "atto modificante non indicato (rp7)"
+   },
+   {
+    "data": "1995-01-26",
+    "evento": "rp8",
+    "atto_modificante": "D.Lgs. 19 dicembre 1994, n. 758"
+   },
+   {
+    "data": "1995-03-01",
+    "evento": "rp9",
+    "atto_modificante": "atto modificante non indicato (rp9)"
+   },
+   {
+    "data": "1995-08-08",
+    "evento": "rp10",
+    "atto_modificante": "L. 8 agosto 1995, n. 332"
+   },
+   {
+    "data": "1995-08-29",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 28 agosto 1995, n. 359"
+   },
+   {
+    "data": "1996-05-15",
+    "evento": "rp12",
+    "atto_modificante": "D.Lgs. 12 aprile 1996, n. 258"
+   },
+   {
+    "data": "1999-03-05",
+    "evento": "rp13",
+    "atto_modificante": "L. 18 febbraio 1999, n. 45"
+   },
+   {
+    "data": "2000-11-24",
+    "evento": "rp14",
+    "atto_modificante": "D.L. 24 novembre 2000, n. 341"
+   },
+   {
+    "data": "2001-02-19",
+    "evento": "rp15",
+    "atto_modificante": "L. 8 febbraio 2001, n. 12"
+   },
+   {
+    "data": "2003-01-20",
+    "evento": "rp16",
+    "atto_modificante": "L. 16 gennaio 2003, n. 3"
+   },
+   {
+    "data": "2003-12-27",
+    "evento": "rp17",
+    "atto_modificante": "L. 24 dicembre 2003, n. 350"
+   },
+   {
+    "data": "2004-01-10",
+    "evento": "rp18",
+    "atto_modificante": "Circ. Ministero Della Salute 4 novembre 2003, n. 7990"
+   },
+   {
+    "data": "2004-10-30",
+    "evento": "rp19",
+    "atto_modificante": "atto modificante non indicato (rp19)"
+   },
+   {
+    "data": "2005-12-07",
+    "evento": "rp20",
+    "atto_modificante": "L. 5 dicembre 2005, n. 251"
+   },
+   {
+    "data": "2005-12-30",
+    "evento": "rp21",
+    "atto_modificante": "D.L. 30 dicembre 2005, n. 272"
+   },
+   {
+    "data": "2006-04-24",
+    "evento": "rp22",
+    "atto_modificante": "atto modificante non indicato (rp22)"
+   },
+   {
+    "data": "2006-06-27",
+    "evento": "rp23",
+    "atto_modificante": "atto modificante non indicato (rp23)"
+   },
+   {
+    "data": "2006-08-21",
+    "evento": "rp24",
+    "atto_modificante": "atto modificante non indicato (rp24)"
+   },
+   {
+    "data": "2007-04-28",
+    "evento": "rp25",
+    "atto_modificante": "atto modificante non indicato (rp25)"
+   },
+   {
+    "data": "2007-07-27",
+    "evento": "rp26",
+    "atto_modificante": "atto modificante non indicato (rp26)"
+   },
+   {
+    "data": "2007-10-11",
+    "evento": "rp27",
+    "atto_modificante": "atto modificante non indicato (rp27)"
+   },
+   {
+    "data": "2007-11-28",
+    "evento": "rp28",
+    "atto_modificante": "atto modificante non indicato (rp28)"
+   },
+   {
+    "data": "2008-01-29",
+    "evento": "rp29",
+    "atto_modificante": "atto modificante non indicato (rp29)"
+   },
+   {
+    "data": "2008-03-05",
+    "evento": "rp30",
+    "atto_modificante": "atto modificante non indicato (rp30)"
+   },
+   {
+    "data": "2009-06-20",
+    "evento": "rp31",
+    "atto_modificante": "atto modificante non indicato (rp31)"
+   },
+   {
+    "data": "2009-07-24",
+    "evento": "rp32",
+    "atto_modificante": "L. 15 luglio 2009, n. 94"
+   },
+   {
+    "data": "2010-03-19",
+    "evento": "rp33",
+    "atto_modificante": "L. 15 marzo 2010, n. 38"
+   },
+   {
+    "data": "2010-04-03",
+    "evento": "rp34",
+    "atto_modificante": "atto modificante non indicato (rp34)"
+   },
+   {
+    "data": "2010-05-08",
+    "evento": "rp35",
+    "atto_modificante": "D.Lgs. 15 marzo 2010, n. 66"
+   },
+   {
+    "data": "2010-05-25",
+    "evento": "rp36",
+    "atto_modificante": "atto modificante non indicato (rp36)"
+   },
+   {
+    "data": "2010-06-24",
+    "evento": "rp37",
+    "atto_modificante": "atto modificante non indicato (rp37)"
+   },
+   {
+    "data": "2010-06-25",
+    "evento": "rp38",
+    "atto_modificante": "atto modificante non indicato (rp38)"
+   },
+   {
+    "data": "2010-08-23",
+    "evento": "rp39",
+    "atto_modificante": "L. 13 agosto 2010, n. 136"
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp40",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2011-04-16",
+    "evento": "rp41",
+    "atto_modificante": "atto modificante non indicato (rp41)"
+   },
+   {
+    "data": "2011-04-26",
+    "evento": "rp42",
+    "atto_modificante": "D.Lgs. 24 marzo 2011, n. 50"
+   },
+   {
+    "data": "2011-05-16",
+    "evento": "rp43",
+    "atto_modificante": "atto modificante non indicato (rp43)"
+   },
+   {
+    "data": "2011-08-04",
+    "evento": "rp44",
+    "atto_modificante": "atto modificante non indicato (rp44)"
+   },
+   {
+    "data": "2011-09-21",
+    "evento": "rp45",
+    "atto_modificante": "D.Lgs. 1 settembre 2011, n. 150"
+   },
+   {
+    "data": "2012-01-04",
+    "evento": "rp46",
+    "atto_modificante": "atto modificante non indicato (rp46)"
+   },
+   {
+    "data": "2012-06-20",
+    "evento": "rp47",
+    "atto_modificante": "atto modificante non indicato (rp47)"
+   },
+   {
+    "data": "2012-11-12",
+    "evento": "rp48",
+    "atto_modificante": "atto modificante non indicato (rp48)"
+   },
+   {
+    "data": "2013-02-08",
+    "evento": "rp49",
+    "atto_modificante": "atto modificante non indicato (rp49)"
+   },
+   {
+    "data": "2013-07-02",
+    "evento": "rp50",
+    "atto_modificante": "D.L. 1 luglio 2013, n. 78"
+   },
+   {
+    "data": "2013-07-08",
+    "evento": "rp51",
+    "atto_modificante": "atto modificante non indicato (rp51)"
+   },
+   {
+    "data": "2013-12-23",
+    "evento": "rp52",
+    "atto_modificante": "D.L. 23 dicembre 2013, n. 146"
+   },
+   {
+    "data": "2014-03-05",
+    "evento": "rp53",
+    "atto_modificante": "atto modificante non indicato (rp53)"
+   },
+   {
+    "data": "2014-03-21",
+    "evento": "rp54",
+    "atto_modificante": "D.L. 20 marzo 2014, n. 36"
+   },
+   {
+    "data": "2015-01-28",
+    "evento": "rp55",
+    "atto_modificante": "atto modificante non indicato (rp55)"
+   },
+   {
+    "data": "2015-02-27",
+    "evento": "rp56",
+    "atto_modificante": "atto modificante non indicato (rp56)"
+   },
+   {
+    "data": "2016-01-22",
+    "evento": "rp57",
+    "atto_modificante": "D.Lgs. 15 gennaio 2016, n. 8"
+   },
+   {
+    "data": "2016-02-19",
+    "evento": "rp58",
+    "atto_modificante": "atto modificante non indicato (rp58)"
+   },
+   {
+    "data": "2016-03-02",
+    "evento": "rp59",
+    "atto_modificante": "atto modificante non indicato (rp59)"
+   },
+   {
+    "data": "2016-05-11",
+    "evento": "rp60",
+    "atto_modificante": "atto modificante non indicato (rp60)"
+   },
+   {
+    "data": "2016-08-11",
+    "evento": "rp61",
+    "atto_modificante": "atto modificante non indicato (rp61)"
+   },
+   {
+    "data": "2016-11-09",
+    "evento": "rp62",
+    "atto_modificante": "D.Lgs. 29 ottobre 2016, n. 202"
+   },
+   {
+    "data": "2017-03-24",
+    "evento": "rp63",
+    "atto_modificante": "atto modificante non indicato (rp63)"
+   },
+   {
+    "data": "2018-03-22",
+    "evento": "rp64",
+    "atto_modificante": "D.Lgs. 1 marzo 2018, n. 21"
+   },
+   {
+    "data": "2018-06-01",
+    "evento": "rp65",
+    "atto_modificante": "atto modificante non indicato (rp65)"
+   },
+   {
+    "data": "2018-07-12",
+    "evento": "rp66",
+    "atto_modificante": "atto modificante non indicato (rp66)"
+   },
+   {
+    "data": "2018-11-02",
+    "evento": "rp67",
+    "atto_modificante": "atto modificante non indicato (rp67)"
+   },
+   {
+    "data": "2019-03-13",
+    "evento": "rp68",
+    "atto_modificante": "atto modificante non indicato (rp68)"
+   },
+   {
+    "data": "2020-01-14",
+    "evento": "rp69",
+    "atto_modificante": "atto modificante non indicato (rp69)"
+   },
+   {
+    "data": "2020-03-30",
+    "evento": "rp70",
+    "atto_modificante": "atto modificante non indicato (rp70)"
+   },
+   {
+    "data": "2020-07-13",
+    "evento": "rp71",
+    "atto_modificante": "atto modificante non indicato (rp71)"
+   },
+   {
+    "data": "2020-08-21",
+    "evento": "rp72",
+    "atto_modificante": "atto modificante non indicato (rp72)"
+   },
+   {
+    "data": "2020-08-25",
+    "evento": "rp73",
+    "atto_modificante": "atto modificante non indicato (rp73)"
+   },
+   {
+    "data": "2020-10-15",
+    "evento": "rp74",
+    "atto_modificante": "atto modificante non indicato (rp74)"
+   },
+   {
+    "data": "2020-10-29",
+    "evento": "rp75",
+    "atto_modificante": "atto modificante non indicato (rp75)"
+   },
+   {
+    "data": "2020-11-05",
+    "evento": "rp76",
+    "atto_modificante": "atto modificante non indicato (rp76)"
+   },
+   {
+    "data": "2020-12-02",
+    "evento": "rp77",
+    "atto_modificante": "atto modificante non indicato (rp77)"
+   },
+   {
+    "data": "2021-02-05",
+    "evento": "rp78",
+    "atto_modificante": "atto modificante non indicato (rp78)"
+   },
+   {
+    "data": "2021-06-09",
+    "evento": "rp79",
+    "atto_modificante": "atto modificante non indicato (rp79)"
+   },
+   {
+    "data": "2021-06-18",
+    "evento": "rp80",
+    "atto_modificante": "atto modificante non indicato (rp80)"
+   },
+   {
+    "data": "2021-08-21",
+    "evento": "rp81",
+    "atto_modificante": "atto modificante non indicato (rp81)"
+   },
+   {
+    "data": "2021-10-13",
+    "evento": "rp82",
+    "atto_modificante": "atto modificante non indicato (rp82)"
+   },
+   {
+    "data": "2021-10-18",
+    "evento": "rp83",
+    "atto_modificante": "atto modificante non indicato (rp83)"
+   },
+   {
+    "data": "2021-10-28",
+    "evento": "rp84",
+    "atto_modificante": "atto modificante non indicato (rp84)"
+   },
+   {
+    "data": "2021-11-23",
+    "evento": "rp85",
+    "atto_modificante": "atto modificante non indicato (rp85)"
+   },
+   {
+    "data": "2021-11-30",
+    "evento": "rp86",
+    "atto_modificante": "atto modificante non indicato (rp86)"
+   },
+   {
+    "data": "2021-12-15",
+    "evento": "rp87",
+    "atto_modificante": "atto modificante non indicato (rp87)"
+   },
+   {
+    "data": "2022-01-19",
+    "evento": "rp88",
+    "atto_modificante": "atto modificante non indicato (rp88)"
+   },
+   {
+    "data": "2022-03-14",
+    "evento": "rp89",
+    "atto_modificante": "atto modificante non indicato (rp89)"
+   },
+   {
+    "data": "2022-08-17",
+    "evento": "rp90",
+    "atto_modificante": "atto modificante non indicato (rp90)"
+   },
+   {
+    "data": "2022-10-24",
+    "evento": "rp91",
+    "atto_modificante": "atto modificante non indicato (rp91)"
+   },
+   {
+    "data": "2022-10-29",
+    "evento": "rp92",
+    "atto_modificante": "atto modificante non indicato (rp92)"
+   },
+   {
+    "data": "2022-12-24",
+    "evento": "rp93",
+    "atto_modificante": "atto modificante non indicato (rp93)"
+   },
+   {
+    "data": "2023-02-23",
+    "evento": "rp94",
+    "atto_modificante": "atto modificante non indicato (rp94)"
+   },
+   {
+    "data": "2023-07-25",
+    "evento": "rp95",
+    "atto_modificante": "atto modificante non indicato (rp95)"
+   },
+   {
+    "data": "2023-08-14",
+    "evento": "rp96+rp97+rp98",
+    "atto_modificante": "atto modificante non indicato (rp96); atto modificante non indicato (rp97); atto modificante non indicato (rp98)"
+   },
+   {
+    "data": "2023-08-21",
+    "evento": "rp99",
+    "atto_modificante": "atto modificante non indicato (rp99)"
+   },
+   {
+    "data": "2023-09-15",
+    "evento": "rp100",
+    "atto_modificante": "D.L. 15 settembre 2023, n. 123"
+   },
+   {
+    "data": "2023-11-14",
+    "evento": "rp101",
+    "atto_modificante": "L. 13 novembre 2023, n. 159"
+   },
+   {
+    "data": "2023-11-15",
+    "evento": "rp102",
+    "atto_modificante": "atto modificante non indicato (rp102)"
+   },
+   {
+    "data": "2023-12-27",
+    "evento": "rp103",
+    "atto_modificante": "atto modificante non indicato (rp103)"
+   },
+   {
+    "data": "2024-04-03",
+    "evento": "rp104+rp105+rp106",
+    "atto_modificante": "atto modificante non indicato (rp104); atto modificante non indicato (rp105); atto modificante non indicato (rp106)"
+   },
+   {
+    "data": "2024-04-09",
+    "evento": "rp107",
+    "atto_modificante": "atto modificante non indicato (rp107)"
+   },
+   {
+    "data": "2024-07-02",
+    "evento": "rp108",
+    "atto_modificante": "atto modificante non indicato (rp108)"
+   },
+   {
+    "data": "2024-07-06",
+    "evento": "rp109",
+    "atto_modificante": "atto modificante non indicato (rp109)"
+   },
+   {
+    "data": "2024-08-06",
+    "evento": "rp110",
+    "atto_modificante": "atto modificante non indicato (rp110)"
+   },
+   {
+    "data": "2024-08-13",
+    "evento": "rp111+rp112",
+    "atto_modificante": "atto modificante non indicato (rp111); atto modificante non indicato (rp112)"
+   },
+   {
+    "data": "2024-10-21",
+    "evento": "rp113",
+    "atto_modificante": "D.Lgs. 7 ottobre 2024, n. 156"
+   },
+   {
+    "data": "2024-11-30",
+    "evento": "rp114",
+    "atto_modificante": "atto modificante non indicato (rp114)"
+   },
+   {
+    "data": "2024-12-07",
+    "evento": "rp115",
+    "atto_modificante": "atto modificante non indicato (rp115)"
+   },
+   {
+    "data": "2024-12-31",
+    "evento": "rp116",
+    "atto_modificante": "L. 30 dicembre 2024, n. 207"
+   },
+   {
+    "data": "2025-04-08",
+    "evento": "rp117",
+    "atto_modificante": "atto modificante non indicato (rp117)"
+   },
+   {
+    "data": "2025-05-07",
+    "evento": "rp118",
+    "atto_modificante": "atto modificante non indicato (rp118)"
+   },
+   {
+    "data": "2025-05-19",
+    "evento": "rp119",
+    "atto_modificante": "atto modificante non indicato (rp119)"
+   },
+   {
+    "data": "2025-12-03",
+    "evento": "rp120",
+    "atto_modificante": "atto modificante non indicato (rp120)"
+   },
+   {
+    "data": "2025-12-29",
+    "evento": "rp121",
+    "atto_modificante": "atto modificante non indicato (rp121)"
+   },
+   {
+    "data": "2026-01-12",
+    "evento": "rp122",
+    "atto_modificante": "atto modificante non indicato (rp122)"
+   },
+   {
+    "data": "2026-01-20",
+    "evento": "rp123",
+    "atto_modificante": "atto modificante non indicato (rp123)"
+   },
+   {
+    "data": "2026-02-19",
+    "evento": "rp124",
+    "atto_modificante": "atto modificante non indicato (rp124)"
+   },
+   {
+    "data": "2026-02-24",
+    "evento": "rp125",
+    "atto_modificante": "D.L. 24 febbraio 2026, n. 23"
+   },
+   {
+    "data": "2026-03-11",
+    "evento": "rp126",
+    "atto_modificante": "atto modificante non indicato (rp126)"
+   },
+   {
+    "data": "2026-03-24",
+    "evento": "rp127",
+    "atto_modificante": "atto modificante non indicato (rp127)"
+   },
+   {
+    "data": "2026-04-11",
+    "evento": "rp128",
+    "atto_modificante": "atto modificante non indicato (rp128)"
+   },
+   {
+    "data": "2026-04-24",
+    "evento": "rp129",
+    "atto_modificante": "L. 24 aprile 2026, n. 54"
+   },
+   {
+    "data": "2026-05-09",
+    "evento": "rp130",
+    "atto_modificante": "atto modificante non indicato (rp130)"
+   },
+   {
+    "data": "2026-08-06",
+    "evento": "rp131",
+    "atto_modificante": "L. 5 agosto 2026, n. 140"
+   }
+  ],
+  "ultima_versione": "2026-08-06",
+  "datazione": {
+   "monoblocco": 145,
+   "api": 144,
+   "ignota": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 85,
+   "stima_posteriore": 3,
+   "chiamate": 145,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "01": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "40cf0b317747"
+  },
+  "1": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, artt. 1, commi 1 e 2, e 2) Comitato nazionale di coordinamento per l'azione antidroga. Assistenza ai Paesi in via di sviluppo produttori di sostanze stupefacenti",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "a07b87289250"
+  },
+  "2": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 3, commi 1 e 2) Attribuzioni del Ministro della sanita'",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "2ccd34714649"
+  },
+  "3": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 3, commi 1 e 3) Istituzione del Servizio centrale per le dipendenze da alcool e sostanze stupefacenti o psicotrope",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "fd95d9caf513"
+  },
+  "4": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 3, commi 1, 4 e 5) Composizione del Servizio centrale per le dipendenze da alcool e sostanze stupefacenti o psicotrope",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "9eb6284cfd46"
+  },
+  "5": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 3) Controllo e vigilanza",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "03c30caf4082"
+  },
+  "6": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 4) Modalita' della vigilanza",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "d3a08ef822d9"
+  },
+  "7": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 5) Obbligo di esibizione di documenti",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "ec504e44e05a"
+  },
+  "8": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 4, comma 1) Opposizione alle ispezioni. Sanzioni",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "7c7ed270c14e"
+  },
+  "9": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 5, comma 1) Attribuzioni del Ministro dell'interno",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "c367fc77c839"
+  },
+  "10": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 26 giugno 1990, n. 162, artt. 5, comma 1, e 25, comma 2; d.l. 1› aprile 1988, n. 103, convertito, con modificazioni, dalla legge 1› giugno 1988, n. 176, art. 2- bis",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "1b4b69834071"
+  },
+  "11": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 5, comma 1) Uffici antidroga all'estero",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "aae89a1bf896"
+  },
+  "12": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 6, comma 1) Consultazione e raccordo tra lo Stato le regioni e le province autonome",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "fe3775de8c24"
+  },
+  "13": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 11 - legge 26 giugno 1990 n. 162, art. 7, commi 1 e 2 Tabelle delle sostanze soggette a controllo",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "91635e6b4d13"
+  },
+  "14": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Criteri per la formazione delle tabelle",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "b4ef699b755a"
+  },
+  "14-bis": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Sistema nazionale di allerta rapida per le droghe - NEWS-D",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "1c4a642b56a5"
+  },
+  "15": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 13) Adempimenti del Ministero della sanita' e delle regioni",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "175c57b0f17e"
+  },
+  "16": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 14) Elenco delle imprese autorizzate",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "fc3551ff2e77"
+  },
+  "17": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 15 - legge 26 giugno 1990, n. 162, art. 8, comma 1 Obbligo di autorizzazione",
+   "vigore_da": "1996-05-30",
+   "datazione": "api",
+   "h": "2127c5d889d2"
+  },
+  "18": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 16) Comunicazione dei decreti di autorizzazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "28c0867a93dd"
+  },
+  "19": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 17) Requisiti soggettivi per l'autorizzazione",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "369873ab89f7"
+  },
+  "20": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 18) Rinnovo delle autorizzazioni",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "b14f9c998595"
+  },
+  "21": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 19) Revoca e sospensione dell'autorizzazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "5d0b6699a78a"
+  },
+  "22": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 20) Provvedimenti in caso di cessazione delle attivita' autorizzate",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "a99b248a7fdd"
+  },
+  "23": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 21 - decreto-legge 22 aprile 1985, n. 144, convertito, con modificazioni, dalla legge 21 giugno 1985, n. 297, art. 4, comma 2 . Cessione o distruzione di sostanze stupefacenti o psicotrope",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "916edee5aee4"
+  },
+  "24": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 22) Sostanze stupefacenti o psicotrope confiscate o acquisite",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "470e423c5eb7"
+  },
+  "25": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Decreto-legge 22 aprile 1985, n. 144, convertito, con modificazioni dalla legge 21 giugno 1985, n. 297, art. 4, comma 1) Distruzione delle sostanze consegnate o messe a disposizione del Ministero della sanita'",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "d35b419de319"
+  },
+  "25-bis": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Distruzione delle sostanze e delle composizioni in possesso dei soggetti di cui all'articolo 17 e delle farmacie",
+   "vigore_da": "2010-04-03",
+   "datazione": "api",
+   "h": "ba1407b77b9e"
+  },
+  "26": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 26) Coltivazioni e produzioni vietate",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "9ab0b13b3925"
+  },
+  "27": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 27 - legge 26 giugno 1990 n. 162, art. 33, comma 1 Autorizzazione alla coltivazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "6ffc623fac9a"
+  },
+  "28": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 28 - decreto-legge 22 aprile 1985, n. 144, convertito, con modificazioni, dalla legge 21 giugno 1985, n. 297, art. 3, comma 4 - legge 26 giugno 1990, n. 162, art. 32, comma 1 . Sanzioni",
+   "vigore_da": "2016-02-06",
+   "datazione": "api",
+   "h": "bc7de98386b7"
+  },
+  "29": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 29) Vigilanza sulla coltivazione raccolta e produzione di stupefacenti",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "aa72cd33debf"
+  },
+  "30": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 30 - legge 26 giugno 1990, n. 162 art. 32, comma 1 Eccedenze di produzione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "c02fec1612ad"
+  },
+  "31": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 31 - legge 26 giugno 1990 n. 162, art. 32, comma 1 Quote di fabbricazione",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "fb62a314e4e5"
+  },
+  "32": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 32) Autorizzazione alla fabbricazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "492c6fef5bc8"
+  },
+  "33": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 33) Idoneita' dell'officina ai fini della fabbricazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "a2697ace0895"
+  },
+  "34": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 34) Controllo sui cicli di lavorazione",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "67c5c789dc00"
+  },
+  "35": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 35) Controllo sulle materie prime",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "8af1982863eb"
+  },
+  "36": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 36) Autorizzazione all'impiego",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "6e368cdaec7f"
+  },
+  "37": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 37) Autorizzazione al commercio all'ingrosso",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "23175ac9c96e"
+  },
+  "38": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 38 - legge 26 giugno 1990 n. 162, artt. 9, comma 1, e 32, comma 1 Vendita o cessione di sostanze stupefacenti o psicotrope",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "084873d34ee8"
+  },
+  "39": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "c35f691345e2"
+  },
+  "40": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 40) Confezioni per la vendita",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "e3695ac6ee1a"
+  },
+  "41": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 41-legge 26 giugno 1990 n. 162, art. 32, comma 1 Modalita' di consegna",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "a40c6e28cac6"
+  },
+  "42": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 42 - legge 26 giugno 1990, n. 162 art. 10, comma 1",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "7a9f5673b6de"
+  },
+  "43": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Obblighi dei medici chirurghi e dei medici veterinari",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "e5584b7a0c7a"
+  },
+  "44": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 44) Divieto di consegna a persona minore o inferma di mente",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "835b6e7b0a13"
+  },
+  "45": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Dispensazione dei medicinali",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "20008f74331f"
+  },
+  "46": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 46) Approvvigionamento e somministrazione a bordo delle navi mercantili",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "a7832cc28bb7"
+  },
+  "47": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 47) Approvvigionamento e somministrazione nei cantieri di lavoro",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "97b380a21b4f"
+  },
+  "48": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 48) Approvvigionamento per le necessita' di pronto soccorso",
+   "vigore_da": "2003-02-04",
+   "datazione": "api",
+   "h": "332620962c60"
+  },
+  "49": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 49) Istituti di ricerca scientifica Assegnazione di stupefacenti e sostanze psicotrope",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "54165099def8"
+  },
+  "50": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 50) Disposizioni generali",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "34892f8bb7cd"
+  },
+  "51": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 51) Domanda per il permesso di importazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "859b381fd420"
+  },
+  "52": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 52) Importazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "b161571273ab"
+  },
+  "53": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 53) Sdoganamento e bolletta di accompagnamento",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "d1f42ad1f8ff"
+  },
+  "54": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 54) Prelevamento dei campioni",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "c79b378f2488"
+  },
+  "55": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 55) Analisi dei campioni",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "dd9ec0d6c3e5"
+  },
+  "56": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 56) Domanda per il permesso di esportazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "2c07531d4449"
+  },
+  "57": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 57) Esportazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "fc2fca4f2681"
+  },
+  "58": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 58) Domanda per il permesso di transito",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "426ecb7be55d"
+  },
+  "59": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 59) Transito",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "3c4f7b9307f5"
+  },
+  "60": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Registro di entrata e uscita",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "488f1c202e82"
+  },
+  "61": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 61) Registro di entrata e uscita per gli enti e le imprese autorizzati alla fabbricazione di sostanze stupefacenti o psicotrope",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "1ccf0b55ae98"
+  },
+  "62": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 62) Registro di entrata e uscita per gli enti o le imprese autorizzati all'impiego o al commercio di sostanze stupefacenti o psicotrope e per le farmacie",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "5aeeb07f4966"
+  },
+  "63": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 63) Registro di lavorazione per gli enti e le imprese autorizzati alla fabbricazione di sostanze stupefacenti o psicotrope",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "369ccf36ca5c"
+  },
+  "64": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 64) Registro di carico e scarico per i medici chirurghi e i medici veterinari, le navi mercantili e i cantieri di lavoro, i trasporti terrestri ed aerei e le comunita' temporanee",
+   "vigore_da": "2010-04-03",
+   "datazione": "api",
+   "h": "dc689631f9b9"
+  },
+  "65": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 65) Obbligo di trasmissione di dati",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "1ed8ecfa2764"
+  },
+  "66": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 66) Trasmissione di notizie e dati trimestrali",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "06e0706f6000"
+  },
+  "67": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 67) Perdita, smarrimento o sottrazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "736c03799c8d"
+  },
+  "68": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 22 dicembre 1975, n. 685, art. 68 legge 26 giugno 1990, n. 162, art. 32, comma 1 Registri di entrata e uscita, di lavorazione, di carico e scarico. Trasmissione di dati",
+   "vigore_da": "2010-04-03",
+   "datazione": "api",
+   "h": "5eeea092d308"
+  },
+  "69": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "6cd1b0f920ba"
+  },
+  "70": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Precursori di droghe",
+   "vigore_da": "2024-11-05",
+   "datazione": "api",
+   "h": "7da69d2e6293"
+  },
+  "71": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "6cd1b0f920ba"
+  },
+  "72": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 13, comma 1) Attivita' illecite",
+   "vigore_da": "1993-06-06",
+   "datazione": "api",
+   "h": "712f6d3807ca"
+  },
+  "73": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 14, comma 1) Produzione, traffico e detenzione illeciti di sostanze stupefacenti o psicotrope",
+   "vigore_da": "2026-04-25",
+   "datazione": "api",
+   "h": "4c5853332cbf"
+  },
+  "74": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, articoli 14, comma 1, e 38, comma 2) Associazione finalizzata al traffico illecito di sostanze stupefacenti o psicotrope",
+   "vigore_da": "2016-11-24",
+   "datazione": "api",
+   "h": "73f7210c4135"
+  },
+  "75": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Condotte integranti illeciti amministrativi",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "0e6e45ca53a9"
+  },
+  "75-bis": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Provvedimenti a tutela della sicurezza pubblica",
+   "vigore_da": "2009-08-08",
+   "datazione": "api",
+   "h": "f24efbbabbc9"
+  },
+  "76": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "1993-06-06",
+   "datazione": "api",
+   "h": "7d1b7b50d564"
+  },
+  "77": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 16, comma 1) Abbandono di siringhe",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "6eac9746dc3d"
+  },
+  "78": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 16, commi 1 e 2) Quantificazione delle sostanze",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "4c6137702bcc"
+  },
+  "79": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 17, comma 1) Agevolazione dell'uso di sostanze stupefacenti o psicotrope",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "93bfd27a5c57"
+  },
+  "80": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 18, comma 1) Aggravanti specifiche",
+   "vigore_da": "1993-06-06",
+   "datazione": "api",
+   "h": "4ab0cc315522"
+  },
+  "81": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 19, comma 1) Prestazioni di soccorso in caso di pericolo di morte o lesioni dell'assuntore",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "2db8496a3911"
+  },
+  "82": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 20, comma 1) Istigazione, proselitismo e induzione al reato di persona minore",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "6166c9c9891a"
+  },
+  "83": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 77) Prescrizioni abusive",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "641164038429"
+  },
+  "84": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 21, comma 1) Divieto di propaganda pubblicitaria",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "1b02dbebc8be"
+  },
+  "85": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 22, comma 1) Pene accessorie",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "a80f6ea7b5fe"
+  },
+  "85-bis": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Ipotesi particolare di confisca",
+   "vigore_da": "2023-11-15",
+   "datazione": "api",
+   "h": "2353d7b8518a"
+  },
+  "86": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 23, comma 1) Espulsione dello straniero condannato",
+   "vigore_da": "1995-03-02",
+   "datazione": "api",
+   "h": "5705bcf1db80"
+  },
+  "87": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Decreto-legge 22 aprile 1985, n. 144, convertito, con modificazioni, dalla legge 21 giugno 1985, n. 297, art. 3, comma 2 Destinazione delle sostanze sequestrate dall'autorita' giudiziaria",
+   "vigore_da": "2025-01-01",
+   "datazione": "api",
+   "h": "6f0d2262036a"
+  },
+  "88": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Decreto-legge 22 aprile 1985, n. 144, convertito, con modificazioni, dalla legge 21 giugno 1985, n. 297, art. 3, comma 3 Destinazione dei campioni delle sostanze sequestrate",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "7430340104f4"
+  },
+  "89": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Provvedimenti restrittivi nei confronti dei tossicodipendenti o alcooldipendenti che abbiano in corso programmi terapeutici",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "4ebe961ebfc0"
+  },
+  "90": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 26 giugno 1990, n. 162, art. 24, comma 1 Sospensione dell'esecuzione della pena detentiva",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "a9fdf49a5875"
+  },
+  "91": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 24, comma 1) Istanza per la sospensione dell'esecuzione",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "4ad07b58f521"
+  },
+  "92": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 24, comma 1) Procedimento innanzi alla sezione di sorveglianza",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "89f8f3a5d6f4"
+  },
+  "93": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 24, comma 1) Estinzione del reato. Revoca della sospensione",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "c7ebaee764de"
+  },
+  "94": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 26 luglio 1975, n. 354, art. 47-bis, introdotto dall'art. 4-ter del decreto-legge 22 aprile 1985, n. 144, convertito, con modificazioni, dalla legge 21 giugno 1985, n. 297, come sostituito dall'art. 12 della legge 10 ottobre 1986, n. 663 Affidamento in prova in casi particolari",
+   "vigore_da": "2014-02-22",
+   "datazione": "api",
+   "h": "b041d0c3dad8"
+  },
+  "94-bis": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "6c60dfbf619c"
+  },
+  "94-ter": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Detenzione domiciliare in casi particolari",
+   "vigore_da": "2026-08-21",
+   "datazione": "api",
+   "h": "89e644c48f6c"
+  },
+  "94-quater": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Definizione anticipata del processo con finalita' di recupero di persone tossicodipendenti o alcoldipendenti",
+   "vigore_da": "2026-08-21",
+   "datazione": "api",
+   "h": "e67e582e150d"
+  },
+  "95": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, articoli 24, comma 2, e 30) Esecuzione della pena detentiva inflitta a persona tossicodipendente",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "44fb2efa4d85"
+  },
+  "96": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 22 dicembre 1975, n. 685, art. 84 - decreto-legge 22 aprile 1985, n. 144, convertito, con modificazioni, dalla legge 21 giugno 1985, n. 297, art. 4-quater - legge 26 giugno 1990, n. 162, articoli 24, comma 2, e 29, comma 1 - decreto ministeriale 30 settembre 1989, n. 334, contenente norme regolamentari al codice di procedura penale, art. 9, commi 1 e 2). Prestazioni socio-sanitarie per tossicodipendenti detenuti",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "40add163bc23"
+  },
+  "97": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Attivita' sotto copertura",
+   "vigore_da": "2010-09-07",
+   "datazione": "api",
+   "h": "c9008b64ba66"
+  },
+  "98": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2010-09-07",
+   "datazione": "api",
+   "h": "594264718c8a"
+  },
+  "99": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 25, comma 1) Perquisizione e cattura di navi ed aeromobili sospetti di attendere al traffico illecito di sostanze stupefacenti o psicotrope",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "9310e4059714"
+  },
+  "100": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 25, comma 1) Destinazione di beni sequestrati o confiscati a seguito di operazioni antidroga",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "eaa9efdcc87c"
+  },
+  "101": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 25, comma 1) Destinazione dei valori confiscati a seguito di operazioni antidroga",
+   "vigore_da": "1993-09-09",
+   "datazione": "api",
+   "h": "5f27844e2fbb"
+  },
+  "102": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 25, comma 1) Notizie di procedimenti penali",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "91ac1207335d"
+  },
+  "103": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 25, comma 1) Controlli ed ispezioni",
+   "vigore_da": "2020-12-03",
+   "datazione": "api",
+   "h": "86188c955a6b"
+  },
+  "104": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 26, comma 1) Promozione e coordinamento, a livello nazionale, delle attivita' di educazione ed informazione",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "08370badb380"
+  },
+  "105": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 26, comma 1) Promozione e coordinamento, a livello provinciale, delle iniziative di educazione e di prevenzione. Corsi di studio per insegnanti e corsi sperimentali di scuola media",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "59bc999e1d7f"
+  },
+  "106": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n.162, art. 26, comma 1) Centri di informazione e consulenza nelle scuole Iniziative di studenti animatori",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "874260a72a07"
+  },
+  "107": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "108": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "109": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "110": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "111": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "112": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "093615c63e36"
+  },
+  "113": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Competenze delle regioni e delle province autonome",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "a01adbcfff9b"
+  },
+  "114": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n.162, art. 28, comma 1) Compiti di assistenza degli enti locali",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "057515fffdf6"
+  },
+  "115": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 28, comma 1) Enti ausiliari",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "f1c9835056a0"
+  },
+  "116": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Livelli essenziali relativi alla liberta' di scelta dell'utente e ai requisiti per l'autorizzazione delle strutture private",
+   "vigore_da": "2007-11-29",
+   "datazione": "api",
+   "h": "26a549ff658a"
+  },
+  "117": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Accreditamento istituzionale e accordi contrattuali",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "da99d5fbe297"
+  },
+  "118": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 27) Organizzazione dei servizi per le tossicodipendenze presso le unita' sanitarie locali",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "63162ce6ddc5"
+  },
+  "119": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 29, comma 1) Assistenza ai tossicodipendenti italiani all'estero",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "710d61394cdd"
+  },
+  "120": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 29, comma 1) Terapia volontaria e anonimato",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "9a4f4d7b5d8c"
+  },
+  "121": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 29, comma 1) Segnalazioni al servizio pubblico per le tossicodipendenze",
+   "vigore_da": "1993-06-06",
+   "datazione": "api",
+   "h": "f2d9f0a3fcaf"
+  },
+  "122": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Legge 26 giugno 1990, n. 162, art. 29, comma 1 Definizione del programma terapeutico e socio-riabilitativo",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "562e1f7913cb"
+  },
+  "122-bis": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Verifiche e controlli",
+   "vigore_da": "2006-02-28",
+   "datazione": "api",
+   "h": "600afc0e9c5b"
+  },
+  "123": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 29, comma 1) Verifica del trattamento in regime di sospensione di esecuzione della pena nonche' di affidamento in prova in casi particolari",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "b0c050e7632d"
+  },
+  "124": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 29, comma 1) Lavoratori tossicodipendenti",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "c1bc135a77d0"
+  },
+  "125": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 29, comma 1) Accertamenti di assenza di tossicodipendenza",
+   "vigore_da": "1995-04-26",
+   "datazione": "api",
+   "h": "924a554bc276"
+  },
+  "126": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 31) Accompagnamento del tossicodipendente in affidamento",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "019fa8e35ddf"
+  },
+  "127": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Fondo nazionale di intervento per la lotta alla droga",
+   "vigore_da": "2014-05-21",
+   "datazione": "api",
+   "h": "4911653aeb46"
+  },
+  "128": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 32, comma 1) Contributi",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "287f9c4af39c"
+  },
+  "129": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 32, comma 1) Concessione di strutture appartenenti allo Stato",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "131bcdc54d89"
+  },
+  "130": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 32, comma 1) Concessione delle strutture degli enti locali",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "782262737f41"
+  },
+  "131": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Relazione al Parlamento",
+   "vigore_da": "1999-03-20",
+   "datazione": "api",
+   "h": "d7c671c30b94"
+  },
+  "132": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Consulta degli esperti e degli operatori sociali",
+   "vigore_da": "1999-03-20",
+   "datazione": "api",
+   "h": "98dc2166c5ed"
+  },
+  "133": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "Decreto-legge 22 aprile 1985, n. 144, convertito, con modificazioni, dalla legge 21 giugno 1985, n. 297, art. 1- ter Province autonome di Trento e Bolzano",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "e818b6d84608"
+  },
+  "134": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 35) Progetti per l'occupazione di tossicodipendenti",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "94ba964e346e"
+  },
+  "135": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, art. 36) Programmi finalizzati alla prevenzione ed alla cura dell'AIDS",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "32df2cc4361d"
+  },
+  "136": {
+   "file": "dpr-309-1990.md",
+   "rubrica": "(Legge 26 giugno 1990, n. 162, articoli 32, comma 1, e 38, comma 1) Abrogazioni",
+   "vigore_da": "1990-11-15",
+   "datazione": "api",
+   "h": "1f2a4724d8a3"
+  }
+ }
+}
