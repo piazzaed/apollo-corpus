@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "dpr-131-1986",
   "nome": "Testo unico imposta di registro (D.P.R. 131/1986)",
-  "snapshot": "2026-10-05",
+  "snapshot": "2026-10-23",
   "formato": 2,
   "consolidato_normattiva": "2026-06-04",
   "articoli": 84,
@@ -532,12 +532,12 @@
   "ultima_versione": "2026-06-03",
   "datazione": {
    "monoblocco": 84,
-   "api": 1,
-   "riportati": 82,
+   "api": 5,
+   "riportati": 78,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 1,
-   "chiamate": 2,
+   "stima_anteriore": 4,
+   "chiamate": 6,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -579,7 +579,7 @@
    "vigore_da": "2024-10-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "8460f8fb9a04"
+   "h": "1a7d40be0b07"
   },
   "5": {
    "file": "dpr-131-1986.md",
@@ -755,7 +755,7 @@
    "vigore_da": "2000-12-10",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "78bea43a654b"
+   "h": "f5aaf9969d30"
   },
   "27": {
    "file": "dpr-131-1986.md",
@@ -891,7 +891,7 @@
    "vigore_da": "2024-10-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "732a6b00af78"
+   "h": "e9998b42734b"
   },
   "44": {
    "file": "dpr-131-1986.md",
@@ -971,7 +971,7 @@
    "vigore_da": "2005-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "98ae42186e3e"
+   "h": "063185e1be16"
   },
   "53": {
    "file": "dpr-131-1986.md",
@@ -1169,7 +1169,7 @@
    "vigore_da": "2024-10-03",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "143eec279662"
+   "h": "a4729260546e"
   },
   "77": {
    "file": "dpr-131-1986.md",

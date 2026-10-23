@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "tuir",
   "nome": "Testo unico delle imposte sui redditi (D.P.R. 917/1986)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-10-23",
   "formato": 2,
   "consolidato_normattiva": "2026-09-26",
   "articoli": 236,
@@ -1262,14 +1262,12 @@
   "ultima_versione": "2026-09-25",
   "datazione": {
    "monoblocco": 236,
-   "api": 220,
-   "riportati": 10,
-   "ignota": 6,
-   "falliti": 4,
+   "api": 4,
+   "riportati": 230,
+   "ignota": 2,
    "testo_diverso": 2,
-   "stima_anteriore": 141,
-   "chiamate": 226,
-   "errori_rete": 4,
+   "stima_anteriore": 1,
+   "chiamate": 6,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -3059,8 +3057,9 @@
   "180": {
    "file": "tuir.md",
    "rubrica": "Riserve in sospensione d'imposta",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2004-01-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
    "h": "4fc4e3961515"
   },
   "181": {
@@ -3082,15 +3081,17 @@
   "183": {
    "file": "tuir.md",
    "rubrica": "Fallimento e liquidazione coatta",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2005-12-02",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
    "h": "ff201f7c6ff2"
   },
   "184": {
    "file": "tuir.md",
    "rubrica": "Applicazione analogica",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2004-01-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
    "h": "e974f6226c98"
   },
   "185": {
@@ -3128,8 +3129,9 @@
   "188-bis": {
    "file": "tuir.md",
    "rubrica": "Campione d'Italia",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2020-01-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
    "h": "0c0fac04c9e0"
   },
   "189": {

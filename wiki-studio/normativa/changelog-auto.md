@@ -1,6 +1,6 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-10-19 · 511 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-10-23 · 523 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
@@ -11,6 +11,10 @@
 
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
 |---|---|---|---|---|
+| Art. 188-bis — Campione d'Italia | datazione | — → 2020-01-01 | non indicato nell’AKN | 2026-10-19 → 2026-10-23 |
+| Art. 184 — Applicazione analogica | datazione | — → 2004-01-01 | non indicato nell’AKN | 2026-10-19 → 2026-10-23 |
+| Art. 183 — Fallimento e liquidazione coatta | datazione | — → 2005-12-02 | non indicato nell’AKN | 2026-10-19 → 2026-10-23 |
+| Art. 180 — Riserve in sospensione d'imposta | datazione | — → 2004-01-01 | non indicato nell’AKN | 2026-10-19 → 2026-10-23 |
 | Art. 191 — Disposizioni in materia di agevolazioni tributarie | note | 2004-01-01 → 2004-01-01 | non indicato nell’AKN | 2026-10-12 → 2026-10-19 |
 | Art. 190 — Redditi dei fabbricati | modificato | 2004-01-01 → 2004-01-01 | non indicato nell’AKN | 2026-10-12 → 2026-10-19 |
 | Art. 189 — Riferimenti legislativi ad imposte abolite | modificato | 2004-01-01 → 2004-01-01 | non indicato nell’AKN | 2026-10-12 → 2026-10-19 |
@@ -463,6 +467,28 @@
 | Art. 2 — Soggetti passivi | modificato | 2023-12-29 → 2023-12-29 | L. 25 settembre 2026, n. 166 | 2026-09-23 → 2026-10-12 |
 | Art. 1 — Presupposto dell'imposta | note | 2004-01-01 → 2004-01-01 | L. 25 settembre 2026, n. 166 | 2026-09-23 → 2026-10-12 |
 
+## Testo unico imposta di registro (D.P.R. 131/1986) (`dpr-131-1986`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 76 — Decadenza dell'azione dell'amministrazione finanziaria | modificato | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-10-05 → 2026-10-23 |
+| Art. 52-bis — Liquidazione dell'imposta derivante dai contratti di locazione | modificato | 2005-01-01 → 2005-01-01 | non indicato nell’AKN | 2026-10-05 → 2026-10-23 |
+| Art. 43 — Base imponibile | note | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-10-05 → 2026-10-23 |
+| Art. 26 — Presunzione di liberalita` | note | 2000-12-10 → 2000-12-10 | non indicato nell’AKN | 2026-10-05 → 2026-10-23 |
+| Art. 4 — Operazioni di societa' ed enti esteri | modificato | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-10-05 → 2026-10-23 |
+| Art. 11 — Richiesta di registrazione degli atti scritti | note | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 41 — Liquidazione dell'imposta | note | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 40 — Atti relativi ad operazioni soggette all'imposta sul valore aggiunto | modificato | 2017-01-01 → 2017-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 5 — Registrazione in termine fisso e registrazione in caso d'uso | modificato | 2017-01-01 → 2017-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+
+## Testo unico del pubblico impiego (D.Lgs. 165/2001) (`dlgs-165-2001`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 60 — Controllo del costo del lavoro (Art. 65 del d.lgs. n. 29 del 1993, come sostituito dall'art. 32 del d.lgs. n. 546 del 1993) | modificato | 2017-06-22 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-23 |
+| Art. 28-bis — Accesso alla qualifica di dirigente della prima fascia | note | 2026-08-08 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-23 |
+| Art. 28 — Accesso alla qualifica di dirigente della seconda fascia | note | 2026-08-08 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-23 |
+
 ## Testo unico degli enti locali (D.Lgs. 267/2000) (`tuel`)
 
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
@@ -553,15 +579,6 @@
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
 |---|---|---|---|---|
 | Art. 45 — Iscrizione scolastica | modificato | 1999-11-18 → 2026-10-01 | D.L. 30 settembre 2026, n. 170 | 2026-09-23 → 2026-10-05 |
-
-## Testo unico imposta di registro (D.P.R. 131/1986) (`dpr-131-1986`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 11 — Richiesta di registrazione degli atti scritti | note | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
-| Art. 41 — Liquidazione dell'imposta | note | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 40 — Atti relativi ad operazioni soggette all'imposta sul valore aggiunto | modificato | 2017-01-01 → 2017-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 5 — Registrazione in termine fisso e registrazione in caso d'uso | modificato | 2017-01-01 → 2017-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
 
 ## Responsabilità amministrativa degli enti (D.Lgs. 231/2001) (`dlgs-231-2001`)
 

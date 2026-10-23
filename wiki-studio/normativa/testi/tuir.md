@@ -1,6 +1,6 @@
 # Testo unico delle imposte sui redditi (D.P.R. 917/1986) — Testo unico delle imposte sui redditi (D.P.R. 917/1986)
 
-<!-- codice: tuir · snapshot: 2026-10-19 · consolidato-normattiva: 2026-09-26 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917) -->
+<!-- codice: tuir · snapshot: 2026-10-23 · consolidato-normattiva: 2026-09-26 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -6759,6 +6759,7 @@ AGGIORNAMENTO (192)
 Il D.Lgs. 29 novembre 2018, n. 142, ha disposto (con l'art. 14, comma 1) che il presente comma e' abrogato con effetto dal periodo d'imposta successivo a quello in corso al 31 dicembre 2018.
 
 ### Art. 180 — Riserve in sospensione d'imposta
+<!-- vigore_da: 2004-01-01 -->
 
 ((
 
@@ -6812,6 +6813,7 @@ AGGIORNAMENTO (235)
 Il D.Lgs. 13 dicembre 2024, n. 192, ha disposto (con l'art. 18, comma 3) che "Le disposizioni di cui ai commi 1 e 2 si applicano alle liquidazioni che hanno inizio successivamente alla data di entrata in vigore del presente decreto".
 
 ### Art. 183 — Fallimento e liquidazione coatta
+<!-- vigore_da: 2005-12-02 -->
 
 1. Nei casi di fallimento e di liquidazione coatta amministrativa il reddito di impresa relativo al periodo compreso tra l'inizio dell'esercizio e la dichiarazione di fallimento o il provvedimento che ordina la liquidazione e' determinato in base al bilancio redatto dal curatore o dal commissario liquidatore. Per le imprese individuali e per le societa' in nome collettivo e in accomandita semplice il detto reddito concorre a formare il reddito complessivo dell'imprenditore, dei familiari partecipanti all'impresa o dei soci relativo al periodo di imposta in corso alla data della dichiarazione di fallimento o del provvedimento che ordina la liquidazione.
 
@@ -6830,6 +6832,7 @@ AGGIORNAMENTO (123)
 Il D.Lgs. 18 novembre 2005, n. 247 ha disposto (con l'art. 12, comma 8) che "Le disposizioni degli articoli 172, comma 3, 173, 176, 177, comma 1, 179 e 181 del testo unico, come modificate dal presente articolo, hanno effetto per i periodi di imposta che iniziano a decorrere dal 1 gennaio 2004; le disposizioni di cui agli articoli 172, comma 6, e 177, comma 2, hanno effetto per i periodi d'imposta che hanno inizio a decorrere del 1 gennaio 2005".
 
 ### Art. 184 — Applicazione analogica
+<!-- vigore_da: 2004-01-01 -->
 
 ((
 
@@ -6877,6 +6880,7 @@ Il D.Lgs. 12 dicembre 2003, n. 344 ha disposto (con l'art. 3, comma 1) che "Nel 
 ((ARTICOLO ABROGATO DAL D.L. 4 LUGLIO 2006, N. 223 CONVERTITO CON MODIFICAZIONI DALLA L. 4 AGOSTO 2006, N. 248))
 
 ### Art. 188-bis — Campione d'Italia
+<!-- vigore_da: 2020-01-01 -->
 
 1. Ai fini dell'imposta sul reddito delle persone fisiche, i redditi, diversi da quelli d'impresa, delle persone fisiche iscritte nei registri anagrafici del Comune di Campione d'Italia, nonche' i redditi di lavoro autonomo di professionisti e con studi nel Comune di Campione d'Italia, prodotti in franchi svizzeri nel territorio dello stesso comune, e/o in Svizzera, sono computati in euro sulla base del cambio di cui all'articolo 9, comma 2, ridotto forfetariamente del 30 per cento.
 
