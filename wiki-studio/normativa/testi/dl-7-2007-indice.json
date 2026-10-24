@@ -1,0 +1,256 @@
+{
+ "_meta": {
+  "codice": "dl-7-2007",
+  "nome": "Misure urgenti per la tutela dei consumatori — recesso dai contratti di telefonia, art. 1 (D.L. 7/2007)",
+  "snapshot": "2026-10-24",
+  "formato": 2,
+  "consolidato_normattiva": "2025-04-08",
+  "articoli": 18,
+  "file": [
+   "dl-7-2007.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legge:2007-01-31;7",
+  "versioni": [
+   {
+    "data": "2007-02-01",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2007-04-02",
+    "evento": "rp1",
+    "atto_modificante": "L. 2 aprile 2007, n. 40"
+   },
+   {
+    "data": "2007-12-28",
+    "evento": "rp2",
+    "atto_modificante": "L. 24 dicembre 2007, n. 244"
+   },
+   {
+    "data": "2007-12-31",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 31 dicembre 2007, n. 248"
+   },
+   {
+    "data": "2008-06-25",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 25 giugno 2008, n. 112"
+   },
+   {
+    "data": "2008-12-31",
+    "evento": "rp5",
+    "atto_modificante": "D.L. 30 dicembre 2008, n. 207"
+   },
+   {
+    "data": "2009-07-01",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 1 luglio 2009, n. 78"
+   },
+   {
+    "data": "2010-12-18",
+    "evento": "rp7",
+    "atto_modificante": "D.Lgs. 14 dicembre 2010, n. 218"
+   },
+   {
+    "data": "2011-05-13",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 13 maggio 2011, n. 70"
+   },
+   {
+    "data": "2011-06-06",
+    "evento": "rp9",
+    "atto_modificante": "D.Lgs. 23 maggio 2011, n. 79"
+   },
+   {
+    "data": "2012-02-09",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 9 febbraio 2012, n. 5"
+   },
+   {
+    "data": "2013-12-23",
+    "evento": "rp11",
+    "atto_modificante": "D.L. 23 dicembre 2013, n. 145"
+   },
+   {
+    "data": "2017-05-16",
+    "evento": "rp12",
+    "atto_modificante": "D.Lgs. 13 aprile 2017, n. 61"
+   },
+   {
+    "data": "2017-08-14",
+    "evento": "rp13",
+    "atto_modificante": "L. 4 agosto 2017, n. 124"
+   },
+   {
+    "data": "2017-10-16",
+    "evento": "rp14",
+    "atto_modificante": "D.L. 16 ottobre 2017, n. 148"
+   },
+   {
+    "data": "2019-12-30",
+    "evento": "rp15",
+    "atto_modificante": "L. 27 dicembre 2019, n. 160"
+   },
+   {
+    "data": "2022-08-12",
+    "evento": "rp16",
+    "atto_modificante": "L. 5 agosto 2022, n. 118"
+   },
+   {
+    "data": "2023-08-10",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 10 agosto 2023, n. 104"
+   },
+   {
+    "data": "2023-10-09",
+    "evento": "rp18",
+    "atto_modificante": "L. 9 ottobre 2023, n. 136"
+   },
+   {
+    "data": "2025-04-07",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 7 aprile 2025, n. 45"
+   }
+  ],
+  "ultima_versione": "2025-04-07",
+  "datazione": {
+   "monoblocco": 18,
+   "api": 18,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "stima_posteriore": 1,
+   "chiamate": 18,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Ricarica nei servizi di telefonia mobile, trasparenza e liberta' di recesso dai contratti con operatori telefonici, televisivi e di servizi internet",
+   "vigore_da": "2022-08-27",
+   "datazione": "api",
+   "h": "0b6baa4b13d9"
+  },
+  "1-bis": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Misure per il mercato delle telecomunicazioni",
+   "vigore_da": "2007-04-03",
+   "datazione": "api",
+   "h": "f8ebc8618209"
+  },
+  "2": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Informazione sui prezzi dei carburanti e sul traffico lungo la rete autostradale e stradale",
+   "vigore_da": "2007-04-03",
+   "datazione": "api",
+   "h": "3deb2f9c630e"
+  },
+  "3": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Trasparenza delle tariffe aeree",
+   "vigore_da": "2023-10-10",
+   "datazione": "api",
+   "h": "613a55225c0d"
+  },
+  "4": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Data di scadenza dei prodotti alimentari",
+   "vigore_da": "2007-04-03",
+   "datazione": "api",
+   "h": "47ee2db743ec"
+  },
+  "5": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Misure per la concorrenza e per la tutela del consumatore nei servizi assicurativi",
+   "vigore_da": "2007-04-03",
+   "datazione": "api",
+   "h": "a6e494f2d0b4"
+  },
+  "6": {
+   "file": "dl-7-2007.md",
+   "rubrica": "",
+   "vigore_da": "2007-04-03",
+   "datazione": "api",
+   "h": "5fd15b3df11c"
+  },
+  "7": {
+   "file": "dl-7-2007.md",
+   "rubrica": "",
+   "vigore_da": "2011-01-02",
+   "datazione": "api",
+   "h": "d8188acaf974"
+  },
+  "8": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Portabilita' del mutuo; surrogazione",
+   "vigore_da": "2011-01-02",
+   "datazione": "api",
+   "h": "da4822b3fbc2"
+  },
+  "8-bis": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Disposizioni a tutela dei cittadini utenti",
+   "vigore_da": "2011-01-02",
+   "datazione": "api",
+   "h": "8678e57fa235"
+  },
+  "9": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Comunicazione unica per la nascita dell'impresa",
+   "vigore_da": "2022-08-27",
+   "datazione": "api",
+   "h": "8d731b57b46d"
+  },
+  "9-bis": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Iscrizione all'albo provinciale delle imprese artigiane mediante comunicazione unica al registro delle imprese",
+   "vigore_da": "2011-07-13",
+   "datazione": "api",
+   "h": "53c48092baea"
+  },
+  "10": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Misure urgenti per la liberalizzazione di alcune attivita' economiche",
+   "vigore_da": "2012-04-07",
+   "datazione": "api",
+   "h": "e47ba969a71f"
+  },
+  "11": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Misure per il mercato del gas",
+   "vigore_da": "2014-02-22",
+   "datazione": "api",
+   "h": "db8bd95ff68b"
+  },
+  "12": {
+   "file": "dl-7-2007.md",
+   "rubrica": "",
+   "vigore_da": "2007-04-03",
+   "datazione": "api",
+   "h": "5fd15b3df11c"
+  },
+  "13": {
+   "file": "dl-7-2007.md",
+   "rubrica": "Disposizioni urgenti in materia di istruzione tecnico-professionale e di valorizzazione dell'autonomia scolastica. Misure in materia di rottamazione di autoveicoli. Semplificazione del procedimento di cancellazione dell'ipoteca per i mutui immobiliari. Revoca delle concessioni per la progettazione e la costruzione di linee ad alta velocita' e nuova disciplina degli affidamenti contrattuali nella revoca di atti amministrativi. Clausola di salvaguardia. Entrata in vigore",
+   "vigore_da": "2025-04-08",
+   "datazione": "api",
+   "h": "56350fec28bc"
+  },
+  "14": {
+   "file": "dl-7-2007.md",
+   "rubrica": "",
+   "vigore_da": "2007-04-03",
+   "datazione": "api",
+   "h": "5fd15b3df11c"
+  },
+  "15": {
+   "file": "dl-7-2007.md",
+   "rubrica": "",
+   "vigore_da": "2007-04-03",
+   "datazione": "api",
+   "h": "5fd15b3df11c"
+  }
+ }
+}

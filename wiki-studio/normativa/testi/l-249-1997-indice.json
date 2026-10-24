@@ -1,0 +1,251 @@
+{
+ "_meta": {
+  "codice": "l-249-1997",
+  "nome": "Istituzione dell'AGCOM e conciliazione nelle controversie con gli operatori (L. 249/1997)",
+  "snapshot": "2026-10-24",
+  "formato": 2,
+  "consolidato_normattiva": "2024-05-02",
+  "articoli": 8,
+  "file": [
+   "l-249-1997.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1997-07-31;249",
+  "versioni": [
+   {
+    "data": "1997-07-31",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1997-09-30",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 29 settembre 1997, n. 328"
+   },
+   {
+    "data": "1998-04-30",
+    "evento": "rp2",
+    "atto_modificante": "L. 30 aprile 1998, n. 122"
+   },
+   {
+    "data": "1999-01-30",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 30 gennaio 1999, n. 15"
+   },
+   {
+    "data": "1999-11-20",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 18 novembre 1999, n. 433"
+   },
+   {
+    "data": "2000-07-26",
+    "evento": "rp5",
+    "atto_modificante": "L. 21 luglio 2000, n. 205"
+   },
+   {
+    "data": "2000-09-04",
+    "evento": "rp6",
+    "atto_modificante": "L. 18 agosto 2000, n. 248"
+   },
+   {
+    "data": "2001-01-24",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 23 gennaio 2001, n. 5"
+   },
+   {
+    "data": "2002-03-26",
+    "evento": "rp8",
+    "atto_modificante": "L. 1 marzo 2002, n. 39"
+   },
+   {
+    "data": "2002-11-27",
+    "evento": "rp9",
+    "atto_modificante": "atto modificante non indicato (rp9)"
+   },
+   {
+    "data": "2003-01-20",
+    "evento": "rp10",
+    "atto_modificante": "L. 16 gennaio 2003, n. 3"
+   },
+   {
+    "data": "2003-09-15",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 1 agosto 2003, n. 259"
+   },
+   {
+    "data": "2004-05-05",
+    "evento": "rp12",
+    "atto_modificante": "L. 3 maggio 2004, n. 112"
+   },
+   {
+    "data": "2004-08-18",
+    "evento": "rp13",
+    "atto_modificante": "L. 20 luglio 2004, n. 215"
+   },
+   {
+    "data": "2004-09-08",
+    "evento": "rp14",
+    "atto_modificante": "D.L. 6 settembre 2004, n. 233"
+   },
+   {
+    "data": "2005-09-07",
+    "evento": "rp15",
+    "atto_modificante": "D.Lgs. 31 luglio 2005, n. 177"
+   },
+   {
+    "data": "2010-07-07",
+    "evento": "rp16",
+    "atto_modificante": "D.Lgs. 2 luglio 2010, n. 104"
+   },
+   {
+    "data": "2012-03-24",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 24 marzo 2012, n. 29"
+   },
+   {
+    "data": "2012-05-21",
+    "evento": "rp18",
+    "atto_modificante": "D.L. 18 maggio 2012, n. 63"
+   },
+   {
+    "data": "2018-01-22",
+    "evento": "rp19",
+    "atto_modificante": "D.Lgs. 2 gennaio 2018, n. 1"
+   },
+   {
+    "data": "2020-05-19",
+    "evento": "rp20",
+    "atto_modificante": "D.L. 19 maggio 2020, n. 34"
+   },
+   {
+    "data": "2020-07-18",
+    "evento": "rp21",
+    "atto_modificante": "L. 17 luglio 2020, n. 77"
+   },
+   {
+    "data": "2020-12-30",
+    "evento": "rp22",
+    "atto_modificante": "L. 30 dicembre 2020, n. 178"
+   },
+   {
+    "data": "2021-11-27",
+    "evento": "rp23",
+    "atto_modificante": "D.Lgs. 8 novembre 2021, n. 177"
+   },
+   {
+    "data": "2021-12-09",
+    "evento": "rp24",
+    "atto_modificante": "D.Lgs. 8 novembre 2021, n. 207"
+   },
+   {
+    "data": "2021-12-10",
+    "evento": "rp25",
+    "atto_modificante": "D.Lgs. 8 novembre 2021, n. 208"
+   },
+   {
+    "data": "2022-01-17",
+    "evento": "rp26",
+    "atto_modificante": "L. 23 dicembre 2021, n. 238"
+   },
+   {
+    "data": "2022-08-12",
+    "evento": "rp27",
+    "atto_modificante": "L. 5 agosto 2022, n. 118"
+   },
+   {
+    "data": "2022-12-05",
+    "evento": "rp28",
+    "atto_modificante": "D.L. 5 dicembre 2022, n. 187"
+   },
+   {
+    "data": "2023-02-03",
+    "evento": "rp29",
+    "atto_modificante": "L. 1 febbraio 2023, n. 10"
+   },
+   {
+    "data": "2023-09-15",
+    "evento": "rp30",
+    "atto_modificante": "D.L. 15 settembre 2023, n. 123"
+   },
+   {
+    "data": "2023-11-14",
+    "evento": "rp31",
+    "atto_modificante": "L. 13 novembre 2023, n. 159"
+   },
+   {
+    "data": "2024-04-17",
+    "evento": "rp32",
+    "atto_modificante": "D.Lgs. 25 marzo 2024, n. 50"
+   }
+  ],
+  "ultima_versione": "2024-04-17",
+  "datazione": {
+   "monoblocco": 8,
+   "api": 8,
+   "ignota": 0,
+   "stima_anteriore": 3,
+   "chiamate": 8,
+   "urn_api": "urn:nir:stato:legge:1997;249",
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-249-1997.md",
+   "rubrica": "Autorita' per le garanzie nelle comunicazioni",
+   "vigore_da": "2023-11-15",
+   "datazione": "api",
+   "h": "ff2aa6e2828e"
+  },
+  "2": {
+   "file": "l-249-1997.md",
+   "rubrica": "Divieto di posizioni dominanti",
+   "vigore_da": "2005-09-08",
+   "datazione": "api",
+   "h": "95900dc04ffa"
+  },
+  "3": {
+   "file": "l-249-1997.md",
+   "rubrica": "Norme sull'emittenza radiotelevisiva",
+   "vigore_da": "2024-05-02",
+   "datazione": "api",
+   "h": "d12a4390134c"
+  },
+  "3-bis": {
+   "file": "l-249-1997.md",
+   "rubrica": "",
+   "vigore_da": "2005-09-08",
+   "datazione": "api",
+   "h": "8d69c9273e16"
+  },
+  "4": {
+   "file": "l-249-1997.md",
+   "rubrica": "",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "9ba68db96208"
+  },
+  "5": {
+   "file": "l-249-1997.md",
+   "rubrica": "",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "9ba68db96208"
+  },
+  "6": {
+   "file": "l-249-1997.md",
+   "rubrica": "Copertura finanziaria",
+   "vigore_da": "1997-08-01",
+   "datazione": "api",
+   "h": "205f79bf9d23"
+  },
+  "7": {
+   "file": "l-249-1997.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "1997-08-01",
+   "datazione": "api",
+   "h": "84cb7f8203a3"
+  }
+ }
+}

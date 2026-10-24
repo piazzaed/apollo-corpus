@@ -1,0 +1,66 @@
+{
+ "_meta": {
+  "codice": "l-295-1990",
+  "nome": "Accertamento dell'invalidità civile (L. 295/1990)",
+  "snapshot": "2026-10-24",
+  "formato": 2,
+  "consolidato_normattiva": "2026-10-24",
+  "articoli": 4,
+  "file": [
+   "l-295-1990.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1990-10-15;295",
+  "versioni": [
+   {
+    "data": "1990-10-20",
+    "evento": "ro1",
+    "atto_modificante": null
+   }
+  ],
+  "ultima_versione": "1990-10-20",
+  "datazione": {
+   "monoblocco": 4,
+   "api": 4,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "chiamate": 4,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-295-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-10-22",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "74053f2a342d"
+  },
+  "2": {
+   "file": "l-295-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-10-22",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "8cd2fed85a59"
+  },
+  "3": {
+   "file": "l-295-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-10-22",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "46dde1afc489"
+  },
+  "4": {
+   "file": "l-295-1990.md",
+   "rubrica": "",
+   "vigore_da": "1990-10-22",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "595e9891e3e2"
+  }
+ }
+}

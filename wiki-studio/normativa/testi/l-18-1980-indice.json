@@ -1,0 +1,77 @@
+{
+ "_meta": {
+  "codice": "l-18-1980",
+  "nome": "Indennità di accompagnamento (L. 18/1980)",
+  "snapshot": "2026-10-24",
+  "formato": 2,
+  "consolidato_normattiva": "2000-11-13",
+  "articoli": 4,
+  "file": [
+   "l-18-1980.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1980-02-11;18",
+  "versioni": [
+   {
+    "data": "1980-02-14",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1984-07-18",
+    "evento": "rp1",
+    "atto_modificante": "D.P.R. 13 marzo 1984, n. 329"
+   },
+   {
+    "data": "1989-06-28",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
+   },
+   {
+    "data": "2000-11-13",
+    "evento": "rp3",
+    "atto_modificante": "L. 8 novembre 2000, n. 328"
+   }
+  ],
+  "ultima_versione": "2000-11-13",
+  "datazione": {
+   "monoblocco": 4,
+   "api": 4,
+   "ignota": 0,
+   "stima_anteriore": 4,
+   "chiamate": 4,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-18-1980.md",
+   "rubrica": "",
+   "vigore_da": "1989-06-29",
+   "datazione": "api",
+   "h": "872bd1b8116a"
+  },
+  "2": {
+   "file": "l-18-1980.md",
+   "rubrica": "",
+   "vigore_da": "1980-02-29",
+   "datazione": "api",
+   "h": "b8d2aa8146f2"
+  },
+  "3": {
+   "file": "l-18-1980.md",
+   "rubrica": "",
+   "vigore_da": "1980-02-29",
+   "datazione": "api",
+   "h": "07741df49fe7"
+  },
+  "4": {
+   "file": "l-18-1980.md",
+   "rubrica": "",
+   "vigore_da": "1980-02-29",
+   "datazione": "api",
+   "h": "d3e8eadb25cd"
+  }
+ }
+}

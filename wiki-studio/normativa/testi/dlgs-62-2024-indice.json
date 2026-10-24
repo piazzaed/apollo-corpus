@@ -1,0 +1,381 @@
+{
+ "_meta": {
+  "codice": "dlgs-62-2024",
+  "nome": "Definizione della condizione di disabilità (D.Lgs. 62/2024)",
+  "snapshot": "2026-10-24",
+  "formato": 2,
+  "consolidato_normattiva": "2026-08-08",
+  "articoli": 41,
+  "file": [
+   "dlgs-62-2024.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2024-05-03;62",
+  "versioni": [
+   {
+    "data": "2024-05-14",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2024-05-31",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 31 maggio 2024, n. 71"
+   },
+   {
+    "data": "2024-07-30",
+    "evento": "rp2",
+    "atto_modificante": "L. 29 luglio 2024, n. 106"
+   },
+   {
+    "data": "2024-12-27",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 27 dicembre 2024, n. 202"
+   },
+   {
+    "data": "2024-12-31",
+    "evento": "rp4",
+    "atto_modificante": "L. 30 dicembre 2024, n. 207"
+   },
+   {
+    "data": "2025-02-24",
+    "evento": "rp5",
+    "atto_modificante": "L. 21 febbraio 2025, n. 15"
+   },
+   {
+    "data": "2025-03-14",
+    "evento": "rp6",
+    "atto_modificante": "D.L. 14 marzo 2025, n. 25"
+   },
+   {
+    "data": "2025-05-13",
+    "evento": "rp7",
+    "atto_modificante": "L. 9 maggio 2025, n. 69"
+   },
+   {
+    "data": "2025-12-31",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 31 dicembre 2025, n. 200"
+   },
+   {
+    "data": "2026-02-19",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 19 febbraio 2026, n. 19"
+   },
+   {
+    "data": "2026-02-28",
+    "evento": "rp10",
+    "atto_modificante": "L. 27 febbraio 2026, n. 26"
+   },
+   {
+    "data": "2026-04-20",
+    "evento": "rp11",
+    "atto_modificante": "L. 20 aprile 2026, n. 50"
+   },
+   {
+    "data": "2026-08-07",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 7 agosto 2026, n. 144"
+   }
+  ],
+  "ultima_versione": "2026-08-07",
+  "datazione": {
+   "monoblocco": 41,
+   "api": 41,
+   "ignota": 0,
+   "stima_anteriore": 32,
+   "chiamate": 41,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Oggetto e finalita'",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "889dbe684173"
+  },
+  "2": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "c7b38846e909"
+  },
+  "3": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Modifiche all'articolo 3 della legge 5 febbraio 1992, n. 104",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "53bafda2e7ca"
+  },
+  "4": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Terminologia in materia di disabilita'",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "dafb6bc3887d"
+  },
+  "5": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "f35c56413d55"
+  },
+  "6": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Procedimento per la valutazione di base",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "de1413b87445"
+  },
+  "7": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Efficacia provvisoria anticipata della valutazione di base",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "2296aa6b7dbb"
+  },
+  "8": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Certificato medico introduttivo",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "55f38e0f5599"
+  },
+  "9": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Procedura valutativa di base, soggetto unico, svolgimento, composizione e funzionamento delle unita' di valutazione di base",
+   "vigore_da": "2026-08-08",
+   "datazione": "api",
+   "h": "b4e86a76737f"
+  },
+  "10": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "49449debd02d"
+  },
+  "11": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Adozione della classificazione ICF ed ICD e loro aggiornamenti ai fini dello svolgimento della valutazione di base",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "b484786194c7"
+  },
+  "12": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "",
+   "vigore_da": "2025-02-25",
+   "datazione": "api",
+   "h": "37ecdcc96f7e"
+  },
+  "13": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Valore polifunzionale del certificato che attesta la condizione di disabilita' e semplificazione delle procedure di erogazione",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "0f09386c8686"
+  },
+  "14": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "24d0a2333c56"
+  },
+  "15": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Obblighi di informazione alla persona con disabilita'",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "6e784be6eae4"
+  },
+  "16": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Interoperabilita' tra le banche dati sugli elementi relativi al procedimento valutativo di base",
+   "vigore_da": "2026-02-20",
+   "datazione": "api",
+   "h": "5d7fbb8687c3"
+  },
+  "17": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Accomodamento ragionevole",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "86795711fa11"
+  },
+  "18": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Progetto di vita",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "ffcc7e24b9fc"
+  },
+  "19": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "d57d0b26138c"
+  },
+  "20": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "4e4a81a35a96"
+  },
+  "21": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Supporti per le manifestazioni di volonta' della persona con disabilita' nel procedimento di valutazione multidimensionale",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "299afe0c8887"
+  },
+  "22": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Supporto per la partecipazione al procedimento",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "dcc1012a9e45"
+  },
+  "23": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Avvio del procedimento per la formazione del progetto di vita",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "2d8a2f913e49"
+  },
+  "24": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Unita' di valutazione multidimensionale",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "f2bed0315e56"
+  },
+  "25": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Valutazione multidimensionale",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "ea905ea9c284"
+  },
+  "26": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Forma e contenuto del progetto di vita",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "64cb7c4af632"
+  },
+  "27": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "63efb16f9b7e"
+  },
+  "28": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Budget di progetto",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "b58532d4266c"
+  },
+  "29": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Referente per l'attuazione del progetto di vita",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "2bec033b9dfe"
+  },
+  "30": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Coordinamento per l'integrazione delle programmazioni sociali e sanitarie nazionali e regionali",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "4a0579014841"
+  },
+  "31": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Fondo per l'implementazione dei progetti di vita",
+   "vigore_da": "2024-07-31",
+   "datazione": "api",
+   "h": "e12496096ac7"
+  },
+  "32": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Misure di formazione",
+   "vigore_da": "2025-05-14",
+   "datazione": "api",
+   "h": "46af68b6fd9a"
+  },
+  "33": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Fase di sperimentazione",
+   "vigore_da": "2026-03-01",
+   "datazione": "api",
+   "h": "21c9b8a5460e"
+  },
+  "33-bis": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Semplificazione dei procedimenti di accertamento sanitario per l'invalidita' e l'inabilita'",
+   "vigore_da": "2026-03-01",
+   "datazione": "api",
+   "h": "c811f3b2619e"
+  },
+  "34": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Disposizioni finanziarie",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "1f51e6092787"
+  },
+  "35": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Principio di non regressione e tutela dei diritti acquisiti. Disposizioni transitorie e finali",
+   "vigore_da": "2025-02-25",
+   "datazione": "api",
+   "h": "e8ddcdbe4722"
+  },
+  "36": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Utilizzo del fascicolo sanitario elettronico per il riconoscimento di prestazioni assistenziali e previdenziali e del Sistema informativo unitario dei servizi sociali",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "9095c751fd48"
+  },
+  "37": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Procedure volte alla proposta di determinazione dei livelli essenziali delle prestazioni",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "a5007fc64063"
+  },
+  "38": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Clausola di salvaguardia",
+   "vigore_da": "2024-06-30",
+   "datazione": "api",
+   "h": "e2d401d22d6e"
+  },
+  "39": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2025-02-25",
+   "datazione": "api",
+   "h": "975fa2fe033e"
+  },
+  "40": {
+   "file": "dlgs-62-2024.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2025-02-25",
+   "datazione": "api",
+   "h": "17ce8d40c53d"
+  }
+ }
+}

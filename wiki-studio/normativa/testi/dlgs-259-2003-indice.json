@@ -1,0 +1,2231 @@
+{
+ "_meta": {
+  "codice": "dlgs-259-2003",
+  "nome": "Codice delle comunicazioni elettroniche (D.Lgs. 259/2003)",
+  "snapshot": "2026-10-24",
+  "formato": 2,
+  "consolidato_normattiva": "2026-08-07",
+  "articoli": 267,
+  "file": [
+   "dlgs-259-2003.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legislativo:2003-08-01;259",
+  "versioni": [
+   {
+    "data": "2003-09-15",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2003-11-18",
+    "evento": "rp1",
+    "atto_modificante": "D.L. 14 novembre 2003, n. 315"
+   },
+   {
+    "data": "2004-12-31",
+    "evento": "rp2",
+    "atto_modificante": "L. 30 dicembre 2004, n. 311"
+   },
+   {
+    "data": "2005-07-11",
+    "evento": "rp3",
+    "atto_modificante": "atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "2005-07-27",
+    "evento": "rp4",
+    "atto_modificante": "D.L. 27 luglio 2005, n. 144"
+   },
+   {
+    "data": "2005-08-24",
+    "evento": "rp5",
+    "atto_modificante": "atto modificante non indicato (rp5)"
+   },
+   {
+    "data": "2005-12-29",
+    "evento": "rp6",
+    "atto_modificante": "L. 23 dicembre 2005, n. 266"
+   },
+   {
+    "data": "2006-10-03",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 3 ottobre 2006, n. 262"
+   },
+   {
+    "data": "2006-12-27",
+    "evento": "rp8",
+    "atto_modificante": "L. 27 dicembre 2006, n. 296"
+   },
+   {
+    "data": "2007-02-01",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 31 gennaio 2007, n. 7"
+   },
+   {
+    "data": "2007-02-15",
+    "evento": "rp10",
+    "atto_modificante": "D.L. 15 febbraio 2007, n. 10"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp11",
+    "atto_modificante": "L. 23 dicembre 2009, n. 191"
+   },
+   {
+    "data": "2010-03-26",
+    "evento": "rp12",
+    "atto_modificante": "D.L. 25 marzo 2010, n. 40"
+   },
+   {
+    "data": "2010-05-08",
+    "evento": "rp13",
+    "atto_modificante": "D.Lgs. 15 marzo 2010, n. 66"
+   },
+   {
+    "data": "2010-07-07",
+    "evento": "rp14",
+    "atto_modificante": "D.Lgs. 2 luglio 2010, n. 104"
+   },
+   {
+    "data": "2011-07-06",
+    "evento": "rp15",
+    "atto_modificante": "D.L. 6 luglio 2011, n. 98"
+   },
+   {
+    "data": "2012-05-31",
+    "evento": "rp16",
+    "atto_modificante": "D.Lgs. 28 maggio 2012, n. 70"
+   },
+   {
+    "data": "2012-10-19",
+    "evento": "rp17",
+    "atto_modificante": "D.L. 18 ottobre 2012, n. 179"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp18",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2013-12-23",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 23 dicembre 2013, n. 145"
+   },
+   {
+    "data": "2014-01-29",
+    "evento": "rp20",
+    "atto_modificante": "D.L. 28 gennaio 2014, n. 4"
+   },
+   {
+    "data": "2014-09-12",
+    "evento": "rp21",
+    "atto_modificante": "D.L. 12 settembre 2014, n. 133"
+   },
+   {
+    "data": "2015-08-03",
+    "evento": "rp22",
+    "atto_modificante": "L. 29 luglio 2015, n. 115"
+   },
+   {
+    "data": "2016-01-18",
+    "evento": "rp23",
+    "atto_modificante": "L. 28 dicembre 2015, n. 221"
+   },
+   {
+    "data": "2016-03-09",
+    "evento": "rp24",
+    "atto_modificante": "D.Lgs. 15 febbraio 2016, n. 33"
+   },
+   {
+    "data": "2017-07-04",
+    "evento": "rp25",
+    "atto_modificante": "L. 23 giugno 2017, n. 103"
+   },
+   {
+    "data": "2017-08-14",
+    "evento": "rp26",
+    "atto_modificante": "L. 4 agosto 2017, n. 124"
+   },
+   {
+    "data": "2017-10-16",
+    "evento": "rp27",
+    "atto_modificante": "D.L. 16 ottobre 2017, n. 148"
+   },
+   {
+    "data": "2017-11-27",
+    "evento": "rp28",
+    "atto_modificante": "L. 20 novembre 2017, n. 167"
+   },
+   {
+    "data": "2018-10-23",
+    "evento": "rp29",
+    "atto_modificante": "D.L. 23 ottobre 2018, n. 119"
+   },
+   {
+    "data": "2018-12-14",
+    "evento": "rp30",
+    "atto_modificante": "D.L. 14 dicembre 2018, n. 135"
+   },
+   {
+    "data": "2019-04-18",
+    "evento": "rp31",
+    "atto_modificante": "D.L. 18 aprile 2019, n. 32"
+   },
+   {
+    "data": "2020-07-16",
+    "evento": "rp32",
+    "atto_modificante": "D.L. 16 luglio 2020, n. 76"
+   },
+   {
+    "data": "2020-07-23",
+    "evento": "rp33",
+    "atto_modificante": "atto modificante non indicato (rp33)"
+   },
+   {
+    "data": "2020-09-14",
+    "evento": "rp34",
+    "atto_modificante": "L. 11 settembre 2020, n. 120"
+   },
+   {
+    "data": "2021-03-22",
+    "evento": "rp35",
+    "atto_modificante": "atto modificante non indicato (rp35)"
+   },
+   {
+    "data": "2021-05-31",
+    "evento": "rp36",
+    "atto_modificante": "D.L. 31 maggio 2021, n. 77"
+   },
+   {
+    "data": "2021-06-14",
+    "evento": "rp37",
+    "atto_modificante": "D.L. 14 giugno 2021, n. 82"
+   },
+   {
+    "data": "2021-07-30",
+    "evento": "rp38",
+    "atto_modificante": "L. 29 luglio 2021, n. 108"
+   },
+   {
+    "data": "2021-12-09",
+    "evento": "rp39",
+    "atto_modificante": "D.Lgs. 8 novembre 2021, n. 207"
+   },
+   {
+    "data": "2022-02-09",
+    "evento": "rp40",
+    "atto_modificante": "atto modificante non indicato (rp40)"
+   },
+   {
+    "data": "2022-03-21",
+    "evento": "rp41",
+    "atto_modificante": "D.L. 21 marzo 2022, n. 21"
+   },
+   {
+    "data": "2022-04-30",
+    "evento": "rp42",
+    "atto_modificante": "D.L. 30 aprile 2022, n. 36"
+   },
+   {
+    "data": "2022-05-17",
+    "evento": "rp43",
+    "atto_modificante": "D.L. 17 maggio 2022, n. 50"
+   },
+   {
+    "data": "2022-05-20",
+    "evento": "rp44",
+    "atto_modificante": "L. 20 maggio 2022, n. 51"
+   },
+   {
+    "data": "2022-06-29",
+    "evento": "rp45",
+    "atto_modificante": "L. 29 giugno 2022, n. 79"
+   },
+   {
+    "data": "2022-07-15",
+    "evento": "rp46",
+    "atto_modificante": "L. 15 luglio 2022, n. 91"
+   },
+   {
+    "data": "2023-02-24",
+    "evento": "rp47",
+    "atto_modificante": "D.L. 24 febbraio 2023, n. 13"
+   },
+   {
+    "data": "2023-04-21",
+    "evento": "rp48",
+    "atto_modificante": "L. 21 aprile 2023, n. 41"
+   },
+   {
+    "data": "2023-07-05",
+    "evento": "rp49",
+    "atto_modificante": "atto modificante non indicato (rp49)"
+   },
+   {
+    "data": "2023-12-30",
+    "evento": "rp50",
+    "atto_modificante": "L. 30 dicembre 2023, n. 214"
+   },
+   {
+    "data": "2024-04-13",
+    "evento": "rp51",
+    "atto_modificante": "D.Lgs. 24 marzo 2024, n. 48"
+   },
+   {
+    "data": "2024-05-08",
+    "evento": "rp52",
+    "atto_modificante": "atto modificante non indicato (rp52)"
+   },
+   {
+    "data": "2024-10-01",
+    "evento": "rp53",
+    "atto_modificante": "D.Lgs. 4 settembre 2024, n. 138"
+   },
+   {
+    "data": "2024-12-17",
+    "evento": "rp54",
+    "atto_modificante": "L. 16 dicembre 2024, n. 193"
+   },
+   {
+    "data": "2025-03-11",
+    "evento": "rp55",
+    "atto_modificante": "atto modificante non indicato (rp55)"
+   },
+   {
+    "data": "2025-04-11",
+    "evento": "rp56",
+    "atto_modificante": "D.L. 11 aprile 2025, n. 48"
+   },
+   {
+    "data": "2025-07-01",
+    "evento": "rp57",
+    "atto_modificante": "D.Lgs. 12 giugno 2025, n. 99"
+   },
+   {
+    "data": "2025-12-03",
+    "evento": "rp58",
+    "atto_modificante": "L. 2 dicembre 2025, n. 182"
+   },
+   {
+    "data": "2025-12-30",
+    "evento": "rp59",
+    "atto_modificante": "L. 30 dicembre 2025, n. 199"
+   },
+   {
+    "data": "2026-02-19",
+    "evento": "rp60",
+    "atto_modificante": "D.L. 19 febbraio 2026, n. 19"
+   },
+   {
+    "data": "2026-04-20",
+    "evento": "rp61",
+    "atto_modificante": "L. 20 aprile 2026, n. 50"
+   },
+   {
+    "data": "2026-05-09",
+    "evento": "rp62",
+    "atto_modificante": "L. 7 maggio 2026, n. 70"
+   },
+   {
+    "data": "2026-05-12",
+    "evento": "rp63",
+    "atto_modificante": "atto modificante non indicato (rp63)"
+   },
+   {
+    "data": "2026-07-08",
+    "evento": "rp64",
+    "atto_modificante": "atto modificante non indicato (rp64)"
+   },
+   {
+    "data": "2026-08-06",
+    "evento": "rp65",
+    "atto_modificante": "D.Lgs. 5 agosto 2026, n. 141"
+   }
+  ],
+  "ultima_versione": "2026-08-06",
+  "datazione": {
+   "monoblocco": 267,
+   "api": 265,
+   "ignota": 2,
+   "falliti": 1,
+   "testo_diverso": 1,
+   "stima_anteriore": 103,
+   "chiamate": 267,
+   "errori_rete": 1,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "adcae8b1b5dd"
+  },
+  "2": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2024-10-18",
+   "datazione": "api",
+   "h": "b45cf22e5096"
+  },
+  "3": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Principi generali",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "b5fb6c9096d2"
+  },
+  "4": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Obiettivi generali della disciplina di reti, servizi ed attivita' di comunicazione elettronica",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "f3d3b9cd16e8"
+  },
+  "5": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "5709c4be6ae4"
+  },
+  "6": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Attribuzioni del Ministero, dell'Autorita' per le garanzie nelle comunicazioni e delle altre Amministrazioni competenti",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "5e590f26371f"
+  },
+  "7": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Autorita' per le garanzie nelle comunicazioni",
+   "vigore_da": "2022-02-09",
+   "datazione": "api",
+   "h": "890bb95c7927"
+  },
+  "8": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Regioni ed Enti locali",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "a078ac16579c"
+  },
+  "9": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Misure di garanzia",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "33d88d7ccf1e"
+  },
+  "10": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Protocolli d'intesa, convenzioni ed accordi",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "166ee60ebca3"
+  },
+  "11": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-05-08",
+   "datazione": "api",
+   "h": "3383d4cb3d02"
+  },
+  "12": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "df350397abeb"
+  },
+  "12-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "13": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "55f0a71b9744"
+  },
+  "13-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "14": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Dichiarazioni intese ad agevolare l'esercizio del diritto di installare infrastrutture e dei diritti di interconnessione",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "980ffd3348eb"
+  },
+  "14-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "14-ter": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "15": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Elenco minimo dei diritti derivanti dall'autorizzazione generale",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "ab709635bdfd"
+  },
+  "16": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Diritti amministrativi",
+   "vigore_da": "2026-01-01",
+   "datazione": "api",
+   "h": "b1dcbfc42dca"
+  },
+  "16-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "16-ter": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "17": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Separazione contabile e rendiconti finanziari",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "d950bd4f888a"
+  },
+  "18": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "acdf78c7a236"
+  },
+  "19": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "110369f441d0"
+  },
+  "20": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "faf9efc6f18d"
+  },
+  "21": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "cb349160c560"
+  },
+  "22": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Mappatura geografica delle installazioni di rete e dell'offerta di servizi di connettivita'",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "4db3ffc1b852"
+  },
+  "23": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "7298b38970ef"
+  },
+  "24": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "de783bb4c7ce"
+  },
+  "25": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Risoluzione delle controversie tra utenti finali e operatori",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "625530767009"
+  },
+  "26": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Risoluzione delle controversie tra imprese) (ex art. 26 eecc e art. 23 Codice 2003",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "da0734ad426f"
+  },
+  "27": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "f2f027808bcd"
+  },
+  "28": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Ricorsi avverso provvedimenti del Ministero e dell'Autorita'",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "f697497b058a"
+  },
+  "29": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "e3ccc49f77d4"
+  },
+  "30": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2025-04-12",
+   "datazione": "api",
+   "h": "d3b1064818a5"
+  },
+  "31": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "8234edc88d0a"
+  },
+  "32": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "8ca7139ca90e"
+  },
+  "33": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "61287d623563"
+  },
+  "34": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "f5af13523ff0"
+  },
+  "35": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "d59254b00824"
+  },
+  "36": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "41e131379c5b"
+  },
+  "37": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "a0e57ee00282"
+  },
+  "38": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "9a134af7b470"
+  },
+  "39": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Normalizzazione",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "2ce8d94aa6cf"
+  },
+  "40": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-10-18",
+   "datazione": "api",
+   "h": "1ea4f5375e19"
+  },
+  "41": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-10-18",
+   "datazione": "api",
+   "h": "1ea4f5375e19"
+  },
+  "42": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Contributi per la concessione di diritti di uso dello spettro radio e di diritti di installare strutture",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "f2da52b4db7f"
+  },
+  "43": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Infrastrutture di comunicazione elettronica e diritti di passaggio",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "81a64803e62e"
+  },
+  "44": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Nuovi impianti -Procedimenti autorizzatori relativi alle infrastrutture di comunicazione elettronica per impianti radioelettrici",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "de43ac32d312"
+  },
+  "45": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Procedure semplificate per determinate tipologie di impianti",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "7dcacba6cdd3"
+  },
+  "46": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Variazioni non sostanziali degli impianti",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "7907d439980e"
+  },
+  "47": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Impianti temporanei di telefonia mobile",
+   "vigore_da": "2022-07-16",
+   "datazione": "api",
+   "h": "ef9d639cfab6"
+  },
+  "48": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "cdf1f872589e"
+  },
+  "49": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Opere civili, scavi ed occupazione di suolo pubblico",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "e89ea455731e"
+  },
+  "49-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Misure di semplificazione per impianti relativi ad opere prive o di minore rilevanza",
+   "vigore_da": "2023-04-22",
+   "datazione": "api",
+   "h": "5026a5876233"
+  },
+  "49-ter": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Inefficacia del provvedimento tardivo di diniego",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "9a485425041d"
+  },
+  "50": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "22ce266623cf"
+  },
+  "50-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "50-ter": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "51": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Pubblica utilita' - Espropriazione e diritto di prelazione legale",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "23801d123dd9"
+  },
+  "52": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Limitazioni legali della proprieta'",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "23be9f2267c1"
+  },
+  "53": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "cc63420255dd"
+  },
+  "54": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Divieto di imporre altri oneri",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "01060003bad8"
+  },
+  "54-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Infrastrutture di comunicazione elettronica ad alta velocita'",
+   "vigore_da": "2026-07-09",
+   "datazione": "api",
+   "h": "e88254e6b60b"
+  },
+  "55": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Occupazione di sedi autostradali da gestire in concessione e di proprieta' dei concessionari",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "eafc498c9901"
+  },
+  "56": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Impianti e condutture di energia elettrica, tubazioni metalliche sotterrate - interferenze",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "d2e55cffd798"
+  },
+  "57": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Prestazioni obbligatorie",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "ade299c9ff08"
+  },
+  "58": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Gestione dello spettro radio",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "0bb26ca763e5"
+  },
+  "59": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "2a3417d7f7bb"
+  },
+  "60": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "08ca88f9f200"
+  },
+  "61": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Concessione di diritti d'uso individuali dello spettro radio",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "5888fee4f051"
+  },
+  "62": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Durata dei diritti",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "516d1ceb73d7"
+  },
+  "63": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "86efadf675a0"
+  },
+  "64": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Trasferimento o affitto di diritti d'uso individuali dello spettro radio",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "eb57dc3c8255"
+  },
+  "65": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "18e3900bf9f8"
+  },
+  "66": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "8eb5f7046963"
+  },
+  "67": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "8c6b1b8f140a"
+  },
+  "68": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 56 eecc",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "ac9091115777"
+  },
+  "69": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 57 eecc + regolamento 2020/1070 small cells",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "6c9c4c912ede"
+  },
+  "70": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "edab5bd30a61"
+  },
+  "71": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "196aa26addc4"
+  },
+  "72": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "4b577369638f"
+  },
+  "73": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 62 eecc - art. 43 Codice 2003",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "6bc3abd2da38"
+  },
+  "73-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "74": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "c2964393a249"
+  },
+  "75": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "93ef55ba1236"
+  },
+  "75-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "76": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "a096e82ec699"
+  },
+  "77": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 66 eecc",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "f8dacb10b55a"
+  },
+  "77-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "78": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Procedura per l'analisi del mercato",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "4eade5faf238"
+  },
+  "79": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 68 eecc - art. 45 Codice 2003",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "8e640d6c38be"
+  },
+  "80": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Ex art. 69 eecc - art. 46 Codice 2003",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "4425f60ccb1d"
+  },
+  "81": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 70 eecc - art. 47 Codice 2003",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "ed8a28b4a13a"
+  },
+  "82": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 71 eecc- art. 48 Codice 2003",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "0c461c058c5d"
+  },
+  "83": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 72 eecc",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "d43f8877eb9e"
+  },
+  "84": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "ex art. 73 eecc - art. 49 Codice 2003",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "47a619952045"
+  },
+  "85": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Obblighi in materia di controllo dei prezzi e di contabilita' dei costi",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "efaf53d7ad64"
+  },
+  "86": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Tariffe di terminazione",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "fec51159c64f"
+  },
+  "87": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Trattamento normativo dei nuovi elementi di rete ad altissima capacita'",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "3d85369a6ade"
+  },
+  "87-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "87-ter": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "87-quater": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1d33a8274afb"
+  },
+  "88": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Separazione funzionale",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "003a34d93953"
+  },
+  "89": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Separazione volontaria da parte di un'impresa verticalmente integrata",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "8235f4177ce7"
+  },
+  "90": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Procedura relativa agli impegni",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "2d1e75873bc6"
+  },
+  "91": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Imprese attive esclusivamente sul mercato all'ingrosso",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "45c326322196"
+  },
+  "92": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Migrazione dalle infrastrutture preesistenti",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "1e6bb1da09b2"
+  },
+  "93": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Controllo normativo sui servizi al dettaglio",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "4bd2462ce6b2"
+  },
+  "94": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Servizio universale a prezzi accessibili",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "820618506afd"
+  },
+  "95": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Prestazioni di servizio universale a prezzi accessibili",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "8f1b20bbdcd8"
+  },
+  "96": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Disponibilita' del servizio universale",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "46d7d9a24062"
+  },
+  "97": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Situazione dei servizi universali esistenti",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "a0206a5eb00b"
+  },
+  "98": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Controllo delle spese",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "fc37d0d4023e"
+  },
+  "98-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Costo degli obblighi di servizio universale",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "cb2bb2f78239"
+  },
+  "98-ter": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Finanziamento degli obblighi di servizio universale",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "b640d1144cea"
+  },
+  "98-quater": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Trasparenza",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "0973d94b327b"
+  },
+  "98-quinquies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2022-02-09",
+   "datazione": "api",
+   "h": "cbe36d814dcf"
+  },
+  "98-sexies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Risorse di numerazione",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "f029708965bb"
+  },
+  "98-septies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Procedura di concessione dei diritti d'uso delle risorse di numerazione",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "df962b4dd662"
+  },
+  "98-octies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Contributi sui diritti d'uso delle risorse di numerazione",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "988d452ec932"
+  },
+  "98-novies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Numeri armonizzati destinati a servizi armonizzati a valenza sociale, compresi i numeri per assistenza a minori e minori scomparsi",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "4b148a8bb806"
+  },
+  "98-decies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Accesso a numeri e servizi",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "4aa69f978a41"
+  },
+  "98-undecies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Deroga per alcune microimprese",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "fefe5fdc2787"
+  },
+  "98-duodecies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Non discriminazione",
+   "vigore_da": "2024-12-18",
+   "datazione": "api",
+   "h": "5417cc593dbf"
+  },
+  "98-terdecies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Tutela dei diritti fondamentali",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "1910273e36f9"
+  },
+  "98-quaterdecies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Obblighi di informazione applicabili ai contratti",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
+   "h": "93655c0cff28"
+  },
+  "98-quindecies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Trasparenza, confronto delle offerte e pubblicazione delle informazioni",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "09fae38e5ae9"
+  },
+  "98-duodevicies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "b0e1cb2d2d9c"
+  },
+  "98-undevicies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "2070678ddb0f"
+  },
+  "98-vicies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Disponibilita' di servizi",
+   "vigore_da": "2022-02-09",
+   "datazione": "api",
+   "h": "91613c14e981"
+  },
+  "98-sex-decies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "e04650ef6132"
+  },
+  "98-septies-decies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "a696ce1655a4"
+  },
+  "98-vicies-semel": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "a9c36c097173"
+  },
+  "98-vicies-bis": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "a6f77dbe5aa4"
+  },
+  "98-vicies-ter": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "47f28b2eddba"
+  },
+  "98-vicies-quater": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "0868fcccaa0e"
+  },
+  "98-vicies-quinquies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "1edbd53be3dd"
+  },
+  "98-vicies-sexies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "3e93fb8554d6"
+  },
+  "98-vicies-septies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "e7519df6a163"
+  },
+  "98-duodetricies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "97f89d702702"
+  },
+  "98-undetricies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Identificazione degli utenti",
+   "vigore_da": "2025-04-12",
+   "datazione": "api",
+   "h": "8739fbfeac5c"
+  },
+  "98-tricies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Notifica e monitoraggio",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "d4543ee58192"
+  },
+  "99": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Installazione ed esercizio di reti e servizi di comunicazione elettronica ad uso privato",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "1af8bec4490e"
+  },
+  "100": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Impianti di amministrazioni dello Stato",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "284ebd1b5855"
+  },
+  "101": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Traffico ammesso",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "df9ec1476c2e"
+  },
+  "102": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Violazione degli obblighi",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "88baa5b777d0"
+  },
+  "103": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sospensione - revoca - decadenza",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "20c8e3558cfb"
+  },
+  "104": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Attivita' soggette ad autorizzazione generale",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "debc387391d7"
+  },
+  "105": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Libero uso",
+   "vigore_da": "2020-07-17",
+   "datazione": "api",
+   "h": "0c3966efee16"
+  },
+  "106": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Obblighi dei rivenditori",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "883446821e41"
+  },
+  "107": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Autorizzazione generale",
+   "vigore_da": "2026-05-10",
+   "datazione": "api",
+   "h": "6cd674591832"
+  },
+  "108": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Reciprocita'",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "edc7294e1b49"
+  },
+  "109": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Condizioni per il rilascio dell'autorizzazione",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "c29d9da7a3d1"
+  },
+  "110": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Domanda per il rilascio dell'autorizzazione",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "b569fd18a276"
+  },
+  "111": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Revoca",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "09d3c0456ca7"
+  },
+  "112": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Validita'",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "34242ac4153f"
+  },
+  "113": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Dichiarazioni",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "b3318a2afc5a"
+  },
+  "114": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Requisiti",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "16865769b555"
+  },
+  "115": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Obblighi",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "c63c3d0ecb1c"
+  },
+  "116": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Contributi",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "a706ac60b9a9"
+  },
+  "117": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Verifiche e controlli",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "6de8d0f29099"
+  },
+  "118": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Rinuncia",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "427286a66372"
+  },
+  "119": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Requisiti delle apparecchiature",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "80749f21a14e"
+  },
+  "120": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Frequenze",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "dd4087fcaa4d"
+  },
+  "121": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Bande collettive di frequenze",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "483efbd0ea4c"
+  },
+  "122": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Collegamento alle reti pubbliche di comunicazione e interconnessione",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "49b7bfeb01cc"
+  },
+  "123": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sperimentazione",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "03950b64679f"
+  },
+  "124": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Reti e servizi via satellite",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "25ca478a3910"
+  },
+  "125": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Licenze ed autorizzazioni preesistenti",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "7d58d1b7df78"
+  },
+  "126": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Concessione dei diritti individuali di uso",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "9f7168c9cba3"
+  },
+  "127": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2020-07-17",
+   "datazione": "api",
+   "h": "9722c7e4e98f"
+  },
+  "128": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Risorsa di spettro radio",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "8eabe0551029"
+  },
+  "129": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Emittenza privata",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "6be828b113a8"
+  },
+  "130": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Oggetto",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "2fca8b275b87"
+  },
+  "131": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Frequenze previste per il servizio radiomobile professionale analogico in tecnica multiaccesso autogestito",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "e6809657ee0f"
+  },
+  "132": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Frequenze riservate al servizio radiomobile professionale numerico TETRA autogestito",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "83bd99cecd9f"
+  },
+  "133": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Adeguamento dei sistemi esistenti",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "11d4a509872f"
+  },
+  "134": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Attivita' di radioamatore",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "4559be21f29e"
+  },
+  "135": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Tipi di autorizzazione",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "a1659ec094e0"
+  },
+  "136": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Patente",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "ca8a2ec6c9c6"
+  },
+  "137": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Requisiti",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "f7845f9579f8"
+  },
+  "138": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Dichiarazione",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "82fb60b6c649"
+  },
+  "139": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Nominativo",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "4634567e1738"
+  },
+  "140": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Attivita' di radioamatore all'estero",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "ea64884c2eb3"
+  },
+  "141": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Calamita' - contingenze particolari",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "97f3a1a7b96c"
+  },
+  "142": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Assistenza",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "62311c076108"
+  },
+  "143": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Stazioni ripetitrici",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "028c8c7a01f1"
+  },
+  "144": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Autorizzazioni speciali",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "81d85992f4e6"
+  },
+  "145": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Banda cittadina - CB",
+   "vigore_da": "2020-07-17",
+   "datazione": "api",
+   "h": "b4d0ec35b659"
+  },
+  "146": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Danneggiamenti ai cavi sottomarini di comunicazione elettronica",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "f3bfa04cd254"
+  },
+  "147": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Omessa denuncia di ritrovamento di spezzoni di cavo sottomarino",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "15a44338c700"
+  },
+  "148": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Strumenti atti a danneggiare impianti sottomarini di comunicazione elettronica",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "df7cedf5c386"
+  },
+  "149": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Interruzione di cavi sottomarini per comunicazioni elettroniche",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "00a1a97c268f"
+  },
+  "150": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Rottura o danneggiamento di cavi sottomarini",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "1a9589932bfe"
+  },
+  "151": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Inosservanza della disciplina sui segnali",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "aba1c0525b98"
+  },
+  "152": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Ancoraggio delle navi - Reti da pesca - Inosservanza delle distanze dai cavi sottomarini",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "d35d5f1dd752"
+  },
+  "153": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Competenza territoriale",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "a1b78384d7dd"
+  },
+  "154": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Reati commessi in alto mare",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "573911173383"
+  },
+  "155": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Rifiuto di esibire i documenti",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "ba78ad753319"
+  },
+  "156": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Pubblico ufficiale",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "d2872de63692"
+  },
+  "157": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sanzioni civili",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "ffea1c757218"
+  },
+  "158": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Stazioni ad uso delle Amministrazioni dello Stato",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "bf7bd7e494b5"
+  },
+  "159": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Organizzazione dei servizi radioelettrici costieri per la sicurezza della navigazione marittima",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "96fde54cb534"
+  },
+  "160": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Licenza di esercizio",
+   "vigore_da": "2026-08-07",
+   "datazione": "api",
+   "h": "2d6cf9321b99"
+  },
+  "161": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Norme tecniche per gli impianti",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "0ddbe64d9938"
+  },
+  "162": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Obbligo del titolo di abilitazione - Esenzioni",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "2b815274bc1f"
+  },
+  "163": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Titoli di abilitazione",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "e8b233b9396a"
+  },
+  "164": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Servizi radioelettrici mobile marittimo e mobile marittimo via satellite",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "383521c53bbd"
+  },
+  "165": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Definizione di nave - Altre definizioni",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "30513fa06d08"
+  },
+  "166": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Norme tecniche radionavali",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "035b633c46b4"
+  },
+  "167": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Stazioni radioelettriche ed apparati radioelettrici a bordo delle navi - Obblighi",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "11114e026801"
+  },
+  "168": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Esenzioni",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "2d8ef44356bc"
+  },
+  "169": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Obbligatorieta' di particolari apparati radioelettrici di bordo",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "26053340c7c6"
+  },
+  "170": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Corrispondenza pubblica",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "600fb935fd50"
+  },
+  "171": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Installazioni d'ufficio",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "f5fa64346fe0"
+  },
+  "172": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Norme e divieti relativi ad emissioni radioelettriche in acque territoriali",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "99f17f32110e"
+  },
+  "173": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Giornale delle comunicazioni radio",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "04afea29c590"
+  },
+  "174": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Autorita' del comandante di bordo",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "65d8c43442b8"
+  },
+  "175": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Vigilanza sul servizio radioelettrico",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "38df53c4ede5"
+  },
+  "176": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Collaudi e ispezioni",
+   "vigore_da": "2026-05-10",
+   "datazione": "api",
+   "h": "28eff0a233cb"
+  },
+  "177": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Verbali di collaudo e di ispezione",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "af59a731f9fe"
+  },
+  "178": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Spese per i collaudi e le ispezioni",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "bd1190052e16"
+  },
+  "179": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Categoria delle stazioni radioelettriche di nave",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "059cd77bd13c"
+  },
+  "180": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Personale addetto alle stazioni radioelettriche di bordo",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "d347951e7abb"
+  },
+  "181": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Numero e qualificazione degli operatori nelle stazioni radioelettriche di nave per il servizio della corrispondenza pubblica",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "d30751822b77"
+  },
+  "182": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sanzioni disciplinari",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "fbcd1b9888d6"
+  },
+  "183": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Impianto ed esercizio di stazioni radioelettriche a bordo di navi",
+   "vigore_da": "2015-08-18",
+   "datazione": "api",
+   "h": "52ddc33123c9"
+  },
+  "184": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Rapporti con gli armatori",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "e1a3dbc22f6b"
+  },
+  "185": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Contributi",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "85c950d8d75e"
+  },
+  "186": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Autorizzazione all'esercizio radioelettrico",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "aa37da093eea"
+  },
+  "187": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sospensione, revoca, decadenza",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "b40da0edf316"
+  },
+  "188": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Navi da pesca: norme tecniche radionavali",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "7be5fb027b7f"
+  },
+  "189": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Impianto ed esercizio di stazioni radioelettriche a bordo di navi da pesca",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "cfb7bfc78ad9"
+  },
+  "190": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Rapporti con gli armatori delle navi da pesca",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "351b58ec5f00"
+  },
+  "191": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Contributi",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "8849d449da10"
+  },
+  "192": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Disposizioni applicabili",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "c77b9e0000e3"
+  },
+  "193": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Navi da diporto: norme tecniche radionavali",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "d6c7d04762c4"
+  },
+  "194": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Impianto ed esercizio di stazioni radioelettriche a bordo di navi da diporto",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "1e5bad3763e0"
+  },
+  "195": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Contributi",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "9302cab28dc9"
+  },
+  "196": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Collaudi e ispezioni sulle navi da diporto",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "90c3e1e6be92"
+  },
+  "197": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Disposizioni applicabili",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "02543da85c55"
+  },
+  "198": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Servizio radioelettrico mobile aeronautico",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "589dac777ad0"
+  },
+  "199": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Definizione di aeromobile",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "7209260ce023"
+  },
+  "200": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Norme tecniche",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "9e79437a8208"
+  },
+  "201": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Licenza di esercizio",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "77f7bbe2c16b"
+  },
+  "202": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sospensione o revoca della licenza di esercizio",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "865c5e70c62f"
+  },
+  "203": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Installazione d'ufficio",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "4f2510594da5"
+  },
+  "204": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sorveglianza sul servizio radioelettrico a bordo degli aeromobili",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "20d3029e31ad"
+  },
+  "205": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Norme e divieti relativi ad emissioni radioelettriche nello spazio aereo territoriale",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "6fede474bad5"
+  },
+  "206": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Abilitazione al traffico",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "2acdd9505fde"
+  },
+  "207": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Autorizzazione all'impianto ed all'esercizio di stazioni radioelettriche a bordo degli aeromobili",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "9a436de2f7f0"
+  },
+  "208": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Limitazioni legali",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "2c2ad45bbda3"
+  },
+  "209": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Installazione di antenne riceventi del servizio di radiodiffusione e di antenne per la fruizione di servizi di comunicazione elettronica",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "49ce083ff6a7"
+  },
+  "210": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Prevenzione ed eliminazione dei disturbi alle radiotrasmissioni ed alle radioricezioni",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "0e8e9ba59638"
+  },
+  "211": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Turbative alle reti ed ai servizi di comunicazione elettronica",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "21c5d48e0195"
+  },
+  "212": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "b99344d8d9df"
+  },
+  "213": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Vigilanza",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "2499c9232864"
+  },
+  "214": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Esecuzione di impianti radioelettrici non autorizzati",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "e601908ee2ce"
+  },
+  "215": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Uso di nominativi falsi o alterati. Sanzioni",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "96048ec76ce0"
+  },
+  "216": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Impianti od apparecchi installati nelle navi ed aerei nazionali - Inosservanza di norme - Sanzioni",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "77db450c1063"
+  },
+  "217": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Uso indebito di segnale di soccorso",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "8448ab144d6e"
+  },
+  "218": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Abrogazioni",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "86b6030bf7e8"
+  },
+  "219": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Disposizione finanziaria",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "73c2313c5136"
+  },
+  "220": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Disposizioni finali",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "e2cf5ae130b3"
+  },
+  "221": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
+   "h": "c315365a8809"
+  }
+ }
+}

@@ -1,0 +1,607 @@
+{
+ "_meta": {
+  "codice": "dl-78-2009",
+  "nome": "Provvedimenti anticrisi — accertamento dell'invalidità INPS, art. 20 (D.L. 78/2009)",
+  "snapshot": "2026-10-24",
+  "formato": 2,
+  "consolidato_normattiva": "2023-06-22",
+  "articoli": 46,
+  "file": [
+   "dl-78-2009.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:decreto.legge:2009-07-01;78",
+  "versioni": [
+   {
+    "data": "2009-07-01",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "2009-08-04",
+    "evento": "rp1+rp2",
+    "atto_modificante": "D.L. 3 agosto 2009, n. 103; L. 3 agosto 2009, n. 102"
+   },
+   {
+    "data": "2009-09-25",
+    "evento": "rp3",
+    "atto_modificante": "D.L. 25 settembre 2009, n. 135"
+   },
+   {
+    "data": "2009-11-09",
+    "evento": "rp4",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri Dipartimento Della Funzione Pubblica 16 settembre 2009, n. 4"
+   },
+   {
+    "data": "2009-12-30",
+    "evento": "rp5+rp6",
+    "atto_modificante": "L. 23 dicembre 2009, n. 191; D.L. 30 dicembre 2009, n. 194"
+   },
+   {
+    "data": "2010-02-02",
+    "evento": "rp7",
+    "atto_modificante": "Circ. Presidenza Del Consiglio Dei Ministri 14 dicembre 2009, n. 6"
+   },
+   {
+    "data": "2010-02-13",
+    "evento": "rp8",
+    "atto_modificante": "D.Lgs. 27 gennaio 2010, n. 11"
+   },
+   {
+    "data": "2010-03-26",
+    "evento": "rp9",
+    "atto_modificante": "D.L. 25 marzo 2010, n. 40"
+   },
+   {
+    "data": "2010-04-21",
+    "evento": "rp10",
+    "atto_modificante": "atto modificante non indicato (rp10)"
+   },
+   {
+    "data": "2010-05-08",
+    "evento": "rp11",
+    "atto_modificante": "D.Lgs. 15 marzo 2010, n. 66"
+   },
+   {
+    "data": "2010-05-12",
+    "evento": "rp12",
+    "atto_modificante": "atto modificante non indicato (rp12)"
+   },
+   {
+    "data": "2010-05-31",
+    "evento": "rp13",
+    "atto_modificante": "D.L. 31 maggio 2010, n. 78"
+   },
+   {
+    "data": "2010-06-16",
+    "evento": "rp14",
+    "atto_modificante": "atto modificante non indicato (rp14)"
+   },
+   {
+    "data": "2010-06-23",
+    "evento": "rp15",
+    "atto_modificante": "atto modificante non indicato (rp15)"
+   },
+   {
+    "data": "2010-07-09",
+    "evento": "rp16",
+    "atto_modificante": "D.L. 8 luglio 2010, n. 105"
+   },
+   {
+    "data": "2010-12-18",
+    "evento": "rp17",
+    "atto_modificante": "D.Lgs. 14 dicembre 2010, n. 218"
+   },
+   {
+    "data": "2010-12-21",
+    "evento": "rp18",
+    "atto_modificante": "L. 13 dicembre 2010, n. 220"
+   },
+   {
+    "data": "2010-12-29",
+    "evento": "rp19",
+    "atto_modificante": "D.L. 29 dicembre 2010, n. 225"
+   },
+   {
+    "data": "2011-01-08",
+    "evento": "rp20",
+    "atto_modificante": "Circ. Ministero Dell'Economia E Delle Finanze 15 dicembre 2010, n. 38"
+   },
+   {
+    "data": "2011-03-28",
+    "evento": "rp21",
+    "atto_modificante": "D.Lgs. 3 marzo 2011, n. 28"
+   },
+   {
+    "data": "2011-03-31",
+    "evento": "rp22+rp23+rp24",
+    "atto_modificante": "atto modificante non indicato (rp22); atto modificante non indicato (rp23); atto modificante non indicato (rp24)"
+   },
+   {
+    "data": "2011-05-18",
+    "evento": "rp25",
+    "atto_modificante": "atto modificante non indicato (rp25)"
+   },
+   {
+    "data": "2011-06-28",
+    "evento": "rp26",
+    "atto_modificante": "D.Lgs. 1 giugno 2011, n. 93"
+   },
+   {
+    "data": "2011-11-14",
+    "evento": "rp27",
+    "atto_modificante": "L. 12 novembre 2011, n. 183"
+   },
+   {
+    "data": "2011-12-06",
+    "evento": "rp28",
+    "atto_modificante": "D.L. 6 dicembre 2011, n. 201"
+   },
+   {
+    "data": "2011-12-29",
+    "evento": "rp29",
+    "atto_modificante": "D.L. 29 dicembre 2011, n. 216"
+   },
+   {
+    "data": "2012-01-24",
+    "evento": "rp30",
+    "atto_modificante": "D.L. 24 gennaio 2012, n. 1"
+   },
+   {
+    "data": "2012-07-11",
+    "evento": "rp31",
+    "atto_modificante": "atto modificante non indicato (rp31)"
+   },
+   {
+    "data": "2012-08-11",
+    "evento": "rp32",
+    "atto_modificante": "atto modificante non indicato (rp32)"
+   },
+   {
+    "data": "2012-10-31",
+    "evento": "rp33",
+    "atto_modificante": "atto modificante non indicato (rp33)"
+   },
+   {
+    "data": "2012-12-29",
+    "evento": "rp34",
+    "atto_modificante": "L. 24 dicembre 2012, n. 228"
+   },
+   {
+    "data": "2013-08-16",
+    "evento": "rp35",
+    "atto_modificante": "D.L. 14 agosto 2013, n. 93"
+   },
+   {
+    "data": "2013-12-27",
+    "evento": "rp36",
+    "atto_modificante": "L. 27 dicembre 2013, n. 147"
+   },
+   {
+    "data": "2014-06-24",
+    "evento": "rp37",
+    "atto_modificante": "D.L. 24 giugno 2014, n. 91"
+   },
+   {
+    "data": "2014-12-31",
+    "evento": "rp38",
+    "atto_modificante": "D.L. 31 dicembre 2014, n. 192"
+   },
+   {
+    "data": "2015-01-24",
+    "evento": "rp39",
+    "atto_modificante": "D.L. 24 gennaio 2015, n. 3"
+   },
+   {
+    "data": "2015-12-30",
+    "evento": "rp40",
+    "atto_modificante": "L. 28 dicembre 2015, n. 208"
+   },
+   {
+    "data": "2016-04-19",
+    "evento": "rp41",
+    "atto_modificante": "D.Lgs. 18 aprile 2016, n. 50"
+   },
+   {
+    "data": "2016-09-07",
+    "evento": "rp42",
+    "atto_modificante": "D.Lgs. 26 agosto 2016, n. 174"
+   },
+   {
+    "data": "2016-12-21",
+    "evento": "rp43",
+    "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   },
+   {
+    "data": "2017-04-24",
+    "evento": "rp44",
+    "atto_modificante": "D.L. 24 aprile 2017, n. 50"
+   },
+   {
+    "data": "2017-04-29",
+    "evento": "rp45",
+    "atto_modificante": "D.L. 29 aprile 2017, n. 54"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp46",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-12-14",
+    "evento": "rp47",
+    "atto_modificante": "D.L. 14 dicembre 2018, n. 135"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp48",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   },
+   {
+    "data": "2019-12-30",
+    "evento": "rp49",
+    "atto_modificante": "L. 27 dicembre 2019, n. 160"
+   },
+   {
+    "data": "2020-12-30",
+    "evento": "rp50",
+    "atto_modificante": "L. 30 dicembre 2020, n. 178"
+   },
+   {
+    "data": "2021-12-31",
+    "evento": "rp51",
+    "atto_modificante": "L. 30 dicembre 2021, n. 234"
+   },
+   {
+    "data": "2023-04-22",
+    "evento": "rp52",
+    "atto_modificante": "D.L. 22 aprile 2023, n. 44"
+   },
+   {
+    "data": "2023-06-21",
+    "evento": "rp53",
+    "atto_modificante": "L. 21 giugno 2023, n. 74"
+   }
+  ],
+  "ultima_versione": "2023-06-21",
+  "datazione": {
+   "monoblocco": 46,
+   "api": 46,
+   "ignota": 0,
+   "stima_anteriore": 14,
+   "stima_uguale": 2,
+   "chiamate": 46,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Premio di occupazione e potenziamento degli ammortizzatori sociali",
+   "vigore_da": "2015-03-01",
+   "datazione": "api",
+   "h": "fd9db3f3fbbb"
+  },
+  "1-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Disposizioni urgenti in materia di ammortizzatori per i settori non coperti dalla cassa integrazione guadagni",
+   "vigore_da": "2013-01-01",
+   "datazione": "api",
+   "h": "5cbdaafb792b"
+  },
+  "1-ter": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Dichiarazione di attivita' di assistenza e di sostegno alle famiglie",
+   "vigore_da": "2012-07-12",
+   "datazione": "api",
+   "h": "9b6384dc5c75"
+  },
+  "2": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Contenimento del costo delle commissioni bancarie",
+   "vigore_da": "2011-01-02",
+   "datazione": "api",
+   "h": "a11e576d7990"
+  },
+  "3": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Riduzione del costo dell'energia per imprese e famiglie",
+   "vigore_da": "2013-01-01",
+   "datazione": "api",
+   "h": "3cbf3e4a8433"
+  },
+  "4": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Interventi urgenti per le reti dell'energia",
+   "vigore_da": "2016-04-19",
+   "datazione": "api",
+   "h": "c0e6bb26fa58"
+  },
+  "4-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Disposizioni in materia di trasporto pubblico",
+   "vigore_da": "2009-11-25",
+   "datazione": "api",
+   "h": "0c1c4c58051c"
+  },
+  "4-ter": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Sicurezza degli impianti e sicurezza operativa dell'ENAV",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "a8a6032189ca"
+  },
+  "4-quater": {
+   "file": "dl-78-2009.md",
+   "rubrica": "",
+   "vigore_da": "2016-04-19",
+   "datazione": "api",
+   "h": "a91b2fbc61f5"
+  },
+  "4-quinquies": {
+   "file": "dl-78-2009.md",
+   "rubrica": "",
+   "vigore_da": "2012-03-25",
+   "datazione": "api",
+   "h": "886ef53c318c"
+  },
+  "4-sexies": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Regime IVA delle prestazioni di trasporto di persone",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "11c76533e63e"
+  },
+  "4-septies": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Interventi in favore della filiera agroalimentare",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "a90af825e52c"
+  },
+  "5": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Detassazione degli investimenti in macchinari",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "bc247e707d81"
+  },
+  "6": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Accelerazione dell'ammortamento sui beni strumentali di impresa",
+   "vigore_da": "2009-07-01",
+   "datazione": "api",
+   "h": "fe991c5d3747"
+  },
+  "6-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Disposizioni in favore delle imprese esercenti servizi di trasporto pubblico interregionale di competenza statale",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "3f3b12582831"
+  },
+  "7": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Ulteriore svalutazione fiscale di crediti in sofferenza",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "fa87322c8f15"
+  },
+  "8": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Sistema \"export banca\"",
+   "vigore_da": "2015-03-26",
+   "datazione": "api",
+   "h": "c4220ea72e80"
+  },
+  "9": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Tempestivita' dei pagamenti delle pubbliche amministrazioni",
+   "vigore_da": "2010-05-13",
+   "datazione": "api",
+   "h": "bda598a0d778"
+  },
+  "9-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Patto di stabilita' interno per gli enti locali",
+   "vigore_da": "2010-04-22",
+   "datazione": "api",
+   "h": "96a4a7afcb31"
+  },
+  "10": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Incremento delle compensazioni dei crediti fiscali",
+   "vigore_da": "2017-06-24",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "217d439e0b2e"
+  },
+  "11": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Analisi e studi economico-sociali",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "ec1a32b73ab6"
+  },
+  "11-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Obbligo di presentazione del documento unico di regolarita' contributiva",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "fe1872825d69"
+  },
+  "11-ter": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Sportello unico per le attivita' produttive",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "d9ee61e9522a"
+  },
+  "11-quater": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Addizionale sulla produzione e vendita di materiale pornografico o di incitamento alla violenza",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "370d3f8e6f6e"
+  },
+  "12": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Contrasto ai paradisi fiscali",
+   "vigore_da": "2010-02-28",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "bdae00582d43"
+  },
+  "13": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Contrasto agli arbitraggi fiscali internazionali",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "b41c435a1612"
+  },
+  "13-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Disposizioni concernenti il rimpatrio di attivita' finanziarie e patrimoniali detenute fuori del territorio dello Stato",
+   "vigore_da": "2011-12-28",
+   "datazione": "api",
+   "h": "874f31ce7cb0"
+  },
+  "14": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Imposta sulle plusvalenze su oro non industriale di societa' ed enti",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "2397852a96f1"
+  },
+  "14-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "9fd1bc6c6b4f"
+  },
+  "15": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Potenziamento della riscossione",
+   "vigore_da": "2011-01-01",
+   "datazione": "api",
+   "h": "e47d18c7d1c7"
+  },
+  "15-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Disposizioni in materia di giochi",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "51d92d5735be"
+  },
+  "15-ter": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Piano straordinario di contrasto del gioco illegale",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "546ab7d90a24"
+  },
+  "16": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Flussi finanziari",
+   "vigore_da": "2010-10-09",
+   "datazione": "api",
+   "h": "2585d550ed67"
+  },
+  "16-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Riassegnazione dei fondi per le infrastrutture irrigue",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "5b29e07ba124"
+  },
+  "17": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Enti pubblici: economie, controlli, Corte dei conti",
+   "vigore_da": "2023-06-22",
+   "datazione": "api",
+   "h": "acc5507c8338"
+  },
+  "18": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Tesoreria statale",
+   "vigore_da": "2009-08-05",
+   "datazione": "api",
+   "h": "f172086fce4f"
+  },
+  "19": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Societa' pubbliche",
+   "vigore_da": "2010-07-31",
+   "datazione": "api",
+   "h": "a82f31c0b744"
+  },
+  "20": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Contrasto alle frodi in materia di invalidita' civile",
+   "vigore_da": "2010-07-31",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "e6d8070c3fc2"
+  },
+  "21": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Rilascio di concessioni in materia di giochi",
+   "vigore_da": "2010-05-26",
+   "datazione": "api",
+   "h": "643a210d7261"
+  },
+  "22": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Settore sanitario",
+   "vigore_da": "2014-01-01",
+   "datazione": "api",
+   "h": "b5c8562acaeb"
+  },
+  "22-bis": {
+   "file": "dl-78-2009.md",
+   "rubrica": "",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "22cac298639d"
+  },
+  "22-ter": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Disposizioni in materia di accesso al pensionamento",
+   "vigore_da": "2010-07-31",
+   "datazione": "api",
+   "h": "f7dcef73b680"
+  },
+  "23": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Proroga di termini",
+   "vigore_da": "2012-02-28",
+   "datazione": "api",
+   "h": "3dd74e800ce6"
+  },
+  "24": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Disposizioni in materia di Forze armate, Forze di polizia, proroga di missioni di pace e segreto di Stato",
+   "vigore_da": "2022-01-01",
+   "datazione": "api",
+   "h": "6474c8a2fb2c"
+  },
+  "25": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Spese indifferibili",
+   "vigore_da": "2010-01-01",
+   "datazione": "api",
+   "h": "e3cae0a08646"
+  },
+  "26": {
+   "file": "dl-78-2009.md",
+   "rubrica": "Entrata in vigore",
+   "vigore_da": "2009-07-01",
+   "datazione": "api",
+   "h": "b55f0406934c"
+  }
+ }
+}
