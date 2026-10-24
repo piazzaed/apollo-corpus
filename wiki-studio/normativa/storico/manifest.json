@@ -1,6 +1,6 @@
 {
  "versione": "v0.37",
- "generato_il": "2026-10-23T20:25:48",
+ "generato_il": "2026-10-24T17:42:55",
  "atti": {
   "cad": {
    "file": "cad.jsonl.gz",
@@ -52,9 +52,9 @@
   },
   "cpc": {
    "file": "cpc.jsonl.gz",
-   "sha256": "e2465cf12b5055e262cbeedc94242b3b46e83b7903cff9e4c36a22be27f627a7",
-   "byte": 135719,
-   "testi": 369
+   "sha256": "521a904b98474fe27f46df669f55888a3d134224068b9d4022c51b483cd6f822",
+   "byte": 166797,
+   "testi": 687
   },
   "cpp": {
    "file": "cpp.jsonl.gz",
@@ -70,9 +70,9 @@
   },
   "disp-att-cpc": {
    "file": "disp-att-cpc.jsonl.gz",
-   "sha256": "142bef49c16e83b2ec97c31f2bbee05190a83dff3366e9f95fe9a7619832bea2",
-   "byte": 27493,
-   "testi": 81
+   "sha256": "42438e13476bc3b99ea904ded88907ff9d54d473e42ad37e3812f0281708798c",
+   "byte": 33619,
+   "testi": 148
   },
   "dl-1-2012": {
    "file": "dl-1-2012.jsonl.gz",
