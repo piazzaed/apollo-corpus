@@ -233,8 +233,9 @@ _NOMI = {
 }
 _RX_VERBO = re.compile(r"\b(?:e['’]|è|sono)\s+(?:sostituit|abrogat|inserit|aggiunt|soppress|modificat)\w*"
                        r"|sono\s+apportate\s+le\s+seguenti\s+modific", re.I)
-_SUFF = r"(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies|undecies|duodecies|terdecies)"
-_RX_NUM_ART = re.compile(r"\b(\d{1,4}(?:[\s-]*" + _SUFF + r")?)\b", re.I)
+_SUFF = (r"(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies|undecies|duodecies|terdecies|quaterdecies|"
+         r"quinquiesdecies|sexiesdecies|septiesdecies|octiesdecies|novesdecies|duodevicies|undevicies|vicies)")
+_RX_NUM_ART = re.compile(r"\b(\d{1,4}(?:[\s-]*" + _SUFF + r")?(?:\.\d+)?)\b", re.I)
 
 
 def _pattern_urn(urn: str):
@@ -291,15 +292,26 @@ def modifiche_dirette(testo: str, patterns: list = None) -> dict:
             occorrenze.append((slug, m))
     trovati = {}
     for slug, m in sorted(occorrenze, key=lambda x: x[1].start()):
+        virgolettato = False
         if t.count("«", 0, m.start()) > t.count("»", 0, m.start()):
-            continue                                   # dentro il testo nuovo virgolettato: non e' la novella
+            # dentro il testo nuovo virgolettato: di norma una citazione, non la novella. v0.45: MA una legge di conversione
+            # aggiunge al decreto-legge testo virgolettato che e' esso stesso una novella («1-bis. All'articolo 25-octies.1
+            # del decreto legislativo 8 giugno 2001, n. 231, … e' aggiunto…»): vale se la formula sta tutta nel virgolettato
+            q0 = t.rfind("«", 0, m.start())
+            prima_q = t[q0 + 1:m.start()]
+            if not re.search(r"(?:^|[\s.;:(])(?:all['’]|agli\s+|nell['’]|l['’]|gli\s+)\s*articol[oi]\s+(?:[^.;:«]|\.(?=\d)){1,80}?\s+"
+                             r"(?:del(?:la|le|lo|l['’])?|al(?:la|le|lo|l['’])?)\s*$|(?:^|\W)(?:al|alla|all['’]|ai|alle)\s*$", prima_q[-200:], re.I):
+                continue                               # una citazione dentro il testo nuovo: non e' la novella
+            virgolettato = True
         prima = t[max(0, m.start() - 160):m.start()]
+        if virgolettato:
+            prima = t[t.rfind("«", 0, m.start()) + 1:m.start()][-160:]
         dopo = t[m.end():m.end() + 400]
         dopo_fino_virgolette = dopo
         art = None
-        ma = re.search(r"(?:^|[\s.;:(])(?:all['’]|agli\s+|nell['’])\s*articol[oi]\s+([^.;:«]{1,80}?)\s+"
+        ma = re.search(r"(?:^|[\s.;:(])(?:all['’]|agli\s+|nell['’])\s*articol[oi]\s+((?:[^.;:«]|\.(?=\d)){1,80}?)\s+"
                        r"(?:del(?:la|le|lo|l['’])?|al(?:la|le|lo|l['’])?)\s*$", prima, re.I)
-        mc = re.search(r"(?:^|[\s.;:(])(?:l['’]|gli\s+)articol[oi]\s+([^.;:«]{1,60}?)\s+del(?:la|le|lo|l['’])?\s*$",
+        mc = re.search(r"(?:^|[\s.;:(])(?:l['’]|gli\s+)articol[oi]\s+((?:[^.;:«]|\.(?=\d)){1,60}?)\s+del(?:la|le|lo|l['’])?\s*$",
                        prima, re.I)
         if ma and _RX_VERBO.search(dopo_fino_virgolette[:250]):
             art = ma.group(1)
@@ -310,6 +322,8 @@ def modifiche_dirette(testo: str, patterns: list = None) -> dict:
             coda = dopo[:4000]
             voce = trovati.setdefault(slug, {"articoli": [], "tutto": False})
             voce["tutto"] = True
+            if virgolettato:
+                voce["virgolettato"] = True
             for x in re.findall(r"all['’]articolo\s+(\d{1,4}(?:[\s-]*" + _SUFF + r")?)", coda, re.I):
                 x = re.sub(r"\s+", "-", x).lower()
                 if x not in voce["articoli"]:
@@ -318,6 +332,8 @@ def modifiche_dirette(testo: str, patterns: list = None) -> dict:
         if art is None:
             continue
         voce = trovati.setdefault(slug, {"articoli": [], "tutto": False})
+        if virgolettato:
+            voce["virgolettato"] = True
         for x in _RX_NUM_ART.findall(art.split(",")[0]):
             x = re.sub(r"[\s-]+", "-", x).lower()
             if x not in voce["articoli"]:
@@ -410,6 +426,7 @@ def scansiona_gu(dal: _dt.date, al: _dt.date, get=None, patterns=None, massimo_a
             esito["movimento"].setdefault(slug, []).append({
                 "codice_gu": atto["codice"], "data_gu": atto["data"], "titolo": atto["titolo"][:300],
                 "articoli": voce["articoli"], "tutto_l_atto": voce["tutto"],
+                **({"dentro_virgolettato": True} if voce.get("virgolettato") else {}),
                 "url": f"{GU}/eli/id/{atto['data'].replace('-', '/')}/{atto['codice']}/sg"})
     return esito
 
