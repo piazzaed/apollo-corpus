@@ -1,6 +1,6 @@
 {
  "versione": "v0.37",
- "generato_il": "2026-10-24T18:12:53",
+ "generato_il": "2026-10-24T20:21:03",
  "atti": {
   "cad": {
    "file": "cad.jsonl.gz",
@@ -352,9 +352,9 @@
   },
   "dlgs-38-2000": {
    "file": "dlgs-38-2000.jsonl.gz",
-   "sha256": "ef23914cb7f4e10daf65db9bdbd14da2a73194f6fe14f9150436e5adbf8a8f02",
-   "byte": 4092,
-   "testi": 3
+   "sha256": "a1b1ccafeeb0880b75a19d4c400d8d26cb9ade62b76afef954ed75db97212e7b",
+   "byte": 5120,
+   "testi": 4
   },
   "dlgs-504-1995": {
    "file": "dlgs-504-1995.jsonl.gz",
@@ -412,9 +412,9 @@
   },
   "dpr-1124-1965": {
    "file": "dpr-1124-1965.jsonl.gz",
-   "sha256": "bf71d7dd019d2d8f1c0ba8858a90d6bd45256766cbdc038fa8eaff9a78a7efd8",
-   "byte": 3959,
-   "testi": 1
+   "sha256": "32adf85325503001d98b3b00ed7b84df48cab2b348ce8f897d9a785bf9dcf359",
+   "byte": 10840,
+   "testi": 11
   },
   "dpr-115-2002": {
    "file": "dpr-115-2002.jsonl.gz",
