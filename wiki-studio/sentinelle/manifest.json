@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-24T16:27Z",
+ "generato_il": "2026-10-24T16:37Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -45,13 +45,13 @@
   "normativa": {
    "file": {
     "wiki-studio/normativa/changelog-riforme.md": {
-     "sha256": "9824baab3c0be2d3e37b369ef98399cbcaafe91a3019c33b6c5090f3e6f642a6",
-     "byte": 74054,
+     "sha256": "a491911c8fbe73b87c5d5bb3cb854e799da86fc0b4c6f370fde2fb36f41f18be",
+     "byte": 74591,
      "proprietario": "action"
     },
     "wiki-studio/normativa/changelog-riforme.meta.json": {
-     "sha256": "6d5b4a070367d4bbc7746da6c317ffce771df97e4ca0ba6ad067ba9a95914d70",
-     "byte": 44434,
+     "sha256": "e109308d01182c8034ed1e18e50b51b30ab2e0d935f12ab8c440ab71b0f4378f",
+     "byte": 44607,
      "proprietario": "action"
     },
     "wiki-studio/normativa/drift-reports/2026-10-11.md": {
@@ -94,6 +94,11 @@
      "byte": 39599,
      "proprietario": "action"
     },
+    "wiki-studio/normativa/drift-reports/2026-10-24.md": {
+     "sha256": "76c63e0c160bb3b2b324ad5f8ae63782ced09909d4a705f3fafd02fa8b4f5bcb",
+     "byte": 43153,
+     "proprietario": "action"
+    },
     "wiki-studio/normativa/sentinella-debito.json": {
      "sha256": "09884e1d71535354c9ad531375fc4376798e4841ce6dee184c6746d3bd0ecfb9",
      "byte": 102797,
@@ -111,8 +116,8 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-23",
-    "esito": "parziale",
+    "ultimo_giro": "2026-10-24",
+    "esito": "ok",
     "da_ricontrollare": [
      "immigrazione_37_2025",
      "imposta_successione_donazione",
@@ -1219,8 +1224,8 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "daefe1642f3cb3ac0e85ad56e8062bf6ad209a9df93f063d19b2e4df0abeb4ea",
-     "byte": 957,
+     "sha256": "a3c7494e4ef6729c9ef0bdf3d730849483814f414f099ce45782020ac0181a82",
+     "byte": 951,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {

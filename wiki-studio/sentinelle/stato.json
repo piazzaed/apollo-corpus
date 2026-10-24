@@ -1,7 +1,7 @@
 {
  "_meta": {
   "descrizione": "Stato dell'ultimo giro delle sentinelle automatiche (GitHub Action «sentinelle» del corpus pubblico), per area.",
-  "aggiornato_il": "2026-10-24T16:27Z"
+  "aggiornato_il": "2026-10-24T16:37Z"
  },
  "aree": {
   "dati": {
@@ -10,8 +10,8 @@
    "da_ricontrollare": []
   },
   "normativa": {
-   "ultimo_giro": "2026-10-23",
-   "esito": "parziale",
+   "ultimo_giro": "2026-10-24",
+   "esito": "ok",
    "da_ricontrollare": [
     "immigrazione_37_2025",
     "imposta_successione_donazione",
