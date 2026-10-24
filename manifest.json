@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-24T16:26Z",
+ "generato_il": "2026-10-24T16:41Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -3221,6 +3221,42 @@
   "byte": 5205
  },
  "secondo_livello": {
+  "agcom-reg-controversie": {
+   "file": "agcom-reg-controversie.md",
+   "sha256": "63fe755873060fdefb82efd29f51a599e45af522d544c6a852e339d74c2451fd",
+   "byte": 57661,
+   "famiglia": "agcom-reg-controversie",
+   "genere": "regolamento",
+   "nome": "Regolamento AGCOM sulle procedure di risoluzione delle controversie tra utenti e fornitori di servizi dell'ecosistema digitale (Allegato A alla delibera n. 203/18/CONS, come modificato dalla delibera n. 194/23/CONS)",
+   "scaricato_il": "2026-10-24",
+   "articoli": 31,
+   "vigenza_da": "2023-12-06",
+   "fedelta": "verificata"
+  },
+  "agcom-reg-indennizzi": {
+   "file": "agcom-reg-indennizzi.md",
+   "sha256": "e81a6de36820ac907719558880087b487827b0f72fc495a769435e2df3e666b8",
+   "byte": 20735,
+   "famiglia": "agcom-reg-indennizzi",
+   "genere": "regolamento",
+   "nome": "Regolamento AGCOM in materia di indennizzi applicabili nella definizione delle controversie tra utenti e operatori di comunicazioni elettroniche (Allegato A alla delibera n. 347/18/CONS)",
+   "scaricato_il": "2026-10-24",
+   "articoli": 15,
+   "vigenza_da": "2018-07-20",
+   "fedelta": "verificata"
+  },
+  "anac-lg-whistleblowing": {
+   "file": "anac-lg-whistleblowing.md",
+   "sha256": "16f1fe14bd109fd63faaeefab775e8748d79d3d0ab70feec7834612b17da20f3",
+   "byte": 351801,
+   "famiglia": "anac-lg-whistleblowing",
+   "genere": "altro",
+   "nome": "Linee guida ANAC in materia di whistleblowing (Delibera n. 311 del 12 luglio 2023, come modificata e integrata con Delibera n. 479 del 26 novembre 2025) — testo unitario",
+   "scaricato_il": "2026-10-24",
+   "articoli": 0,
+   "vigenza_da": "2025-11-26",
+   "fedelta": "verificata"
+  },
   "codice-deontologico-forense": {
    "file": "codice-deontologico-forense.md",
    "sha256": "cc32b880a0fe4cca2386da8889265f14158ab8f82cd8f4bda66833ebd085e3ff",
