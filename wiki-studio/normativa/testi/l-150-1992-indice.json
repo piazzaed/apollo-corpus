@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "l-150-1992",
   "nome": "Commercio internazionale di specie protette (L. 150/1992)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-10-24",
   "formato": 2,
   "consolidato_normattiva": "2022-09-27",
   "articoli": 14,
@@ -52,13 +52,12 @@
   "ultima_versione": "2022-09-12",
   "datazione": {
    "monoblocco": 14,
-   "api": 12,
-   "ignota": 2,
-   "falliti": 1,
+   "api": 1,
+   "riportati": 12,
+   "ignota": 1,
    "testo_diverso": 1,
    "stima_anteriore": 1,
-   "chiamate": 14,
-   "errori_rete": 1,
+   "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -129,8 +128,8 @@
   "7": {
    "file": "l-150-1992.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1992-03-08",
+   "datazione": "api",
    "h": "81c7cf306b11"
   },
   "8": {

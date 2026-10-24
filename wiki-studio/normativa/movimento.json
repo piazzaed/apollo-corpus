@@ -122,5 +122,22 @@
    }
   ],
   "stato": "in_movimento"
+ },
+ "cc": {
+  "dal": "2026-10-24",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00216",
+    "data_gu": "2026-10-23",
+    "titolo": "DECRETO-LEGGE 23 ottobre 2026, n. 193 — Disposizioni urgenti e misure di sostegno ai settori dell'autotrasporto, dell'agricoltura e della pesca. (26G00216) Pag. 2",
+    "articoli": [
+     "1677-bis"
+    ],
+    "tutto_l_atto": false,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/23/26G00216/sg",
+    "rilevato_il": "2026-10-24"
+   }
+  ],
+  "stato": "in_movimento"
  }
 }

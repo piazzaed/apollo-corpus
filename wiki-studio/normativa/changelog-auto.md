@@ -1,11 +1,37 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-10-23 · 523 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-10-24 · 533 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Diritto d'autore (L. 633/1941) (`l-633-1941`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 206 | datazione | — → 2000-09-19 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+| Art. 205 | datazione | — → 1942-12-18 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+| Art. 203 | datazione | — → 1942-12-18 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+| Art. 201 | datazione | — → 1942-12-18 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+| Art. 200 | datazione | — → 1942-12-18 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+| Art. 199-bis | datazione | — → 1993-01-15 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+| Art. 193 | datazione | — → 2003-04-29 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+| Art. 187 | datazione | — → 1946-09-13 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+
+## Commercio internazionale di specie protette (L. 150/1992) (`l-150-1992`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 7 | datazione | — → 1992-03-08 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
+
+## Testo unico spese di giustizia (D.P.R. 115/2002) (`dpr-115-2002`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 168-bis — Decreto di pagamento delle prestazioni di cui all'articolo 57 del decreto legislativo 1° agosto 2003, n. 259, e di quelle funzionali all'utilizzo delle medesime | modificato | 2026-08-08 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-10-13 → 2026-10-24 |
+| Art. 73 — Procedura per la registrazione degli atti giudiziari | modificato | 2016-12-03 → 2016-12-03 | non indicato nell’AKN | 2026-09-23 → 2026-10-13 |
 
 ## Testo unico delle imposte sui redditi (D.P.R. 917/1986) (`tuir`)
 
@@ -521,12 +547,6 @@
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
 |---|---|---|---|---|
 | Art. 437-bis — Omessa adozione di misure di sicurezza nei sistemi di intelligenza artificiale e alterazione illecita dei sistemi | aggiunto | — → 2026-09-30 | D.Lgs. 9 settembre 2026, n. 160 | 2026-09-23 → 2026-10-19 |
-
-## Testo unico spese di giustizia (D.P.R. 115/2002) (`dpr-115-2002`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 73 — Procedura per la registrazione degli atti giudiziari | modificato | 2016-12-03 → 2016-12-03 | non indicato nell’AKN | 2026-09-23 → 2026-10-13 |
 
 ## D.L. 262/2006 (art. 2 c. 47-53: reintroduzione dell'imposta di successione) (`dl-262-2006`)
 

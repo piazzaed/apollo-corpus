@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "l-633-1941",
   "nome": "Diritto d'autore (L. 633/1941)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-10-24",
   "formato": 2,
   "consolidato_normattiva": "2026-06-12",
   "articoli": 308,
@@ -352,13 +352,13 @@
   "ultima_versione": "2026-06-12",
   "datazione": {
    "monoblocco": 308,
-   "api": 299,
-   "ignota": 9,
-   "falliti": 9,
-   "stima_anteriore": 174,
-   "chiamate": 308,
+   "api": 8,
+   "riportati": 299,
+   "ignota": 1,
+   "falliti": 1,
+   "stima_anteriore": 5,
+   "chiamate": 9,
    "assenti": 1,
-   "errori_rete": 8,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -2368,8 +2368,8 @@
   "187": {
    "file": "l-633-1941.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1946-09-13",
+   "datazione": "api",
    "h": "1d9092a6af83"
   },
   "188": {
@@ -2410,8 +2410,8 @@
   "193": {
    "file": "l-633-1941.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2003-04-29",
+   "datazione": "api",
    "h": "e2519ade2d21"
   },
   "194": {
@@ -2466,22 +2466,22 @@
   "199-bis": {
    "file": "l-633-1941.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1993-01-15",
+   "datazione": "api",
    "h": "8b3def188470"
   },
   "200": {
    "file": "l-633-1941.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
    "h": "9f7085e69996"
   },
   "201": {
    "file": "l-633-1941.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
    "h": "1b28ba0d53da"
   },
   "202": {
@@ -2494,8 +2494,8 @@
   "203": {
    "file": "l-633-1941.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
    "h": "5e607efa7b8a"
   },
   "204": {
@@ -2508,15 +2508,15 @@
   "205": {
    "file": "l-633-1941.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "1942-12-18",
+   "datazione": "api",
    "h": "a143dba38599"
   },
   "206": {
    "file": "l-633-1941.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2000-09-19",
+   "datazione": "api",
    "h": "da4fe626a72b"
   }
  }
