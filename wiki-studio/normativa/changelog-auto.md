@@ -1,11 +1,17 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-10-24 · 533 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-10-26 · 534 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Collegato lavoro 2024 (L. 203/2024) (`l-203-2024`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 24 — Disposizioni in materia previdenziale concernenti il personale a contratto degli uffici all'estero del Ministero degli affari esteri e della cooperazione internazionale | modificato | 2025-01-12 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-26 |
 
 ## Diritto d'autore (L. 633/1941) (`l-633-1941`)
 

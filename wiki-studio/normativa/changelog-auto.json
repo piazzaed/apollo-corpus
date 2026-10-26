@@ -1,10 +1,27 @@
 {
  "_meta": {
-  "generato_il": "2026-10-24T16:20:10",
+  "generato_il": "2026-10-26T07:56:45",
   "descrizione": "Modifiche del corpus locale rilevate da corpus_diff.py fra snapshot successivi. Lookup del Livello 0 (verifica_meccanica.trappole_per) e drift-report della Sentinella.",
-  "totale": 533
+  "totale": 534
  },
  "modifiche": [
+  {
+   "slug": "l-203-2024",
+   "atto": "Collegato lavoro 2024 (L. 203/2024)",
+   "articolo": "24",
+   "rubrica": "Disposizioni in materia previdenziale concernenti il personale a contratto degli uffici all'estero del Ministero degli affari esteri e della cooperazione internazionale",
+   "tipo": "modificato",
+   "vigore_da_prima": "2025-01-12",
+   "vigore_da_dopo": "2026-10-07",
+   "atto_modificante": "L. 5 ottobre 2026, n. 174",
+   "snapshot_prima": "2026-10-02",
+   "snapshot_dopo": "2026-10-26",
+   "consolidato_prima": "2026-10-02",
+   "consolidato_dopo": "2026-10-07",
+   "caratteri_prima": 3274,
+   "caratteri_dopo": 2966,
+   "registrato_il": "2026-10-26T07:56:45"
+  },
   {
    "slug": "l-633-1941",
    "atto": "Diritto d'autore (L. 633/1941)",

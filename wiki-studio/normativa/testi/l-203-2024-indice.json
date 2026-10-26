@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "l-203-2024",
   "nome": "Collegato lavoro 2024 (L. 203/2024)",
-  "snapshot": "2026-10-02",
+  "snapshot": "2026-10-26",
   "formato": 2,
-  "consolidato_normattiva": "2026-10-02",
+  "consolidato_normattiva": "2026-10-07",
   "articoli": 34,
   "file": [
    "l-203-2024.md"
@@ -17,16 +17,31 @@
     "data": "2024-12-28",
     "evento": "ro1",
     "atto_modificante": null
+   },
+   {
+    "data": "2026-07-03",
+    "evento": "rp1",
+    "atto_modificante": "D.Lgs. 19 giugno 2026, n. 117"
+   },
+   {
+    "data": "2026-08-07",
+    "evento": "rp2",
+    "atto_modificante": "D.L. 7 agosto 2026, n. 144"
+   },
+   {
+    "data": "2026-10-06",
+    "evento": "rp3",
+    "atto_modificante": "L. 5 ottobre 2026, n. 174"
    }
   ],
-  "ultima_versione": "2024-12-28",
+  "ultima_versione": "2026-10-06",
   "datazione": {
    "monoblocco": 34,
-   "api": 33,
+   "api": 1,
+   "riportati": 32,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 33,
-   "chiamate": 34,
+   "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -196,9 +211,9 @@
   "24": {
    "file": "l-203-2024.md",
    "rubrica": "Disposizioni in materia previdenziale concernenti il personale a contratto degli uffici all'estero del Ministero degli affari esteri e della cooperazione internazionale",
-   "vigore_da": "2025-01-12",
+   "vigore_da": "2026-10-07",
    "datazione": "api",
-   "h": "9bc9b39f9bc2"
+   "h": "80fe45068147"
   },
   "25": {
    "file": "l-203-2024.md",
