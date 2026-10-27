@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-10-26T08:12Z",
+ "generato_il": "2026-10-27T11:03Z",
  "versione_sentinelle": 1,
  "aree": {
   "dati": {
@@ -37,7 +37,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-10-26",
+    "ultimo_giro": "2026-10-27",
     "esito": "parziale",
     "da_ricontrollare": []
    }
@@ -1229,7 +1229,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "dfda381448ce1317e8c97ecd65cb43b3f44a29c9a556e6877fe65b25d7d20f48",
+     "sha256": "f1b12475cd56dde1e4f954822f8d92fa3ea5ec459ed7f8d91bbd3a5e3aef9328",
      "byte": 945,
      "proprietario": "action"
     },
