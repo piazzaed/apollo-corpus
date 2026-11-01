@@ -10,8 +10,9 @@ Correggi **solo quelle schede** (Edit), e **solo** nelle sezioni «Testo del mod
   `python3 scripts/codice_locale.py --art N --codice SLUG` prima di citarla;
 - nessuna sentenza, nessun nome di persona o di studio, nessun dato personale (i segnaposto restano segnaposto);
 - aggiungi in «Aggiornamenti» una riga datata con cosa hai cambiato e perché;
-- verifica la scheda con `python3 scripts/sentinella_modelli.py --giro --id ID --senza-motori --senza-patch`: deve
-  tornare VERDE. Se non riesci, lascia la scheda com'era.
+- verifica la scheda con `python3 scripts/sentinella_modelli.py --giro --id ID --senza-motori --senza-patch`: conta la
+  riga «come correzione …» (il verdetto del cancello, senza la marcatura manuale e il «testo cambiato» che l'allineamento
+  azzera): deve essere VERDE. Se non riesci, lascia la scheda com'era.
 
 Formato degli esiti:
 ```json
