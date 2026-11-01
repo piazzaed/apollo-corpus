@@ -106,12 +106,39 @@ jobs:
           git commit -m "manifest $(date -u +%F)" || echo "manifest invariato"
           git push
       - name: segnalazione
-        if: always() && (steps.controllo.outputs.respinte != '0' || steps.claude.outcome == 'failure')
+        if: always() && inputs.a_secco != true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROBLEMI: ${{ steps.controllo.outputs.problemi }}
+          CLAUDE_KO: ${{ steps.claude.outcome == 'failure' }}
         run: |
-          [ -s $RUNNER_TEMP/issue.md ] || echo "Il passo Claude non e' riuscito (token scaduto o quota esaurita?): le schede da rivedere restano marcate da_ricontrollare." > $RUNNER_TEMP/issue.md
-          gh issue create --title "memento: schede da rivedere ($(date -u +%F))" --label memento --body-file $RUNNER_TEMP/issue.md || true
+          gh label create memento --color 0E8A16 --description "schede del memento da rivedere" --force || true
+          # una issue sola: si aggiorna la piu' recente, le altre si chiudono; nessun problema = tutte chiuse
+          # (problemi = schede respinte + schede del triage non riviste + file ripristinati: memento_verifica.py)
+          OGGI=$(date -u +%F)
+          PREFISSO="memento: schede da rivedere"
+          CORPO=$RUNNER_TEMP/issue.md
+          APERTE=$(gh issue list --label memento --state open --limit 200 --json number,title --jq "[.[] | select(.title | startswith(\"$PREFISSO\"))] | sort_by(.number) | reverse | .[].number" || true)
+          if [ "$CLAUDE_KO" != "true" ] && [ -z "$PROBLEMI" ]; then
+            echo "::warning::controllo meccanico del memento senza esito: issue lasciate come sono"
+            exit 0
+          fi
+          if [ "$CLAUDE_KO" != "true" ] && [ "$PROBLEMI" = "0" ]; then
+            for N in $APERTE; do gh issue close "$N" --comment "memento senza schede da rivedere ($OGGI)" || true; done
+            exit 0
+          fi
+          [ -s "$CORPO" ] || echo "Il controllo meccanico del memento ha trovato $PROBLEMI problemi: vedi il rapporto del giro." > "$CORPO"
+          if [ "$CLAUDE_KO" = "true" ]; then
+            { echo "Il passo Claude non e' riuscito (token scaduto o quota esaurita?): le schede da rivedere restano marcate da_ricontrollare."; echo; cat "$CORPO"; } > "$CORPO.tmp" && mv "$CORPO.tmp" "$CORPO"
+          fi
+          printf '\n_Aggiornata dal giro del %s: %s/%s/actions/runs/%s_\n' "$OGGI" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> "$CORPO"
+          ULTIMA=$(echo "$APERTE" | head -n 1)
+          if [ -n "$ULTIMA" ]; then
+            gh issue edit "$ULTIMA" --title "$PREFISSO ($OGGI)" --body-file "$CORPO" || true
+          else
+            ULTIMA=$(gh issue create --title "$PREFISSO ($OGGI)" --label memento --body-file "$CORPO" | grep -oE '[0-9]+$' || true)
+          fi
+          for N in $APERTE; do [ "$N" = "$ULTIMA" ] || gh issue close "$N" --comment "superata dalla #$ULTIMA" || true; done
       - name: rapporto
         if: always()
         run: |

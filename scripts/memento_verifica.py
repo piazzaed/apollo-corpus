@@ -457,10 +457,10 @@ def _ripristina(radice: Path, stato: str, rel: str) -> None:
 
 
 def dopo_claude(radice: Path, triage: dict, esiti: dict, oggi: str = "", verifica_numero=None) -> dict:
-    """Il cancello dopo il passo del modello. {respinte, sigillate, ripristinati, issue}."""
+    """Il cancello dopo il passo del modello. {respinte, non_riviste, sigillate, ripristinati, issue}."""
     radice = Path(radice)
     oggi = oggi or _dt.date.today().isoformat()
-    out = {"respinte": [], "sigillate": [], "ripristinati": [], "numeri": [], "issue": []}
+    out = {"respinte": [], "non_riviste": [], "sigillate": [], "ripristinati": [], "numeri": [], "issue": []}
     cache = {}
     stato_git = toccati(radice)
     # 1) tutto cio' che sta fuori dall'area ammessa torna com'era
@@ -497,7 +497,10 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, oggi: str = "", verific
             out["issue"].append(f"- **{sid}** dichiarata invariata ma non passa il controllo: " + "; ".join(r["errori"][:6]))
             marca(p, [f"controllo del {oggi}: {x}" for x in r["errori"][:3]])
         elif p.exists():
+            # v0.50: una scheda del triage che il modello non ha riscritto ne' dichiarato invariata resta da rivedere
+            # e conta come le respinte (prima finiva nella issue solo se c'era anche una respinta)
             marca(p, motivi)
+            out["non_riviste"].append(sid)
             out["issue"].append(f"- **{sid}** non rivista: " + "; ".join(str(m) for m in motivi[:3]))
     # 4) i numeri annuali: struttura e valori nuovi sulla fonte, altrimenti il file torna com'era
     rel_dati = "wiki-studio/lavoro/dati/dati-lavoro.json"
@@ -549,7 +552,7 @@ def dopo_claude_sicuro(radice: Path, triage_path: str, esiti_path: str) -> dict:
         for rel in ("wiki-studio/lavoro/memento", "wiki-studio/lavoro/dati", "wiki-studio/lavoro/prassi/curata.json"):
             _git(radice, "checkout", "--", rel)
             _git(radice, "clean", "-fdq", "--", rel)
-        return {"respinte": ["(errore del controllo)"], "sigillate": [], "ripristinati": ["memento", "dati"],
+        return {"respinte": ["(errore del controllo)"], "non_riviste": [], "sigillate": [], "ripristinati": ["memento", "dati"],
                 "issue": [f"- controllo meccanico interrotto ({e.__class__.__name__}: {str(e)[:200]}): nulla pubblicato del memento"]}
 
 
@@ -665,8 +668,10 @@ def main(argv=None) -> int:
         return 0
     if a.dopo_claude:
         r = dopo_claude_sicuro(radice, a.triage, a.esiti)
+        non_riviste = r.get("non_riviste") or []
         testo = ("### Memento\n\n" + f"- sigillate: {', '.join(r['sigillate']) or 'nessuna'}\n"
                  + f"- respinte: {', '.join(r['respinte']) or 'nessuna'}\n"
+                 + (f"- ⚠️ non riviste (restano da ricontrollare): {', '.join(non_riviste)}\n" if non_riviste else "")
                  + (f"- file ripristinati (fuori dall'area ammessa): {', '.join(r['ripristinati'])}\n" if r["ripristinati"] else "")
                  + "".join(f"- numeri: {x}\n" for x in r.get("numeri") or []))
         print(testo)
@@ -677,8 +682,10 @@ def main(argv=None) -> int:
             Path(a.issue).write_text("Il controllo meccanico del memento ha trovato:\n\n" + "\n".join(r["issue"]) + "\n",
                                      encoding="utf-8")
         if a.github_output:
+            # `problemi` (v0.50): le righe della issue (respinte, non riviste, file ripristinati), cio' che decide la issue
+            # del memento; `respinte` resta per i workflow che lo leggono ancora
             with open(a.github_output, "a", encoding="utf-8") as f:
-                f.write(f"respinte={len(r['respinte'])}\n")
+                f.write(f"respinte={len(r['respinte'])}\nnon_riviste={len(non_riviste)}\nproblemi={len(r['issue'])}\n")
         return 0
     ap.print_help()
     return 2
