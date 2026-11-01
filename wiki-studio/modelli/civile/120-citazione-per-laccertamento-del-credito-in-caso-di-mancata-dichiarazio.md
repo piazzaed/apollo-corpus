@@ -3,16 +3,16 @@
   "id": "120",
   "numero": 120,
   "sub": null,
-  "titolo": "Citazione per l’accertamento del credito in caso di mancata dichiarazione o contestazione del terzo",
-  "tipo_atto": "atto di citazione",
-  "forma_introduttiva": "atto di citazione",
+  "titolo": "Ricorso al giudice dell’esecuzione per l’accertamento dell’obbligo del terzo (mancata dichiarazione o contestazione, art. 549 c.p.c.)",
+  "tipo_atto": "ricorso",
+  "forma_introduttiva": "ricorso (istanza al giudice dell'esecuzione)",
   "rito": "esecuzione",
   "fase": "esecuzione forzata",
   "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
   "competenza_orientativa": "Tribunale ordinario, monocratico",
   "norme_chiave": [
-    "art. 548 c.p.c.",
-    "art. 166 c.p.c."
+    "art. 549 c.p.c.",
+    "art. 548 c.p.c."
   ],
   "changelog_deps": [
     "cartabia_processo_civile",
@@ -27,27 +27,29 @@
   "giurisprudenza_stato": "da_popolare",
   "selezione_keywords": [
     "accertamento",
-    "atto",
     "caso",
-    "citazione",
     "contestazione",
     "credito",
     "dichiarazione",
     "esecuzione",
+    "giudice",
+    "istanza",
     "mancata",
+    "obbligo",
+    "ricorso",
     "terzo"
   ]
 }
 ---
 
-# 120 · Citazione per l’accertamento del credito in caso di mancata dichiarazione o contestazione del terzo
+# 120 · Ricorso al giudice dell’esecuzione per l’accertamento dell’obbligo del terzo (mancata dichiarazione o contestazione, art. 549 c.p.c.)
 
 > Scheda-modello **local-first**. Scaffold verificato per la **selezione** in F1 del `collegio-redazione`.
 > L'inquadramento autorevole (tipo · rito · competenza · struttura) resta di **F1.5** (albero `struttura-atti.md` + round di verifica: Livello 0 + due agenti). Un fac-simile **non e' fonte di diritto**.
 
 ## Quando si usa
 - Materia: **esecuzione (titolo, precetto, pignoramento, opposizioni)** · Fase: **esecuzione forzata**
-- Forma introduttiva tipica: **atto di citazione** · Rito: **esecuzione**
+- Forma introduttiva tipica: **ricorso (istanza al giudice dell'esecuzione)** · Rito: **esecuzione**
 
 ## Inquadramento (orientativo — decide F1.5)
 - Competenza orientativa: **Tribunale ordinario, monocratico**

@@ -3364,15 +3364,15 @@
     {
       "id": "120",
       "numero": 120,
-      "titolo": "Citazione per l’accertamento del credito in caso di mancata dichiarazione o contestazione del terzo",
-      "tipo_atto": "atto di citazione",
+      "titolo": "Ricorso al giudice dell’esecuzione per l’accertamento dell’obbligo del terzo (mancata dichiarazione o contestazione, art. 549 c.p.c.)",
+      "tipo_atto": "ricorso",
       "rito": "esecuzione",
       "fase": "esecuzione forzata",
       "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
       "competenza_orientativa": "Tribunale ordinario, monocratico",
       "norme_chiave": [
-        "art. 548 c.p.c.",
-        "art. 166 c.p.c."
+        "art. 549 c.p.c.",
+        "art. 548 c.p.c."
       ],
       "changelog_deps": [
         "cartabia_processo_civile",
