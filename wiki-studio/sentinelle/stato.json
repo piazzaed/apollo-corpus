@@ -28,13 +28,7 @@
   "modelli": {
    "ultimo_giro": "2026-10-28",
    "esito": "ok",
-   "da_ricontrollare": [
-    "modello:006",
-    "modello:080",
-    "modello:081",
-    "modello:106",
-    "modello:120"
-   ]
+   "da_ricontrollare": []
   }
  }
 }

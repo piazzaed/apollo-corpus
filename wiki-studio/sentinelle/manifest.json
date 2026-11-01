@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-01T11:11Z",
+ "generato_il": "2026-11-01T18:11Z",
  "versione_sentinelle": 2,
  "aree": {
   "dati": {
@@ -190,8 +190,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/006-parcella.md": {
-     "sha256": "25b0db04cb34b0974fc4e15c78f70b85611c7b5ced9465680a98986ba216cd26",
-     "byte": 3708,
+     "sha256": "bf7e49a0b148647b17964fc25be45022dd82dcb779881610b7c52085ec57c6f7",
+     "byte": 6369,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/007-istanza-di-ammissione-al-gratuito-patrocinio.md": {
@@ -515,8 +515,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/071-ricorso-semplificato-ex-artt-316-e-281-undecies-cpc-innanzi-al-gdp.md": {
-     "sha256": "0d6c139c5b17d43f4ad2364859bf433164621bb67591e6a439bb0fb40ae2aa3d",
-     "byte": 6790,
+     "sha256": "7944d0defbea635e2e11450a4b37e07ba8a0f95d334d6e69f9bd96b87aa7b761",
+     "byte": 8777,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/072-ricorso-semplificato-per-risarcimento-danni-a-cose-da-sinistro-stradal.md": {
@@ -560,13 +560,13 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/080-appello-contro-le-sentenze-del-tribunale.md": {
-     "sha256": "d5056b66d54f9effdb6c7493c2436e178bd99088f803101ea507f1cccee5b75d",
-     "byte": 8769,
+     "sha256": "9baa14ba7051ae35f9e6303f44c8ecc7921ca42925f12b7ee7773b62cee89245",
+     "byte": 11547,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/081-appello-incidentale.md": {
-     "sha256": "2c31f312a062bd6a990692d5a9f78b725b9a63f2fd3551b3a726b75fd4b3cc62",
-     "byte": 7062,
+     "sha256": "af8749538100c9518917b2f7e08f9accd674bcd413c06be0f037eb673f440f25",
+     "byte": 8958,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/082-costituzione-in-appello.md": {
@@ -690,8 +690,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/106-ricorso-in-appello-rito-del-lavoro.md": {
-     "sha256": "b3d5fe64ea7f10e7de10fdd3d6ab1f04a9f6e266d63ef732bf23d174a2d8216d",
-     "byte": 9772,
+     "sha256": "bbf4772d199745b9e5f0db12d950a1244b102017df2b95afc3b7513e6d1ca461",
+     "byte": 12680,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/107-costituzione-in-appello-rito-del-lavoro.md": {
@@ -760,8 +760,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/120-citazione-per-laccertamento-del-credito-in-caso-di-mancata-dichiarazio.md": {
-     "sha256": "183ec5c363911c5774df74591b87be0d75aa7aa61136a320596795bc93fafe07",
-     "byte": 6732,
+     "sha256": "694db290da4cd0da56fc2ac3057bf559e556cd34dfa9c8aae22116893c4fe7db",
+     "byte": 8750,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/121-atto-di-pignoramento-immobiliare.md": {
@@ -1200,13 +1200,13 @@
      "proprietario": "seme"
     },
     "wiki-studio/modelli/modelli.meta.json": {
-     "sha256": "5754efa50d51c00500f8576a1b85ea36e3e809e7b066cf2eef8c999c387a0c16",
-     "byte": 127875,
+     "sha256": "069faca6ede2ba7defbeb4a8410f5f528d72d2b09e8289e0a0f49caa5bfb40d4",
+     "byte": 127506,
      "proprietario": "action"
     },
     "wiki-studio/modelli/norme-citate.json": {
-     "sha256": "f61bf8b9feda2cfe8f73395916827ad851f1f5ed01f585a8aa523f368d5aabbe",
-     "byte": 28735,
+     "sha256": "7a16ecdf7f625b4ba8a1236d096ffcc96f1e840da5d1832e2bad770086c4cbbc",
+     "byte": 28916,
      "proprietario": "action"
     },
     "wiki-studio/modelli/requisiti-per-tipo.json": {
@@ -1218,25 +1218,19 @@
    "stato": {
     "ultimo_giro": "2026-10-28",
     "esito": "ok",
-    "da_ricontrollare": [
-     "modello:006",
-     "modello:080",
-     "modello:081",
-     "modello:106",
-     "modello:120"
-    ]
+    "da_ricontrollare": []
    }
   },
   "stato": {
    "file": {
     "wiki-studio/sentinelle/modelli-stato.json": {
-     "sha256": "5a9a816da3e599ddbbb4e7129ffcff40c4318bb585ccfd3391201d965763ee1d",
-     "byte": 75682,
+     "sha256": "b8a1085276fd906c4da4418aa5fbea01cfd7b9eb76ba7c752c8311a6f935b298",
+     "byte": 75270,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "b5ec446a1b89a9025a276e136fb81a2df48607333b2c3faee888f9450933a643",
-     "byte": 869,
+     "sha256": "a80a8af2188be8fba9d1e3af6b8a8598b42397de69573cbea6b3272f9c1c47ff",
+     "byte": 771,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {

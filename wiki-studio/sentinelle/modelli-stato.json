@@ -130,7 +130,7 @@
   "cc:2099": {
    "sha": "5f0e3615045ce72c",
    "vigore_da": "1942-04-19",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-10-12",
    "cambiato_il": null
   },
@@ -193,7 +193,7 @@
   "cc:2697": {
    "sha": "90084ee206f7181f",
    "vigore_da": "1942-04-19",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-10-12",
    "cambiato_il": null
   },
@@ -221,7 +221,7 @@
   "cost:36": {
    "sha": "6abe4d1baaef9b6a",
    "vigore_da": "1948-01-01",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-23",
    "cambiato_il": null
   },
@@ -284,7 +284,7 @@
   "cpc:116": {
    "sha": "0672fe5f79fd7d8a",
    "vigore_da": "1942-04-21",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -340,7 +340,7 @@
   "cpc:166": {
    "sha": "d7454a076b08af35",
    "vigore_da": "2023-01-01",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -473,7 +473,7 @@
   "cpc:246": {
    "sha": "db9252397ae14534",
    "vigore_da": "1942-04-21",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -536,7 +536,7 @@
   "cpc:281-undecies": {
    "sha": "c8bf1d2ab3703c5c",
    "vigore_da": "2024-11-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -613,7 +613,7 @@
   "cpc:316": {
    "sha": "377caae56b5fef27",
    "vigore_da": "2023-01-01",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -648,7 +648,7 @@
   "cpc:333": {
    "sha": "def484bcc2c07f19",
    "vigore_da": "1942-04-21",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -669,28 +669,28 @@
   "cpc:341": {
    "sha": "5cc1e2b83e963fc9",
    "vigore_da": "1998-07-04",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
   "cpc:342": {
    "sha": "02f795809b35a938",
    "vigore_da": "2024-11-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
   "cpc:343": {
    "sha": "212c7e4a858a44d6",
    "vigore_da": "2024-11-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
   "cpc:347": {
    "sha": "dfa4a483a432be09",
    "vigore_da": "2024-11-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -837,7 +837,7 @@
   "cpc:414": {
    "sha": "ee501dec1e728ca4",
    "vigore_da": "2024-11-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -865,14 +865,14 @@
   "cpc:433": {
    "sha": "33e32c6adb57a5ca",
    "vigore_da": "1998-07-04",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
   "cpc:434": {
    "sha": "4b6f0df8a86b4d81",
    "vigore_da": "2024-11-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -1082,21 +1082,21 @@
   "cpc:543": {
    "sha": "69db9e4fea5b0557",
    "vigore_da": "2024-11-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
   "cpc:547": {
    "sha": "db566c4341eaf2e8",
    "vigore_da": "2014-11-11",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
   "cpc:548": {
    "sha": "a519ef54af36b46b",
    "vigore_da": "2015-08-21",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -1152,7 +1152,7 @@
   "cpc:617": {
    "sha": "51487fddc9b7f24b",
    "vigore_da": "2005-09-11",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -1516,7 +1516,7 @@
   "cpc:83": {
    "sha": "3989bd9f13b68573",
    "vigore_da": "2009-07-04",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -1530,7 +1530,7 @@
   "cpc:86": {
    "sha": "6318cf498b5c5cf6",
    "vigore_da": "1942-04-21",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -2142,6 +2142,62 @@
    "visto_il": "2026-11-01",
    "snapshot": "2026-09-23",
    "cambiato_il": null
+  },
+  "dm-55-2014:2": {
+   "sha": "1364c156a49c30e4",
+   "vigore_da": "2022-10-23",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-23",
+   "cambiato_il": null
+  },
+  "dm-55-2014:4": {
+   "sha": "31a72f265582d050",
+   "vigore_da": "2022-10-23",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-23",
+   "cambiato_il": null
+  },
+  "l-247-2012:13": {
+   "sha": "a7d20cf9a0f2e22b",
+   "vigore_da": "2017-08-29",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-23",
+   "cambiato_il": null
+  },
+  "cpc:318": {
+   "sha": "3e1931386e1f7bcb",
+   "vigore_da": "2024-11-26",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-28",
+   "cambiato_il": null
+  },
+  "cpc:349-bis": {
+   "sha": "2d843d6bd403ed03",
+   "vigore_da": "2023-01-01",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-28",
+   "cambiato_il": null
+  },
+  "cpc:432": {
+   "sha": "195eb9c31fa09757",
+   "vigore_da": "1973-12-12",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-28",
+   "cambiato_il": null
+  },
+  "cpc:435": {
+   "sha": "a59b715e155c0570",
+   "vigore_da": "1998-07-04",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-28",
+   "cambiato_il": null
+  },
+  "cpc:549": {
+   "sha": "acdf94d9129a0f0b",
+   "vigore_da": "2015-08-21",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-28",
+   "cambiato_il": null
   }
  },
  "verdetti": {
@@ -2181,14 +2237,11 @@
    "giro": "2026-10-28"
   },
   "006": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "da ricontrollare (sviluppo, dal 2026-09-23): Parcella impostata su «diritti e onorari»: le tariffe delle professioni regolamentate sono abrogate dall'art. 9 D.L. 1/2012 e i compens",
-    "formula superata «diritti e onorari» (art. 9 D.L. 1/2012 (tariffe delle professioni regolamentate abrogate; compensi a parametri, D.M. 55/2014), dal 2012-01-24)"
-   ],
-   "rossi": 1,
-   "gialli": 1,
-   "giro": "2026-10-28"
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
+   "gialli": 0,
+   "giro": "2026-11-01"
   },
   "007": {
    "verdetto": "VERDE",
@@ -2643,7 +2696,7 @@
    "motivi": [],
    "rossi": 0,
    "gialli": 0,
-   "giro": "2026-10-28"
+   "giro": "2026-11-01"
   },
   "072": {
    "verdetto": "VERDE",
@@ -2702,24 +2755,18 @@
    "giro": "2026-10-28"
   },
   "080": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "manca: per ciascun motivo, il capo della decisione impugnato (art. 342 c.p.c.)",
-    "da ricontrollare (sviluppo, dal 2026-09-23): art. 342 c.p.c. vigente (testo dal 26/11/2024): per ciascun motivo l'appello deve individuare, a pena di inammissibilità, lo specifico "
-   ],
-   "rossi": 2,
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
    "gialli": 0,
-   "giro": "2026-10-28"
+   "giro": "2026-11-01"
   },
   "081": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "manca: per ciascun motivo, il capo della decisione impugnato (art. 342 c.p.c.)",
-    "da ricontrollare (sviluppo, dal 2026-09-23): art. 342 c.p.c. vigente (testo dal 26/11/2024): per ciascun motivo l'appello deve individuare, a pena di inammissibilità, lo specifico "
-   ],
-   "rossi": 2,
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
    "gialli": 0,
-   "giro": "2026-10-28"
+   "giro": "2026-11-01"
   },
   "082": {
    "verdetto": "VERDE",
@@ -2894,15 +2941,11 @@
    "giro": "2026-10-28"
   },
   "106": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "manca: per ciascun motivo, il capo della decisione impugnato (art. 342 c.p.c.)",
-    "da ricontrollare (sviluppo, dal 2026-09-23): art. 434, co. 1, c.p.c. vigente: per ciascun motivo il ricorso in appello deve individuare, a pena di inammissibilità, lo specifico cap",
-    "manca: censure alla ricostruzione dei fatti (art. 342, n. 1 c.p.c.)"
-   ],
-   "rossi": 2,
-   "gialli": 1,
-   "giro": "2026-10-28"
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
+   "gialli": 0,
+   "giro": "2026-11-01"
   },
   "107": {
    "verdetto": "VERDE",
@@ -2996,15 +3039,11 @@
    "giro": "2026-10-28"
   },
   "120": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "manca: comparire dinanzi al giudice designato ai sensi dell'art. 168-bis (art. 163, co. 3, n. 7 c.p.c.)",
-    "da ricontrollare (sviluppo, dal 2026-09-23): L'accertamento dell'obbligo del terzo non si introduce più con citazione: se il terzo non rende la dichiarazione provvede l'art. 548 c.",
-    "manca: indicazione dell'assolvimento della condizione di procedibilità (se la domanda vi è soggetta) (art. 163, co. 3, n. 3-bis c.p.c.)"
-   ],
-   "rossi": 2,
-   "gialli": 1,
-   "giro": "2026-10-28"
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
+   "gialli": 0,
+   "giro": "2026-11-01"
   },
   "121": {
    "verdetto": "VERDE",
@@ -3612,9 +3651,9 @@
   }
  },
  "conteggi": {
-  "VERDE": 198,
+  "VERDE": 203,
   "GIALLO": 3,
-  "ROSSO": 5
+  "ROSSO": 0
  },
  "ultimo_giro_tipo": "giro",
  "ultimo_giro": "2026-10-28",

@@ -54,8 +54,11 @@
 
 ## Normativa di riferimento (ancore estratte dal modello)
 - art. 83 c.p.c.
-- art. 281-undecies c.p.c.
-- art. 116 c.p.c.
+- art. 316 c.p.c. (domanda davanti al giudice di pace nelle forme del procedimento semplificato di cognizione, in quanto compatibili)
+- art. 281-undecies c.p.c. (co. 1: avvertimento che la costituzione oltre i termini del co. 2 implica le decadenze dei co. 3 e 4; co. 2: costituzione non oltre dieci giorni prima dell'udienza)
+- art. 318, co. 2, c.p.c. (decreto di fissazione dell'udienza; difesa tecnica obbligatoria oltre 1.100 euro, salvo art. 86)
+- art. 319 c.p.c. (costituzione del convenuto a norma dell'art. 281-undecies, co. 3 e 4)
+- art. 116 c.p.c. (non più richiamato nell'avvertimento: non riguarda la costituzione)
 - d.P.R. 115/2002
 
 Dipendenze di freschezza (changelog): **cartabia_processo_civile, correttivo_cartabia** — cfr. `wiki-studio/normativa/changelog-riforme.md`.
@@ -72,7 +75,7 @@ Regola anti-allucinazione: **nessuna massima non verificata** entra in questa se
 ## Testo del modello (fac-simile — Formulario del processo civile (ed. febbraio 2026))
 ```
 71.	Ricorso semplificato ex artt. 316 e 281-undecies c.p.c. innanzi al g.d.p.
-(artt. 316 e 281-undecies c.p.c.)
+(artt. 316, 318 e 281-undecies c.p.c.)
 Al sig. giudice di pace 
 mandamento di .......................
 RICORSO
@@ -92,12 +95,10 @@ PREMESSA IN FATTO
 DIRITTO
 Ai sensi dell’art. ....................... del codice civile (oppure: legge n. .......... del .......................) il ricorrente ha il diritto di .......................
 Tutto ciò premesso in fatto e ritenuto in diritto, il sottoscritto procuratore, nella qualità in epigrafe indicata,
-INVITA
-il convenuto a costituirsi nel termine di giorni 10, prima dell’udienza ex art. 281-undecies, comma 2, c.p.c., con l’avvertimento che la mancata comparizione senza giustificato motivo costituisce comportamento valutabile dal giudice ex art. 116 c.p.c. e comporta le decadenze di cui ai commi 3 e 4 dell’art. 281-undecies c.p.c.
 AVVERTE
-il convenuto che la difesa tecnica mediante avvocato è obbligatoria e che la parte può valersi dell’ammissione al gratuito patrocinio.
+il convenuto che deve costituirsi, mediante deposito della comparsa di risposta, nel termine che il giudice di pace assegnerà con il decreto di fissazione dell’udienza, costituzione che deve avvenire non oltre dieci giorni prima dell’udienza (artt. 281-undecies, secondo e terzo comma, 318, secondo comma, e 319 c.p.c.); che la costituzione oltre i termini di cui al secondo comma dell’art. 281-undecies c.p.c. implica le decadenze di cui ai commi terzo e quarto del medesimo articolo (domande riconvenzionali, eccezioni processuali e di merito non rilevabili d’ufficio, chiamata in causa del terzo); che la difesa tecnica mediante avvocato è obbligatoria in tutti i giudizi il cui valore eccede 1.100 euro, fatta eccezione per i casi previsti dall’articolo 86 c.p.c. o da leggi speciali (art. 318, secondo comma, c.p.c.); e che la parte, sussistendone i presupposti di legge, può presentare istanza per l’ammissione al patrocinio a spese dello Stato.
 CHIEDE
-Che l’adito giudice di pace voglia fissare la prima udienza di comparizione delle parti e trattazione, per ivi sentire accogliere le seguenti
+Che l’adito giudice di pace voglia fissare con decreto l’udienza di comparizione delle parti, assegnando il termine per la costituzione del convenuto (artt. 281-undecies, secondo comma, e 318, secondo comma, c.p.c.), per ivi sentire accogliere le seguenti
 CONCLUSIONI
 A - Dichiarare che il ricorrente ha diritto a .......................
 B - Condannare il convenuto/a a .......................
@@ -118,3 +119,4 @@ Avv. .......................
 
 ## Aggiornamenti
 - 2026-07-04 — importato nel catalogo (testo 2026-02); normativa agganciata al changelog verificato; giurisprudenza da popolare (on-demand/Sentinella).
+- 2026-11-01 — avvertimento al convenuto riscritto sul contenuto dell'art. 281-undecies, co. 1, c.p.c. (testo in vigore dal 26/11/2024), applicabile davanti al giudice di pace per l'art. 316, co. 1: la costituzione oltre i termini del co. 2 (non oltre dieci giorni prima dell'udienza, termine assegnato con il decreto) implica le decadenze dei co. 3 e 4; tolto il richiamo alla «mancata comparizione» valutabile ex art. 116 c.p.c., che non e' l'avvertimento di legge. Difesa tecnica con le parole dell'art. 318, co. 2 (obbligatoria oltre 1.100 euro, salvo art. 86) e patrocinio a spese dello Stato; il ricorso chiede il decreto di fissazione dell'art. 318, co. 2. Testi letti con norma.py alla versione vigente; requisito 281undecies-decadenze di requisiti-per-tipo.json (v0.50) soddisfatto.

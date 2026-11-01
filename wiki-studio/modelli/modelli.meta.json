@@ -96,21 +96,19 @@
         "cartabia_processo_civile",
         "parametri_forensi"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "alta",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "documento",
       "tipi_requisiti": [],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "Parcella impostata su «diritti e onorari»: le tariffe delle professioni regolamentate sono abrogate dall'art. 9 D.L. 1/2012 e i compensi si liquidano secondo i parametri del D.M. 55/2014 (nel corpus: dm-55-2014). Rifare lo schema sui compensi per fasi.",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "dl-1-2012:9"
-        ]
+        "motivo": "riallineato a mano ai compensi per fasi (artt. 2, co. 2, e 4 d.m. 55/2014; art. 13 l. 247/2012) letti con norma.py il 2026-11-01: tolti «diritti e onorari» e le voci della tariffa abrogata (art. 9 D.L. 1/2012); controllo deterministico verde"
       }
     },
     {
@@ -1234,8 +1232,8 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-09-23",
-      "prossima_verifica": "2027-09-23",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
       "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
@@ -1243,7 +1241,13 @@
       "tipi_requisiti": [
         "ricorso-semplificato"
       ],
-      "norme_allineate_al": "2026-09-23"
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
+        "fonte": "sviluppo",
+        "motivo": "avvertimento riscritto sull'art. 281-undecies, co. 1-4, c.p.c. e sull'art. 318, co. 2, c.p.c. vigenti (letti con norma.py il 2026-11-01): costituzione oltre i termini → decadenze dei co. 3 e 4, al posto della «mancata comparizione» ex art. 116; requisito 281undecies-decadenze (v0.50) e controllo deterministico verdi"
+      }
     },
     {
       "id": "072",
@@ -1401,25 +1405,21 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
         "appello"
       ],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "art. 342 c.p.c. vigente (testo dal 26/11/2024): per ciascun motivo l'appello deve individuare, a pena di inammissibilità, lo specifico capo della decisione impugnato e indicare le censure alla ricostruzione dei fatti e le violazioni di legge; il fac-simile usa ancora «parti della sentenza che si intendono appellare» (formula previgente). Inoltre l'invito a costituirsi richiama gli artt. 166 e 168-bis: in appello valgono l'art. 347, co. 1 (costituzione almeno venti giorni prima dell'udienza) e l'art. 349-bis (componente del collegio designato).",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "cpc:342",
-          "cpc:347",
-          "cpc:349-bis"
-        ]
+        "motivo": "riallineato a mano agli artt. 342, 343, 347 e 349-bis c.p.c. vigenti (letti con norma.py il 2026-11-01): capi della decisione impugnati e motivi per capo, termini liberi di novanta giorni, costituzione venti giorni prima al posto degli artt. 166 e 168-bis; controllo deterministico verde"
       }
     },
     {
@@ -1430,24 +1430,21 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
         "appello"
       ],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "art. 342 c.p.c. vigente (testo dal 26/11/2024): per ciascun motivo l'appello deve individuare, a pena di inammissibilità, lo specifico capo della decisione impugnato e indicare le censure alla ricostruzione dei fatti e le violazioni di legge; il fac-simile usa ancora «parti della sentenza che si intendono appellare» (formula previgente). (appello incidentale: art. 343 c.p.c., nella comparsa di risposta depositata nel termine dell'art. 347).",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "cpc:342",
-          "cpc:343"
-        ]
+        "motivo": "riallineato a mano agli artt. 333, 342, 343 e 347 c.p.c. vigenti (letti con norma.py il 2026-11-01): capi della decisione impugnati e motivi per capo, comparsa nel termine dell'art. 347; controllo deterministico verde"
       }
     },
     {
@@ -1904,24 +1901,22 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
         "ricorso",
         "appello"
       ],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "art. 434, co. 1, c.p.c. vigente: per ciascun motivo il ricorso in appello deve individuare, a pena di inammissibilità, lo specifico capo della decisione impugnato e indicare le censure alla ricostruzione dei fatti e le violazioni di legge; il fac-simile usa ancora «parti della sentenza che si intendono appellare».",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "cpc:434"
-        ]
+        "motivo": "riallineato a mano agli artt. 433, 434 e 435 c.p.c. vigenti (letti con norma.py il 2026-11-01): ricorso alla corte di appello in funzione di giudice del lavoro, capi della decisione impugnati e motivi per capo, termine di deposito; tolti gli estremi di pronunce non verificati; controllo deterministico verde"
       }
     },
     {
@@ -2167,24 +2162,21 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
-        "citazione"
+        "atto-di-parte"
       ],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "L'accertamento dell'obbligo del terzo non si introduce più con citazione: se il terzo non rende la dichiarazione provvede l'art. 548 c.p.c. (non contestazione, assegnazione); se sorgono contestazioni, l'art. 549 c.p.c. (ordinanza del giudice dell'esecuzione su istanza di parte, impugnabile ex art. 617) — testo vigente dal 21/08/2015. Il modello va riscritto come istanza ex art. 549 c.p.c.",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "cpc:548",
-          "cpc:549"
-        ]
+        "motivo": "riscritto a mano come istanza ex art. 549 c.p.c. (artt. 543, 547, 548, 549, 552, 553 e 617 letti con norma.py il 2026-11-01): l'accertamento dell'obbligo del terzo non si introduce piu' con citazione; tipi_requisiti atto-di-parte; controllo deterministico verde"
       }
     },
     {
