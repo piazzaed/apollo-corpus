@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generato_il": "2026-10-28T10:12Z",
- "versione_sentinelle": 1,
+ "generato_il": "2026-11-01T11:11Z",
+ "versione_sentinelle": 2,
  "aree": {
   "dati": {
    "file": {
@@ -665,8 +665,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/101-ricorso-per-la-trasformazione-del-contratto-a-termine.md": {
-     "sha256": "984db18c0be5b6fc935be54a1491beffe00160eec52b38abc174f757b483262b",
-     "byte": 6497,
+     "sha256": "2b1fdc64c33c3a96639e1ce3dddb0ed3cf10760238e6567600461f0576c5f83d",
+     "byte": 8548,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/102-ricorso-docenti-per-il-risarcimento-del-danno-e-il-riconoscimento-dell.md": {
@@ -940,13 +940,13 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/156-accertamento-tecnico-ed-ispezione-giudiziale.md": {
-     "sha256": "c717e8b0dda69eb5fb431a2566181a61e38eb138dd2af48732e12c9042b52c45",
-     "byte": 5225,
+     "sha256": "a0ee8fd0257f180ccfaafd4d7579615632314a2fee8c3d87bd8be7d6862cf492",
+     "byte": 6252,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/157-ricorso-per-atp-con-tentativo-di-conciliazione.md": {
-     "sha256": "20a384d730e89c42edb3a7f04156364c80ec0c319be3a30141c8c1dccdab43ca",
-     "byte": 8185,
+     "sha256": "ebc6ea2455dff34a11e1e0acffd84cf28a3b9932a595c258a39d93b50a7d9aad",
+     "byte": 9447,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/158-procedimento-di-urgenza.md": {
@@ -1040,8 +1040,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/176-ricorso-a-firma-congiunta-per-la-cessazione-degli-effetti-civili-del-m.md": {
-     "sha256": "e37dfba707c8c0b2a7859e30a73a52144a1e6d1d8e91c7e17da997f068545335",
-     "byte": 8188,
+     "sha256": "a94f0489d3dd4885b618e9df2368165e57fa1931b995fbda06c8cdd6b0b8057c",
+     "byte": 9472,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/177-comparsa-di-costituzione-e-risposta-divorzio.md": {
@@ -1200,13 +1200,13 @@
      "proprietario": "seme"
     },
     "wiki-studio/modelli/modelli.meta.json": {
-     "sha256": "ae2b6175eeb893495bf37a6b8acf7e59b2352de0268315d53db0b1d611b3ed47",
-     "byte": 128888,
+     "sha256": "5754efa50d51c00500f8576a1b85ea36e3e809e7b066cf2eef8c999c387a0c16",
+     "byte": 127875,
      "proprietario": "action"
     },
     "wiki-studio/modelli/norme-citate.json": {
-     "sha256": "135e7f460f643c03979d5135e5a4b10ff25bb044208f02f670ffa3ea8bc4556e",
-     "byte": 28690,
+     "sha256": "f61bf8b9feda2cfe8f73395916827ad851f1f5ed01f585a8aa523f368d5aabbe",
+     "byte": 28735,
      "proprietario": "action"
     },
     "wiki-studio/modelli/requisiti-per-tipo.json": {
@@ -1222,25 +1222,21 @@
      "modello:006",
      "modello:080",
      "modello:081",
-     "modello:101",
      "modello:106",
-     "modello:120",
-     "modello:156",
-     "modello:157",
-     "modello:176"
+     "modello:120"
     ]
    }
   },
   "stato": {
    "file": {
     "wiki-studio/sentinelle/modelli-stato.json": {
-     "sha256": "5f71b6d38a7f517c9a8b4421e7e01772f3e63d0092b99d07914c067ab94449ed",
-     "byte": 76807,
+     "sha256": "5a9a816da3e599ddbbb4e7129ffcff40c4318bb585ccfd3391201d965763ee1d",
+     "byte": 75682,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "f0b0b80e48cd3f711a8702cc9203ccca53ee2c26f5efab936cae303f936c8f25",
-     "byte": 945,
+     "sha256": "b5ec446a1b89a9025a276e136fb81a2df48607333b2c3faee888f9450933a643",
+     "byte": 869,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {

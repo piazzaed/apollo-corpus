@@ -49,7 +49,7 @@ CORPUS_FRESCO_GIORNI = 8
 _MESI_IT = ("gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre",
             "novembre", "dicembre")
 _TRIMESTRI = {1: "gennaio-marzo", 4: "aprile-giugno", 7: "luglio-settembre", 10: "ottobre-dicembre"}
-AMMESSI_DOPO_CLAUDE = ()        # nell'area dati Claude non scrive nel repo: consegna solo esiti
+AMMESSI_DOPO_CLAUDE = ()        # nell'area dati Claude non scrive nel repo: consegna solo esiti (dopo_claude rimette il resto)
 
 
 # ----------------------------------------------------------------------------------------------- Gazzetta Ufficiale
@@ -405,14 +405,30 @@ def _numero_it(x: float, decimali: int) -> str:
     return f"{x:.{decimali}f}".replace(".", ",")
 
 
-def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _dt.date, get=None) -> None:
+def _numero(x) -> bool:
+    """Un numero vero (non un booleano, non una stringa): un valore di Claude malformato e' una riga nella issue, non un
+    errore che ferma il controllo dell'area."""
+    return isinstance(x, (int, float)) and not isinstance(x, bool)
+
+
+def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _dt.date = None, get=None) -> None:
+    # v0.50: `oggi` facoltativo come nelle altre aree. Il giro lo chiama senza (sentinelle_giro.fase_dopo_claude): prima era
+    # obbligatorio, il controllo andava in TypeError a ogni giro e i valori FOI e BOT trovati da Claude si buttavano
+    oggi = oggi or sb.oggi()
+    radice = Path(radice)
+    fuori = sb.ripristina_fuori_da(radice, lambda rel: rel in AMMESSI_DOPO_CLAUDE)   # Claude non scrive nel repo
+    if fuori:
+        giro.problema(f"Claude aveva modificato file del repo, rimessi com'erano: {', '.join(fuori[:6])}")
     import tassi
-    path = Path(radice) / REL_TASSI
+    path = radice / REL_TASSI
     tab = tassi.carica(path)
     for e in ((esiti or {}).get("foi") or []) if "foi" in (triage or {}) else []:
         mese, indice = str(e.get("mese") or ""), e.get("indice")
+        if not _numero(indice):
+            giro.problema(f"FOI {mese}: indice non numerico ({str(indice)[:40]})", "dati:foi")
+            continue
         serie = (tab.get("istat_foi") or {}).get("serie") or []
-        prec = next((v["valore"] for v in reversed(serie) if v.get("mese") < mese and v.get("valore") is not None), None)
+        prec = next((v["valore"] for v in reversed(serie) if str(v.get("mese") or "") < mese and v.get("valore") is not None), None)
         prova = dict(e.get("prova") or {})
         try:
             nome_mese = _MESI_IT[int(mese[5:7]) - 1]
@@ -426,10 +442,16 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _d
             giro.problema(f"FOI {mese}: valore {indice} non accettato — " + "; ".join(r["motivi"] or ["fuori dai limiti rispetto al mese precedente"]),
                           "dati:foi")
             continue
-        tassi.aggiungi_foi(mese, float(indice), r["url"], tab=tab, path=path, oggi=oggi)
+        a = tassi.aggiungi_foi(mese, float(indice), r["url"], tab=tab, path=path, oggi=oggi)
+        if a.get("esito") != "AGGIORNATA":
+            giro.problema(f"FOI {mese}: valore {indice} provato ma non scritto ({a.get('motivo') or a.get('esito')})", "dati:foi")
+            continue
         giro.riga(f"FOI {mese}: {indice} (verificato su {r['url']})")
     for e in ((esiti or {}).get("bot12") or []) if "bot12" in (triage or {}) else []:
         asta, rend = str(e.get("asta") or ""), e.get("rendimento")
+        if not _numero(rend):
+            giro.problema(f"BOT 12 mesi {asta}: rendimento non numerico ({str(rend)[:40]})", "dati:bot12")
+            continue
         serie = (tab.setdefault("bot12", {"_meta": {}, "serie": []})).setdefault("serie", [])
         prec = next((v.get("rendimento_medio_ponderato") for v in reversed(serie) if str(v.get("asta")) < asta), None)
         prova = dict(e.get("prova") or {})

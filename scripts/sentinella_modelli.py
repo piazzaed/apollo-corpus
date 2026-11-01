@@ -43,6 +43,8 @@ confronta testo vecchio/nuovo con il passo del modello e propone una correzione;
 
 CLI
   sentinella_modelli.py --giro [--offline] [--senza-motori] [--senza-patch] [--json]
+  sentinella_modelli.py --giro --id 101 --senza-motori --senza-patch   # in piu' la riga «come correzione»: il verdetto
+                                                       # senza marcatura manuale e «testo cambiato» (li chiude --allinea)
   sentinella_modelli.py --se-scaduto [--quiet]         # fallback del router: gira solo se l'ultimo giro ha > 31 gg
   sentinella_modelli.py --solo-delta                   # solo i modelli toccati da righe nuove del changelog-auto
   sentinella_modelli.py --stato                        # una riga
@@ -265,8 +267,8 @@ def classifica(m: dict, meta: dict) -> tuple:
 
 # ============================================================ estrazione delle norme citate
 
-_SUFF = (r"(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|nonies|decies|undecies|duodecies|terdecies|"
-         r"quaterdecies|quinquiesdecies|sexiesdecies|septiesdecies|octiesdecies)")
+import articoli as _ar  # noqa: E402  (v0.43.2: i numerali latini in un posto solo)
+_SUFF = _ar.SUFFISSO
 _TOK = rf"\d+(?:\s*-?\s*{_SUFF}\b)?(?:\.\d+)?"
 _TOKL = rf"{_TOK}(?!\s*°|\d)"
 _RX_ART = re.compile(rf"\b(?:articol[oi]|artt?\.?)\s*(?:n\.\s*)?({_TOKL}(?:\s*(?:,|\be\b|\bed\b)\s*{_TOKL})*)", re.I)
@@ -895,6 +897,20 @@ def motivi_brevi(r: dict, n: int = 3) -> list:
             if i.get("gravita") in (ROSSO, GIALLO)][:n]
 
 
+#: v0.50 — le regole che `allinea` chiude da sola: la marcatura scritta a mano (sviluppo, avvocato) e i «testo cambiato
+#: dopo il modello» (la data di allineamento diventa oggi). Ricontrollando una scheda CORRETTA non contano: prima la
+#: marcatura restava rossa finche' non si allineava, e si allineava solo dopo il verde, sicche' nessuna correzione delle
+#: sentinelle automatiche poteva passare (modelli 101, 156, 157, 176 fermi da settembre). Ogni altra regola resta.
+REGOLE_CHIUSE_DA_ALLINEA = ("sidecar:da-ricontrollare", "norme:modificata", "norme:solo-note")
+
+
+def verdetto_correzione(r: dict) -> tuple:
+    """(verdetto, issue che contano) di un modello ricontrollato dopo una correzione della sua scheda: lo stesso giro,
+    senza le regole che l'allineamento chiude (REGOLE_CHIUSE_DA_ALLINEA)."""
+    restano = [i for i in (r or {}).get("issue") or [] if i.get("regola") not in REGOLE_CHIUSE_DA_ALLINEA]
+    return verdetto(restano), restano
+
+
 # ============================================================ (f) motori
 
 #: Profili dei motori → tipi di requisiti. I profili cambiano con i motori: si deduce dal NOME del profilo.
@@ -1458,6 +1474,18 @@ def _stampa_sintesi(res: dict) -> None:
         print(f"  report: {res['report']['md']}")
 
 
+def _stampa_come_correzione(res: dict) -> None:
+    """v0.50 — con --id: il verdetto che da' il controllo delle sentinelle a una scheda corretta (senza la marcatura
+    manuale e i «testo cambiato», che l'allineamento chiude). E' quello che decide se la correzione passa."""
+    for x in res.get("modelli") or []:
+        v, restano = verdetto_correzione(x)
+        chiuse = sorted({i["regola"] for i in x.get("issue") or [] if i.get("regola") in REGOLE_CHIUSE_DA_ALLINEA
+                         and i.get("gravita") in (ROSSO, GIALLO)})
+        coda = f" — {'; '.join(motivi_brevi({'issue': restano}, 3))[:300]}" if v != "VERDE" else (
+            f" (non contano, le chiude l'allineamento: {', '.join(chiuse)})" if chiuse else "")
+        print(f"  come correzione {x['id']}: {ICONA.get(v, v)} {v}{coda}")
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Sentinella dei modelli d'atto (controllo mensile deterministico del catalogo).")
     g = ap.add_mutually_exclusive_group(required=True)
@@ -1530,6 +1558,8 @@ def main(argv=None) -> int:
         print(json.dumps(res, ensure_ascii=False, indent=1))
     elif not a.quiet:
         _stampa_sintesi(res)
+        if a.id:
+            _stampa_come_correzione(res)
     return 0
 
 

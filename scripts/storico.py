@@ -12,15 +12,21 @@ e fino alla Fase 3 si andava su normattiva live a ogni round: misurato sulla pra
 Un testo storico NON cambia: l'art. 5 D.Lgs. 28/2010 in vigore il 30/06/2015 e' quello per sempre.
 Quindi si scarica UNA volta il permalink datato di normattiva
     https://www.normattiva.it/uri-res/N2Ls?<urn>~art<N>!vig=AAAA-MM-GG
-e lo si salva in `<stato_root>/fonti-cache/storico/<slug>/<art>/<data-versione>.md`, senza scadenza.
+e lo si salva in `<stato_root>/fonti-cache/storico/<slug>/<art>/<data>.md`, senza scadenza.
 
-LA CHIAVE E' LA VERSIONE, NON LA DATA
--------------------------------------
-L'indice locale porta (dalla Fase 4) `_meta.versioni`: le date in cui l'atto e' cambiato (lifecycle
-dell'AKN: originale + ogni atto modificante). Dentro una versione il testo di un articolo e' uno:
-tutte le date fra il 21/06/2013 e il 28/12/2022 dell'art. 5 D.Lgs. 28/2010 servono lo stesso file
-`2013-06-21.md`. Confini a livello di ATTO, prudenti per costruzione (un articolo non toccato ha lo
-stesso testo prima e dopo). Per gli atti FUORI corpus la chiave e' la data richiesta, dichiarata.
+LA CHIAVE E' LA DATA; LA ESTENDE SOLO UN INTERVALLO VERIFICATO DELL'ARTICOLO (v0.37)
+-----------------------------------------------------------------------------------
+Fino alla v0.36 la chiave era la versione dell'ATTO (`_meta.versioni`, dal lifecycle dell'AKN): ogni
+data dentro una versione serviva lo stesso file. Misurato sullo storico del corpus (ottobre 2026), non
+regge sempre: le date del lifecycle non coincidono sempre con quelle in cui l'articolo cambia (artt.
+336, 337-ter e 376 c.c.: versione dell'atto dal 29/12/2022, articolo dal 01/01/2023), e per quei
+giorni il file della versione dell'atto e' il testo sbagliato. Ora un testo vale:
+  * per la data in cui e' stato scaricato (permalink `!vig=` di quella data);
+  * per le altre date solo dentro l'intervallo VERIFICATO dell'articolo (`articolo_dal`/`articolo_al`):
+    date dell'API normattiva col testo confrontato, o lo stesso testo a due date (storico_corpus.py,
+    costruito dal Mac per il corpus pubblico).
+Una data diversa senza intervallo verificato si riscarica (una richiesta); offline, NON_DISPONIBILE.
+La versione dell'atto resta dichiarata («versione dell'atto dal … al …»), ma non estende il testo.
 
 QUANDO NON RISPONDE (e lo dice)
 -------------------------------
@@ -118,7 +124,45 @@ def _leggi_file(f: Path):
         return None
     corpo = raw[m.end():]
     corpo = re.sub(r"^(?:<!--.*?-->\s*)+", "", corpo, flags=re.S)   # eventuali commenti di servizio
-    return header, corpo.strip()
+    return header, ff.taglia_preambolo(ff.taglia_coda_pagina(corpo.strip()))   # file salvati prima della v0.37 / v0.45
+
+
+_RX_NON_ESISTE = re.compile(r"NON ANCORA ESISTENTE O VIGENTE", re.I)
+
+
+def _non_esisteva_ancora(slug: str, art_token: str, data_iso: str, cartella: Path):
+    """{vig, url, file} del testo «NON ANCORA ESISTENTE O VIGENTE» dell'articolo a una data POSTERIORE a `data_iso` (cache del
+    giro o archivio del corpus), o None."""
+    trovati = []
+    if cartella.is_dir():
+        for f in cartella.glob("*.md"):
+            letto = _leggi_file(f)
+            if letto and _RX_NON_ESISTE.search(letto[1][:300]) and str(letto[0].get("vig_richiesta") or "") > data_iso:
+                trovati.append({"vig": letto[0]["vig_richiesta"], "url": letto[0].get("url"), "file": str(f), "scaricato_il": letto[0].get("scaricato_il")})
+    try:
+        import storico_corpus as _sc
+        for (art, _v), x in _sc._archivio(slug).items():
+            if art != art_token or not x.get("file") or str(x.get("vig") or "") <= data_iso:
+                continue
+            m = re.match(r"<!-- storico (\{.*?\}) -->\n", x["file"], re.S)
+            corpo = x["file"][m.end():] if m else x["file"]
+            corpo = re.sub(r"^(?:<!--.*?-->\s*)+", "", corpo.strip(), flags=re.S)
+            if _RX_NON_ESISTE.search(corpo[:300]):
+                h = json.loads(m.group(1)) if m else {}
+                trovati.append({"vig": x["vig"], "url": h.get("url"), "file": None, "scaricato_il": h.get("scaricato_il")})
+    except Exception:  # noqa: BLE001
+        pass
+    return min(trovati, key=lambda t: t["vig"]) if trovati else None
+
+
+def grezzo_pulito(raw: str) -> str:
+    """Il file della cache com'e', ma col corpo senza la coda della pagina web (file salvati prima della v0.37)."""
+    m = re.match(r"<!-- storico \{.*?\} -->\n(?:<!--.*?-->\s*)*", raw, re.S)
+    if not m:
+        return raw
+    corpo = raw[m.end():].strip()
+    pulito = ff.taglia_preambolo(ff.taglia_coda_pagina(corpo))
+    return raw if pulito == corpo else raw[:m.end()] + pulito + "\n"
 
 
 def _scrivi_file(f: Path, header: dict, testo: str) -> None:
@@ -127,6 +171,27 @@ def _scrivi_file(f: Path, header: dict, testo: str) -> None:
                  "<!-- Testo storico normattiva (scripts/storico.py): permalink URN datato, salvato una volta, senza\n"
                  "     scadenza (un testo storico non cambia). File di DATI: non si modifica a mano. -->\n\n" + testo + "\n",
                  encoding="utf-8")
+
+
+def _copre(header: dict, data_iso: str) -> bool:
+    """Il testo del file vale a `data_iso`? Per la data in cui e' stato scaricato, o dentro l'intervallo VERIFICATO
+    dell'articolo (articolo_dal/articolo_al: API normattiva col testo confrontato, o due date con lo stesso testo)."""
+    if header.get("vig_richiesta") == data_iso:
+        return True
+    dal, al = header.get("articolo_dal"), header.get("articolo_al")
+    return bool(dal and al and dal <= data_iso <= al)
+
+
+def _in_cache(cartella: Path, data_iso: str):
+    """(file, header, testo) del testo in cache che vale a `data_iso` (prima quello scaricato a quella data), o None."""
+    if not cartella.is_dir():
+        return None
+    trovati = []
+    for f in sorted(cartella.glob("*.md")):
+        letto = _leggi_file(f)
+        if letto and _copre(letto[0], data_iso):
+            trovati.append((letto[0].get("vig_richiesta") != data_iso, f, letto[0], letto[1]))
+    return min(trovati, key=lambda x: x[0])[1:] if trovati else None
 
 
 # ---------------------------------------------------------------- cuore
@@ -172,27 +237,67 @@ def recupera(riferimento: str, data: str, *, offline: bool = False, slug: str = 
             return _no(f"data {data_iso} posteriore al consolidato dello snapshot ({consolidato}): i confini di versione "
                        "potrebbero non essere aggiornati — vale il corpus locale o il live")
     if versione:
-        chiave = versione["inizio"]
-        versione_txt = f"versione dal {versione['inizio']} al {versione['fine'] or 'vigente'}" + (
+        versione_txt = f"versione dell'atto dal {versione['inizio']} al {versione['fine'] or 'vigente'}" + (
             f" (mod. {versione['atto_modificante']})" if versione.get("atto_modificante") else " (testo originario)")
         versione_da, versione_a = versione["inizio"], versione["fine"]
     else:
-        chiave = data_iso
         versione_txt = f"data richiesta {data_iso} (atto fuori corpus o senza versioni nell'indice: confini di versione ignoti)"
         versione_da, versione_a = None, None
     cartella = dir_storico() / (slug or _slug_fuori_corpus(urn_base)) / art_token
-    f = cartella / f"{chiave}.md"
+    f = cartella / f"{data_iso}.md"         # v0.37: un file per data scaricata (vedi «LA CHIAVE E' LA DATA»)
 
-    letto = _leggi_file(f) if f.exists() else None
+    letto = _in_cache(cartella, data_iso)
+    if not letto and slug:
+        # v0.37: lo storico del corpus pubblico (archivi per atto portati da corpus_sync), prima della rete — solo il
+        # testo scaricato a quella data o quello il cui intervallo verificato dell'articolo la copre
+        try:
+            import storico_corpus as _sc
+            trovato = _sc.voce_alla_data(slug, art_token, data_iso)
+            grezzo = None
+            if trovato:
+                grezzo, dal_a, al_a, metodo = trovato
+                if dal_a:
+                    m_h = re.match(r"<!-- storico (\{.*?\}) -->\n", grezzo, re.S)
+                    if m_h:
+                        h = json.loads(m_h.group(1))
+                        verifica = "date dell'API normattiva, testo confrontato" if metodo == "api" else \
+                            "stesso testo all'inizio della versione dell'atto e alla fine dell'intervallo"
+                        h.update({"versione": f"versione dell'articolo dal {dal_a} al {al_a} (verificata: {verifica}; "
+                                              "corpus pubblico)", "articolo_dal": dal_a, "articolo_al": al_a})
+                        grezzo = "<!-- storico " + json.dumps(h, ensure_ascii=False) + " -->\n" + grezzo[m_h.end():]
+                    else:
+                        grezzo = None
+            if grezzo:
+                f.parent.mkdir(parents=True, exist_ok=True)
+                f.write_text(grezzo, encoding="utf-8")
+                letto = _in_cache(cartella, data_iso)
+        except Exception:  # noqa: BLE001  (l'archivio e' un di piu': mai un errore della lettura)
+            letto = None
+    if not letto and slug:
+        # v0.45: l'articolo che normattiva dava «NON ANCORA ESISTENTE O VIGENTE» il giorno prima della sua introduzione
+        # non esisteva nemmeno prima (un articolo tolto si legge «ABROGATO», non «non ancora esistente»): a una data
+        # anteriore si dice che non c'era, invece di «testo non in cache» (catalogo 231: 25-undevicies al 2023)
+        nato = _non_esisteva_ancora(slug, art_token, data_iso, cartella)
+        if nato:
+            return {"verdetto": "OK", "da_storico": True, "da_cache": True, "riferimento": riferimento, "descrizione": descr,
+                    "codice_locale": slug, "url": nato["url"], "vig": data_iso, "versione": f"articolo non ancora esistente al {nato['vig']} "
+                    "(storico) e quindi alla data", "versione_da": None, "versione_a": None, "articolo_dal": None, "articolo_al": None,
+                    "atto_titolo": None, "fetched_at": nato.get("scaricato_il"), "atto_validato": True,
+                    "testo": f"NON ANCORA ESISTENTE O VIGENTE alla data {data_iso}: normattiva lo dava non ancora esistente al {nato['vig']}, "
+                             "giorno precedente all'introduzione (dedotto dallo storico del corpus)",
+                    "file": nato.get("file"), "fonte": f"storico del corpus: «NON ANCORA ESISTENTE O VIGENTE» al {nato['vig']}"}
     if letto:
-        header, testo = letto
+        f, header, testo = letto
+        verificata = bool(header.get("articolo_dal") and header.get("articolo_al"))
+        versione_out = (header.get("versione") if verificata else None) or versione_txt
         return {"verdetto": "OK", "da_storico": True, "da_cache": True, "riferimento": riferimento,
                 "descrizione": descr, "codice_locale": slug, "url": header.get("url"), "vig": data_iso,
-                "versione": header.get("versione") or versione_txt, "versione_da": header.get("versione_da", versione_da),
-                "versione_a": header.get("versione_a", versione_a), "atto_titolo": header.get("atto_titolo"),
+                "versione": versione_out, "versione_da": versione_da, "versione_a": versione_a,
+                "articolo_dal": header.get("articolo_dal") if verificata else None,
+                "articolo_al": header.get("articolo_al") if verificata else None, "atto_titolo": header.get("atto_titolo"),
                 "fetched_at": header.get("scaricato_il"), "atto_validato": True, "testo": testo, "file": str(f),
-                "fonte": (f"testo storico normattiva (permalink URN datato, scaricato il {str(header.get('scaricato_il', ''))[:10]}, "
-                          f"cache permanente) — {header.get('versione') or versione_txt}")}
+                "fonte": (f"testo storico normattiva (permalink URN datato al {header.get('vig_richiesta') or data_iso}, "
+                          f"scaricato il {str(header.get('scaricato_il', ''))[:10]}, cache permanente) — {versione_out}")}
     if offline:
         return _no(f"testo storico non in cache ({f.name} per {slug or descr} art. {art_token}) e modalita' offline")
 
@@ -222,6 +327,7 @@ def recupera(riferimento: str, data: str, *, offline: bool = False, slug: str = 
         return {"verdetto": "OK", "da_storico": True, "da_cache": False, "riferimento": riferimento,
                 "descrizione": descr, "codice_locale": slug, "url": url, "vig": data_iso,
                 "versione": versione_txt, "versione_da": versione_da, "versione_a": versione_a,
+                "articolo_dal": None, "articolo_al": None,
                 "atto_titolo": header["atto_titolo"], "fetched_at": adesso, "atto_validato": True,
                 "testo": testo, "file": str(f),
                 "fonte": f"testo storico normattiva (permalink URN datato, scaricato ora, cache permanente) — {versione_txt}"}

@@ -14,7 +14,8 @@ Fa ogni settimana, nel repo pubblico del corpus, il giro che prima faceva l'atti
   3. Controllo meccanico (`sentinelle_prove.verifica_prova`): si applica solo cio' che ha almeno una prova verificata.
      CONFERMATO → la voce diventa «da ricontrollare» (a runtime: SOSPETTO, il testo si rilegge alla data) con
      `modificata_da`, una voce nuova in coda a `changelog-riforme.md` e una voce di debito; INVARIATO → verifica
-     rinnovata; il resto → nessuna modifica, una riga nella issue.
+     rinnovata; il resto → nessuna modifica, una riga nella issue. Una novità della watchlist provata va in coda al
+     changelog ed e' un AVVISO del rapporto (v0.50): da sola non apre la issue.
   4. Il drift-report del giro lo scrive lo script, solo con esiti verificati.
 
 Solo stdlib, Python 3.9.
@@ -373,7 +374,10 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _d
         if ok:
             changelog.append(_voce_changelog(oggi, e.get("estremi") or "", e.get("sintesi") or e.get("titolo") or "", buone[0]["url"]))
             drift["watchlist"].append((e.get("estremi") or e.get("titolo") or "", e.get("sintesi") or "", buone[0]["url"]))
-            giro.problema(f"novità confermata: {e.get('estremi') or e.get('titolo') or ''} — {str(e.get('sintesi') or '')[:200]}")
+            # v0.50: una novità provata e' una notizia gia' registrata (changelog delle riforme, drift-report), non un
+            # problema: un avviso nel rapporto. Prima ogni giro apriva una issue per la stessa voce della watchlist
+            giro.avviso(f"novità confermata e registrata nel changelog delle riforme: {e.get('estremi') or e.get('titolo') or ''} — "
+                        f"{str(e.get('sintesi') or '')[:200]}")
         else:
             giro.problema(f"novità segnalata ma non provata: {str(e.get('estremi') or e.get('titolo') or '')[:120]} ({'; '.join(motivi)[:200]})")
     if changelog:

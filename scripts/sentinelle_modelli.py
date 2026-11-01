@@ -8,13 +8,15 @@ Fa nel repo pubblico del corpus il giro mensile che in Cowork non partiva mai, e
      sta nel repo (`wiki-studio/sentinelle/modelli-stato.json`); le marcature «da ricontrollare» si consolidano in
      `wiki-studio/modelli/modelli.meta.json`; `norme-citate.json` si riesporta.
   2. Claude corregge SOLO i modelli rossi nuovi e quelli che citano norme con testo cambiato (al massimo MAX_MODELLI per
-     giro), modificando la scheda del modello; consegna gli esiti.
+     giro), modificando la scheda del modello; consegna gli esiti. Gli altri rossi restano nella issue dell'area (v0.50).
   3. Controllo meccanico per ogni scheda toccata:
      * cambiano solo le sezioni «Testo del modello», «Normativa» e «Aggiornamenti» (frontmatter e resto identici);
      * nessun nome vietato e nessun dato personale nuovo; nessun estremo di pronuncia aggiunto;
-     * `giro(solo_ids=[id])` della scheda corretta da' VERDE.
-     Se passa: `allinea(...)` (verifica del modello rinnovata). Se no: la scheda torna com'era, resta «da ricontrollare»,
-     riga nella issue.
+     * cambia il testo del modello o la normativa (una riga in «Aggiornamenti» da sola non e' una correzione);
+     * `giro(solo_ids=[id])` della scheda corretta da' VERDE senza le regole che l'allineamento chiude (marcatura
+       manuale, «testo cambiato dopo il modello»: v0.50, prima nessuna correzione poteva tornare verde).
+     Se passa: `allinea(...)` con motivo «corretto dalla sentinella: …» (verifica del modello rinnovata). Se no: la
+     scheda torna com'era, resta «da ricontrollare», riga nella issue.
 
 Solo stdlib, Python 3.9.
 """
@@ -114,9 +116,16 @@ def deterministico(radice: Path, giro: sb.Giro, oggi: _dt.date = None, fonte=Non
                            "problemi": [{"regola": i.get("regola"), "messaggio": i.get("messaggio"), "correzione": i.get("correzione")}
                                         for i in r.get("issue") or [] if i.get("gravita") == sm.ROSSO][:8],
                            "motivi": motivi})
+    a_claude = {s["id"] for s in scelti[:MAX_MODELLI]}
     for r in res.get("modelli") or []:
         if r.get("verdetto") == "ROSSO":
             giro.da_ricontrollare.append(f"modello:{r['id']}")
+            # v0.50: un rosso fuori dal triage (gia' visto, marcatura manuale, o oltre il tetto) resta nella issue
+            # dell'area, che cosi' si chiude solo quando i modelli rossi sono corretti o allineati
+            if str(r["id"]) not in a_claude:
+                giro.problema(f"modello {r['id']} ({r.get('titolo')}): rosso, fuori dal triage di questo giro (si chiude "
+                              "con una correzione o con --allinea) — " + "; ".join(sm.motivi_brevi(r, 3))[:300],
+                              f"modello:{r['id']}")
     if len(scelti) > MAX_MODELLI:
         giro.riga(f"{len(scelti) - MAX_MODELLI} modelli rossi rinviati al prossimo giro (tetto di {MAX_MODELLI} per giro)")
     return {"oggi": oggi.isoformat(), "modelli": scelti[:MAX_MODELLI]} if scelti else {}
@@ -166,6 +175,15 @@ def controlla_scheda(vecchio: str, nuovo: str) -> list:
     return motivi
 
 
+def contenuto_cambiato(vecchio: str, nuovo: str) -> bool:
+    """True se la correzione tocca il testo del modello o la normativa: una riga in «Aggiornamenti» da sola non e' una
+    correzione, e non basta per allineare il modello (v0.50: il ricontrollo ignora le regole che l'allineamento chiude)."""
+    _fv, sez_v, _ = sezioni(vecchio)
+    _fn, sez_n, _ = sezioni(nuovo)
+    return any(sez_v.get(k, "").strip() != sez_n.get(k, "").strip() for k in set(sez_v) | set(sez_n)
+               if k.startswith(("testo del modello", "normativa")))
+
+
 def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _dt.date = None, fonte=None) -> dict:
     sm = _sm()
     oggi = oggi or sb.oggi()
@@ -187,18 +205,22 @@ def dopo_claude(radice: Path, triage: dict, esiti: dict, giro: sb.Giro, oggi: _d
         vecchio = sb.git(radice, "show", f"HEAD:{rel}").stdout
         nuovo = (radice / rel).read_text(encoding="utf-8")
         motivi = controlla_scheda(vecchio, nuovo)
+        if not motivi and not contenuto_cambiato(vecchio, nuovo):
+            motivi.append("nessuna correzione nel testo del modello o nella normativa (cambiata solo «Aggiornamenti»)")
         if not motivi:
             r = sm.giro(oggi=oggi, fonte=fonte, solo_ids=[ident], motori=False, patch=False, scrivi=False)
-            verdetto = ((r.get("modelli") or [{}])[0]).get("verdetto")
+            # v0.50: la scheda corretta si giudica senza le regole che l'allineamento chiude (marcatura manuale, «testo
+            # cambiato dopo il modello»): ogni altro controllo resta, e deve dare VERDE
+            verdetto, restano = sm.verdetto_correzione((r.get("modelli") or [{}])[0])
             if verdetto != "VERDE":
-                motivi.append(f"dopo la correzione il controllo dà {verdetto}: " + "; ".join(sm.motivi_brevi((r.get("modelli") or [{}])[0])))
+                motivi.append(f"dopo la correzione il controllo dà {verdetto}: " + "; ".join(sm.motivi_brevi({"issue": restano})))
         if motivi:
             sb.git(radice, "checkout", "--", rel)
             out["respinti"].append(ident)
             giro.problema(f"modello {ident}: correzione respinta — " + "; ".join(motivi)[:400], f"modello:{ident}")
             continue
         sintesi = str(((esiti or {}).get("modelli") or {}).get(ident, {}).get("sintesi") or "correzione delle sentinelle automatiche")
-        sm.allinea(ident, sintesi[:300], fonte_nome="sentinella-action", oggi=oggi)
+        sm.allinea(ident, f"corretto dalla sentinella: {sintesi}"[:300], fonte_nome="sentinella-action", oggi=oggi)
         out["corretti"].append(ident)
         giro.riga(f"modello {ident} corretto e riverificato: {sintesi[:160]}")
     # giro finale: stato, marcature e norme citate allineati alle schede corrette

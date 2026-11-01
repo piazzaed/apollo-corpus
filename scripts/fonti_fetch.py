@@ -133,13 +133,18 @@ CODICI = {
     "c.p.":    ("urn:nir:stato:regio.decreto:1930-10-19;1398", [":1"]),
     "c.p.p.":  ("urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447", [":1"]),
     "cost.":   ("urn:nir:stato:costituzione:1947-12-27", []),
+    # v0.48: il codice del processo amministrativo e' l'allegato 1 del d.lgs. 104/2010 — su normattiva «:2» (verificato il
+    # 28/10/2026 sugli artt. 1, 4, 31, 116, 117, 133; «:3» sono le norme di attuazione). Prima «art. 116 c.p.a.» non si leggeva
+    # e l'estrazione lo troncava in «art. 116 c.p.»: il Livello 0 verificava il codice PENALE
+    "c.p.a.":  ("urn:nir:stato:decreto.legislativo:2010-07-02;104", [":2"]),
     "cciv":    ("urn:nir:stato:regio.decreto:1942-03-16;262", [":2"]),
 }
 ALIAS_CODICI = {
     "cpc": "c.p.c.", "c.p.c": "c.p.c.", "codice di procedura civile": "c.p.c.",
     "cc": "c.c.", "c.c": "c.c.", "cod. civ.": "c.c.", "codice civile": "c.c.",
     "cp": "c.p.", "c.p": "c.p.", "codice penale": "c.p.", "cod. pen.": "c.p.",
-    "cpp": "c.p.p.", "c.p.p": "c.p.p.", "codice di procedura penale": "c.p.p.",
+    "cpp": "c.p.p.", "c.p.p": "c.p.p.", "codice di procedura penale": "c.p.p.", "cod. proc. pen.": "c.p.p.",
+    "cpa": "c.p.a.", "c.p.a": "c.p.a.", "codice del processo amministrativo": "c.p.a.", "cod. proc. amm.": "c.p.a.",
     "cost": "cost.", "costituzione": "cost.",
     "disp att cpc": "disp. att. c.p.c.", "disp. att. cpc": "disp. att. c.p.c.",
     "disp att cc": "disp. att. c.c.", "disp. att. cod. civ.": "disp. att. c.c.",
@@ -191,6 +196,7 @@ SIGLE_ATTI = {
     "ccii": ("decreto.legislativo", "14", "2019"), "c.c.i.i.": ("decreto.legislativo", "14", "2019"),
     "codice della crisi": ("decreto.legislativo", "14", "2019"),
     "cds": ("decreto.legislativo", "285", "1992"), "codice della strada": ("decreto.legislativo", "285", "1992"),
+    "c.d.s.": ("decreto.legislativo", "285", "1992"),
     "cap": ("decreto.legislativo", "209", "2005"), "codice delle assicurazioni": ("decreto.legislativo", "209", "2005"),
     "tuir": ("decreto.del.presidente.della.repubblica", "917", "1986"),
     "tusg": ("decreto.del.presidente.della.repubblica", "115", "2002"),
@@ -202,6 +208,9 @@ SIGLE_ATTI = {
     "codice antimafia": ("decreto.legislativo", "159", "2011"),
     "codice privacy": ("decreto.legislativo", "196", "2003"),
     "cad": ("decreto.legislativo", "82", "2005"),
+    # v0.48: «c.p.i.» non e' il codice penale (l'estrazione lo troncava in «c.p.»)
+    "c.p.i.": ("decreto.legislativo", "30", "2005"), "codice della proprietà industriale": ("decreto.legislativo", "30", "2005"),
+    "codice della proprieta' industriale": ("decreto.legislativo", "30", "2005"),
     # v0.29 — atti entrati nel corpus locale, con i nomi con cui si citano davvero
     "codice della privacy": ("decreto.legislativo", "196", "2003"), "cod. privacy": ("decreto.legislativo", "196", "2003"),
     "codice dell'amministrazione digitale": ("decreto.legislativo", "82", "2005"),
@@ -211,6 +220,12 @@ SIGLE_ATTI = {
     "testo unico edilizia": ("decreto.del.presidente.della.repubblica", "380", "2001"),
     "testo unico dell'edilizia": ("decreto.del.presidente.della.repubblica", "380", "2001"),
     "legge gelli": ("legge", "24", "2017"), "legge gelli-bianco": ("legge", "24", "2017"),
+    # v0.37 — atti citati nelle pratiche dell'ottobre 2026 che il parser non riconosceva per nome
+    "tulps": ("regio.decreto", "773", "1931"), "t.u.l.p.s.": ("regio.decreto", "773", "1931"),
+    "t.u.p.s.": ("regio.decreto", "773", "1931"), "testo unico delle leggi di pubblica sicurezza": ("regio.decreto", "773", "1931"),
+    "t.u. leggi di pubblica sicurezza": ("regio.decreto", "773", "1931"),
+    "legge sulla stampa": ("legge", "47", "1948"), "legge stampa": ("legge", "47", "1948"),
+    "legge sull'intelligenza artificiale": ("legge", "132", "2025"),
     "legge sul divorzio": ("legge", "898", "1970"), "l. div.": ("legge", "898", "1970"),
     "legge cirinnà": ("legge", "76", "2016"), "legge cirinna": ("legge", "76", "2016"),
     "legge professionale forense": ("legge", "247", "2012"), "ordinamento forense": ("legge", "247", "2012"),
@@ -250,6 +265,8 @@ SIGLE_ATTI = {
 #: Voce -> (data completa, varianti allegato da tentare in fallback). Debito sentinella #19.
 DATE_TESTI_UNICI = {
     ("decreto.legislativo", "346", "1990"): ("1990-10-31", [":1"]),  # T.U. successioni e donazioni
+    ("regio.decreto", "773", "1931"): ("1931-06-18", []),           # v0.37: TULPS (T.U. delle leggi di pubblica sicurezza)
+    ("decreto.legislativo", "104", "2010"): ("2010-07-02", [":2"]),  # v0.48: «art. 116 d.lgs. 104/2010, all. 1» = c.p.a.
 }
 
 _MESI = {"gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6, "luglio": 7,
@@ -279,10 +296,14 @@ def _art_token(art: str) -> str:
     return "art" + a
 
 
+#: v0.37: un numerale latino d'articolo, qualunque sia: le parole in «-ies» (quinquies … duodevicies, undevicies, vicies),
+#: le forme in due pezzi («sex-decies») e bis, ter, quater, semel. Prima l'elenco finiva a «noviesdecies» e un
+#: suffisso fuori elenco CADEVA: «art. 518-duodevicies c.p.» diventava l'art. 518, un'altra norma.
+SUFFISSO_LATINO = (r"(?:bis|ter|quater|semel|"
+                   r"(?:un|duo|tre|quattuor|quin|sex|sept|septem|octo|novem|duode|unde)[\s-]?(?:decies|vicies)|"
+                   r"[a-z]*ies)")
 _RX_ART = re.compile(
-    r"artt?\.?\s*([0-9]+(?:\.[0-9]+(?![0-9]))?(?:[\s-]*(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|nonies|"
-    r"decies|undecies|duodecies|terdecies|quaterdecies|quinquiesdecies|sexiesdecies|"
-    r"septiesdecies|octiesdecies|noviesdecies|vicies|semel)\b)*(?:\.[0-9]+(?![0-9]))?)")
+    r"artt?\.?\s*([0-9]+(?:\.[0-9]+(?![0-9]))?(?:[\s-]*" + SUFFISSO_LATINO + r"\b)*(?:\.[0-9]+(?![0-9]))?)")
 # v0.29: «art. 132.1 CAP», «art. 4-quinquies.1 TUF», «art. 69.1 TUB» — articoli col punto, che il
 # corpus ora porta. Prima la regex si fermava a «132» e si leggeva l'articolo SBAGLIATO.
 
@@ -404,7 +425,7 @@ def parse_riferimenti_multipli(rif: str) -> list:
         arts.append((m.start(), m.end(), _art_norm(m.group(1))))
         # «artt. 2033 e 2946»: i numeri che seguono senza «art.» appartengono allo stesso atto
         coda = low[m.end():]
-        for mm in re.finditer(r"^(?:\s*(?:,|e|ed)\s*)([0-9]+(?:\.[0-9]+(?![0-9]))?(?:[\s-]*(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|nonies|decies|undecies|duodecies)\b)*)", coda):
+        for mm in re.finditer(r"^(?:\s*(?:,|e|ed)\s*)([0-9]+(?:\.[0-9]+(?![0-9]))?(?:[\s-]*" + SUFFISSO_LATINO + r"\b)*)", coda):
             arts.append((m.end() + mm.start(1), m.end() + mm.end(1), _art_norm(mm.group(1))))
             coda = coda[mm.end():]
             break
@@ -431,25 +452,43 @@ def costruisci_url(urn_base: str, suffisso_allegato: str, art, vig) -> str:
 
 # ---------------------------------------------------------------- estrazione
 
+# elementi senza tag di chiusura: non aprono un livello (prima della v0.37 ogni <br> del testo lo apriva, il blocco non
+# si chiudeva mai e nel testo finivano navigazione, «Approfondimenti», piè di pagina e script della pagina)
+_VUOTI = frozenset({"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source",
+                    "track", "wbr"})
+
+
 class _Testo(HTMLParser):
     """Estrae il testo dei blocchi 'bodyTesto' (corpo dell'articolo su normattiva)."""
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self._dentro = 0
+        self._codice = 0
         self._buf = []
 
     def handle_starttag(self, tag, attrs):
+        if tag in _VUOTI:
+            return
         klass = dict(attrs).get("class", "") or ""
         if self._dentro or "bodytesto" in klass.lower().replace(" ", ""):
             self._dentro += 1
+            if tag in ("script", "style"):
+                self._codice += 1
+
+    def handle_startendtag(self, tag, attrs):
+        pass                                        # <br/>, <img …/>: nessun livello
 
     def handle_endtag(self, tag):
+        if tag in _VUOTI:
+            return
         if self._dentro:
             self._dentro -= 1
+            if tag in ("script", "style") and self._codice:
+                self._codice -= 1
 
     def handle_data(self, data):
-        if self._dentro:
+        if self._dentro and not self._codice:
             self._buf.append(data)
 
     def testo(self) -> str:
@@ -463,13 +502,46 @@ def _strip_all(html: str) -> str:
     return " ".join(txt.split())
 
 
+_NAVIGAZIONE = ("articolo precedente", "articolo successivo")
+
+
+def taglia_coda_pagina(testo: str) -> str:
+    """Il testo dell'articolo senza la parte della pagina web che lo segue su normattiva: si taglia alla prima riga
+    di navigazione («articolo precedente», «articolo successivo») o a «nascondi» seguito da «Approfondimenti».
+    Le note «AGGIORNAMENTO» stanno prima e restano. Serve anche per i testi salvati prima della v0.37."""
+    if not testo or not ("articolo precedente" in testo or "articolo successivo" in testo or "Approfondimenti" in testo):
+        return testo
+    righe = testo.split("\n")
+    for i, r in enumerate(righe):
+        r = r.strip()
+        if r in _NAVIGAZIONE or (r == "nascondi" and i + 1 < len(righe) and righe[i + 1].strip() == "Approfondimenti"):
+            return "\n".join(righe[:i]).rstrip()
+    return testo
+
+
+_RX_PREAMBOLO = re.compile(r"IL PRESIDENTE DELLA REPUBBLICA|^\s*(?:Visti?|Vista|Udito|Sulla proposta|E M A N A|EMANA|Promulga)\b", re.M)
+_RX_ARTICOLO_1 = re.compile(r"^\s*(?:Art\.|Articolo)\s*1(?![\d.\w-])\.?\s*$", re.M)
+
+
+def taglia_preambolo(testo: str) -> str:
+    """v0.45: la pagina di normattiva dell'art. 1 porta prima il preambolo dell'atto («IL PRESIDENTE DELLA REPUBBLICA /
+    Visti gli articoli 76 e 87…»): 20 testi storici su 4144 lo avevano attaccato. Un virgolettato del preambolo
+    risultava «nell'art. 1». Si taglia alla riga dell'intestazione «Art. 1», solo se prima c'e' davvero un preambolo."""
+    if not testo:
+        return testo
+    m = _RX_ARTICOLO_1.search(testo)
+    if not m or m.start() == 0 or not _RX_PREAMBOLO.search(testo[:m.start()]):
+        return testo
+    return testo[m.start():].lstrip()
+
+
 def estrai_testo_norma(html: str) -> str:
     p = _Testo()
     try:
         p.feed(html)
     except Exception:
         return ""
-    testo = p.testo()
+    testo = taglia_preambolo(taglia_coda_pagina(p.testo()))
     if len(testo) >= 40:
         return testo
     # fallback: pagina intera spogliata, cerca l'attacco dell'articolo
@@ -497,16 +569,49 @@ def _valida_articolo(testo: str, art) -> bool:
     if not m:
         return True
     numero, resto = m.group(1), m.group(2)
+    sub1 = ""
     mp = re.match(r"\.([0-9]+)", resto)
     if mp:   # «132.1»: il punto e il sottonumero fanno parte del numero (l'art. 132 e' un ALTRO articolo)
-        numero, resto = numero + r"\." + mp.group(1), resto[mp.end():]
-    suffissi = re.findall(r"(bis|ter|quater|quinquies|sexies|septies|octies|novies|decies|undecies|duodecies|terdecies)",
-                          resto)
-    pat = r"(?m)^\s*\(?\(?[Aa]rt\.?\s*\(?\(?" + numero
-    for s in suffissi:
-        pat += r"[\s.\-]*" + s
-    pat += r"(?![0-9])(?!\.[0-9])" + ("" if suffissi else r"(?![\s.\-]*(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies|undecies|duodecies|terdecies))")
-    return re.search(pat, testo) is not None
+        sub1, resto = mp.group(1), resto[mp.end():]
+    parole = re.findall(r"[a-z]+", re.split(r"\.[0-9]", resto)[0])
+    lettere = "".join(w for w in parole if re.fullmatch(SUFFISSO_LATINO + r"|sex|sept|quin|un|duo|duode|unde|tre", w))
+    ms = re.search(r"[a-z]\.([0-9]+)", resto)
+    sub2 = ms.group(1) if ms and lettere else ""   # «114-quinquies.1» (TUB): il sottonumero dopo il suffisso
+    voluto = (numero, sub1, _numerali(lettere), sub2)
+
+    def _chiave(h) -> tuple:
+        return (h.group(1), h.group(2) or "", _numerali("".join(re.findall(r"[a-z]+", h.group(3) or ""))), h.group(4) or "")
+
+    # v0.37: l'intestazione si confronta per VALORE (numero, sottonumeri, numerali latini letti come numeri: «sexdecies»
+    # e «sexiesdecies» sono 16, «nonies» e «novies» 9; «135» non e' «135-duodevicies» ne' «135-vicies» e' «135-vicies-bis»).
+    # Forme di normattiva: «Art. 5», «Articolo 107» (TUEL), «Codice Penale-art. 161 bis» (articolo che a quella data non
+    # esisteva), «Art. Art.-79-noviesdecies» (TUF); sempre a inizio riga.
+    for h in re.finditer(r"(?m)^[ \t]*(?:[A-Za-zÀ-ÿ' ]+-)?\(?\(?(?:[Aa]rt(?:icolo)?\.?[ \t]*-?[ \t]*)+\(?\(?"
+                         r"([0-9]+)(?:\.([0-9]+)(?![0-9]))?((?:[ \t.\-]*[a-z]+)*)(?:\.([0-9]+))?(?![0-9])", testo):
+        if _chiave(h) == voluto:
+            return True
+    # «149-bis.» senza «Art.» (alcune pagine del c.p.c.): solo con il suffisso latino e solo come PRIMA riga del testo —
+    # un numero nudo a inizio riga puo' essere un comma («149.» di una legge di bilancio)
+    h = re.match(r"\s*([0-9]+)(?:\.([0-9]+))?((?:[ \t\-]*[a-z]+)+)(?:\.([0-9]+))?\.?[ \t]*(?:\n|\(|$)", testo)
+    return bool(lettere) and h is not None and _chiave(h) == voluto
+
+
+#: v0.37: i numerali latini degli articoli, con le grafie che normattiva e le leggi alternano
+import articoli as _ar  # noqa: E402  (v0.43.2: i numerali latini in un posto solo)
+_NUMERALI = _ar.NUMERALI
+_NUMERALI_LUNGHI = sorted(_NUMERALI, key=len, reverse=True)
+
+
+def _numerali(lettere: str):
+    """«viciesbis» → (20, 2), «sexiesdecies» → (16,), «» → (); se non si legge tutto come numerali, le lettere stesse."""
+    s, out = lettere, []
+    while s:
+        w = next((w for w in _NUMERALI_LUNGHI if s.startswith(w)), None)
+        if not w:
+            return lettere
+        out.append(_NUMERALI[w])
+        s = s[len(w):]
+    return tuple(out)
 
 
 _TITOLI_TIPO = {
@@ -631,6 +736,8 @@ def cache_get(cache_dir: Path, url: str, ttl_ore: float):
         return None
     if datetime.now() - quando > timedelta(hours=ttl_ore):
         return None
+    if isinstance(dati.get("testo"), str):
+        dati["testo"] = taglia_coda_pagina(dati["testo"])      # voci salvate prima della v0.37
     return dati
 
 
@@ -817,9 +924,13 @@ def recupera_norma(riferimento: str, data_evento: str = "", *, cache_dir=None,
                         "atto_validato": True, "riferimento": riferimento, "descrizione": descr,
                         "codice_locale": es.get("codice_locale"), "url": es["url"], "vig": vig,
                         "fetched_at": es.get("fetched_at"), "fonte": es.get("fonte"),
-                        "versione": es.get("versione"), "vigore_da": es.get("versione_da"),
-                        "vigore_a": es.get("versione_a"), "atto_titolo": es.get("atto_titolo"),
+                        # v0.37: vigore_da/vigore_a solo se l'intervallo dell'ARTICOLO e' verificato; la versione
+                        # dell'atto sta a parte (dentro una versione dell'atto un articolo puo' cambiare)
+                        "versione": es.get("versione"), "vigore_da": es.get("articolo_dal"),
+                        "vigore_a": es.get("articolo_al"), "versione_atto_da": es.get("versione_da"),
+                        "versione_atto_a": es.get("versione_a"), "atto_titolo": es.get("atto_titolo"),
                         "abrogato": bool(re.match(r"^\s*(?:art\.[^\n]*\n)?\(?\(?\s*ARTICOLO ABROGATO", testo.strip(), re.I)),
+                        "non_vigente": bool(re.search(r"NON ANCORA ESISTENTE O VIGENTE", testo[:300], re.I)),
                         "file": es.get("file"), "testo": testo,
                     }
                 motivo_locale = (motivo_locale + "; " if motivo_locale else "") + "storico: " + str(es.get("motivo", ""))

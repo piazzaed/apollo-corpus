@@ -1803,24 +1803,21 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
         "ricorso"
       ],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "L'oggetto cita l'art. 5 D.Lgs. 368/2001, abrogato dall'art. 55, co. 1, lett. b) D.Lgs. 81/2015 (salvo il co. 2); l'art. 19 D.Lgs. 81/2015 è stato modificato dal D.L. 30 aprile 2026, n. 62 (in vigore dal 30/04/2026: nuove disposizioni sui lavoratori somministrati a termine e sulle missioni a termine). Riallineare oggetto e motivi agli artt. 19-22 D.Lgs. 81/2015 vigenti.",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "dlgs-81-2015:19",
-          "dlgs-81-2015:55"
-        ]
+        "motivo": "riallineato a mano agli artt. 19, 21 e 28 d.lgs. 81/2015 vigenti (letti con norma.py il 2026-11-01): tolto l'art. 5 d.lgs. 368/2001, abrogato; controllo deterministico verde"
       }
     },
     {
@@ -2841,23 +2838,21 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
         "ricorso"
       ],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "D.L. 19 febbraio 2026, n. 19 (in vigore dal 20/02/2026) ha aggiunto all'art. 696 c.p.c.: il conferimento dell'incarico al consulente (o il giuramento, se successivo) sospende il procedimento fino al deposito della CTU e comunque per non oltre sei mesi; il procedimento è definito con il deposito della CTU e la liquidazione segue; si applica anche ai pendenti senza CTU depositata (art. 17, co. 4, D.L. 19/2026). Verificare richieste e conclusioni del fac-simile.",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "cpc:696"
-        ]
+        "motivo": "riallineato a mano all'art. 696 c.p.c. vigente (commi quarto e quinto dal D.L. 19/2026, letti con norma.py il 2026-11-01); controllo deterministico verde"
       }
     },
     {
@@ -2868,24 +2863,21 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
         "ricorso"
       ],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "D.L. 19 febbraio 2026, n. 19 (in vigore dal 20/02/2026) ha aggiunto all'art. 696-bis c.p.c. (e all'art. 696): il conferimento dell'incarico al consulente (o il giuramento, se successivo) sospende il procedimento fino al deposito del processo verbale di conciliazione o della CTU e comunque per non oltre sei mesi; il procedimento è definito con il decreto del terzo comma o con il deposito della CTU. Verificare richieste e conclusioni del fac-simile.",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "cpc:696-bis",
-          "cpc:696"
-        ]
+        "motivo": "riallineato a mano agli artt. 696 e 696-bis c.p.c. vigenti (commi dal D.L. 19/2026, letti con norma.py il 2026-11-01); controllo deterministico verde"
       }
     },
     {
@@ -3222,24 +3214,21 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
-      "stato": "da_ricontrollare",
+      "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "giudiziario",
       "tipi_requisiti": [
         "ricorso"
       ],
-      "norme_allineate_al": "2026-02-01",
-      "da_ricontrollare": {
-        "motivo": "Il fac-simile cita un «art. 277-ter c.p.c.» che non esiste nel codice vigente; il principio di proporzionalità del mantenimento dei figli è nell'art. 337-ter c.c. (inserito dal D.Lgs. 154/2013, come dice lo stesso modello). Correggere il riferimento.",
-        "dal": "2026-09-23",
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
         "fonte": "sviluppo",
-        "norme": [
-          "cpc:277-ter",
-          "cc:337-ter"
-        ]
+        "motivo": "norme corrette a mano: art. 473-bis.51 c.p.c. e art. 3 l. 898/1970 al posto dell'art. 4 abrogato, art. 337-ter c.c. al posto dell'inesistente art. 277-ter c.p.c. (letti con norma.py il 2026-11-01); controllo deterministico verde"
       }
     },
     {

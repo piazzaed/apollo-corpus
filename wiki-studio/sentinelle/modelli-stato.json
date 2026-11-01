@@ -823,7 +823,7 @@
   "cpc:409": {
    "sha": "15f111c8a9292b6b",
    "vigore_da": "2017-06-14",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -963,7 +963,7 @@
   "cpc:473-bis.51": {
    "sha": "ba5f47131496b769",
    "vigore_da": "2024-11-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -1383,14 +1383,14 @@
   "cpc:696": {
    "sha": "0264a7dd889d501e",
    "vigore_da": "2026-02-20",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
   "cpc:696-bis": {
    "sha": "b49488f7d9a27dbf",
    "vigore_da": "2026-02-20",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-28",
    "cambiato_il": null
   },
@@ -1817,7 +1817,7 @@
   "dlgs-81-2015:19": {
    "sha": "3b2a32fe468ae49b",
    "vigore_da": "2026-06-28",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-09-23",
    "cambiato_il": null
   },
@@ -1859,7 +1859,7 @@
   "dm-110-2023:2": {
    "sha": "6c0089814dee58c1",
    "vigore_da": "2023-08-26",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-10-24",
    "cambiato_il": null
   },
@@ -1880,7 +1880,7 @@
   "dpr-115-2002:13": {
    "sha": "67d1495b1f17c1a8",
    "vigore_da": "2025-01-01",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-10-24",
    "cambiato_il": null
   },
@@ -1894,7 +1894,7 @@
   "dpr-115-2002:14": {
    "sha": "7f8075f8c82a8d76",
    "vigore_da": "2025-01-01",
-   "visto_il": "2026-10-28",
+   "visto_il": "2026-11-01",
    "snapshot": "2026-10-24",
    "cambiato_il": null
   },
@@ -2113,6 +2113,34 @@
    "vigore_da": "2023-01-01",
    "visto_il": "2026-10-28",
    "snapshot": "2026-09-28",
+   "cambiato_il": null
+  },
+  "cc:337-ter": {
+   "sha": "5b93e8c60aef708e",
+   "vigore_da": "2023-02-28",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-10-12",
+   "cambiato_il": null
+  },
+  "dlgs-81-2015:21": {
+   "sha": "3d4aba0ef5c4f800",
+   "vigore_da": "2025-01-12",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-23",
+   "cambiato_il": null
+  },
+  "dlgs-81-2015:28": {
+   "sha": "c54d4d1190030d9f",
+   "vigore_da": "2024-09-17",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-23",
+   "cambiato_il": null
+  },
+  "l-898-1970:3": {
+   "sha": "a4e0d0e258471d4f",
+   "vigore_da": "2023-01-01",
+   "visto_il": "2026-11-01",
+   "snapshot": "2026-09-23",
    "cambiato_il": null
   }
  },
@@ -2829,15 +2857,11 @@
    "giro": "2026-10-28"
   },
   "101": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "da ricontrollare (sviluppo, dal 2026-09-23): L'oggetto cita l'art. 5 D.Lgs. 368/2001, abrogato dall'art. 55, co. 1, lett. b) D.Lgs. 81/2015 (salvo il co. 2); l'art. 19 D.Lgs. 81/20",
-    "art. 19 d.lgs. 81/2015: testo cambiato dopo il modello (L. 25 giugno 2026, n. 112, in vigore dal 2026-06-28; modello allineato al 2026-02-01)",
-    "formula superata «d.lgs. 368/2001» (art. 55, co. 1, lett. b) D.Lgs. 81/2015 (D.Lgs. 368/2001 abrogato, salvo il co. 2 per i rapporti anteriori), dal 2015-06-25)"
-   ],
-   "rossi": 1,
-   "gialli": 2,
-   "giro": "2026-10-28"
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
+   "gialli": 0,
+   "giro": "2026-11-01"
   },
   "102": {
    "verdetto": "VERDE",
@@ -3230,25 +3254,18 @@
    "giro": "2026-10-28"
   },
   "156": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "da ricontrollare (sviluppo, dal 2026-09-23): D.L. 19 febbraio 2026, n. 19 (in vigore dal 20/02/2026) ha aggiunto all'art. 696 c.p.c.: il conferimento dell'incarico al consulente (o",
-    "art. 696 c.p.c.: testo cambiato dopo il modello (D.L. 19 febbraio 2026, n. 19, in vigore dal 2026-02-20; modello allineato al 2026-02-01)"
-   ],
-   "rossi": 1,
-   "gialli": 1,
-   "giro": "2026-10-28"
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
+   "gialli": 0,
+   "giro": "2026-11-01"
   },
   "157": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "da ricontrollare (sviluppo, dal 2026-09-23): D.L. 19 febbraio 2026, n. 19 (in vigore dal 20/02/2026) ha aggiunto all'art. 696-bis c.p.c. (e all'art. 696): il conferimento dell'inca",
-    "art. 696-bis c.p.c.: testo cambiato dopo il modello (D.L. 19 febbraio 2026, n. 19, in vigore dal 2026-02-20; modello allineato al 2026-02-01)",
-    "art. 696 C.P.C.: testo cambiato dopo il modello (D.L. 19 febbraio 2026, n. 19, in vigore dal 2026-02-20; modello allineato al 2026-02-01)"
-   ],
-   "rossi": 1,
-   "gialli": 2,
-   "giro": "2026-10-28"
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
+   "gialli": 0,
+   "giro": "2026-11-01"
   },
   "158": {
    "verdetto": "VERDE",
@@ -3377,15 +3394,11 @@
    "giro": "2026-10-28"
   },
   "176": {
-   "verdetto": "ROSSO",
-   "motivi": [
-    "art. 4 legge 898/1970: ARTICOLO ABROGATO (((ARTICOLO ABROGATO DAL D.LGS. 10 OTTOBRE 2022, N. 149, COME MODIFICATO DALLA L. 29 DICEMBRE 2022, N. 197)))",
-    "art. 277-ter c.p.c.: articolo inesistente nel corpus (Codice di procedura civile, snapshot 2026-09-28)",
-    "da ricontrollare (sviluppo, dal 2026-09-23): Il fac-simile cita un «art. 277-ter c.p.c.» che non esiste nel codice vigente; il principio di proporzionalità del mantenimento dei fig"
-   ],
-   "rossi": 3,
+   "verdetto": "VERDE",
+   "motivi": [],
+   "rossi": 0,
    "gialli": 0,
-   "giro": "2026-10-28"
+   "giro": "2026-11-01"
   },
   "177": {
    "verdetto": "VERDE",
@@ -3599,9 +3612,9 @@
   }
  },
  "conteggi": {
-  "VERDE": 194,
+  "VERDE": 198,
   "GIALLO": 3,
-  "ROSSO": 9
+  "ROSSO": 5
  },
  "ultimo_giro_tipo": "giro",
  "ultimo_giro": "2026-10-28",

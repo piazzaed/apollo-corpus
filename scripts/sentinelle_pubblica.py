@@ -44,13 +44,19 @@ import sentinelle_base as sb  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = 1
-VERSIONE_SENTINELLE = 1
+#: cresce quando un plugin rimasto indietro, ricopiando i suoi strumenti, riporterebbe un difetto nel repo (v0.50 → 2:
+#: controllo dei dati senza TypeError, modelli corretti che passano, una issue per area, articoli.py)
+VERSIONE_SENTINELLE = 2
 STRUMENTI_SENTINELLE = (
     "aree.py", "sentinelle_base.py", "sentinelle_prove.py", "sentinelle_dati.py", "sentinelle_normativa.py",
     "sentinelle_successioni.py", "sentinelle_modelli.py", "sentinelle_giro.py", "sentinelle_pubblica.py",
     "sentinella_modelli.py", "storico.py", "fonti_fetch.py", "freshness.py", "tassi.py", "soglia_usura.py",
     "uffici_competenza.py",
 )
+#: moduli che gli strumenti delle sentinelle importano e che il repo puo' non avere ancora: si copiano solo se NON sono
+#: strumenti del corpus (v3) del repo, o se il repo non li ha proprio. v0.50: `articoli.py` (i numerali latini, v0.43.2)
+#: lo importano fonti_fetch.py e sentinella_modelli.py, e nel repo pubblico non c'era: senza, il giro dei modelli cadeva
+STRUMENTI_SE_MANCANO = ("articoli.py",)
 #: le funzioni dei moduli v3 del repo da cui dipendono gli strumenti delle sentinelle (si controlla che ci siano)
 DIPENDENZE_V3 = {
     "paths.py": ("ROOT", "WIKI", "stato_root", "stato_root_persistente"),
@@ -292,7 +298,7 @@ def aggiorna_strumenti(clone: Path) -> list:
     if versione_nel_repo(clone) > VERSIONE_SENTINELLE:
         return [f"NON aggiornati: il repo ha le sentinelle alla versione {versione_nel_repo(clone)}, questo plugin la "
                 f"{VERSIONE_SENTINELLE} (aggiorna il plugin)"]
-    for nome in STRUMENTI_SENTINELLE:
+    for nome in STRUMENTI_SENTINELLE + STRUMENTI_SE_MANCANO:
         testo = (ROOT / "scripts" / nome).read_text(encoding="utf-8")
         errori = controlla_testo(nome, testo)
         if errori:
@@ -302,6 +308,10 @@ def aggiorna_strumenti(clone: Path) -> list:
     for nome in STRUMENTI_SENTINELLE:
         shutil.copy2(ROOT / "scripts" / nome, clone / "scripts" / nome)
         copiati.append(nome)
+    for nome in STRUMENTI_SE_MANCANO:
+        if nome not in v3 or not (clone / "scripts" / nome).exists():
+            shutil.copy2(ROOT / "scripts" / nome, clone / "scripts" / nome)
+            copiati.append(nome)
     (clone / ".github" / "workflows").mkdir(parents=True, exist_ok=True)
     (clone / ".github" / "workflows" / "sentinelle.yml").write_text(workflow(), encoding="utf-8")
     (clone / ".github" / "claude").mkdir(parents=True, exist_ok=True)
@@ -442,13 +452,35 @@ def _job(area: str, prec: str) -> str:
         if: always() && env.SCRIVE == 'true'
         run: python3 scripts/sentinelle_pubblica.py --pubblica {area}
       - name: segnalazione
-        if: always() && env.SCRIVE == 'true' && steps.controllo.outputs.problemi != '0'
+        if: always() && env.SCRIVE == 'true'
         env:
           GH_TOKEN: ${{{{ secrets.GITHUB_TOKEN }}}}
+          PROBLEMI: ${{{{ steps.controllo.outputs.problemi }}}}
         run: |
           gh label create sentinelle --color FBCA04 --description "da ricontrollare (sentinelle automatiche)" --force || true
           gh label create memento --color 0E8A16 --description "schede del memento da rivedere" --force || true
-          gh issue create --title "sentinelle {area}: da ricontrollare ($(date -u +%F))" --label sentinelle --body-file $RUNNER_TEMP/issue-{area}.md || true
+          # una issue sola per area: si aggiorna la piu' recente, le altre si chiudono; area pulita = tutte chiuse
+          OGGI=$(date -u +%F)
+          PREFISSO="sentinelle {area}: da ricontrollare"
+          CORPO=$RUNNER_TEMP/issue-{area}.md
+          APERTE=$(gh issue list --label sentinelle --state open --limit 200 --json number,title --jq "[.[] | select(.title | startswith(\\"$PREFISSO\\"))] | sort_by(.number) | reverse | .[].number" || true)
+          if [ -z "$PROBLEMI" ]; then
+            echo "::warning::controllo meccanico senza esito: issue dell'area {area} lasciate come sono"
+            exit 0
+          fi
+          if [ "$PROBLEMI" = "0" ]; then
+            for N in $APERTE; do gh issue close "$N" --comment "area tornata pulita ($OGGI)" || true; done
+            exit 0
+          fi
+          [ -s "$CORPO" ] || echo "- il controllo meccanico ha segnalato $PROBLEMI problemi senza scriverne il dettaglio: vedi il rapporto del giro" > "$CORPO"
+          printf '\\n_Aggiornata dal giro del %s: %s/%s/actions/runs/%s_\\n' "$OGGI" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> "$CORPO"
+          ULTIMA=$(echo "$APERTE" | head -n 1)
+          if [ -n "$ULTIMA" ]; then
+            gh issue edit "$ULTIMA" --title "$PREFISSO ($OGGI)" --body-file "$CORPO" || true
+          else
+            ULTIMA=$(gh issue create --title "$PREFISSO ($OGGI)" --label sentinelle --body-file "$CORPO" | grep -oE '[0-9]+$' || true)
+          fi
+          for N in $APERTE; do [ "$N" = "$ULTIMA" ] || gh issue close "$N" --comment "superata dalla #$ULTIMA" || true; done
       - name: rapporto
         if: always()
         run: |

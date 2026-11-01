@@ -45,15 +45,16 @@ def _modulo(area: str):
 
 
 def _salva_giro(path: Path, giro: sb.Giro) -> None:
-    path.write_text(json.dumps({"area": giro.area, "rapporto": giro.rapporto, "issue": giro.issue, "esito": giro.esito,
-                                "da_ricontrollare": giro.da_ricontrollare, "dati": giro.dati}, ensure_ascii=False, indent=1),
-                    encoding="utf-8")
+    path.write_text(json.dumps({"area": giro.area, "rapporto": giro.rapporto, "issue": giro.issue, "avvisi": giro.avvisi,
+                                "esito": giro.esito, "da_ricontrollare": giro.da_ricontrollare, "dati": giro.dati},
+                               ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def _carica_giro(path: Path, area: str) -> sb.Giro:
     g = sb.Giro(area)
     d = sb.leggi_json(path, {}) or {}
     g.rapporto, g.issue = list(d.get("rapporto") or []), list(d.get("issue") or [])
+    g.avvisi = list(d.get("avvisi") or [])
     g.esito, g.da_ricontrollare, g.dati = d.get("esito") or "ok", list(d.get("da_ricontrollare") or []), dict(d.get("dati") or {})
     return g
 

@@ -98,9 +98,11 @@ ritenuta la propria competenza;
 AMMETTE
 il chiesto mezzo di prova, nomina c.t. sig. .................... e fissa il giorno ......................, ore .................... per l’inizio delle operazioni.
 L’accertamento deve comprendere anche la valutazione delle cause e dei danni.
+Dà atto che il conferimento dell’incarico al consulente o, se successivo, il giuramento di quest’ultimo determina la sospensione del procedimento fino al deposito della consulenza tecnica d’ufficio e, comunque, per un periodo non superiore a sei mesi; la sospensione non impedisce l’espletamento della consulenza. Il procedimento è definito con il deposito della consulenza tecnica d’ufficio; l’onorario e le spese del consulente sono liquidati successivamente (art. 696 c.p.c., quarto e quinto comma).
 
 Luogo e data ....................	Il .................... (giudice)
 ```
 
 ## Aggiornamenti
 - 2026-07-04 — importato nel catalogo (testo 2026-02); normativa agganciata al changelog verificato; giurisprudenza da popolare (on-demand/Sentinella).
+- 2026-11-01 — riallineato all'art. 696 c.p.c. vigente (in vigore dal 20/02/2026): il decreto dà atto dei commi quarto e quinto inseriti dal D.L. 19 febbraio 2026, n. 19 (sospensione del procedimento dal conferimento dell'incarico o dal giuramento fino al deposito della consulenza, per non oltre sei mesi; procedimento definito con il deposito; liquidazione successiva). Si applicano anche ai procedimenti pendenti senza consulenza depositata (art. 17, co. 4, D.L. 19/2026). Ricorso e richieste invariati.

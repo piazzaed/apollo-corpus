@@ -108,6 +108,7 @@ voglia disporre, ai sensi degli artt. 696 e 696-bis c.p.c., accertamento tecnico
 3) quantificare il danno arrecato;
 4) indicare ogni altro elemento utile per l’instaurando giudizio di merito, contestualmente conferendo mandato al c.t.u. di procedere al tentativo di conciliazione delle parti;
 5) tentare la conciliazione ai sensi dell’art. 696-bis c.p.c.
+Si dà atto che il conferimento dell’incarico al consulente o, se successivo, il giuramento di quest’ultimo determina la sospensione del procedimento fino al deposito del processo verbale di conciliazione o della consulenza tecnica d’ufficio e, comunque, per un periodo non superiore a sei mesi, senza impedire l’espletamento della consulenza; il procedimento è definito con il decreto che attribuisce efficacia di titolo esecutivo al processo verbale o con il deposito della consulenza tecnica d’ufficio, e l’onorario e le spese del consulente sono liquidati successivamente (art. 696-bis c.p.c., settimo e ottavo comma).
 L’istante nomina sin d’ora quale proprio c.t.p. il dott. .....................
 Si offrono in comunicazione i seguenti documenti:
 – atto di costituzione in mora;
@@ -128,3 +129,4 @@ Avv. ....................................
 
 ## Aggiornamenti
 - 2026-07-04 — importato nel catalogo (testo 2026-02); normativa agganciata al changelog verificato; giurisprudenza da popolare (on-demand/Sentinella).
+- 2026-11-01 — riallineato agli artt. 696 e 696-bis c.p.c. vigenti (in vigore dal 20/02/2026): il ricorso dà atto dei commi settimo e ottavo dell'art. 696-bis inseriti dal D.L. 19 febbraio 2026, n. 19 (sospensione dal conferimento dell'incarico o dal giuramento fino al processo verbale di conciliazione o alla consulenza, per non oltre sei mesi; procedimento definito con il decreto del terzo comma o con il deposito della consulenza; liquidazione successiva). Si applicano anche ai procedimenti pendenti senza consulenza o processo verbale di conciliazione depositati (art. 17, co. 4, D.L. 19/2026). Richieste invariate.

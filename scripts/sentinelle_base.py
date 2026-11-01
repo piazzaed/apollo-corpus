@@ -213,12 +213,16 @@ def stato_atto(manifest: dict, slug: str) -> dict:
 # ----------------------------------------------------------------------------------------------- rapporto e issue
 
 class Giro:
-    """Il resoconto di un giro di un'area: righe del rapporto (Step Summary), righe della issue, voci da ricontrollare."""
+    """Il resoconto di un giro di un'area: righe del rapporto (Step Summary), righe della issue, voci da ricontrollare.
+
+    v0.50: gli AVVISI (una novità provata e gia' registrata, per esempio) stanno nel rapporto ma non sono problemi: da
+    soli non aprono la issue e non rendono l'area «da ricontrollare»; nella issue compaiono solo accanto a un problema."""
 
     def __init__(self, area: str):
         self.area = area
         self.rapporto: list = []
         self.issue: list = []
+        self.avvisi: list = []
         self.da_ricontrollare: list = []
         self.esito = "ok"
         self.dati: dict = {}
@@ -231,12 +235,16 @@ class Giro:
         if ricontrollare and ricontrollare not in self.da_ricontrollare:
             self.da_ricontrollare.append(ricontrollare)
 
+    def avviso(self, testo: str) -> None:
+        if testo not in self.avvisi:
+            self.avvisi.append(testo)
+
     def parziale(self) -> None:
         self.esito = "parziale"
 
     def markdown(self) -> str:
         testa = f"### Sentinelle — {self.area} ({self.esito})"
-        return "\n".join([testa, ""] + [f"- {r}" for r in self.rapporto] + [""])
+        return "\n".join([testa, ""] + [f"- {r}" for r in self.rapporto] + [f"- ℹ️ avviso: {a}" for a in self.avvisi] + [""])
 
 
 def scrivi_rapporto(giro: Giro, percorso: str = "") -> None:
@@ -246,12 +254,16 @@ def scrivi_rapporto(giro: Giro, percorso: str = "") -> None:
 
 
 def scrivi_issue(giri: list, percorso: str) -> int:
+    """Il corpo della issue (solo le aree con problemi; gli avvisi in coda, mai da soli) e il numero dei problemi."""
     righe = []
     for g in giri:
         if g.issue:
             righe.append(f"## {g.area}")
             righe += [f"- {x}" for x in g.issue]
             righe.append("")
+            avvisi = getattr(g, "avvisi", None) or []
+            if avvisi:
+                righe += ["### Avvisi (non richiedono interventi)", ""] + [f"- {x}" for x in avvisi] + [""]
     if percorso:
         Path(percorso).write_text("\n".join(righe), encoding="utf-8")
     return sum(len(g.issue) for g in giri)

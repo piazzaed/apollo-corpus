@@ -1,7 +1,7 @@
 {
  "_meta": {
   "descrizione": "Articoli citati nel fac-simile di ogni modello (slug:articolo) e data di allineamento del modello. Generato da sentinella_modelli.py --esporta; a runtime flag_runtime() lo incrocia con il changelog del corpus sincronizzato e con gli atti in movimento.",
-  "generato_il": "2026-10-11"
+  "generato_il": "2026-11-01"
  },
  "modelli": {
   "001": {
@@ -861,10 +861,12 @@
    ]
   },
   "101": {
-   "data_base": "2026-02-01",
+   "data_base": "2026-11-01",
    "norme": [
     "cpc:409",
     "dlgs-81-2015:19",
+    "dlgs-81-2015:21",
+    "dlgs-81-2015:28",
     "dm-110-2023:2",
     "dpr-115-2002:14"
    ]
@@ -1427,7 +1429,7 @@
    ]
   },
   "156": {
-   "data_base": "2026-02-01",
+   "data_base": "2026-11-01",
    "norme": [
     "cpc:696",
     "dm-110-2023:2",
@@ -1435,7 +1437,7 @@
    ]
   },
   "157": {
-   "data_base": "2026-02-01",
+   "data_base": "2026-11-01",
    "norme": [
     "cpc:696",
     "cpc:696-bis",
@@ -1612,13 +1614,13 @@
    ]
   },
   "176": {
-   "data_base": "2026-02-01",
+   "data_base": "2026-11-01",
    "norme": [
-    "cpc:277-ter",
+    "cc:337-ter",
     "cpc:473-bis.51",
     "dm-110-2023:2",
     "dpr-115-2002:13",
-    "l-898-1970:4"
+    "l-898-1970:3"
    ]
   },
   "177": {

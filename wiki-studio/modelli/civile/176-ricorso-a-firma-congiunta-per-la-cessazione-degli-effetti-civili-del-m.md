@@ -58,9 +58,10 @@
 - ⚠️ Verifica in **F1.5**: GATE intertemporale (data di instaurazione), competenza per valore/materia/territorio, forma dell'atto.
 
 ## Normativa di riferimento (ancore estratte dal modello)
-- legge 898/1970
+- legge 898/1970 (art. 3; l'art. 4 è abrogato dal d.lgs. 149/2022)
+- art. 473-bis.51 c.p.c. (procedimento su domanda congiunta)
 - l. 55/2015
-- d.lgs. 154/2013
+- d.lgs. 154/2013 (art. 337-ter c.c.)
 - d.P.R. 396/2000
 - d.P.R. 115/2002
 
@@ -78,7 +79,7 @@ Regola anti-allucinazione: **nessuna massima non verificata** entra in questa se
 ## Testo del modello (fac-simile — Formulario del processo civile (ed. febbraio 2026))
 ```
 176.	Ricorso a firma congiunta per la cessazione degli effetti civili del matrimonio (divorzio)
-(art. 4, legge 898/1970; art. 473-bis.51 c.p.c.)
+(art. 473-bis.51 c.p.c.; art. 3 legge 898/1970)
 Al tribunale ordinario
 di ................................
 in forma collegiale
@@ -98,17 +99,17 @@ ESPOSIZIONE DEI FATTI
 4 – Nel provvedimento di separazione il figlio veniva affidato alla madre e veniva stabilita l’erogazione di un assegno di mantenimento di euro ........ in favore della moglie e di euro ........ in favore del figlio.
 5 – Il marito sig. ........................ svolge la professione di ....................., percependo un reddito di euro .................., come da dichiarazione che si allega.
 6 – La moglie, sig.ra ...................... è tuttora disoccupata, come da autocertificazione che si allega.
-7 – Dalla data di pronuncia della separazione alla data odierna, i coniugi non hanno avuto alcuna comunanza di vita, né materiale, né spirituale. Sono decorsi i termini previsti dalla l. 55/2015.
+7 – Dalla data di pronuncia della separazione alla data odierna, i coniugi non hanno avuto alcuna comunanza di vita, né materiale, né spirituale. Sono decorsi i termini previsti dall’art. 3, n. 2, lett. b), legge 898/1970, come modificato dalla l. 55/2015.
 IN DIRITTO
 Sussistono le condizioni oggettive e soggettive previste dalla legge 898/1970 e successive modifiche, per lo scioglimento del matrimonio.
-È maturato il termine di mesi …….. decorrente dalla data di notifica/deposito del ricorso.
+È maturato il termine di mesi …….. (dodici in caso di separazione giudiziale, sei in caso di separazione consensuale), decorrente dalla data dell’udienza di comparizione dei coniugi nella procedura di separazione personale (oppure: dalla data certificata nell’accordo di separazione raggiunto a seguito di convenzione di negoziazione assistita; oppure: dalla data dell’atto contenente l’accordo di separazione concluso innanzi all’ufficiale dello stato civile), a norma dell’art. 3, n. 2, lett. b), legge 898/1970.
 
 Ciò premesso, i ricorrenti
 CHIEDONO 
 che l’on.le tribunale, fissata l’udienza per la comparizione personale dei coniugi, verificata la rispondenza delle condizioni, voglia accogliere le seguenti conclusioni congiunte:
 A – Dichiarare la cessazione degli effetti civili del matrimonio tra ................. (n. il .............) e ....................... (n. il ...................), contratto in data .......................
 B – Disporre l’affidamento condiviso, ai sensi della legge n. 54, dell’8 febbraio 2006, del figlio .................. (nato a ………., il ...................).
-C – Disporre l’erogazione dell’assegno di mantenimento in favore del figlio minore, per la somma di euro ................. da pagarsi entro il giorno ........ di ogni mese, a carico del padre, essendo la madre disoccupata (in attuazione del principio di proporzionalità stabilito dall’articolo 277-ter c.p.c., introdotto con il d.lgs. 154/2013), nonché il pagamento delle spese straordinarie mediche al 50% fra le parti.
+C – Disporre l’erogazione dell’assegno di mantenimento in favore del figlio minore, per la somma di euro ................. da pagarsi entro il giorno ........ di ogni mese, a carico del padre, essendo la madre disoccupata (in attuazione del principio di proporzionalità stabilito dall’art. 337-ter c.c., introdotto con il d.lgs. 154/2013), nonché il pagamento delle spese straordinarie mediche al 50% fra le parti.
 D – Disporre che il figlio può abitare presso le abitazioni di entrambi i genitori, previo accordo fra loro, così come, liberamente, ogni qualvolta uno dei genitori lo richiederà potrà essere concordato il periodo delle vacanze estive e delle festività.
 E – Disporre la trasmissione della sentenza all’ufficio dello stato civile di ............................, affinché proceda alle annotazioni prescritte ai sensi dell’art. 69 del d.P.R. 396/2000.
 F – Ordinare lo scambio del reciproco consenso delle parti all’espatrio.
@@ -133,3 +134,4 @@ Sono autentiche: Avv. ..................................
 
 ## Aggiornamenti
 - 2026-07-04 — importato nel catalogo (testo 2026-02); normativa agganciata al changelog verificato; giurisprudenza da popolare (on-demand/Sentinella).
+- 2026-11-01 — norme corrette: tolto l'art. 4 legge 898/1970 (abrogato dal d.lgs. 149/2022, come modificato dalla l. 197/2022: la domanda congiunta è ora nell'art. 473-bis.51 c.p.c.); il principio di proporzionalità del mantenimento è nell'art. 337-ter c.c. (inserito dall'art. 55 d.lgs. 154/2013), non in un «art. 277-ter c.p.c.» che non esiste; i termini sono quelli dell'art. 3, n. 2, lett. b), legge 898/1970 (dodici mesi dall'udienza di comparizione nella separazione giudiziale, sei nella consensuale, o dalle date degli accordi di negoziazione assistita o davanti all'ufficiale dello stato civile), non dalla notifica o dal deposito del ricorso.
