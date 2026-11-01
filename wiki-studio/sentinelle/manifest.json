@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-01T18:11Z",
+ "generato_il": "2026-11-01T21:27Z",
  "versione_sentinelle": 2,
  "aree": {
   "dati": {
@@ -160,8 +160,8 @@
      "proprietario": "seme"
     },
     "wiki-studio/modelli/catalogo.json": {
-     "sha256": "7436e5337209a55d3a8d9e97634c432c1a6aa71551daa8c81697762e7a6d9e9f",
-     "byte": 173019,
+     "sha256": "f0bd0127e527530f74a7a3666d047435729f7598b970e2b59ede947e6ff0e672",
+     "byte": 173075,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/001-informativa-al-cliente-e-trattamento-dei-dati-personali-redatta-dal-cn.md": {
@@ -640,8 +640,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/096-istanza-di-conciliazione-obbligatoria-in-materia-di-licenziamento.md": {
-     "sha256": "8fb5dd10b82e26c5f1fe4621e2866d8341c00c5efafcab7c4eb52cb2dff3d56d",
-     "byte": 5246,
+     "sha256": "0d7bffd8b2a7f6c8ec184ce6bb1e296ca08a8eadb3b45b83756b5c5eb8f8d5c3",
+     "byte": 10352,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/097-ricorso-per-il-pagamento-di-indennita-lavorative.md": {
@@ -680,8 +680,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/104-ricorso-ex-art-441-bis-cpc-per-la-reintegra-al-lavoro.md": {
-     "sha256": "d63bfd8fe26a018f565b532a31d339e525d324b396b29303a8399f2910979382",
-     "byte": 13889,
+     "sha256": "1a256dd6e637827b913b05d2d4072fdea60ed6ae8e3aabee2b23eb8036bf0acb",
+     "byte": 18917,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/105-memoria-difensiva.md": {
@@ -760,8 +760,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/120-citazione-per-laccertamento-del-credito-in-caso-di-mancata-dichiarazio.md": {
-     "sha256": "694db290da4cd0da56fc2ac3057bf559e556cd34dfa9c8aae22116893c4fe7db",
-     "byte": 8750,
+     "sha256": "b168b3003429bb4750988f73c62bd9604f990e99c879fbd7b5f6c52f032a606a",
+     "byte": 8901,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/121-atto-di-pignoramento-immobiliare.md": {
@@ -790,8 +790,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/126-opposizione-alla-regolarita-formale-del-titolo-esecutivo-e-del-precett.md": {
-     "sha256": "88005ed082414f6ba5cd18b457fdb1d32bb627843a7819d94524934d349e72f7",
-     "byte": 8479,
+     "sha256": "6b86dd219b222c43bc9dc9cfa5414ef152f59d9aed40b0f3fb53aabf23828ced",
+     "byte": 14189,
      "proprietario": "action"
     },
     "wiki-studio/modelli/civile/127-ricorso-per-decreto-ingiuntivo-di-pagamento-fondato-su-prova-scritta.md": {
@@ -1200,18 +1200,18 @@
      "proprietario": "seme"
     },
     "wiki-studio/modelli/modelli.meta.json": {
-     "sha256": "069faca6ede2ba7defbeb4a8410f5f528d72d2b09e8289e0a0f49caa5bfb40d4",
-     "byte": 127506,
+     "sha256": "03aa9e79ae2bae24f45baa85059c29c1b9a274034a73600064511069fd411551",
+     "byte": 129302,
      "proprietario": "action"
     },
     "wiki-studio/modelli/norme-citate.json": {
-     "sha256": "7a16ecdf7f625b4ba8a1236d096ffcc96f1e840da5d1832e2bad770086c4cbbc",
-     "byte": 28916,
+     "sha256": "309410edf0addf1943d0afb91572094a0625d637798f0d7cd6f73b0b751ad170",
+     "byte": 29197,
      "proprietario": "action"
     },
     "wiki-studio/modelli/requisiti-per-tipo.json": {
-     "sha256": "788976e3df6f747994a861d97bf0b6f1408271f2c6744c639973e2e4f99a5ca1",
-     "byte": 12352,
+     "sha256": "dd7a7787d9ff2a7496281d142d3f743b8b9465faa907bd8680551a59627c486a",
+     "byte": 12577,
      "proprietario": "seme"
     }
    },
@@ -1224,8 +1224,8 @@
   "stato": {
    "file": {
     "wiki-studio/sentinelle/modelli-stato.json": {
-     "sha256": "b8a1085276fd906c4da4418aa5fbea01cfd7b9eb76ba7c752c8311a6f935b298",
-     "byte": 75270,
+     "sha256": "0b3440c959f76ed5069f1b24371d863c58eb907976728bdbe90c240005fa6938",
+     "byte": 75963,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {

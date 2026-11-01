@@ -1707,14 +1707,20 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-09-23",
-      "prossima_verifica": "2027-09-23",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
       "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
       "ambito": "documento",
       "tipi_requisiti": [],
-      "norme_allineate_al": "2026-09-23"
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
+        "fonte": "sviluppo",
+        "motivo": "citazione corretta (art. 7 l. 604/1966 come sostituito dall'art. 1, comma 40, l. 92/2012, non «art. 40 l. 92/2012») e fac-simile riallineato all'art. 7 vigente (commi 1-4 e 6), all'art. 18, ottavo comma, l. 300/1970, all'art. 2, comma 34, l. 92/2012 e agli artt. 1 e 3, comma 3, d.lgs. 23/2015, letti con norma.py il 2026-11-01; controllo deterministico verde"
+      }
     },
     {
       "id": "097",
@@ -1863,8 +1869,8 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-09-23",
-      "prossima_verifica": "2027-09-23",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
       "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
@@ -1872,7 +1878,13 @@
       "tipi_requisiti": [
         "ricorso"
       ],
-      "norme_allineate_al": "2026-09-23"
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
+        "fonte": "sviluppo",
+        "motivo": "art. 8 l. 604/1966 tolto dove non pertinente (non regola le retribuzioni fino alla reintegrazione): reintegrazione e indennita' dell'art. 18, commi 4 e 7, l. 300/1970 (C. cost. 59/2021 e 125/2022) e dell'art. 3, comma 2, d.lgs. 23/2015 (C. cost. 128/2024); refuso «l. 390/1970»; tolto il rito ex art. 1, comma 48, l. 92/2012 (abrogato); art. 441-bis c.p.c. al posto di fumus e periculum; art. 6 l. 604/1966; estremi di pronunce non verificati tolti; testi letti con norma.py il 2026-11-01; controllo deterministico verde"
+      }
     },
     {
       "id": "105",
@@ -2276,8 +2288,8 @@
         "cartabia_processo_civile",
         "correttivo_cartabia"
       ],
-      "verificato_il": "2026-07-04",
-      "prossima_verifica": "2027-07-04",
+      "verificato_il": "2026-11-01",
+      "prossima_verifica": "2027-11-01",
       "volatilita": "media",
       "stato": "congelato",
       "giurisprudenza_stato": "da_popolare",
@@ -2285,7 +2297,13 @@
       "tipi_requisiti": [
         "citazione"
       ],
-      "norme_allineate_al": "2026-02-01"
+      "norme_allineate_al": "2026-11-01",
+      "da_ricontrollare": null,
+      "ultimo_allineamento": {
+        "data": "2026-11-01",
+        "fonte": "sviluppo",
+        "motivo": "compensi del precetto sui parametri del d.m. 55/2014 (artt. 2, comma 2, e 4, comma 5, lett. e) e art. 13, comma 6, l. 247/2012 al posto delle «tariffe professionali» (art. 9 d.l. 1/2012); motivi distinti fra art. 617, comma 1 (requisiti dell'art. 480, commi 2 e 3, vigente dal 26/11/2024) e art. 615, comma 1; tipo d'atto «atto di opposizione»; testi letti con norma.py il 2026-11-01; controllo deterministico verde"
+      }
     },
     {
       "id": "127",

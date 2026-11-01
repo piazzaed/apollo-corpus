@@ -2914,10 +2914,9 @@
         "art. 414 c.p.c.",
         "legge 92/2012",
         "legge 604/1966",
-        "legge 108/1990",
         "legge 300/1970",
+        "d.lgs. 23/2015",
         "legge 223/1991",
-        "legge 390/1970",
         "d.P.R. 115/2002"
       ],
       "changelog_deps": [
@@ -3535,16 +3534,18 @@
       "id": "126",
       "numero": 126,
       "titolo": "Opposizione alla regolarità formale del titolo esecutivo e del precetto",
-      "tipo_atto": "atto di precetto",
+      "tipo_atto": "atto di opposizione",
       "rito": "esecuzione",
       "fase": "esecuzione forzata",
       "materia": "esecuzione (titolo, precetto, pignoramento, opposizioni)",
       "competenza_orientativa": "Tribunale ordinario, monocratico",
       "norme_chiave": [
         "art. 617 c.p.c.",
+        "art. 615 c.p.c.",
         "art. 480 c.p.c.",
         "art. 167 c.p.c.",
         "art. 38 c.p.c.",
+        "d.m. 55/2014",
         "d.P.R. 115/2002"
       ],
       "changelog_deps": [
