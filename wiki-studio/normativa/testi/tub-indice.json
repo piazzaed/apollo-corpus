@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "tub",
   "nome": "Testo unico bancario (D.Lgs. 385/1993)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-11-02",
   "formato": 2,
-  "consolidato_normattiva": "2026-06-19",
+  "consolidato_normattiva": "2026-10-30",
   "articoli": 388,
   "file": [
    "tub.md"
@@ -642,18 +642,21 @@
     "data": "2026-04-14",
     "evento": "rp127",
     "atto_modificante": "D.Lgs. 27 marzo 2026, n. 47"
+   },
+   {
+    "data": "2026-10-15",
+    "evento": "rp128",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 184"
    }
   ],
-  "ultima_versione": "2026-04-14",
+  "ultima_versione": "2026-10-15",
   "datazione": {
    "monoblocco": 388,
-   "api": 329,
-   "riportati": 34,
+   "api": 2,
+   "riportati": 361,
    "ignota": 25,
    "testo_diverso": 25,
-   "stima_anteriore": 118,
-   "stima_posteriore": 6,
-   "chiamate": 354,
+   "chiamate": 27,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -661,9 +664,9 @@
   "1": {
    "file": "tub.md",
    "rubrica": "Definizioni",
-   "vigore_da": "2026-01-09",
+   "vigore_da": "2026-10-30",
    "datazione": "api",
-   "h": "2db8c9446b2f"
+   "h": "e80e61aa194d"
   },
   "2": {
    "file": "tub.md",
@@ -3196,10 +3199,10 @@
   },
   "145-ter": {
    "file": "tub.md",
-   "rubrica": "Comunicazione all'ABE sulle sanzioni applicate",
-   "vigore_da": "2015-06-27",
+   "rubrica": "Comunicazione all'ABE e all'ESAP sulle sanzioni applicate",
+   "vigore_da": "2026-10-30",
    "datazione": "api",
-   "h": "f74a2e99d677"
+   "h": "2256b54ad37e"
   },
   "145-quater": {
    "file": "tub.md",

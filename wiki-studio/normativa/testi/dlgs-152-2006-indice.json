@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "dlgs-152-2006",
   "nome": "Codice dell'ambiente (D.Lgs. 152/2006)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-11-02",
   "formato": 2,
-  "consolidato_normattiva": "2026-10-07",
-  "articoli": 442,
+  "consolidato_normattiva": "2026-10-31",
+  "articoli": 443,
   "file": [
    "dlgs-152-2006.md"
   ],
@@ -1222,22 +1222,30 @@
     "data": "2026-10-06",
     "evento": "rp249",
     "atto_modificante": "L. 5 ottobre 2026, n. 173"
+   },
+   {
+    "data": "2026-10-08",
+    "evento": "rp250",
+    "atto_modificante": "D.L. 8 ottobre 2026, n. 177"
+   },
+   {
+    "data": "2026-10-16",
+    "evento": "rp251",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 186"
    }
   ],
-  "ultima_versione": "2026-10-06",
+  "ultima_versione": "2026-10-16",
   "doppi_esclusi": [
    "298-bis"
   ],
   "datazione": {
-   "monoblocco": 442,
-   "api": 430,
-   "ignota": 12,
-   "falliti": 11,
+   "monoblocco": 443,
+   "api": 22,
+   "riportati": 420,
+   "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 113,
-   "stima_posteriore": 1,
-   "chiamate": 442,
-   "errori_rete": 11,
+   "stima_anteriore": 1,
+   "chiamate": 23,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1343,9 +1351,9 @@
   "8": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Commissione tecnica di verifica dell'impatto ambientale - VIA e VAS",
-   "vigore_da": "2026-04-21",
+   "vigore_da": "2026-10-09",
    "datazione": "api",
-   "h": "0b0365bf76bf"
+   "h": "c1d97160ec5a"
   },
   "8-bis": {
    "file": "dlgs-152-2006.md",
@@ -1476,9 +1484,9 @@
   "25": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Valutazione degli impatti ambientali e provvedimento di VIA",
-   "vigore_da": "2026-04-19",
+   "vigore_da": "2026-10-09",
    "datazione": "api",
-   "h": "213c0371c29a"
+   "h": "c3354bf5f7e1"
   },
   "26": {
    "file": "dlgs-152-2006.md",
@@ -1497,9 +1505,9 @@
   "27": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Provvedimento unico in materia ambientale",
-   "vigore_da": "2024-12-17",
+   "vigore_da": "2026-10-09",
    "datazione": "api",
-   "h": "f421d8085615"
+   "h": "d97ccda13a9a"
   },
   "27-bis": {
    "file": "dlgs-152-2006.md",
@@ -2799,9 +2807,9 @@
   "178-ter": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Requisiti generali minimi in materia di responsabilita' estesa del produttore",
-   "vigore_da": "2023-12-31",
+   "vigore_da": "2026-10-09",
    "datazione": "api",
-   "h": "d7f69b2143da"
+   "h": "54e3f7f11e59"
   },
   "178-quater": {
    "file": "dlgs-152-2006.md",
@@ -2914,6 +2922,13 @@
    "vigore_da": "2025-12-18",
    "datazione": "api",
    "h": "27d13212f53f"
+  },
+  "185-ter": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Disciplina speciale per le terre e rocce da scavo qualificate come rifiuto ovvero prodotte in cantieri puntuali",
+   "vigore_da": "2026-10-09",
+   "datazione": "api",
+   "h": "0e74bf2918f5"
   },
   "186": {
    "file": "dlgs-152-2006.md",
@@ -3121,8 +3136,8 @@
   "206-quater": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Incentivi per i prodotti derivanti da materiali post consumo o dal recupero degli scarti e dei materiali rivenienti dal disassemblaggio dei prodotti complessi",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
    "h": "087b059efbb3"
   },
   "206-quinquies": {
@@ -3135,29 +3150,29 @@
   "206-sexies": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Azioni premianti l'utilizzo di prodotti che impiegano materiali post consumo o derivanti dal recupero degli scarti e dei materiali rivenienti dal disassemblaggio dei prodotti complessi negli interventi concernenti gli edifici scolastici, le pavimentazioni stradali e le barriere acustiche",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2016-02-02",
+   "datazione": "api",
    "h": "19204ffb1866"
   },
   "207": {
    "file": "dlgs-152-2006.md",
    "rubrica": "",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2006-11-25",
+   "datazione": "api",
    "h": "f17173ba2676"
   },
   "208": {
    "file": "dlgs-152-2006.md",
    "rubrica": "autorizzazione unica per i nuovi impianti di smaltimento e di recupero dei rifiuti",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2026-08-29",
+   "datazione": "api",
    "h": "01fa154061bc"
   },
   "209": {
    "file": "dlgs-152-2006.md",
    "rubrica": "rinnovo delle autorizzazioni alle imprese in possesso di certificazione ambientale",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
    "h": "db5412c64c0b"
   },
   "210": {
@@ -3177,8 +3192,8 @@
   "212": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Albo nazionale gestori ambientali",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2026-04-21",
+   "datazione": "api",
    "h": "4acfd162ea2c"
   },
   "213": {
@@ -3191,15 +3206,15 @@
   "214": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Determinazione delle attivita' e delle caratteristiche dei rifiuti per l'ammissione alle procedure semplificate",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
    "h": "431d9b78e55d"
   },
   "214-bis": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Sgombero della neve",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2010-12-25",
+   "datazione": "api",
    "h": "6ae5825fc6a1"
   },
   "214-ter": {
@@ -3212,8 +3227,8 @@
   "215": {
    "file": "dlgs-152-2006.md",
    "rubrica": "autosmaltimento",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2010-12-25",
+   "datazione": "api",
    "h": "43f1fd0529e4"
   },
   "216": {
@@ -3233,8 +3248,8 @@
   "216-ter": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Comunicazioni alla Commissione europea",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2021-07-31",
+   "datazione": "api",
    "h": "81298067f05a"
   },
   "217": {
@@ -3254,8 +3269,8 @@
   "219": {
    "file": "dlgs-152-2006.md",
    "rubrica": "criteri informatori dell'attivita' di gestione dei rifiuti di imballaggio",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2023-06-16",
+   "datazione": "api",
    "h": "6c9d9bac3eee"
   },
   "219-bis": {
@@ -3303,9 +3318,9 @@
   "223": {
    "file": "dlgs-152-2006.md",
    "rubrica": "consorzi",
-   "vigore_da": "2023-06-16",
+   "vigore_da": "2026-10-09",
    "datazione": "api",
-   "h": "a999f7e492e9"
+   "h": "dc975f36a984"
   },
   "224": {
    "file": "dlgs-152-2006.md",
@@ -3538,6 +3553,13 @@
    "datazione": "api",
    "h": "d2477d2b3b53"
   },
+  "237-septiesdecies": {
+   "file": "dlgs-152-2006.md",
+   "rubrica": "Obblighi di comunicazione, informazione, accesso e partecipazione",
+   "vigore_da": "2014-04-11",
+   "datazione": "api",
+   "h": "ac4cb29778a4"
+  },
   "237-quindecies": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Controllo e sorveglianza delle emissioni nei corpi idrici",
@@ -3551,13 +3573,6 @@
    "vigore_da": "2014-04-11",
    "datazione": "api",
    "h": "527c01f1c585"
-  },
-  "237-septiesdecies": {
-   "file": "dlgs-152-2006.md",
-   "rubrica": "Obblighi di comunicazione, informazione, accesso e partecipazione",
-   "vigore_da": "2014-04-11",
-   "datazione": "api",
-   "h": "ac4cb29778a4"
   },
   "237-duodevicies": {
    "file": "dlgs-152-2006.md",
@@ -3660,9 +3675,9 @@
   "244": {
    "file": "dlgs-152-2006.md",
    "rubrica": "ordinanze",
-   "vigore_da": "2024-12-17",
+   "vigore_da": "2026-10-09",
    "datazione": "api",
-   "h": "6aee24581b34"
+   "h": "1f8f79828684"
   },
   "245": {
    "file": "dlgs-152-2006.md",
@@ -3716,9 +3731,9 @@
   "252": {
    "file": "dlgs-152-2006.md",
    "rubrica": "siti di interesse nazionale",
-   "vigore_da": "2021-07-31",
+   "vigore_da": "2026-10-09",
    "datazione": "api",
-   "h": "f83461d6a8e4"
+   "h": "ea4605f6b380"
   },
   "252-bis": {
    "file": "dlgs-152-2006.md",
@@ -3751,16 +3766,16 @@
   "255-bis": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Abbandono di rifiuti non pericolosi in casi particolari",
-   "vigore_da": "2025-10-08",
+   "vigore_da": "2026-10-31",
    "datazione": "api",
-   "h": "386473364b14"
+   "h": "0c140e98d4e0"
   },
   "255-ter": {
    "file": "dlgs-152-2006.md",
    "rubrica": "Abbandono di rifiuti pericolosi",
-   "vigore_da": "2025-08-09",
+   "vigore_da": "2026-10-31",
    "datazione": "api",
-   "h": "e84df081a97e"
+   "h": "213a1e88df46"
   },
   "256": {
    "file": "dlgs-152-2006.md",
@@ -3799,10 +3814,10 @@
   },
   "259-bis": {
    "file": "dlgs-152-2006.md",
-   "rubrica": "Aggravante dell'attivita' di impresa",
-   "vigore_da": "2025-10-08",
+   "rubrica": "Aggravante dell'attivita' d'impresa. Confisca",
+   "vigore_da": "2026-10-31",
    "datazione": "api",
-   "h": "ec9f64643459"
+   "h": "16ab65d41624"
   },
   "259-ter": {
    "file": "dlgs-152-2006.md",

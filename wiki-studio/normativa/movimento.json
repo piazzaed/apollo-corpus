@@ -1,19 +1,4 @@
 {
- "cod-consumo": {
-  "dal": "2026-10-12",
-  "atti_gu": [
-   {
-    "codice_gu": "26G00191",
-    "data_gu": "2026-10-07",
-    "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 176 — Attuazione della direttiva (UE) 2024/1799 del Parlamento europeo e del Consiglio, del 13 giugno 2024, recante norme comuni che promuovono la riparazione dei beni. (26G00191) Pag. 2",
-    "articoli": [],
-    "tutto_l_atto": true,
-    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/07/26G00191/sg",
-    "rilevato_il": "2026-10-12"
-   }
-  ],
-  "stato": "in_movimento"
- },
  "reg-cds": {
   "dal": "2026-10-19",
   "atti_gu": [
@@ -53,23 +38,6 @@
     "tutto_l_atto": true,
     "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26G00206/sg",
     "rilevato_il": "2026-10-23"
-   }
-  ],
-  "stato": "in_movimento"
- },
- "cap": {
-  "dal": "2026-10-19",
-  "atti_gu": [
-   {
-    "codice_gu": "26G00202",
-    "data_gu": "2026-10-15",
-    "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 184 — Recepimento della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, e adeguamento dell'ordinamento nazionale alle disposizioni dei regolamenti (UE) 2023/2859 e (UE) 2023/2869 del Parlamento europeo e del Consiglio, ",
-    "articoli": [
-     "1"
-    ],
-    "tutto_l_atto": true,
-    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26G00202/sg",
-    "rilevato_il": "2026-10-19"
    }
   ],
   "stato": "in_movimento"
@@ -136,6 +104,62 @@
     "tutto_l_atto": false,
     "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/23/26G00216/sg",
     "rilevato_il": "2026-10-24"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "dpr-602-1973": {
+  "dal": "2026-11-02",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00215",
+    "data_gu": "2026-10-29",
+    "titolo": "DECRETO 5 agosto 2026, n. 198 — Regolamento in attuazione dell'articolo 12 della legge 10 novembre 2021, n. 175, recante «Disposizioni per la cura delle malattie rare e per il sostegno della ricerca e della produzione dei farmaci orfani». (26G00215) Pag. 1",
+    "articoli": [
+     "3",
+     "37",
+     "38"
+    ],
+    "tutto_l_atto": false,
+    "dentro_virgolettato": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/29/26G00215/sg",
+    "rilevato_il": "2026-11-02"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "dl-203-2005": {
+  "dal": "2026-11-02",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00215",
+    "data_gu": "2026-10-29",
+    "titolo": "DECRETO 5 agosto 2026, n. 198 — Regolamento in attuazione dell'articolo 12 della legge 10 novembre 2021, n. 175, recante «Disposizioni per la cura delle malattie rare e per il sostegno della ricerca e della produzione dei farmaci orfani». (26G00215) Pag. 1",
+    "articoli": [
+     "3"
+    ],
+    "tutto_l_atto": false,
+    "dentro_virgolettato": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/29/26G00215/sg",
+    "rilevato_il": "2026-11-02"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "l-689-1981": {
+  "dal": "2026-11-02",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00217",
+    "data_gu": "2026-10-30",
+    "titolo": "DECRETO LEGISLATIVO 9 ottobre 2026, n. 199 — Disposizioni di attuazione dell'articolo 27 della legge 13 giugno 2025, n. 91, per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2022/1616 della Commissione, del 15 settembre 2022, relativo ai materiali e agli oggetti di m",
+    "articoli": [
+     "11"
+    ],
+    "tutto_l_atto": false,
+    "dentro_virgolettato": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/30/26G00217/sg",
+    "rilevato_il": "2026-11-02"
    }
   ],
   "stato": "in_movimento"

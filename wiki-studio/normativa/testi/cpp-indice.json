@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "cpp",
   "nome": "Codice di procedura penale (D.P.R. 447/1988)",
-  "snapshot": "2026-10-13",
+  "snapshot": "2026-11-02",
   "formato": 2,
-  "consolidato_normattiva": "2026-09-30",
-  "articoli": 907,
+  "consolidato_normattiva": "2026-10-31",
+  "articoli": 908,
   "file": [
    "cpp-1.md",
    "cpp-2.md",
@@ -1672,17 +1672,27 @@
     "data": "2026-09-29",
     "evento": "rp350",
     "atto_modificante": "D.L. 29 settembre 2026, n. 168"
+   },
+   {
+    "data": "2026-10-16",
+    "evento": "rp351",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 186"
+   },
+   {
+    "data": "2026-10-22",
+    "evento": "rp352",
+    "atto_modificante": "D.L. 22 ottobre 2026, n. 190"
    }
   ],
-  "ultima_versione": "2026-09-29",
+  "ultima_versione": "2026-10-22",
   "datazione": {
-   "monoblocco": 907,
-   "api": 4,
-   "riportati": 901,
-   "ignota": 2,
-   "testo_diverso": 2,
+   "monoblocco": 908,
+   "api": 0,
+   "riportati": 902,
+   "ignota": 6,
+   "falliti": 6,
    "chiamate": 6,
-   "urn_api": "urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447",
+   "assenti": 6,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -4791,9 +4801,9 @@
   "371-bis": {
    "file": "cpp-5.md",
    "rubrica": "Attivita' di coordinamento del procuratore nazionale antimafia e antiterrorismo",
-   "vigore_da": "2026-09-30",
-   "datazione": "api",
-   "h": "2076474a0feb"
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "c62981cfa6f8"
   },
   "372": {
    "file": "cpp-5.md",
@@ -4875,9 +4885,9 @@
   "382-bis": {
    "file": "cpp-5.md",
    "rubrica": "Arresto in flagranza differita",
-   "vigore_da": "2026-02-25",
-   "datazione": "api",
-   "h": "8f25d6e34439"
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "be5984c0b8e2"
   },
   "383": {
    "file": "cpp-5.md",
@@ -5358,9 +5368,9 @@
   "430": {
    "file": "cpp-5.md",
    "rubrica": "Attivita' integrativa di indagine del pubblico ministero e del difensore",
-   "vigore_da": "2001-01-18",
-   "datazione": "api",
-   "h": "4216a07429ac"
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "4ddab62eec86"
   },
   "430-bis": {
    "file": "cpp-5.md",
@@ -6215,6 +6225,13 @@
    "vigore_da": "1989-10-24",
    "datazione": "api",
    "h": "f253873e868f"
+  },
+  "536-bis": {
+   "file": "cpp-7.md",
+   "rubrica": "Disposizioni in materia di confisca per equivalente",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "3bcb43fb57b5"
   },
   "537": {
    "file": "cpp-7.md",

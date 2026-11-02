@@ -1,6 +1,6 @@
 # Testo unico bancario (D.Lgs. 385/1993) — Testo unico bancario (D.Lgs. 385/1993)
 
-<!-- codice: tub · snapshot: 2026-09-23 · consolidato-normattiva: 2026-06-19 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.legislativo:1993-09-01;385) -->
+<!-- codice: tub · snapshot: 2026-11-02 · consolidato-normattiva: 2026-10-30 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.legislativo:1993-09-01;385) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -8,7 +8,7 @@
 > evidenze di modifica di normattiva, mantenute apposta.
 
 ### Art. 1 — Definizioni
-<!-- vigore_da: 2026-01-09 -->
+<!-- vigore_da: 2026-10-30 -->
 
 1. Nel presente decreto legislativo l'espressione:
 
@@ -63,6 +63,8 @@ l) "autorita' competenti" indica, a seconda dei casi, uno o piu' fra le autorita
 l-bis) «autorita' antiriciclaggio» indica le autorita' responsabili della vigilanza sui soggetti obbligati di cui all'articolo 2, paragrafo 1, punti 1 e 2, della direttiva (UE) 2015/849, ai fini del rispetto degli obblighi previsti dalla medesima direttiva;
 
 l-ter) «autorita' di vigilanza su base consolidata» indica l'autorita' di vigilanza su base consolidata come definita all'articolo 4, paragrafo 1, punto 41, del regolamento (UE) n. 575/2013;
+
+l-quater) (("ESAP": il punto di accesso unico europeo che fornisce un accesso elettronico centralizzato alle informazioni accessibili al pubblico pertinenti per i servizi finanziari, i mercati dei capitali e la sostenibilita', con le caratteristiche previste dal regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023.))
 m)LETTERA SOPPRESSA DAL D.LGS. 12 MAGGIO 2015, N. 72.
 
 2. Nel presente decreto legislativo si intendono per:
@@ -71,7 +73,7 @@ a) "banca italiana": la banca avente sede legale in Italia;
 
 b) "banca dell'Unione europea": la banca avente sede legale e amministrazione centrale in un medesimo Stato dell'Unione europea diverso dall'Italia;
 
-c) (("banca di Stato terzo": ogni impresa avente sede legale in uno Stato terzo in cui e' autorizzata a prestare una o piu' attivita' per le quali, se fosse stabilita in Italia, dovrebbe essere autorizzata ai sensi dell'articolo 14 o dell'articolo 20-bis.1 del decreto legislativo 24 febbraio 1998, n. 58;))
+c) "banca di Stato terzo": ogni impresa avente sede legale in uno Stato terzo in cui e' autorizzata a prestare una o piu' attivita' per le quali, se fosse stabilita in Italia, dovrebbe essere autorizzata ai sensi dell'articolo 14 o dell'articolo 20-bis.1 del decreto legislativo 24 febbraio 1998, n. 58;
 
 d) "soggetto significativo": i soggetti definiti dall'articolo 2, n. 16, del regolamento (UE) n. 468/2014, sui quali la BCE esercita la vigilanza diretta in conformita' delle disposizioni del MVU;
 
@@ -8079,14 +8081,10 @@ AGGIORNAMENTO (38)
 
 Il D.Lgs. 14 dicembre 2010, n. 218, nel modificare il D.Lgs. 13 agosto 2010, n. 141, ha disposto (con l'art. 16, comma 8) che "Le disposizioni modificate, introdotte o sostituite dal presente decreto si applicano a decorrere dalla data di entrata in vigore dei corrispondenti articoli del decreto legislativo 13 agosto 2010, n. 141. I termini di conclusione dei procedimenti amministrativi, stabiliti da norme di legge o di regolamento, pendenti alla data del 19 settembre 2010, sono prorogati fino a 120 giorni successivi alla data di entrata in vigore del presente decreto".
 
-### Art. 145-ter — Comunicazione all'ABE sulle sanzioni applicate
-<!-- vigore_da: 2015-06-27 -->
+### Art. 145-ter — Comunicazione all'ABE e all'ESAP sulle sanzioni applicate
+<!-- vigore_da: 2026-10-30 -->
 
-((
-
-1. La Banca d'Italia comunica all'ABE le sanzioni amministrative applicate ai sensi del presente titolo, ivi comprese quelle pubblicate in forma anonima, nonche' le informazioni ricevute dai soggetti interessati sulle azioni da essi avviate avverso i provvedimenti sanzionatori e sull'esito delle stesse.
-
-))
+1. La Banca d'Italia comunica all'ABE le sanzioni amministrative applicate ai sensi del presente titolo, ivi comprese quelle pubblicate in forma anonima, nonche' le informazioni ricevute dai soggetti interessati sulle azioni da essi avviate avverso i provvedimenti sanzionatori e sull'esito delle stesse. ((La Banca d'Italia comunica all'ESAP le informazioni relative alle sanzioni amministrative applicate per le quali e' organismo di raccolta ai sensi degli articoli 4 e 5 del decreto legislativo adottato in attuazione dell'articolo 22 della legge 13 giugno 2025, n. 91.))
 
 ### Art. 145-quater — Disposizioni di attuazione
 <!-- vigore_da: 2015-06-27 -->

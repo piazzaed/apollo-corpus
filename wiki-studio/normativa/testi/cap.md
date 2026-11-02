@@ -1,6 +1,6 @@
 # Codice delle assicurazioni private (D.Lgs. 209/2005) — Codice delle assicurazioni private (D.Lgs. 209/2005)
 
-<!-- codice: cap · snapshot: 2026-09-23 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.legislativo:2005-09-07;209) -->
+<!-- codice: cap · snapshot: 2026-11-02 · consolidato-normattiva: 2026-10-30 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.legislativo:2005-09-07;209) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -8,7 +8,7 @@
 > evidenze di modifica di normattiva, mantenute apposta.
 
 ### Art. 1 — Definizioni
-<!-- vigore_da: 2023-12-28 -->
+<!-- vigore_da: 2026-10-30 -->
 
 1. Agli effetti del codice delle assicurazioni private si intendono per:
 
@@ -66,6 +66,8 @@ n-ter) «ECAI» o «agenzia esterna di valutazione del merito di credito»: un'a
 n-quater) effetti di diversificazione: la riduzione dell'esposizione al rischio dell'impresa di assicurazione o di riassicurazione o del gruppo dovuta alla diversificazione della loro attivita', derivante dal fatto che il risultato sfavorevole di un rischio puo' essere compensato dal risultato piu' favorevole di un altro, quando tali rischi non siano pienamente correlati;
 
 n-quinquies) esternalizzazione: l'accordo concluso tra un'impresa di assicurazione o di riassicurazione e un fornitore di servizi, anche se non autorizzato all'esercizio dell'attivita' assicurativa o riassicurativa, in base al quale il fornitore di servizi esegue una procedura, un servizio o un'attivita', direttamente o tramite sub esternalizzazione, che sarebbero altrimenti realizzati dall'impresa di assicurazione o di riassicurazione stessa;
+
+n-sexies) ((ESAP: il punto di accesso unico europeo che fornisce un accesso elettronico centralizzato alle informazioni accessibili al pubblico pertinenti per i servizi finanziari, i mercati dei capitali e la sostenibilita', con le caratteristiche previste dal regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023.))
 
 o) fondo di garanzia: un organismo creato da uno Stato membro che ha almeno il compito di rimborsare, entro i limiti dell'obbligo di assicurazione, i danni alle cose o alle persone causati da un veicolo non identificato o per il quale non vi e' stato adempimento dell'obbligo di assicurazione;
 
@@ -211,8 +213,7 @@ fff) Stato membro di ubicazione del rischio:
 2) lo Stato di cui alla lettera bbb) di immatricolazione, quando l'assicurazione riguardi veicoli di ogni tipo soggetti ad immatricolazione sia che si tratti di un veicolo con targa definitiva o targa temporanea;
 3) lo Stato di cui alla lettera bbb) in cui l'assicurato ha sottoscritto il contratto, quando abbia durata inferiore o pari a quattro mesi e sia relativo a rischi inerenti ad un viaggio o ad una vacanza;
 4) lo Stato di cui alla lettera bbb) in cui l'assicurato ha il domicilio, ovvero, se l'assicurato e' una persona giuridica, lo Stato della sede della stessa alla quale si riferisce il contratto, in tutti i casi non esplicitamente previsti dai numeri da 1 a 3;
-((4-bis) nel caso in cui un veicolo e' spedito da uno Stato membro ad un altro, a seconda della scelta della persona responsabile della copertura della responsabilita' civile, lo Stato membro di immatricolazione o, a decorrere dall'accettazione della consegna da parte dell'acquirente, lo Stato membro di destinazione, per un periodo di trenta giorni, anche se il veicolo non e' stato formalmente immatricolato nello Stato membro di destinazione;))
-((70))
+4-bis) nel caso in cui un veicolo e' spedito da uno Stato membro ad un altro, a seconda della scelta della persona responsabile della copertura della responsabilita' civile, lo Stato membro di immatricolazione o, a decorrere dall'accettazione della consegna da parte dell'acquirente, lo Stato membro di destinazione, per un periodo di trenta giorni, anche se il veicolo non e' stato formalmente immatricolato nello Stato membro di destinazione; (70)
 4-ter) lo Stato di cui alla lettera bbb) in cui si e' verificato il sinistro qualora il veicolo sia privo di targa o rechi una targa che non corrisponde piu' allo stesso veicolo.
 
 ggg) Stato membro d'origine: lo Stato membro dell'Unione europea o lo Stato aderente allo Spazio economico europeo in cui e' situata la sede legale dell'impresa di assicurazione che assume l'obbligazione o il rischio o dell'impresa di riassicurazione; con riferimento all'intermediazione, se l'intermediario e' una persona fisica, per Stato membro di origine, si intende lo Stato di residenza dell'intermediario; se e' una persona giuridica, si intende lo Stato membro in cui e' situata la sede legale, o se assente, la sede principale, da intendersi come il luogo a partire dal quale e' gestita l'attivita' principale; (45)
@@ -239,16 +240,13 @@ nnn) testo unico in materia di assicurazioni sugli infortuni sul lavoro e le mal
 ooo) Ufficio centrale italiano: l'ente costituito dalle imprese di assicurazione autorizzate ad esercitare il ramo responsabilita' civile autoveicoli che e' stato abilitato all'esercizio delle funzioni di Ufficio nazionale di assicurazione nel territorio della Repubblica ed allo svolgimento degli altri compiti previsti dall'ordinamento comunitario e italiano;
 ppp)Ufficio nazionale di assicurazione: l'organizzazione professionale che e' costituita, conformemente alla raccomandazione n. 5 adottata il 25 gennaio 1949 dal sottocomitato dei trasporti stradali del comitato dei trasporti interni della Commissione economica per l'Europa dell'Organizzazione delle Nazioni Unite, e che raggruppa imprese di assicurazione che hanno ottenuto in uno Stato l'autorizzazione ad esercitare il ramo responsabilita' civile autoveicoli;
 qqq) unita' da diporto: il natante definito all'articolo 1, comma 3, del decreto legislativo 18 luglio 2005, n. 171, recante il codice della nautica da diporto;
-((rrr) veicolo:
+rrr) veicolo:
 1) qualsiasi veicolo a motore azionato esclusivamente da una forza meccanica che circola sul suolo ma non su rotaia, con:
 1.1) una velocita' di progetto massima superiore a 25 km/h; o 1.2) un peso netto massimo superiore a 25 kg e una velocita' di progetto massima superiore a 14 km/h;
 2) qualsiasi rimorchio destinato ad essere utilizzato con un veicolo di cui al numero 1), a prescindere che sia ad esso agganciato o meno;
-3) i veicoli elettrici leggeri individuati con apposito decreto del Ministro delle imprese e del made in Italy e del Ministro delle infrastrutture e dei trasporti, di concerto con il Ministro dell'interno, da adottarsi entro il termine di novanta giorni dalla data di entrata in vigore della presente disposizione.))
-((70))
+3) i veicoli elettrici leggeri individuati con apposito decreto del Ministro delle imprese e del made in Italy e del Ministro delle infrastrutture e dei trasporti, di concerto con il Ministro dell'interno, da adottarsi entro il termine di novanta giorni dalla data di entrata in vigore della presente disposizione. (70)
 
-((1-bis. Fatti salvi i numeri 1) e 2) della lettera rrr) del comma 1, le sedie a rotelle destinate esclusivamente ad essere utilizzate da persone con disabilita' fisiche non sono considerate veicoli ai sensi del presente codice.))
-
-((70))
+1-bis. Fatti salvi i numeri 1) e 2) della lettera rrr) del comma 1, le sedie a rotelle destinate esclusivamente ad essere utilizzate da persone con disabilita' fisiche non sono considerate veicoli ai sensi del presente codice. (70)
 
 -------------
 AGGIORNAMENTO (45)
@@ -7070,6 +7068,43 @@ Il D.Lgs. 21 maggio 2018, n. 68 ha disposto (con l'art. 4, comma 7) che "Le disp
 <!-- vigore_da: 2015-06-30 -->
 
 1. L'((IVASS)) comunica alla Commissione europea le assicurazioni di cui la legge italiana dispone l'obbligatorieta', indicando le disposizioni, legislative e di attuazione, vigenti per ciascuna di esse e specifica le informazioni che e' necessario riportare nel documento che l'impresa di assicurazione consegna all'assicurato per l'attestazione dell'avvenuto assolvimento dell'obbligo.
+
+### Art. 209-bis — Recepimento degli articoli 7 e 13 della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, che modificano, rispettivamente, la direttiva 2009/138/CE, del Parlamento europeo e del Consiglio, del 25 novembre 2009 - Solvency II - e la direttiva (UE) 2016/97 del Parlamento europeo e del Consiglio, del 20 gennaio 2016 - IDD -
+<!-- vigore_da: 2026-10-30 -->
+
+1. ((A decorrere dal 10 gennaio 2030, quando rendono pubbliche informazioni di cui agli articoli 47-septies, comma 1 e 216-novies, comma 1, le imprese e le ultime societa' controllanti italiane di cui all'articolo 210, comma 2, trasmettono tali informazioni contemporaneamente all'organismo di raccolta di cui al comma 4 al fine di renderle accessibili tramite l'ESAP. Le informazioni di cui al primo periodo sono trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023 ovvero, ove previsto dal diritto dell'Unione europea, nel formato leggibile meccanicamente di cui all'articolo 2, punto 4), del medesimo regolamento (UE) 2023/2859, e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni dell'impresa a cui le informazioni fanno riferimento;))
+
+b) ((l'identificativo della persona giuridica dell'impresa, come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((le dimensioni dell'impresa per categoria, come specificate ai sensi dell'articolo 7, paragrafo 4, lettera d), del regolamento (UE) 2023/2859;))
+
+d) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+e) ((un'indicazione che precisi se le informazioni contengono dati personali, come definiti dall'articolo 2, punto 8), del regolamento (UE) 2023/2859.))
+
+2. ((A decorrere dal 10 gennaio 2030, le informazioni di cui agli articoli 237, commi 1 e 2, e 247, comma 1, sono rese accessibili tramite l'ESAP, trasmesse in un formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859, e sono corredate dai seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni dell'impresa a cui le informazioni fanno riferimento;))
+
+b) ((se disponibile, l'identificativo della persona giuridica dell'impresa come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+d) ((un'indicazione che precisi se le informazioni contengono dati personali.))
+
+3. ((A decorrere dal 10 gennaio 2030, le informazioni di cui all'articolo 325-ter relative ai provvedimenti di applicazione delle sanzioni e delle altre misure per le violazioni delle disposizioni in materia di realizzazione e di distribuzione dei prodotti assicurativi, inclusi i prodotti di investimento assicurativo, sono rese accessibili tramite l'ESAP, trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859, e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni del soggetto a cui le informazioni fanno riferimento;))
+
+b) ((se disponibile, l'identificativo della persona giuridica del soggetto, come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+d) ((un'indicazione che precisi se le informazioni contengono dati personali.))
+
+4. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui ai commi 1, 2 e 3, l'IVASS e' organismo di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859.))
 
 ### Art. 210 — Vigilanza sul gruppo
 <!-- vigore_da: 2015-06-30 -->

@@ -1,6 +1,6 @@
 # Codice di procedura penale (D.P.R. 447/1988) — Libro II — Atti
 
-<!-- codice: cpp · snapshot: 2026-10-13 · consolidato-normattiva: 2026-09-30 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447:1) -->
+<!-- codice: cpp · snapshot: 2026-11-02 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.

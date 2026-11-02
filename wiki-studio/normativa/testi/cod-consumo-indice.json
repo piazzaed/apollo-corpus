@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "cod-consumo",
   "nome": "Codice del consumo (D.Lgs. 206/2005)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-11-02",
   "formato": 2,
-  "consolidato_normattiva": "2026-06-19",
-  "articoli": 242,
+  "consolidato_normattiva": "2026-10-22",
+  "articoli": 253,
   "file": [
    "cod-consumo.md"
   ],
@@ -322,17 +322,22 @@
     "data": "2026-05-15",
     "evento": "rp61",
     "atto_modificante": "D.Lgs. 8 aprile 2026, n. 78"
+   },
+   {
+    "data": "2026-10-07",
+    "evento": "rp62",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 176"
    }
   ],
-  "ultima_versione": "2026-05-15",
+  "ultima_versione": "2026-10-07",
   "datazione": {
-   "monoblocco": 242,
-   "api": 168,
-   "riportati": 72,
+   "monoblocco": 253,
+   "api": 16,
+   "riportati": 235,
    "ignota": 2,
    "testo_diverso": 2,
-   "stima_anteriore": 107,
-   "chiamate": 170,
+   "stima_anteriore": 3,
+   "chiamate": 18,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1583,6 +1588,76 @@
    "datazione": "api",
    "h": "043054731a27"
   },
+  "127-bis": {
+   "file": "cod-consumo.md",
+   "rubrica": "Ambito di applicazione",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "c669f6386e0f"
+  },
+  "127-ter": {
+   "file": "cod-consumo.md",
+   "rubrica": "Definizioni",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "cf65965776db"
+  },
+  "127-quater": {
+   "file": "cod-consumo.md",
+   "rubrica": "Modulo europeo di informazioni sulla riparazione",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "866d16b2d588"
+  },
+  "127-quinquies": {
+   "file": "cod-consumo.md",
+   "rubrica": "Obbligo di riparazione",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "e7da17bf6307"
+  },
+  "127-sexies": {
+   "file": "cod-consumo.md",
+   "rubrica": "Informazioni sull'obbligo di riparazione",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "b09f787509d4"
+  },
+  "127-septies": {
+   "file": "cod-consumo.md",
+   "rubrica": "Sezione nazionale della piattaforma online europea per la riparazione",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "344720baab99"
+  },
+  "127-octies": {
+   "file": "cod-consumo.md",
+   "rubrica": "Punto di contatto nazionale",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "62165737bc4d"
+  },
+  "127-novies": {
+   "file": "cod-consumo.md",
+   "rubrica": "Informazioni ai consumatori",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "995e827cf8da"
+  },
+  "127-decies": {
+   "file": "cod-consumo.md",
+   "rubrica": "Carattere imperativo delle disposizioni",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "aa26f28111e7"
+  },
+  "127-undecies": {
+   "file": "cod-consumo.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "dddda3773c12"
+  },
   "128": {
    "file": "cod-consumo.md",
    "rubrica": "Ambito di applicazione e definizioni",
@@ -1593,9 +1668,9 @@
   "129": {
    "file": "cod-consumo.md",
    "rubrica": "Conformita' dei beni al contratto",
-   "vigore_da": "2021-12-10",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "e6462af88ef5"
+   "h": "66b3567eea5c"
   },
   "130": {
    "file": "cod-consumo.md",
@@ -1621,9 +1696,9 @@
   "133": {
    "file": "cod-consumo.md",
    "rubrica": "Responsabilita' del venditore",
-   "vigore_da": "2021-12-10",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "6829ebf651ff"
+   "h": "c9f71ae1468f"
   },
   "134": {
    "file": "cod-consumo.md",
@@ -1642,16 +1717,16 @@
   "135-bis": {
    "file": "cod-consumo.md",
    "rubrica": "Rimedi",
-   "vigore_da": "2021-12-10",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "85d7f562a07e"
+   "h": "b30d430d0a58"
   },
   "135-ter": {
    "file": "cod-consumo.md",
    "rubrica": "Riparazione o sostituzione",
-   "vigore_da": "2021-12-10",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "df93beadbbb3"
+   "h": "15981f4a1859"
   },
   "135-quater": {
    "file": "cod-consumo.md",
@@ -1792,6 +1867,13 @@
    "vigore_da": "2021-12-11",
    "datazione": "api",
    "h": "126db89a33ce"
+  },
+  "135-vicies-quater": {
+   "file": "cod-consumo.md",
+   "rubrica": "Sanzioni",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "3ea38947f7a1"
   },
   "136": {
    "file": "cod-consumo.md",
@@ -2013,9 +2095,9 @@
   "144-bis": {
    "file": "cod-consumo.md",
    "rubrica": "Cooperazione tra le autorita' nazionali per la tutela dei consumatori",
-   "vigore_da": "2026-01-10",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "00433163fa7e"
+   "h": "ad40ebe049ef"
   },
   "145": {
    "file": "cod-consumo.md",

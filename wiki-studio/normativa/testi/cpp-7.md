@@ -1,6 +1,6 @@
 # Codice di procedura penale (D.P.R. 447/1988) — Libro VII — Giudizio
 
-<!-- codice: cpp · snapshot: 2026-10-13 · consolidato-normattiva: 2026-09-30 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447:1) -->
+<!-- codice: cpp · snapshot: 2026-11-02 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -943,6 +943,10 @@ E' possibile visualizzare il testo originario accedendo alla versione pdf della 
 <!-- vigore_da: 1989-10-24 -->
 
 1. Nei casi previsti dall'articolo 36 del codice penale, il giudice stabilisce nel dispositivo se la sentenza deve essere pubblicata per intero o per estratto e designa il giornale o i giornali in cui deve essere inserita.
+
+### Art. 536-bis — Disposizioni in materia di confisca per equivalente
+
+((In tutti i casi in cui deve essere disposta la confisca per equivalente, il giudice con la sentenza di condanna, individua specificamente i beni di valore equivalente assoggettati a confisca oppure determina la somma di denaro di valore equivalente oggetto della confisca.))
 
 ### Art. 537 — Pronuncia sulla falsita' di documenti
 <!-- vigore_da: 1989-10-24 -->

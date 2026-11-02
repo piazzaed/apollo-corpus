@@ -1,6 +1,6 @@
 # Codice di procedura penale (D.P.R. 447/1988) — Libro V — Indagini preliminari e udienza preliminare
 
-<!-- codice: cpp · snapshot: 2026-10-13 · consolidato-normattiva: 2026-09-30 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447:1) -->
+<!-- codice: cpp · snapshot: 2026-11-02 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -761,9 +761,8 @@ c) se la prova di piu' reati deriva, anche in parte, dalla stessa fonte.
 3. Salvo quanto disposto dall'articolo 12, il collegamento delle indagini non ha effetto sulla competenza.
 
 ### Art. 371-bis — Attivita' di coordinamento del procuratore nazionale antimafia e antiterrorismo
-<!-- vigore_da: 2026-09-30 -->
 
-1. Il procuratore nazionale antimafia e antiterrorismo esercita le sue funzioni in relazione ai procedimenti per i delitti indicati nell'articolo 51 comma 3-bis e comma 3-quater e in relazione ai procedimenti di prevenzione antimafia e antiterrorismo. In relazione ai procedimenti per i delitti di cui all'articolo 51, comma 3-bis dispone della direzione investigativa antimafia e dei servizi centrali e interprovinciali delle forze di polizia e impartisce direttive intese a regolarne l'impiego a fini investigativi. In relazione ai procedimenti per i delitti di cui all'articolo 51, comma 3-quater, si avvale altresi' dei servizi centrali e interprovinciali delle forze di polizia e impartisce direttive intese a regolarne l'impiego a fini investigativi.
+1. Il procuratore nazionale antimafia e antiterrorismo esercita le sue funzioni in relazione ai procedimenti per i delitti indicati nell'articolo 51 comma 3-bis e comma 3-quater e in relazione ai procedimenti di prevenzione antimafia e antiterrorismo. In relazione ai procedimenti per i delitti di cui all'articolo 51, comma 3-bis dispone della direzione investigativa antimafia e dei servizi centrali e interprovinciali delle forze di polizia e impartisce direttive intese a regolarne l'impiego a fini investigativi. In relazione ai procedimenti per i delitti di cui all'articolo 51, comma 3-quater, si avvale altresi' dei servizi centrali e interprovinciali delle forze di polizia e impartisce direttive intese a regolarne l'impiego a fini investigativi. ((In ogni caso il procuratore nazionale antimafia e antiterrorismo esercita le attivita' di cui al secondo e al terzo periodo anche al fine di individuare i beni di cui e' consentita la confisca)).
 
 2. Il procuratore nazionale antimafia e antiterrorismo esercita funzioni di impulso nei confronti dei procuratori distrettuali al fine di rendere effettivo il coordinamento delle attivita' di indagine, di garantire la funzionalita' dell'impiego della polizia giudiziaria nelle sue diverse articolazioni e di assicurare la completezza e tempestivita' delle investigazioni.
 
@@ -784,7 +783,7 @@ h) dispone con decreto motivato, reclamabile al procuratore generale presso la c
 
 4-bis. Il procuratore nazionale antimafia e antiterrorismo esercita le funzioni di impulso di cui al comma 2 anche in relazione ai procedimenti per i delitti di cui agli articoli 615-ter, terzo comma, 635-ter e 635-quinquies del codice penale nonche', quando i fatti sono commessi in danno di un sistema informatico o telematico utilizzato dallo Stato o da altro ente pubblico o da impresa esercente servizi pubblici o di pubblica necessita', in relazione ai procedimenti per i delitti di cui agli articoli 617-quater, 617-quinquies e 617-sexies del codice penale. Si applicano altresi' le disposizioni dei commi 3 e 4 del presente articolo. Le disposizioni di cui al presente comma si applicano altresi' in relazione ai procedimenti per i reati di cui agli articoli 275-bis, 275-ter, 275-quater e 275-quinquies del codice penale e di cui all'articolo 12, comma 1, aggravato ai sensi del comma 1-bis, del decreto legislativo 25 luglio 1998, n. 286.
 
-4-ter. ((Le disposizioni di cui al presente articolo si applicano anche ai procedimenti a carico di minorenni. In questo caso le funzioni del procuratore nazionale antimafia e antiterrorismo sono esercitate nei confronti del procuratore della Repubblica presso il Tribunale per i minorenni.))
+4-ter. Le disposizioni di cui al presente articolo si applicano anche ai procedimenti a carico di minorenni. In questo caso le funzioni del procuratore nazionale antimafia e antiterrorismo sono esercitate nei confronti del procuratore della Repubblica presso il Tribunale per i minorenni.
 
 -------------
 AGGIORNAMENTO (28)
@@ -1026,14 +1025,13 @@ m-quinquies) delitto di lesioni colpose stradali o nautiche gravi o gravissime p
 2. Nel reato permanente lo stato di flagranza dura fino a quando non e' cessata la permanenza.
 
 ### Art. 382-bis — Arresto in flagranza differita
-<!-- vigore_da: 2026-02-25 -->
 
 1. Nei casi di cui agli articoli 387-bis, 572 e 612-bis del codice penale, si considera comunque in stato di flagranza colui il quale, sulla base di documentazione videofotografica o di altra documentazione legittimamente ottenuta da dispositivi di comunicazione informatica o telematica, dalla quale emerga inequivocabilmente il fatto, ne risulta autore, sempre che l'arresto sia compiuto non oltre il tempo necessario alla sua identificazione e, comunque, entro le quarantotto ore dal fatto.
-1.1. Le disposizioni di cui al comma 1 si applicano, altresi', nei casi di cui agli articoli 452-bis, 452-ter, 452-quater, 452-sexies e 452-quaterdecies del codice penale e nei casi di cui agli articoli 255-bis, 255-ter, 256, commi 1, secondo periodo, 1-bis, 3 e 3-bis, 256-bis e 259 del decreto legislativo 3 aprile 2006, n. 152.
+1.1. Le disposizioni di cui al comma 1 si applicano, altresi', nei casi di cui agli articoli 452-bis, 452-ter, 452-quater, 452-sexies e 452-quaterdecies del codice penale e nei casi di cui agli articoli ((419, 420, 420-bis, 635.1)) 255-bis, 255-ter, 256, commi 1, secondo periodo, 1-bis, 3 e 3-bis, 256-bis e 259 del decreto legislativo 3 aprile 2006, n. 152.
 
 1-bis. Le disposizioni di cui al comma 1 si applicano altresi' nei casi di delitti non colposi per i quali e' previsto l'arresto in flagranza, commessi all'interno o nelle pertinenze delle strutture sanitarie o socio-sanitarie residenziali o semiresidenziali, pubbliche o private, in danno di persone esercenti una professione sanitaria o socio-sanitaria nell'esercizio o a causa delle funzioni o del servizio nonche' di chiunque svolga attivita' ausiliarie di cura, assistenza sanitaria o soccorso, funzionali allo svolgimento di dette professioni, nell'esercizio o a causa di tali attivita', ovvero commessi su cose ivi esistenti o comunque destinate al servizio sanitario o socio-sanitario, quando non e' possibile procedere immediatamente all'arresto per ragioni di sicurezza o incolumita' pubblica o individuale ovvero per ragioni inerenti alla regolare erogazione del servizio.
 
-1-ter. ((Le disposizioni di cui al comma 1 si applicano altresi' nei casi di cui all'articolo 192, comma 7-bis, del codice della strada di cui al decreto legislativo 30 aprile 1992, n. 285, quando non e' possibile procedere immediatamente all'arresto per ragioni di sicurezza o incolumita' pubblica o individuale.))
+1-ter. Le disposizioni di cui al comma 1 si applicano altresi' nei casi di cui all'articolo 192, comma 7-bis, del codice della strada di cui al decreto legislativo 30 aprile 1992, n. 285, quando non e' possibile procedere immediatamente all'arresto per ragioni di sicurezza o incolumita' pubblica o individuale.
 
 ### Art. 383 — Facolta' di arresto da parte dei privati
 <!-- vigore_da: 1989-10-24 -->
@@ -1481,6 +1479,7 @@ La Corte costituzionale, con sentenza 13-29 gennaio 2005 n. 63 (in G.U. 1a s.s. 
 1. Se il pubblico ministero o il difensore della persona sottoposta alle indagini chiede che la prova si estenda ai fatti o alle dichiarazioni previsti dall'articolo 401 comma 6, il giudice, se ne ricorrono i requisiti, dispone le necessarie notifiche a norma dell'articolo 398 comma 3 rinviando l'udienza per il tempo strettamente necessario e comunque non oltre tre giorni. La richiesta non e' accolta se il rinvio pregiudica l'assunzione della prova.
 
 ### Art. 403 — Utilizzabilita' nel dibattimento delle prove assunte con incidente probatorio
+<!-- vigore_da: 1997-08-12 -->
 
 1. Nel dibattimento le prove assunte con l'incidente probatorio sono utilizzabili soltanto nei confronti degli imputati i cui difensori hanno partecipato alla loro assunzione.
 
@@ -1515,6 +1514,7 @@ AGGIORNAMENTO (166)
 La Corte Costituzionale con sentenza 20 - 24 aprile 2009, n. 121 (in G.U. 1a s.s. 29/04/2009, n. 17) ha dichiarato l'illegittimita' costituzionale dell'art. 405, comma 1-bis, del codice di procedura penale, aggiunto dall'art. 3 della legge 20 febbraio 2006, n. 46 (Modifiche al codice di procedura penale, in materia di inappellabilita' delle sentenze di proscioglimento).
 
 ### Art. 406 — Proroga dei termini
+<!-- vigore_da: 2024-07-17 -->
 
 1. Il pubblico ministero, prima della scadenza, puo' richiedere al giudice, quando le indagini sono complesse, la proroga del termine previsto dall'articolo 405. La richiesta contiene l'indicazione della notizia di reato e l'esposizione dei motivi che la giustificano.
 
@@ -1597,6 +1597,7 @@ AGGIORNAMENTO (293)
 Il D.Lgs. 10 ottobre 2022, n. 150, come modificato dal D.L. 31 ottobre 2022, n. 162, convertito con modificazioni dalla L. 30 dicembre 2022, n. 199, ha disposto (con l'art. 88-bis, comma 1) che "Le disposizioni degli articoli 335-quater, 407-bis e 415-ter del codice di procedura penale, come introdotte dal presente decreto, non si applicano nei procedimenti pendenti alla data di entrata in vigore del presente decreto in relazione alle notizie di reato delle quali il pubblico ministero ha gia' disposto l'iscrizione nel registro di cui all'articolo 335 del codice di procedura penale, nonche' in relazione alle notizie di reato iscritte successivamente, quando ricorrono le condizioni previste dall'articolo 12 del codice di procedura penale e, se si procede per taluno dei delitti indicati nell'articolo 407, comma 2, del codice di procedura penale, anche quando ricorrono le condizioni previste dall'articolo 371, comma 2, lettere b) e c), del medesimo codice".
 
 ### Art. 408 — Richiesta di archiviazione per infondatezza della notizia di reato
+<!-- vigore_da: 2024-04-04 -->
 
 1. Quando gli elementi acquisiti nel corso delle indagini preliminari non consentono di formulare una ragionevole previsione di condanna o di applicazione di una misura di sicurezza diversa dalla confisca, il pubblico ministero, presenta al giudice richiesta di archiviazione. Con la richiesta e' trasmesso il fascicolo contenente la notizia di reato, la documentazione relativa alle indagini espletate e i verbali degli atti compiuti davanti al giudice per le indagini preliminari.
 
@@ -1632,6 +1633,7 @@ Entro due giorni dalla formulazione dell'imputazione, il giudice fissa con decre
 3. Fuori dei casi previsti dal comma 2, il giudice provvede a norma dell'articolo 409 commi 2, 3, 4 e 5, ma, in caso di piu' persone offese, l'avviso per l'udienza e' notificato al solo opponente.
 
 ### Art. 410-bis — Nullita' del provvedimento di archiviazione
+<!-- vigore_da: 2017-08-03 -->
 
 ((
 
@@ -2188,13 +2190,12 @@ AGGIORNAMENTO (310)
 Il D.Lgs. 7 dicembre 2023, n. 203 ha disposto (con l'art. 7, comma 2) che "Le disposizioni di cui all'articolo 4 non si applicano nei procedimenti in cui, alla data di entrata in vigore del presente decreto, gli avvisi di fissazione di udienza preliminare e i decreti che dispongono il giudizio o che citano l'imputato a giudizio sono stati gia' emessi".
 
 ### Art. 430 — Attivita' integrativa di indagine del pubblico ministero e del difensore
-<!-- vigore_da: 2001-01-18 -->
-
-((
 
 1. Successivamente all'emissione del decreto che dispone il giudizio, il pubblico ministero e il difensore possono, ai fini delle proprie richieste al giudice del dibattimento, compiere attivita' integrativa di indagine, fatta eccezione degli atti pe ri quali e' prevista la partecipazione dell'imputato o del difensore di questo.
 
-2. La documentazione relativa all'attivita' indicata nel comma 1 e' immediatamente depositata nella segreteria del pubblico ministero con facolta' delle parti di prenderne visione e di estrarne copia)).
+1-bis. ((Il pubblico ministero puo' compiere ogni attivita' di indagine che si renda necessaria al fine di individuare i beni, il denaro o le altre utilita' da sottoporre a confisca obbligatoria nei casi previsti dalla legge.))
+
+2. La documentazione relativa all'attivita' indicata nel ((commi 1 e 1-bis)) e' immediatamente depositata nella segreteria del pubblico ministero con facolta' delle parti di prenderne visione e di estrarne copia.
 
 ### Art. 430-bis
 <!-- vigore_da: 2000-01-02 -->

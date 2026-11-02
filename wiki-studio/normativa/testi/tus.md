@@ -1,6 +1,6 @@
 # Testo unico imposta sulle successioni e donazioni (D.Lgs. 346/1990) — Testo unico imposta sulle successioni e donazioni (D.Lgs. 346/1990)
 
-<!-- codice: tus · snapshot: 2026-09-23 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.legislativo:1990-10-31;346) -->
+<!-- codice: tus · snapshot: 2026-11-02 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.legislativo:1990-10-31;346) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -234,7 +234,7 @@ Il D.Lgs. 18 settembre 2024, n. 139 ha disposto (con l'art. 9, comma 3) che "Le 
 ### Art. 15 — Aziende, navi e aeromoboli
 <!-- vigore_da: 2024-10-03 -->
 
-1. La base imponibile, relativamente alle aziende comprese nell'attivo ereditario, e' determinata assumendo il valore complessivo, alla data di apertura della successione, dei beni e dei diritti che le compongono, esclusi i beni indicati nell'art. 12, al netto delle passivita' risultanti a norma degli articoli da 2l a 23.
+1. La base imponibile, relativamente alle aziende comprese nell'attivo ereditario, e' determinata assumendo il valore complessivo, alla data di apertura della successione, dei beni e dei diritti che le compongono, esclusi i beni indicati nell'art. 12, al netto delle passivita' risultanti a norma degli articoli da 21 a 23.
 Se il defunto era obbligato alla redazione dell'inventario di cui all'art. 2217 del codice civile, si ha riguardo alle attivita' e alle passivita' indicate nell'ultimo inventario regolarmente redatto ((...)), tenendo conto dei mutamenti successivamente intervenuti.((50))
 2. Il valore delle navi o imbarcazioni e degli aeromobili, che non fanno parte di aziende, e' desunto dai prezzi mediamente praticati sul mercato per beni della stessa specie di nuova costruzione, tenendo conto del tempo trascorso dall'acquisto e dello stato di conservazione.
 3. In caso di usufrutto o di uso dei beni indicati nei commi 1 e 2 si applicano le disposizioni dell'art. 14, comma 1, lettere b) e c).

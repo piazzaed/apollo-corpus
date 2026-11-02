@@ -1,11 +1,94 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-10-26 · 534 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-11-02 · 582 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Testo unico imposta sulle successioni e donazioni (D.Lgs. 346/1990) (`tus`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 15 — Aziende, navi e aeromoboli | modificato | 2024-10-03 → 2024-10-03 | non indicato nell’AKN | 2026-09-23 → 2026-11-02 |
+
+## Testo unico bancario (D.Lgs. 385/1993) (`tub`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 145-ter — Comunicazione all'ABE e all'ESAP sulle sanzioni applicate | modificato | 2015-06-27 → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184 | 2026-09-23 → 2026-11-02 |
+| Art. 1 — Definizioni | modificato | 2026-01-09 → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184 | 2026-09-23 → 2026-11-02 |
+
+## Codice delle comunicazioni elettroniche (D.Lgs. 259/2003) (`dlgs-259-2003`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 216 — Impianti od apparecchi installati nelle navi ed aerei nazionali - Inosservanza di norme - Sanzioni | datazione | — → 2003-09-16 | non indicato nell’AKN | 2026-10-24 → 2026-11-02 |
+
+## Codice dell'ambiente (D.Lgs. 152/2006) (`dlgs-152-2006`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 259-bis — Aggravante dell'attivita' d'impresa. Confisca | modificato | 2025-10-08 → 2026-10-31 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 255-ter — Abbandono di rifiuti pericolosi | modificato | 2025-08-09 → 2026-10-31 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 255-bis — Abbandono di rifiuti non pericolosi in casi particolari | modificato | 2025-10-08 → 2026-10-31 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 252 — siti di interesse nazionale | modificato | 2021-07-31 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 244 — ordinanze | modificato | 2024-12-17 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 223 — consorzi | modificato | 2023-06-16 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 219 — criteri informatori dell'attivita' di gestione dei rifiuti di imballaggio | datazione | — → 2023-06-16 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 216-ter — Comunicazioni alla Commissione europea | datazione | — → 2021-07-31 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 215 — autosmaltimento | datazione | — → 2010-12-25 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 214-bis — Sgombero della neve | datazione | — → 2010-12-25 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 214 — Determinazione delle attivita' e delle caratteristiche dei rifiuti per l'ammissione alle procedure semplificate | datazione | — → 2023-06-16 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 212 — Albo nazionale gestori ambientali | datazione | — → 2026-04-21 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 209 — rinnovo delle autorizzazioni alle imprese in possesso di certificazione ambientale | datazione | — → 2014-04-11 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 208 — autorizzazione unica per i nuovi impianti di smaltimento e di recupero dei rifiuti | datazione | — → 2026-08-29 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 207 | datazione | — → 2006-11-25 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 206-sexies — Azioni premianti l'utilizzo di prodotti che impiegano materiali post consumo o derivanti dal recupero degli scarti e dei materiali rivenienti dal disassemblaggio dei prodotti complessi negli interventi concernenti gli edifici scolastici, le pavimentazioni stradali e le barriere acustiche | datazione | — → 2016-02-02 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 206-quater — Incentivi per i prodotti derivanti da materiali post consumo o dal recupero degli scarti e dei materiali rivenienti dal disassemblaggio dei prodotti complessi | datazione | — → 2016-02-02 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 185-ter — Disciplina speciale per le terre e rocce da scavo qualificate come rifiuto ovvero prodotte in cantieri puntuali | aggiunto | — → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 178-ter — Requisiti generali minimi in materia di responsabilita' estesa del produttore | modificato | 2023-12-31 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 27 — Provvedimento unico in materia ambientale | modificato | 2024-12-17 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 25 — Valutazione degli impatti ambientali e provvedimento di VIA | modificato | 2026-04-19 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+| Art. 8 — Commissione tecnica di verifica dell'impatto ambientale - VIA e VAS | modificato | 2026-04-21 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
+
+## Codice di procedura penale (D.P.R. 447/1988) (`cpp`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 536-bis — Disposizioni in materia di confisca per equivalente | aggiunto | — → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
+| Art. 430 — Attivita' integrativa di indagine del pubblico ministero e del difensore | modificato | 2001-01-18 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
+| Art. 382-bis — Arresto in flagranza differita | modificato | 2026-02-25 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
+| Art. 371-bis — Attivita' di coordinamento del procuratore nazionale antimafia e antiterrorismo | modificato | 2026-09-30 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
+
+## Codice del consumo (D.Lgs. 206/2005) (`cod-consumo`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 144-bis — Cooperazione tra le autorita' nazionali per la tutela dei consumatori | modificato | 2026-01-10 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 135-vicies-quater — Sanzioni | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 135-ter — Riparazione o sostituzione | modificato | 2021-12-10 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 135-bis — Rimedi | modificato | 2021-12-10 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 133 — Responsabilita' del venditore | modificato | 2021-12-10 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 129 — Conformita' dei beni al contratto | modificato | 2021-12-10 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-undecies — Sanzioni | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-decies — Carattere imperativo delle disposizioni | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-novies — Informazioni ai consumatori | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-octies — Punto di contatto nazionale | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-septies — Sezione nazionale della piattaforma online europea per la riparazione | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-sexies — Informazioni sull'obbligo di riparazione | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-quinquies — Obbligo di riparazione | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-quater — Modulo europeo di informazioni sulla riparazione | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-ter — Definizioni | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+| Art. 127-bis — Ambito di applicazione | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 176 | 2026-09-23 → 2026-11-02 |
+
+## Codice delle assicurazioni private (D.Lgs. 209/2005) (`cap`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 209-bis — Recepimento degli articoli 7 e 13 della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, che modificano, rispettivamente, la direttiva 2009/138/CE, del Parlamento europeo e del Consiglio, del 25 novembre 2009 - Solvency II - e la direttiva (UE) 2016/97 del Parlamento europeo e del Consiglio, del 20 gennaio 2016 - IDD - | aggiunto | — → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184 | 2026-09-23 → 2026-11-02 |
+| Art. 1 — Definizioni | modificato | 2023-12-28 → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184 | 2026-09-23 → 2026-11-02 |
 
 ## Collegato lavoro 2024 (L. 203/2024) (`l-203-2024`)
 

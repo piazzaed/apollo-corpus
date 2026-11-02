@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "dlgs-259-2003",
   "nome": "Codice delle comunicazioni elettroniche (D.Lgs. 259/2003)",
-  "snapshot": "2026-10-24",
+  "snapshot": "2026-11-02",
   "formato": 2,
   "consolidato_normattiva": "2026-08-07",
   "articoli": 267,
@@ -347,13 +347,12 @@
   "ultima_versione": "2026-08-06",
   "datazione": {
    "monoblocco": 267,
-   "api": 265,
-   "ignota": 2,
-   "falliti": 1,
+   "api": 1,
+   "riportati": 265,
+   "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 103,
-   "chiamate": 267,
-   "errori_rete": 1,
+   "stima_anteriore": 1,
+   "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1261,6 +1260,20 @@
    "datazione": "api",
    "h": "09fae38e5ae9"
   },
+  "98-sex-decies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2021-12-24",
+   "datazione": "api",
+   "h": "e04650ef6132"
+  },
+  "98-septies-decies": {
+   "file": "dlgs-259-2003.md",
+   "rubrica": "",
+   "vigore_da": "2024-04-28",
+   "datazione": "api",
+   "h": "a696ce1655a4"
+  },
   "98-duodevicies": {
    "file": "dlgs-259-2003.md",
    "rubrica": "",
@@ -1281,20 +1294,6 @@
    "vigore_da": "2022-02-09",
    "datazione": "api",
    "h": "91613c14e981"
-  },
-  "98-sex-decies": {
-   "file": "dlgs-259-2003.md",
-   "rubrica": "",
-   "vigore_da": "2021-12-24",
-   "datazione": "api",
-   "h": "e04650ef6132"
-  },
-  "98-septies-decies": {
-   "file": "dlgs-259-2003.md",
-   "rubrica": "",
-   "vigore_da": "2024-04-28",
-   "datazione": "api",
-   "h": "a696ce1655a4"
   },
   "98-vicies-semel": {
    "file": "dlgs-259-2003.md",
@@ -2188,8 +2187,8 @@
   "216": {
    "file": "dlgs-259-2003.md",
    "rubrica": "Impianti od apparecchi installati nelle navi ed aerei nazionali - Inosservanza di norme - Sanzioni",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2003-09-16",
+   "datazione": "api",
    "h": "77db450c1063"
   },
   "217": {
