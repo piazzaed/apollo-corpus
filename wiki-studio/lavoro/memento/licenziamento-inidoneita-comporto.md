@@ -8,8 +8,8 @@ norme: ["cc:2110", "cc:2118", "cc:2087", "cc:2103", "l-604-1966:2", "l-604-1966:
 prassi: ["inl:nota:2020:298", "inps:circolare:2025:152"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-02"
+corpus_al: "2026-11-02T09:43Z"
 impronte: {"cc:2110": "a80628491e3d", "cc:2118": "ae6b9df54670", "cc:2087": "45cfcb73a809", "cc:2103": "446608f284fd", "l-604-1966:2": "400ad544b30b", "l-604-1966:3": "9db304820f24", "l-604-1966:5": "bb2adeeb8add", "l-604-1966:7": "6e34f661c41d", "l-300-1970:5": "ea9f91f6cd1a", "l-300-1970:18": "306d02af77ea", "dlgs-23-2015:2": "aaf348e8bef7", "dlgs-81-2008:41": "f358dee4cc43", "dlgs-81-2008:42": "927e5944305f", "l-68-1999:4": "92f17425e9b5", "l-68-1999:10": "3f6e63e10925", "dlgs-216-2003:2": "e0ef660ffc7d", "dlgs-216-2003:3": "390a6b1f7b17", "l-106-2025:1": "3c2b11e01621", "l-106-2025:2": "9df3e05655e2"}
 ---
 # Licenziamento per inidoneità e per superamento del comporto — mappa

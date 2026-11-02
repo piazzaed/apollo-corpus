@@ -5,11 +5,11 @@ area: "tempo-e-assenze"
 istituti: ["conservazione del posto", "comporto secco", "comporto per sommatoria", "trattamento economico di malattia", "certificato di malattia", "visite mediche di controllo", "fasce di reperibilità", "malattia e ferie", "malattia e cassa integrazione", "licenziamento per superamento del comporto", "malattia e disabilità"]
 parole_chiave: ["malattia", "comporto", "certificato di malattia", "visite mediche di controllo", "reperibilità", "indennità di malattia"]
 norme: ["cc:2110", "cost:32", "cost:38", "l-300-1970:5", "dl-663-1979:1", "dl-663-1979:2", "l-183-2010:25", "dl-463-1983:5", "l-106-2025:1", "dlgs-165-2001:55-septies", "dlgs-165-2001:55-quater", "dlgs-81-2015:7", "dlgs-81-2015:8", "dlgs-81-2008:41", "dlgs-81-2008:42", "l-68-1999:10", "dlgs-216-2003:2", "dlgs-216-2003:3", "l-300-1970:18", "dlgs-23-2015:2", "dlgs-148-2015:3", "dlgs-151-2015:26", "cc:2109", "cc:2120", "cc:2087", "l-604-1966:6", "cc:2948", "cc:2697"]
-prassi: ["inps:circolare:2026:92", "inps:circolare:2017:79", "inps:circolare:2020:106", "inps:circolare:2016:95", "inps:circolare:2026:65", "inps:messaggio:2020:1822", "inps:messaggio:2023:4640", "inps:messaggio:2026:2207", "inps:circolare:2025:152"]
+prassi: ["inps:circolare:2026:92", "inps:circolare:2017:79", "inps:circolare:2020:106", "inps:circolare:2016:95", "inps:circolare:2026:65", "inps:messaggio:2020:1822", "inps:messaggio:2023:4640", "inps:messaggio:2026:2207", "inps:messaggio:2026:3484", "inps:circolare:2025:152"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-02"
+corpus_al: "2026-11-02T09:43Z"
 impronte: {"cc:2110": "a80628491e3d", "cost:32": "40dce5270bde", "cost:38": "e03fced5aca3", "l-300-1970:5": "ea9f91f6cd1a", "dl-663-1979:1": "ecbf5ab9cbc4", "dl-663-1979:2": "654cb960144c", "l-183-2010:25": "333482952239", "dl-463-1983:5": "cb2a1689ce94", "l-106-2025:1": "3c2b11e01621", "dlgs-165-2001:55-septies": "7bbbdfd9f04b", "dlgs-165-2001:55-quater": "f3fc8bf37015", "dlgs-81-2015:7": "d3c336dd6939", "dlgs-81-2015:8": "a84268bd68d6", "dlgs-81-2008:41": "f358dee4cc43", "dlgs-81-2008:42": "927e5944305f", "l-68-1999:10": "3f6e63e10925", "dlgs-216-2003:2": "e0ef660ffc7d", "dlgs-216-2003:3": "390a6b1f7b17", "l-300-1970:18": "306d02af77ea", "dlgs-23-2015:2": "aaf348e8bef7", "dlgs-148-2015:3": "dde489962aa0", "dlgs-151-2015:26": "330296d5632b", "cc:2109": "7714958e4087", "cc:2120": "36ad7357bea7", "cc:2087": "45cfcb73a809", "l-604-1966:6": "c33ff551d5f6", "cc:2948": "bc6f9787a72a", "cc:2697": "c452fca98518"}
 ---
 # Malattia e periodo di comporto — mappa
@@ -104,7 +104,8 @@ impronte: {"cc:2110": "a80628491e3d", "cost:32": "40dce5270bde", "cost:38": "e03
   nuove disposizioni; verificare alla data (messaggio INPS n. 4640/2023).
 - Indennità pagata direttamente dall'INPS (per esempio operai agricoli a termine, lavoratori dello spettacolo a
   termine, disoccupati o sospesi): i dati si trasmettono con il servizio online dedicato
-  (messaggio INPS n. 2207/2026).
+  (messaggio INPS n. 2207/2026); chi non ha credenziali digitali, in via transitoria, usa il modulo cartaceo SR212
+  inviato alla sede INPS competente per PEC o raccomandata con ricevuta di ritorno (messaggio INPS n. 3484/2026).
 - Lavoratori con malattie oncologiche, invalidanti o croniche: permessi orari aggiuntivi per visite, esami e cure
   (circolare INPS n. 152/2025; vedi la scheda su permessi e ROL); per il congedo che conserva il posto vedi sopra e
   la scheda sulle aspettative.

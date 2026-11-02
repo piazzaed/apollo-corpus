@@ -8,8 +8,8 @@ norme: ["dlgs-124-2004:7", "dlgs-124-2004:10", "dlgs-124-2004:11", "dlgs-124-200
 prassi: ["inl:circolare:2020:6", "inl:nota:2022:1959", "inl:nota:2021:441", "inl:nota:2021:62", "inl:nota:2021:2002", "inl:nota:2020:1436", "inl:nota:2019:5066", "inl:circolare:2020:4", "inps:circolare:2023:70"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-02"
+corpus_al: "2026-11-02T09:43Z"
 impronte: {"dlgs-124-2004:7": "a67e3d6a0c8f", "dlgs-124-2004:10": "a5df8cf200e9", "dlgs-124-2004:11": "b6c36c2db757", "dlgs-124-2004:12": "c30c902ae95a", "dlgs-124-2004:14": "a4e6aa8f0f6f", "dlgs-124-2004:17": "fe6b511fa929", "cc:2113": "5151b805b4dc", "cc:2943": "2bedfe207225", "cc:1676": "d6b366ee8891", "dlgs-276-2003:29": "133dfc2d4199", "cpc:480": "58d189c594c4"}
 ---
 # Ispettorato del lavoro: diffida accertativa e conciliazione monocratica — mappa

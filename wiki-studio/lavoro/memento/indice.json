@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-10-27"
+  "aggiornato_il": "2026-11-02"
  },
  "schede": {
   "altri-congedi": {
@@ -1458,7 +1458,7 @@
     "inps:circolare:2023:70"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-02"
   },
   "lavoro-agile": {
    "titolo": "Lavoro agile",
@@ -2093,7 +2093,7 @@
     "inps:circolare:2025:152"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-02"
   },
   "licenziamento-nullo": {
    "titolo": "Licenziamento nullo: discriminatorio, ritorsivo, in maternità o per matrimonio",
@@ -2264,10 +2264,11 @@
     "inps:messaggio:2020:1822",
     "inps:messaggio:2023:4640",
     "inps:messaggio:2026:2207",
+    "inps:messaggio:2026:3484",
     "inps:circolare:2025:152"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-02"
   },
   "mansioni-demansionamento": {
    "titolo": "Mansioni e demansionamento",
@@ -2442,7 +2443,7 @@
     "trattamento_minimo_mensile"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-12"
+   "verificato_il": "2026-11-02"
   },
   "mensilita-aggiuntive": {
    "titolo": "Tredicesima e mensilità aggiuntive",
@@ -3714,8 +3715,11 @@
     "dpr-1124-1965:53",
     "dpr-1124-1965:112"
    ],
+   "prassi": [
+    "inl:nota:2026:0763a6d5"
+   ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-02"
   },
   "socio-lavoratore": {
    "titolo": "Socio lavoratore di cooperativa",
