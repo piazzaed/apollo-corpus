@@ -1205,7 +1205,8 @@
     {"mese": "2026-05", "dal": "2026-05-01", "valore": 102.8, "base": "2025=100", "fonte": "ISTAT rivaluta, tav. 7"},
     {"mese": "2026-06", "dal": "2026-06-01", "valore": 102.8, "base": "2025=100", "fonte": "ISTAT rivaluta, tav. 7"},
     {"mese": "2026-07", "dal": "2026-07-01", "valore": 103.1, "base": "2025=100", "fonte": "ISTAT rivaluta, tav. 7"},
-    {"mese": "2026-08", "dal": "2026-08-01", "valore": 103.7, "base": "2025=100", "fonte": "ISTAT rivaluta, tav. 7"}
+    {"mese": "2026-08", "dal": "2026-08-01", "valore": 103.7, "base": "2025=100", "fonte": "ISTAT rivaluta, tav. 7"},
+    {"mese": "2026-09", "dal": "2026-09-01", "valore": 104.3, "base": "2025=100", "fonte": "https://www.istat.it/notizia/indice-dei-prezzi-per-le-rivalutazioni-monetarie/", "verificato_il": "2026-11-02"}
    ]
  },
  "bot12": {
@@ -1535,7 +1536,8 @@
     {"asta": "2026-06-10", "regolamento": "2026-06-12", "scadenza": "2027-06-14", "isin": "IT0005716714", "giorni": 367, "descrizione": "BOT 367 gg 12.6.2026 - 14.6.2027", "assegnato_mln": 8500.0, "rendimento_medio_ponderato": 2.695, "fonte": "Banca d'Italia — Risultati aste dei titoli di Stato, Aste dell'anno corrente al 11.9.2026.xls (pubblicato l'11/09/2026)", "da_verificare": false},
     {"asta": "2026-07-09", "regolamento": "2026-07-14", "scadenza": "2027-07-14", "isin": "IT0005722514", "giorni": 365, "descrizione": "BOT 365 gg 14.7.2026 - 14.7.2027", "assegnato_mln": 8000.0, "rendimento_medio_ponderato": 2.69, "fonte": "Banca d'Italia — Risultati aste dei titoli di Stato, Aste dell'anno corrente al 11.9.2026.xls (pubblicato l'11/09/2026)", "da_verificare": false},
     {"asta": "2026-08-12", "regolamento": "2026-08-14", "scadenza": "2027-08-13", "isin": "IT0005729220", "giorni": 364, "descrizione": "BOT 364 gg 14.8.2026 - 13.8.2027", "assegnato_mln": 8000.0, "rendimento_medio_ponderato": 2.768, "fonte": "Banca d'Italia — Risultati aste dei titoli di Stato, Aste dell'anno corrente al 11.9.2026.xls (pubblicato l'11/09/2026)", "da_verificare": false},
-    {"asta": "2026-09-09", "regolamento": "2026-09-14", "scadenza": "2027-09-14", "isin": "IT0005730681", "giorni": 365, "descrizione": "BOT 365 gg 14.9.2026 - 14.9.2027", "assegnato_mln": 7500.0, "rendimento_medio_ponderato": 2.967, "fonte": "Banca d'Italia — Risultati aste dei titoli di Stato, Aste dell'anno corrente al 11.9.2026.xls (pubblicato l'11/09/2026)", "da_verificare": false}
+    {"asta": "2026-09-09", "regolamento": "2026-09-14", "scadenza": "2027-09-14", "isin": "IT0005730681", "giorni": 365, "descrizione": "BOT 365 gg 14.9.2026 - 14.9.2027", "assegnato_mln": 7500.0, "rendimento_medio_ponderato": 2.967, "fonte": "Banca d'Italia — Risultati aste dei titoli di Stato, Aste dell'anno corrente al 11.9.2026.xls (pubblicato l'11/09/2026)", "da_verificare": false},
+    {"asta": "2026-10-09", "rendimento_medio_ponderato": 3.175, "da_verificare": false, "fonte": "https://www.dt.mef.gov.it/export/sites/sitodt/modules/documenti_it/debito_pubblico/risultati_aste/risultati_aste_bot_12_mesi/BOT-12-Mesi-Risultati-Asta-09.10.2026.pdf", "verificato_il": "2026-11-02", "inserito_da": "sentinelle (Action del corpus)"}
    ],
   "come_aggiungere": "tassi.py --aggiorna --tipo bot12 --da-file comunicato.txt (comunicato MEF dell'asta con «rendimento medio ponderato») o nuova estrazione dal file Banca d'Italia"
  }
