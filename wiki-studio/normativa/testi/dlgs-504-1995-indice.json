@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "dlgs-504-1995",
   "nome": "Testo unico delle accise (D.Lgs. 504/1995)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-11-09",
   "formato": 2,
   "consolidato_normattiva": "2026-09-26",
   "articoli": 122,
@@ -762,13 +762,11 @@
   "ultima_versione": "2026-09-25",
   "datazione": {
    "monoblocco": 122,
-   "api": 120,
-   "ignota": 2,
-   "falliti": 1,
+   "api": 1,
+   "riportati": 120,
+   "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 50,
-   "chiamate": 122,
-   "errori_rete": 1,
+   "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1329,8 +1327,8 @@
   "40-ter": {
    "file": "dlgs-504-1995.md",
    "rubrica": "Circostanze aggravanti del delitto di sottrazione all'accertamento o al pagamento dell'accisa sui tabacchi",
-   "vigore_da": "",
-   "datazione": "ignota",
+   "vigore_da": "2024-10-04",
+   "datazione": "api",
    "h": "86efa0506610"
   },
   "40-quater": {

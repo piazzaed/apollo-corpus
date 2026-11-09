@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dpr-309-1990",
   "nome": "Testo unico stupefacenti (D.P.R. 309/1990)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-11-09",
   "formato": 2,
-  "consolidato_normattiva": "2026-08-21",
+  "consolidato_normattiva": "2026-10-31",
   "articoli": 145,
   "file": [
    "dpr-309-1990.md"
@@ -647,17 +647,21 @@
     "data": "2026-08-06",
     "evento": "rp131",
     "atto_modificante": "L. 5 agosto 2026, n. 140"
+   },
+   {
+    "data": "2026-10-16",
+    "evento": "rp132",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 186"
    }
   ],
-  "ultima_versione": "2026-08-06",
+  "ultima_versione": "2026-10-16",
   "datazione": {
    "monoblocco": 145,
-   "api": 144,
+   "api": 2,
+   "riportati": 142,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 85,
-   "stima_posteriore": 3,
-   "chiamate": 145,
+   "chiamate": 3,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1190,16 +1194,16 @@
   "73": {
    "file": "dpr-309-1990.md",
    "rubrica": "(Legge 26 giugno 1990, n. 162, art. 14, comma 1) Produzione, traffico e detenzione illeciti di sostanze stupefacenti o psicotrope",
-   "vigore_da": "2026-04-25",
+   "vigore_da": "2026-10-31",
    "datazione": "api",
-   "h": "4c5853332cbf"
+   "h": "33840080b6be"
   },
   "74": {
    "file": "dpr-309-1990.md",
    "rubrica": "(Legge 26 giugno 1990, n. 162, articoli 14, comma 1, e 38, comma 2) Associazione finalizzata al traffico illecito di sostanze stupefacenti o psicotrope",
-   "vigore_da": "2016-11-24",
+   "vigore_da": "2026-10-31",
    "datazione": "api",
-   "h": "73f7210c4135"
+   "h": "8e9d333766c6"
   },
   "75": {
    "file": "dpr-309-1990.md",

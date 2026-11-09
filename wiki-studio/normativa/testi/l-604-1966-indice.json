@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "l-604-1966",
   "nome": "Norme sui licenziamenti individuali (L. 604/1966)",
-  "snapshot": "2026-10-02",
+  "snapshot": "2026-11-09",
   "formato": 2,
-  "consolidato_normattiva": "2025-07-24",
-  "articoli": 13,
+  "consolidato_normattiva": "2026-10-29",
+  "articoli": 14,
   "file": [
    "l-604-1966.md"
   ],
@@ -162,15 +162,21 @@
     "data": "2025-07-23",
     "evento": "rp29",
     "atto_modificante": "atto modificante non indicato (rp29)"
+   },
+   {
+    "data": "2026-10-28",
+    "evento": "rp30",
+    "atto_modificante": "atto modificante non indicato (rp30)"
    }
   ],
-  "ultima_versione": "2025-07-23",
+  "ultima_versione": "2026-10-28",
   "datazione": {
-   "monoblocco": 13,
-   "api": 13,
+   "monoblocco": 14,
+   "api": 1,
+   "riportati": 13,
    "ignota": 0,
-   "stima_anteriore": 12,
-   "chiamate": 13,
+   "stima_anteriore": 1,
+   "chiamate": 1,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -223,6 +229,13 @@
    "vigore_da": "2021-10-22",
    "datazione": "api",
    "h": "f78ccbbb3ac7"
+  },
+  "8": {
+   "file": "l-604-1966.md",
+   "rubrica": "",
+   "vigore_da": "2026-10-29",
+   "datazione": "api",
+   "h": "8a5776ee56d7"
   },
   "9": {
    "file": "l-604-1966.md",

@@ -1,6 +1,6 @@
 # Codice civile — Libro I — Delle persone e della famiglia
 
-<!-- codice: cc · snapshot: 2026-10-12 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
+<!-- codice: cc · snapshot: 2026-11-09 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -2623,9 +2623,7 @@ L'adottato assume il cognome dell'adottante e lo antepone al proprio. ((325))
 
 Nel caso in cui la filiazione sia stata accertata o riconosciuta successivamente all'adozione si applica il primo comma.
 
-Il figlio naturale che sia stato riconosciuto dai propri genitori e sia successivamente adottato, assume il cognome dell'adottante. (263) (317)
-
-Se l'adozione e' compiuta da coniugi, l'adottato assume il cognome del marito.
+Se l'adozione e' compiuta da coniugi, l'adottato assume il cognome del marito. (263) (317)
 
 Se l'adozione e' compiuta da una donna maritata, l'adottato, che non sia figlio del marito, assume il cognome della famiglia di lei. (263)
 

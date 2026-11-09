@@ -1,6 +1,6 @@
 # Codice civile — Libro V — Del lavoro
 
-<!-- codice: cc · snapshot: 2026-10-12 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
+<!-- codice: cc · snapshot: 2026-11-09 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -7415,6 +7415,13 @@ La pena di cui al primo comma si applica agli amministratori, ai direttori gener
 <!-- vigore_da: 2017-04-14 -->
 
 ((La condanna per il reato di cui all'articolo 2635, primo comma, importa in ogni caso l'interdizione temporanea dagli uffici direttivi delle persone giuridiche e delle imprese di cui all'articolo 32-bis del codice penale nei confronti di chi sia gia' stato condannato per il medesimo reato o per quello di cui all'articolo 2635-bis, secondo comma.))
+
+### Art. 2635-quater — Disposizioni patrimoniali
+<!-- vigore_da: 2026-10-31 -->
+
+.
+
+((In deroga a quanto previsto dall'articolo 2641, terzo comma, nel caso di condanna per i delitti previsti dagli articoli 2635 e 2635-bis, e' comunque ordinata la confisca anche nelle ipotesi previste dall'articolo 240, primo comma, del codice penale.))
 
 ### Art. 2636 — Illecita influenza sull'assemblea
 <!-- vigore_da: 2002-04-16 -->

@@ -1,11 +1,86 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-11-02 · 582 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-11-09 · 603 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Norme sui licenziamenti individuali (L. 604/1966) (`l-604-1966`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 8 | aggiunto | — → 2026-10-29 | atto modificante non indicato (rp30) | 2026-10-02 → 2026-11-09 |
+
+## Cartolarizzazione dei crediti (L. 130/1999) (`l-130-1999`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 7-septiesdecies.1 — Recepimento dell'articolo 16 della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, che modifica la direttiva 2019/2162/UE, del Parlamento europeo e del Consiglio, del 27 novembre 2019 - Covered Bonds Directive - | aggiunto | — → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184 | 2026-09-23 → 2026-11-09 |
+| Art. 1 — Ambito di applicazione e definizioni | modificato | 2021-12-01 → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184 | 2026-09-23 → 2026-11-09 |
+
+## Riscossione delle imposte sul reddito (D.P.R. 602/1973) (`dpr-602-1973`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 105 — Entrata in vigore | modificato | — → 1974-01-01 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 86 — Fermo di beni mobili registrati | modificato | 2013-08-21 → 2013-08-21 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 46 — Delega ad altro concessionario | note | 1999-07-01 → 1999-07-01 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 43 — Recupero di somme erroneamente rimborsare | modificato | 2005-08-10 → 2005-08-10 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 28-quinquies — Compensazioni di crediti con somme dovute in base agli istituti definitori della pretesa tributaria e deflativi del contenzioso tributario | modificato | 2014-06-24 → 2014-06-24 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 28 — Modalita' di pagamento | modificato | 2008-08-22 → 2008-08-22 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 25 — Cartella di pagamento | modificato | 2023-01-01 → 2023-01-01 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 24 — Consegna del ruolo al concessionario | note | 1999-07-01 → 1999-07-01 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 19 — Dilazione del pagamento | note | 2024-08-08 → 2024-08-08 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 12 — Formazione e contenuto dei ruoli | note | 2024-08-08 → 2024-08-08 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 5-bis — Versamento ad ufficio incompetente | note | 1979-06-30 → 1979-06-30 | non indicato nell’AKN | 2026-10-05 → 2026-11-09 |
+| Art. 75-bis — Dichiarazione stragiudiziale del terzo | modificato | 2006-11-29 → 2006-11-29 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 73 — Pignoramento di cose del debitore in possesso di terzi | modificato | 2008-01-01 → 2008-01-01 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 52 — Procedimento di vendita | modificato | 2022-08-20 → 2022-08-20 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 28 — Modalita' di pagamento | modificato | 2008-08-22 → 2008-08-22 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
+| Art. 43-bis — Cessione dei crediti di imposta | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 43 — Recupero di somme erroneamente rimborsare | datazione | — → 2005-08-10 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 42-bis — Esecuzione del rimborso d'ufficio tramite procedura automatizzata | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 42 — Esecuzione del rimborso | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 39 — Sospensione amministrativa della riscossione | datazione | — → 2015-10-22 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 38 — Rimborso di versamenti diretti | datazione | — → 2005-07-26 | D.Lgs. 30 maggio 2005, n. 143 | 2026-09-23 → 2026-09-28 |
+
+## Testo unico stupefacenti (D.P.R. 309/1990) (`dpr-309-1990`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 74 — (Legge 26 giugno 1990, n. 162, articoli 14, comma 1, e 38, comma 2) Associazione finalizzata al traffico illecito di sostanze stupefacenti o psicotrope | modificato | 2016-11-24 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-09 |
+| Art. 73 — (Legge 26 giugno 1990, n. 162, art. 14, comma 1) Produzione, traffico e detenzione illeciti di sostanze stupefacenti o psicotrope | modificato | 2026-04-25 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-09 |
+
+## Testo unico delle accise (D.Lgs. 504/1995) (`dlgs-504-1995`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 40-ter — Circostanze aggravanti del delitto di sottrazione all'accertamento o al pagamento dell'accisa sui tabacchi | datazione | — → 2024-10-04 | non indicato nell’AKN | 2026-10-19 → 2026-11-09 |
+
+## Decreto dignità (D.L. 87/2018) (`dl-87-2018`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 9 — Divieto di pubblicita' giochi e scommesse | note | 2020-01-01 → 2026-10-22 | atto modificante non indicato (rp12) | 2026-10-02 → 2026-11-09 |
+
+## Codice civile (`cc`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 2635-quater — Disposizioni patrimoniali | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
+| Art. 1677-bis — Prestazione di piu' servizi riguardanti il trasferimento di cose | modificato | 2022-06-30 → 2026-10-24 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
+| Art. 299 | modificato | 2023-07-06 → 2023-07-06 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
+| Art. 2752 | note | 2011-12-28 → 2026-08-12 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 1841 — Apertura forzata della cassetta | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 1515 — Esecuzione coattiva per inadempimento del compratore | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 1514 — Deposito della cosa venduta | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 1211 — Cose deperibili o di dispendiosa custodia | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 736 — Consegna dei documenti | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 621 — Pubblicazione del testamento segreto | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 620 — Pubblicazione del testamento olografo | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 485 — Chiamato all'eredita' che e' nel possesso di beni | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
 
 ## Testo unico imposta sulle successioni e donazioni (D.Lgs. 346/1990) (`tus`)
 
@@ -643,20 +718,6 @@
 |---|---|---|---|---|
 | Art. 1 — Accertamento, contrasto all'evasione ed all'elusione fiscale, nonche' potenziamento dell'Amministrazione economico-finanziaria | modificato | 2024-01-01 → 2024-01-01 | non indicato nell’AKN | 2026-09-23 → 2026-10-12 |
 
-## Codice civile (`cc`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 2752 | note | 2011-12-28 → 2026-08-12 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 1841 — Apertura forzata della cassetta | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 1515 — Esecuzione coattiva per inadempimento del compratore | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 1514 — Deposito della cosa venduta | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 1211 — Cose deperibili o di dispendiosa custodia | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 736 — Consegna dei documenti | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 621 — Pubblicazione del testamento segreto | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 620 — Pubblicazione del testamento olografo | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 485 — Chiamato all'eredita' che e' nel possesso di beni | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-
 ## Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992) (`reg-cds`)
 
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
@@ -667,21 +728,6 @@
 | Art. 58 — Adattamenti delle forme di pubblicita' esistenti all'entrata in vigore del codice | datazione | — → 1996-12-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
 | Art. 57 — Pubblicita' sui veicoli | datazione | — → 1999-11-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
 | Art. 56 — Vigilanza | datazione | — → 1996-12-19 | non indicato nell’AKN | 2026-09-23 → 2026-10-05 |
-
-## Riscossione delle imposte sul reddito (D.P.R. 602/1973) (`dpr-602-1973`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 75-bis — Dichiarazione stragiudiziale del terzo | modificato | 2006-11-29 → 2006-11-29 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
-| Art. 73 — Pignoramento di cose del debitore in possesso di terzi | modificato | 2008-01-01 → 2008-01-01 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
-| Art. 52 — Procedimento di vendita | modificato | 2022-08-20 → 2022-08-20 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
-| Art. 28 — Modalita' di pagamento | modificato | 2008-08-22 → 2008-08-22 | non indicato nell’AKN | 2026-09-28 → 2026-10-05 |
-| Art. 43-bis — Cessione dei crediti di imposta | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 43 — Recupero di somme erroneamente rimborsare | datazione | — → 2005-08-10 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 42-bis — Esecuzione del rimborso d'ufficio tramite procedura automatizzata | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 42 — Esecuzione del rimborso | datazione | — → 1999-07-01 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 39 — Sospensione amministrativa della riscossione | datazione | — → 2015-10-22 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 38 — Rimborso di versamenti diretti | datazione | — → 2005-07-26 | D.Lgs. 30 maggio 2005, n. 143 | 2026-09-23 → 2026-09-28 |
 
 ## Regolamento di attuazione del T.U. immigrazione (D.P.R. 394/1999) (`dpr-394-1999`)
 

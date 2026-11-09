@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dl-87-2018",
   "nome": "Decreto dignità (D.L. 87/2018)",
-  "snapshot": "2026-10-02",
+  "snapshot": "2026-11-09",
   "formato": 2,
-  "consolidato_normattiva": "2026-01-01",
+  "consolidato_normattiva": "2026-10-22",
   "articoli": 26,
   "file": [
    "dl-87-2018.md"
@@ -72,16 +72,22 @@
     "data": "2025-12-10",
     "evento": "rp11",
     "atto_modificante": "D.Lgs. 27 novembre 2025, n. 184"
+   },
+   {
+    "data": "2026-10-21",
+    "evento": "rp12",
+    "atto_modificante": "atto modificante non indicato (rp12)"
    }
   ],
-  "ultima_versione": "2025-12-10",
+  "ultima_versione": "2026-10-21",
   "datazione": {
    "monoblocco": 26,
-   "api": 25,
+   "api": 1,
+   "riportati": 24,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 6,
-   "chiamate": 26,
+   "stima_anteriore": 1,
+   "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -180,9 +186,9 @@
   "9": {
    "file": "dl-87-2018.md",
    "rubrica": "Divieto di pubblicita' giochi e scommesse",
-   "vigore_da": "2020-01-01",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "52656d3cdb44"
+   "h": "6f6ec4416420"
   },
   "9-bis": {
    "file": "dl-87-2018.md",

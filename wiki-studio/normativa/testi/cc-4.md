@@ -1,6 +1,6 @@
 # Codice civile — Libro IV — Delle obbligazioni
 
-<!-- codice: cc · snapshot: 2026-10-12 · consolidato-normattiva: 2026-08-12 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
+<!-- codice: cc · snapshot: 2026-11-09 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -3530,9 +3530,11 @@ Coloro che, alle dipendenze dell'appaltatore, hanno dato la loro attivita' per e
 Se l'appalto ha per oggetto prestazioni continuative o periodiche di servizi, si osservano, in quanto compatibili, le norme di questo capo e quelle relative al contratto di somministrazione.
 
 ### Art. 1677-bis — Prestazione di piu' servizi riguardanti il trasferimento di cose
-<!-- vigore_da: 2022-06-30 -->
+<!-- vigore_da: 2026-10-24 -->
 
-((Se l'appalto ha per oggetto, congiuntamente, la prestazione di due o piu' servizi di logistica relativi alle attivita' di ricezione, trasformazione, deposito, custodia, spedizione, trasferimento e distribuzione di beni di un altro soggetto, alle attivita' di trasferimento di cose da un luogo a un altro si applicano le norme relative al contratto di trasporto, in quanto compatibili)).
+.
+
+((Se l'appalto ha per oggetto la prestazione di servizi di logistica relativi alle attivita' di ricezione, trasformazione, deposito, custodia, spedizione, trasferimento e distribuzione di beni di un altro soggetto, alle attivita' di trasferimento di cose da un luogo a un altro si applicano in ogni caso le norme relative al contratto di trasporto)).
 
 ### Art. 1678 — Nozione
 <!-- vigore_da: 1942-04-19 -->

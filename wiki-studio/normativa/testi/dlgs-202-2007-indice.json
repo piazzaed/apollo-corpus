@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dlgs-202-2007",
   "nome": "Inquinamento provocato dalle navi (D.Lgs. 202/2007)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-11-09",
   "formato": 2,
-  "consolidato_normattiva": "2026-10-19",
+  "consolidato_normattiva": "2026-11-09",
   "articoli": 15,
   "file": [
    "dlgs-202-2007.md"
@@ -22,10 +22,9 @@
   "ultima_versione": "2007-11-09",
   "datazione": {
    "monoblocco": 15,
-   "api": 15,
+   "api": 0,
+   "riportati": 15,
    "ignota": 0,
-   "stima_anteriore": 15,
-   "chiamate": 15,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },

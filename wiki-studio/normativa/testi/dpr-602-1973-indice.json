@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "dpr-602-1973",
   "nome": "Riscossione delle imposte sul reddito (D.P.R. 602/1973)",
-  "snapshot": "2026-10-05",
+  "snapshot": "2026-11-09",
   "formato": 2,
   "consolidato_normattiva": "2026-05-23",
   "articoli": 135,
@@ -742,12 +742,12 @@
   "ultima_versione": "2026-05-22",
   "datazione": {
    "monoblocco": 135,
-   "api": 4,
-   "riportati": 128,
-   "ignota": 3,
-   "testo_diverso": 3,
-   "stima_anteriore": 1,
-   "chiamate": 7,
+   "api": 11,
+   "riportati": 122,
+   "ignota": 2,
+   "testo_diverso": 2,
+   "stima_anteriore": 3,
+   "chiamate": 13,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -805,7 +805,7 @@
    "vigore_da": "1979-06-30",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "36e99fcca657"
+   "h": "857ffd6b9594"
   },
   "6": {
    "file": "dpr-602-1973.md",
@@ -861,7 +861,7 @@
    "vigore_da": "2024-08-08",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "da200a064b31"
+   "h": "a29e9f87d804"
   },
   "12-bis": {
    "file": "dpr-602-1973.md",
@@ -941,7 +941,7 @@
    "vigore_da": "2024-08-08",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "e3b248988309"
+   "h": "d505294be6b0"
   },
   "19-bis": {
    "file": "dpr-602-1973.md",
@@ -989,7 +989,7 @@
    "vigore_da": "1999-07-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "6e5ea231ecfb"
+   "h": "f6cf36ba4dbe"
   },
   "25": {
    "file": "dpr-602-1973.md",
@@ -997,7 +997,7 @@
    "vigore_da": "2023-01-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9bbb181d0fd9"
+   "h": "ffdc0e0effc8"
   },
   "25-bis": {
    "file": "dpr-602-1973.md",
@@ -1037,7 +1037,7 @@
    "vigore_da": "2008-08-22",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "9d02f1426500"
+   "h": "560c8315820e"
   },
   "28-bis": {
    "file": "dpr-602-1973.md",
@@ -1069,7 +1069,7 @@
    "vigore_da": "2014-06-24",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "1469bc348e3e"
+   "h": "915f6d7b3652"
   },
   "28-sexies": {
    "file": "dpr-602-1973.md",
@@ -1205,7 +1205,7 @@
    "vigore_da": "2005-08-10",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "c4aa51082af7"
+   "h": "19b6489b78da"
   },
   "43-bis": {
    "file": "dpr-602-1973.md",
@@ -1253,7 +1253,7 @@
    "vigore_da": "1999-07-01",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "0a27e26a70e4"
+   "h": "8b1c71cfe165"
   },
   "47": {
    "file": "dpr-602-1973.md",
@@ -1621,7 +1621,7 @@
    "vigore_da": "2013-08-21",
    "datazione": "api",
    "vigore_a": "2026-12-31",
-   "h": "f0bafd70d961"
+   "h": "b6e9d1fb616e"
   },
   "87": {
    "file": "dpr-602-1973.md",
@@ -1825,9 +1825,10 @@
   "105": {
    "file": "dpr-602-1973.md",
    "rubrica": "Entrata in vigore",
-   "vigore_da": "",
-   "datazione": "ignota",
-   "h": "3e4ed7143383"
+   "vigore_da": "1974-01-01",
+   "datazione": "api",
+   "vigore_a": "2026-12-31",
+   "h": "f47acbb3805a"
   }
  }
 }
