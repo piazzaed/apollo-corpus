@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-09T09:58Z",
+ "generato_il": "2026-11-09T10:22Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -3354,16 +3354,16 @@
  "lavoro": {
   "file": {
    "ccnl/accordi.json": {
-    "sha256": "d38453644c058d23f720b212569ed0ac41cb196a6924bb9c171659f10b2086bb",
-    "byte": 1594528
+    "sha256": "1e60181f26ce216985f5219b7d5298fe4b9997a13a7cefbe546e2fd8b99b8748",
+    "byte": 1603529
    },
    "ccnl/indice.json": {
-    "sha256": "eba3415b9e8f3c6efbf7947eb6dac4e8396b7544ec4318723034303e749eade0",
-    "byte": 518433
+    "sha256": "04323af1d9dae1622f63af30fa46529861380ee0264ca8240c821d39f3d78f1a",
+    "byte": 518491
    },
    "ccnl/novita.json": {
-    "sha256": "878ff0cf646f9eba9e70eaa193c357347ebb295859c9ed525223c37211839746",
-    "byte": 7645
+    "sha256": "cc5445a354e8d8158efeb5275f9b571d804316b0254f3f98d339e18755679a45",
+    "byte": 12626
    },
    "dati/dati-lavoro.json": {
     "sha256": "45dff932a5e5ac109e5f59da1fccc886f39ae5ddce1d5c3403491494f11cb739",
@@ -3374,8 +3374,8 @@
     "byte": 10818
    },
    "memento/appalto-solidarieta.md": {
-    "sha256": "8047a239bbe3ed92d83bfa83586a4b1df5fc5e757f47a1a40f4d738adc6f7821",
-    "byte": 10631
+    "sha256": "ce21f94d7c54b14fef3466e4de7dc707d5c9a40be0dd56c1c33c25b58bf9a841",
+    "byte": 10703
    },
    "memento/apprendistato.md": {
     "sha256": "bc7f39d0175889297fa1302dbf58f449d6bd07993b1e1b4a7219dd7cbf8f0c8f",
@@ -3394,8 +3394,8 @@
     "byte": 11689
    },
    "memento/collaborazioni-coordinate.md": {
-    "sha256": "5e381819beb232de480434cebf79db93b91e92d5e2490cf79b4950b3cd913369",
-    "byte": 9102
+    "sha256": "2215b85fd275f47f99b2f187b8870f16c513d256ac5700f85c8b1aa00422203c",
+    "byte": 9302
    },
    "memento/conciliazione-arbitrato.md": {
     "sha256": "c0702920923f363fdb092cb7a9b525ff47981ec58baba9bfd1c0619baab6f5d6",
@@ -3474,8 +3474,8 @@
     "byte": 5268
    },
    "memento/indice.json": {
-    "sha256": "f1864ddd8dd06ade0530665a6cd0bc4a34af4f79abc37030c9d0b23533fb3e4e",
-    "byte": 96137
+    "sha256": "857332ef84b1e26d70d0bf19b06ff710f1bb6fb3dd9366fcd5f3d8f3de5cd9fd",
+    "byte": 96352
    },
    "memento/infortunio-malattia-professionale.md": {
     "sha256": "46e55422a677dc7472b918eadaa6132c3c5291e95fb5bb30bddd3d7ea138fd28",
@@ -3522,7 +3522,7 @@
     "byte": 11409
    },
    "memento/legge-104.md": {
-    "sha256": "89d9f929e1d506296f49677b830c56a6e4019582dd7170caf8ee5a2b92d99c1f",
+    "sha256": "c5c042e7ac7221092697b9c0337b46d872c31c8b6bb57194da0ffd2a03c49236",
     "byte": 10657
    },
    "memento/licenziamento-collettivo.md": {
@@ -3686,7 +3686,7 @@
     "byte": 9923
    },
    "memento/tirocini.md": {
-    "sha256": "e6e56ded5ebbafe2f9b5b969296ab065547af06a42239503e71c156da4e28e60",
+    "sha256": "9745bb807412611bb72d67e21348a4039cd017c4b0da96429964a8302ca83896",
     "byte": 7468
    },
    "memento/trasferimento-azienda.md": {
@@ -3710,12 +3710,12 @@
     "byte": 886
    },
    "prassi/indice.json": {
-    "sha256": "9699cf0394ffbb636c62e30b00dda5096e3c1777c3ea0d6a3571e7272b4c1139",
-    "byte": 4462665
+    "sha256": "9c0d0a275bf8ebc9f25a844259ca25d31c8d76a366c91008798262a4fce2e82b",
+    "byte": 4466312
    }
   },
   "descrizione": "stato del triage del memento",
-  "ultimo_triage": "2026-11-03"
+  "ultimo_triage": "2026-11-09"
  },
  "cassazione": {
   "file": {

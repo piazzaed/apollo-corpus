@@ -8,8 +8,8 @@ norme: ["l-104-1992:3", "l-104-1992:4", "l-104-1992:33", "dlgs-151-2001:33", "dl
 prassi: ["inps:circolare:2023:39", "inps:circolare:2026:100", "inps:messaggio:2023:4143", "inps:circolare:2021:45", "inps:circolare:2022:36"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-09"
+corpus_al: "2026-11-09T09:58Z"
 impronte: {"l-104-1992:3": "1280dd8e7be9", "l-104-1992:4": "eadfafd5ff04", "l-104-1992:33": "d82b71bd23fc", "dlgs-151-2001:33": "8c18c785c61a", "dlgs-151-2001:34": "488935d1b454", "dlgs-151-2001:42": "efd257ce9f8b", "dlgs-151-2001:43": "d09d92e0179b", "dlgs-151-2001:44": "9ba4198b6b68", "dlgs-151-2001:53": "54ee8023eae8", "dlgs-81-2015:8": "a84268bd68d6", "l-81-2017:18": "7067c0846e3e", "dlgs-216-2003:3": "390a6b1f7b17", "l-183-2010:32": "d6ed3efcd9aa"}
 ---
 # Permessi e agevolazioni della L. 104/1992 — mappa

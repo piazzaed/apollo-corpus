@@ -7,11 +7,10 @@ parole_chiave: ["appalto", "appalti", "responsabilità solidale", "solidarietà"
 norme: ["dlgs-276-2003:29", "cc:1655", "cc:1676", "cc:1677-bis", "cc:1292", "cc:1304", "cc:2112", "dlgs-81-2008:26", "dlgs-124-2004:12", "dlgs-81-2015:35", "dlgs-136-2016:4", "l-297-1982:2", "dlgs-80-1992:2"]
 prassi: ["inl:nota:2021:441", "inl:nota:2019:9943", "inl:circolare:2018:6", "minlav:interpello:2022:1"]
 numeri: []
-stato: "da_ricontrollare"
-motivi: ["norma cc:1677-bis: testo cambiato (triage del 2026-11-09)"]
-verificato_il: "2026-10-24"
-corpus_al: "2026-10-24T16:21Z"
-impronte: {"dlgs-276-2003:29": "133dfc2d4199", "cc:1655": "84abcba6c85e", "cc:1676": "d6b366ee8891", "cc:1677-bis": "094f6d073019", "cc:1292": "e1bf7c771a10", "cc:1304": "e84b11a802ad", "cc:2112": "ef4bdca7de0f", "dlgs-81-2008:26": "6b1e43238d52", "dlgs-124-2004:12": "c30c902ae95a", "dlgs-81-2015:35": "47b72331add6", "dlgs-136-2016:4": "ee505ccb937b", "l-297-1982:2": "4c4a91fd059b", "dlgs-80-1992:2": "c5d33eaa8e0d"}
+stato: "verificata"
+verificato_il: "2026-11-09"
+corpus_al: "2026-11-09T09:58Z"
+impronte: {"dlgs-276-2003:29": "133dfc2d4199", "cc:1655": "84abcba6c85e", "cc:1676": "d6b366ee8891", "cc:1677-bis": "183afee22a93", "cc:1292": "e1bf7c771a10", "cc:1304": "e84b11a802ad", "cc:2112": "ef4bdca7de0f", "dlgs-81-2008:26": "6b1e43238d52", "dlgs-124-2004:12": "c30c902ae95a", "dlgs-81-2015:35": "47b72331add6", "dlgs-136-2016:4": "ee505ccb937b", "l-297-1982:2": "4c4a91fd059b", "dlgs-80-1992:2": "c5d33eaa8e0d"}
 ---
 # Appalto e responsabilità solidale — mappa
 
@@ -27,8 +26,8 @@ impronte: {"dlgs-276-2003:29": "133dfc2d4199", "cc:1655": "84abcba6c85e", "cc:16
 - Trattamento economico e normativo complessivamente non inferiore a quello del contratto collettivo nazionale e territoriale stipulato dalle associazioni comparativamente più rappresentative sul piano nazionale e applicato nel settore e nella zona strettamente connessi all'attività dell'appalto, anche nel subappalto (art. 29 D.Lgs. 276/2003, comma in vigore dal 2 marzo 2024 e riformulato dalla legge di conversione del D.L. 19/2024).
 - Nozione di appalto (art. 1655 c.c.); se l'appalto non è genuino vedi la scheda sull'interposizione illecita.
 - Azione diretta dei dipendenti dell'appaltatore verso il committente, fino a concorrenza di quanto il committente deve ancora all'appaltatore quando la domanda è proposta (art. 1676 c.c.).
-- Appalto di servizi di logistica: alle attività di trasferimento di cose si applicano le norme sul trasporto (art. 1677-bis c.c.).
-- Il D.L. 193/2026, in vigore dal 24 ottobre 2026, ha sostituito l'articolo: non serve più la prestazione congiunta di più servizi e le norme sul trasporto si applicano «in ogni caso», non più «in quanto compatibili». Il testo consolidato del corpus può non riportarlo ancora: leggere il testo alla data dei fatti e seguire la conversione in legge.
+- Appalto di servizi di logistica (ricezione, trasformazione, deposito, custodia, spedizione, trasferimento e distribuzione di beni altrui): alle attività di trasferimento di cose si applicano in ogni caso le norme sul trasporto (art. 1677-bis c.c.).
+- Testo sostituito dal D.L. 193/2026, in vigore dal 24 ottobre 2026: non serve più la prestazione congiunta di più servizi e le norme sul trasporto si applicano «in ogni caso», non più «in quanto compatibili». Per fatti anteriori leggere il testo alla data; seguire la conversione in legge del decreto.
 - Ogni condebitore in solido può essere costretto a pagare per intero (art. 1292 c.c.); la transazione con uno dei condebitori vale per gli altri se dichiarano di volerne profittare (art. 1304 c.c.).
 - Cessione di ramo d'azienda seguita da appalto fra cedente e cessionario che usa quel ramo: solidarietà dell'art. 29 D.Lgs. 276/2003 (art. 2112 c.c.).
 - Subentro di un nuovo appaltatore con propria struttura e con elementi di discontinuità: l'assunzione del personale non è trasferimento d'azienda (art. 29 D.Lgs. 276/2003).

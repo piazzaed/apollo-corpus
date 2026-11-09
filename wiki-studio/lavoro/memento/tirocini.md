@@ -8,8 +8,8 @@ norme: ["cc:2094", "dlgs-81-2015:1", "cc:2126", "cost:36", "cc:2099", "dlgs-81-2
 prassi: ["inl:circolare:2018:8", "inl:nota:2022:530", "inl:nota:2022:1451", "inl:nota:2023:453"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-09"
+corpus_al: "2026-11-09T09:58Z"
 impronte: {"cc:2094": "ee64834613a4", "dlgs-81-2015:1": "72947b4b7579", "cc:2126": "8889fdbe8c10", "cost:36": "1ac7dcfcba7a", "cc:2099": "a8c2e0bce15d", "dlgs-81-2008:2": "e8517f96227c", "cpc:409": "1d89895ecc22", "cpc:414": "94c250f3a949", "cc:2948": "bc6f9787a72a", "l-335-1995:3": "8b17222b970a", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "dl-62-2026:4-bis": "e3bdd398944a"}
 ---
 # Tirocini extracurriculari e loro uso irregolare — mappa
