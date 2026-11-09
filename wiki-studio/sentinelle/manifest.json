@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-09T10:23Z",
+ "generato_il": "2026-11-09T10:30Z",
  "versione_sentinelle": 2,
  "aree": {
   "dati": {
@@ -50,8 +50,8 @@
      "proprietario": "action"
     },
     "wiki-studio/normativa/changelog-riforme.meta.json": {
-     "sha256": "bc3807c47434854998acbaa0c6e4842fa5c70c0430a578fdf34573e62a23db5e",
-     "byte": 44360,
+     "sha256": "1a5d730e2d6682af941ede7c6595babdf5e68f6904b046eb9d523309e93fdb87",
+     "byte": 44600,
      "proprietario": "action"
     },
     "wiki-studio/normativa/drift-reports/2026-10-11.md": {
@@ -129,9 +129,14 @@
      "byte": 12149,
      "proprietario": "action"
     },
+    "wiki-studio/normativa/drift-reports/2026-11-09.md": {
+     "sha256": "9570ee7f728e5cc3a091c9970ec4fdeac2a80768c2fea208975a8bd9877abb7b",
+     "byte": 16444,
+     "proprietario": "action"
+    },
     "wiki-studio/normativa/sentinella-debito.json": {
-     "sha256": "467edb49d555a2f72bd52461569bda0aeca462c8d171a91a3e373314ce52b512",
-     "byte": 111939,
+     "sha256": "24dee4ef105a84983bfdb4afeaa0375b221353c07317f935b964d98f97b42e35",
+     "byte": 113704,
      "proprietario": "action"
     },
     "wiki-studio/normativa/stato-orientamenti.md": {
@@ -146,14 +151,15 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-11-04",
+    "ultimo_giro": "2026-11-09",
     "esito": "ok",
     "da_ricontrollare": [
      "immigrazione_37_2025",
      "imposta_successione_donazione",
      "paesi_origine_sicuri",
      "testi_unici_fiscali_2026",
-     "tu_adempimenti_accertamento_141_2026"
+     "tu_adempimenti_accertamento_141_2026",
+     "tutela_obbligatoria_604_1966"
     ]
    }
   },
@@ -1244,8 +1250,8 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "f61183c02fda404dd13ff5c1d7ddd15a3f9b3f4785ff9d0c5845c5f742050079",
-     "byte": 765,
+     "sha256": "e5473f3a70179174530746b14ff4a60ff7ad411c387844b62faca2d27ac85e00",
+     "byte": 801,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {
