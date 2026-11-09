@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "verificato_il": "2026-11-04",
+  "verificato_il": "2026-11-09",
   "provincia": "TO",
   "regola": "art. 6 D.Lgs. 346/1990: ufficio nella cui circoscrizione era l'ultima residenza del de cuius; se residente all'estero, l'ultima residenza italiana; se ignota, l'ufficio di Roma competente. Le successioni della provincia di Torino si lavorano, dal 15/6/2019, negli UT «Atti pubblici, successioni e rimborsi IVA»: TT2 (DP I) e TT3 (DP II).",
   "fonti": [
@@ -19,7 +19,7 @@
    "telefono": "01119469111",
    "email": "dp.itorino.utapsri@agenziaentrate.it",
    "pec": "DP.1TORINO@PCE.AGENZIAENTRATE.IT",
-   "orario": "l'ufficio riceve solo su appuntamento.",
+   "orario": "",
    "url": "https://www.agenziaentrate.gov.it/portale/uffici12/-/uffici/uffici_INSTANCE_mi0d0mGReCpq/dettagliouffT/TT2/cr/901/iur/TT2",
    "direzione": "Direzione Provinciale I di Torino"
   },
@@ -30,7 +30,7 @@
    "telefono": "0110367111",
    "email": "dp.iitorino.utapsri@agenziaentrate.it",
    "pec": "DP.2TORINO@PCE.AGENZIAENTRATE.IT",
-   "orario": "l'ufficio riceve solo su appuntamento. L'ufficio resterà chiuso il giorno del santo patrono: 24 giugno",
+   "orario": "",
    "url": "https://www.agenziaentrate.gov.it/portale/uffici12/-/uffici/uffici_INSTANCE_mi0d0mGReCpq/dettagliouffT/TT3/cr/901/iur/TT3",
    "direzione": "Direzione Provinciale II di Torino"
   }
