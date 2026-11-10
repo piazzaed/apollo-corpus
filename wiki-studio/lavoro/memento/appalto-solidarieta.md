@@ -8,8 +8,8 @@ norme: ["dlgs-276-2003:29", "cc:1655", "cc:1676", "cc:1677-bis", "cc:1292", "cc:
 prassi: ["inl:nota:2021:441", "inl:nota:2019:9943", "inl:circolare:2018:6", "minlav:interpello:2022:1"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-11-09"
-corpus_al: "2026-11-09T09:58Z"
+verificato_il: "2026-11-10"
+corpus_al: "2026-11-09T10:22Z"
 impronte: {"dlgs-276-2003:29": "133dfc2d4199", "cc:1655": "84abcba6c85e", "cc:1676": "d6b366ee8891", "cc:1677-bis": "183afee22a93", "cc:1292": "e1bf7c771a10", "cc:1304": "e84b11a802ad", "cc:2112": "ef4bdca7de0f", "dlgs-81-2008:26": "6b1e43238d52", "dlgs-124-2004:12": "c30c902ae95a", "dlgs-81-2015:35": "47b72331add6", "dlgs-136-2016:4": "ee505ccb937b", "l-297-1982:2": "4c4a91fd059b", "dlgs-80-1992:2": "c5d33eaa8e0d"}
 ---
 # Appalto e responsabilità solidale — mappa

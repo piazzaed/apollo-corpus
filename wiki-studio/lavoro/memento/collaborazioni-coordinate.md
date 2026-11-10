@@ -5,12 +5,11 @@ area: "qualificazione"
 istituti: ["collaborazione coordinata e continuativa", "recesso del committente", "Gestione separata", "DIS-COLL", "clausole abusive", "sospensione per malattia, gravidanza, infortunio"]
 parole_chiave: ["collaborazioni coordinate e continuative", "collaboratori coordinati e continuativi", "parasubordinati", "Gestione separata", "DIS-COLL"]
 norme: ["cpc:409", "l-81-2017:15", "cpc:413", "dlgs-81-2015:2", "dlgs-81-2015:52", "l-81-2017:1", "l-81-2017:3", "l-81-2017:14", "l-81-2017:8", "dlgs-151-2001:64", "dlgs-104-2022:1", "l-335-1995:2", "dlgs-22-2015:15", "dlgs-38-2000:5", "dlgs-81-2008:3", "l-183-2010:32", "l-604-1966:6", "cc:2113", "cc:2948", "l-335-1995:3", "dpr-1124-1965:52", "cc:2094", "dlgs-152-1997:1", "dlgs-152-1997:1-bis"]
-prassi: ["inps:circolare:2026:8", "inps:circolare:2022:3", "inps:messaggio:2026:1129", "inl:circolare:2020:7"]
+prassi: ["inps:circolare:2026:8", "inps:circolare:2022:3", "inps:messaggio:2026:1129", "inl:circolare:2020:7", "inps:messaggio:2026:3575"]
 numeri: ["massimale_contributivo_annuo"]
-stato: "da_ricontrollare"
-motivi: ["prassi nuova inps:messaggio:2026:3575: Gestione separata per i committenti e i lavoratori parasubordinati. Rimborso per l’eccedenza del massimale. Comunicazioni degli importi a di"]
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+stato: "verificata"
+verificato_il: "2026-11-10"
+corpus_al: "2026-11-09T10:22Z"
 impronte: {"cpc:409": "1d89895ecc22", "l-81-2017:15": "35134f22b20d", "cpc:413": "289b0fa488e6", "dlgs-81-2015:2": "f30cf736d55b", "dlgs-81-2015:52": "99edf8067b38", "l-81-2017:1": "e327184b3f21", "l-81-2017:3": "f3b8f5bd5a78", "l-81-2017:14": "0f398459f83c", "l-81-2017:8": "a2367ce73738", "dlgs-151-2001:64": "a0f1d410cdf4", "dlgs-104-2022:1": "47ae561b3fb0", "l-335-1995:2": "19bb6551edac", "dlgs-22-2015:15": "53e510742686", "dlgs-38-2000:5": "8c0f0189f48a", "dlgs-81-2008:3": "8b702f787fb8", "l-183-2010:32": "d6ed3efcd9aa", "l-604-1966:6": "c33ff551d5f6", "cc:2113": "5151b805b4dc", "cc:2948": "bc6f9787a72a", "l-335-1995:3": "8b17222b970a", "dpr-1124-1965:52": "66045b00692b", "cc:2094": "ee64834613a4", "dlgs-152-1997:1": "494387466111", "dlgs-152-1997:1-bis": "a832189efdc2"}
 ---
 # Collaborazioni coordinate e continuative — mappa
@@ -55,6 +54,10 @@ impronte: {"cpc:409": "1d89895ecc22", "l-81-2017:15": "35134f22b20d", "cpc:413":
 - La mancata iscrizione formale alla Gestione separata non impedisce la DIS-COLL se i contributi sono stati versati;
   l'iscrizione resta comunque un adempimento del lavoratore (messaggio INPS n. 1129/2026).
 - Differenza fra coordinamento concordato ed etero-organizzazione: circolare INL n. 7/2020.
+- Contributi versati oltre il massimale: avviso in MyINPS al collaboratore che supera il massimale, poi
+  comunicazione a collaboratore e committente degli importi rimborsabili, poi domanda di rimborso a cura
+  dell'interessato con la procedura unica; rimborso per un terzo al collaboratore e per due terzi al committente;
+  chi ha già fatto domanda non la ripete (messaggio INPS n. 3575/2026).
 
 ## Numeri
 - massimale_contributivo_annuo: tetto del reddito su cui si calcolano i contributi alla Gestione separata.
@@ -90,6 +93,8 @@ impronte: {"cpc:409": "1d89895ecc22", "l-81-2017:15": "35134f22b20d", "cpc:413":
   conservare messaggi e pagamenti.
 - I contributi li versa il committente anche per la quota del collaboratore: controllare l'estratto conto della
   Gestione separata, le omissioni emergono solo lì.
+- Più committenti nello stesso anno: si può superare il massimale senza saperlo; controllare MyINPS e chiedere il
+  rimborso della propria quota, che non arriva da sola (messaggio INPS n. 3575/2026).
 - La copertura INAIL non è generale (attività protette o veicoli a motore): verificarla prima di contare
   sull'indennizzo.
 - Se orari, luoghi e modalità li decide il committente, la co.co.co. è la cornice sbagliata: valutare l'art. 2
@@ -99,6 +104,7 @@ impronte: {"cpc:409": "1d89895ecc22", "l-81-2017:15": "35134f22b20d", "cpc:413":
 - Contratto e modalità di coordinamento concordate; modifiche imposte dal committente.
 - Compensi: prospetti paga o ricevute, certificazione unica, bonifici; ritardi di pagamento.
 - Estratto conto della Gestione separata; altre iscrizioni previdenziali; pensione; partita IVA.
+- Comunicazioni MyINPS sul massimale e sugli importi a disposizione; domande di rimborso già presentate.
 - Comunicazione di recesso o di scadenza, con data di ricezione; preavviso dato o no.
 - Periodi di malattia, gravidanza, infortunio; richieste di sospensione fatte.
 - Luogo della prestazione (sede del committente?), uso di veicoli, infortuni e come sono stati comunicati.

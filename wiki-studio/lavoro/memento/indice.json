@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-11-09"
+  "aggiornato_il": "2026-11-10"
  },
  "schede": {
   "altri-congedi": {
@@ -95,7 +95,7 @@
     "minlav:interpello:2022:1"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-09"
+   "verificato_il": "2026-11-10"
   },
   "apprendistato": {
    "titolo": "Apprendistato",
@@ -341,16 +341,14 @@
     "inps:circolare:2026:8",
     "inps:circolare:2022:3",
     "inps:messaggio:2026:1129",
-    "inl:circolare:2020:7"
+    "inl:circolare:2020:7",
+    "inps:messaggio:2026:3575"
    ],
    "numeri": [
     "massimale_contributivo_annuo"
    ],
-   "stato": "da_ricontrollare",
-   "motivi": [
-    "prassi nuova inps:messaggio:2026:3575: Gestione separata per i committenti e i lavoratori parasubordinati. Rimborso per l’eccedenza del massimale. Comunicazioni degli importi a di"
-   ],
-   "verificato_il": "2026-10-02"
+   "stato": "verificata",
+   "verificato_il": "2026-11-10"
   },
   "conciliazione-arbitrato": {
    "titolo": "Conciliazione e arbitrato",
