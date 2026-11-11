@@ -2,8 +2,8 @@
  "_meta": {
   "descrizione": "Esito dell'ultimo giro della sentinella delle successioni (Action «sentinelle» del corpus). Il gate di freschezza del plugin vale come data di controllo se l'esito non è «parziale»."
  },
- "verificato_il": "2026-11-10",
- "ultimo_giro": "2026-11-10",
+ "verificato_il": "2026-11-11",
+ "ultimo_giro": "2026-11-11",
  "esito": "invariato",
  "deas_versione": "2.25r",
  "claude_il": "2026-11-09",
