@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-10T14:00Z",
+ "generato_il": "2026-11-11T11:19Z",
  "versione_sentinelle": 2,
  "aree": {
   "dati": {
@@ -21,7 +21,7 @@
      "proprietario": "action"
     },
     "wiki-studio/normativa/limiti-dm-110-2023.json": {
-     "sha256": "62e4e4a625e73665cfc7282708e361b0524abf29aba042f0686449d34d7051ca",
+     "sha256": "46f26c5e715bee4feda8fbe287394deb9442408fc825de1420da9cbb691ad5ac",
      "byte": 7636,
      "proprietario": "action"
     },
@@ -37,7 +37,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-11-10",
+    "ultimo_giro": "2026-11-11",
     "esito": "ok",
     "da_ricontrollare": []
    }
@@ -1255,7 +1255,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "6bd5059fdee954151d3f2407efff78999b3ae679fd3d6dde35c38a4b3e9af378",
+     "sha256": "b0a19b763be0997842f121e81cebbe11ba949fe13db3978240b208a0b5d069bb",
      "byte": 801,
      "proprietario": "action"
     },
