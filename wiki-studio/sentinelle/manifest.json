@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-11T11:35Z",
+ "generato_il": "2026-11-16T10:10Z",
  "versione_sentinelle": 2,
  "aree": {
   "dati": {
@@ -11,8 +11,8 @@
      "proprietario": "action"
     },
     "dati/tassi.json": {
-     "sha256": "63c9ae5d5ce61ec3d6632a8f701f139ab6ae4c305d12695050ccc2c03960dbf6",
-     "byte": 314647,
+     "sha256": "ffcd7199ada8f906d21876833f19ee8c700a0ed4e6831f11e2ba898b54538f77",
+     "byte": 314995,
      "proprietario": "action"
     },
     "wiki-studio/normativa/competenza-materia-gdp.json": {
@@ -37,7 +37,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-11-11",
+    "ultimo_giro": "2026-11-16",
     "esito": "ok",
     "da_ricontrollare": []
    }
@@ -1260,7 +1260,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "36b6f282defcd5d3964fae2a757e43c0a57664424a94c3775786b67faa121998",
+     "sha256": "d8f23a9b32a4532f7b9952c7148fd5d9d0ac0e450b9e5bbcc7b0cc39277a2d3b",
      "byte": 801,
      "proprietario": "action"
     },
