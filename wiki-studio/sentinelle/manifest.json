@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-16T10:20Z",
+ "generato_il": "2026-11-16T10:25Z",
  "versione_sentinelle": 2,
  "aree": {
   "dati": {
@@ -1265,13 +1265,13 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "8631ad5bd79fd46a1d183fcfaa551145c0283f7e0c99ac04fd95e1239e252d6c",
+     "sha256": "14766e66aa904ffd25a1e933bff4bc9a32fc254ea7db3ee37baac7021b7684db",
      "byte": 801,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {
-     "sha256": "4e4a78a5946f8058692f02ab3d9e4a2e704a5108376ac1cebfc2b6aa7a803aca",
-     "byte": 395,
+     "sha256": "25021e8ae1e67394ea36b72cba05a07543d2710103590effcc02e4d7a069bffd",
+     "byte": 446,
      "proprietario": "action"
     }
    }
@@ -1279,18 +1279,18 @@
   "successioni": {
    "file": {
     "skills/assistente-successioni/references/changelog-normativo.md": {
-     "sha256": "a043b041c09eadcc0a8a37c7aeea5e6f8e9e35176cd585f7a8821a90984fe4b8",
-     "byte": 35552,
+     "sha256": "3c0fc0ada2f2efce74e7ce6c965c64e7582b52e0b93b07cafd9a5b53b4d4320d",
+     "byte": 36162,
      "proprietario": "action"
     },
     "skills/assistente-successioni/references/uffici-competenza-successioni.json": {
-     "sha256": "4aebb5b4494c381be3653c50f060e5abb027af6aa6dd7a12ee3d1393825ae9db",
+     "sha256": "00815043a5740567847ff494e24f5762f5d04038f64439392187bd1e98e1c2dc",
      "byte": 27244,
      "proprietario": "action"
     }
    },
    "stato": {
-    "ultimo_giro": "2026-11-11",
+    "ultimo_giro": "2026-11-16",
     "esito": "ok",
     "da_ricontrollare": []
    }
