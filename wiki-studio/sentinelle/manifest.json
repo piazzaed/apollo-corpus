@@ -1252,7 +1252,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-11-11",
+    "ultimo_giro": "2026-11-16",
     "esito": "ok",
     "da_ricontrollare": []
    }
@@ -1260,12 +1260,12 @@
   "stato": {
    "file": {
     "wiki-studio/sentinelle/modelli-stato.json": {
-     "sha256": "bd02f6f465e626be93997df7d4bbf821d294e5b7cba0c215715566e092d392e8",
-     "byte": 75963,
+     "sha256": "98ef3d16ec29cf7feddcf8e34070ab46c8fbd76bd37a250e4b0a91dd1d3e9495",
+     "byte": 76056,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "14766e66aa904ffd25a1e933bff4bc9a32fc254ea7db3ee37baac7021b7684db",
+     "sha256": "3a7de3c355df5ba8b971f7e7859505dcb73a10d0522444e7b47545168ef76e9f",
      "byte": 801,
      "proprietario": "action"
     },
