@@ -8,8 +8,8 @@ norme: ["cost:36", "cost:39", "cc:2099", "cc:2077", "cc:2070", "cc:2103", "dl-62
 prassi: ["inl:circolare:2018:3", "inl:circolare:2020:2", "inps:circolare:2021:170", "inps:circolare:2026:72"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cost:36": "1ac7dcfcba7a", "cost:39": "0ac5f2ec02c5", "cc:2099": "a8c2e0bce15d", "cc:2077": "9a1c24080d0d", "cc:2070": "5730678cd75d", "cc:2103": "446608f284fd", "dl-62-2026:7": "5815f1ef9243", "dl-62-2026:9": "bb7713138167", "dl-62-2026:10": "d542f244fa52", "dl-62-2026:11": "616409c02775", "dl-62-2026:18": "3a290e066cde", "dlgs-81-2015:51": "9025d7c9d669", "dlgs-276-2003:29": "133dfc2d4199", "l-142-2001:3": "8fcb54335f8e", "l-300-1970:36": "0e8910cb27be", "l-4-1953:1": "28bfbdc754aa", "dlgs-152-1997:1": "494387466111", "dlgs-104-2022:4": "4daf8f515ce7", "dl-338-1989:1": "a79a20c4cc66", "cc:2948": "bc6f9787a72a", "cc:2113": "5151b805b4dc"}
 ---
 # Retribuzione proporzionata e sufficiente e CCNL applicabile — mappa

@@ -8,8 +8,8 @@ norme: ["cc:2096", "dlgs-104-2022:7", "l-203-2024:13", "dlgs-104-2022:4", "l-604
 prassi: ["inl:circolare:2022:4", "minlav:circolare:2022:19", "minlav:circolare:2025:6"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cc:2096": "4129e415d2e1", "dlgs-104-2022:7": "65e650a13173", "l-203-2024:13": "f74572798b6b", "dlgs-104-2022:4": "4daf8f515ce7", "l-604-1966:10": "30748c552944", "dlgs-81-2015:7": "d3c336dd6939", "dlgs-151-2001:54": "156bbedb3d99", "l-300-1970:15": "9df4ef9efc9d", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "dlgs-152-1997:1": "494387466111", "dlgs-152-1997:4": "62db3b1fdd14"}
 ---
 # Periodo di prova — mappa

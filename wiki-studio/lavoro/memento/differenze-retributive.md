@@ -8,8 +8,8 @@ norme: ["cost:36", "cc:2099", "cc:2077", "cc:2103", "cc:2126", "cc:2697", "cpc:4
 prassi: ["inl:nota:2022:1959", "inl:circolare:2020:6", "inl:nota:2021:441"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cost:36": "1ac7dcfcba7a", "cc:2099": "a8c2e0bce15d", "cc:2077": "9a1c24080d0d", "cc:2103": "446608f284fd", "cc:2126": "8889fdbe8c10", "cc:2697": "c452fca98518", "cpc:421": "a71fa789fffe", "cpc:432": "203c982d0469", "cpc:429": "43f4bd327711", "cc:2948": "bc6f9787a72a", "cc:2955": "ceb0f484e4b7", "cc:2956": "82ebb516eb42", "cc:2959": "c5a85b74d021", "cc:2935": "10e46ea142dc", "cc:2943": "2bedfe207225", "cc:2945": "47ff78e71951", "cpc:409": "1d89895ecc22", "cpc:413": "289b0fa488e6", "cpc:414": "94c250f3a949", "cpc:410": "fdb6f553f035", "cpc:633": "f1d6794b4d7a", "cpc:210": "8702921788f3", "dlgs-124-2004:12": "c30c902ae95a", "dlgs-124-2004:11": "b6c36c2db757", "dlgs-276-2003:29": "133dfc2d4199", "cc:1676": "d6b366ee8891", "dlgs-81-2015:35": "47b72331add6", "cc:2112": "ef4bdca7de0f", "cc:2113": "5151b805b4dc", "cc:2965": "7417b7a729af", "cc:2936": "657a5dbed30a", "dl-62-2026:10": "d542f244fa52"}
 ---
 # Azione per differenze retributive — mappa

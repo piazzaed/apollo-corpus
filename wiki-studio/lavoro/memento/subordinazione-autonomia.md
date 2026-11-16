@@ -8,8 +8,8 @@ norme: ["cc:2094", "cc:2104", "cc:2222", "cost:36", "cc:2099", "dlgs-81-2015:2",
 prassi: ["inl:circolare:2020:7"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-19"
-corpus_al: "2026-10-19T07:57Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cc:2094": "ee64834613a4", "cc:2104": "dc7f67b4582d", "cc:2222": "7c70aa7a62a4", "cost:36": "1ac7dcfcba7a", "cc:2099": "a8c2e0bce15d", "dlgs-81-2015:2": "f30cf736d55b", "cpc:409": "1d89895ecc22", "cpc:413": "289b0fa488e6", "cpc:421": "a71fa789fffe", "cc:2697": "c452fca98518", "dlgs-276-2003:80": "394a15c8b1f3", "dlgs-81-2015:54": "4215b594b444", "dlgs-124-2004:12": "c30c902ae95a", "cc:2113": "5151b805b4dc", "cc:2116": "5efd50331f7b", "l-335-1995:3": "8b17222b970a", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "cc:2948": "bc6f9787a72a", "dl-62-2026:7": "5815f1ef9243", "l-1338-1962:13": "0b19310ac4c3"}
 ---
 # Subordinazione e lavoro autonomo — mappa
@@ -26,6 +26,9 @@ impronte: {"cc:2094": "ee64834613a4", "cc:2104": "dc7f67b4582d", "cc:2222": "7c7
   rappresentative del settore (art. 7 D.L. 62/2026, norma del 2026: per i periodi anteriori resta l'art. 36 Cost.).
 - Collaborazioni prevalentemente personali, continuative e organizzate dal committente (domanda da proporre in
   subordine): art. 2 D.Lgs. 81/2015.
+- Lavoro tramite piattaforme digitali: dal 2 dicembre 2026 il rapporto si presume subordinato quando emergono poteri
+  di direzione e controllo, anche tramite sistemi automatizzati, salvo prova contraria (decreto legislativo n. 208 del 2026,
+  non ancora nel corpus: leggerlo in Gazzetta; vedi la scheda sul lavoro tramite piattaforme digitali).
 - Rito del lavoro: art. 409 c.p.c.; competenza per territorio: art. 413 c.p.c.; prove anche d'ufficio e accesso
   sul luogo di lavoro: art. 421 c.p.c.
 - Onere della prova: art. 2697 c.c.

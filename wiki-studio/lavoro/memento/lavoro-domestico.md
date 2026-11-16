@@ -5,11 +5,11 @@ area: "qualificazione"
 istituti: ["rapporto di lavoro domestico", "lavoratore convivente", "preavviso", "TFR del lavoratore domestico", "contributi orari", "maternità della lavoratrice domestica", "dimissioni"]
 parole_chiave: ["lavoratori domestici", "lavoro domestico", "domestici"]
 norme: ["cc:2240", "cc:2242", "cc:2121", "cc:2243", "cost:36", "cc:2244", "cc:2118", "cc:2119", "cc:2120", "l-297-1982:4", "l-297-1982:2", "cc:2246", "dlgs-151-2001:62", "dlgs-151-2015:26", "dlgs-151-2001:55", "dlgs-81-2008:2", "dlgs-104-2022:1", "cc:2241", "cc:2948", "l-335-1995:3", "l-604-1966:6", "l-183-2010:32", "l-339-1958:1", "l-339-1958:5", "l-339-1958:7", "l-339-1958:8", "l-339-1958:10", "l-339-1958:16", "l-108-1990:3", "l-108-1990:4"]
-prassi: ["inps:circolare:2026:9", "inps:messaggio:2021:2330", "inps:messaggio:2024:1773"]
+prassi: ["inps:circolare:2026:9", "inps:messaggio:2021:2330", "inps:messaggio:2024:1773", "inps:messaggio:2026:3691"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cc:2240": "b3d35f89568a", "cc:2242": "d94edce2f11f", "cc:2121": "77a99a7a8aac", "cc:2243": "3ff040d86814", "cost:36": "1ac7dcfcba7a", "cc:2244": "71c1d186155b", "cc:2118": "ae6b9df54670", "cc:2119": "8018617a3dce", "cc:2120": "36ad7357bea7", "l-297-1982:4": "0dbcba5a2521", "l-297-1982:2": "4c4a91fd059b", "cc:2246": "f032c458b422", "dlgs-151-2001:62": "bbd5bf3b1fc4", "dlgs-151-2015:26": "330296d5632b", "dlgs-151-2001:55": "45f72d9a563b", "dlgs-81-2008:2": "e8517f96227c", "dlgs-104-2022:1": "47ae561b3fb0", "cc:2241": "b47f9cb4f23a", "cc:2948": "bc6f9787a72a", "l-335-1995:3": "8b17222b970a", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "l-339-1958:1": "4fe58b168f3e", "l-339-1958:5": "155b58742a50", "l-339-1958:7": "198fcd4c2576", "l-339-1958:8": "c2050ca724c7", "l-339-1958:10": "0cde04577e1b", "l-339-1958:16": "8a4c7b261044", "l-108-1990:3": "217e8f17b46b", "l-108-1990:4": "86ff4c47753c"}
 ---
 # Lavoro domestico — mappa
@@ -60,6 +60,9 @@ impronte: {"cc:2240": "b3d35f89568a", "cc:2242": "d94edce2f11f", "cc:2121": "77a
 - Messaggio INPS n. 2330/2021: contributi dovuti anche sull'indennità di mancato preavviso e sulle ferie non godute.
 - Messaggio INPS n. 1773/2024: estratto contributivo del lavoratore domestico consultabile online, con le settimane
   coperte.
+- Messaggio INPS n. 3691/2026: da gennaio 2026 l'INPS non spedisce più i bollettini pagoPA cartacei dei
+  contributi domestici; gli avvisi si scaricano e si pagano online (Portale dei Pagamenti) o presso i prestatori
+  pagoPA.
 
 ## Numeri
 - Nessuna chiave di dati-lavoro.json: i contributi dei domestici li fissa ogni anno l'INPS per fasce orarie

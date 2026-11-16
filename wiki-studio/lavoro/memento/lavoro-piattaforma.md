@@ -4,13 +4,13 @@ titolo: "Lavoro tramite piattaforme digitali"
 area: "qualificazione"
 istituti: ["rider", "ciclo-fattorini", "piattaforme digitali", "collaborazioni etero-organizzate tramite piattaforma", "compenso minimo orario", "disattivazione dell'account", "libro unico dei rider"]
 parole_chiave: ["piattaforme digitali", "ciclo-fattorini", "rider", "consegna di beni", "lavoro tramite piattaforme", "art. 47-quater"]
-norme: ["dlgs-81-2015:2", "cc:2094", "cpc:409", "dlgs-81-2015:47-bis", "dlgs-81-2015:47-ter", "dlgs-81-2015:47-quater", "dlgs-81-2015:47-quinquies", "dlgs-81-2015:47-sexies", "dlgs-81-2015:47-septies", "dlgs-81-2015:13", "dlgs-104-2022:1", "l-300-1970:4", "l-300-1970:28", "dpr-1124-1965:52", "l-604-1966:6", "l-183-2010:32", "dlgs-152-1997:1-bis", "dl-62-2026:11-bis", "dl-62-2026:12", "dl-62-2026:13", "dl-62-2026:14", "dl-62-2026:15"]
+norme: ["dlgs-81-2015:2", "cc:2094", "cpc:409", "dlgs-81-2015:47-bis", "dlgs-81-2015:47-ter", "dlgs-81-2015:47-quater", "dlgs-81-2015:47-quinquies", "dlgs-81-2015:47-sexies", "dlgs-81-2015:47-septies", "dlgs-81-2015:13", "dlgs-104-2022:1", "l-300-1970:4", "l-300-1970:28", "dpr-1124-1965:52", "l-604-1966:6", "l-183-2010:32", "dlgs-152-1997:1-bis", "dl-62-2026:11-bis", "dl-62-2026:12", "dl-62-2026:13", "dl-62-2026:14", "dl-62-2026:15", "dlgs-81-2008:2"]
 prassi: ["inl:circolare:2020:7", "inail:circolare:2025:40", "minlav:interpello:2026:1"]
 numeri: ["minimale_retributivo_giornaliero"]
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
-impronte: {"dlgs-81-2015:2": "f30cf736d55b", "cc:2094": "ee64834613a4", "cpc:409": "1d89895ecc22", "dlgs-81-2015:47-bis": "a0b306550a0c", "dlgs-81-2015:47-ter": "ede3a395f281", "dlgs-81-2015:47-quater": "59cb14c53ecb", "dlgs-81-2015:47-quinquies": "f822bc63f4d6", "dlgs-81-2015:47-sexies": "b60de687c78e", "dlgs-81-2015:47-septies": "d9e723d6e6e5", "dlgs-81-2015:13": "03f2c72e3efb", "dlgs-104-2022:1": "47ae561b3fb0", "l-300-1970:4": "830124320e4a", "l-300-1970:28": "0e7fb5c75781", "dpr-1124-1965:52": "66045b00692b", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "dlgs-152-1997:1-bis": "a832189efdc2", "dl-62-2026:11-bis": "0b90532c9c6a", "dl-62-2026:12": "d229396d1e1b", "dl-62-2026:13": "b8840edb2420", "dl-62-2026:14": "a628259d4bb0", "dl-62-2026:15": "c673146ef3c0"}
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
+impronte: {"dlgs-81-2015:2": "f30cf736d55b", "cc:2094": "ee64834613a4", "cpc:409": "1d89895ecc22", "dlgs-81-2015:47-bis": "a0b306550a0c", "dlgs-81-2015:47-ter": "ede3a395f281", "dlgs-81-2015:47-quater": "59cb14c53ecb", "dlgs-81-2015:47-quinquies": "f822bc63f4d6", "dlgs-81-2015:47-sexies": "b60de687c78e", "dlgs-81-2015:47-septies": "d9e723d6e6e5", "dlgs-81-2015:13": "03f2c72e3efb", "dlgs-104-2022:1": "47ae561b3fb0", "l-300-1970:4": "830124320e4a", "l-300-1970:28": "0e7fb5c75781", "dpr-1124-1965:52": "66045b00692b", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "dlgs-152-1997:1-bis": "a832189efdc2", "dl-62-2026:11-bis": "0b90532c9c6a", "dl-62-2026:12": "d229396d1e1b", "dl-62-2026:13": "b8840edb2420", "dl-62-2026:14": "a628259d4bb0", "dl-62-2026:15": "c673146ef3c0", "dlgs-81-2008:2": "e8517f96227c"}
 ---
 # Lavoro tramite piattaforme digitali — mappa
 
@@ -55,8 +55,19 @@ impronte: {"dlgs-81-2015:2": "f30cf736d55b", "cc:2094": "ee64834613a4", "cpc:409
   5 anni e accessibili al lavoratore (art. 13 D.L. 62/2026).
 - Condotta antisindacale: art. 28 L. 300/1970.
 - Lavoro intermittente, modello indicato dal Ministero per il rider subordinato: art. 13 D.Lgs. 81/2015.
-- Direttiva (UE) 2024/2831 sul lavoro mediante piattaforme digitali (presunzione legale di rapporto di lavoro,
-  gestione algoritmica), da recepire entro il 2 dicembre 2026: verificare alla data se e come è stata recepita.
+- Direttiva (UE) 2024/2831 recepita dal decreto legislativo n. 208 del 2026 (G.U. del 14 novembre 2026), in vigore dal
+  2 dicembre 2026 e non ancora nel corpus consolidato: leggerlo in Gazzetta. Vale per tutte le piattaforme di lavoro
+  digitali, non solo per le consegne, e per chi lavora tramite un intermediario. Contiene: presunzione legale di
+  subordinazione quando emergono poteri di direzione e controllo, anche tramite sistemi automatizzati (per i rapporti
+  già in corso solo dal 2 dicembre 2026; esclusi i professionisti iscritti ad albi per l'attività professionale);
+  informazioni sui sistemi automatizzati; supervisione umana; spiegazione scritta, riesame e rettifica delle decisioni
+  automatizzate su account, compensi e situazione contrattuale; valutazione dei rischi dei sistemi automatizzati;
+  canali di segnalazione; divieto di ritorsioni.
+- Coordinamento disposto dallo stesso decreto, dal 2 dicembre 2026 (il corpus riporta ancora il testo anteriore):
+  l'art. 2 D.Lgs. 81/2015 comprende le piattaforme di lavoro digitali; il Capo V-bis richiama le nuove definizioni e
+  regole (artt. 47-bis, 47-ter, 47-quinquies e 47-sexies D.Lgs. 81/2015); l'art. 1-bis D.Lgs. 152/1997 obbliga
+  anche le piattaforme; ai fini della sicurezza, lavoratore e datore di lavoro comprendono chi lavora mediante
+  piattaforme digitali (art. 2 D.Lgs. 81/2008).
 
 ## Cosa cercare nel CCNL
 - Contratto collettivo applicato dalla piattaforma ai rider: firmatari, rappresentatività comparativa, se fissa
@@ -102,7 +113,8 @@ impronte: {"dlgs-81-2015:2": "f30cf736d55b", "cc:2094": "ee64834613a4", "cpc:409
 - Tempo di collegamento e di attesa: orario di lavoro e retribuzione.
 - Validità del contratto collettivo dei rider e del compenso a consegna.
 - Accesso ai dati e trasparenza degli algoritmi.
-- Presunzione di subordinazione per i rider: fatti che la fanno scattare e prova contraria della piattaforma.
+- Presunzione di subordinazione per i rider e, dal 2 dicembre 2026, per tutte le piattaforme: fatti che la fanno
+  scattare e prova contraria della piattaforma.
 - Intermediari (flotte, subappaltatori) fra piattaforma e rider: interposizione e sfruttamento.
 - Piattaforma stabilita all'estero: giurisdizione e legge applicabile.
 - Piattaforme di servizi diversi dalle consegne: fuori dal Capo V-bis restano l'art. 2 D.Lgs. 81/2015 e
@@ -113,7 +125,8 @@ impronte: {"dlgs-81-2015:2": "f30cf736d55b", "cc:2094": "ee64834613a4", "cpc:409
   scaricare e fotografare subito, poi chiedere i dati alla piattaforma come interessato al trattamento e i dati che
   deve conservare (art. 13 D.L. 62/2026).
 - Disattivazione o sospensione decisa dall'algoritmo: chiedere per iscritto spiegazione e riesame umano
-  (art. 14 D.L. 62/2026), e intanto impugnare comunque nel termine breve.
+  (art. 14 D.L. 62/2026; dal 2 dicembre 2026 anche alla persona di contatto designata dalla piattaforma, con i
+  termini fissati dal decreto legislativo n. 208 del 2026), e intanto impugnare comunque nel termine breve.
 - Account intestato ad altri o ceduto: dal 2026 vietato e sanzionato anche in capo a chi lo usa, e comunque rende
   difficile provare chi ha lavorato (art. 47-bis D.Lgs. 81/2015).
 - Pagamento solo a consegna senza contratto collettivo idoneo: vietato; calcolare le differenze sul minimo orario
@@ -136,5 +149,6 @@ impronte: {"dlgs-81-2015:2": "f30cf736d55b", "cc:2094": "ee64834613a4", "cpc:409
 - Chi paga: la piattaforma o un intermediario.
 - Ore di collegamento e di attesa; altre piattaforme usate negli stessi periodi.
 - Mezzo usato (bicicletta, scooter, automobile, a piedi); infortuni e come sono stati comunicati.
-- Informativa sui sistemi automatizzati ricevuta? Formazione SIISL fatta?
+- Informativa sui sistemi automatizzati ricevuta? Formazione SIISL fatta? Nome della persona di contatto per il
+  riesame delle decisioni automatizzate?
 - Data e mezzo della disattivazione o della riduzione degli slot.

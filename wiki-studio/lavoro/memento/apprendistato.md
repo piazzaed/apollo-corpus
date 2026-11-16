@@ -8,8 +8,8 @@ norme: ["dlgs-81-2015:41", "dlgs-81-2015:42", "dlgs-81-2015:43", "dlgs-81-2015:4
 prassi: ["inl:nota:2020:1026", "inl:circolare:2022:2"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-81-2015:41": "c50946014173", "dlgs-81-2015:42": "fb4deb16dd6d", "dlgs-81-2015:43": "cedf750af2e3", "dlgs-81-2015:44": "7c9638b21698", "dlgs-81-2015:45": "bcbc1f6d42e2", "dlgs-81-2015:46": "f6c040e30511", "dlgs-81-2015:47": "82d9e6a37fd2", "cc:2118": "ae6b9df54670", "dlgs-23-2015:1": "25d2e1d8e06d", "l-604-1966:6": "c33ff551d5f6"}
 ---
 # Apprendistato — mappa

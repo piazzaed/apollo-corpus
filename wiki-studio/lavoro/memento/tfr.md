@@ -8,8 +8,8 @@ norme: ["cc:2120", "cc:2110", "cc:2122", "cc:2112", "cc:2113", "cc:2751-bis", "c
 prassi: ["inps:circolare:2023:70", "inps:circolare:2026:12", "inps:messaggio:2026:2325", "inps:circolare:2026:30"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cc:2120": "36ad7357bea7", "cc:2110": "a80628491e3d", "cc:2122": "95e0d043d900", "cc:2112": "ef4bdca7de0f", "cc:2113": "5151b805b4dc", "cc:2751-bis": "87aadad60384", "cc:2776": "a2c504ab1c33", "cc:2935": "10e46ea142dc", "cc:2943": "2bedfe207225", "cc:2948": "bc6f9787a72a", "cc:2953": "bded67e91e02", "l-297-1982:3": "5c02ea71d8ba", "l-297-1982:4": "0dbcba5a2521", "dlgs-252-2005:8": "f08c659165dd", "dlgs-151-2001:5": "8c2555a6405f", "dlgs-23-2015:3": "33a2dd5321ce", "dlgs-81-2015:28": "58d5425efd4f", "cpc:429": "43f4bd327711"}
 ---
 # Trattamento di fine rapporto — mappa

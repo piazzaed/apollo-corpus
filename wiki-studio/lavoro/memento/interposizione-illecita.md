@@ -8,8 +8,8 @@ norme: ["dlgs-276-2003:29", "dlgs-276-2003:30", "dlgs-276-2003:18", "dlgs-276-20
 prassi: ["inl:circolare:2018:10", "inl:nota:2024:1091", "inl:nota:2024:1091-f4e01a"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-276-2003:29": "133dfc2d4199", "dlgs-276-2003:30": "1966ac7a9794", "dlgs-276-2003:18": "84899f13a59e", "dlgs-276-2003:4": "82de83e1e145", "dlgs-276-2003:79": "53ad41b5d229", "dlgs-276-2003:80": "394a15c8b1f3", "dlgs-276-2003:84": "dd862d4aa04e", "cc:1655": "84abcba6c85e", "cc:2094": "ee64834613a4", "dlgs-81-2015:30": "500acd7fd8f7", "dlgs-81-2015:38": "dbffd2013f26", "dlgs-81-2015:39": "1ca124573a6a", "l-183-2010:32": "d6ed3efcd9aa", "l-604-1966:6": "c33ff551d5f6", "cpc:414": "94c250f3a949", "cpc:210": "8702921788f3", "dlgs-124-2004:12": "c30c902ae95a", "dlgs-165-2001:36": "6cc3cccc36f8", "dl-62-2026:16-quater": "1ce1898f9dfd", "dlgs-136-2016:3": "87c801c07bfa"}
 ---
 # Interposizione illecita e appalto non genuino — mappa

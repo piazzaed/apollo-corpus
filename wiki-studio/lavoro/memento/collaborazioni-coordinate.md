@@ -8,8 +8,8 @@ norme: ["cpc:409", "l-81-2017:15", "cpc:413", "dlgs-81-2015:2", "dlgs-81-2015:52
 prassi: ["inps:circolare:2026:8", "inps:circolare:2022:3", "inps:messaggio:2026:1129", "inl:circolare:2020:7", "inps:messaggio:2026:3575"]
 numeri: ["massimale_contributivo_annuo"]
 stato: "verificata"
-verificato_il: "2026-11-10"
-corpus_al: "2026-11-09T10:22Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cpc:409": "1d89895ecc22", "l-81-2017:15": "35134f22b20d", "cpc:413": "289b0fa488e6", "dlgs-81-2015:2": "f30cf736d55b", "dlgs-81-2015:52": "99edf8067b38", "l-81-2017:1": "e327184b3f21", "l-81-2017:3": "f3b8f5bd5a78", "l-81-2017:14": "0f398459f83c", "l-81-2017:8": "a2367ce73738", "dlgs-151-2001:64": "a0f1d410cdf4", "dlgs-104-2022:1": "47ae561b3fb0", "l-335-1995:2": "19bb6551edac", "dlgs-22-2015:15": "53e510742686", "dlgs-38-2000:5": "8c0f0189f48a", "dlgs-81-2008:3": "8b702f787fb8", "l-183-2010:32": "d6ed3efcd9aa", "l-604-1966:6": "c33ff551d5f6", "cc:2113": "5151b805b4dc", "cc:2948": "bc6f9787a72a", "l-335-1995:3": "8b17222b970a", "dpr-1124-1965:52": "66045b00692b", "cc:2094": "ee64834613a4", "dlgs-152-1997:1": "494387466111", "dlgs-152-1997:1-bis": "a832189efdc2"}
 ---
 # Collaborazioni coordinate e continuative — mappa
@@ -32,6 +32,9 @@ impronte: {"cpc:409": "1d89895ecc22", "l-81-2017:15": "35134f22b20d", "cpc:413":
 - Informazioni scritte sulle condizioni di lavoro: art. 1 D.Lgs. 104/2022; il committente le deve nei limiti della
   compatibilità (art. 1 D.Lgs. 152/1997), comprese quelle sui sistemi decisionali o di monitoraggio automatizzati
   (art. 1-bis D.Lgs. 152/1997).
+- Collaboratore che lavora tramite piattaforma digitale: dal 2 dicembre 2026 gli obblighi dell'art. 1-bis
+  D.Lgs. 152/1997 gravano anche sulla piattaforma, e si applica il decreto legislativo n. 208 del 2026 (non ancora nel corpus;
+  vedi la scheda sul lavoro tramite piattaforme digitali).
 - Gestione separata INPS: art. 2 L. 335/1995. DIS-COLL: art. 15 D.Lgs. 22/2015.
 - INAIL solo per attività protette o uso non occasionale di veicoli a motore condotti personalmente; premio per un
   terzo a carico del collaboratore: art. 5 D.Lgs. 38/2000.

@@ -8,8 +8,8 @@ norme: ["l-300-1970:8", "dlgs-196-2003:113", "dlgs-276-2003:10", "l-300-1970:5",
 prassi: []
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"l-300-1970:8": "4725453d3be5", "dlgs-196-2003:113": "6ed2b0d90711", "dlgs-276-2003:10": "7251c6b7571a", "l-300-1970:5": "ea9f91f6cd1a", "l-300-1970:6": "ec65b2a1dab0", "l-300-1970:4": "830124320e4a", "dlgs-196-2003:171": "9dd79d43ba10", "l-300-1970:38": "53ea3c3c7e09", "dlgs-196-2003:1": "47d0d6fd0aac", "dlgs-196-2003:2-septies": "3ef7bbe52464", "dlgs-196-2003:2-octies": "ace25f95f58a", "dlgs-196-2003:111": "ff91d6cac12b", "dlgs-196-2003:111-bis": "e7b85a114596", "dlgs-196-2003:115": "0d8f67592da0", "dlgs-196-2003:2-undecies": "c6d0a5736e6c", "dlgs-196-2003:140-bis": "bfa3d308b43b", "dlgs-196-2003:141": "bc43b1c3f74c", "dlgs-196-2003:143": "58df2bc06a30", "dlgs-196-2003:152": "6fca0d632948", "dlgs-150-2011:10": "62f1e033f58f", "dlgs-196-2003:160-bis": "1a82e8409687", "dlgs-81-2008:25": "52424fd41303", "dlgs-81-2008:41": "f358dee4cc43", "dlgs-152-1997:1-bis": "a832189efdc2", "cost:2": "9784e57f36e4", "cost:41": "e48228e156cb"}
 ---
 # Riservatezza del lavoratore — mappa

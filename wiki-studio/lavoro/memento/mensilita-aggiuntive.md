@@ -8,8 +8,8 @@ norme: ["cost:36", "cc:2099", "cc:2120", "cc:2121", "cc:2110", "dlgs-151-2001:22
 prassi: ["inps:messaggio:2024:30", "inps:circolare:2023:70", "inl:nota:2022:1959"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cost:36": "1ac7dcfcba7a", "cc:2099": "a8c2e0bce15d", "cc:2120": "36ad7357bea7", "cc:2121": "77a99a7a8aac", "cc:2110": "a80628491e3d", "dlgs-151-2001:22": "b3d72f956649", "dlgs-151-2001:34": "488935d1b454", "dlgs-151-2001:43": "d09d92e0179b", "dlgs-151-2001:42": "efd257ce9f8b", "dlgs-81-2015:7": "d3c336dd6939", "dlgs-81-2015:25": "29d3956664b5", "dlgs-81-2015:17": "72271e53b0ab", "dlgs-81-2015:35": "47b72331add6", "dl-62-2026:7": "5815f1ef9243", "dlgs-80-1992:2": "c5d33eaa8e0d", "cc:2948": "bc6f9787a72a", "cc:2113": "5151b805b4dc", "cpc:429": "43f4bd327711"}
 ---
 # Tredicesima e mensilità aggiuntive — mappa

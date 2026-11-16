@@ -8,8 +8,8 @@ norme: ["l-300-1970:18", "l-300-1970:7", "l-300-1970:15", "l-604-1966:2", "l-604
 prassi: []
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"l-300-1970:18": "306d02af77ea", "l-300-1970:7": "f2f4481e0c6b", "l-300-1970:15": "9df4ef9efc9d", "l-604-1966:2": "400ad544b30b", "l-604-1966:4": "39cadb8215c9", "l-604-1966:7": "6e34f661c41d", "dlgs-23-2015:1": "25d2e1d8e06d", "dlgs-23-2015:2": "aaf348e8bef7", "dlgs-23-2015:3": "33a2dd5321ce", "dlgs-23-2015:4": "142d033fc19d", "dlgs-23-2015:5": "2c8cfb568e5d", "dlgs-23-2015:6": "11b054d5190f", "dlgs-23-2015:7": "9542ba0e81af", "dlgs-23-2015:9": "d46e6dc52b73", "dlgs-23-2015:10": "912fa9370eb4", "cc:2110": "a80628491e3d", "cc:2112": "ef4bdca7de0f", "dlgs-151-2001:54": "156bbedb3d99", "dlgs-198-2006:35": "d3674d73a7e8", "dlgs-24-2023:19": "3ea29706282d", "dlgs-81-2015:9": "1557caccbd4c", "dlgs-81-2015:27": "e782dba0442f", "dlgs-81-2015:34": "0985fdff3c55", "dlgs-81-2015:47": "82d9e6a37fd2", "cpc:441-bis": "5f82f4d7d893", "dlgs-165-2001:63": "055d8fae2eb6", "l-108-1990:2": "3ef85f5fa665", "l-108-1990:3": "217e8f17b46b", "l-108-1990:4": "86ff4c47753c"}
 ---
 # Regimi di tutela contro il licenziamento illegittimo — mappa

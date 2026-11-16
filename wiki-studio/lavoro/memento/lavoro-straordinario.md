@@ -8,8 +8,8 @@ norme: ["dlgs-66-2003:1", "dlgs-66-2003:3", "dlgs-66-2003:4", "dlgs-66-2003:5", 
 prassi: ["minlav:interpello:2020:1", "minlav:interpello:2018:6", "inl:nota:2021:337", "inl:nota:2021:2002", "inl:nota:2022:1959", "minlav:circolare:2025:15", "inl:circolare:2020:2"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-66-2003:1": "ce5922c040dd", "dlgs-66-2003:3": "3a9eaf8a23b0", "dlgs-66-2003:4": "6dbfe5ba20e4", "dlgs-66-2003:5": "a9bf166e93aa", "dlgs-66-2003:6": "d6cb95bcef7b", "dlgs-66-2003:7": "822062c71722", "dlgs-66-2003:9": "053d9f610fd1", "dlgs-66-2003:16": "946ae1f190dd", "dlgs-66-2003:17": "98943ded318d", "cost:36": "1ac7dcfcba7a", "cc:2107": "b2f31c74b822", "cc:2108": "93a8f12d2a5c", "dlgs-81-2015:6": "b72898c140fd", "dlgs-81-2015:17": "72271e53b0ab", "l-4-1953:1": "28bfbdc754aa", "l-4-1953:2": "762c6b66d78d", "dlgs-152-1997:1": "494387466111", "dlgs-104-2022:4": "4daf8f515ce7", "cc:2120": "36ad7357bea7", "cc:2697": "c452fca98518", "cpc:429": "43f4bd327711", "cc:2948": "bc6f9787a72a", "cc:2955": "ceb0f484e4b7", "cc:2956": "82ebb516eb42", "cc:2959": "c5a85b74d021", "cc:2113": "5151b805b4dc", "cpc:410": "fdb6f553f035", "dlgs-124-2004:12": "c30c902ae95a"}
 ---
 # Lavoro straordinario — mappa

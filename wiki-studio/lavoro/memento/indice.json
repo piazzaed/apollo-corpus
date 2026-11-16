@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-11-10"
+  "aggiornato_il": "2026-11-16"
  },
  "schede": {
   "altri-congedi": {
@@ -95,7 +95,7 @@
     "minlav:interpello:2022:1"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-10"
+   "verificato_il": "2026-11-16"
   },
   "apprendistato": {
    "titolo": "Apprendistato",
@@ -131,7 +131,7 @@
     "inl:circolare:2022:2"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "aspettative": {
    "titolo": "Aspettative",
@@ -221,10 +221,11 @@
     "cc:2113"
    ],
    "prassi": [
-    "inl:nota:2021:473"
+    "inl:nota:2021:473",
+    "minlav:interpello:2026:3"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "cassa-integrazione": {
    "titolo": "Cassa integrazione",
@@ -348,7 +349,7 @@
     "massimale_contributivo_annuo"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-10"
+   "verificato_il": "2026-11-16"
   },
   "conciliazione-arbitrato": {
    "titolo": "Conciliazione e arbitrato",
@@ -458,7 +459,7 @@
     "minlav:interpello:2023:1"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-19"
+   "verificato_il": "2026-11-16"
   },
   "contratto-a-termine": {
    "titolo": "Contratto a tempo determinato",
@@ -511,7 +512,7 @@
     "minlav:circolare:2025:6"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "contributi-omessi": {
    "titolo": "Contributi omessi e risarcimento",
@@ -624,7 +625,7 @@
     "inl:nota:2026:831"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-12"
+   "verificato_il": "2026-11-16"
   },
   "crediti-lavoro-accessori": {
    "titolo": "Rivalutazione e interessi sui crediti di lavoro",
@@ -713,7 +714,7 @@
     "inail:circolare:2026:37"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-19"
+   "verificato_il": "2026-11-16"
   },
   "decreto-ingiuntivo-lavoro": {
    "titolo": "Decreto ingiuntivo per crediti di lavoro",
@@ -839,7 +840,7 @@
     "inl:nota:2021:441"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "dimissioni": {
    "titolo": "Dimissioni",
@@ -949,7 +950,7 @@
     "l-108-1990:3"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-23"
+   "verificato_il": "2026-11-16"
   },
   "discriminazioni-molestie": {
    "titolo": "Discriminazioni e molestie",
@@ -1019,7 +1020,7 @@
     "inps:messaggio:2026:2540"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "distacco": {
    "titolo": "Distacco",
@@ -1061,7 +1062,7 @@
     "inl:circolare:2018:7"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "etero-organizzazione": {
    "titolo": "Collaborazioni etero-organizzate",
@@ -1104,7 +1105,7 @@
     "inail:circolare:2025:40"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "ferie": {
    "titolo": "Ferie",
@@ -1150,7 +1151,7 @@
     "inl:nota:2021:1799"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "fondo-garanzia-inps": {
    "titolo": "Fondo di garanzia INPS per il TFR e le ultime retribuzioni",
@@ -1264,7 +1265,7 @@
     "inail:circolare:2020:34"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "impugnazione-licenziamento": {
    "titolo": "Impugnazione del licenziamento e decadenze",
@@ -1357,7 +1358,7 @@
     "inail:circolare:2026:37"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "interposizione-illecita": {
    "titolo": "Interposizione illecita e appalto non genuino",
@@ -1408,7 +1409,7 @@
     "inl:nota:2024:1091-f4e01a"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "ispettorato-diffida": {
    "titolo": "Ispettorato del lavoro: diffida accertativa e conciliazione monocratica",
@@ -1548,10 +1549,11 @@
    "prassi": [
     "inps:circolare:2026:9",
     "inps:messaggio:2021:2330",
-    "inps:messaggio:2024:1773"
+    "inps:messaggio:2024:1773",
+    "inps:messaggio:2026:3691"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "lavoro-intermittente": {
    "titolo": "Lavoro intermittente",
@@ -1592,7 +1594,7 @@
     "minlav:circolare:2025:15"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "lavoro-irregolare": {
    "titolo": "Lavoro irregolare e accertamento del rapporto",
@@ -1651,7 +1653,7 @@
     "minimale_retributivo_giornaliero"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-19"
+   "verificato_il": "2026-11-16"
   },
   "lavoro-notturno-festivo": {
    "titolo": "Lavoro notturno, domenicale e festivo",
@@ -1751,7 +1753,7 @@
     "inl:nota:2022:29"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-23"
+   "verificato_il": "2026-11-16"
   },
   "lavoro-piattaforma": {
    "titolo": "Lavoro tramite piattaforme digitali",
@@ -1795,7 +1797,8 @@
     "dl-62-2026:12",
     "dl-62-2026:13",
     "dl-62-2026:14",
-    "dl-62-2026:15"
+    "dl-62-2026:15",
+    "dlgs-81-2008:2"
    ],
    "prassi": [
     "inl:circolare:2020:7",
@@ -1806,7 +1809,7 @@
     "minimale_retributivo_giornaliero"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "lavoro-straordinario": {
    "titolo": "Lavoro straordinario",
@@ -1867,7 +1870,7 @@
     "inl:circolare:2020:2"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "legge-104": {
    "titolo": "Permessi e agevolazioni della L. 104/1992",
@@ -1917,7 +1920,7 @@
     "inps:circolare:2022:36"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-09"
+   "verificato_il": "2026-11-16"
   },
   "licenziamento-collettivo": {
    "titolo": "Licenziamento collettivo",
@@ -2094,7 +2097,7 @@
     "inps:circolare:2025:152"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-02"
+   "verificato_il": "2026-11-16"
   },
   "licenziamento-nullo": {
    "titolo": "Licenziamento nullo: discriminatorio, ritorsivo, in maternità o per matrimonio",
@@ -2159,7 +2162,7 @@
     "inl:nota:2024:862"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "licenziamento-orale-inefficace": {
    "titolo": "Licenziamento orale e inefficace",
@@ -2269,7 +2272,7 @@
     "inps:circolare:2025:152"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-02"
+   "verificato_il": "2026-11-16"
   },
   "mansioni-demansionamento": {
    "titolo": "Mansioni e demansionamento",
@@ -2318,7 +2321,7 @@
     "cpc:700"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "mansioni-superiori": {
    "titolo": "Mansioni superiori e inquadramento",
@@ -2359,7 +2362,7 @@
     "cpc:410"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "maternita-paternita": {
    "titolo": "Maternità, paternità e congedi parentali",
@@ -2444,7 +2447,7 @@
     "trattamento_minimo_mensile"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-02"
+   "verificato_il": "2026-11-16"
   },
   "mensilita-aggiuntive": {
    "titolo": "Tredicesima e mensilità aggiuntive",
@@ -2490,7 +2493,7 @@
     "inl:nota:2022:1959"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "mobbing-straining": {
    "titolo": "Mobbing e straining",
@@ -2547,7 +2550,7 @@
     "inps:messaggio:2026:2540"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-19"
+   "verificato_il": "2026-11-16"
   },
   "naspi": {
    "titolo": "NASpI",
@@ -2811,7 +2814,7 @@
     "cpc:410"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "part-time": {
    "titolo": "Lavoro a tempo parziale",
@@ -2857,7 +2860,7 @@
     "minimale_retributivo_giornaliero"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "patto-non-concorrenza": {
    "titolo": "Patto di non concorrenza",
@@ -2930,7 +2933,7 @@
     "minlav:circolare:2025:6"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "permessi-rol": {
    "titolo": "Permessi retribuiti, ROL ed ex festività",
@@ -2987,7 +2990,7 @@
     "inps:circolare:2025:96"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "potere-disciplinare": {
    "titolo": "Procedimento disciplinare",
@@ -3035,7 +3038,7 @@
     "inl:nota:2021:301"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "preavviso": {
    "titolo": "Preavviso e indennità sostitutiva",
@@ -3278,7 +3281,7 @@
     "cost:41"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "pubblico-impiego": {
    "titolo": "Lavoro pubblico privatizzato",
@@ -3398,7 +3401,7 @@
     "l-108-1990:4"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "retribuzione-proporzionata": {
    "titolo": "Retribuzione proporzionata e sufficiente e CCNL applicabile",
@@ -3450,7 +3453,7 @@
     "inps:circolare:2026:72"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "rinunce-transazioni": {
    "titolo": "Rinunce e transazioni e sedi protette",
@@ -3661,7 +3664,7 @@
     "inl:nota:2022:1959"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "sicurezza-2087": {
    "titolo": "Tutela delle condizioni di lavoro e sicurezza",
@@ -3720,7 +3723,7 @@
     "inl:nota:2026:0763a6d5"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-02"
+   "verificato_il": "2026-11-16"
   },
   "socio-lavoratore": {
    "titolo": "Socio lavoratore di cooperativa",
@@ -3769,7 +3772,7 @@
     "minimale_retributivo_giornaliero"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "somministrazione": {
    "titolo": "Somministrazione di lavoro",
@@ -3819,7 +3822,7 @@
     "minlav:circolare:2025:6"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "subordinazione-autonomia": {
    "titolo": "Subordinazione e lavoro autonomo",
@@ -3867,7 +3870,7 @@
     "inl:circolare:2020:7"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-19"
+   "verificato_il": "2026-11-16"
   },
   "superminimo-assorbimento": {
    "titolo": "Superminimo e assorbimento",
@@ -3945,7 +3948,7 @@
     "inps:circolare:2026:30"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-16"
   },
   "tirocini": {
    "titolo": "Tirocini extracurriculari e loro uso irregolare",
@@ -3985,7 +3988,7 @@
     "inl:nota:2023:453"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-09"
+   "verificato_il": "2026-11-16"
   },
   "trasferimento-azienda": {
    "titolo": "Trasferimento d'azienda",

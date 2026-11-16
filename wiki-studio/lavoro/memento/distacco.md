@@ -8,8 +8,8 @@ norme: ["dlgs-276-2003:30", "dlgs-276-2003:29", "dlgs-276-2003:18", "cc:2103", "
 prassi: ["inl:circolare:2018:7"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-276-2003:30": "1966ac7a9794", "dlgs-276-2003:29": "133dfc2d4199", "dlgs-276-2003:18": "84899f13a59e", "cc:2103": "446608f284fd", "dlgs-81-2008:3": "8b702f787fb8", "dlgs-104-2022:4": "4daf8f515ce7", "l-183-2010:32": "d6ed3efcd9aa", "l-604-1966:6": "c33ff551d5f6", "cpc:414": "94c250f3a949", "dlgs-152-1997:1": "494387466111", "dlgs-152-1997:2": "ef6f842039fb", "dl-62-2026:16-quater": "1ce1898f9dfd", "dlgs-136-2016:3": "87c801c07bfa", "dlgs-136-2016:4": "ee505ccb937b", "dlgs-136-2016:4-bis": "621181e6df78", "dlgs-136-2016:5": "779a33448622", "dlgs-136-2016:10": "be01debe06cd"}
 ---
 # Distacco — mappa

@@ -8,8 +8,8 @@ norme: ["dlgs-81-2015:13", "dlgs-81-2015:14", "dlgs-81-2015:15", "dlgs-81-2015:1
 prassi: ["inl:circolare:2021:1", "inl:nota:2020:1148", "inl:nota:2018:49", "minlav:interpello:2018:6", "inps:messaggio:2018:1162", "minlav:circolare:2025:15"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-81-2015:13": "03f2c72e3efb", "dlgs-81-2015:14": "799fd8dccce9", "dlgs-81-2015:15": "1abdfc8d0bc8", "dlgs-81-2015:16": "3eb75f31283c", "dlgs-81-2015:17": "72271e53b0ab", "dlgs-81-2015:18": "7b3ff7c54bbc", "dlgs-81-2008:28": "9c2d0c339699", "dlgs-104-2022:9": "059772cae58e", "dlgs-104-2022:10": "3c06cb5b4b59", "dlgs-22-2015:9": "b064c6034a69", "l-604-1966:6": "c33ff551d5f6"}
 ---
 # Lavoro intermittente — mappa

@@ -8,8 +8,8 @@ norme: ["dlgs-81-2015:4", "dlgs-81-2015:5", "dlgs-81-2015:6", "dlgs-81-2015:7", 
 prassi: ["inps:circolare:2021:74", "inps:circolare:2021:45"]
 numeri: ["minimale_retributivo_giornaliero"]
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-81-2015:4": "ce2d4b9cd3d0", "dlgs-81-2015:5": "801687206c6a", "dlgs-81-2015:6": "b72898c140fd", "dlgs-81-2015:7": "d3c336dd6939", "dlgs-81-2015:8": "a84268bd68d6", "dlgs-81-2015:9": "1557caccbd4c", "dlgs-81-2015:10": "26acf34f3102", "dlgs-81-2015:11": "871b4e9378e0", "dlgs-81-2015:12": "24fb99e2c780", "dlgs-104-2022:4": "4daf8f515ce7", "dlgs-104-2022:8": "11aa16c2ae49", "l-104-1992:33": "d82b71bd23fc", "l-604-1966:6": "c33ff551d5f6", "l-183-2010:32": "d6ed3efcd9aa", "cc:2948": "bc6f9787a72a", "dlgs-152-1997:1": "494387466111", "dl-463-1983:7": "515afe3a24f6"}
 ---
 # Lavoro a tempo parziale — mappa

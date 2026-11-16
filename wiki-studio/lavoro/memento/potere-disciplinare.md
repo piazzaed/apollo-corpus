@@ -8,8 +8,8 @@ norme: ["l-300-1970:7", "cc:2104", "cc:2105", "cc:2106", "cc:2119", "l-604-1966:
 prassi: ["inl:nota:2021:301"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"l-300-1970:7": "f2f4481e0c6b", "cc:2104": "dc7f67b4582d", "cc:2105": "52e48595567e", "cc:2106": "0e46ef3e0f5f", "cc:2119": "8018617a3dce", "l-604-1966:3": "9db304820f24", "l-604-1966:5": "bb2adeeb8add", "l-604-1966:6": "c33ff551d5f6", "l-92-2012:1": "6a388cf5884c", "l-300-1970:18": "306d02af77ea", "dlgs-23-2015:3": "33a2dd5321ce", "dlgs-23-2015:4": "142d033fc19d", "l-300-1970:4": "830124320e4a", "l-300-1970:2": "ad71fbf70bad", "l-300-1970:5": "ea9f91f6cd1a", "l-81-2017:21": "b4a584a5d8db", "dlgs-81-2015:35": "47b72331add6", "l-300-1970:15": "9df4ef9efc9d", "dlgs-24-2023:17": "5e3af1c4247c", "dlgs-165-2001:55-bis": "930600d04dd5"}
 ---
 # Procedimento disciplinare — mappa

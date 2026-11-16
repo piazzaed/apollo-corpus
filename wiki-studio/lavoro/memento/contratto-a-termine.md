@@ -8,8 +8,8 @@ norme: ["dlgs-81-2015:19", "dlgs-81-2015:20", "dlgs-81-2015:21", "dlgs-81-2015:2
 prassi: ["inl:nota:2021:804", "inl:nota:2020:1156", "inl:nota:2021:413", "minlav:circolare:2025:6"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-81-2015:19": "0927574b6d5f", "dlgs-81-2015:20": "c9022f694766", "dlgs-81-2015:21": "ac0fa3fa3927", "dlgs-81-2015:22": "aa55b617bc5c", "dlgs-81-2015:23": "0d4c80e420e5", "dlgs-81-2015:24": "35426fd80238", "dlgs-81-2015:25": "29d3956664b5", "dlgs-81-2015:27": "e782dba0442f", "dlgs-81-2015:28": "58d5425efd4f", "dlgs-81-2015:29": "6ca155580b28", "dlgs-81-2015:51": "9025d7c9d669", "l-604-1966:6": "c33ff551d5f6", "dl-87-2018:1": "eacbf0f54419", "l-203-2024:11": "608657ec52ef", "dlgs-104-2022:7": "65e650a13173", "cc:2119": "8018617a3dce", "dlgs-165-2001:36": "6cc3cccc36f8", "dl-62-2026:16-quinquies": "60712f84e8b8"}
 ---
 # Contratto a tempo determinato — mappa

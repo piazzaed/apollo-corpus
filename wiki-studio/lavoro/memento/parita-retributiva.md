@@ -8,8 +8,8 @@ norme: ["cost:37", "cost:3", "cost:36", "dlgs-198-2006:25", "dlgs-198-2006:27", 
 prassi: []
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cost:37": "79aca7b7dad8", "cost:3": "74f7eed6cf51", "cost:36": "1ac7dcfcba7a", "dlgs-198-2006:25": "1fa922b77e1d", "dlgs-198-2006:27": "3aaf56639121", "dlgs-198-2006:28": "894186863087", "dlgs-198-2006:29": "9b94f52fca99", "dlgs-198-2006:36": "dce6a69d3b0e", "dlgs-198-2006:37": "5caaa346887d", "dlgs-198-2006:38": "c0baa62d587f", "dlgs-198-2006:40": "a1d10da5a6d2", "dlgs-198-2006:41-bis": "bf145a9baf61", "dlgs-198-2006:46": "31efe88de4af", "dlgs-216-2003:2": "e0ef660ffc7d", "dlgs-216-2003:3": "390a6b1f7b17", "dlgs-216-2003:4": "9863c8901efd", "dlgs-215-2003:2": "da00dd26372a", "dlgs-215-2003:3": "f38670da973f", "dlgs-215-2003:4": "2295dc2d0136", "dlgs-150-2011:28": "0705fc467075", "l-300-1970:15": "9df4ef9efc9d", "l-300-1970:16": "15fa8192babe", "dlgs-81-2015:7": "d3c336dd6939", "dlgs-81-2015:25": "29d3956664b5", "dlgs-81-2015:35": "47b72331add6", "dlgs-165-2001:45": "70bfd64b4808", "cc:2948": "bc6f9787a72a", "cpc:410": "fdb6f553f035"}
 ---
 # Parità retributiva — mappa

@@ -8,8 +8,8 @@ norme: ["dlgs-23-2015:1", "dlgs-23-2015:2", "l-300-1970:18", "l-300-1970:15", "l
 prassi: ["inps:circolare:2015:94", "inps:circolare:2023:32", "inl:nota:2024:862"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-23-2015:1": "25d2e1d8e06d", "dlgs-23-2015:2": "aaf348e8bef7", "l-300-1970:18": "306d02af77ea", "l-300-1970:15": "9df4ef9efc9d", "l-604-1966:4": "39cadb8215c9", "l-604-1966:6": "c33ff551d5f6", "cc:1345": "3d3a35a0ec25", "cc:1418": "188f49faea31", "cc:1324": "c81039353ab7", "dlgs-198-2006:25": "1fa922b77e1d", "dlgs-198-2006:26": "4abd18ead214", "dlgs-198-2006:35": "d3674d73a7e8", "dlgs-198-2006:36": "dce6a69d3b0e", "dlgs-198-2006:38": "c0baa62d587f", "dlgs-198-2006:40": "a1d10da5a6d2", "dlgs-216-2003:2": "e0ef660ffc7d", "dlgs-216-2003:3": "390a6b1f7b17", "dlgs-216-2003:4": "9863c8901efd", "dlgs-215-2003:2": "da00dd26372a", "dlgs-215-2003:3": "f38670da973f", "dlgs-215-2003:4": "2295dc2d0136", "dlgs-215-2003:4-bis": "ef4f79b2551d", "l-67-2006:1": "07e2c991fc86", "l-108-1990:3": "217e8f17b46b", "dlgs-150-2011:28": "0705fc467075", "dlgs-151-2001:54": "156bbedb3d99", "dlgs-151-2001:55": "45f72d9a563b", "dlgs-24-2023:17": "5e3af1c4247c", "dlgs-24-2023:19": "3ea29706282d", "dlgs-104-2022:14": "69f6e945348d", "l-183-2010:32": "d6ed3efcd9aa", "cpc:410": "fdb6f553f035", "cpc:441-bis": "5f82f4d7d893", "cpc:441-quater": "1cd1a85cfb11"}
 ---
 # Licenziamento nullo: discriminatorio, ritorsivo, in maternità o per matrimonio — mappa

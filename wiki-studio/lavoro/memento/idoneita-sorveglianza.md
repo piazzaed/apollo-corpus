@@ -8,8 +8,8 @@ norme: ["dlgs-81-2008:2", "dlgs-81-2008:15", "dlgs-81-2008:18", "dlgs-81-2008:20
 prassi: ["minlav:interpello:2022:2", "minlav:interpello-sicurezza:2023:2", "minlav:interpello-sicurezza:2024:1", "inail:circolare:2020:34"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-81-2008:2": "e8517f96227c", "dlgs-81-2008:15": "178bae2f504d", "dlgs-81-2008:18": "6b5b60d3c22c", "dlgs-81-2008:20": "6368d431ded4", "dlgs-81-2008:25": "52424fd41303", "dlgs-81-2008:41": "f358dee4cc43", "l-203-2024:1": "72bf2ec804dc", "dlgs-81-2008:42": "927e5944305f", "l-300-1970:5": "ea9f91f6cd1a", "l-68-1999:4": "92f17425e9b5", "l-68-1999:10": "3f6e63e10925", "dlgs-216-2003:3": "390a6b1f7b17", "cc:2087": "45cfcb73a809", "cc:2103": "446608f284fd", "cc:1256": "97ef8aab9f14", "cc:1463": "8fcde74ea555", "cc:1464": "72356b14a8d0", "l-604-1966:3": "9db304820f24", "l-604-1966:6": "c33ff551d5f6", "l-300-1970:18": "306d02af77ea", "dlgs-23-2015:2": "aaf348e8bef7"}
 ---
 # Idoneità alla mansione e sorveglianza sanitaria — mappa

@@ -8,8 +8,8 @@ norme: ["cost:36", "cc:2109", "dlgs-66-2003:10", "dlgs-66-2003:18-bis", "dlgs-15
 prassi: ["inl:nota:2021:1799"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cost:36": "1ac7dcfcba7a", "cc:2109": "7714958e4087", "dlgs-66-2003:10": "98c76fa6f3fe", "dlgs-66-2003:18-bis": "ce87712b06b0", "dlgs-152-1997:1": "494387466111", "dlgs-104-2022:4": "4daf8f515ce7", "dlgs-81-2015:7": "d3c336dd6939", "dlgs-81-2015:17": "72271e53b0ab", "dlgs-151-2001:22": "b3d72f956649", "dlgs-151-2001:34": "488935d1b454", "dlgs-151-2001:42": "efd257ce9f8b", "dlgs-151-2001:47": "fc867978ec02", "dlgs-151-2001:48": "73ab2d02d8d0", "dlgs-151-2015:24": "85854c9f7e09", "cc:2697": "c452fca98518", "cc:2948": "bc6f9787a72a", "cc:2946": "6541ac691e8b", "cc:2113": "5151b805b4dc", "cpc:410": "fdb6f553f035"}
 ---
 # Ferie — mappa

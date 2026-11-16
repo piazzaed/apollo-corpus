@@ -8,8 +8,8 @@ norme: ["l-142-2001:1", "l-142-2001:2", "l-300-1970:18", "l-142-2001:3", "cost:3
 prassi: ["inps:messaggio:2022:2350"]
 numeri: ["minimale_retributivo_giornaliero"]
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"l-142-2001:1": "982a230c0043", "l-142-2001:2": "9f624f9360f1", "l-300-1970:18": "306d02af77ea", "l-142-2001:3": "8fcb54335f8e", "cost:36": "1ac7dcfcba7a", "l-142-2001:4": "4f57b89e5125", "l-142-2001:5": "f51dd3a68e2e", "l-142-2001:6": "4ae8b3e4f20f", "cc:2532": "82499cb069d1", "cc:2533": "cf15129086a3", "cc:2516": "9dbbae26c590", "cc:2751-bis": "87aadad60384", "l-4-1953:1": "28bfbdc754aa", "dlgs-81-2008:2": "e8517f96227c", "dlgs-276-2003:29": "133dfc2d4199", "l-604-1966:6": "c33ff551d5f6", "cc:2948": "bc6f9787a72a", "dl-62-2026:7": "5815f1ef9243", "dl-338-1989:1": "a79a20c4cc66"}
 ---
 # Socio lavoratore di cooperativa — mappa

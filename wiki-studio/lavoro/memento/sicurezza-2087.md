@@ -8,8 +8,8 @@ norme: ["cc:2087", "cost:32", "cost:41", "cc:1218", "cc:2697", "cc:1460", "cc:12
 prassi: ["inl:nota:2026:0763a6d5"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-11-02"
-corpus_al: "2026-11-02T09:43Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cc:2087": "45cfcb73a809", "cost:32": "40dce5270bde", "cost:41": "e48228e156cb", "cc:1218": "4d6a7899e9e6", "cc:2697": "c452fca98518", "cc:1460": "be344106561c", "cc:1223": "9d3613e2b575", "cc:1226": "cf6bb97a630b", "cc:2059": "6ab4c342d14c", "cc:2946": "6541ac691e8b", "dlgs-81-2008:13": "383bdf94f577", "dlgs-81-2008:15": "178bae2f504d", "dlgs-81-2008:17": "30aad984561d", "dlgs-81-2008:18": "6b5b60d3c22c", "dlgs-81-2008:20": "6368d431ded4", "dlgs-81-2008:26": "6b1e43238d52", "dlgs-81-2008:28": "9c2d0c339699", "dlgs-81-2008:29": "48d84c99e107", "dlgs-81-2008:36": "6ec62002bd38", "dlgs-81-2008:37": "f654e44f5895", "dlgs-81-2008:41": "f358dee4cc43", "dlgs-81-2008:43": "88aa37c499a1", "dlgs-81-2008:44": "b16db3d5c5fb", "dlgs-81-2008:50": "8ef56f7efe2f", "l-300-1970:9": "7cb670b1abba", "dpr-1124-1965:10": "9a47084dd23c", "dpr-1124-1965:53": "6e82f3a35b61", "dpr-1124-1965:112": "36333d1e75fb"}
 ---
 # Tutela delle condizioni di lavoro e sicurezza — mappa
@@ -25,7 +25,10 @@ impronte: {"cc:2087": "45cfcb73a809", "cost:32": "40dce5270bde", "cost:41": "e48
 - Misure generali di tutela (valutazione di tutti i rischi, eliminazione o riduzione alla fonte, priorità della
   protezione collettiva, controllo sanitario, formazione, prevenzione di condotte violente o moleste, nessun onere
   economico per i lavoratori): art. 15 D.Lgs. 81/2008 (la lettera z-bis sulle condotte violente o moleste è stata
-  aggiunta di recente: verificarne la vigenza alla data dei fatti).
+  aggiunta di recente: verificarne la vigenza alla data dei fatti). Dal 2 dicembre 2026 la valutazione dei rischi
+  comprende quelli dei sistemi di monitoraggio e decisionali automatizzati, compresi i rischi psicosociali ed
+  ergonomici, e l'adeguatezza delle loro garanzie (art. 15 D.Lgs. 81/2008, comma 1, lettere a e a-bis, modificato dal
+  decreto legislativo n. 208 del 2026, non ancora nel corpus).
 - Valutazione dei rischi e documento non delegabili: art. 17 D.Lgs. 81/2008. Oggetto, compresi stress
   lavoro-correlato, gravidanza, genere, età, provenienza e tipologia contrattuale: art. 28 D.Lgs. 81/2008.
   Rielaborazione dopo modifiche organizzative, infortuni significativi o esiti della sorveglianza sanitaria:

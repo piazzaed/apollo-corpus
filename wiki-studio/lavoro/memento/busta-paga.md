@@ -5,11 +5,11 @@ area: "retribuzione"
 istituti: ["prospetto paga", "busta paga", "libro unico del lavoro", "tracciabilità della retribuzione", "quietanza", "codice alfanumerico unico del CCNL"]
 parole_chiave: ["busta paga", "prospetto paga", "prospetto di paga", "libro unico del lavoro", "tracciabilità della retribuzione", "strumenti tracciabili"]
 norme: ["l-4-1953:1", "l-4-1953:2", "l-4-1953:3", "l-4-1953:4", "l-4-1953:5", "l-4-1953:6", "dl-62-2026:11", "cc:2099", "dlgs-152-1997:1", "dlgs-104-2022:4", "cc:2697", "cpc:633", "cpc:210", "cc:2965", "cc:2948", "cc:2113"]
-prassi: ["inl:nota:2021:473"]
+prassi: ["inl:nota:2021:473", "minlav:interpello:2026:3"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"l-4-1953:1": "28bfbdc754aa", "l-4-1953:2": "762c6b66d78d", "l-4-1953:3": "8474a285342e", "l-4-1953:4": "ad0ebc51f63c", "l-4-1953:5": "b019d541e0de", "l-4-1953:6": "c12f269547b0", "dl-62-2026:11": "616409c02775", "cc:2099": "a8c2e0bce15d", "dlgs-152-1997:1": "494387466111", "dlgs-104-2022:4": "4daf8f515ce7", "cc:2697": "c452fca98518", "cpc:633": "f1d6794b4d7a", "cpc:210": "8702921788f3", "cc:2965": "7417b7a729af", "cc:2948": "bc6f9787a72a", "cc:2113": "5151b805b4dc"}
 ---
 # Busta paga (prospetto paga) — mappa
@@ -57,6 +57,9 @@ impronte: {"l-4-1953:1": "28bfbdc754aa", "l-4-1953:2": "762c6b66d78d", "l-4-1953
 - La firma del lavoratore sulla busta paga non prova il pagamento; non basta nemmeno una sua dichiarazione di
   essere stato pagato con strumenti tracciabili; il datore conserva le ricevute dei pagamenti (nota INL
   n. 473/2021).
+- Interpello n. 3/2026: il pagamento della retribuzione in contanti è un illecito non sanabile, quindi niente
+  diffida amministrativa; la successiva registrazione delle somme sul libro unico e il versamento di contributi e
+  imposte non sanano la violazione.
 
 ## Numeri
 - Nessun numero annuale.

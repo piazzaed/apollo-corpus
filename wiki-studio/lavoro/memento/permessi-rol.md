@@ -8,8 +8,8 @@ norme: ["dlgs-152-1997:1", "dlgs-104-2022:4", "l-260-1949:2", "l-260-1949:5", "l
 prassi: ["inps:circolare:2025:152", "inps:circolare:2025:96"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-152-1997:1": "494387466111", "dlgs-104-2022:4": "4daf8f515ce7", "l-260-1949:2": "fdc0c6cd9309", "l-260-1949:5": "cb3a977a36ea", "l-54-1977:1": "355729b4d1e6", "l-53-2000:4": "cb7bb917f8ec", "l-106-2025:2": "9df3e05655e2", "dlgs-66-2003:5": "a9bf166e93aa", "dlgs-81-2015:7": "d3c336dd6939", "l-300-1970:10": "57ac08f97d84", "l-300-1970:23": "1d4a88a44c14", "l-300-1970:24": "8cbcafcd8a61", "l-300-1970:30": "50604d6ecb88", "tuel:79": "1252d4dceb60", "tuel:80": "ed0d9f5a1072", "l-104-1992:33": "d82b71bd23fc", "dlgs-151-2001:14": "3c10a203890b", "dlgs-151-2001:39": "c8a77b9cbda3", "dlgs-151-2001:43": "d09d92e0179b", "dlgs-151-2001:34": "488935d1b454", "dlgs-151-2001:47": "fc867978ec02", "dlgs-151-2015:24": "85854c9f7e09", "cc:2120": "36ad7357bea7", "cc:2697": "c452fca98518", "cc:2948": "bc6f9787a72a", "cc:2113": "5151b805b4dc", "cpc:410": "fdb6f553f035"}
 ---
 # Permessi retribuiti, ROL ed ex festività — mappa

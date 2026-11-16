@@ -8,8 +8,8 @@ norme: ["cc:2103", "l-300-1970:13", "dlgs-81-2015:3", "cc:2095", "cost:36", "dlg
 prassi: []
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"cc:2103": "446608f284fd", "l-300-1970:13": "585c717dd5f1", "dlgs-81-2015:3": "a8e2558a7455", "cc:2095": "bd61206a613e", "cost:36": "1ac7dcfcba7a", "dlgs-81-2015:35": "47b72331add6", "dlgs-104-2022:4": "4daf8f515ce7", "dlgs-152-1997:1": "494387466111", "dlgs-152-1997:3": "3899e5096f96", "l-4-1953:1": "28bfbdc754aa", "l-300-1970:15": "9df4ef9efc9d", "dlgs-165-2001:52": "08c9c4b614a2", "cc:2697": "c452fca98518", "cc:2948": "bc6f9787a72a", "cc:2113": "5151b805b4dc", "cpc:410": "fdb6f553f035"}
 ---
 # Mansioni superiori e inquadramento — mappa

@@ -8,8 +8,8 @@ norme: ["dlgs-81-2015:30", "dlgs-81-2015:31", "dlgs-81-2015:32", "dlgs-81-2015:3
 prassi: ["minlav:interpello:2023:1", "inl:nota:2023:716", "minlav:circolare:2025:6"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
+verificato_il: "2026-11-16"
+corpus_al: "2026-11-16T10:00Z"
 impronte: {"dlgs-81-2015:30": "500acd7fd8f7", "dlgs-81-2015:31": "81f0392ed9f9", "dlgs-81-2015:32": "c688e3b917f9", "dlgs-81-2015:33": "0446bac5522c", "dlgs-81-2015:34": "0985fdff3c55", "dlgs-81-2015:35": "47b72331add6", "dlgs-81-2015:36": "76d078587588", "dlgs-81-2015:38": "dbffd2013f26", "dlgs-81-2015:39": "1ca124573a6a", "dlgs-81-2015:19": "0927574b6d5f", "dlgs-81-2015:28": "58d5425efd4f", "dl-87-2018:2": "fcfed7247e30", "dlgs-276-2003:4": "82de83e1e145", "dlgs-276-2003:18": "84899f13a59e", "l-604-1966:6": "c33ff551d5f6", "l-300-1970:7": "f2f4481e0c6b", "dlgs-165-2001:36": "6cc3cccc36f8", "dl-62-2026:16-quinquies": "60712f84e8b8"}
 ---
 # Somministrazione di lavoro — mappa
