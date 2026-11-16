@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "cp",
   "nome": "Codice penale",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-11-16",
   "formato": 2,
-  "consolidato_normattiva": "2026-09-30",
-  "articoli": 997,
+  "consolidato_normattiva": "2026-10-31",
+  "articoli": 1001,
   "file": [
    "cp-1.md",
    "cp-2.md",
@@ -1974,9 +1974,19 @@
     "data": "2026-09-15",
     "evento": "rp405",
     "atto_modificante": "D.Lgs. 9 settembre 2026, n. 160"
+   },
+   {
+    "data": "2026-10-16",
+    "evento": "rp406",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 186"
+   },
+   {
+    "data": "2026-10-22",
+    "evento": "rp407",
+    "atto_modificante": "D.L. 22 ottobre 2026, n. 190"
    }
   ],
-  "ultima_versione": "2026-09-15"
+  "ultima_versione": "2026-10-22"
  },
  "articoli": {
   "1": {
@@ -2527,7 +2537,7 @@
   "98": {
    "file": "cp-1.md",
    "rubrica": "Minore degli anni diciotto",
-   "vigore_da": "2014-02-07"
+   "vigore_da": "2026-10-23"
   },
   "99": {
    "file": "cp-1.md",
@@ -3292,7 +3302,17 @@
   "240-bis": {
    "file": "cp-1.md",
    "rubrica": "Confisca in casi particolari",
-   "vigore_da": "2026-06-02"
+   "vigore_da": "2026-10-31"
+  },
+  "240-ter": {
+   "file": "cp-1.md",
+   "rubrica": "Confisca per equivalente dei beni strumentali in casi particolari",
+   "vigore_da": "2026-10-31"
+  },
+  "240-quater": {
+   "file": "cp-1.md",
+   "rubrica": "Confisca dei beni nei confronti dei terzi in casi particolari",
+   "vigore_da": "2026-10-31"
   },
   "241": {
    "file": "cp-2.md",
@@ -4482,12 +4502,12 @@
   "416": {
    "file": "cp-2.md",
    "rubrica": "Associazione per delinquere",
-   "vigore_da": "2017-01-07"
+   "vigore_da": "2026-10-31"
   },
   "416-bis": {
    "file": "cp-2.md",
    "rubrica": "",
-   "vigore_da": "2015-06-14"
+   "vigore_da": "2026-10-31"
   },
   "416-bis.1": {
    "file": "cp-2.md",
@@ -4512,12 +4532,17 @@
   "419": {
    "file": "cp-2.md",
    "rubrica": "Devastazione e saccheggio",
-   "vigore_da": "2019-06-15"
+   "vigore_da": "2026-10-23"
   },
   "420": {
    "file": "cp-2.md",
    "rubrica": "Attentato a impianti di pubblica utilita'",
-   "vigore_da": "2008-04-05"
+   "vigore_da": "2026-10-23"
+  },
+  "420-bis": {
+   "file": "cp-2.md",
+   "rubrica": "Violenza organizzata nelle manifestazioni pubbliche",
+   "vigore_da": "2026-10-23"
   },
   "421": {
    "file": "cp-2.md",
@@ -5717,7 +5742,7 @@
   "582": {
    "file": "cp-2.md",
    "rubrica": "Lesione personale",
-   "vigore_da": "2026-04-25"
+   "vigore_da": "2026-10-23"
   },
   "583": {
    "file": "cp-2.md",
@@ -5922,7 +5947,7 @@
   "600-septies": {
    "file": "cp-2.md",
    "rubrica": "Confisca",
-   "vigore_da": "2012-10-23"
+   "vigore_da": "2026-10-31"
   },
   "600-septies.1": {
    "file": "cp-2.md",
@@ -6364,6 +6389,11 @@
    "rubrica": "",
    "vigore_da": "2024-07-17"
   },
+  "635.1": {
+   "file": "cp-2.md",
+   "rubrica": "Danneggiamento commesso da un gruppo organizzato",
+   "vigore_da": "2026-10-23"
+  },
   "636": {
    "file": "cp-2.md",
    "rubrica": "Introduzione o abbandono di animali nel fondo altrui e pascolo abusivo",
@@ -6487,7 +6517,7 @@
   "648-quater": {
    "file": "cp-2.md",
    "rubrica": "Confisca",
-   "vigore_da": "2015-01-01"
+   "vigore_da": "2026-10-31"
   },
   "649": {
    "file": "cp-2.md",

@@ -1,11 +1,67 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-11-09 · 603 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-11-16 · 630 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Testo unico delle disposizioni in materia di intermediazione finanziaria (D.Lgs. 58/1998) (`tuf`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 195-ter — Comunicazione all'ABE, all'AESFEM e all'ESAP sulle sanzioni applicate | modificato | 2026-08-07 → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 194-bis — Criteri per la determinazione delle sanzioni | modificato | 2026-08-07 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 191-bis — Sanzioni accessorie | modificato | 2021-03-11 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 187-octies — Poteri della CONSOB | modificato | 2026-08-07 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 187-quater — Sanzioni amministrative accessorie | modificato | 2026-08-07 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 187-ter.1 — Sanzioni relative alle violazioni delle disposizioni del regolamento (UE) n. 596/2014 del Parlamento europeo e del Consiglio, del 16 aprile 2014 | modificato | 2026-08-07 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 114 — Comunicazioni al pubblico | modificato | 2024-03-27 → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 66-bis.1 — Ammissione alle negoziazioni di societa' con strutture a voto plurimo | aggiunto | — → 2026-10-22 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 4-septies.3 — Disposizioni di recepimento degli articoli 2, 5, 6, 12 e 13 della direttiva (UE) 2023/2864, del Parlamento europeo e del Consiglio, del 13 dicembre 2023, in materia di accessibilita' delle informazioni tramite il punto di accesso unico europeo che modificano, rispettivamente, le direttive 2004/25/CE, 2007/36/CE, 2009/65/CE, 2014/65/UE e 2016/97/UE - | aggiunto | — → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+| Art. 1 — Definizioni | modificato | 2026-05-22 → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
+
+## Bilancio di previsione dello Stato per il 2020 (L. 160/2019) — contiene la disciplina dei monopattini elettrici (art. 1, co. 75 ss.) (`l-160-2019`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 1 | note | — → — | non indicato nell’AKN | 2026-10-19 → 2026-11-16 |
+| Art. 1 | modificato | — → — | non indicato nell’AKN | 2026-09-25 → 2026-10-19 |
+
+## Testo unico spese di giustizia (D.P.R. 115/2002) (`dpr-115-2002`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 151-bis — Vendita prima della confisca | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186 | 2026-10-24 → 2026-11-16 |
+| Art. 151 — Provvedimenti in caso di mancato ritiro del bene restituito | modificato | 2005-08-23 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186 | 2026-10-24 → 2026-11-16 |
+| Art. 168-bis — Decreto di pagamento delle prestazioni di cui all'articolo 57 del decreto legislativo 1° agosto 2003, n. 259, e di quelle funzionali all'utilizzo delle medesime | modificato | 2026-08-08 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-10-13 → 2026-10-24 |
+| Art. 73 — Procedura per la registrazione degli atti giudiziari | modificato | 2016-12-03 → 2016-12-03 | non indicato nell’AKN | 2026-09-23 → 2026-10-13 |
+
+## Codice in materia di protezione dei dati personali (D.Lgs. 196/2003) (`dlgs-196-2003`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 144-bis — Revenge porn | note | 2021-12-08 → 2021-12-08 | non indicato nell’AKN | 2026-09-23 → 2026-11-16 |
+
+## Codice penale (`cp`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 648-quater — Confisca | modificato | 2015-01-01 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 635.1 — Danneggiamento commesso da un gruppo organizzato | aggiunto | — → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 600-septies — Confisca | modificato | 2012-10-23 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 582 — Lesione personale | modificato | 2026-04-25 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 420-bis — Violenza organizzata nelle manifestazioni pubbliche | aggiunto | — → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 420 — Attentato a impianti di pubblica utilita' | modificato | 2008-04-05 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 419 — Devastazione e saccheggio | modificato | 2019-06-15 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 416-bis | modificato | 2015-06-14 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 416 — Associazione per delinquere | modificato | 2017-01-07 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 240-quater — Confisca dei beni nei confronti dei terzi in casi particolari | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 240-ter — Confisca per equivalente dei beni strumentali in casi particolari | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 240-bis — Confisca in casi particolari | modificato | 2026-06-02 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 98 — Minore degli anni diciotto | modificato | 2014-02-07 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 437-bis — Omessa adozione di misure di sicurezza nei sistemi di intelligenza artificiale e alterazione illecita dei sistemi | aggiunto | — → 2026-09-30 | D.Lgs. 9 settembre 2026, n. 160 | 2026-09-23 → 2026-10-19 |
 
 ## Norme sui licenziamenti individuali (L. 604/1966) (`l-604-1966`)
 
@@ -189,13 +245,6 @@
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
 |---|---|---|---|---|
 | Art. 7 | datazione | — → 1992-03-08 | non indicato nell’AKN | 2026-10-19 → 2026-10-24 |
-
-## Testo unico spese di giustizia (D.P.R. 115/2002) (`dpr-115-2002`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 168-bis — Decreto di pagamento delle prestazioni di cui all'articolo 57 del decreto legislativo 1° agosto 2003, n. 259, e di quelle funzionali all'utilizzo delle medesime | modificato | 2026-08-08 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-10-13 → 2026-10-24 |
-| Art. 73 — Procedura per la registrazione degli atti giudiziari | modificato | 2016-12-03 → 2016-12-03 | non indicato nell’AKN | 2026-09-23 → 2026-10-13 |
 
 ## Testo unico delle imposte sui redditi (D.P.R. 917/1986) (`tuir`)
 
@@ -686,12 +735,6 @@
 | Art. 255 — Acquisizione e gestione dei mezzi finanziari per il risanamento | modificato | 2026-08-08 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-09-23 → 2026-10-19 |
 | Art. 91 — Assunzioni | note | 2026-08-08 → 2026-08-08 | L. 5 ottobre 2026, n. 174 | 2026-09-23 → 2026-10-19 |
 
-## Bilancio di previsione dello Stato per il 2020 (L. 160/2019) — contiene la disciplina dei monopattini elettrici (art. 1, co. 75 ss.) (`l-160-2019`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 1 | modificato | — → — | non indicato nell’AKN | 2026-09-25 → 2026-10-19 |
-
 ## Socio lavoratore di cooperativa (L. 142/2001) (`l-142-2001`)
 
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
@@ -705,12 +748,6 @@
 | Art. 18 — Vigilanza sulle forme pensionistiche complementari | modificato | 2026-04-21 → 2026-10-07 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
 | Art. 17 — Regime tributario delle forme pensionistiche complementari | modificato | 2017-01-01 → 2017-01-01 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
 | Art. 11 — Prestazioni | note | 2026-06-28 → 2026-06-28 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
-
-## Codice penale (`cp`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 437-bis — Omessa adozione di misure di sicurezza nei sistemi di intelligenza artificiale e alterazione illecita dei sistemi | aggiunto | — → 2026-09-30 | D.Lgs. 9 settembre 2026, n. 160 | 2026-09-23 → 2026-10-19 |
 
 ## D.L. 262/2006 (art. 2 c. 47-53: reintroduzione dell'imposta di successione) (`dl-262-2006`)
 

@@ -2,7 +2,7 @@
  "_meta": {
   "codice": "l-160-2019",
   "nome": "Bilancio di previsione dello Stato per il 2020 (L. 160/2019) — contiene la disciplina dei monopattini elettrici (art. 1, co. 75 ss.)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-11-16",
   "formato": 2,
   "consolidato_normattiva": "2026-08-12",
   "articoli": 19,
@@ -592,7 +592,7 @@
    "rubrica": "",
    "vigore_da": "",
    "datazione": "ignota",
-   "h": "8199d6eb5f04"
+   "h": "ca7b0b56e7a7"
   },
   "2": {
    "file": "l-160-2019.md",

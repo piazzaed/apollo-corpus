@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "dpr-115-2002",
   "nome": "Testo unico spese di giustizia (D.P.R. 115/2002)",
-  "snapshot": "2026-10-24",
+  "snapshot": "2026-11-16",
   "formato": 2,
-  "consolidato_normattiva": "2026-10-07",
-  "articoli": 316,
+  "consolidato_normattiva": "2026-10-31",
+  "articoli": 317,
   "file": [
    "dpr-115-2002.md"
   ],
@@ -557,16 +557,21 @@
     "data": "2026-10-06",
     "evento": "rp110",
     "atto_modificante": "L. 5 ottobre 2026, n. 174"
+   },
+   {
+    "data": "2026-10-16",
+    "evento": "rp111",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 186"
    }
   ],
-  "ultima_versione": "2026-10-06",
+  "ultima_versione": "2026-10-16",
   "datazione": {
-   "monoblocco": 316,
-   "api": 1,
+   "monoblocco": 317,
+   "api": 2,
    "riportati": 311,
    "ignota": 4,
    "testo_diverso": 4,
-   "chiamate": 5,
+   "chiamate": 6,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -1685,10 +1690,17 @@
   },
   "151": {
    "file": "dpr-115-2002.md",
-   "rubrica": "Provvedimenti in caso di mancato ritiro del bene restituito e vendita in casi particolari",
-   "vigore_da": "2005-08-23",
+   "rubrica": "Provvedimenti in caso di mancato ritiro del bene restituito",
+   "vigore_da": "2026-10-31",
    "datazione": "api",
-   "h": "ec3f2ab9b309"
+   "h": "c6f326a4a940"
+  },
+  "151-bis": {
+   "file": "dpr-115-2002.md",
+   "rubrica": "Vendita prima della confisca",
+   "vigore_da": "2026-10-31",
+   "datazione": "api",
+   "h": "c66b04f4db8f"
   },
   "152": {
    "file": "dpr-115-2002.md",

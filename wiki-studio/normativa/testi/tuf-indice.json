@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "tuf",
   "nome": "Testo unico delle disposizioni in materia di intermediazione finanziaria (D.Lgs. 58/1998)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-11-16",
   "formato": 2,
-  "consolidato_normattiva": "2026-08-07",
-  "articoli": 572,
+  "consolidato_normattiva": "2026-10-30",
+  "articoli": 574,
   "file": [
    "tuf.md"
   ],
@@ -687,19 +687,28 @@
     "data": "2026-07-23",
     "evento": "rp136",
     "atto_modificante": "D.Lgs. 25 giugno 2026, n. 128"
+   },
+   {
+    "data": "2026-10-15",
+    "evento": "rp137",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 184"
+   },
+   {
+    "data": "2026-10-21",
+    "evento": "rp138",
+    "atto_modificante": "D.Lgs. 7 ottobre 2026, n. 189"
    }
   ],
-  "ultima_versione": "2026-07-23",
+  "ultima_versione": "2026-10-21",
   "datazione": {
-   "monoblocco": 572,
-   "api": 442,
-   "riportati": 103,
+   "monoblocco": 574,
+   "api": 10,
+   "riportati": 537,
    "ignota": 27,
    "falliti": 2,
    "testo_diverso": 25,
-   "stima_anteriore": 190,
-   "stima_posteriore": 3,
-   "chiamate": 469,
+   "stima_anteriore": 1,
+   "chiamate": 37,
    "assenti": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
@@ -708,9 +717,9 @@
   "1": {
    "file": "tuf.md",
    "rubrica": "Definizioni",
-   "vigore_da": "2026-05-22",
+   "vigore_da": "2026-10-30",
    "datazione": "api",
-   "h": "f14dfbc5198b"
+   "h": "833fa4872605"
   },
   "2": {
    "file": "tuf.md",
@@ -823,6 +832,13 @@
    "vigore_da": "2023-12-24",
    "datazione": "api",
    "h": "23eda33203d1"
+  },
+  "4-septies.3": {
+   "file": "tuf.md",
+   "rubrica": "Disposizioni di recepimento degli articoli 2, 5, 6, 12 e 13 della direttiva (UE) 2023/2864, del Parlamento europeo e del Consiglio, del 13 dicembre 2023, in materia di accessibilita' delle informazioni tramite il punto di accesso unico europeo che modificano, rispettivamente, le direttive 2004/25/CE, 2007/36/CE, 2009/65/CE, 2014/65/UE e 2016/97/UE -",
+   "vigore_da": "2026-10-30",
+   "datazione": "api",
+   "h": "6709063613de"
   },
   "4-octies": {
    "file": "tuf.md",
@@ -2156,6 +2172,13 @@
    "datazione": "api",
    "h": "d0e0b76fde89"
   },
+  "66-bis.1": {
+   "file": "tuf.md",
+   "rubrica": "Ammissione alle negoziazioni di societa' con strutture a voto plurimo",
+   "vigore_da": "2026-10-22",
+   "datazione": "api",
+   "h": "a3b0d5df9c26"
+  },
   "66-ter": {
    "file": "tuf.md",
    "rubrica": "Provvedimenti di ammissione, sospensione ed esclusione di strumenti finanziari dalla quotazione e dalle negoziazioni adottati dal gestore della sede di negoziazione",
@@ -3062,9 +3085,9 @@
   "114": {
    "file": "tuf.md",
    "rubrica": "Comunicazioni al pubblico",
-   "vigore_da": "2024-03-27",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "f1b301a4d51a"
+   "h": "08adc58baad8"
   },
   "114-bis": {
    "file": "tuf.md",
@@ -4105,16 +4128,16 @@
   "187-ter.1": {
    "file": "tuf.md",
    "rubrica": "Sanzioni relative alle violazioni delle disposizioni del regolamento (UE) n. 596/2014 del Parlamento europeo e del Consiglio, del 16 aprile 2014",
-   "vigore_da": "2026-08-07",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "691f59b8f291"
+   "h": "ef3606cc40e2"
   },
   "187-quater": {
    "file": "tuf.md",
    "rubrica": "Sanzioni amministrative accessorie",
-   "vigore_da": "2026-08-07",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "02c53efb66d6"
+   "h": "810f50fe3aaa"
   },
   "187-quinquies": {
    "file": "tuf.md",
@@ -4140,9 +4163,9 @@
   "187-octies": {
    "file": "tuf.md",
    "rubrica": "Poteri della CONSOB",
-   "vigore_da": "2026-08-07",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "3e2a622b242c"
+   "h": "6e22c30fbf08"
   },
   "187-novies": {
    "file": "tuf.md",
@@ -4308,9 +4331,9 @@
   "191-bis": {
    "file": "tuf.md",
    "rubrica": "Sanzioni accessorie",
-   "vigore_da": "2021-03-11",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "c00d2330b4e0"
+   "h": "b222ca03c58d"
   },
   "191-ter": {
    "file": "tuf.md",
@@ -4420,9 +4443,9 @@
   "194-bis": {
    "file": "tuf.md",
    "rubrica": "Criteri per la determinazione delle sanzioni",
-   "vigore_da": "2026-08-07",
+   "vigore_da": "2026-10-22",
    "datazione": "api",
-   "h": "496d8b30828a"
+   "h": "8c4bf669fcbf"
   },
   "194-bis.1": {
    "file": "tuf.md",
@@ -4496,10 +4519,10 @@
   },
   "195-ter": {
    "file": "tuf.md",
-   "rubrica": "Comunicazione all'ABE e all'AESFEM sulle sanzioni applicate",
-   "vigore_da": "2026-08-07",
+   "rubrica": "Comunicazione all'ABE, all'AESFEM e all'ESAP sulle sanzioni applicate",
+   "vigore_da": "2026-10-30",
    "datazione": "api",
-   "h": "9516026386d9"
+   "h": "5b4e6ab9a39c"
   },
   "195-quater": {
    "file": "tuf.md",

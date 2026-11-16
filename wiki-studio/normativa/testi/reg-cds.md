@@ -1,6 +1,6 @@
 # Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992) — Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)
 
-<!-- codice: reg-cds · snapshot: 2026-10-05 · consolidato-normattiva: 2025-03-11 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1992-12-16;495) -->
+<!-- codice: reg-cds · snapshot: 2026-11-16 · consolidato-normattiva: 2026-10-28 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.del.presidente.della.repubblica:1992-12-16;495) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.

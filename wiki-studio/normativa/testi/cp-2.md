@@ -1,6 +1,6 @@
 # Codice penale — Libro II — Dei delitti in particolare
 
-<!-- codice: cp · snapshot: 2026-10-19 · consolidato-normattiva: 2026-09-30 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1930-10-19;1398:1) -->
+<!-- codice: cp · snapshot: 2026-11-16 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1930-10-19;1398:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -2659,7 +2659,7 @@ La Corte Costituzionale, con sentenza 5 - 23 aprile 1974, n. 108 (in G.U. 1ª s.
 ((Nel caso di lesioni gravi o gravissime o morte di piu' persone, si applica la pena che dovrebbe infliggersi per la violazione piu' grave, aumentata fino al triplo, ma la pena della reclusione non puo' superare gli anni venti)).
 
 ### Art. 416 — Associazione per delinquere
-<!-- vigore_da: 2017-01-07 -->
+<!-- vigore_da: 2026-10-31 -->
 
 Quando tre o piu' persone si associano allo scopo di commettere piu' delitti, coloro che promuovono o costituiscono od organizzano l'associazione sono puniti, per cio' solo, con la reclusione da tre a sette anni.
 
@@ -2671,9 +2671,11 @@ Se gli associati scorrono in armi le campagne o le pubbliche vie, si applica la 
 
 La pena e' aumentata se il numero degli associati e' di dieci o piu'.
 
-Se l'associazione e' diretta a commettere taluno dei delitti di cui agli articoli 600, 601 ((, 601-bis)) e 602, nonche' all'articolo 12, comma 3-bis, del testo unico delle disposizioni concernenti la disciplina dell'immigrazione e norme sulla condizione dello straniero, di cui al decreto legislativo 25 luglio 1998, n. 286, ((nonche' agli articoli 22, commi 3 e 4, e 22-bis, comma 1, della legge 1° aprile 1999, n. 91,))si applica la reclusione da cinque a quindici anni nei casi previsti dal primo comma e da quattro a nove anni nei casi previsti dal secondo comma.
+Se l'associazione e' diretta a commettere taluno dei delitti di cui agli articoli 600, 601, 601-bis e 602, nonche' all'articolo 12, comma 3-bis, del testo unico delle disposizioni concernenti la disciplina dell'immigrazione e norme sulla condizione dello straniero, di cui al decreto legislativo 25 luglio 1998, n. 286, nonche' agli articoli 22, commi 3 e 4, e 22-bis, comma 1, della legge 1° aprile 1999, n. 91,si applica la reclusione da cinque a quindici anni nei casi previsti dal primo comma e da quattro a nove anni nei casi previsti dal secondo comma.
 
 Se l'associazione e' diretta a commettere taluno dei delitti previsti dagli articoli 600-bis, 600-ter, 600-quater, 600-quater.1, 600-quinquies, 609-bis, quando il fatto e' commesso in danno di un minore di anni diciotto, 609-quater, 609-quinquies, 609-octies, quando il fatto e' commesso in danno di un minore di anni diciotto, e 609-undecies, si applica la reclusione da quattro a otto anni nei casi previsti dal primo comma e la reclusione da due a sei anni nei casi previsti dal secondo comma.
+
+((Quando l'associazione e' finalizzata alla commissione di reati puniti con la reclusione non inferiore a quattro anni, nel caso di condanna o di applicazione della pena su richiesta delle parti a norma dell'articolo 444 del codice di procedura penale, e' disposta la confisca delle cose che servirono o furono destinate a commettere il reato e delle cose che ne sono il prodotto, il prezzo o il profitto, salvo che appartengano a persona estranea al reato ovvero, quando essa non e' possibile, dei beni di cui il condannato ha comunque la disponibilita', per un valore corrispondente al profitto, al prodotto o al prezzo del reato.))
 (33) (96) (125) (233)
 
 ---------------
@@ -2698,24 +2700,23 @@ Il D.Lgs. 6 settembre 2011, n. 159 ha disposto:
 - (con l'art. 71, comma 3) che alla pena e' aggiunta una misura di sicurezza detentiva.
 
 ### Art. 416-bis
-<!-- vigore_da: 2015-06-14 -->
+<!-- vigore_da: 2026-10-31 -->
 
 Associazioni di tipo mafioso anche straniere
 
-Chiunque fa parte di un'associazione di tipo mafioso formata da tre o piu' persone, e' punito con la reclusione ((da dieci a quindici anni)).
+Chiunque fa parte di un'associazione di tipo mafioso formata da tre o piu' persone, e' punito con la reclusione da dieci a quindici anni.
 
-Coloro che promuovono, dirigono o organizzano l'associazione sono puniti, per cio' solo, con la reclusione ((da dodici a diciotto anni)).
+Coloro che promuovono, dirigono o organizzano l'associazione sono puniti, per cio' solo, con la reclusione da dodici a diciotto anni.
 
 L'associazione e' di tipo mafioso quando coloro che ne fanno parte si avvalgono della forza di intimidazione del vincolo associativo e della condizione di assoggettamento e di omerta' che ne deriva per commettere delitti, per acquisire in modo diretto o indiretto la gestione o comunque il controllo di attivita' economiche, di concessioni, di autorizzazioni, appalti e servizi pubblici o per realizzare profitti o vantaggi ingiusti per se' o per altri ovvero al fine di impedire od ostacolare il libero esercizio del voto o di procurare voti a se' o ad altri in occasione di consultazioni elettorali.
 
-Se l'associazione e' armata si applica la pena della reclusione ((da dodici a venti anni)) nei casi previsti dal primo comma e ((da quindici a ventisei anni)) nei casi previsti dal secondo comma.
+Se l'associazione e' armata si applica la pena della reclusione da dodici a venti anni nei casi previsti dal primo comma e da quindici a ventisei anni nei casi previsti dal secondo comma.
 
 L'associazione si considera armata quando i partecipanti hanno la disponibilita', per il conseguimento della finalita' dell'associazione, di armi o materie esplodenti, anche se occultate o tenute in luogo di deposito.
 
 Se le attivita' economiche di cui gli associati intendono assumere o mantenere il controllo sono finanziate in tutto o in parte con il prezzo, il prodotto, o il profitto di delitti, le pene stabilite nei commi precedenti sono aumentate da un terzo alla meta'.
 
-Nei confronti del condannato e' sempre obbligatoria la confisca delle cose che servirono o furono destinate a commettere il reato e delle cose che ne sono il prezzo, il prodotto, il profitto o che ne costituiscono l'impiego. PERIODO ABROGATO DALLA L. 19 MARZO 1990, N.
-55. (118)
+Nei confronti del condannato e' sempre obbligatoria la confisca delle cose che servirono o furono destinate a commettere il reato e delle cose che ne sono il prezzo, il prodotto, il profitto o che ne costituiscono l'impiego. PERIODO ABROGATO DALLA L. 19 MARZO 1990, N. 55 ((Ove la confisca non sia possibile, e' disposta la confisca di beni di cui il reo ha la disponibilita', anche indirettamente o per interposta persona, per un valore corrispondente al prezzo, al prodotto o al profitto del reato.)) (118)
 
 Le disposizioni del presente articolo si applicano anche alla camorra, alla 'ndrangheta e alle altre associazioni, comunque localmente denominate, anche straniere, che valendosi della forza intimidatrice del vincolo associativo perseguono scopi corrispondenti a quelli delle associazioni di tipo mafioso.
 (96) (125) (233)
@@ -2791,11 +2792,13 @@ AGGIORNAMENTO (281)
 Il D.Lgs. 6 settembre 2011, n. 159, come modificato dalla L. 17 ottobre 2017, n. 161, ha disposto (con l'art. 71, commi 1 e 3) che le pene stabilite per il delitto previsto dal presente articolo sono aumentate da un terzo alla meta' se il fatto e' commesso da persona sottoposta con provvedimento definitivo ad una misura di prevenzione personale durante il periodo previsto di applicazione e sino a tre anni dal momento in cui ne e' cessata l'esecuzione. Alla pena e' aggiunta una misura di sicurezza detentiva.
 
 ### Art. 419 — Devastazione e saccheggio
-<!-- vigore_da: 2019-06-15 -->
+<!-- vigore_da: 2026-10-23 -->
 
 Chiunque, fuori dei casi preveduti dall'articolo 285, commette fatti di devastazione o di saccheggio e' punito con la reclusione da otto a quindici anni.
 
-La pena e' aumentata se il fatto e' commesso ((nel corso di manifestazioni in luogo pubblico o aperto al pubblico ovvero)) su armi, munizioni o viveri esistenti in luogo di vendita o di deposito.
+La pena e' aumentata se il fatto e' commesso nel corso di manifestazioni in luogo pubblico o aperto al pubblico ovvero su armi, munizioni o viveri esistenti in luogo di vendita o di deposito.
+
+((La pena e' aumentata da un terzo alla meta' se il fatto e' commesso nel corso di manifestazioni in luogo pubblico o aperto al pubblico su beni esistenti in luogo di vendita o di deposito.))
 (48) (56)
 
 ---------------
@@ -2813,13 +2816,26 @@ AGGIORNAMENTO (56)
 Successivamente la Corte Costituzionale, con sentenza 5 - 14 luglio 1971, n. 175 (in G.U. 1ª s.s. 21/07/1971, n. 184), ha dichiarato l'illegittimita' costituzionale dell'art. 1 del D.P.R. 22 maggio 1970, n. 283 (che ha modificato il presente articolo) nella parte in cui esclude la rinunzia, con le conseguenze indicate in motivazione, all'applicazione dell'amnistia.
 
 ### Art. 420 — Attentato a impianti di pubblica utilita'
-<!-- vigore_da: 2008-04-05 -->
+<!-- vigore_da: 2026-10-23 -->
 
 Chiunque commette un fatto diretto a danneggiare o distruggere impianti di pubblica utilita', e' punito, salvo che il fatto costituisca piu' grave reato, con la reclusione da uno a quattro anni.
 
-((COMMA ABROGATO DALLA L. 18 MARZO 2008, N. 48)).
+((La pena e' aumentata da un terzo alla meta' se il fatto e' commesso nel corso di manifestazioni in luogo pubblico o aperto al pubblico.))
 
-((COMMA ABROGATO DALLA L. 18 MARZO 2008, N. 48)).
+COMMA ABROGATO DALLA L. 18 MARZO 2008, N. 48.
+
+COMMA ABROGATO DALLA L. 18 MARZO 2008, N. 48.
+
+### Art. 420-bis — Violenza organizzata nelle manifestazioni pubbliche
+<!-- vigore_da: 2026-10-23 -->
+
+.
+
+((Salvo che il fatto costituisca piu' grave reato, chiunque, nel corso di manifestazioni in luogo pubblico o aperto al pubblico, partecipando ad un gruppo composto da almeno cinque persone che opera in modo organizzato anche occasionalmente, utilizza illegittimamente bastoni, mazze, oggetti contundenti o, comunque, atti a offendere, ovvero lancia i medesimi oggetti oppure razzi, fuochi artificiali, petardi, strumenti in grado di nebulizzare gas contenenti principi attivi urticanti, determinando un concreto pericolo per l'incolumita' delle persone e cagionando altresi' danni alle cose, e' punito con la reclusione da due a cinque anni e con la multa da euro 10.000 a euro 20.000.))
+((La pena e' aumentata da un terzo alla meta' se:
+a) il fatto e' commesso da soggetti che agiscono travisati o comunque con modalita' idonee a rendere difficoltosa l'identificazione;
+b) il lancio o l'utilizzo di oggetti atti ad offendere e' diretto contro infrastrutture destinate all'erogazione di energia, di servizi di trasporto, di telecomunicazioni o di altri servizi pubblici, o di beni mobili o immobili adibiti all'esercizio di funzioni pubbliche, destinati a pubblico servizio o a pubblica utilita' o esposti alla pubblica fede.))
+((Chiunque, anche mediante strumenti informatici o telematici, organizza o promuove la formazione del gruppo di cui al primo comma oppure incita o istiga alla commissione delle condotte di cui al primo comma e' punito con la reclusione da quattro a dodici anni. Se le condotte di cui al primo comma cagionano lesioni personali le pene di cui agli articoli 582, 583, 583-quater e 583-quinquies sono aumentate da un terzo alla meta'.))
 
 ### Art. 421 — Pubblica intimidazione
 <!-- vigore_da: 1931-07-01 -->
@@ -5290,11 +5306,11 @@ Chiunque percuote taluno, se dal fatto non deriva una malattia nel corpo o nella
 Tale disposizione non si applica quando la legge considera la violenza come elemento costitutivo o come circostanza aggravante di un altro reato.
 
 ### Art. 582 — Lesione personale
-<!-- vigore_da: 2026-04-25 -->
+<!-- vigore_da: 2026-10-23 -->
 
 Chiunque cagiona ad alcuno una lesione personale, dalla quale deriva una malattia nel corpo o nella mente, e' punito, a querela della persona offesa, con la reclusione da sei mesi a tre anni.
 
-Si procede tuttavia d'ufficio se ricorre taluna delle circostanze aggravanti previste negli articoli 583, 583-quater, secondo comma, primo periodo, ((e terzo comma,)) e 585, ad eccezione di quelle indicate nel primo comma, numero 1), e nel secondo comma dell'articolo 577. Si procede altresi' d'ufficio se la malattia ha una durata superiore a venti giorni quando il fatto e' commesso contro persona incapace, per eta' o per infermita'.
+Si procede tuttavia d'ufficio se ricorre taluna delle circostanze aggravanti previste negli articoli 583, 583-quater, ((primo comma,)) secondo comma, primo periodo, e terzo comma, e 585, ad eccezione di quelle indicate nel primo comma, numero 1), e nel secondo comma dell'articolo 577. Si procede altresi' d'ufficio se la malattia ha una durata superiore a venti giorni quando il fatto e' commesso contro persona incapace, per eta' o per infermita'.
 
 ------------
 AGGIORNAMENTO (24)
@@ -5769,9 +5785,11 @@ Per immagini virtuali si intendono immagini realizzate con tecniche di elaborazi
 ((ARTICOLO ABROGATO DALLA L. 1 OTTOBRE 2012, N. 172))
 
 ### Art. 600-septies — Confisca
-<!-- vigore_da: 2012-10-23 -->
+<!-- vigore_da: 2026-10-31 -->
 
-((Nel caso di condanna, o di applicazione della pena su richiesta delle parti a norma dell'articolo 444 del codice di procedura penale, per i delitti previsti dalla presente sezione, nonche' dagli articoli 609-bis, quando il fatto e' commesso in danno di un minore di anni diciotto o il reato e' aggravato dalle circostanze di cui all'articolo 609-ter, primo comma, numeri 1), 5) e 5-bis), 609-quater, 609-quinquies, 609-octies, quando il fatto e' commesso in danno di un minore di anni diciotto o il reato e' aggravato dalle circostanze di cui all'articolo 609-ter, primo comma, numeri 1), 5) e 5-bis), e 609-undecies, e' sempre ordinata, salvi i diritti della persona offesa alle restituzioni e al risarcimento dei danni, la confisca dei beni che costituiscono il prodotto, il profitto o il prezzo del reato. Ove essa non sia possibile, il giudice dispone la confisca di beni di valore equivalente a quelli che costituiscono il prodotto, il profitto o il prezzo del reato e di cui il condannato abbia, anche indirettamente o per interposta persona, la disponibilita'. Si applica il terzo comma dell'articolo 322-ter)).
+Nel caso di condanna, o di applicazione della pena su richiesta delle parti a norma dell'articolo 444 del codice di procedura penale, per i delitti previsti dalla presente sezione, nonche' dagli articoli 609-bis, quando il fatto e' commesso in danno di un minore di anni diciotto o il reato e' aggravato dalle circostanze di cui all'articolo 609-ter, primo comma, numeri 1), 5) e 5-bis), 609-quater, 609-quinquies, 609-octies, quando il fatto e' commesso in danno di un minore di anni diciotto o il reato e' aggravato dalle circostanze di cui all'articolo 609-ter, primo comma, numeri 1), 5) e 5-bis), e 609-undecies, e' sempre ordinata, salvi i diritti della persona offesa alle restituzioni e al risarcimento dei danni, la confisca dei beni che costituiscono il prodotto, il profitto o il prezzo del reato. Ove essa non sia possibile, il giudice dispone la confisca di beni di valore equivalente a quelli che costituiscono il prodotto, il profitto o il prezzo del reato e di cui il condannato abbia, anche indirettamente o per interposta persona, la disponibilita'. Si applica il terzo comma dell'articolo 322-ter.
+
+((Nel caso di condanna o di applicazione della pena su richiesta delle parti a norma dell'articolo 444 del codice di procedura penale per uno dei delitti di cui agli articoli 600-bis, 600-ter, 600-quater, 600-quater.1, 600-quinquies, 601, 601-bis e 602, e' disposta la confisca delle cose che servirono o furono destinate a commettere il reato.))
 
 ### Art. 600-septies.1 — Circostanza attenuante
 <!-- vigore_da: 2012-10-23 -->
@@ -7085,6 +7103,13 @@ La pena e' della reclusione da tre a otto anni:
 
 La pena e' della reclusione da quattro a dodici anni quando taluna delle circostanze di cui ai numeri 1) e 2) del secondo comma concorre con taluna delle circostanze di cui al numero 3) )).
 
+### Art. 635.1 — Danneggiamento commesso da un gruppo organizzato
+<!-- vigore_da: 2026-10-23 -->
+
+.
+
+((Quando le condotte di cui all'articolo 635, primo, secondo e terzo comma, sono poste in essere da un gruppo organizzato anche occasionalmente di almeno cinque persone, la pena e' aumentata da un terzo alla meta'.))
+
 ### Art. 636 — Introduzione o abbandono di animali nel fondo altrui e pascolo abusivo
 <!-- vigore_da: 2011-10-13 -->
 
@@ -7436,13 +7461,15 @@ La pena e' diminuita fino alla meta' per chi si sia efficacemente adoperato per 
 Si applica l'ultimo comma dell'articolo 648.
 
 ### Art. 648-quater — Confisca
-<!-- vigore_da: 2015-01-01 -->
+<!-- vigore_da: 2026-10-31 -->
 
-Nel caso di condanna o di applicazione della pena su richiesta delle parti, a norma dell'articolo 444 del codice di procedura penale, per uno dei delitti previsti dagli ((articoli 648-bis, 648-ter e 648-ter.1)), e' sempre ordinata la confisca dei beni che ne costituiscono il prodotto o il profitto, salvo che appartengano a persone estranee al reato.
+Nel caso di condanna o di applicazione della pena su richiesta delle parti, a norma dell'articolo 444 del codice di procedura penale, per uno dei delitti previsti dagli articoli 648-bis, 648-ter e 648-ter.1, e' sempre ordinata la confisca dei beni che ne costituiscono il prodotto o il profitto, salvo che appartengano a persone estranee al reato.
 
 Nel caso in cui non sia possibile procedere alla confisca di cui al primo comma, il giudice ordina la confisca delle somme di denaro, dei beni o delle altre utilita' delle quali il reo ha la disponibilita', anche per interposta persona, per un valore equivalente al prodotto, profitto o prezzo del reato.
 
-In relazione ai reati di cui agli articoli ((648-bis, 648-ter e 648-ter.1)), il pubblico ministero puo' compiere, nel termine e ai fini di cui all'articolo 430 del codice di procedura penale, ogni attivita' di indagine che si renda necessaria circa i beni, il denaro o le altre utilita' da sottoporre a confisca a norma dei commi precedenti.
+((E' altresi' disposta la confisca delle cose che servirono o furono destinate a commettere il reato.))
+
+In relazione ai reati di cui agli articoli 648-bis, 648-ter e 648-ter.1, il pubblico ministero puo' compiere, nel termine e ai fini di cui all'articolo 430 del codice di procedura penale, ogni attivita' di indagine che si renda necessaria circa i beni, il denaro o le altre utilita' da sottoporre a confisca a norma dei commi precedenti.
 
 ### Art. 649 — Non punibilita' e querela della persona offesa, per fatti commessi a danno di congiunti
 <!-- vigore_da: 2017-02-11 -->

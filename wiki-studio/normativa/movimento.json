@@ -1,79 +1,4 @@
 {
- "reg-cds": {
-  "dal": "2026-10-19",
-  "atti_gu": [
-   {
-    "codice_gu": "26G00198",
-    "data_gu": "2026-10-13",
-    "titolo": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 4 agosto 2026, n. 183 — Regolamento recante modifiche al decreto del Presidente della Repubblica 16 dicembre 1992, n. 495, per l'introduzione della sigla di individuazione delle province di Sulcis Iglesiente, Medio Campidano, Ogliastra e Gallura nord-est Sarde",
-    "articoli": [],
-    "tutto_l_atto": true,
-    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/13/26G00198/sg",
-    "rilevato_il": "2026-10-19"
-   }
-  ],
-  "stato": "in_movimento"
- },
- "tuf": {
-  "dal": "2026-10-19",
-  "atti_gu": [
-   {
-    "codice_gu": "26G00202",
-    "data_gu": "2026-10-15",
-    "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 184 — Recepimento della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, e adeguamento dell'ordinamento nazionale alle disposizioni dei regolamenti (UE) 2023/2859 e (UE) 2023/2869 del Parlamento europeo e del Consiglio, ",
-    "articoli": [
-     "1"
-    ],
-    "tutto_l_atto": true,
-    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/15/26G00202/sg",
-    "rilevato_il": "2026-10-19"
-   },
-   {
-    "codice_gu": "26G00206",
-    "data_gu": "2026-10-21",
-    "titolo": "DECRETO LEGISLATIVO 7 ottobre 2026, n. 189 — Recepimento della direttiva (UE) 2024/2810 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, sulle strutture con azioni a voto plurimo nelle societa' che chiedono l'ammissione alla negoziazione delle loro azioni in un sistema multilaterale di n",
-    "articoli": [
-     "114"
-    ],
-    "tutto_l_atto": true,
-    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/21/26G00206/sg",
-    "rilevato_il": "2026-10-23"
-   }
-  ],
-  "stato": "in_movimento"
- },
- "cp": {
-  "dal": "2026-10-19",
-  "atti_gu": [
-   {
-    "codice_gu": "26G00203",
-    "data_gu": "2026-10-16",
-    "titolo": "DECRETO LEGISLATIVO 25 settembre 2026, n. 186 — Attuazione della direttiva (UE) 2024/1260 del Parlamento europeo e del Consiglio, del 24 aprile 2024, riguardante il recupero e la confisca dei beni. (26G00203) Pag. 7",
-    "articoli": [
-     "240-bis"
-    ],
-    "tutto_l_atto": true,
-    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00203/sg",
-    "rilevato_il": "2026-10-19"
-   },
-   {
-    "codice_gu": "26G00214",
-    "data_gu": "2026-10-22",
-    "titolo": "DECRETO-LEGGE 22 ottobre 2026, n. 190 — Disposizioni urgenti in materia di sicurezza pubblica e contrasto alla criminalita' minorile. (26G00214) Pag. 1",
-    "articoli": [
-     "98",
-     "419",
-     "420",
-     "582",
-     "635"
-    ],
-    "tutto_l_atto": false,
-    "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg",
-    "rilevato_il": "2026-10-23"
-   }
-  ],
-  "stato": "in_movimento"
- },
  "cad": {
   "dal": "2026-10-23",
   "atti_gu": [
@@ -143,6 +68,93 @@
     "dentro_virgolettato": true,
     "url": "https://www.gazzettaufficiale.it/eli/id/2026/10/30/26G00217/sg",
     "rilevato_il": "2026-11-02"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "dlgs-196-2003": {
+  "dal": "2026-11-16",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00218",
+    "data_gu": "2026-11-09",
+    "titolo": "LEGGE 29 ottobre 2026, n. 201 — Modifica al codice di cui al decreto legislativo 30 giugno 2003, n. 196, in materia di pubblicita' delle sentenze di assoluzione o proscioglimento. (26G00218) Pag. 1",
+    "articoli": [
+     "144-bis"
+    ],
+    "tutto_l_atto": false,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00218/sg",
+    "rilevato_il": "2026-11-16"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "dlgs-152-2006": {
+  "dal": "2026-11-16",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00222",
+    "data_gu": "2026-11-09",
+    "titolo": "LEGGE 6 novembre 2026, n. 202 — Conversione in legge, con modificazioni, del decreto-legge 10 settembre 2026, n. 157, recante disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attivita' energetiche strategic",
+    "articoli": [
+     "184-bis"
+    ],
+    "tutto_l_atto": false,
+    "dentro_virgolettato": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00222/sg",
+    "rilevato_il": "2026-11-16"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "dlgs-81-2008": {
+  "dal": "2026-11-16",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00224",
+    "data_gu": "2026-11-14",
+    "titolo": "DECRETO LEGISLATIVO 2 novembre 2026, n. 208 — Attuazione della direttiva (UE) 2024/2831 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, relativa al miglioramento delle condizioni di lavoro nel lavoro mediante piattaforme digitali. (26G00224) Pag. 1",
+    "articoli": [
+     "2"
+    ],
+    "tutto_l_atto": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg",
+    "rilevato_il": "2026-11-16"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "dlgs-81-2015": {
+  "dal": "2026-11-16",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00224",
+    "data_gu": "2026-11-14",
+    "titolo": "DECRETO LEGISLATIVO 2 novembre 2026, n. 208 — Attuazione della direttiva (UE) 2024/2831 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, relativa al miglioramento delle condizioni di lavoro nel lavoro mediante piattaforme digitali. (26G00224) Pag. 1",
+    "articoli": [
+     "2",
+     "3"
+    ],
+    "tutto_l_atto": true,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg",
+    "rilevato_il": "2026-11-16"
+   }
+  ],
+  "stato": "in_movimento"
+ },
+ "dlgs-152-1997": {
+  "dal": "2026-11-16",
+  "atti_gu": [
+   {
+    "codice_gu": "26G00224",
+    "data_gu": "2026-11-14",
+    "titolo": "DECRETO LEGISLATIVO 2 novembre 2026, n. 208 — Attuazione della direttiva (UE) 2024/2831 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, relativa al miglioramento delle condizioni di lavoro nel lavoro mediante piattaforme digitali. (26G00224) Pag. 1",
+    "articoli": [
+     "1-bis"
+    ],
+    "tutto_l_atto": false,
+    "url": "https://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg",
+    "rilevato_il": "2026-11-16"
    }
   ],
   "stato": "in_movimento"

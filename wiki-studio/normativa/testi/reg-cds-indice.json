@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "reg-cds",
   "nome": "Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)",
-  "snapshot": "2026-10-05",
+  "snapshot": "2026-11-16",
   "formato": 2,
-  "consolidato_normattiva": "2025-03-11",
+  "consolidato_normattiva": "2026-10-28",
   "articoli": 409,
   "file": [
    "reg-cds.md"
@@ -372,15 +372,19 @@
     "data": "2025-02-24",
     "evento": "rp71",
     "atto_modificante": "atto modificante non indicato (rp71)"
+   },
+   {
+    "data": "2026-10-13",
+    "evento": "rp72",
+    "atto_modificante": "D.P.R. 4 agosto 2026, n. 183"
    }
   ],
-  "ultima_versione": "2025-02-24",
+  "ultima_versione": "2026-10-13",
   "datazione": {
    "monoblocco": 409,
-   "api": 6,
-   "riportati": 403,
+   "api": 0,
+   "riportati": 409,
    "ignota": 0,
-   "chiamate": 6,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },

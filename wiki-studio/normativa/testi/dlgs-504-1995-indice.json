@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dlgs-504-1995",
   "nome": "Testo unico delle accise (D.Lgs. 504/1995)",
-  "snapshot": "2026-11-09",
+  "snapshot": "2026-11-16",
   "formato": 2,
-  "consolidato_normattiva": "2026-09-26",
+  "consolidato_normattiva": "2026-11-11",
   "articoli": 122,
   "file": [
    "dlgs-504-1995.md"
@@ -757,16 +757,26 @@
     "data": "2026-09-25",
     "evento": "rp157",
     "atto_modificante": "L. 25 settembre 2026, n. 166"
+   },
+   {
+    "data": "2026-10-27",
+    "evento": "rp158",
+    "atto_modificante": "atto modificante non indicato (rp158)"
+   },
+   {
+    "data": "2026-11-09",
+    "evento": "rp159",
+    "atto_modificante": "atto modificante non indicato (rp159)"
    }
   ],
-  "ultima_versione": "2026-09-25",
+  "ultima_versione": "2026-11-09",
   "datazione": {
    "monoblocco": 122,
-   "api": 1,
-   "riportati": 120,
+   "api": 0,
+   "riportati": 121,
    "ignota": 1,
    "testo_diverso": 1,
-   "chiamate": 2,
+   "chiamate": 1,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },

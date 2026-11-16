@@ -1,6 +1,6 @@
 # Testo unico delle disposizioni in materia di intermediazione finanziaria (D.Lgs. 58/1998) — Testo unico delle disposizioni in materia di intermediazione finanziaria (D.Lgs. 58/1998)
 
-<!-- codice: tuf · snapshot: 2026-09-23 · consolidato-normattiva: 2026-08-07 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.legislativo:1998-02-24;58) -->
+<!-- codice: tuf · snapshot: 2026-11-16 · consolidato-normattiva: 2026-10-30 · fonte: normattiva caricaAKN (urn:nir:stato:decreto.legislativo:1998-02-24;58) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -8,7 +8,7 @@
 > evidenze di modifica di normattiva, mantenute apposta.
 
 ### Art. 1 — Definizioni
-<!-- vigore_da: 2026-05-22 -->
+<!-- vigore_da: 2026-10-30 -->
 
 1. Nel presente decreto legislativo si intendono per:
 
@@ -140,7 +140,7 @@ t) "offerta al pubblico di prodotti finanziari": ogni comunicazione rivolta a pe
 
 u) "prodotti finanziari": gli strumenti finanziari e ogni altra forma di investimento di natura finanziaria; non costituiscono prodotti finanziari i depositi bancari o postali non rappresentati da strumenti finanziari;
 
-v) "offerta pubblica di acquisto o di scambio": ogni offerta, invito a offrire o messaggio promozionale, in qualsiasi forma effettuati, finalizzati all'acquisto o allo scambio di prodotti finanziari e rivolti a un numero di soggetti e di ammontare complessivo superiori a quelli indicati ((dalla Consob con proprio regolamento)); non costituisce offerta pubblica di acquisto o di scambio quella avente a oggetto titoli emessi dalle banche centrali degli Stati comunitari; ((134))
+v) "offerta pubblica di acquisto o di scambio": ogni offerta, invito a offrire o messaggio promozionale, in qualsiasi forma effettuati, finalizzati all'acquisto o allo scambio di prodotti finanziari e rivolti a un numero di soggetti e di ammontare complessivo superiori a quelli indicati dalla Consob con proprio regolamento; non costituisce offerta pubblica di acquisto o di scambio quella avente a oggetto titoli emessi dalle banche centrali degli Stati comunitari; (134)
 
 w) "emittenti quotati": i soggetti, italiani o esteri, inclusi i trust, che emettono strumenti finanziari quotati in un mercato regolamentato italiano. Nel caso di ricevute di deposito ammesse alle negoziazioni in un mercato regolamentato, per emittente si intende l'emittente dei valori mobiliari rappresentati, anche qualora tali valori non sono ammessi alla negoziazione in un mercato regolamentato;
 
@@ -180,7 +180,9 @@ w-octies) "Definizioni relative alle obbligazioni verdi europee" o "EuGB" ai sen
 
 w-novies) "sistema di intelligenza artificiale": il sistema come definito dall'articolo 3, punto 1), del regolamento (UE) 2024/1689, del Parlamento e del Consiglio, del 13 giugno 2024;
 
-w-decies) "rischi informatici": qualunque circostanza ragionevolmente identificabile in relazione all'uso dei sistemi informatici e di rete che, qualora si concretizzi, puo' compromettere la sicurezza dei sistemi informatici e di rete, di eventuali strumenti o processi dipendenti dalle tecnologie, di operazioni e processi, oppure della fornitura dei servizi causando effetti avversi nell'ambiente digitale o fisico.
+w-decies) "rischi informatici": qualunque circostanza ragionevolmente identificabile in relazione all'uso dei sistemi informatici e di rete che, qualora si concretizzi, puo' compromettere la sicurezza dei sistemi informatici e di rete, di eventuali strumenti o processi dipendenti dalle tecnologie, di operazioni e processi, oppure della fornitura dei servizi causando effetti avversi nell'ambiente digitale o fisico ((;))
+
+w-undecies) (("ESAP": il punto di accesso unico europeo che fornisce un accesso elettronico centralizzato alle informazioni accessibili al pubblico pertinenti per i servizi finanziari, i mercati dei capitali e la sostenibilita', con le caratteristiche previste dal regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023.))
 
 1-bis. Per "valori mobiliari" si intendono categorie di valori che possono essere negoziati nel mercato dei capitali, quali ad esempio:
 
@@ -864,6 +866,146 @@ d) autorizzare il verificatore terzo di cui all'articolo 27, ((paragrafo)) 2, de
 8. Ai fini dei commi 3 lettera b), 4 lettera b) e 5 lettera b), se i cedenti, i prestatori originari, i promotori e le SSPE non sono tutti soggetti vigilati, la Banca d'Italia, l'IVASS e la COVIP esercitano i poteri di vigilanza e d'indagine previsti dal comma 7 per il tramite dei soggetti vigilati. A questi fini, i soggetti non vigilati trasmettono le informazioni necessarie a quelli vigilati, che li inviano alla propria Autorita' di vigilanza. Resta ferma la facolta' per la Banca d'Italia, l'IVASS e la COVIP, di chiedere le informazioni direttamente ai soggetti non vigilati.
 
 9. Per assicurare il rispetto del presente articolo nonche' del regolamento indicato dal comma 1, la Banca d'Italia, la CONSOB, l'IVASS e la COVIP possono emanare disposizioni di attuazione del presente articolo, ciascuna nell'ambito delle proprie competenze. Nel rispetto della reciproca indipendenza, esse individuano inoltre forme di coordinamento operativo, anche ai sensi dell'articolo 20 della legge 28 dicembre 2005, n. 262, per l'esercizio delle competenze e dei poteri loro attribuiti ai sensi del presente articolo, anche attraverso protocolli d'intesa, senza nuovi o maggiori oneri a carico della finanza pubblica, anche al fine di disciplinare i casi in cui ai sensi dei commi 3, lettera b), 4, lettera b), 5, lettera b), per la medesima operazione di cartolarizzazione siano coinvolte piu' autorita' di vigilanza. Le citate autorita' collaborano tra loro, anche ai sensi dell'articolo 21 della legge 28 dicembre 2005, n. 262, per agevolare l'esercizio delle competenze e dei poteri loro attribuiti e si scambiano informazioni.
+
+### Art. 4-septies.3 — Disposizioni di recepimento degli articoli 2, 5, 6, 12 e 13 della direttiva (UE) 2023/2864, del Parlamento europeo e del Consiglio, del 13 dicembre 2023, in materia di accessibilita' delle informazioni tramite il punto di accesso unico europeo che modificano, rispettivamente, le direttive 2004/25/CE, 2007/36/CE, 2009/65/CE, 2014/65/UE e 2016/97/UE -
+<!-- vigore_da: 2026-10-30 -->
+
+1. ((A decorrere dal 10 gennaio 2030, quando rendono pubbliche le informazioni di cui agli articoli 101-ter, comma 3, lettera c), 102, commi 1, 2, 3-bis e 4, e 103, commi 3 e 3-bis, le societa' trasmettono tali informazioni contemporaneamente all'organismo di raccolta di cui al comma 3, al fine di renderle accessibili tramite l'ESAP. Le informazioni sono trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, ovvero, ove previsto dal diritto dell'Unione europea, nel formato leggibile meccanicamente di cui all'articolo 2, punto 4), del medesimo regolamento (UE) 2023/2859 e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni della societa' a cui le informazioni fanno riferimento;))
+
+b) ((l'identificativo della persona giuridica della societa', come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((le dimensioni della societa' per categoria, come specificate ai sensi dell'articolo 7, paragrafo 4, lettera d), del regolamento (UE) 2023/2859;))
+
+d) ((il settore o i settori industriali delle attivita' economiche della societa', come specificato a norma dell'articolo 7, paragrafo 4, lettera e), del regolamento (UE) 2023/2859;))
+
+e) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+f) ((un'indicazione che precisi se le informazioni contengono dati personali, come definiti dall'articolo 2, punto 8), del regolamento (UE) 2023/2859.))
+
+2. ((A decorrere dal 10 gennaio 2030, le informazioni di cui all'articolo 106, comma 3, lettere c) e d), sono rese accessibili tramite l'ESAP. Le informazioni di cui al primo periodo sono trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859 e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni della societa' a cui le informazioni fanno riferimento;))
+
+b) ((se disponibile, l'identificativo della persona giuridica della societa', come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+d) ((un'indicazione del fatto che le informazioni contengono dati personali, come definiti dall'articolo 2, punto 8), del regolamento (UE) 2023/2859. ))
+
+3. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui ai commi 1 e 2, la Consob e' organismo di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859.))
+
+4. ((A decorrere dal 10 gennaio 2030, quando rendono pubbliche le informazioni di cui agli articoli 123-ter, commi 1, 2 e 3-quater, 124-quinquies, commi 1, 2, e 3, 124-sexies, commi 1, 2, 3 e 5, 124-octies, commi 1 e 2, e 125-quater del presente decreto e di cui all'articolo 2391-bis del codice civile, gli investitori istituzionali, i gestori di attivi, i consulenti in materia di voto e le societa' trasmettono tali informazioni contemporaneamente all'organismo di raccolta di cui al comma 5, al fine di renderle accessibili tramite l'ESAP. Le informazioni di cui al primo periodo sono trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, ovvero, ove previsto dal diritto dell'Unione europea, nel formato leggibile meccanicamente di cui all'articolo 2, punto 4), del medesimo regolamento (UE) 2023/2859 e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni dell'investitore istituzionale, del gestore di attivi, del consulente in materia di voto o della societa' a cui le informazioni fanno riferimento;))
+
+b) ((l'identificativo della persona giuridica dell'investitore istituzionale, del gestore di attivi, del consulente in materia di voto o della societa', come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((le dimensioni per categoria dell'investitore istituzionale, del gestore di attivi, del consulente in materia di voto o della societa', come specificate ai sensi dell'articolo 7, paragrafo 4, lettera d), del regolamento (UE) 2023/2859;))
+
+d) ((il settore o i settori industriali delle attivita' economiche della societa', come specificato a norma dell'articolo 7, paragrafo 4, lettera e), del regolamento (UE) 2023/2859;))
+
+e) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+f) ((un'indicazione che precisi se le informazioni contengono dati personali, come definiti dall'articolo 2, punto 8), del regolamento (UE) 2023/2859.))
+
+5. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui al comma 4 sono organismi di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859:))
+
+a) ((la Consob, l'IVASS e la COVIP per le informazioni di cui agli articoli 124-quinquies, commi 1, 2 e 3, 124-sexies, commi 1, 2, 3 e 5, e la Consob per le informazioni di cui all'articolo 124-octies, commi 1 e 2, secondo le rispettive attribuzioni di vigilanza e con riferimento ai soggetti vigilati dalle medesime autorita', definite dal presente decreto;))
+
+b) ((l'attuale meccanismo ufficialmente stabilito per le informazioni regolamentate di cui all'articolo 113-ter, comma 4, per le informazioni di cui agli articoli 123-ter, commi 1, 2 e 3-quater, e 125-quater del presente decreto e di cui all'articolo 2391-bis del codice civile.))
+
+6. ((A decorrere dal 10 gennaio 2028, quando rendono pubbliche le informazioni di cui agli articoli 39-decies, comma 1, lettere b) e c), 93-bis, comma 1, lettera f-bis), 98-ter, comma 1, e 98-ter.1, comma 2, i gestori di cui all'articolo 1, comma 1, lettera q-bis), per gli OICVM gestiti, trasmettono tali informazioni contemporaneamente all'organismo di raccolta di cui al comma 7 al fine di renderle accessibili tramite l'ESAP. Le informazioni di cui al primo periodo sono trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, ovvero, ove previsto dal diritto dell'Unione europea, nel formato leggibile meccanicamente di cui all'articolo 2, punto 4), del medesimo regolamento (UE) 2023/2859 e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni dell'OICVM a cui le informazioni fanno riferimento;))
+
+b) ((l'identificativo della persona giuridica del gestore e l'identificativo dell'OICVM, come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((le dimensioni dell'OICVM per categoria, come specificate ai sensi dell'articolo 7, paragrafo 4, lettera d), del regolamento (UE) 2023/2859;))
+
+d) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+e) ((un'indicazione che precisi se le informazioni contengono dati personali, come definiti dall'articolo 2, punto 8), del regolamento (UE) 2023/2859.))
+
+7. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui al comma 6, gli organismi di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859 sono la Consob e la Banca d'Italia, secondo le rispettive attribuzioni di vigilanza definite dal presente decreto.))
+
+8. ((A decorrere dal 10 gennaio 2028, le informazioni di cui agli articoli 35, comma 2, e 35-ter, comma 2, con riferimento ai gestori di OICVM, sono rese accessibili tramite l'ESAP e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni del gestore a cui le informazioni fanno riferimento;))
+
+b) ((se disponibile, l'identificativo della persona giuridica del gestore come specificato ai sensi dell'articolo 7, comma 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+d) ((un'indicazione che precisi se le informazioni contengono dati personali.))
+
+9. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui al comma 8, la Banca d'Italia e' organismo di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859.))
+
+10. ((A decorrere dal 10 gennaio 2028, le informazioni di cui all'articolo 195-bis relative ai provvedimenti di applicazione delle sanzioni per la violazione delle disposizioni in materia di organismi di investimento collettivo in valori mobiliari (OICVM), avverso i quali non e' stato presentato ricorso, sono rese accessibili tramite l'ESAP, trasmesse in un formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859, e sono corredate dai seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni dell'OICVM a cui le informazioni fanno riferimento;))
+
+b) ((se disponibile, l'identificativo della persona giuridica del gestore e l'identificativo dell'OICVM, come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+d) ((un'indicazione che precisi se le informazioni contengono dati personali.))
+
+11. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui al comma 10, la Consob e la Banca d'Italia sono organismi di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859, secondo le rispettive attribuzioni di vigilanza e con riferimento ai soggetti vigilati dalle medesime autorita', definiti dal presente decreto.))
+
+12. ((A decorrere dal 10 gennaio 2030, quando rendono pubbliche informazioni di cui agli articoli 64-bis, comma 3, e 69, comma 2, lettere c), d) e f), le imprese di investimento, i gestori del mercato o gli emittenti trasmettono tali informazioni contemporaneamente all'organismo di raccolta di cui al comma 14 al fine di renderle accessibili tramite l'ESAP. Le informazioni di cui al primo periodo sono trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, ovvero, ove previsto dal diritto dell'Unione europea, nel formato leggibile meccanicamente di cui all'articolo 2, punto 4), del medesimo regolamento (UE) 2023/2859 e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:
+a) ((tutte le denominazioni dell'impresa di investimento, del gestore del mercato o dell'emittente a cui le informazioni fanno riferimento;))
+
+b) ((l'identificativo della persona giuridica dell'impresa di investimento, del gestore del mercato o dell'emittente come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((le dimensioni, per categoria, dell'impresa di investimento, del gestore di mercato o dell'emittente, come specificate ai sensi dell'articolo 7, paragrafo 4, lettera d), del regolamento (UE) 2023/2859;))
+
+d) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+e) ((un'indicazione che precisi se le informazioni contengono dati personali, come definiti dall'articolo 2, punto 8), del regolamento (UE) 2023/2859.))
+
+13. ((A decorrere dal 10 gennaio 2030, l'emittente puo' trasmettere la ricerca da esso sponsorizzata di cui all'articolo 21-bis, comma 3, e relative disposizioni di attuazione, al pertinente organismo di raccolta quale definito dall'articolo 2, punto 2, del regolamento (UE) 2023/2859, corredata di metadati che specifichino che le informazioni sono conformi al codice di condotta dell'Unione europea per la ricerca sponsorizzata dall'emittente. Le informazioni di cui al primo periodo sono trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859 del Parlamento europeo e del Consiglio, del 13 dicembre 2023 ovvero, ove previsto dal diritto dell'Unione europea, nel formato leggibile meccanicamente di cui all'articolo 2, punto 4), del medesimo regolamento (UE) 2023/2859 e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni dell'impresa di investimento, del gestore del mercato o dell'emittente a cui le informazioni fanno riferimento;))
+
+b) ((l'identificativo della persona giuridica dell'impresa di investimento, del gestore del mercato o dell'emittente come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((le dimensioni, per categoria, dell'impresa di investimento, del gestore di mercato o dell'emittente, come specificate ai sensi dell'articolo 7, paragrafo 4, lettera d), del regolamento (UE) 2023/2859;))
+
+d) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+e) ((un'indicazione che precisi se le informazioni contengono dati personali, come definiti dall'articolo 2, punto 8), del regolamento (UE) 2023/2859.))
+
+14. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui ai commi 12 e 13, sono organismi di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859:))
+
+a) ((l'attuale meccanismo ufficialmente stabilito per le informazioni regolamentate ai sensi dell'articolo 113-ter, comma 4, per le informazioni di cui agli articoli 21-bis, comma 3, e 69, comma 2, lettere c), d) e f);))
+
+b) ((la Consob e la Banca d'Italia, per le informazioni di cui all'articolo 64-bis, comma 3, secondo le rispettive attribuzioni di vigilanza e con riferimento ai soggetti vigilati dalle medesime autorita', definiti dal presente decreto.))
+
+15. ((A decorrere dal 10 gennaio 2030, le informazioni di cui agli articoli 66-ter, commi 1, 2 e 3, 66-quater, commi 2, 3, 4 e 5, e 195-bis relative ai provvedimenti di applicazione delle sanzioni per la violazione delle disposizioni in materia di mercati degli strumenti finanziari e delle disposizioni sulla distribuzione assicurativa sono rese accessibili tramite l'ESAP, sono trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859, e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni dell'impresa di investimento o del gestore del mercato a cui le informazioni fanno riferimento;))
+
+b) ((se disponibile, l'identificativo della persona giuridica dell'impresa di investimento o del gestore del mercato, come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+d) un'indicazione che precisi se le informazioni contengono dati personali.))
+
+16. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui al comma 15, la Consob e la Banca d'Italia sono organismi di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859, secondo le rispettive attribuzioni di vigilanza e con riferimento ai soggetti vigilati dalle medesime autorita', definiti dal presente decreto.))
+
+17. ((A decorrere dal 10 gennaio 2030, le informazioni di cui all'articolo 31, comma 4, sono rese accessibili tramite l'ESAP, trasmesse nel formato per dati estraibili di cui all'articolo 2, punto 3), del regolamento (UE) 2023/2859, e sono corredate dei seguenti metadati, come definiti dall'articolo 2, punto 7), del citato regolamento (UE) 2023/2859:))
+
+a) ((tutte le denominazioni dell'agente collegato a cui le informazioni fanno riferimento;))
+
+b) ((se disponibile, l'identificativo della persona giuridica dell'agente collegato, come specificato ai sensi dell'articolo 7, paragrafo 4, lettera b), del regolamento (UE) 2023/2859;))
+
+c) ((il tipo di informazioni come da classificazione di cui all'articolo 7, paragrafo 4, lettera c), del regolamento (UE) 2023/2859;))
+
+d) un'indicazione che precisi se le informazioni contengono dati personali.))
+
+18. ((Al fine di rendere accessibili tramite l'ESAP le informazioni di cui al comma 17, l'Organismo di vigilanza e tenuta dell'albo unico dei consulenti finanziari e' organismo di raccolta ai sensi dell'articolo 2, punto 2), del regolamento (UE) 2023/2859.))
 
 ### Art. 4-octies
 <!-- vigore_da: 2018-01-03 -->
@@ -5689,6 +5831,34 @@ AGGIORNAMENTO (73)
 
 Il D.Lgs. 3 agosto 2017, n. 129 ha disposto (con l'art. 10, comma 2) che "Le disposizioni del decreto legislativo 24 febbraio 1998, n. 58, modificate dal presente decreto, si applicano dal 3 gennaio 2018, fatto salvo quanto diversamente previsto dall'articolo 93 della direttiva 2014/65/UE, con riferimento dell'articolo 65, paragrafo 2, della direttiva medesima, le cui disposizioni attuative si applicano dal 3 settembre 2019, e dall'articolo 55 del regolamento (UE) n. 600/2014, e successive modificazioni, nonche' dal comma 3. [...] Fermo restando quanto previsto dalle disposizioni dell'Unione europea direttamente applicabili, le disposizioni emanate dalla Banca d'Italia e dalla Consob, anche congiuntamente, ai sensi di disposizioni del decreto legislativo 24 febbraio 1998, n. 58, abrogate o modificate dal presente decreto, continuano a essere applicate fino alla data di entrata in vigore dei provvedimenti emanati dalla Banca d'Italia o dalla Consob nelle corrispondenti materie".
 
+### Art. 66-bis.1 — Ammissione alle negoziazioni di societa' con strutture a voto plurimo
+<!-- vigore_da: 2026-10-22 -->
+
+1. ((Il regolamento di un sistema multilaterale di negoziazione non puo' impedire l'ammissione alle negoziazioni di una societa', italiana o europea, in ragione del fatto che la societa' ha emesso azioni con diritto di voto plurimo, conformemente alla direttiva (UE) 2024/2810 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, e alle relative disposizioni di recepimento nell'ordinamento nazionale di tale societa'.))
+
+2. ((Le societa' che hanno chiesto l'ammissione alle negoziazioni o le cui azioni sono ammesse alle negoziazioni in un sistema multilaterale di negoziazione o in un mercato di crescita per le piccole e medie imprese pubblicano le informazioni di cui al comma 3:))
+
+a) ((nel prospetto di offerta o nel documento di ammissione alle negoziazioni, ove redatti;))
+
+b) ((nella relazione finanziaria annuale o, se redatta, nella relazione finanziaria annuale di cui all'articolo 78, paragrafo 2, lettera g), del regolamento delegato (UE) 2017/565 della Commissione, del 25 aprile 2016, nei casi in cui vi sia stata una modifica delle informazioni di cui al comma 3 dalla loro ultima pubblicazione nel prospetto o nel documento di ammissione.))
+
+3. ((Le informazioni di cui al comma 2 riguardano i seguenti elementi:))
+
+a) ((la struttura del capitale sociale della societa' con l'indicazione delle varie categorie di azioni, comprese le azioni che non sono ammesse alla negoziazione, e, per ciascuna categoria di azioni:
+1) i diritti e gli obblighi connessi alle azioni in tale categoria;
+2) la percentuale del capitale sociale totale o del numero complessivo di azioni che le azioni di tale categoria rappresentano;
+3) il numero totale di voti che le azioni di tale categoria rappresentano;))
+
+b) ((eventuali restrizioni al trasferimento di azioni, compresi gli accordi tra azionisti noti alla societa' e che potrebbero comportare tali restrizioni;))
+
+c) ((eventuali restrizioni ai diritti di voto delle azioni, compresi gli accordi tra azionisti noti alla societa' e che potrebbero comportare tali restrizioni;))
+
+d) ((l'identita', se nota alla societa', degli azionisti che detengono azioni a voto plurimo che rappresentano piu' del 5 per cento del totale dei diritti e delle persone fisiche o dei soggetti giuridici autorizzati a esercitare i diritti di voto per conto di tali azionisti, se del caso. Ai fini della presente lettera, se gli azionisti o le persone autorizzate a esercitare i diritti di voto per loro conto sono persone fisiche, la comunicazione della loro identita' richiede soltanto l'indicazione dei loro nomi.))
+
+4. ((Il sistema multilaterale di negoziazione assicura che le azioni delle societa' che hanno emesso azioni con diritto di voto plurimo ammesse alle negoziazioni in tale sede di negoziazione siano chiaramente identificate come tali. Le stesse societa' informano i gestori del mercato in merito all'esistenza di strutture con azioni a voto plurimo.))
+
+5. ((La Consob puo' dettare eventuali disposizioni di attuazione del presente articolo.))
+
 ### Art. 66-ter — Provvedimenti di ammissione, sospensione ed esclusione di strumenti finanziari dalla quotazione e dalle negoziazioni adottati dal gestore della sede di negoziazione
 <!-- vigore_da: 2026-04-29 -->
 
@@ -8033,13 +8203,13 @@ a) sospendere o richiedere che il mercato regolamentato interessato sospenda la 
 b) proibire la negoziazione in un mercato regolamentato se accerta che le disposizioni indicate alla lettera a) sono state violate.
 
 ### Art. 114 — Comunicazioni al pubblico
-<!-- vigore_da: 2024-03-27 -->
+<!-- vigore_da: 2026-10-22 -->
 
 1. Gli emittenti quotati comunicano al pubblico le informazioni privilegiate ai sensi dell'articolo 17 del regolamento (UE) n. 596/2014, secondo le modalita' stabilite dalle norme tecniche di attuazione adottate dalla Commissione europea ai sensi del medesimo articolo 17, paragrafo 10. La Consob detta disposizioni per coordinare le funzioni attribuite al gestore del mercato con le proprie e puo' individuare compiti da affidargli per il corretto svolgimento delle funzioni previste dall'articolo 64, comma 2, lettera d). (73)
 
 2. Gli emittenti quotati impartiscono le disposizioni occorrenti affinche' le societa' controllate forniscano tutte le notizie necessarie per adempiere gli obblighi di comunicazione previsti dalla legge e dal regolamento (UE) n. 596/2014. Le societa' controllate trasmettono tempestivamente le notizie richieste.
 
-3. Gli emittenti quotati, in caso di ritardo nella comunicazione al pubblico di informazioni privilegiate, trasmettono su successiva richiesta della Consob la documentazione comprovante l'assolvimento dell'obbligo previsto dall'articolo 17, paragrafo 4, del regolamento (UE) n. 596/2014 e dalle relative norme tecniche di attuazione.
+3. Gli emittenti quotati, in caso di ritardo nella comunicazione al pubblico di informazioni privilegiate, trasmettono ((, su successiva richiesta della Consob o con le diverse modalita' stabilite dalla Consob con proprio regolamento,)) la documentazione comprovante l'assolvimento dell'obbligo previsto dall'articolo 17, paragrafo 4, del regolamento (UE) n. 596/2014 e dalle relative norme tecniche di attuazione.
 
 4. COMMA ABROGATO DAL D.LGS. 10 AGOSTO 2018, N. 107.
 
@@ -8047,7 +8217,7 @@ b) proibire la negoziazione in un mercato regolamentato se accerta che le dispos
 
 6. Qualora gli emittenti, i soggetti che li controllano e gli emittenti quotati aventi l'Italia come Stato membro d'origine oppongano, con reclamo motivato, che dalla comunicazione al pubblico delle informazioni, richiesta ai sensi del comma 5, possa derivare loro grave danno, gli obblighi di comunicazione sono sospesi. La CONSOB, entro sette giorni, puo' escludere anche parzialmente o temporaneamente la comunicazione delle informazioni, sempre che cio' non possa indurre in errore il pubblico su fatti e circostanze essenziali. Trascorso tale termine, il reclamo si intende accolto.
 
-7. ((COMMA ABROGATO DALLA L. 5 MARZO 2024, N. 21)).
+7. COMMA ABROGATO DALLA L. 5 MARZO 2024, N. 21.
 
 8. COMMA ABROGATO DAL D.LGS. 10 AGOSTO 2018, N. 107.
 
@@ -10377,59 +10547,56 @@ AGGIORNAMENTO (12)
 La L. 18 aprile 2005, n. 62 ha disposto (con l'art. 9, comma 6) che "Le disposizioni previste dalla parte V, titolo I-bis, del testo unico di cui al decreto legislativo 28 febbraio 1998, n. 58, si applicano anche alle violazioni commesse anteriormente alla data di entrata in vigore della presente legge che le ha depenalizzate, quando il relativo procedimento penale non sia stato definito".
 
 ### Art. 187-ter.1 — Sanzioni relative alle violazioni delle disposizioni del regolamento (UE) n. 596/2014 del Parlamento europeo e del Consiglio, del 16 aprile 2014
-<!-- vigore_da: 2026-08-07 -->
+<!-- vigore_da: 2026-10-22 -->
 
-1. Nei confronti di un ente o di una societa', in caso di violazione degli obblighi previsti dall'articolo 16, paragrafi 1 e 2, dall'articolo 17, paragrafi 1, 2, 4, 5 e 8, del regolamento (UE) n. 596/2014, dagli atti delegati e dalle relative norme tecniche di regolamentazione e di attuazione, nonche' dell'articolo 114, comma 3, del presente decreto, si applica una sanzione amministrativa pecuniaria da cinquemila euro fino a duemilionicinquecentomila euro, ovvero al due per cento del fatturato, quando tale importo e' superiore a duemilionicinquecentomila euro e il fatturato e' determinabile ai sensi dell'articolo 195, ((comma 2)). ((135))
+1. ((Per l'inosservanza degli obblighi previsti dal regolamento (UE) n. 596/2014, del Parlamento europeo e del Consiglio, del 16 aprile 2014, dagli atti delegati e dalle relative norme tecniche di regolamentazione e di attuazione, si applicano nei confronti di un ente o di una societa' le seguenti sanzioni:))
 
-2. Se le violazioni indicate dal comma 1 sono commesse da una persona fisica, si applica nei confronti di quest'ultima una sanzione amministrativa pecuniaria da cinquemila euro fino a un milione di euro.
+a) ((in caso di violazione dell'articolo 16 del regolamento (UE) n. 596/2014, una sanzione amministrativa pecuniaria da cinquemila euro fino a duemilionicinquecentomila euro, ovvero fino al 2 per cento del fatturato;))
 
-3. Fermo quanto previsto dal comma 1, la sanzione indicata dal comma 2 si applica nei confronti degli esponenti aziendali e del personale della societa' o dell'ente responsabile della violazione, nei casi previsti dall'articolo 190-bis, comma 1, lettera a).
+b) ((in caso di violazione dell'articolo 17 del regolamento (UE) n. 596/2014, una sanzione amministrativa pecuniaria da cinquemila euro fino al 2 per cento del fatturato; se l'importo basato sul fatturato risulta sproporzionatamente basso tenuto conto dei criteri di cui all'articolo 194-bis, comma 1, lettere a), b), d), f), g-ter) e h-bis), la Consob puo' irrogare una sanzione amministrativa pecuniaria fino a duemilionicinquecentomila euro o, qualora il soggetto responsabile sia una PMI, come definita dall'articolo 30, paragrafo 4, del regolamento (UE) n. 596/2014, fino a un milione di euro;))
 
-4. Nei confronti di un ente o di una societa', in caso di violazione degli obblighi previsti dall'articolo 18, paragrafi da 1 a 6, dall'articolo 19, paragrafi 1, 2, 3, 5, 6, 7 e 11, dall'articolo 20, paragrafo 1, del regolamento (UE) n. 596/2014, dagli atti delegati e dalle relative norme tecniche di regolamentazione e di attuazione, si applica una sanzione amministrativa pecuniaria da cinquemila euro fino a un milione di euro.
+c) ((in caso di violazione degli articoli 18 o 19 del regolamento (UE) n. 596/2014, una sanzione amministrativa pecuniaria da cinquemila euro fino allo 0,8 per cento del fatturato; se l'importo basato sul fatturato risulta sproporzionatamente basso tenuto conto dei criteri di cui all'articolo 194-bis, comma 1, lettere a), b), d), f), g-ter) e h-bis), la Consob puo' irrogare una sanzione amministrativa pecuniaria fino a un milione di euro o, qualora il soggetto responsabile sia una PMI, come definita dall'articolo 30, paragrafo 4, del regolamento (UE) n. 596/2014, fino a quattrocentomila euro;))
 
-5. Se le violazioni indicate dal comma 4 sono commesse da una persona fisica, si applica nei confronti di quest'ultima una sanzione amministrativa pecuniaria da cinquemila euro fino a cinquecentomila euro.
+d) ((in caso di violazione dell'articolo 20 del regolamento (UE) n. 596/2014, una sanzione amministrativa pecuniaria da cinquemila euro fino a un milione di euro, ovvero fino allo 0,8 per cento del fatturato.))
 
-6. Fermo quanto previsto dal comma 4, la sanzione indicata dal comma 5 si applica nei confronti degli esponenti aziendali e del personale della societa' o dell'ente responsabile della violazione, nei casi previsti dall'articolo 190-bis, comma 1, lettera a).
+2. ((Ai fini di quanto previsto dal comma 1, si tiene conto del fatturato qualora sia determinabile ai sensi dell'articolo 195, comma 2.))
 
-7. Se il vantaggio ottenuto dall'autore della violazione come conseguenza della violazione stessa e' superiore ai limiti massimi indicati nel presente articolo, la sanzione amministrativa pecuniaria e' elevata fino al triplo dell'ammontare del vantaggio ottenuto, purche' tale ammontare sia determinabile.
+3. ((Se le violazioni indicate dal comma 1 sono commesse da una persona fisica, si applica nei confronti di quest'ultima una sanzione amministrativa pecuniaria:))
 
-8. La Consob, anche unitamente alle sanzioni amministrative pecuniarie previste dal presente articolo, puo' applicare una o piu' delle misure amministrative previste dall'articolo 30, paragrafo 2, lettere da a ) a g), del regolamento (UE) n. 596/2014. ((Resta ferma la facolta' di disporre la confisca di cui all'articolo 187-sexies.))
-((135))
+a) ((da cinquemila euro fino a un milione di euro per le violazioni degli articoli 16 e 17 del regolamento (UE) n. 596/2014;))
 
-9. ((COMMA ABROGATO DAL D.LGS. 25 GIUGNO 2026, N. 128)). ((135))
+b) ((da cinquemila euro fino a un cinquecentomila euro per le violazioni degli articoli 18, 19 e 20 del regolamento (UE) n. 596/2014.))
 
-10. L'inosservanza degli obblighi prescritti con le misure di cui all'articolo 30, paragrafo 2, del regolamento (UE) n. 596/2014, entro il termine stabilito, importa l'aumento fino ad un terzo della sanzione amministrativa pecuniaria irrogata ovvero l'applicazione della sanzione amministrativa pecuniaria prevista per la violazione originariamente contestata aumentata fino ad un terzo.
+4. ((Fermo restando quanto previsto dal comma 1, la sanzione indicata dal comma 3 si applica nei confronti degli esponenti aziendali e del personale della societa' o dell'ente responsabile della violazione, nei casi previsti dall'articolo 190-bis, comma 1, lettera a).))
 
-11. ((COMMA ABROGATO DAL D.LGS. 25 GIUGNO 2026, N. 128)). ((135))
+5. ((Se il vantaggio ottenuto dall'autore della violazione come conseguenza della violazione stessa e' superiore ai limiti massimi indicati nel presente articolo, la sanzione amministrativa pecuniaria e' elevata fino al triplo dell'ammontare del vantaggio ottenuto, purche' tale ammontare sia determinabile.))
 
--------------
-AGGIORNAMENTO (135)
+6. ((La Consob, anche unitamente alle sanzioni amministrative pecuniarie previste dal presente articolo, puo' applicare una o piu' delle misure amministrative previste dall'articolo 30, paragrafo 2, lettere a), b), c), d), e), f) e g), del regolamento (UE) n. 596/2014. Resta ferma la facolta' di disporre la confisca di cui all'articolo 187-sexies.))
 
-Il D.Lgs. 25 giugno 2026, n. 128, ha disposto (con l'art. 10, comma 4) che "Le disposizioni del testo unico di cui al decreto legislativo n. 58 del 1998, introdotte ovvero modificate dal presente decreto, incluse quelle indicate al comma 2, si applicano, anche se riferite a violazioni commesse prima della data di entrata in vigore del presente decreto, ai procedimenti sanzionatori avviati successivamente alla relativa data di applicazione".
+7. ((L'inosservanza degli obblighi prescritti con le misure di cui all'articolo 30, paragrafo 2, del regolamento (UE) n. 596/2014, entro il termine stabilito, importa l'aumento fino a un terzo della sanzione amministrativa pecuniaria irrogata ovvero l'applicazione della sanzione amministrativa pecuniaria prevista per la violazione originariamente contestata aumentata fino a un terzo.))
 
 ### Art. 187-quater — Sanzioni amministrative accessorie
-<!-- vigore_da: 2026-08-07 -->
+<!-- vigore_da: 2026-10-22 -->
 
-1. ((La Consob, con il provvedimento di applicazione delle sanzioni amministrative previste per la violazione dei divieti di cui dagli articoli 14 e 15 del regolamento (UE) n. 596/2014 del Parlamento europeo e del Consiglio, del 16 aprile, 2014, puo' applicare:))
-((135))
+1. La Consob, con il provvedimento di applicazione delle sanzioni amministrative previste per la violazione dei divieti di cui dagli articoli 14 e 15 del regolamento (UE) n. 596/2014 del Parlamento europeo e del Consiglio, del 16 aprile, 2014, puo' applicare: (135)
 
-a) l'interdizione temporanea dallo svolgimento di funzioni di amministrazione, direzione e controllo presso soggetti autorizzati ai sensi del presente decreto, del decreto legislativo 1° settembre 1993, n. 385, del decreto legislativo 7 settembre 2005, n. 209, o presso fondi pensione;
+a) l'interdizione temporanea dallo svolgimento di funzioni di amministrazione, direzione e controllo presso soggetti autorizzati ai sensi del presente decreto, del decreto legislativo 1° settembre 1993, n. 385, del decreto legislativo 7 settembre 2005, n. 209, ((presso fondi pensione o societa' di consulenza finanziaria));
 
-b) l'interdizione temporanea dallo svolgimento di funzioni di amministrazione, direzione e controllo di societa' quotate e di societa' appartenenti al medesimo gruppo di societa' quotate;
+b) l'interdizione temporanea dallo svolgimento di funzioni di amministrazione, direzione e controllo di societa' quotate e di societa' appartenenti al medesimo gruppo di societa' quotate ((, nonche' di amministratori di indici di riferimento o contributori sottoposti a vigilanza));
 
 c) la sospensione dal Registro, ai sensi dell'articolo 26, commi 1, lettera d), e 1-bis, del decreto legislativo 27 gennaio 2010, n. 39, del revisore legale, della societa' di revisione legale o del responsabile dell'incarico;
 
-d) la sospensione dall'albo di cui all'articolo 31, comma 4, per i consulenti finanziari abilitati all'offerta fuori sede;
+d) la sospensione dall'albo di cui all'articolo 31, comma 4, per i consulenti finanziari abilitati all'offerta fuori sede ((e per i consulenti finanziari autonomi));
 
 e) la perdita temporanea dei requisiti di onorabilita' per i partecipanti al capitale dei soggetti indicati alla lettera a).
 
-1-bis. Fermo quanto previsto dal comma 1, la Consob, con il provvedimento di applicazione delle sanzioni amministrative pecuniarie previste dall'articolo 187-ter.1, puo' applicare le sanzioni amministrative accessorie indicate dal comma 1, lettere a) e b).
+1-bis. ((La Consob)), con il provvedimento di applicazione delle sanzioni amministrative pecuniarie previste dall'articolo 187-ter.1, puo' applicare le sanzioni amministrative accessorie indicate dal comma 1, lettere a) e b).
 
 2. Le sanzioni amministrative accessorie di cui ai commi 1 e 1-bis hanno una durata non inferiore a due mesi e non superiore a tre anni.
 
 2-bis. Quando l'autore dell'illecito ha gia' commesso, due o piu' volte negli ultimi dieci anni, uno dei reati previsti nel Capo II ovvero una violazione, con dolo o colpa grave, delle disposizioni previste dagli articoli 187-bis e 187-ter, si applica la sanzione amministrativa accessoria dell'interdizione permanente dallo svolgimento delle funzioni di amministrazione, direzione e controllo all'interno dei soggetti indicati nel comma 1, lettere a) e b), nel caso in cui al medesimo soggetto sia stata gia' applicata l'interdizione per un periodo complessivo non inferiore a cinque anni.
 
-3. Con il provvedimento di applicazione delle sanzioni amministrative pecuniarie previste dal presente capo la CONSOB, tenuto conto della gravita' della violazione e del grado della colpa, puo' intimare ai soggetti abilitati, ai gestori del mercato, agli emittenti quotati e alle societa' di revisione di non avvalersi, nell'esercizio della propria attivita' e per un periodo non superiore a tre anni, dell'autore della violazione, e richiedere ai competenti ordini professionali la temporanea sospensione del soggetto iscritto all'ordine dall'esercizio dell'attivita' professionale, nonche' applicare nei confronti dell'autore della violazione l'interdizione temporanea dalla conclusione di operazioni, ovvero alla immissione di ordini di compravendita in contropartita diretta di strumenti finanziari, per un periodo non superiore a tre anni.
+3. Con il provvedimento di applicazione delle sanzioni amministrative pecuniarie previste dal presente capo la CONSOB, tenuto conto della gravita' della violazione e del grado della colpa, puo' intimare ai soggetti abilitati, ai gestori del mercato, agli emittenti quotati e alle societa' di revisione ((nonche' agli amministratori di indici di riferimento o ai contributori sottoposti a vigilanza)) di non avvalersi, nell'esercizio della propria attivita' e per un periodo non superiore a tre anni, dell'autore della violazione, e richiedere ai competenti ordini professionali la temporanea sospensione del soggetto iscritto all'ordine dall'esercizio dell'attivita' professionale, nonche' applicare nei confronti dell'autore della violazione l'interdizione temporanea dalla conclusione di operazioni, ovvero alla immissione di ordini di compravendita in contropartita diretta di strumenti finanziari, per un periodo non superiore a tre anni.
 
 (12)
 
@@ -10513,7 +10680,7 @@ AGGIORNAMENTO (135)
 Il D.Lgs. 25 giugno 2026, n. 128, ha disposto (con l'art. 10, comma 4) che "Le disposizioni del testo unico di cui al decreto legislativo n. 58 del 1998, introdotte ovvero modificate dal presente decreto, incluse quelle indicate al comma 2, si applicano, anche se riferite a violazioni commesse prima della data di entrata in vigore del presente decreto, ai procedimenti sanzionatori avviati successivamente alla relativa data di applicazione".
 
 ### Art. 187-octies — Poteri della CONSOB
-<!-- vigore_da: 2026-08-07 -->
+<!-- vigore_da: 2026-10-22 -->
 
 1. La Consob e' l'autorita' nazionale competente ai sensi dell'articolo 22 del regolamento (UE) n. 596/2014, relativo agli abusi di mercato.
 
@@ -10537,21 +10704,23 @@ f) procedere a perquisizioni nei modi previsti dall'articolo 33 del decreto del 
 
 4. La CONSOB puo' altresi':
 
-a) avvalersi della collaborazione delle pubbliche amministrazioni, richiedendo la comunicazione di dati ed informazioni anche in deroga ai divieti di cui all'articolo 25, comma 1, del decreto legislativo 30 giugno 2003, n. 196, ed accedere al sistema informativo dell'anagrafe tributaria secondo le modalita' previste dagli articoli 2 e 3, comma 1, del decreto legislativo 12 luglio 1991, n. 212;
+a) avvalersi della collaborazione delle pubbliche amministrazioni, richiedendo la comunicazione di dati ed informazioni ((...)) ed accedere al sistema informativo dell'anagrafe tributaria secondo le modalita' previste dagli articoli 2 e 3, comma 1, del decreto legislativo 12 luglio 1991, n. 212;
 
-a-bis) accedere direttamente, mediante apposita connessione telematica, ai dati contenuti negli elenchi di cui all'articolo 55, comma 7, del decreto legislativo 1° agosto 2003, n. 259;
+a-bis) accedere direttamente, mediante apposita connessione telematica, ai dati contenuti negli elenchi di cui ((all'articolo 98-undetricies, comma 1,)) del decreto legislativo 1° agosto 2003, n. 259;
 
 b) chiedere l'acquisizione presso il fornitore dei dati relativi al traffico di cui al decreto legislativo 30 giugno 2003, n. 196, o acquisire direttamente tali dati mediante connessione telematica;
 
-c) richiedere la comunicazione di dati personali anche in deroga ai divieti di cui all'articolo 25, comma 1, del decreto legislativo 30 giugno 2003, n. 196;
+c) richiedere la comunicazione di dati personali ((anche in relazione a servizi telematici o di telecomunicazione acceduti on-line));
 
-d) avvalersi, ove necessario, dei dati contenuti nell'anagrafe dei conti e dei depositi di cui all'articolo 20, comma 4, della legge 30 dicembre 1991, n. 413, secondo le modalita' indicate dall'articolo 3, comma 4, lettera b), del decreto-legge 3 maggio 1991, n. 143, convertito, con modificazioni, dalla legge 5 luglio 1991, n. 197, nonche' acquisire anche mediante accesso diretto i dati contenuti nell'archivio indicato all'articolo 13 del decreto-legge 15 dicembre 1979, n. 625, convertito, con modificazioni, dalla legge 6 febbraio 1980, n. 15;
+d) avvalersi, ove necessario, dei dati contenuti nell'anagrafe dei conti e dei depositi di cui all'articolo 20, comma 4, della legge 30 dicembre 1991, n. 413 ((...)) nonche' acquisire anche mediante accesso diretto i dati contenuti nell'archivio indicato all'articolo 13 del decreto-legge 15 dicembre 1979, n. 625, convertito, con modificazioni, dalla legge 6 febbraio 1980, n. 15;
 
-e) accedere direttamente, mediante apposita connessione telematica, ai dati contenuti nella Centrale dei rischi della Banca d'Italia, di cui alla deliberazione del Comitato interministeriale per il credito e il risparmio del 29 marzo 1994, pubblicata nella Gazzetta Ufficiale n. 91 del 20 aprile 1994.
+e) accedere direttamente, mediante apposita connessione telematica, ai dati contenuti nella Centrale dei rischi della Banca d'Italia, di cui alla deliberazione del Comitato interministeriale per il credito e il risparmio del 29 marzo 1994, pubblicata nella Gazzetta Ufficiale n. 91 del 20 aprile 1994 ((;))
 
 e-bis) avvalersi, ove necessario, anche mediante connessione telematica, dei dati contenuti nell'apposita sezione dell'anagrafe tributaria di cui all'articolo 7, sesto comma, del decreto del Presidente della Repubblica 29 settembre 1973, n. 605.
 
-5. I poteri di cui al comma 3, lettere d) e f), e al comma 4, lettera b), sono esercitati previa autorizzazione del procuratore della Repubblica. Detta autorizzazione e' necessaria anche in caso di esercizio dei poteri di cui al comma 3, lettere b) ed e), e al comma 4, lettera c), nei confronti di soggetti diversi dai soggetti abilitati e dagli altri soggetti vigilati ai sensi del regolamento (UE) n. 596/2014 e del presente decreto.
+5. I poteri di cui al comma 3, lettere d) e f), e al comma 4, lettera b), sono esercitati previa autorizzazione del ((giudice)). Detta autorizzazione e' necessaria anche in caso di esercizio dei poteri di cui al comma 3, lettere b) ed e), e al comma 4, lettera c), nei confronti di soggetti diversi dai soggetti abilitati ((, dagli amministratori di indici di riferimento o contributori sottoposti a vigilanza)) e dagli altri soggetti vigilati ai sensi del regolamento (UE) n. 596/2014 e del presente decreto.
+
+5-bis. ((Entro il termine di conservazione stabilito dalla legge, la richiesta di cui al comma 4, lettera b), puo' avere a oggetto esclusivamente dati riguardanti soggetti nei confronti dei quali la Consob ha precedentemente acquisito indizi di colpevolezza e relativi a un periodo temporale strettamente correlato alle esigenze di accertamento della violazione.))
 
 6. Qualora sussistano elementi che facciano presumere l'esistenza di violazioni delle norme del regolamento (UE) n. 596/2014 e del presente titolo, la Consob puo' anche in via cautelare:
 
@@ -10573,7 +10742,7 @@ a) e' deceduto l'autore della violazione;
 
 b) viene provato che gli aventi diritto sono terzi estranei all'illecito;
 
-c) l'atto di contestazione degli addebiti non e' notificato nei termini prescritti dall'articolo ((195, comma 1)); ((135))
+c) l'atto di contestazione degli addebiti non e' notificato nei termini prescritti dall'articolo 195, comma 1; (135)
 
 d) la sanzione amministrativa pecuniaria non e' stata applicata entro il termine di due anni dall'accertamento della violazione.
 
@@ -11202,27 +11371,23 @@ AGGIORNAMENTO (135)
 Il D.Lgs. 25 giugno 2026, n. 128, ha disposto (con l'art. 10, comma 4) che "Le disposizioni del testo unico di cui al decreto legislativo n. 58 del 1998, introdotte ovvero modificate dal presente decreto, incluse quelle indicate al comma 2, si applicano, anche se riferite a violazioni commesse prima della data di entrata in vigore del presente decreto, ai procedimenti sanzionatori avviati successivamente alla relativa data di applicazione".
 
 ### Art. 191-bis — Sanzioni accessorie
-<!-- vigore_da: 2021-03-11 -->
-
-((
+<!-- vigore_da: 2026-10-22 -->
 
 1. La Consob, con il provvedimento di applicazione delle sanzioni amministrative pecuniarie previste dall'articolo 191 nei confronti delle persone fisiche nei casi ivi previsti, in ragione della gravita' della violazione accertata e tenuto conto dei criteri stabiliti dall'articolo 194-bis, puo' disporre:
 
-a) l'interdizione temporanea dallo svolgimento di funzioni di amministrazione, direzione e controllo presso soggetti autorizzati ai sensi del presente decreto, del decreto legislativo 1° settembre 1993, n. 385, del decreto legislativo 7 settembre 2005, n. 209, o presso fondi pensione;
+a) l'interdizione temporanea dallo svolgimento di funzioni di amministrazione, direzione e controllo presso soggetti autorizzati ai sensi del presente decreto, del decreto legislativo 1° settembre 1993, n. 385, del decreto legislativo 7 settembre 2005, n. 209, ((presso fondi pensione o societa' di consulenza finanziaria));
 
 b) l'interdizione temporanea dallo svolgimento di funzioni di amministrazione, direzione e controllo di societa' quotate e di societa' appartenenti al medesimo gruppo di societa' quotate;
 
 c) la sospensione dal Registro, ai sensi dell'articolo 26, commi 1, lettera d), e 1-bis, del decreto legislativo 27 gennaio 2010, n. 39, del revisore legale, della societa' di revisione legale o del responsabile dell'incarico;
 
-d) la sospensione dall'albo di cui all'articolo 31, comma 4, per i consulenti finanziari abilitati all'offerta fuori sede;
+d) la sospensione dall'albo di cui all'articolo 31, comma 4, per i consulenti finanziari abilitati all'offerta fuori sede ((e per i consulenti finanziari autonomi));
 
 e) la perdita temporanea dei requisiti di onorabilita' per i partecipanti al capitale dei soggetti indicati alla lettera a).
 
 2. Le sanzioni amministrative accessorie di cui al comma 1 hanno una durata non inferiore a due mesi e non superiore a tre anni.
 
 3. Quando l'emittente, l'offerente o il soggetto che chiede l'ammissione alla negoziazione in un mercato regolamentato, ha gia' commesso, due o piu' volte negli ultimi cinque anni, una violazione con dolo o colpa grave delle disposizioni indicate all'art. 191, la Consob puo' negare l'approvazione di un prospetto redatto dal medesimo soggetto per un periodo massimo di cinque anni.
-
-))
 
 ### Art. 191-ter — Offerta al pubblico di sottoscrizione e di vendita e ammissione alle negoziazioni di quote o azioni di OICR aperti
 <!-- vigore_da: 2026-08-07 -->
@@ -11597,9 +11762,9 @@ Il D.Lgs. 3 agosto 2017, n. 129 ha disposto (con l'art. 10, comma 2) che "Le dis
 Ha inoltre disposto (con l'art. 10, comma 13) che l'abrogazione del comma 2-quater del presente articolo si applica alle violazioni commesse a partire dal 3 gennaio 2018.
 
 ### Art. 194-bis — Criteri per la determinazione delle sanzioni
-<!-- vigore_da: 2026-08-07 -->
+<!-- vigore_da: 2026-10-22 -->
 
-1. Nella determinazione del tipo e dell'ammontare delle sanzioni amministrative pecuniarie o della durata delle sanzioni accessorie previste dal presente decreto, ((a Banca d'Italia e la Consob, secondo le rispettive competenze,)) considerano ogni circostanza rilevante e, in particolare, tenuto conto del fatto che il destinatario della sanzione sia persona fisica o giuridica, le seguenti, ove pertinenti: (66) ((135))
+1. Nella determinazione del tipo e dell'ammontare delle sanzioni amministrative pecuniarie o della durata delle sanzioni accessorie previste dal presente decreto, a Banca d'Italia e la Consob, secondo le rispettive competenze, considerano ogni circostanza rilevante e, in particolare, tenuto conto del fatto che il destinatario della sanzione sia persona fisica o giuridica, le seguenti, ove pertinenti: (66) (135)
 
 a) gravita' e durata della violazione;
 
@@ -11616,6 +11781,8 @@ f) livello di cooperazione del responsabile della violazione con la Banca d'Ital
 g) precedenti violazioni in materia bancaria o finanziaria commesse da parte del medesimo soggetto;
 
 g-bis) la criticita' dell'indice di riferimento per la stabilita' finanziaria;
+
+g-ter) ((l'onere per l'autore della violazione derivante dalla duplicazione dei procedimenti e delle sanzioni di natura penale e amministrativa per la stessa condotta;))
 
 h) potenziali conseguenze sistemiche della violazione;
 
@@ -11821,12 +11988,12 @@ AGGIORNAMENTO (135)
 
 Il D.Lgs. 25 giugno 2026, n. 128, ha disposto (con l'art. 10, comma 4) che "Le disposizioni del testo unico di cui al decreto legislativo n. 58 del 1998, introdotte ovvero modificate dal presente decreto, incluse quelle indicate al comma 2, si applicano, anche se riferite a violazioni commesse prima della data di entrata in vigore del presente decreto, ai procedimenti sanzionatori avviati successivamente alla relativa data di applicazione".
 
-### Art. 195-ter — Comunicazione all'ABE e all'AESFEM sulle sanzioni applicate
-<!-- vigore_da: 2026-08-07 -->
+### Art. 195-ter — Comunicazione all'ABE, all'AESFEM e all'ESAP sulle sanzioni applicate
+<!-- vigore_da: 2026-10-30 -->
 
-1. La Banca d'Italia comunica all'ABE le sanzioni amministrative applicate alle banche alle Sim, alle imprese di investimento UE e alle imprese di paesi terzi diverse dalle banche ai sensi degli articoli 189, 190 190.3, 190-bis, 194-ter, 194-ter.1 ((e 194-bis.1)) ivi comprese quelle pubblicate in forma anonima, nonche' le informazioni ricevute dai soggetti interessati sulle azioni da essi avviate avverso i provvedimenti sanzionatori e sull'esito delle stesse. (73) ((135))
+1. La Banca d'Italia comunica all'ABE le sanzioni amministrative applicate alle banche alle Sim, alle imprese di investimento UE e alle imprese di paesi terzi diverse dalle banche ai sensi degli articoli 189, 190 190.3, 190-bis, 194-ter, 194-ter.1 ((e 194-bis.1)) ivi comprese quelle pubblicate in forma anonima, nonche' le informazioni ricevute dai soggetti interessati sulle azioni da essi avviate avverso i provvedimenti sanzionatori e sull'esito delle stesse. (73) (135)
 
-1-bis. La Consob e la Banca d'Italia, secondo le rispettive competenze, comunicano all'AESFEM le informazioni relative alle sanzioni amministrative da esse applicate, nonche' alle sanzioni penali applicate dall'Autorita' giudiziaria, necessarie ai fini dell'adempimento degli obblighi informativi previsti dalla normativa europea nei confronti dell'AESFEM.
+1-bis. ((La Consob e la Banca d'Italia, secondo le rispettive attribuzioni di vigilanza e con riferimento ai soggetti vigilati, comunicano all'AESFEM le informazioni relative alle sanzioni amministrative da esse applicate, nonche' alle sanzioni penali applicate dall'autorita' giudiziaria, necessarie ai fini dell'adempimento degli obblighi informativi previsti dalla normativa europea nei confronti dell'AESFEM e comunicano all'ESAP le informazioni relative alle sanzioni amministrative irrogate, per le quali le medesime Autorita' sono organismi di raccolta ai sensi dell'articolo 4-septies.3 del presente decreto e degli articoli 4, 5 e 6 del decreto legislativo adottato in attuazione dell'articolo 22 della legge 13 giugno 2025, n. 91.))
 
 (61) (84)
 
