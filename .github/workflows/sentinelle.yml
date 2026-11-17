@@ -452,7 +452,7 @@ jobs:
             Alla fine scrivi gli esiti in ${{ runner.temp }}/esiti-modelli.json.
           claude_args: >-
             --model opus
-            --allowedTools "Read,Glob,Grep,Write,Edit,Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/sentinella_modelli.py:*),Bash(python3 -m json.tool:*),Bash(python3 -I -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
+            --allowedTools "Read,Glob,Grep,Write,Edit,Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/sentinella_modelli.py:*),Bash(python3 scripts/suc_modelli_testo.py:*),Bash(python3 -m json.tool:*),Bash(python3 -I -m json.tool:*),Bash(git status:*),Bash(git diff:*)"
       - name: controllo meccanico
         id: controllo
         if: always()

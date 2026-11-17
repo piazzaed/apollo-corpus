@@ -53,6 +53,8 @@ AREE = {
     ),
     "modelli": (
         ("action", r"wiki-studio/modelli/civile/" + _NOME + r"\.md"),
+        ("action", r"wiki-studio/modelli/successioni/" + _NOME + r"\.md"),             # v0.55: documenti da firmare
+        ("seme", r"wiki-studio/modelli/successioni/catalogo\.json"),
         ("action", r"wiki-studio/modelli/(?:modelli\.meta|catalogo|norme-citate)\.json"),
         ("seme", r"wiki-studio/modelli/(?:formule-obsolete|requisiti-per-tipo)\.json"),
         ("seme", r"wiki-studio/modelli/(?:README|STRATEGIA-CATALOGO|INDEX-MODELLI)\.md"),

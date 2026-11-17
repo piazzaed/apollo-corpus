@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-17T15:11Z",
+ "generato_il": "2026-11-17T23:17Z",
  "versione_sentinelle": 2,
  "aree": {
   "successioni": {
@@ -1303,6 +1303,136 @@
      "sha256": "85096e060c4dff7cc7bf2b7ca6055a64f1956cb4c592f8c7bc7d05ffdf17a7a9",
      "byte": 20536,
      "proprietario": "seme"
+    },
+    "wiki-studio/modelli/successioni/catalogo.json": {
+     "sha256": "75008f260c3b647cd1021e80e69872b8ec2dc000430ea43bd3903c3fdecf700a",
+     "byte": 28001,
+     "proprietario": "seme"
+    },
+    "wiki-studio/modelli/successioni/s01-incarico-intermediario-impegno-trasmissione.md": {
+     "sha256": "617db45c8fb434988c1d4f5d020ea80820ccbafcc3a9a6b9932ceec6cc84eb1f",
+     "byte": 8693,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s02-dichiarazione-sostitutiva-eredi-testamento.md": {
+     "sha256": "7a4e9969fbe137246c1c221b15a3d9063ac5c05f5d414f61781bd308d84d0e20",
+     "byte": 5732,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s03-dichiarazione-sostitutiva-certificato-morte.md": {
+     "sha256": "ca623fdd047f5fe56f7387da78d206dc01dd0d70c6d25be4dc270a355da031a9",
+     "byte": 3971,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s04-dichiarazione-sostitutiva-stato-famiglia-de-cuius.md": {
+     "sha256": "4483d06ddcfee141b7ee0df54b488c9bb6b1f9aadbf147943ecbe5b9e39411a0",
+     "byte": 4106,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s05-dichiarazione-sostitutiva-stato-famiglia-erede.md": {
+     "sha256": "63887881a836d324b5b347aad67cb53840def6e37b20be96ed6add9aeb4321bb",
+     "byte": 3706,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s06-dichiarazione-conformita-copie-allegate.md": {
+     "sha256": "3328b8f5a36a1ac07979aae4c34f09a96d59d5f24a6108a0c9e1743f076b5209",
+     "byte": 3970,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s07-richiesta-prima-casa-eredi-non-dichiaranti.md": {
+     "sha256": "b57986eff33012f16535b85a2b3567e2279a722296aa7a212a3722efb6981b62",
+     "byte": 9724,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s08-comunicazione-dati-eredi.md": {
+     "sha256": "fddf2ca977ac02a311dd8b690e4a94df07b484fc1d801454286317d7b89f69af",
+     "byte": 3161,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s09-dichiarazione-sostitutiva-dati-catastali.md": {
+     "sha256": "eb111c02a5e1b721c4a855a43003cb60db9c673f3adfa6466a920986a264a52c",
+     "byte": 3630,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s10-dichiarazione-sostitutiva-destinazione-urbanistica.md": {
+     "sha256": "63e1d51bfd3c8b5ad4df0b697241ef89d83f34c2ec407641947402fdade091a5",
+     "byte": 4026,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s11-richiesta-certificato-destinazione-urbanistica.md": {
+     "sha256": "cbf874b5eeadb576787fc598cb3dacce02b7f230a90f6736c89700a56082275a",
+     "byte": 3114,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s12-dichiarazione-accettazione-eredita.md": {
+     "sha256": "1fc7ea3243022d88442e71d6932124a036ebc9aaab607196dbb7e83d6b952fde",
+     "byte": 3396,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s13-delega-presentazione-voltura.md": {
+     "sha256": "d70ab248fcd461b3af5cf73352693033feae52c90b4a627d13cbf09c0e7c01ae",
+     "byte": 3350,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s14-dichiarazione-impegno-aziende-partecipazioni-esenti.md": {
+     "sha256": "d06e989b9093d7de9f86e70a3b3423c41222e63ad8137082176fab56fdd9124f",
+     "byte": 4351,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s15-richiesta-banca-certificazione-rapporti.md": {
+     "sha256": "478ca334a3bdc9bd0db0f123d1feab86a8fe7a46ead54f66c0e02b9483c21cc5",
+     "byte": 4359,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s16-richiesta-banca-svincolo-liquidazione.md": {
+     "sha256": "04e4f8eeec5903b25fc48b2541ae06895aba0c11c5e0314db0aa78a9744d793e",
+     "byte": 3962,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s17-delega-eredi-rapporti-banca.md": {
+     "sha256": "9d0d72081c06f8db44d44c289929bf670a093900000c97ed75e7f0757979859e",
+     "byte": 2690,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s18-dichiarazione-esonero-dichiarazione-successione.md": {
+     "sha256": "3f8cd2b975e8575ebc88a7ff5d64c40b34a0f6fbcc822556ad7e8fb7c0fb84fa",
+     "byte": 3792,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s19-richiesta-svincolo-imposte-erede-under26.md": {
+     "sha256": "03386d141482c2c70140e6107c00ed4d0d26ccd35efc3fe5b5179db24105e6d6",
+     "byte": 3453,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s20-richiesta-apertura-cassetta-sicurezza.md": {
+     "sha256": "dd84498c29b1b9c6cbc8c2f07cbaf7c6cf3cb7d6b91cca85a24f000133dcc705",
+     "byte": 3498,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s21-dichiarazione-sostitutiva-libera.md": {
+     "sha256": "2355e1e9a4a26f5b14bc11c20226a1acaedf5ed870d497acdbecd538120a7664",
+     "byte": 3098,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s22-richiesta-copia-attestazione-dichiarazione.md": {
+     "sha256": "9abe4fe92d3e8291d576f179efd7b61d4f86f3a2c1770767b31504f609692c9b",
+     "byte": 3872,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s23-richiesta-art34-rendita-proposta.md": {
+     "sha256": "b2028cc8b7877c19e87066738fc7ad007f13bbfd059cfc1c98ecd52e0ede069d",
+     "byte": 3592,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s24-ricorso-giudice-tutelare-accettazione-beneficio-minore.md": {
+     "sha256": "ff8dd83efa1edc378aa63170b9f6a3c8d0a5c48e85bad4ea5733517ee22dc271",
+     "byte": 4450,
+     "proprietario": "action"
+    },
+    "wiki-studio/modelli/successioni/s25-dichiarazione-sussistenza-debito-mod237.md": {
+     "sha256": "fa410840fb7f1932d6ec6abdc4a484580aadb55b3f1ff94ea809ceb592234568",
+     "byte": 3593,
+     "proprietario": "action"
     }
    },
    "stato": {

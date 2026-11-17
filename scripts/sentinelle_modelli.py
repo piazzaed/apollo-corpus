@@ -35,7 +35,7 @@ import sentinelle_base as sb  # noqa: E402
 
 REL_STATO_REPO = "wiki-studio/sentinelle/modelli-stato.json"
 REL_META = "wiki-studio/modelli/modelli.meta.json"
-DIR_SCHEDE = "wiki-studio/modelli/civile/"
+DIR_SCHEDE = ("wiki-studio/modelli/civile/", "wiki-studio/modelli/successioni/")   # v0.55: anche i documenti delle successioni
 MAX_MODELLI = 10
 SEZIONI_MODIFICABILI = ("testo del modello", "normativa", "aggiornamenti")
 _RX_PRONUNCIA = re.compile(r"\b(?:cass(?:azione|\.)|ss\.\s?uu\.|sez(?:ioni)?\.?\s+unite|corte\s+cost(?:ituzionale|\.)|"
@@ -133,7 +133,7 @@ def deterministico(radice: Path, giro: sb.Giro, oggi: _dt.date = None, fonte=Non
 
 def _file_modello(ident) -> str:
     sm = _sm()
-    for m in sm.leggi_json_vivo(sm.REL_CATALOGO).get("modelli", []):
+    for m in sm.catalogo_completo():
         if str(m.get("id")) == str(ident):
             return str(m.get("file") or "")
     return ""
@@ -172,7 +172,27 @@ def controlla_scheda(vecchio: str, nuovo: str) -> list:
     pron = set(m.group(0) for m in _RX_PRONUNCIA.finditer(nuovo)) - set(m.group(0) for m in _RX_PRONUNCIA.finditer(vecchio))
     if pron:
         motivi.append("sono stati aggiunti estremi di pronunce (nei modelli si citano solo norme)")
+    motivi += controlla_lingua(vecchio, nuovo)
     return motivi
+
+
+def controlla_lingua(vecchio: str, nuovo: str) -> list:
+    """v0.55 — per i documenti delle successioni (testo nella lingua di suc_modelli_testo.py): la correzione deve restare
+    compilabile e non usare dati che lo script non fornisce (variabili nuove)."""
+    if "suc_modelli_testo" not in vecchio:
+        return []
+    try:
+        import suc_modelli_testo as mt
+        tv, tn = mt.testo_da_scheda(vecchio), mt.testo_da_scheda(nuovo)
+        err = mt.controlla(tn)
+        if err:
+            return ["il testo del documento non si compila più: " + "; ".join(err)]
+        nuove = mt.variabili(tn) - mt.variabili(tv)
+        if nuove:
+            return ["il testo usa dati che lo script non fornisce: " + ", ".join(sorted(nuove))]
+    except Exception as e:  # noqa: BLE001
+        return [f"testo del documento illeggibile ({type(e).__name__}: {e})"]
+    return []
 
 
 def contenuto_cambiato(vecchio: str, nuovo: str) -> bool:

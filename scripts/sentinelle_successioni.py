@@ -48,6 +48,15 @@ URL_SPECIFICHE = ("https://www.agenziaentrate.gov.it/portale/schede/dichiarazion
 URL_SOFTWARE = ("https://www.agenziaentrate.gov.it/portale/schede/dichiarazioni/dichiarazione-di-successione/"
                 "sw-comp-dichiarazione-successioni-telematiche")
 URL_NORMATIVA = "https://www.agenziaentrate.gov.it/portale/schede/dichiarazioni/dichiarazione-di-successione/np-successione"
+#: v0.55 — le pagine AdE dei moduli su cui sono tarati i documenti da firmare (wiki-studio/modelli/successioni): modello e
+#: istruzioni (quadro EH, EG9), dichiarazioni sostitutive per la voltura (9T/10T/11T), modelli in uso negli uffici (Mod. 237)
+URL_MODULI = {
+    "modello e istruzioni": "https://www.agenziaentrate.gov.it/portale/schede/dichiarazioni/dichiarazione-di-successione/"
+                            "modiistr-dichsucc",
+    "dichiarazioni sostitutive per voltura": "https://www.agenziaentrate.gov.it/portale/strumenti/modelli/"
+                                             "modelli-catastali-e-ipotecari/dichiarazioni-sostitutive-per-voltura-catastale",
+    "modelli in uso negli uffici": "https://www.agenziaentrate.gov.it/portale/-/modelli-in-uso-presso-gli-uffici-delle-entrate",
+}
 #: la tabella nazionale degli uffici e i comuni ISTAT si ricostruiscono una volta al mese (≈ 700 pagine AdE)
 GIORNI_UFFICI = 28
 MESI = {"gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6, "luglio": 7, "agosto": 8,
@@ -216,6 +225,47 @@ def sonda_specifiche(get) -> dict:
     return out
 
 
+def sonda_moduli(get) -> dict:
+    """v0.55 — per ogni pagina dei moduli: data «Ultimo aggiornamento» e nomi dei file scaricabili (PDF, RTF, DOC). Solo
+    regex; una pagina non letta resta fuori (nessun segnale)."""
+    out = {}
+    for nome, url in URL_MODULI.items():
+        try:
+            t = get(url)
+        except Exception:  # noqa: BLE001
+            continue
+        if not t:
+            continue
+        piano = re.sub(r"<[^>]+>", " ", t)
+        agg = re.search(r"Ultimo aggiornamento:?\s*(\d{1,2} [a-z]+ \d{4})", piano)
+        file = sorted({_nome_file(h) for h in re.findall(r'href="([^"]+)"', t)
+                       if re.search(r"\.(?:pdf|rtf|doc|docx)(?:[/?#]|$)", h, re.I) or "/documents/d/guest/" in h})
+        out[nome] = {"aggiornato": _data_italiana(agg.group(1)) if agg else "", "file": file}
+    return out
+
+
+def _nome_file(href: str) -> str:
+    """Il nome del file di un link AdE («…/Modello+Successione.pdf/88520cc9…?t=…» → «Modello+Successione.pdf»)."""
+    pezzi = [x for x in re.sub(r"[?#].*$", "", href).split("/") if x]
+    con_estensione = [x for x in pezzi if re.search(r"\.(?:pdf|rtf|doc|docx)$", x, re.I)]
+    return (con_estensione or pezzi or [href])[-1]
+
+
+def confronta_moduli(prima: dict, ora: dict) -> list:
+    """Le pagine dei moduli cambiate dall'ultimo giro (data di aggiornamento piu' nuova o file diversi)."""
+    segnali = []
+    for nome, v in (ora or {}).items():
+        p = (prima or {}).get(nome)
+        if not p:
+            continue
+        if v.get("aggiornato") and v["aggiornato"] > str(p.get("aggiornato") or ""):
+            segnali.append(f"pagina AdE «{nome}» aggiornata il {v['aggiornato']}")
+        elif v.get("file") and p.get("file") and set(v["file"]) != set(p["file"]):
+            nuovi = sorted(set(v["file"]) - set(p["file"]))
+            segnali.append(f"pagina AdE «{nome}»: file cambiati" + (f" (nuovi: {', '.join(nuovi[:4])})" if nuovi else ""))
+    return segnali
+
+
 def confronta_specifiche(pubblicato: dict, locale: dict) -> list:
     """Le differenze che contano: pacchetto, software di controllo, provvedimento piu' nuovi di quelli del plugin."""
     segnali = []
@@ -261,10 +311,23 @@ def deterministico(radice: Path, giro: sb.Giro, oggi: _dt.date = None, gu=None, 
         pubblicato = sonda_specifiche(get or html_grezzo)
         locale = sb.leggi_json(radice / REL_VERSIONE_LOCALE, {}) or {}
         nuove = confronta_specifiche(pubblicato, locale) if pubblicato else []
+        prec = sb.leggi_json(radice / REL_SPECIFICHE, {}) or {}
+        moduli = {}
+        try:
+            moduli = sonda_moduli(get or html_grezzo)
+        except Exception as e:  # noqa: BLE001
+            giro.riga(f"AdE: pagine dei moduli non lette ({e.__class__.__name__})")
+        cambi_moduli = confronta_moduli(prec.get("moduli") or {}, moduli)
+        for c in cambi_moduli:
+            segnali.append({"tipo": "moduli", "cosa": c, "url": URL_MODULI.get(c.split("«")[1].split("»")[0]) if "«" in c else ""})
+            giro.problema(f"{c}: rivedere le schede dei documenti da firmare (wiki-studio/modelli/successioni) contro il "
+                          "modulo AdE", "successioni:moduli")
         sb.scrivi_json(radice / REL_SPECIFICHE, {"_meta": {"descrizione": "Ultime specifiche SUC13, software di controllo e "
                                                                           "provvedimento pubblicati dall'AdE (sentinella delle successioni)",
                                                            "verificato_il": oggi.isoformat()},
-                                                 **pubblicato, "novita": nuove})
+                                                 **pubblicato, "novita": nuove,
+                                                 "moduli": {**(prec.get("moduli") or {}), **moduli},
+                                                 "moduli_novita": cambi_moduli})
         sonde["specifiche"] = bool(pubblicato.get("pacchetto"))
         for s in nuove:
             segnali.append({"tipo": "specifiche", "cosa": s, "url": URL_SPECIFICHE})

@@ -52,6 +52,7 @@ STRUMENTI_SENTINELLE = (
     "sentinelle_successioni.py", "sentinelle_modelli.py", "sentinelle_giro.py", "sentinelle_pubblica.py",
     "sentinella_modelli.py", "storico.py", "fonti_fetch.py", "freshness.py", "tassi.py", "soglia_usura.py",
     "uffici_competenza.py", "uffici_italia.py", "comuni_istat.py", "prassi_ade.py",
+    "suc_modelli_testo.py",                       # v0.55: lingua dei documenti delle successioni (controllo meccanico)
 )
 #: moduli che gli strumenti delle sentinelle importano e che il repo puo' non avere ancora: si copiano solo se NON sono
 #: strumenti del corpus (v3) del repo, o se il repo non li ha proprio. v0.50: `articoli.py` (i numerali latini, v0.43.2)
@@ -377,7 +378,8 @@ _TOOL_CLAUDE = {
     "dati": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*)",
     "normativa": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/cassazione_indice.py:*),Bash(python3 scripts/fonti_fetch.py:*)",
     "successioni": "Read,Glob,Grep,Write,WebFetch,WebSearch,Bash(python3 scripts/sentinelle_prove.py:*),Bash(python3 scripts/fonti_fetch.py:*)",
-    "modelli": "Read,Glob,Grep,Write,Edit,Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/sentinella_modelli.py:*)",
+    "modelli": "Read,Glob,Grep,Write,Edit,Bash(python3 scripts/codice_locale.py:*),Bash(python3 scripts/sentinella_modelli.py:*),"
+               "Bash(python3 scripts/suc_modelli_testo.py:*)",   # v0.55: controllo dei documenti delle successioni
 }
 
 

@@ -80,6 +80,18 @@ GIORNI_GIRO = 31
 ORE_THROTTLE = 6
 
 REL_CATALOGO = "modelli/catalogo.json"
+#: v0.55 — i documenti da firmare delle successioni: catalogo proprio, metadati (verificato_il, norme_allineate_al) nella voce
+REL_CATALOGO_SUCCESSIONI = "modelli/successioni/catalogo.json"
+
+
+def catalogo_completo() -> list:
+    """Le voci di tutti i cataloghi dei modelli: atti civili e documenti delle successioni."""
+    return list(leggi_json_vivo(REL_CATALOGO).get("modelli", [])) + \
+        list(leggi_json_vivo(REL_CATALOGO_SUCCESSIONI).get("documenti", []))
+
+
+def meta_successioni() -> dict:
+    return {str(x.get("id")): x for x in leggi_json_vivo(REL_CATALOGO_SUCCESSIONI).get("documenti", [])}
 REL_META = "modelli/modelli.meta.json"
 REL_FORMULE = "modelli/formule-obsolete.json"
 REL_REQUISITI = "modelli/requisiti-per-tipo.json"
@@ -844,6 +856,15 @@ def valuta_modello(m: dict, meta: dict, regole: dict, fonte: FonteNorme, stato_a
     testo = _leggi_testo_modello(m.get("file") or "")
     sch = scomponi_scheda(testo) if testo else {"frontmatter": None, "facsimile": "", "errore": "file della scheda mancante"}
     fac, fm = sch["facsimile"], sch["frontmatter"] or {}
+    if "suc_modelli_testo" in testo:
+        # v0.55 — documenti delle successioni: le citazioni stanno in due rami (TUS fino al 2026, TU 123/2025 dal 2027);
+        # si controlla il ramo vivo alla data del giro (il ramo del TUS, dopo il 2026, e' storia: quel testo non cambia piu')
+        try:
+            import suc_modelli_testo as _mt
+            dal = oggi >= _dt.date(2027, 1, 1)
+            fac = _mt.testo_piatto(fac, {"DAL_2027": dal, "APERTA_DAL_2027": dal})
+        except Exception:  # noqa: BLE001
+            pass
     ambito, tipi = classifica(m, meta)
     base = data_base(meta, fm)
     issue = []
@@ -1052,7 +1073,7 @@ def esporta_norme_citate(fonte: FonteNorme = None, scrivi: bool = True) -> dict:
     fonte = fonte or FonteNorme(offline=True)
     meta_id = _meta_per_id(leggi_json_vivo(REL_META))
     out = {}
-    for m in leggi_json_vivo(REL_CATALOGO).get("modelli", []):
+    for m in catalogo_completo():
         ident = str(m.get("id"))
         sch = scomponi_scheda(_leggi_testo_modello(str(m.get("file") or "")))
         refs = estrai_norme(sch["facsimile"], fonte) if sch["facsimile"] else []
@@ -1144,8 +1165,9 @@ def giro(oggi: _dt.date = None, fonte: FonteNorme = None, solo_ids=None, motori:
     st = stato()
     stato_art = st.get("articoli") or {}
     regole = carica_regole()
-    catalogo = leggi_json_vivo(REL_CATALOGO).get("modelli", [])
+    catalogo = catalogo_completo()
     meta_id = _meta_per_id(leggi_json_vivo(REL_META))
+    meta_suc = meta_successioni()                # v0.55: niente patch del sidecar per questi (applica_patch li salta)
     cl_auto = _changelog_auto()
     scadute = tabelle_scadute(oggi)
     scelti = [m for m in catalogo if solo_ids is None or str(m.get("id")) in solo_ids]
@@ -1158,7 +1180,8 @@ def giro(oggi: _dt.date = None, fonte: FonteNorme = None, solo_ids=None, motori:
                 chiavi.add(f"{r['slug']}:{r['art']}")
     nuovo_art = aggiorna_impronte(fonte, chiavi, stato_art, oggi)
     # 2a passata: i verdetti
-    risultati = [valuta_modello(m, meta_id.get(str(m.get("id"))) or {}, regole, fonte, nuovo_art, cl_auto, oggi, scadute)
+    risultati = [valuta_modello(m, meta_id.get(str(m.get("id"))) or meta_suc.get(str(m.get("id"))) or {}, regole, fonte,
+                                nuovo_art, cl_auto, oggi, scadute)
                  for m in scelti]
     motori_res = controlla_motori(regole, oggi) if motori else []
     conteggi = {v: sum(1 for r in risultati if r["verdetto"] == v) for v in VERDETTI}
@@ -1211,7 +1234,7 @@ def ids_delta(st: dict = None) -> tuple:
     if toccati:
         # le chiavi citate per modello non stanno nello stato: si ricalcolano (estrazione veloce, niente corpus)
         fonte = FonteNorme(offline=True)
-        cat = leggi_json_vivo(REL_CATALOGO).get("modelli", [])
+        cat = catalogo_completo()
         for m in cat:
             sch = scomponi_scheda(_leggi_testo_modello(m.get("file") or ""))
             refs = estrai_norme(sch["facsimile"], fonte) + [r for nc in (m.get("norme_chiave") or []) for r in estrai_norme(nc, fonte)]

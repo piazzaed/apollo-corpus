@@ -1,0 +1,705 @@
+{
+ "_meta": {
+  "descrizione": "Documenti delle successioni da far firmare (v0.55): schede in questa cartella, lingua di scripts/suc_modelli_testo.py, compilati da scripts/suc_documenti.py. La sentinella dei modelli li controlla ogni settimana come gli altri modelli.",
+  "verificato_il": "2026-11-17",
+  "versione": 1
+ },
+ "documenti": [
+  {
+   "id": "S01",
+   "titolo": "Incarico all'intermediario, impegno alla trasmissione telematica e autorizzazione all'addebito",
+   "file": "wiki-studio/modelli/successioni/s01-incarico-intermediario-impegno-trasmissione.md",
+   "tipo_atto": "incarico",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 28 D.Lgs. 346/1990",
+    "art. 3 D.P.R. 322/1998"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "sempre",
+   "obbligo": "obbligatorio",
+   "firmatari": "dichiarante",
+   "destinatario": "studio (resta agli atti dell'intermediario)",
+   "allega": "documento d'identità del dichiarante (e del titolare del conto, se diverso)",
+   "all_avvio": true,
+   "deas": [
+    "Impegno alla trasmissione telematica ed autorizzazione IBAN",
+    "Impegno alla trasmissione telematica",
+    "Delega presentazione dichiarazione (con dati delegato)",
+    "Delega presentazione dichiarazione"
+   ],
+   "perche": "l'intermediario trasmette la dichiarazione su incarico del dichiarante, rilascia l'impegno alla trasmissione e conserva la copia sottoscritta; l'addebito delle imposte sul conto va autorizzato dal titolare"
+  },
+  {
+   "id": "S02",
+   "titolo": "Dichiarazione sostitutiva dell'atto di notorietà (eredi e testamento)",
+   "file": "wiki-studio/modelli/successioni/s02-dichiarazione-sostitutiva-eredi-testamento.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 46 D.P.R. 445/2000",
+    "art. 47 D.P.R. 445/2000",
+    "art. 76 D.P.R. 445/2000"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "sempre",
+   "obbligo": "consigliato",
+   "firmatari": "dichiarante",
+   "destinatario": "banche; Agenzia delle Entrate (allegato EG) solo se il quadro EH non basta",
+   "allega": "documento d'identità del dichiarante",
+   "allegato_eg": "dich_sost",
+   "deas": [
+    "Dichiarazione sostitutiva di atto di notorietà",
+    "Dichiarazione di Autocertificazione"
+   ],
+   "perche": "attesta il decesso, il testamento o la sua mancanza e chi sono i chiamati: è la prova che chiedono le banche; verso l'Agenzia le dichiarazioni del dichiarante stanno nel quadro EH (provv. 27/12/2016, punto 4.4) e questa va in EG solo se servono elementi che l'EH non contiene"
+  },
+  {
+   "id": "S03",
+   "titolo": "Dichiarazione sostitutiva del certificato di morte",
+   "file": "wiki-studio/modelli/successioni/s03-dichiarazione-sostitutiva-certificato-morte.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 46 D.P.R. 445/2000",
+    "art. 30 D.Lgs. 346/1990",
+    "art. 115 D.Lgs. 123/2025"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "sempre",
+   "obbligo": "consigliato",
+   "obbligo_dal_2027": "obbligatorio",
+   "firmatari": "dichiarante",
+   "destinatario": "Agenzia delle Entrate (allegato EG) e banche",
+   "allega": "documento d'identità del dichiarante",
+   "allegato_eg": "dich_sost",
+   "deas": [
+    "Dichiarazione sostitutiva del certificato di morte",
+    "Dichiarazione sostitutiva del certificato di morte (Mod. 9T)"
+   ],
+   "perche": "sostituisce il certificato di morte fra gli allegati (art. 30 c. 3 TUS); per le dichiarazioni presentate dal 1/1/2027 l'allegato è la dichiarazione sostitutiva (art. 115 c. 1 lett. a TU 123/2025), salvo che il decesso sia già attestato dal dichiarante nel quadro EH"
+  },
+  {
+   "id": "S04",
+   "titolo": "Dichiarazione sostitutiva dello stato di famiglia del de cuius",
+   "file": "wiki-studio/modelli/successioni/s04-dichiarazione-sostitutiva-stato-famiglia-de-cuius.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 46 D.P.R. 445/2000",
+    "art. 30 D.Lgs. 346/1990",
+    "art. 115 D.Lgs. 123/2025"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "sempre",
+   "obbligo": "consigliato",
+   "obbligo_dal_2027": "obbligatorio",
+   "firmatari": "dichiarante",
+   "destinatario": "Agenzia delle Entrate (allegato EG)",
+   "allega": "documento d'identità del dichiarante",
+   "allegato_eg": "dich_sost",
+   "deas": [
+    "Autocertificazione stato di famiglia (de cuius)"
+   ],
+   "perche": "sostituisce il certificato di stato di famiglia del defunto (art. 30 c. 1 lett. b e c. 3 TUS; dal 2027 art. 115 c. 1 lett. b TU 123/2025)"
+  },
+  {
+   "id": "S05",
+   "titolo": "Dichiarazione sostitutiva dello stato di famiglia dell'erede",
+   "file": "wiki-studio/modelli/successioni/s05-dichiarazione-sostitutiva-stato-famiglia-erede.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 46 D.P.R. 445/2000",
+    "art. 30 D.Lgs. 346/1990"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "stato_famiglia_eredi",
+   "obbligo": "facoltativo",
+   "obbligo_dal_2027": "obbligatorio",
+   "firmatari": "voce",
+   "per": "BENEFICIARI",
+   "come": "F",
+   "destinatario": "Agenzia delle Entrate (allegato EG), se l'ufficio lo chiede",
+   "allega": "documento d'identità di chi firma",
+   "allegato_eg": "dich_sost",
+   "deas": [
+    "Autocertificazione stato di famiglia (eredi)"
+   ],
+   "perche": "sostituisce il certificato di stato di famiglia degli eredi e legatari parenti o affini del defunto (art. 30 c. 1 lett. b e c. 3 TUS)"
+  },
+  {
+   "id": "S06",
+   "titolo": "Dichiarazione di conformità all'originale delle copie allegate",
+   "file": "wiki-studio/modelli/successioni/s06-dichiarazione-conformita-copie-allegate.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 47 D.P.R. 445/2000",
+    "art. 30 D.Lgs. 346/1990",
+    "art. 115 D.Lgs. 123/2025"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "allegati_in_copia",
+   "obbligo": "consigliato",
+   "firmatari": "dichiarante",
+   "destinatario": "Agenzia delle Entrate (allegato EG)",
+   "allega": "documento d'identità del dichiarante",
+   "allegato_eg": "dich_sost",
+   "deas": [
+    "Dichiarazione copia conforme"
+   ],
+   "perche": "testamento, documenti delle passività, bilanci e inventari si allegano in copia non autentica con questa dichiarazione (art. 30 c. 3-bis TUS)"
+  },
+  {
+   "id": "S07",
+   "titolo": "Richiesta delle agevolazioni «prima casa» (eredi diversi dal dichiarante)",
+   "file": "wiki-studio/modelli/successioni/s07-richiesta-prima-casa-eredi-non-dichiaranti.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 69 L. 342/2000",
+    "art. 46 D.P.R. 445/2000",
+    "art. 47 D.P.R. 445/2000"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "prima_casa_eg9",
+   "obbligo": "obbligatorio",
+   "firmatari": "voce",
+   "per": "PRIMA_CASA_EG9",
+   "come": "F",
+   "destinatario": "Agenzia delle Entrate (allegato EG9 «prima casa»)",
+   "allega": "documento d'identità di chi firma ed eventuali documenti sui requisiti",
+   "allegato_eg": "prima_casa",
+   "deas": [
+    "Dichiarazione Prima Casa (dal 1-1-2014)",
+    "Dichiarazione Prima Casa (fino al 31-12-2013)",
+    "Richiesta agevolazione fiscale \"prima casa\"",
+    "(Regione Umbria) Dichiarazione Prima Casa"
+   ],
+   "perche": "chi chiede la prima casa e non è il dichiarante rende la sua richiesta a parte, allegata nel rigo EG9 con il documento d'identità (istruzioni AdE, Fascicolo 1): il quadro EH vale solo per il dichiarante"
+  },
+  {
+   "id": "S08",
+   "titolo": "Comunicazione delle generalità e del domicilio fiscale degli eredi",
+   "file": "wiki-studio/modelli/successioni/s08-comunicazione-dati-eredi.md",
+   "tipo_atto": "comunicazione",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 65 D.P.R. 600/1973"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "comunicazione_eredi",
+   "obbligo": "obbligatorio",
+   "firmatari": "eredi",
+   "destinatario": "Agenzia delle Entrate — ufficio del domicilio fiscale del de cuius",
+   "allega": "documenti d'identità degli eredi",
+   "deas": [
+    "Comunicazione dei dati degli eredi"
+   ],
+   "perche": "gli eredi del contribuente comunicano all'ufficio del domicilio fiscale del defunto le proprie generalità e il proprio domicilio fiscale (art. 65 c. 2 D.P.R. 600/1973)"
+  },
+  {
+   "id": "S09",
+   "titolo": "Dichiarazione sostitutiva sui dati catastali degli immobili",
+   "file": "wiki-studio/modelli/successioni/s09-dichiarazione-sostitutiva-dati-catastali.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 47 D.P.R. 445/2000"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "immobili",
+   "obbligo": "facoltativo",
+   "firmatari": "dichiarante",
+   "destinatario": "Agenzia delle Entrate (allegato EG, se richiesta)",
+   "allega": "documento d'identità del dichiarante",
+   "allegato_eg": "dich_sost",
+   "deas": [
+    "Autocertificazione identificativi catastali"
+   ],
+   "perche": "attesta gli identificativi catastali e la titolarità degli immobili del de cuius, se l'ufficio o una banca la chiede al posto delle visure"
+  },
+  {
+   "id": "S10",
+   "titolo": "Dichiarazione sostitutiva sulla destinazione urbanistica dei terreni",
+   "file": "wiki-studio/modelli/successioni/s10-dichiarazione-sostitutiva-destinazione-urbanistica.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 34 D.Lgs. 346/1990",
+    "art. 47 D.P.R. 445/2000"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "terreni",
+   "obbligo": "consigliato",
+   "firmatari": "dichiarante",
+   "destinatario": "Agenzia delle Entrate (allegato EG)",
+   "allega": "documento d'identità del dichiarante",
+   "allegato_eg": "dich_sost",
+   "deas": [
+    "Autocertificazione destinazione urbanistica"
+   ],
+   "perche": "il valore catastale dei terreni non si rettifica, salvo che lo strumento urbanistico preveda la destinazione edificatoria (art. 34 c. 5 TUS): la destinazione va accertata (certificato del Comune o dichiarazione)"
+  },
+  {
+   "id": "S11",
+   "titolo": "Richiesta del certificato di destinazione urbanistica",
+   "file": "wiki-studio/modelli/successioni/s11-richiesta-certificato-destinazione-urbanistica.md",
+   "tipo_atto": "istanza",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 30 D.P.R. 380/2001",
+    "art. 34 D.Lgs. 346/1990"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "terreni",
+   "obbligo": "facoltativo",
+   "firmatari": "dichiarante",
+   "per": "COMUNI_TERRENI",
+   "come": "C",
+   "destinatario": "Comune in cui si trovano i terreni (ufficio urbanistica)",
+   "allega": "documento d'identità; estratto di mappa o visura; ricevuta dei diritti di segreteria se il Comune li chiede",
+   "deas": [
+    "Richiesta Certificato di Destinazione Urbanistica"
+   ],
+   "perche": "il certificato attesta se i terreni hanno destinazione edificatoria, che esclude il valore catastale (art. 34 c. 5 TUS); il Comune lo rilascia entro trenta giorni (art. 30 c. 3 D.P.R. 380/2001)"
+  },
+  {
+   "id": "S12",
+   "titolo": "Dichiarazione di accettazione dell'eredità (art. 475 c.c.)",
+   "file": "wiki-studio/modelli/successioni/s12-dichiarazione-accettazione-eredita.md",
+   "tipo_atto": "dichiarazione",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 475 c.c.",
+    "art. 2648 c.c.",
+    "art. 471 c.c.",
+    "art. 472 c.c.",
+    "art. 490 c.c.",
+    "art. 649 c.c."
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "su_richiesta",
+   "obbligo": "facoltativo",
+   "firmatari": "chiamati_maggiorenni",
+   "destinatario": "agli atti degli eredi (e della banca, se la chiede)",
+   "allega": "documenti d'identità",
+   "deas": [
+    "Accettazione dell'eredità"
+   ],
+   "perche": "accettazione espressa per scrittura privata (art. 475 c.c.); NON basta per la trascrizione (art. 2648 c.c. chiede atto pubblico o scrittura autenticata)"
+  },
+  {
+   "id": "S13",
+   "titolo": "Delega per la presentazione della domanda di voltura catastale",
+   "file": "wiki-studio/modelli/successioni/s13-delega-presentazione-voltura.md",
+   "tipo_atto": "delega",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 38 D.P.R. 445/2000"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "volture_separate",
+   "obbligo": "consigliato",
+   "firmatari": "dichiarante",
+   "destinatario": "Agenzia delle Entrate — Ufficio provinciale - Territorio",
+   "allega": "documento d'identità del delegante",
+   "deas": [
+    "Delega presentazione voltura (con dati delegato)"
+   ],
+   "perche": "le volture non partono con la dichiarazione (casella «non dar corso alle volture»): la domanda si presenta a parte, e il delegato agisce in rappresentanza (art. 38 c. 3-bis D.P.R. 445/2000)"
+  },
+  {
+   "id": "S14",
+   "titolo": "Dichiarazione di impegno per l'esenzione di aziende e partecipazioni (art. 3 c. 4-ter TUS)",
+   "file": "wiki-studio/modelli/successioni/s14-dichiarazione-impegno-aziende-partecipazioni-esenti.md",
+   "tipo_atto": "dichiarazione",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 3 D.Lgs. 346/1990",
+    "art. 89 D.Lgs. 123/2025",
+    "art. 320 c.c."
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "aziende_esenti",
+   "obbligo": "obbligatorio",
+   "firmatari": "voce",
+   "per": "AZIENDE_ESENTI",
+   "come": "F",
+   "destinatario": "Agenzia delle Entrate (con la dichiarazione; allegato EG se chi firma non è il dichiarante)",
+   "allega": "documento d'identità di chi firma",
+   "allegato_eg": "agev_ipocatastali",
+   "deas": [
+    "Dichiarazione per esenzione art. 3, comma 4 Ter (Testo Unico)"
+   ],
+   "perche": "l'esenzione di aziende, quote e azioni trasferite a discendenti e coniuge vale se gli aventi causa rendono, con la dichiarazione di successione, l'impegno quinquennale (art. 3 c. 4-ter TUS; dal 2027 art. 89 c. 6 TU)"
+  },
+  {
+   "id": "S15",
+   "titolo": "Richiesta alla banca della certificazione dei rapporti alla data del decesso",
+   "file": "wiki-studio/modelli/successioni/s15-richiesta-banca-certificazione-rapporti.md",
+   "tipo_atto": "lettera",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 23 D.Lgs. 346/1990"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "banche",
+   "obbligo": "obbligatorio",
+   "firmatari": "dichiarante",
+   "per": "BANCHE",
+   "come": "BANCA",
+   "destinatario": "banca o intermediario (filiale presso cui erano i rapporti)",
+   "allega": "documento d'identità; dichiarazione sostitutiva di certificazione di morte e degli eredi (S02, S03)",
+   "all_avvio": true,
+   "perche": "saldi, titoli (con la quota esente dei titoli di Stato) e debiti alla data del decesso sono i dati della dichiarazione; per i debiti verso banche serve il certificato dell'art. 23 c. 2 TUS"
+  },
+  {
+   "id": "S16",
+   "titolo": "Richiesta alla banca di svincolo e liquidazione dei rapporti agli eredi",
+   "file": "wiki-studio/modelli/successioni/s16-richiesta-banca-svincolo-liquidazione.md",
+   "tipo_atto": "lettera",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 48 D.Lgs. 346/1990",
+    "art. 130 D.Lgs. 123/2025",
+    "art. 320 c.c."
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "banche",
+   "obbligo": "dopo la presentazione",
+   "firmatari": "eredi",
+   "per": "BANCHE",
+   "come": "BANCA",
+   "destinatario": "banca o intermediario",
+   "allega": "copia della dichiarazione e della ricevuta di presentazione (o l'attestazione); dichiarazione sostitutiva degli eredi; documenti d'identità; autorizzazione del giudice tutelare per i minori",
+   "perche": "la banca può pagare o trasferire i rapporti agli eredi solo con la prova della presentazione della dichiarazione che li indica (art. 48 cc. 3 e 4 TUS; dal 2027 art. 130 cc. 2 e 3 TU 123/2025)"
+  },
+  {
+   "id": "S17",
+   "titolo": "Delega degli eredi a uno di loro per i rapporti con le banche",
+   "file": "wiki-studio/modelli/successioni/s17-delega-eredi-rapporti-banca.md",
+   "tipo_atto": "delega",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "banche",
+   "obbligo": "facoltativo",
+   "firmatari": "altri_eredi",
+   "destinatario": "banche e intermediari",
+   "allega": "documenti d'identità dei deleganti e del delegato",
+   "perche": "consente al dichiarante di chiedere certificazioni e informazioni e di consegnare i documenti della successione anche per conto degli altri eredi (la riscossione delle quote altrui richiede una procura)"
+  },
+  {
+   "id": "S18",
+   "titolo": "Dichiarazione di esonero dall'obbligo della dichiarazione di successione (per la banca)",
+   "file": "wiki-studio/modelli/successioni/s18-dichiarazione-esonero-dichiarazione-successione.md",
+   "tipo_atto": "dichiarazione",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 28 D.Lgs. 346/1990",
+    "art. 48 D.Lgs. 346/1990",
+    "art. 113 D.Lgs. 123/2025",
+    "art. 130 D.Lgs. 123/2025"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "esonero",
+   "obbligo": "facoltativo",
+   "firmatari": "eredi_maggiorenni",
+   "per": "BANCHE",
+   "come": "BANCA",
+   "destinatario": "banca, Poste o altro debitore del defunto",
+   "allega": "documenti d'identità; dichiarazione sostitutiva degli eredi; dichiarazione sostitutiva di morte",
+   "perche": "senza obbligo di dichiarazione (art. 28 c. 7 TUS) la banca può pagare se l'interessato dichiara per iscritto che l'obbligo non c'era (art. 48 cc. 3-4 TUS); la banca la trasmette all'Agenzia entro 15 giorni (c. 5)"
+  },
+  {
+   "id": "S19",
+   "titolo": "Richiesta di svincolo per il pagamento delle imposte (unico erede fino a 26 anni)",
+   "file": "wiki-studio/modelli/successioni/s19-richiesta-svincolo-imposte-erede-under26.md",
+   "tipo_atto": "lettera",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 48 D.Lgs. 346/1990",
+    "art. 130 D.Lgs. 123/2025"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "under26",
+   "obbligo": "facoltativo",
+   "firmatari": "dichiarante",
+   "per": "BANCHE",
+   "come": "BANCA",
+   "destinatario": "banca o intermediario",
+   "allega": "documento d'identità; dichiarazione sostitutiva degli eredi",
+   "perche": "con immobili nell'asse l'unico erede fino a 26 anni può ottenere lo svincolo prima della dichiarazione, nei limiti delle imposte ipotecaria, catastale e di bollo (art. 48 c. 4-bis TUS; dal 2027 art. 130 c. 4 TU)"
+  },
+  {
+   "id": "S20",
+   "titolo": "Richiesta di apertura della cassetta di sicurezza con inventario",
+   "file": "wiki-studio/modelli/successioni/s20-richiesta-apertura-cassetta-sicurezza.md",
+   "tipo_atto": "lettera",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 48 D.Lgs. 346/1990",
+    "art. 130 D.Lgs. 123/2025"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "cassetta",
+   "obbligo": "obbligatorio",
+   "firmatari": "dichiarante",
+   "per": "BANCHE_CASSETTA",
+   "come": "BANCA",
+   "destinatario": "banca concedente della cassetta",
+   "allega": "documento d'identità; dichiarazione sostitutiva degli eredi",
+   "deas": [
+    "Richiesta sopralluogo funzionario per cassetta di sicurezza"
+   ],
+   "perche": "dopo la morte del concessionario la cassetta si apre solo alla presenza di un funzionario dell'Agenzia o di un notaio, che fa l'inventario, previa comunicazione della banca all'ufficio (art. 48 c. 6 TUS; dal 2027 art. 130 c. 6 TU)"
+  },
+  {
+   "id": "S21",
+   "titolo": "Dichiarazione sostitutiva dell'atto di notorietà (testo libero)",
+   "file": "wiki-studio/modelli/successioni/s21-dichiarazione-sostitutiva-libera.md",
+   "tipo_atto": "dichiarazione_sostitutiva",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 47 D.P.R. 445/2000"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "su_richiesta",
+   "obbligo": "facoltativo",
+   "firmatari": "dichiarante",
+   "destinatario": "chi la chiede",
+   "allega": "documento d'identità del dichiarante",
+   "allegato_eg": "dich_sost",
+   "deas": [
+    "Note ed osservazioni (nuovo modello telematico)"
+   ],
+   "perche": "per fatti che nessun altro modulo copre (osservazioni sulla pratica, fatti a diretta conoscenza)"
+  },
+  {
+   "id": "S22",
+   "titolo": "Richiesta di copia della dichiarazione di successione o dell'attestazione di presentazione",
+   "file": "wiki-studio/modelli/successioni/s22-richiesta-copia-attestazione-dichiarazione.md",
+   "tipo_atto": "istanza",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "su_richiesta",
+   "obbligo": "dopo la presentazione",
+   "firmatari": "dichiarante",
+   "destinatario": "Agenzia delle Entrate — ufficio competente",
+   "allega": "documento d'identità; marche da bollo se si chiede una copia conforme",
+   "deas": [
+    "Richiesta copia dichiarazione di successione",
+    "Richiesta copia conforme dichiarazione di successione",
+    "Richiesta Modello 240",
+    "Richiesta Modello 240 (AdE)",
+    "Richiesta Modello 240 (con delega)"
+   ],
+   "perche": "l'attestazione di avvenuta presentazione serve per svincolare conti e titoli (se non è stata chiesta nella dichiarazione); per le successioni presentate col Modello 4 il certificato è il modello 240"
+  },
+  {
+   "id": "S23",
+   "titolo": "Dichiarazione di avvalersi dell'art. 34 TUS per i fabbricati con rendita proposta",
+   "file": "wiki-studio/modelli/successioni/s23-richiesta-art34-rendita-proposta.md",
+   "tipo_atto": "dichiarazione",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 34 D.Lgs. 346/1990"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "rendita_proposta",
+   "obbligo": "obbligatorio",
+   "firmatari": "dichiarante",
+   "destinatario": "Agenzia delle Entrate (allegato EG «altro»)",
+   "allega": "ricevuta DOCFA",
+   "allegato_eg": "altro",
+   "deas": [
+    "Richiesta ex art.34, comma 5, T.U. (rendita proposta)"
+   ],
+   "perche": "il valore catastale non si rettifica, per i fabbricati con rendita proposta, solo se la volontà di avvalersene è espressa nella dichiarazione (art. 34 cc. 5, 6 e 6-bis TUS)"
+  },
+  {
+   "id": "S24",
+   "titolo": "Ricorso al giudice tutelare per l'autorizzazione ad accettare l'eredità con beneficio d'inventario (minore)",
+   "file": "wiki-studio/modelli/successioni/s24-ricorso-giudice-tutelare-accettazione-beneficio-minore.md",
+   "tipo_atto": "ricorso",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 320 c.c.",
+    "art. 471 c.c.",
+    "art. 484 c.c."
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "minori",
+   "obbligo": "consigliato",
+   "firmatari": "genitori",
+   "per": "MINORI",
+   "come": "M",
+   "destinatario": "giudice tutelare competente",
+   "allega": "certificato o dichiarazione di morte; stato di famiglia; elenco dei beni; documenti dei genitori",
+   "deas": [
+    "Richiesta accettazione con beneficio di inventario (minore)",
+    "Richiesta accettazione con beneficio di inventario (interdetto)"
+   ],
+   "perche": "l'eredità devoluta a un minore si accetta solo col beneficio d'inventario (art. 471 c.c.) e i genitori accettano per il figlio solo con l'autorizzazione del giudice tutelare (art. 320 c.c.)"
+  },
+  {
+   "id": "S25",
+   "titolo": "Dichiarazione di sussistenza di debito (conforme al Mod. 237)",
+   "file": "wiki-studio/modelli/successioni/s25-dichiarazione-sussistenza-debito-mod237.md",
+   "tipo_atto": "dichiarazione",
+   "rito": "n/a",
+   "fase": "successione",
+   "materia": "successioni",
+   "changelog_deps": [],
+   "volatilita": "media",
+   "norme_chiave": [
+    "art. 21 D.Lgs. 346/1990",
+    "art. 23 D.Lgs. 346/1990",
+    "art. 108 D.Lgs. 123/2025"
+   ],
+   "verificato_il": "2026-11-17",
+   "norme_allineate_al": "2026-11-17",
+   "quando": "passivita_senza_titolo",
+   "obbligo": "consigliato",
+   "firmatari": "dichiarante",
+   "per": "PASSIVITA",
+   "come": "D",
+   "destinatario": "Agenzia delle Entrate (allegato EG5 «passività»)",
+   "allega": "firme autenticate",
+   "allegato_eg": "passivita",
+   "deas": [
+    "Dichiarazione di sussistenza di debito (mod.237)"
+   ],
+   "perche": "un debito che non risulta da titolo, scritture o certificato bancario si dimostra con l'attestazione conforme al modello approvato, firmata da un obbligato e dal creditore, con firme autenticate (art. 23 c. 3 TUS)"
+  }
+ ],
+ "restano_a_deas": [
+  "la stampa della dichiarazione (modello telematico) da far firmare al dichiarante: l'originale firmato resta allo studio (provv. AdE 27/12/2016, punto 4.4)",
+  "il modello F24 dell'imposta di successione (decessi dal 2025) e del ravvedimento",
+  "le volture separate (Voltura 1.1 / 2.0 o cartacea), se nella dichiarazione è barrata «non dar corso alle volture»",
+  "il Modello 4 per le successioni aperte prima del 3/10/2006"
+ ]
+}

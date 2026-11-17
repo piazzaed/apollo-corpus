@@ -1,7 +1,8 @@
 # Sentinella dei modelli d'atto — istruzioni per il giro automatico
 
 Sei nel repository pubblico del corpus normativo. Il triage (JSON indicato nel prompt) elenca le schede dei modelli d'atto
-(`wiki-studio/modelli/civile/*.md`) che il controllo deterministico ha trovato rosse: per ognuna i problemi (norma abrogata
+(`wiki-studio/modelli/civile/*.md` e, dalla v0.55, i documenti da firmare delle successioni
+`wiki-studio/modelli/successioni/*.md`) che il controllo deterministico ha trovato rosse: per ognuna i problemi (norma abrogata
 o modificata, requisito mancante, formula superata, cifra non aggiornata) con la correzione suggerita quando c'è.
 
 Correggi **solo quelle schede** (Edit), e **solo** nelle sezioni «Testo del modello», «Normativa» e «Aggiornamenti»:
@@ -10,6 +11,10 @@ Correggi **solo quelle schede** (Edit), e **solo** nelle sezioni «Testo del mod
   `python3 scripts/codice_locale.py --art N --codice SLUG` prima di citarla;
 - nessuna sentenza, nessun nome di persona o di studio, nessun dato personale (i segnaposto restano segnaposto);
 - aggiungi in «Aggiornamenti» una riga datata con cosa hai cambiato e perché;
+- nei documenti delle successioni il testo usa una piccola lingua (`{{ DATO }}`, `{% se … %}…{% altrimenti %}…{% fine %}`,
+  `{% per … %}…{% fine %}`): cambia solo le parole e le citazioni, mai i comandi né i nomi dei dati; le citazioni del
+  2027 stanno nel ramo `{% se DAL_2027 %}` (o `APERTA_DAL_2027`). `python3 scripts/suc_modelli_testo.py --controlla FILE`
+  deve dire OK;
 - verifica la scheda con `python3 scripts/sentinella_modelli.py --giro --id ID --senza-motori --senza-patch`: conta la
   riga «come correzione …» (il verdetto del cancello, senza la marcatura manuale e il «testo cambiato» che l'allineamento
   azzera): deve essere VERDE. Se non riesci, lascia la scheda com'era.
