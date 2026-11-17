@@ -251,20 +251,29 @@ Il valore di usufrutto/nuda proprietà si calcola con coefficienti legati al **t
   D.Lgs. 139/2024, L. 104/1992 (art. 3), D.P.R. 445/2000 (artt. 46-47). `fonti_fetch.py --riferimento "art. 7 D.Lgs.
   346/1990"` risponde dal disco con data di vigenza per articolo; vita utile 45 giorni, poi si torna a normattiva
   (`codice_locale.py --costruisci tus --nel-repo` rinnova). Il round su queste norme non richiede rete.
-- **Strato 4 — uffici competenti** (`uffici-competenza-successioni.json`, letto il 18/9/2026 dalle pagine AdE): provincia
-  di Torino, 311 comuni e 10 circoscrizioni → UT «Atti pubblici, successioni e rimborsi IVA» **TT2** (DP I, corso Bolzano
-  30, circoscrizioni 1-2-3-8-9-10 e comuni di Moncalieri/Pinerolo) o **TT3** (DP II, via Paolo Veronese 199/A,
-  circoscrizioni 4-5-6-7 e comuni di Chivasso/Ciriè/Cuorgnè/Ivrea/Rivoli/Susa). Fuori provincia: sito AdE dal browser.
+- **Strato 4 — uffici competenti** (`uffici-italia-successioni.json`, versione 2 dalla v0.53, letta il 17/11/2026
+  dalle pagine AdE di tutte le direzioni regionali e rifatta ogni mese dalla sentinella): **tutta Italia**, comune per codice
+  catastale (ISTAT) → UT competente → UT «Atti pubblici, successioni e rimborsi IVA» della direzione provinciale quando
+  c'è, con la **sigla** del tracciato; omonimi sciolti dalla provincia, comuni soppressi → comune in cui sono confluiti,
+  città divise (Torino per circoscrizione: **TT2** circoscrizioni 1-2-3-8-9-10, **TT3** 4-5-6-7; Roma, Milano, Napoli…)
+  con la domanda sull'indirizzo. Un comune che la pagina AdE non elenca è «da verificare», mai un'inferenza.
 - Il gate di freschezza (hook) legge la data qui sotto: oltre 30 giorni esige `freshness.py --materie successioni`
   prima di scrivere il `.suc`.
 
 **Data ultimo aggiornamento del changelog**: **18 settembre 2026** (sezione precedente: 8 settembre 2026) (sezione precedente: 21 agosto 2026) — recepimento delle proposte tell-only dei drift-report della Sentinella dal 14/7 al 20/8/2026 (`wiki-studio/normativa/drift-reports/`).
 
-Quadro vigente alla data: modello **Provv. AdE 13/2/2025** con istruzioni al 15/7/2025; specifiche tecniche **SUC13 v14 del 2/7/2025** con XSD ufficiali integrati in `references/specifiche-suc13/`; modulo di controllo **2.3.1 dell'11/3/2026** (obbligatorio dal 26/3/2026); **DE.A.S. 2026** del 2/1/2026, ultima release **2.25i dell'8/6/2026**; **Voltura Web** esclusiva dal 12/1/2026; riforma **D.Lgs. 139/2024**; **DM MEF 24/12/2025** coefficienti 2026 e **DM MEF 10/12/2025** tasso legale 1,60%; **C.Cost. 89/2026** (floor 2,5% retroattivo sui rapporti non esauriti); **D.Lgs. 141/2026** (documenti da allegare dal 1/1/2027); **D.Lgs. 123/2025** con efficacia 1/1/2027 e abrogazione del TUS.
+Quadro vigente alla data: modello **Provv. AdE 13/2/2025** con istruzioni al 15/7/2025; specifiche tecniche **SUC13 v14 del 2/7/2025** con XSD ufficiali integrati in `references/specifiche-suc13/`; modulo di controllo **2.3.1 dell'11/3/2026** (obbligatorio dal 26/3/2026); **DE.A.S. 2026** del 2/1/2026, ultima release: la più recente fra le «Novità verificate dalle sentinelle» qui sotto (le registra la sentinella ogni settimana); **Voltura Web** esclusiva dal 12/1/2026; riforma **D.Lgs. 139/2024**; **DM MEF 24/12/2025** coefficienti 2026 e **DM MEF 10/12/2025** tasso legale 1,60%; **C.Cost. 89/2026** (floor 2,5% retroattivo sui rapporti non esauriti); **D.Lgs. 141/2026** (documenti da allegare dal 1/1/2027); **D.Lgs. 123/2025** con efficacia 1/1/2027 e abrogazione del TUS.
 
 Fonti: specifiche SUC13 e guida DEAS (audit del 21/7/2026); pagine AdE (verifiche del 3/8, 15/8, 18/8/2026); `cortecostituzionale.it` (sent. 89/2026, letta il 15/8/2026); `gazzettaufficiale.it` (D.Lgs. 141/2026, art. 4 letto il 18/8/2026; D.L. 200/2025 e testo coordinato, letti l'8/8/2026); `normattiva.it` (art. 9 D.Lgs. 139/2024, letto il 19/8/2026).
 
-⚠️ **Riserve aperte alla data**: (1) manca la **prassi AdE** che recepisca la sent. 89/2026; (2) le pagine AdE «modello e istruzioni» e «specifiche tecniche» non erano leggibili il 19/8/2026 → la permanenza della v14 è indizio forte, non conferma; (3) l'articolo di **efficacia differita** del D.Lgs. 141/2026 non è stato letto.
+⚠️ **Riserve aperte alla data**: (1) manca la **prassi AdE** che recepisca la sent. 89/2026; (2) ~~pagine AdE delle specifiche non leggibili~~ — sciolta il 17/11/2026: la sonda deterministica della v0.53 (`sentinelle_successioni.sonda_specifiche`) legge pacchetto **SUC13_20250702**, software di controllo **2.3.1 dell'11/3/2026** e provvedimento **13/2/2025**, gli stessi del plugin; il pacchetto scaricato non differisce dagli XSD del plugin (`suc13_diff.py`: 0 differenze); (3) l'articolo di **efficacia differita** del D.Lgs. 141/2026 non è stato letto.
+
+**Passaggio al 1/1/2027 (v0.53)**: il D.Lgs. 123/2025 è nel corpus locale con `efficacia_da` 2027-01-01 e il TUS e il
+TU 347/1990 con le abrogazioni dell'art. 204 lett. l) e m): per un fatto anteriore al 2027 il corpus serve il TUS, dal 2027
+il testo unico (`norma.py --data-evento`, `corpus_cerca.py --alla-data`, `successioni_cerca.py --data`); le citazioni
+passano per le concordanze (`scripts/concordanze.py`). Gli allegati dal 2027: dichiarazioni sostitutive (D.Lgs. 141/2026).
+Il D.M. del tasso legale 2027 e un eventuale modello o tracciato 2027 arrivano dalle sentinelle, senza rilascio; i
+coefficienti dell'usufrutto vitalizio non cambiano col tasso (valore × percentuale per età).
 
 ## Novità verificate dalle sentinelle automatiche
 

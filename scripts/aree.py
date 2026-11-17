@@ -64,7 +64,15 @@ AREE = {
     ),
     "successioni": (
         ("action", r"skills/assistente-successioni/references/changelog-normativo\.md"),
-        ("action", r"skills/assistente-successioni/references/uffici-competenza-successioni\.json"),
+        ("action", r"skills/assistente-successioni/references/uffici-competenza-successioni\.json"),   # sola Torino, ferma
+        ("action", r"skills/assistente-successioni/references/uffici-italia-successioni\.json"),       # v0.53: nazionale
+        ("action", r"wiki-studio/sentinelle/successioni-specifiche\.json"),     # v0.53: specifiche, software, provvedimenti
+        ("action", r"dati/comuni-italiani\.json"),                             # v0.53: comuni ISTAT (codici catastali)
+        ("action", r"wiki-studio/successioni/prassi-ade\.json"),               # v0.53: indice della prassi AdE
+        # v0.53: semi del plugin che le sonde leggono nel repo pubblico: le sigle vigenti del tracciato (controllo della
+        # tabella degli uffici) e le versioni su cui e' tarato il generatore (confronto con le specifiche pubblicate)
+        ("seme", r"skills/assistente-successioni/references/uffici-suc13\.md"),
+        ("seme", r"skills/assistente-successioni/references/specifiche-suc13/versione\.json"),
     ),
     "stato": (
         ("action", r"wiki-studio/sentinelle/(?:stato|modelli-stato|successioni)\.json"),

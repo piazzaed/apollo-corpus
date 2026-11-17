@@ -55,8 +55,11 @@ if sys.platform == "win32":  # Cowork/Desktop su Windows: le pipe sono cp1252 �
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import ROOT, stato_root  # noqa: E402
 
-SEED = ROOT / "skills/assistente-successioni/references/uffici-competenza-successioni.json"
+#: v0.53: la tabella NAZIONALE ha un file suo. Quello di sola Torino resta com'era per i plugin gia' installati (fino alla
+#: 0.52 leggono solo quel formato: la tabella nazionale con lo stesso nome li romperebbe al primo sync); qui e' un ripiego.
+SEED = ROOT / "skills/assistente-successioni/references/uffici-italia-successioni.json"
 NOME_FILE = SEED.name
+SEED_TORINO = ROOT / "skills/assistente-successioni/references/uffici-competenza-successioni.json"
 
 #: Oltre questa età la tabella risponde ancora, ma dichiara che va riverificata (--aggiorna).
 VITA_UTILE_GIORNI = 365
@@ -80,6 +83,19 @@ REGOLA = ("art. 6 D.Lgs. 346/1990: ufficio nella cui circoscrizione era l'ultima
 
 # ------------------------------------------------------------------ normalizzazione
 
+
+try:  # v0.53: la corsia successioni si misura da sola (telemetria best-effort, mai un dato personale)
+    from telemetria import fase_successione as _fase, nota_fase as _nota, nome_pratica as _nome_pratica
+except Exception:  # pragma: no cover — la telemetria non deve mai impedire lo script
+    def _fase(_nome):
+        return lambda f: f
+
+    def _nota(**_k):
+        pass
+
+    def _nome_pratica(_p):
+        return ""
+
 def _norm(s: str) -> str:
     s = unicodedata.normalize("NFKD", str(s or ""))
     s = "".join(c for c in s if not unicodedata.combining(c))
@@ -96,12 +112,13 @@ def _percorsi() -> list[Path]:
     out = [stato_root() / "successioni" / NOME_FILE]
     try:
         import aree as _ar
-        s = _ar.file_sincronizzato("skills/assistente-successioni/references/" + NOME_FILE)
-        if s is not None:
-            out.append(s)
+        for nome in (NOME_FILE, SEED_TORINO.name):
+            s = _ar.file_sincronizzato("skills/assistente-successioni/references/" + nome)
+            if s is not None:
+                out.append(s)
     except Exception:
         pass
-    return out + [SEED]
+    return out + [SEED, SEED_TORINO]
 
 
 def carica() -> dict | None:
@@ -114,7 +131,8 @@ def carica() -> dict | None:
             dati = json.loads(p.read_text(encoding="utf-8"))
         except ValueError:
             continue
-        data = str((dati.get("_meta") or {}).get("verificato_il") or "")
+        # v0.53: la tabella NAZIONALE (versione 2) vince sempre su quella della sola Torino, anche se piu' vecchia
+        data = (int((dati.get("_meta") or {}).get("versione") or 1), str((dati.get("_meta") or {}).get("verificato_il") or ""))
         if migliore is None or data > migliore[0]:
             migliore = (data, dati, p)
     if migliore is None:
@@ -132,7 +150,84 @@ def eta_giorni(dati: dict) -> int | None:
     return (_dt.date.today() - d).days
 
 
-def cerca(comune: str, circoscrizione=None, dati: dict | None = None) -> dict:
+def _ufficio_v2(dati: dict, codice: str) -> dict:
+    u = dict((dati.get("uffici") or {}).get(codice) or {})
+    u.setdefault("codice", codice)
+    if not u.get("nome"):
+        try:
+            import uffici_italia as ui
+            u["nome"] = ui.codici_vigenti().get(codice, "")
+        except Exception:
+            pass
+    for k in ("indirizzo", "pec", "email", "telefono"):
+        u.setdefault(k, "")
+    return u
+
+
+def cerca_v2(comune: str, circoscrizione=None, dati: dict = None, provincia: str = "") -> dict:
+    """v0.53 — tabella nazionale (uffici_italia.py): comune per codice catastale, citta' divise, omonimi per provincia."""
+    import comuni_istat as ci
+    base = {"comune": str(comune or "").upper(), "verificato_il": dati["_meta"].get("verificato_il"),
+            "regola": dati["_meta"].get("regola", REGOLA)}
+    eta = eta_giorni(dati)
+    if eta is not None and eta > VITA_UTILE_GIORNI:
+        base["avviso"] = f"tabella verificata il {dati['_meta'].get('verificato_il')} ({eta} giorni fa): riverificare"
+    s = str(comune or "").strip()
+    if re.fullmatch(r"[A-Za-z]\d{3}", s):
+        candidati = [ci.da_codice(s.upper())] if ci.da_codice(s.upper()) else []
+    else:
+        candidati = ci.da_nome(s, provincia)
+        sigla = str(provincia or "").strip().upper()
+        if sigla and candidati and all(c["provincia"] != sigla for c in candidati):
+            # da_nome, senza riscontro, ripiega su tutti gli omonimi (serve alla raccolta delle pagine AdE): qui una provincia
+            # DICHIARATA che non torna e' un dato da verificare, non un comune di un'altra provincia
+            return {**base, "verdetto": "NON_IN_TABELLA",
+                    "motivo": f"nessun comune «{s}» in provincia {sigla} (esiste in: "
+                              + ", ".join(sorted({c['provincia'] for c in candidati})) + "): verificare nome e provincia",
+                    "domanda_cliente": f"Il comune dell'ultima residenza è proprio «{s}» ({sigla})? Ci indichi il nome completo."}
+    if not candidati:
+        sop = ci.soppresso(s, provincia)
+        if sop:
+            esito = cerca_v2(sop["confluito_in"], circoscrizione, dati, sop["provincia"])
+            esito["nota"] = f"{s} è soppresso ({sop['data']}): confluito in {sop['confluito_in']}"
+            return esito
+        return {**base, "verdetto": "NON_IN_TABELLA", "motivo": f"«{s}» non è un comune italiano vigente né soppresso noto"}
+    if len(candidati) > 1:
+        return {**base, "verdetto": "AMBIGUO", "omonimi": candidati,
+                "domanda_cliente": f"In quale provincia si trova il comune di {s} dell'ultima residenza? (esistono omonimi: "
+                                   + ", ".join(f"{c['nome']} ({c['provincia']})" for c in candidati) + ")"}
+    c = candidati[0]
+    base.update({"comune": c["nome"].upper(), "provincia": c["provincia"], "codice_catastale": c["codice"]})
+    voce = (dati.get("comuni") or {}).get(c["codice"])
+    if not voce:
+        return {**base, "verdetto": "NON_IN_TABELLA",
+                "motivo": f"{c['nome']} ({c['provincia']}): la pagina AdE dell'ufficio non lo elenca — verificare su «Trova "
+                          "l'ufficio» del sito AdE e chiedere conferma all'ufficio della direzione provinciale"}
+    divisa = (dati.get("citta_divise") or {}).get(c["codice"])
+    if divisa and divisa.get("parti"):
+        parti = divisa["parti"]
+        uffici = sorted({p["ufficio"] for p in parti.values()} | {voce["ufficio"]})
+        if circoscrizione not in (None, ""):
+            chiave = str(circoscrizione).strip().upper()
+            chiave = str(int(chiave)) if chiave.isdigit() else chiave
+            parte = parti.get(chiave)
+            if parte:
+                return {**base, "verdetto": "OK", "circoscrizione": chiave, "ufficio": _ufficio_v2(dati, parte["ufficio"]),
+                        "ufficio_territoriale": parte.get("ufficio_territoriale"), "regola_ufficio": voce.get("regola")}
+            return {**base, "verdetto": "NON_IN_TABELLA",
+                    "motivo": f"{divisa['tipo']} {circoscrizione!r} non prevista per {c['nome']} ({', '.join(sorted(parti))})"}
+        if len(uffici) > 1:
+            return {**base, "verdetto": "AMBIGUO", "uffici_possibili": [_ufficio_v2(dati, u) for u in uffici],
+                    "per_circoscrizione": {k: p["ufficio"] for k, p in parti.items()},
+                    "domanda_cliente": (f"Qual era l'indirizzo esatto (via e numero civico) dell'ultima residenza del defunto a "
+                                        f"{c['nome']}? La città è divisa fra più uffici dell'Agenzia delle Entrate "
+                                        f"({divisa['tipo']}): serve per individuare quello competente."),
+                    "come_trovare_circoscrizione": dati["_meta"].get("torino_circoscrizioni_come", "")}
+    return {**base, "verdetto": "OK", "ufficio": _ufficio_v2(dati, voce["ufficio"]),
+            "ufficio_territoriale": voce.get("ufficio_territoriale"), "regola_ufficio": voce.get("regola")}
+
+
+def cerca(comune: str, circoscrizione=None, dati: dict | None = None, provincia: str = "") -> dict:
     """Esito per un comune (e, per Torino, una circoscrizione).
 
     Ritorna sempre un dict con `verdetto` in {OK, AMBIGUO, NON_IN_TABELLA, TABELLA_ASSENTE}
@@ -143,6 +238,8 @@ def cerca(comune: str, circoscrizione=None, dati: dict | None = None) -> dict:
     if not dati:
         return {"verdetto": "TABELLA_ASSENTE",
                 "motivo": f"tabella {NOME_FILE} non trovata: eseguire --aggiorna"}
+    if (dati.get("_meta") or {}).get("versione") == 2:
+        return cerca_v2(comune, circoscrizione, dati, provincia)
     eta = eta_giorni(dati)
     avviso = (f"tabella verificata il {dati['_meta'].get('verificato_il')} ({eta} giorni fa, oltre la vita utile "
               f"di {VITA_UTILE_GIORNI}): riverificare con --aggiorna") if eta is not None and eta > VITA_UTILE_GIORNI else ""
@@ -284,11 +381,18 @@ def _stampa(esito: dict) -> None:
         if esito.get("ufficio_territoriale"):
             print(f"UT DI ZONA (non per le successioni): {esito['ufficio_territoriale']}")
     elif v == "AMBIGUO":
-        print(f"AMBIGUO {esito['comune']}: serve la circoscrizione (1-10)")
-        for n, cod in esito["per_circoscrizione"].items():
-            print(f"  circoscrizione {n:>2} → {cod}")
+        # v0.53: due casi — comuni omonimi (serve la provincia) e citta' divise fra piu' uffici (serve l'indirizzo)
+        if esito.get("omonimi"):
+            print(f"AMBIGUO {esito['comune']}: comuni omonimi, serve la provincia (--provincia)")
+            for c in esito["omonimi"]:
+                print(f"  {c['nome']} ({c['provincia']}) · codice catastale {c['codice']}")
+        else:
+            print(f"AMBIGUO {esito['comune']}: città divisa fra più uffici, serve la parte (--circoscrizione)")
+            for n, cod in (esito.get("per_circoscrizione") or {}).items():
+                print(f"  {n:>12} → {cod}")
         print(f"DOMANDA PER IL CLIENTE: {esito['domanda_cliente']}")
-        print(f"COME: {esito.get('come_trovare_circoscrizione', '')}")
+        if esito.get("come_trovare_circoscrizione"):
+            print(f"COME: {esito['come_trovare_circoscrizione']}")
     else:
         print(f"{v} {esito.get('motivo', '')}")
     print(f"VERIFICATO IL: {esito.get('verificato_il', 'n/d')}")
@@ -296,25 +400,30 @@ def _stampa(esito: dict) -> None:
         print(f"AVVISO: {esito['avviso']}")
 
 
+@_fase("uffici")
 def main() -> int:
     ap = argparse.ArgumentParser(description="Ufficio AdE competente per la successione (tabella locale datata)")
     ap.add_argument("--comune", help="comune dell'ultima residenza del de cuius")
-    ap.add_argument("--circoscrizione", help="solo per Torino: 1-10")
-    ap.add_argument("--aggiorna", action="store_true", help="rilegge le pagine AdE e riscrive la tabella")
+    ap.add_argument("--provincia", default="", help="sigla della provincia (distingue i comuni omonimi)")
+    ap.add_argument("--circoscrizione", help="città divise (Torino 1-10, municipi, zone, quartieri)")
+    ap.add_argument("--aggiorna", action="store_true",
+                    help="v0.53: ricostruisce la tabella NAZIONALE (uffici_italia.py --aggiorna) — mai quella di sola Torino")
     ap.add_argument("--nel-repo", action="store_true", help="con --aggiorna: scrive il seed nel pacchetto")
     ap.add_argument("--stato", action="store_true")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
 
     if a.aggiorna:
+        # v0.53: lo scraper di sola Torino (`aggiorna`, tabella versione 1) riscriverebbe la tabella nazionale con 300 comuni:
+        # si passa sempre dal costruttore nazionale, che non sostituisce una tabella che non regge il confronto
+        import subprocess
         dest = SEED if a.nel_repo else stato_root() / "successioni" / NOME_FILE
-        dati = aggiorna(dest)
-        print(f"AGGIORNATA {dest}: {len(dati['comuni'])} comuni, {len(dati['uffici_territoriali'])} UT, "
-              f"{len(dati['torino_circoscrizioni'])} circoscrizioni di Torino, verificata il {dati['_meta']['verificato_il']}")
-        return 0
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        return subprocess.run([sys.executable, str(Path(__file__).with_name("uffici_italia.py")), "--aggiorna",
+                               "--out", str(dest)]).returncode
 
     if a.comune:
-        esito = cerca(a.comune, a.circoscrizione)
+        esito = cerca(a.comune, a.circoscrizione, provincia=a.provincia)
         if a.json:
             print(json.dumps(esito, ensure_ascii=False, indent=1))
         else:

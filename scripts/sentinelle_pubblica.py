@@ -51,7 +51,7 @@ STRUMENTI_SENTINELLE = (
     "aree.py", "sentinelle_base.py", "sentinelle_prove.py", "sentinelle_dati.py", "sentinelle_normativa.py",
     "sentinelle_successioni.py", "sentinelle_modelli.py", "sentinelle_giro.py", "sentinelle_pubblica.py",
     "sentinella_modelli.py", "storico.py", "fonti_fetch.py", "freshness.py", "tassi.py", "soglia_usura.py",
-    "uffici_competenza.py",
+    "uffici_competenza.py", "uffici_italia.py", "comuni_istat.py", "prassi_ade.py",
 )
 #: moduli che gli strumenti delle sentinelle importano e che il repo puo' non avere ancora: si copiano solo se NON sono
 #: strumenti del corpus (v3) del repo, o se il repo non li ha proprio. v0.50: `articoli.py` (i numerali latini, v0.43.2)
@@ -87,7 +87,7 @@ def file_delle_aree(radice: Path) -> list:
     radice = Path(radice)
     out = []
     for base in ("dati", "wiki-studio/normativa", "wiki-studio/modelli", "wiki-studio/parcella", "wiki-studio/sentinelle",
-                 "skills/assistente-successioni/references"):
+                 "wiki-studio/successioni", "skills/assistente-successioni/references"):   # v0.53: la prassi AdE
         d = radice / base
         if not d.is_dir():
             continue
@@ -132,7 +132,8 @@ def controlla_testo(rel: str, testo: str) -> list:
     vietati = sb.nomi_vietati(testo, _vietati_extra())
     if vietati:
         errori.append(f"{rel}: {len(vietati)} nomi vietati")
-    personali = sb.dati_personali(testo, telefoni_istituzionali=rel.endswith("uffici-competenza-successioni.json"))
+    personali = sb.dati_personali(testo, telefoni_istituzionali=rel.endswith(("uffici-competenza-successioni.json",
+                                                                                 "uffici-italia-successioni.json")))
     if personali:
         errori.append(f"{rel}: dati personali ({', '.join(sorted({t for t, _ in personali}))})")
     return errori

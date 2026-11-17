@@ -1,10 +1,11 @@
 {
  "_meta": {
   "descrizione": "Requisiti di contenuto per tipo d'atto, ciascuno con la norma che lo impone. sentinella_modelli.py li applica ai modelli del catalogo e ai profili dei motori; lint_atto.py al documento finale. Se l'articolo indicato cambia (changelog-auto), la sentinella segnala anche la regola.",
-  "aggiornato_il": "2026-09-23",
+  "aggiornato_il": "2026-11-02",
   "fonte": "testo vigente dal corpus locale (normattiva AKN, snapshot 2026-09-18), letto articolo per articolo con scripts/norma.py: artt. 125, 163, 164, 167, 281-undecies, 342, 347, 366, 480 c.p.c.; art. 2 D.M. 110/2023",
   "schema": "tipi.<tipo>[]: id, regex (Python, case-insensitive, DOTALL), norma, articolo (slug:art), descrizione, gravita 🔴|🟡",
-  "nota": "23/09/2026: regex allargate alle forme del formulario (numeri in cifre «70 gg.», «gg. 10»; apostrofo tipografico ’; «della udienza»), perché il requisito si controlla nella sostanza, non nella formula esatta. Tipi nuovi: ricorso-semplificato, comparsa, ricorso, cassazione, memoria-difensiva, intervento, atto-di-parte. Parole chiave (D.M. 110/2023, art. 2, co. 1, lett. c) 🟡: il mancato rispetto dei criteri non comporta invalidita' (art. 46 disp. att. c.p.c.) ma pesa sulle spese. Il tipo di ogni modello e' nel sidecar modelli.meta.json (tipi_requisiti). v0.50: 281undecies-decadenze chiede l'avvertimento (costituzione oltre i termini → decadenze), non una «decadenza» qualsiasi nel testo."
+  "nota": "23/09/2026: regex allargate alle forme del formulario (numeri in cifre «70 gg.», «gg. 10»; apostrofo tipografico ’; «della udienza»), perché il requisito si controlla nella sostanza, non nella formula esatta. Tipi nuovi: ricorso-semplificato, comparsa, ricorso, cassazione, memoria-difensiva, intervento, atto-di-parte. Parole chiave (D.M. 110/2023, art. 2, co. 1, lett. c) 🟡: il mancato rispetto dei criteri non comporta invalidita' (art. 46 disp. att. c.p.c.) ma pesa sulle spese. Il tipo di ogni modello e' nel sidecar modelli.meta.json (tipi_requisiti). v0.50: 281undecies-decadenze chiede l'avvertimento (costituzione oltre i termini → decadenze), non una «decadenza» qualsiasi nel testo.",
+  "nota_v051": "02/11/2026 (v0.51): chiavi istanza (istanze e ricorsi in un giudizio di cognizione, istanze agli uffici), istanza-ge (istanze, memorie e opposizioni al giudice dell'esecuzione), costituzione-esecutato, intervento-esecuzione — testo vigente letto con scripts/norma.py: art. 125, co. 1 (ufficio, «le conclusioni o l'istanza», codice fiscale del difensore), art. 486 («con ricorso» al giudice dell'esecuzione), art. 83, co. 1 e 3 (procura, anche in calce al ricorso), art. 492, co. 2 (residenza, domicilio o PEC del debitore), art. 499, co. 2 (credito e titolo, distribuzione, domicilio) c.p.c.; art. 2, co. 2, D.M. 110/2023 (numero di ruolo; le regole del co. 1 «in quanto compatibili»: per le istanze niente parole chiave). Alias dei tipi in lint_atto._ALIAS_REQUISITI; forma e fonti in dati/forme-atti.json."
  },
  "tipi": {
   "citazione": [
@@ -305,6 +306,198 @@
     "articolo": "cpc:125",
     "descrizione": "codice fiscale del difensore che sottoscrive",
     "gravita": "🔴"
+   },
+   {
+    "id": "dm110-parole-chiave",
+    "regex": "parole\\s+chiave",
+    "norma": "art. 2, co. 1, lett. c) D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "parole chiave (massimo venti) che individuano l'oggetto del giudizio",
+    "gravita": "🟡"
+   }
+  ],
+  "istanza": [
+   {
+    "id": "125-ufficio",
+    "regex": "tribunale|corte\\s+d|giudice\\s+di\\s+pace|cancelleria|ufficiale\\s+giudiziario",
+    "norma": "art. 125, co. 1 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "indicazione dell'ufficio giudiziario",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-istanza",
+    "regex": "\\bchiede\\b|conclusion",
+    "norma": "art. 125, co. 1 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "le conclusioni o l'istanza: la richiesta al giudice (o all'ufficio)",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-numero-ruolo",
+    "regex": "\\b(?:r\\.?\\s?g\\.?(?:\\s?[el]\\.)?|v\\.\\s?g\\.)\\s*n\\.?\\s*[0-9\\[]|numero\\s+di\\s+ruolo",
+    "norma": "art. 2, co. 2 D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "numero di ruolo del processo al quale l'atto si riferisce (atti successivi alla costituzione in giudizio)",
+    "gravita": "🟡"
+   }
+  ],
+  "istanza-ge": [
+   {
+    "id": "125-ufficio",
+    "regex": "tribunale|corte\\s+d|giudice\\s+di\\s+pace|cancelleria|ufficiale\\s+giudiziario",
+    "norma": "art. 125, co. 1 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "indicazione dell'ufficio giudiziario",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-istanza",
+    "regex": "\\bchiede\\b|conclusion",
+    "norma": "art. 125, co. 1 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "le conclusioni o l'istanza: la richiesta al giudice (o all'ufficio)",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-numero-ruolo",
+    "regex": "\\b(?:r\\.?\\s?g\\.?(?:\\s?[el]\\.)?|v\\.\\s?g\\.)\\s*n\\.?\\s*[0-9\\[]|numero\\s+di\\s+ruolo",
+    "norma": "art. 2, co. 2 D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "numero di ruolo del processo al quale l'atto si riferisce (atti successivi alla costituzione in giudizio)",
+    "gravita": "🟡"
+   },
+   {
+    "id": "486-giudice-esecuzione",
+    "regex": "giudice\\s+dell['’]\\s*esecuzione|\\bg\\.\\s?e\\.",
+    "norma": "art. 486 c.p.c.",
+    "articolo": "cpc:486",
+    "descrizione": "domande e istanze al giudice dell'esecuzione: con ricorso, rivolte a lui",
+    "gravita": "🟡"
+   }
+  ],
+  "costituzione-esecutato": [
+   {
+    "id": "125-ufficio",
+    "regex": "tribunale|corte\\s+d|giudice\\s+di\\s+pace|cancelleria|ufficiale\\s+giudiziario",
+    "norma": "art. 125, co. 1 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "indicazione dell'ufficio giudiziario",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-istanza",
+    "regex": "\\bchiede\\b|conclusion",
+    "norma": "art. 125, co. 1 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "le conclusioni o l'istanza: la richiesta al giudice (o all'ufficio)",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-numero-ruolo",
+    "regex": "\\b(?:r\\.?\\s?g\\.?(?:\\s?[el]\\.)?|v\\.\\s?g\\.)\\s*n\\.?\\s*[0-9\\[]|numero\\s+di\\s+ruolo",
+    "norma": "art. 2, co. 2 D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "numero di ruolo del processo al quale l'atto si riferisce (atti successivi alla costituzione in giudizio)",
+    "gravita": "🟡"
+   },
+   {
+    "id": "486-giudice-esecuzione",
+    "regex": "giudice\\s+dell['’]\\s*esecuzione|\\bg\\.\\s?e\\.",
+    "norma": "art. 486 c.p.c.",
+    "articolo": "cpc:486",
+    "descrizione": "domande e istanze al giudice dell'esecuzione: con ricorso, rivolte a lui",
+    "gravita": "🟡"
+   },
+   {
+    "id": "83-procura",
+    "regex": "procura",
+    "norma": "art. 83, co. 1 e 3 c.p.c.",
+    "articolo": "cpc:83",
+    "descrizione": "procura alle liti del difensore (in calce al primo atto della parte nella procedura, o richiamata se gia' conferita)",
+    "gravita": "🔴"
+   },
+   {
+    "id": "492-domicilio",
+    "regex": "domicili|residenza|posta\\s+elettronica\\s+certificata|\\bpec\\b",
+    "norma": "art. 492, co. 2 c.p.c.",
+    "articolo": "cpc:492",
+    "descrizione": "dichiarazione di residenza, elezione di domicilio o PEC del debitore (in mancanza notificazioni e comunicazioni presso la cancelleria)",
+    "gravita": "🟡"
+   }
+  ],
+  "intervento-esecuzione": [
+   {
+    "id": "125-ufficio",
+    "regex": "tribunale|corte\\s+d|giudice\\s+di\\s+pace|cancelleria|ufficiale\\s+giudiziario",
+    "norma": "art. 125, co. 1 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "indicazione dell'ufficio giudiziario",
+    "gravita": "🔴"
+   },
+   {
+    "id": "499-credito-titolo",
+    "regex": "credit\\w*.{0,600}?titolo|titolo.{0,600}?credit",
+    "norma": "art. 499, co. 2 c.p.c.",
+    "articolo": "cpc:499",
+    "descrizione": "indicazione del credito e del suo titolo",
+    "gravita": "🔴"
+   },
+   {
+    "id": "499-distribuzione",
+    "regex": "distribuzion",
+    "norma": "art. 499, co. 2 c.p.c.",
+    "articolo": "cpc:499",
+    "descrizione": "domanda di partecipare alla distribuzione della somma ricavata",
+    "gravita": "🔴"
+   },
+   {
+    "id": "499-domicilio",
+    "regex": "domicili|residenza",
+    "norma": "art. 499, co. 2 c.p.c.",
+    "articolo": "cpc:499",
+    "descrizione": "dichiarazione di residenza o elezione di domicilio nel comune sede del giudice dell'esecuzione",
+    "gravita": "🔴"
+   },
+   {
+    "id": "125-cf-difensore",
+    "regex": "c\\.?\\s?f\\.?\\s*[A-Z]{6}\\d{2}[A-Z]\\d{2}[A-Z]\\d{3}[A-Z]|codice\\s+fiscale|avv(?:\\.|ocat[oa])[^\\n]{0,240}?\\bc\\.\\s?f\\.",
+    "norma": "art. 125 c.p.c.",
+    "articolo": "cpc:125",
+    "descrizione": "codice fiscale del difensore che sottoscrive",
+    "gravita": "🔴"
+   },
+   {
+    "id": "dm110-numero-ruolo",
+    "regex": "\\b(?:r\\.?\\s?g\\.?(?:\\s?[el]\\.)?|v\\.\\s?g\\.)\\s*n\\.?\\s*[0-9\\[]|numero\\s+di\\s+ruolo",
+    "norma": "art. 2, co. 2 D.M. 110/2023",
+    "articolo": "dm-110-2023:2",
+    "descrizione": "numero di ruolo del processo al quale l'atto si riferisce (atti successivi alla costituzione in giudizio)",
+    "gravita": "🟡"
    },
    {
     "id": "dm110-parole-chiave",

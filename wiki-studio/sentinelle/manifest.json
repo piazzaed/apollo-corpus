@@ -1,8 +1,57 @@
 {
  "schema": 1,
- "generato_il": "2026-11-16T10:25Z",
+ "generato_il": "2026-11-17T00:57Z",
  "versione_sentinelle": 2,
  "aree": {
+  "successioni": {
+   "file": {
+    "dati/comuni-italiani.json": {
+     "sha256": "48fab0b3e41fcbea0887c4afac002d41cb940d175811172bad864a8ca97e8193",
+     "byte": 551616,
+     "proprietario": "action"
+    },
+    "wiki-studio/sentinelle/successioni-specifiche.json": {
+     "sha256": "01ec1fa6cfd75ca3f69785f302bd32c208efd2910e332f963bd8f77800d8e1f7",
+     "byte": 530,
+     "proprietario": "action"
+    },
+    "wiki-studio/successioni/prassi-ade.json": {
+     "sha256": "0086170c5229859fac2740d32d8affabdf4280df88f540d509ea8e2eb0eb8a7b",
+     "byte": 50097,
+     "proprietario": "action"
+    },
+    "skills/assistente-successioni/references/changelog-normativo.md": {
+     "sha256": "82392df8e65944337d4cd456d09db23556da3092272b156f260ff3dcee84a124",
+     "byte": 37419,
+     "proprietario": "action"
+    },
+    "skills/assistente-successioni/references/specifiche-suc13/versione.json": {
+     "sha256": "db25d93123a6c1b586d06735ae88348aae124cc8d181b530b858fe2bfe6421eb",
+     "byte": 1025,
+     "proprietario": "seme"
+    },
+    "skills/assistente-successioni/references/uffici-competenza-successioni.json": {
+     "sha256": "00815043a5740567847ff494e24f5762f5d04038f64439392187bd1e98e1c2dc",
+     "byte": 27244,
+     "proprietario": "action"
+    },
+    "skills/assistente-successioni/references/uffici-italia-successioni.json": {
+     "sha256": "13e8fa14f67a2101bb0bcf294e8051668c332c9a5214ffd6a3a703c4503dabdf",
+     "byte": 1839894,
+     "proprietario": "action"
+    },
+    "skills/assistente-successioni/references/uffici-suc13.md": {
+     "sha256": "a0f2dc8197dace04414cec76b800a0b7f28303d9af6f9c856d36fff17fe2ec3d",
+     "byte": 85061,
+     "proprietario": "seme"
+    }
+   },
+   "stato": {
+    "ultimo_giro": "2026-11-16",
+    "esito": "ok",
+    "da_ricontrollare": []
+   }
+  },
   "dati": {
    "file": {
     "dati/tassi-soglia.json": {
@@ -1246,8 +1295,8 @@
      "proprietario": "action"
     },
     "wiki-studio/modelli/requisiti-per-tipo.json": {
-     "sha256": "dd7a7787d9ff2a7496281d142d3f743b8b9465faa907bd8680551a59627c486a",
-     "byte": 12577,
+     "sha256": "85096e060c4dff7cc7bf2b7ca6055a64f1956cb4c592f8c7bc7d05ffdf17a7a9",
+     "byte": 20536,
      "proprietario": "seme"
     }
    },
@@ -1274,25 +1323,6 @@
      "byte": 446,
      "proprietario": "action"
     }
-   }
-  },
-  "successioni": {
-   "file": {
-    "skills/assistente-successioni/references/changelog-normativo.md": {
-     "sha256": "3c0fc0ada2f2efce74e7ce6c965c64e7582b52e0b93b07cafd9a5b53b4d4320d",
-     "byte": 36162,
-     "proprietario": "action"
-    },
-    "skills/assistente-successioni/references/uffici-competenza-successioni.json": {
-     "sha256": "00815043a5740567847ff494e24f5762f5d04038f64439392187bd1e98e1c2dc",
-     "byte": 27244,
-     "proprietario": "action"
-    }
-   },
-   "stato": {
-    "ultimo_giro": "2026-11-16",
-    "esito": "ok",
-    "da_ricontrollare": []
    }
   }
  }

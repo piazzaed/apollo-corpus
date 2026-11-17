@@ -1,0 +1,15 @@
+{
+ "_meta": {
+  "descrizione": "Ultime specifiche SUC13, software di controllo e provvedimento pubblicati dall'AdE (sentinella delle successioni)",
+  "verificato_il": "2026-11-17"
+ },
+ "pacchetto": "SUC13_20250702",
+ "data_pacchetto": "2025-07-02",
+ "url_pacchetto": "https://www.agenziaentrate.gov.it/portale/documents/20143/245090/SUC13_20250702.zip/778786f8-c5b4-09d5-69f7-4eb7c183c331?t=1752568949619",
+ "software_controllo": {
+  "versione": "2.3.1",
+  "data": "2026-03-11"
+ },
+ "provvedimento": "2025-02-13",
+ "novita": []
+}

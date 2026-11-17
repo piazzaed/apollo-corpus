@@ -870,6 +870,11 @@ def recupera_norma(riferimento: str, data_evento: str = "", *, cache_dir=None,
         try:
             if slug:
                 loc = _cl.articolo(art, slug, vig)
+                if loc.get("presidio_data"):
+                    # v0.53: riforma a efficacia differita (TU imposte indirette dal 1/1/2027) o articolo abrogato alla data:
+                    # NON si va in rete, dove normattiva lo mostrerebbe «vigente» — si dice quale testo governa la data
+                    return {"verdetto": "VAI_LIVE", "riferimento": riferimento, "presidio_data": True,
+                            "motivo": loc.get("motivo"), "non_andare_live": True}
                 if loc.get("verdetto") == "OK":
                     esito_loc = {
                         "verdetto": "OK", "da_codice_locale": True, "atto_validato": True,

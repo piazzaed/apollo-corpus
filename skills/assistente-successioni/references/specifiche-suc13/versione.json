@@ -1,0 +1,14 @@
+{
+ "_meta": {
+  "descrizione": "Le specifiche e il software AdE su cui è tarato il generatore del .suc (v0.53). La sentinella delle successioni confronta queste versioni con quelle pubblicate dall'AdE (wiki-studio/sentinelle/successioni-specifiche.json): una versione pubblicata più nuova è un avviso nella Scheda e una issue; il generatore si ritara sul Mac con scripts/suc13_aggiorna.py.",
+  "pagine": {
+   "specifiche": "https://www.agenziaentrate.gov.it/portale/schede/dichiarazioni/dichiarazione-di-successione/specifiche-tecniche-dichiarazione-di-successione",
+   "software": "https://www.agenziaentrate.gov.it/portale/schede/dichiarazioni/dichiarazione-di-successione/sw-comp-dichiarazione-successioni-telematiche",
+   "normativa": "https://www.agenziaentrate.gov.it/portale/schede/dichiarazioni/dichiarazione-di-successione/np-successione"
+  }
+ },
+ "pacchetto": "SUC13_20250702",
+ "data_pacchetto": "2025-07-02",
+ "software_controllo": {"versione": "2.3.1", "data": "2026-03-11"},
+ "provvedimento": "2025-02-13"
+}
