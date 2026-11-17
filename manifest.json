@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-16T10:08Z",
+ "generato_il": "2026-11-17T14:57Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -3358,16 +3358,16 @@
  "lavoro": {
   "file": {
    "ccnl/accordi.json": {
-    "sha256": "74b68750823fb0e926f72760ad44a662ebfdb23b0aeaeb28f9b000de608ba5cd",
-    "byte": 1608847
+    "sha256": "4f90afce59dcb534ca3c22f6cff6167129bfb50a3c88fa40c967bf507368005f",
+    "byte": 1610144
    },
    "ccnl/indice.json": {
-    "sha256": "226f8868251bad780509abea23e511ca9b470d0b93160077254ba2bfbf629416",
-    "byte": 518810
+    "sha256": "7f82e05498cda2093a03c394767fee367835ee186bb91250051fac4f67596550",
+    "byte": 518645
    },
    "ccnl/novita.json": {
-    "sha256": "73d6fe0f4d117080caa87d96da50c99c0c88e9f73ad21096166189387d22a733",
-    "byte": 17456
+    "sha256": "de3d5fb87915212e4e9d1dad58aec21722d415aad3d171f26b69b58a2ba9dad9",
+    "byte": 18306
    },
    "dati/dati-lavoro.json": {
     "sha256": "45dff932a5e5ac109e5f59da1fccc886f39ae5ddce1d5c3403491494f11cb739",
@@ -3414,8 +3414,8 @@
     "byte": 13594
    },
    "memento/contributi-omessi.md": {
-    "sha256": "4352c71d73b5a10ed8fce354b7af82d5eebc424f7de36e78b224772ad6df67c7",
-    "byte": 11314
+    "sha256": "1d8bf8e50f3fdb4297c9c411556a6680ba73a223ba18197089e43cffb402b748",
+    "byte": 11513
    },
    "memento/controlli-distanza.md": {
     "sha256": "dcb163362ba0dd9a22460bcf6fa2ed951ff13a5f51d854d79990fced2e63d468",
@@ -3426,7 +3426,7 @@
     "byte": 7769
    },
    "memento/danno-differenziale.md": {
-    "sha256": "2be4efbcda0712755e7da82fe8a880d27c52ec1c59bee729a9aeec96ee749e6e",
+    "sha256": "877326c5f9949c8cf0ee45cff9d9dd878de5045e48084e791ae55952e46b93c9",
     "byte": 8617
    },
    "memento/decreto-ingiuntivo-lavoro.md": {
@@ -3478,11 +3478,11 @@
     "byte": 5268
    },
    "memento/indice.json": {
-    "sha256": "f7779aa880c54c1f0a480c89a55bcacf1ba7b606cf55d20f5126f1f95dbfc48d",
-    "byte": 96255
+    "sha256": "98332fc166c74eebaa4e72bc2e323a5add21112f3f7f78d79ec9d3c558fa023c",
+    "byte": 96469
    },
    "memento/infortunio-malattia-professionale.md": {
-    "sha256": "e9a5da0b0e81e5dd6e2375ff1c7c96d229bf25f28728712c78c7a751c1c7402b",
+    "sha256": "ee5ecf84a7056f13f76e9203bd87d4f1802d729e18616b08a35b367b1e6841b9",
     "byte": 13399
    },
    "memento/interposizione-illecita.md": {
@@ -3714,12 +3714,12 @@
     "byte": 886
    },
    "prassi/indice.json": {
-    "sha256": "c9c14f48d43760112f010cb968f8758472e1032f472da87352faf3d25f59bc7f",
-    "byte": 4472128
+    "sha256": "1172e34e4aa21ed472bad5a0c231800567a2e7fb00f5e0766dbf0b3a17eee5a3",
+    "byte": 4475098
    }
   },
   "descrizione": "stato del triage del memento",
-  "ultimo_triage": "2026-11-16"
+  "ultimo_triage": "2026-11-17"
  },
  "cassazione": {
   "file": {

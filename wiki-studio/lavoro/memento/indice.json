@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-11-16"
+  "aggiornato_il": "2026-11-17"
  },
  "schede": {
   "altri-congedi": {
@@ -566,7 +566,10 @@
     "minimale_retributivo_giornaliero",
     "massimale_contributivo_annuo"
    ],
-   "stato": "verificata",
+   "stato": "da_ricontrollare",
+   "motivi": [
+    "prassi nuova inps:circolare:2026:112: Domande di costituzione della rendita vitalizia di cui all’articolo 13 della legge n. 1338/1962 inoltrate dal personale a contratto degli uf"
+   ],
    "verificato_il": "2026-10-02"
   },
   "controlli-distanza": {
@@ -714,7 +717,7 @@
     "inail:circolare:2026:37"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-16"
+   "verificato_il": "2026-11-17"
   },
   "decreto-ingiuntivo-lavoro": {
    "titolo": "Decreto ingiuntivo per crediti di lavoro",
@@ -1358,7 +1361,7 @@
     "inail:circolare:2026:37"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-16"
+   "verificato_il": "2026-11-17"
   },
   "interposizione-illecita": {
    "titolo": "Interposizione illecita e appalto non genuino",

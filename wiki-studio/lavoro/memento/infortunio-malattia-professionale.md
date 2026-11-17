@@ -8,8 +8,8 @@ norme: ["dpr-1124-1965:2", "dpr-1124-1965:3", "dpr-1124-1965:10", "dpr-1124-1965
 prassi: ["inail:circolare:2023:44", "inail:circolare:2026:17", "inail:circolare:2024:7", "inail:circolare:2017:48", "inail:circolare:2026:35", "inail:circolare:2026:37"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-11-16"
-corpus_al: "2026-11-16T10:00Z"
+verificato_il: "2026-11-17"
+corpus_al: "2026-11-16T10:08Z"
 impronte: {"dpr-1124-1965:2": "37af8c3b164b", "dpr-1124-1965:3": "13b7a92c7a68", "dpr-1124-1965:10": "9a47084dd23c", "dpr-1124-1965:52": "66045b00692b", "dpr-1124-1965:53": "6e82f3a35b61", "dpr-1124-1965:56": "4592167ee949", "dpr-1124-1965:66": "c2938c2aefdc", "dpr-1124-1965:67": "e0979c9c9a11", "dpr-1124-1965:68": "a4e3bce56837", "dpr-1124-1965:73": "2a4343ecf2b0", "dpr-1124-1965:74": "641c3cb5cd32", "dpr-1124-1965:83": "9f76ceb74cbe", "dpr-1124-1965:101": "e825d2e170b8", "dpr-1124-1965:102": "da7f6b3c6876", "dpr-1124-1965:104": "032f72f09757", "dpr-1124-1965:111": "09c4dff641de", "dpr-1124-1965:112": "36333d1e75fb", "dpr-1124-1965:134": "0f841252086e", "dpr-1124-1965:135": "8cf1af4253cd", "dpr-1124-1965:137": "53752b44ae95", "dlgs-38-2000:10": "bb396deba851", "dlgs-38-2000:13": "4771a5f25fe1", "l-81-2017:23": "e5d82c49443f", "cc:2110": "a80628491e3d", "cc:2087": "45cfcb73a809", "dlgs-81-2008:41": "f358dee4cc43", "l-68-1999:4": "92f17425e9b5"}
 ---
 # Infortunio sul lavoro e malattia professionale — mappa
