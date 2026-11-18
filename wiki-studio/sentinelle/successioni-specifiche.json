@@ -1,7 +1,7 @@
 {
  "_meta": {
   "descrizione": "Ultime specifiche SUC13, software di controllo e provvedimento pubblicati dall'AdE (sentinella delle successioni)",
-  "verificato_il": "2026-11-17"
+  "verificato_il": "2026-11-18"
  },
  "pacchetto": "SUC13_20250702",
  "data_pacchetto": "2025-07-02",
@@ -11,5 +11,75 @@
   "data": "2026-03-11"
  },
  "provvedimento": "2025-02-13",
- "novita": []
+ "novita": [],
+ "moduli": {
+  "modello e istruzioni": {
+   "aggiornato": "2025-07-15",
+   "file": [
+    "Modello+Successione.pdf",
+    "Modulo+04+-+Dichiarazione+di+successione_Dichiarazione%2Bdi%2BSuccessione%2Bmodello%2B04.pdf",
+    "Succ_FASCICOLO_II_Nov_23.pdf",
+    "Succ_FASCICOLO_I_Nov_23.pdf",
+    "elenco-modifiche-istruzioni-fascicolo-1"
+   ]
+  },
+  "dichiarazioni sostitutive per voltura": {
+   "aggiornato": "",
+   "file": [
+    "Dichiarazione+sostitutiva+atto+di+notorieta++pdf_10T.PDF",
+    "Dichiarazione+sostitutiva+atto+di+notorieta++rtf_10T.RTF",
+    "Dichiarazione+sostitutiva+certificato+di+morte+++rtf_9+T.RTF",
+    "Dichiarazione+sostitutiva+certificato+di+morte++pdf_9+T.PDF",
+    "Elenco+atti+intermedi+non+registrati+in+catasto++pdf_11+T.PDF",
+    "Elenco+atti+intermedi+non+registrati+in+catasto++rtf_11+T.RTF"
+   ]
+  },
+  "modelli in uso negli uffici": {
+   "aggiornato": "",
+   "file": [
+    "iva-mwst24",
+    "mod001_slo",
+    "mod006",
+    "mod007_slo",
+    "mod010_slo",
+    "mod011_slo",
+    "mod014_slo",
+    "mod019_slo",
+    "mod1",
+    "mod1mb",
+    "mod2",
+    "mod209",
+    "mod237",
+    "mod325",
+    "mod363id",
+    "mod4_514_1",
+    "mod4_514bis",
+    "mod4_514ter",
+    "mod514_1",
+    "mod514bis",
+    "mod514ter",
+    "mod522",
+    "mod69",
+    "mod69_ted",
+    "mod87",
+    "mod9",
+    "mod_001_bilingue",
+    "mod_011_ted",
+    "mod_014_bilingue",
+    "mod_019_ted",
+    "mod_iva79",
+    "modg",
+    "modintra12",
+    "modintra13",
+    "modiva103",
+    "modiva104",
+    "modiva113",
+    "modiva24",
+    "modiva38ric",
+    "modrr",
+    "modulario_006_tedesco"
+   ]
+  }
+ },
+ "moduli_novita": []
 }
