@@ -1206,7 +1206,8 @@
     {"mese": "2026-06", "dal": "2026-06-01", "valore": 102.8, "base": "2025=100", "fonte": "ISTAT rivaluta, tav. 7"},
     {"mese": "2026-07", "dal": "2026-07-01", "valore": 103.1, "base": "2025=100", "fonte": "ISTAT rivaluta, tav. 7"},
     {"mese": "2026-08", "dal": "2026-08-01", "valore": 103.7, "base": "2025=100", "fonte": "ISTAT rivaluta, tav. 7"},
-    {"mese": "2026-09", "dal": "2026-09-01", "valore": 104.3, "base": "2025=100", "fonte": "https://www.istat.it/notizia/indice-dei-prezzi-per-le-rivalutazioni-monetarie/", "verificato_il": "2026-11-02"}
+    {"mese": "2026-09", "dal": "2026-09-01", "valore": 104.3, "base": "2025=100", "fonte": "https://www.istat.it/notizia/indice-dei-prezzi-per-le-rivalutazioni-monetarie/", "verificato_il": "2026-11-02"},
+    {"mese": "2026-10", "dal": "2026-10-01", "valore": 105.4, "base": "2025=100", "fonte": "https://www.istat.it/notizia/indice-dei-prezzi-per-le-rivalutazioni-monetarie/", "verificato_il": "2026-11-18"}
    ]
  },
  "bot12": {
