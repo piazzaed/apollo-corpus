@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "cad",
   "nome": "Codice dell'amministrazione digitale (D.Lgs. 82/2005)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-11-23",
   "formato": 2,
-  "consolidato_normattiva": "2026-04-21",
+  "consolidato_normattiva": "2026-11-06",
   "articoli": 123,
   "file": [
    "cad.md"
@@ -302,16 +302,20 @@
     "data": "2026-04-20",
     "evento": "rp59",
     "atto_modificante": "L. 20 aprile 2026, n. 50"
+   },
+   {
+    "data": "2026-10-22",
+    "evento": "rp60",
+    "atto_modificante": "D.Lgs. 1 ottobre 2026, n. 191"
    }
   ],
-  "ultima_versione": "2026-04-20",
+  "ultima_versione": "2026-10-22",
   "datazione": {
    "monoblocco": 123,
-   "api": 90,
-   "riportati": 33,
+   "api": 1,
+   "riportati": 122,
    "ignota": 0,
-   "stima_anteriore": 9,
-   "chiamate": 90,
+   "chiamate": 1,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -662,9 +666,9 @@
   "35": {
    "file": "cad.md",
    "rubrica": "Dispositivi sicuri e procedure per la generazione della firma qualificata",
-   "vigore_da": "2018-01-27",
+   "vigore_da": "2026-11-06",
    "datazione": "api",
-   "h": "1502c4284821"
+   "h": "91109ea89f92"
   },
   "36": {
    "file": "cad.md",

@@ -1,6 +1,6 @@
 # Codice civile — Libro I — Delle persone e della famiglia
 
-<!-- codice: cc · snapshot: 2026-11-09 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
+<!-- codice: cc · snapshot: 2026-11-23 · consolidato-normattiva: 2026-11-19 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1942-03-16;262:2) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -2572,11 +2572,16 @@ COMMA ABROGATO DALLA L. 4 MAGGIO 1983, N. 184.
 COMMA ABROGATO DALLA L. 4 MAGGIO 1983, N. 184.
 
 ### Art. 294 — Pluralita' di adottati o di adottanti
-<!-- vigore_da: 1967-07-07 -->
+<!-- vigore_da: 2026-11-19 -->
 
-((E' ammessa l'adozione di piu' persone, anche con atti successivi)).
+E' ammessa l'adozione di piu' persone, anche con atti successivi.
 
-Nessuno puo' essere adottato da piu' d'una persona, salvo che i due adottanti siano marito e moglie.
+Nessuno puo' essere adottato da piu' d'una persona, salvo che i due adottanti siano marito e moglie. ((355))
+
+---------------
+AGGIORNAMENTO (355)
+
+La Corte Costituzionale con sentenza 7 ottobre - 12 novembre 2026, n. 195 (in G.U. 1ª s.s. 18/11/2026, n. 46) ha dichiarato "l'illegittimita' costituzionale dell'art. 294, secondo comma, del codice civile, nella parte in cui non prevede che anche i componenti di un'unione civile possano adottare la medesima persona".
 
 ### Art. 295 — Adozione da parte del tutore
 <!-- vigore_da: 1942-04-19 -->

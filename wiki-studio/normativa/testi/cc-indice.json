@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "cc",
   "nome": "Codice civile",
-  "snapshot": "2026-11-09",
+  "snapshot": "2026-11-23",
   "formato": 2,
-  "consolidato_normattiva": "2026-10-31",
+  "consolidato_normattiva": "2026-11-19",
   "articoli": 3250,
   "file": [
    "cc-1.md",
@@ -1762,9 +1762,14 @@
     "data": "2026-10-23",
     "evento": "rp359",
     "atto_modificante": "D.L. 23 ottobre 2026, n. 193"
+   },
+   {
+    "data": "2026-11-18",
+    "evento": "rp360",
+    "atto_modificante": "atto modificante non indicato (rp360)"
    }
   ],
-  "ultima_versione": "2026-10-23"
+  "ultima_versione": "2026-11-18"
  },
  "articoli": {
   "1": {
@@ -3305,7 +3310,7 @@
   "294": {
    "file": "cc-1.md",
    "rubrica": "Pluralita' di adottati o di adottanti",
-   "vigore_da": "1967-07-07"
+   "vigore_da": "2026-11-19"
   },
   "295": {
    "file": "cc-1.md",

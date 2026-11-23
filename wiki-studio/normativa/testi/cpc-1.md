@@ -1,6 +1,6 @@
 # Codice di procedura civile — Libro I — Disposizioni generali
 
-<!-- codice: cpc · snapshot: 2026-09-28 · consolidato-normattiva: 2026-02-20 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1940-10-28;1443:1) -->
+<!-- codice: cpc · snapshot: 2026-11-23 · consolidato-normattiva: 2026-02-20 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1940-10-28;1443:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.

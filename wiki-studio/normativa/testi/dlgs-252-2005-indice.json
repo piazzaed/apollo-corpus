@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "dlgs-252-2005",
   "nome": "Forme pensionistiche complementari (D.Lgs. 252/2005)",
-  "snapshot": "2026-10-19",
+  "snapshot": "2026-11-23",
   "formato": 2,
-  "consolidato_normattiva": "2026-10-07",
-  "articoli": 54,
+  "consolidato_normattiva": "2026-10-30",
+  "articoli": 55,
   "file": [
    "dlgs-252-2005.md"
   ],
@@ -187,16 +187,20 @@
     "data": "2026-10-06",
     "evento": "rp34",
     "atto_modificante": "L. 5 ottobre 2026, n. 174"
+   },
+   {
+    "data": "2026-10-15",
+    "evento": "rp35",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 184"
    }
   ],
-  "ultima_versione": "2026-10-06",
+  "ultima_versione": "2026-10-15",
   "datazione": {
-   "monoblocco": 54,
-   "api": 3,
-   "riportati": 51,
+   "monoblocco": 55,
+   "api": 2,
+   "riportati": 53,
    "ignota": 0,
-   "stima_anteriore": 1,
-   "chiamate": 3,
+   "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -204,9 +208,9 @@
   "1": {
    "file": "dlgs-252-2005.md",
    "rubrica": "Ambito di applicazione e definizioni",
-   "vigore_da": "2019-02-01",
+   "vigore_da": "2026-10-30",
    "datazione": "api",
-   "h": "6c738efc388d"
+   "h": "d91b8f994331"
   },
   "2": {
    "file": "dlgs-252-2005.md",
@@ -512,6 +516,13 @@
    "vigore_da": "2012-08-23",
    "datazione": "api",
    "h": "45c4ce30758e"
+  },
+  "18-ter": {
+   "file": "dlgs-252-2005.md",
+   "rubrica": "Recepimento dell'articolo 14 della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, che modifica la direttiva 2016/2341/UE del Parlamento europeo e del Consiglio, del 14 dicembre 2016",
+   "vigore_da": "2026-10-30",
+   "datazione": "api",
+   "h": "ad6dfe164ff3"
   },
   "19": {
    "file": "dlgs-252-2005.md",

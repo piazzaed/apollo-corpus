@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dlgs-7-2016",
   "nome": "Abrogazione di reati e illeciti con sanzioni pecuniarie civili (D.Lgs. 7/2016)",
-  "snapshot": "2026-10-13",
+  "snapshot": "2026-11-23",
   "formato": 2,
-  "consolidato_normattiva": "2017-01-01",
+  "consolidato_normattiva": "2026-11-19",
   "articoli": 13,
   "file": [
    "dlgs-7-2016.md"
@@ -22,15 +22,21 @@
     "data": "2016-12-21",
     "evento": "rp1",
     "atto_modificante": "L. 11 dicembre 2016, n. 232"
+   },
+   {
+    "data": "2026-11-18",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
    }
   ],
-  "ultima_versione": "2016-12-21",
+  "ultima_versione": "2026-11-18",
   "datazione": {
    "monoblocco": 13,
-   "api": 13,
+   "api": 1,
+   "riportati": 12,
    "ignota": 0,
-   "stima_anteriore": 11,
-   "chiamate": 13,
+   "stima_anteriore": 1,
+   "chiamate": 1,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -45,9 +51,9 @@
   "2": {
    "file": "dlgs-7-2016.md",
    "rubrica": "Modifiche al codice penale",
-   "vigore_da": "2016-02-06",
+   "vigore_da": "2026-11-19",
    "datazione": "api",
-   "h": "58a164af2bd6"
+   "h": "ea902f1ba8e3"
   },
   "3": {
    "file": "dlgs-7-2016.md",

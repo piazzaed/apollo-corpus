@@ -1,6 +1,6 @@
 # Codice penale — Libro II — Dei delitti in particolare
 
-<!-- codice: cp · snapshot: 2026-11-16 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1930-10-19;1398:1) -->
+<!-- codice: cp · snapshot: 2026-11-23 · consolidato-normattiva: 2026-10-31 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1930-10-19;1398:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -7008,7 +7008,7 @@ Per i reati di cui, di cui ai commi precedenti, la sospensione condizionale dell
 
 Nei casi previsti dal primo comma , nonche' dal secondo comma, numero 1), limitatamente ai fatti commessi su cose esposte per necessita' o per consuetudine o per destinazione alla pubblica fede, ai sensi dell'articolo 625, primo comma, numero 7), il delitto e' punibile a querela della persona offesa. Si procede tuttavia d'ufficio se il fatto e' commesso in occasione del delitto previsto dall'articolo 331 ovvero se la persona offesa e' incapace, per eta' o per infermita'.
 
-(355)
+(404) (355)
 
 ------------
 AGGIORNAMENTO (7)
@@ -7042,6 +7042,10 @@ AGGIORNAMENTO (233)
 Il D.Lgs. 6 settembre 2011, n. 159 ha disposto:
 - (con l'art. 71, comma 1) che le pene stabilite per il delitto previsto dal presente articolo sono aumentate da un terzo alla meta' se il fatto e' commesso da persona sottoposta con provvedimento definitivo ad una misura di prevenzione personale durante il periodo previsto di applicazione e sino a tre anni dal momento in cui ne e' cessata l'esecuzione;
 - (con l'art. 71, comma 3) che alla pena e' aggiunta una misura di sicurezza detentiva.
+------------
+AGGIORNAMENTO (404)
+
+Successivamente la Corte Costituzionale con sentenza 5 ottobre - 12 novembre 2026, n. 196 (in G.U. 1ª s.s. 18/11/2026, n. 46) ha dichiarato "l'illegittimita' costituzionale dell'art. 2, comma 1, lettera l), del decreto legislativo 15 gennaio 2016, n. 7 (Disposizioni in materia di abrogazione di reati e introduzione di illeciti con sanzioni pecuniarie civili, a norma dell'articolo 2, comma 3, della legge 28 aprile 2014, n. 67), nella parte in cui, sostituendo il primo comma dell'art. 635 del codice penale, fa riferimento alle manifestazioni che si svolgono in luogo pubblico o aperto al pubblico".
 ------------
 AGGIORNAMENTO (355)
 

@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dlgs-286-1998",
   "nome": "Testo unico immigrazione (D.Lgs. 286/1998)",
-  "snapshot": "2026-09-23",
+  "snapshot": "2026-11-23",
   "formato": 2,
-  "consolidato_normattiva": "2026-07-16",
+  "consolidato_normattiva": "2026-10-31",
   "articoli": 79,
   "file": [
    "dlgs-286-1998.md"
@@ -627,17 +627,21 @@
     "data": "2026-07-01",
     "evento": "rp126",
     "atto_modificante": "D.Lgs. 12 giugno 2026, n. 115"
+   },
+   {
+    "data": "2026-10-16",
+    "evento": "rp127",
+    "atto_modificante": "D.Lgs. 25 settembre 2026, n. 186"
    }
   ],
-  "ultima_versione": "2026-07-01",
+  "ultima_versione": "2026-10-16",
   "datazione": {
    "monoblocco": 79,
-   "api": 75,
-   "riportati": 3,
+   "api": 1,
+   "riportati": 77,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 26,
-   "chiamate": 76,
+   "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -785,9 +789,9 @@
   "12": {
    "file": "dlgs-286-1998.md",
    "rubrica": "Disposizioni contro le immigrazioni clandestine (Legge 6 marzo 1998, n. 40, art. 10)",
-   "vigore_da": "2026-06-12",
+   "vigore_da": "2026-10-31",
    "datazione": "api",
-   "h": "9468f44ec00a"
+   "h": "6523becd193c"
   },
   "12-bis": {
    "file": "dlgs-286-1998.md",

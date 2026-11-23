@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "cpp",
   "nome": "Codice di procedura penale (D.P.R. 447/1988)",
-  "snapshot": "2026-11-02",
+  "snapshot": "2026-11-23",
   "formato": 2,
-  "consolidato_normattiva": "2026-10-31",
+  "consolidato_normattiva": "2026-11-19",
   "articoli": 908,
   "file": [
    "cpp-1.md",
@@ -1682,17 +1682,22 @@
     "data": "2026-10-22",
     "evento": "rp352",
     "atto_modificante": "D.L. 22 ottobre 2026, n. 190"
+   },
+   {
+    "data": "2026-11-18",
+    "evento": "rp353",
+    "atto_modificante": "atto modificante non indicato (rp353)"
    }
   ],
-  "ultima_versione": "2026-10-22",
+  "ultima_versione": "2026-11-18",
   "datazione": {
    "monoblocco": 908,
    "api": 0,
-   "riportati": 902,
-   "ignota": 6,
-   "falliti": 6,
-   "chiamate": 6,
-   "assenti": 6,
+   "riportati": 901,
+   "ignota": 7,
+   "falliti": 7,
+   "chiamate": 7,
+   "assenti": 7,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },
@@ -4887,7 +4892,7 @@
    "rubrica": "Arresto in flagranza differita",
    "vigore_da": "",
    "datazione": "ignota",
-   "h": "be5984c0b8e2"
+   "h": "0397f29a897c"
   },
   "383": {
    "file": "cpp-5.md",
@@ -7202,9 +7207,9 @@
   "656": {
    "file": "cpp-10.md",
    "rubrica": "Esecuzione delle pene detentive",
-   "vigore_da": "2026-08-21",
-   "datazione": "api",
-   "h": "d68a8759fee2"
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "7f5356926a89"
   },
   "657": {
    "file": "cpp-10.md",

@@ -1,6 +1,6 @@
 # Codice di procedura civile — Libro II — Del processo di cognizione
 
-<!-- codice: cpc · snapshot: 2026-09-28 · consolidato-normattiva: 2026-02-20 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1940-10-28;1443:1) -->
+<!-- codice: cpc · snapshot: 2026-11-23 · consolidato-normattiva: 2026-02-20 · fonte: normattiva caricaAKN (urn:nir:stato:regio.decreto:1940-10-28;1443:1) -->
 
 > **File di DATI, generato da macchina** (`scripts/codice_locale.py`): testo
 > ufficiale normattiva, letterale, con la data di vigenza di ciascun articolo.
@@ -98,7 +98,7 @@ La citazione e' nulla se e' omesso o risulta assolutamente incerto alcuno dei re
 
 Se il convenuto non si costituisce in giudizio, il giudice, rilevata la nullita' della citazione ai sensi del primo comma, ne dispone d'ufficio la rinnovazione entro un termine perentorio. Questa sana i vizi e gli effetti sostanziali e processuali della domanda si producono sin dal momento della prima notificazione. Se la rinnovazione non viene eseguita, il giudice ordina la cancellazione della causa dal ruolo e il processo si estingue a norma dell'articolo 307, comma terzo.
 
-La costituzione del conventuo sana i vizi della citazione e restano salvi gli effetti sostanziali e processuali di cui al secondo comma; tuttavia, se il convenuto deduce l'inosservanza dei termini a comparire o la mancanza dell'avvertimento previsto dal numero 7) dell'articolo 163, il giudice fissa una nuova udienza nel rispetto dei termini.
+La costituzione del convenuto sana i vizi della citazione e restano salvi gli effetti sostanziali e processuali di cui al secondo comma; tuttavia, se il convenuto deduce l'inosservanza dei termini a comparire o la mancanza dell'avvertimento previsto dal numero 7) dell'articolo 163, il giudice fissa una nuova udienza nel rispetto dei termini.
 
 La citazione e' altresi' nulla se e' omesso o risulta assolutamente incerto il requisito stabilito nel numero 3) dell'articolo 163 ovvero se manca l'esposizione dei fatti di cui al numero 4) dello stesso articolo.
 

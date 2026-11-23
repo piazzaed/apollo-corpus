@@ -2,9 +2,9 @@
  "_meta": {
   "codice": "dpr-12-2025",
   "nome": "Tabella unica nazionale delle macropermanenti 10-100 punti (D.P.R. 12/2025, art. 138 CAP)",
-  "snapshot": "2026-09-25",
+  "snapshot": "2026-11-23",
   "formato": 2,
-  "consolidato_normattiva": "2026-01-11",
+  "consolidato_normattiva": "2026-10-24",
   "articoli": 5,
   "file": [
    "dpr-12-2025.md"
@@ -22,15 +22,19 @@
     "data": "2025-12-27",
     "evento": "rp1",
     "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "2026-10-09",
+    "evento": "rp2",
+    "atto_modificante": "atto modificante non indicato (rp2)"
    }
   ],
-  "ultima_versione": "2025-12-27",
+  "ultima_versione": "2026-10-09",
   "datazione": {
    "monoblocco": 5,
-   "api": 5,
+   "api": 0,
+   "riportati": 5,
    "ignota": 0,
-   "stima_anteriore": 5,
-   "chiamate": 5,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
  },

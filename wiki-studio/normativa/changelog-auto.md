@@ -1,11 +1,115 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-11-16 · 630 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-11-23 · 641 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Bilancio di previsione dello Stato per il 2020 (L. 160/2019) — contiene la disciplina dei monopattini elettrici (art. 1, co. 75 ss.) (`l-160-2019`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 1 | modificato | — → — | L. 29 ottobre 2026, n. 206; atto modificante non indicato (rp118) | 2026-11-16 → 2026-11-23 |
+| Art. 1 | note | — → — | non indicato nell’AKN | 2026-10-19 → 2026-11-16 |
+| Art. 1 | modificato | — → — | non indicato nell’AKN | 2026-09-25 → 2026-10-19 |
+
+## Abrogazione di reati e illeciti con sanzioni pecuniarie civili (D.Lgs. 7/2016) (`dlgs-7-2016`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 2 — Modifiche al codice penale | modificato | 2016-02-06 → 2026-11-19 | atto modificante non indicato (rp2) | 2026-10-13 → 2026-11-23 |
+
+## Testo unico immigrazione (D.Lgs. 286/1998) (`dlgs-286-1998`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 12 — Disposizioni contro le immigrazioni clandestine (Legge 6 marzo 1998, n. 40, art. 10) | modificato | 2026-06-12 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186 | 2026-09-23 → 2026-11-23 |
+
+## Forme pensionistiche complementari (D.Lgs. 252/2005) (`dlgs-252-2005`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 18-ter — Recepimento dell'articolo 14 della direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, che modifica la direttiva 2016/2341/UE del Parlamento europeo e del Consiglio, del 14 dicembre 2016 | aggiunto | — → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184 | 2026-10-19 → 2026-11-23 |
+| Art. 1 — Ambito di applicazione e definizioni | modificato | 2019-02-01 → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184 | 2026-10-19 → 2026-11-23 |
+| Art. 18 — Vigilanza sulle forme pensionistiche complementari | modificato | 2026-04-21 → 2026-10-07 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
+| Art. 17 — Regime tributario delle forme pensionistiche complementari | modificato | 2017-01-01 → 2017-01-01 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
+| Art. 11 — Prestazioni | note | 2026-06-28 → 2026-06-28 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
+
+## Codice di procedura penale (D.P.R. 447/1988) (`cpp`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 656 — Esecuzione delle pene detentive | note | 2026-08-21 → — | atto modificante non indicato (rp353) | 2026-11-02 → 2026-11-23 |
+| Art. 382-bis — Arresto in flagranza differita | modificato | — → — | atto modificante non indicato (rp353) | 2026-11-02 → 2026-11-23 |
+| Art. 536-bis — Disposizioni in materia di confisca per equivalente | aggiunto | — → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
+| Art. 430 — Attivita' integrativa di indagine del pubblico ministero e del difensore | modificato | 2001-01-18 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
+| Art. 382-bis — Arresto in flagranza differita | modificato | 2026-02-25 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
+| Art. 371-bis — Attivita' di coordinamento del procuratore nazionale antimafia e antiterrorismo | modificato | 2026-09-30 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
+
+## Codice di procedura civile (`cpc`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 164 — Nullita' della citazione | modificato | 2023-01-01 → 2023-01-01 | non indicato nell’AKN | 2026-09-28 → 2026-11-23 |
+| Art. 769 — Istanza | note | 2026-06-12 → 2024-11-26 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 765 — Ufficiale procedente | modificato | 2026-06-12 → 2025-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 764 — Opposizione | note | 2026-06-12 → 2025-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 763 — Provvedimento di rimozione | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 543 — Forma del pignoramento | modificato | 2026-06-12 → 2024-11-26 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 521-bis — Pignoramento e custodia di autoveicoli, motoveicoli e rimorchi | note | 2026-06-12 → 2024-11-26 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 520 — Custodia dei mobili pignorati | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 519 — Tempo del pignoramento | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 518 — Forma del pignoramento | note | 2026-06-12 → 2024-11-26 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 513 — Ricerca delle cose da pignorare | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 113 — Pronuncia secondo diritto | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 15-bis — Esecuzione forzata | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+| Art. 7 — Competenza del giudice di pace | modificato | 2026-06-12 → 2025-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
+
+## Codice penale (`cp`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 635 | note | 2025-04-12 → 2025-04-12 | non indicato nell’AKN | 2026-11-16 → 2026-11-23 |
+| Art. 648-quater — Confisca | modificato | 2015-01-01 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 635.1 — Danneggiamento commesso da un gruppo organizzato | aggiunto | — → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 600-septies — Confisca | modificato | 2012-10-23 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 582 — Lesione personale | modificato | 2026-04-25 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 420-bis — Violenza organizzata nelle manifestazioni pubbliche | aggiunto | — → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 420 — Attentato a impianti di pubblica utilita' | modificato | 2008-04-05 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 419 — Devastazione e saccheggio | modificato | 2019-06-15 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 416-bis | modificato | 2015-06-14 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 416 — Associazione per delinquere | modificato | 2017-01-07 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 240-quater — Confisca dei beni nei confronti dei terzi in casi particolari | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 240-ter — Confisca per equivalente dei beni strumentali in casi particolari | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 240-bis — Confisca in casi particolari | modificato | 2026-06-02 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 98 — Minore degli anni diciotto | modificato | 2014-02-07 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
+| Art. 437-bis — Omessa adozione di misure di sicurezza nei sistemi di intelligenza artificiale e alterazione illecita dei sistemi | aggiunto | — → 2026-09-30 | D.Lgs. 9 settembre 2026, n. 160 | 2026-09-23 → 2026-10-19 |
+
+## Codice civile (`cc`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 294 — Pluralita' di adottati o di adottanti | note | 1967-07-07 → 2026-11-19 | atto modificante non indicato (rp360) | 2026-11-09 → 2026-11-23 |
+| Art. 2635-quater — Disposizioni patrimoniali | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
+| Art. 1677-bis — Prestazione di piu' servizi riguardanti il trasferimento di cose | modificato | 2022-06-30 → 2026-10-24 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
+| Art. 299 | modificato | 2023-07-06 → 2023-07-06 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
+| Art. 2752 | note | 2011-12-28 → 2026-08-12 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 1841 — Apertura forzata della cassetta | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 1515 — Esecuzione coattiva per inadempimento del compratore | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 1514 — Deposito della cosa venduta | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 1211 — Cose deperibili o di dispendiosa custodia | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 736 — Consegna dei documenti | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 621 — Pubblicazione del testamento segreto | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 620 — Pubblicazione del testamento olografo | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+| Art. 485 — Chiamato all'eredita' che e' nel possesso di beni | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
+
+## Codice dell'amministrazione digitale (D.Lgs. 82/2005) (`cad`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 35 — Dispositivi sicuri e procedure per la generazione della firma qualificata | modificato | 2018-01-27 → 2026-11-06 | D.Lgs. 1 ottobre 2026, n. 191 | 2026-09-23 → 2026-11-23 |
 
 ## Testo unico delle disposizioni in materia di intermediazione finanziaria (D.Lgs. 58/1998) (`tuf`)
 
@@ -22,13 +126,6 @@
 | Art. 4-septies.3 — Disposizioni di recepimento degli articoli 2, 5, 6, 12 e 13 della direttiva (UE) 2023/2864, del Parlamento europeo e del Consiglio, del 13 dicembre 2023, in materia di accessibilita' delle informazioni tramite il punto di accesso unico europeo che modificano, rispettivamente, le direttive 2004/25/CE, 2007/36/CE, 2009/65/CE, 2014/65/UE e 2016/97/UE - | aggiunto | — → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
 | Art. 1 — Definizioni | modificato | 2026-05-22 → 2026-10-30 | D.Lgs. 25 settembre 2026, n. 184; D.Lgs. 7 ottobre 2026, n. 189 | 2026-09-23 → 2026-11-16 |
 
-## Bilancio di previsione dello Stato per il 2020 (L. 160/2019) — contiene la disciplina dei monopattini elettrici (art. 1, co. 75 ss.) (`l-160-2019`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 1 | note | — → — | non indicato nell’AKN | 2026-10-19 → 2026-11-16 |
-| Art. 1 | modificato | — → — | non indicato nell’AKN | 2026-09-25 → 2026-10-19 |
-
 ## Testo unico spese di giustizia (D.P.R. 115/2002) (`dpr-115-2002`)
 
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
@@ -43,25 +140,6 @@
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
 |---|---|---|---|---|
 | Art. 144-bis — Revenge porn | note | 2021-12-08 → 2021-12-08 | non indicato nell’AKN | 2026-09-23 → 2026-11-16 |
-
-## Codice penale (`cp`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 648-quater — Confisca | modificato | 2015-01-01 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 635.1 — Danneggiamento commesso da un gruppo organizzato | aggiunto | — → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 600-septies — Confisca | modificato | 2012-10-23 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 582 — Lesione personale | modificato | 2026-04-25 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 420-bis — Violenza organizzata nelle manifestazioni pubbliche | aggiunto | — → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 420 — Attentato a impianti di pubblica utilita' | modificato | 2008-04-05 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 419 — Devastazione e saccheggio | modificato | 2019-06-15 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 416-bis | modificato | 2015-06-14 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 416 — Associazione per delinquere | modificato | 2017-01-07 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 240-quater — Confisca dei beni nei confronti dei terzi in casi particolari | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 240-ter — Confisca per equivalente dei beni strumentali in casi particolari | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 240-bis — Confisca in casi particolari | modificato | 2026-06-02 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 98 — Minore degli anni diciotto | modificato | 2014-02-07 → 2026-10-23 | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-19 → 2026-11-16 |
-| Art. 437-bis — Omessa adozione di misure di sicurezza nei sistemi di intelligenza artificiale e alterazione illecita dei sistemi | aggiunto | — → 2026-09-30 | D.Lgs. 9 settembre 2026, n. 160 | 2026-09-23 → 2026-10-19 |
 
 ## Norme sui licenziamenti individuali (L. 604/1966) (`l-604-1966`)
 
@@ -121,23 +199,6 @@
 |---|---|---|---|---|
 | Art. 9 — Divieto di pubblicita' giochi e scommesse | note | 2020-01-01 → 2026-10-22 | atto modificante non indicato (rp12) | 2026-10-02 → 2026-11-09 |
 
-## Codice civile (`cc`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 2635-quater — Disposizioni patrimoniali | aggiunto | — → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
-| Art. 1677-bis — Prestazione di piu' servizi riguardanti il trasferimento di cose | modificato | 2022-06-30 → 2026-10-24 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
-| Art. 299 | modificato | 2023-07-06 → 2023-07-06 | D.Lgs. 25 settembre 2026, n. 186; D.L. 23 ottobre 2026, n. 193 | 2026-10-12 → 2026-11-09 |
-| Art. 2752 | note | 2011-12-28 → 2026-08-12 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 1841 — Apertura forzata della cassetta | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 1515 — Esecuzione coattiva per inadempimento del compratore | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 1514 — Deposito della cosa venduta | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 1211 — Cose deperibili o di dispendiosa custodia | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 736 — Consegna dei documenti | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 621 — Pubblicazione del testamento segreto | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 620 — Pubblicazione del testamento olografo | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-| Art. 485 — Chiamato all'eredita' che e' nel possesso di beni | note | 2026-06-12 → 2021-10-31 | D.Lgs. 7 agosto 2026, n. 147 | 2026-09-23 → 2026-10-12 |
-
 ## Testo unico imposta sulle successioni e donazioni (D.Lgs. 346/1990) (`tus`)
 
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
@@ -183,15 +244,6 @@
 | Art. 27 — Provvedimento unico in materia ambientale | modificato | 2024-12-17 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
 | Art. 25 — Valutazione degli impatti ambientali e provvedimento di VIA | modificato | 2026-04-19 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
 | Art. 8 — Commissione tecnica di verifica dell'impatto ambientale - VIA e VAS | modificato | 2026-04-21 → 2026-10-09 | D.L. 8 ottobre 2026, n. 177; D.Lgs. 25 settembre 2026, n. 186 | 2026-10-19 → 2026-11-02 |
-
-## Codice di procedura penale (D.P.R. 447/1988) (`cpp`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 536-bis — Disposizioni in materia di confisca per equivalente | aggiunto | — → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
-| Art. 430 — Attivita' integrativa di indagine del pubblico ministero e del difensore | modificato | 2001-01-18 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
-| Art. 382-bis — Arresto in flagranza differita | modificato | 2026-02-25 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
-| Art. 371-bis — Attivita' di coordinamento del procuratore nazionale antimafia e antiterrorismo | modificato | 2026-09-30 → — | D.Lgs. 25 settembre 2026, n. 186; D.L. 22 ottobre 2026, n. 190 | 2026-10-13 → 2026-11-02 |
 
 ## Codice del consumo (D.Lgs. 206/2005) (`cod-consumo`)
 
@@ -741,14 +793,6 @@
 |---|---|---|---|---|
 | Art. 5 — Altre normative applicabili al socio lavoratore | datazione | — → 2003-03-13 | non indicato nell’AKN | 2026-10-02 → 2026-10-19 |
 
-## Forme pensionistiche complementari (D.Lgs. 252/2005) (`dlgs-252-2005`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 18 — Vigilanza sulle forme pensionistiche complementari | modificato | 2026-04-21 → 2026-10-07 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
-| Art. 17 — Regime tributario delle forme pensionistiche complementari | modificato | 2017-01-01 → 2017-01-01 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
-| Art. 11 — Prestazioni | note | 2026-06-28 → 2026-06-28 | D.Lgs. 19 giugno 2026, n. 117; D.L. 7 agosto 2026, n. 144; L. 5 ottobre 2026, n. 174 | 2026-10-02 → 2026-10-19 |
-
 ## D.L. 262/2006 (art. 2 c. 47-53: reintroduzione dell'imposta di successione) (`dl-262-2006`)
 
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
@@ -789,24 +833,6 @@
 | articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
 |---|---|---|---|---|
 | Art. 15 — Gruppi per l'inclusione scolastica | modificato | 2019-09-12 → 2026-10-01 | D.L. 30 settembre 2026, n. 170 | 2026-09-23 → 2026-10-02 |
-
-## Codice di procedura civile (`cpc`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 769 — Istanza | note | 2026-06-12 → 2024-11-26 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 765 — Ufficiale procedente | modificato | 2026-06-12 → 2025-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 764 — Opposizione | note | 2026-06-12 → 2025-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 763 — Provvedimento di rimozione | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 543 — Forma del pignoramento | modificato | 2026-06-12 → 2024-11-26 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 521-bis — Pignoramento e custodia di autoveicoli, motoveicoli e rimorchi | note | 2026-06-12 → 2024-11-26 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 520 — Custodia dei mobili pignorati | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 519 — Tempo del pignoramento | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 518 — Forma del pignoramento | note | 2026-06-12 → 2024-11-26 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 513 — Ricerca delle cose da pignorare | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 113 — Pronuncia secondo diritto | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 15-bis — Esecuzione forzata | note | 2026-06-12 → 2021-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
-| Art. 7 — Competenza del giudice di pace | modificato | 2026-06-12 → 2025-10-31 | non indicato nell’AKN | 2026-09-23 → 2026-09-28 |
 
 ## Equo canone — locazioni di immobili urbani (L. 392/1978) (`l-392-1978`)
 
