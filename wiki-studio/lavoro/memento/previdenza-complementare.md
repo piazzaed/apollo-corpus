@@ -7,7 +7,8 @@ parole_chiave: ["previdenza complementare", "fondi pensione", "adesione automati
 norme: ["dlgs-252-2005:1", "dlgs-252-2005:8", "dlgs-252-2005:11", "dlgs-252-2005:13-quater", "dlgs-252-2005:14", "dlgs-252-2005:16", "dlgs-252-2005:19-sexies", "dl-62-2026:16-ter", "dlgs-80-1992:5", "cc:2120"]
 prassi: ["inps:messaggio:2026:2325", "inps:messaggio:2026:3021", "inps:circolare:2026:12", "inl:nota:2020:1436", "inps:messaggio:2016:2084", "inps:messaggio:2024:4429"]
 numeri: []
-stato: "verificata"
+stato: "da_ricontrollare"
+motivi: ["norma dlgs-252-2005:1: testo cambiato (triage del 2026-11-23)"]
 verificato_il: "2026-10-02"
 corpus_al: "2026-10-02T20:04Z"
 impronte: {"dlgs-252-2005:1": "e2d28d1e2e4b", "dlgs-252-2005:8": "f08c659165dd", "dlgs-252-2005:11": "1a6e2e84fe61", "dlgs-252-2005:13-quater": "4ad057c9315e", "dlgs-252-2005:14": "b7489c3171dc", "dlgs-252-2005:16": "ef08d68cd7f7", "dlgs-252-2005:19-sexies": "f73452eef5d8", "dl-62-2026:16-ter": "d7d292db059c", "dlgs-80-1992:5": "ffa3579b7ecd", "cc:2120": "36ad7357bea7"}
