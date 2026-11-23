@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-18T12:15Z",
+ "generato_il": "2026-11-23T11:04Z",
  "versione_sentinelle": 2,
  "aree": {
   "successioni": {
@@ -60,7 +60,7 @@
      "proprietario": "action"
     },
     "dati/tassi.json": {
-     "sha256": "5f485d9192e0eddf478443f224b3cfe09a4f9fca63a191a259cd38d46f69ed00",
+     "sha256": "58acfed48bf09bea8d420cec7893fff01ee9ab7e6256e8401b967103351c27cd",
      "byte": 315200,
      "proprietario": "action"
     },
@@ -86,7 +86,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-11-18",
+    "ultimo_giro": "2026-11-23",
     "esito": "ok",
     "da_ricontrollare": []
    }
@@ -1454,7 +1454,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "cfdff62feaa1fcd54789b635d109a73fdc05dded1da9b085c2644b3b20bc3751",
+     "sha256": "f0d7893f091657ddf517d4288cc612a1543ee36ac45dc585aed4f5cccc7b50cd",
      "byte": 801,
      "proprietario": "action"
     },
