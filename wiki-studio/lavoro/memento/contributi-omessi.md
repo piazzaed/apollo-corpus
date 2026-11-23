@@ -4,14 +4,13 @@ titolo: "Contributi omessi e risarcimento"
 area: "previdenza"
 istituti: ["obbligo contributivo del datore", "automaticità delle prestazioni", "denuncia del lavoratore all'INPS", "azione per la regolarizzazione contributiva", "rendita vitalizia per contributi prescritti", "risarcimento del danno da omissione contributiva", "omesso versamento delle ritenute", "contributi alla previdenza complementare"]
 parole_chiave: ["omissione contributiva", "contributi omessi", "rendita vitalizia", "denuncia del lavoratore", "omesso versamento", "estratto conto"]
-norme: ["cc:2114", "cc:2115", "cc:2116", "l-335-1995:3", "l-1338-1962:13", "l-203-2024:30", "dl-338-1989:1", "dl-463-1983:7", "dl-463-1983:2", "cpc:442", "cpc:443", "dlgs-124-2004:11", "dlgs-124-2004:12", "cc:2113", "cc:2946", "cc:2935"]
-prassi: ["inps:circolare:2012:31", "inps:circolare:2025:141", "inps:circolare:2025:48", "inps:circolare:2019:78", "inps:circolare:2015:94", "inps:circolare:2022:32", "inl:nota:2020:1436"]
+norme: ["cc:2114", "cc:2115", "cc:2116", "l-335-1995:3", "l-1338-1962:13", "l-203-2024:30", "dl-338-1989:1", "dl-463-1983:7", "dl-463-1983:2", "cpc:442", "cpc:443", "dlgs-124-2004:11", "dlgs-124-2004:12", "cc:2113", "cc:2946", "cc:2935", "l-203-2024:24"]
+prassi: ["inps:circolare:2012:31", "inps:circolare:2025:141", "inps:circolare:2025:48", "inps:circolare:2019:78", "inps:circolare:2015:94", "inps:circolare:2022:32", "inl:nota:2020:1436", "inps:circolare:2026:112"]
 numeri: ["minimale_retributivo_giornaliero", "massimale_contributivo_annuo"]
-stato: "da_ricontrollare"
-motivi: ["prassi nuova inps:circolare:2026:112: Domande di costituzione della rendita vitalizia di cui all’articolo 13 della legge n. 1338/1962 inoltrate dal personale a contratto degli uf"]
-verificato_il: "2026-10-02"
-corpus_al: "2026-10-02T20:04Z"
-impronte: {"cc:2114": "328479ba2ef2", "cc:2115": "fb5656424aa4", "cc:2116": "5efd50331f7b", "l-335-1995:3": "8b17222b970a", "l-1338-1962:13": "0b19310ac4c3", "l-203-2024:30": "4c5c34383ac4", "dl-338-1989:1": "a79a20c4cc66", "dl-463-1983:7": "515afe3a24f6", "dl-463-1983:2": "a72df28bd6e5", "cpc:442": "de83a99a6dbd", "cpc:443": "69f20f5c5301", "dlgs-124-2004:11": "b6c36c2db757", "dlgs-124-2004:12": "c30c902ae95a", "cc:2113": "5151b805b4dc", "cc:2946": "6541ac691e8b", "cc:2935": "10e46ea142dc"}
+stato: "verificata"
+verificato_il: "2026-11-23"
+corpus_al: "2026-11-23T10:58Z"
+impronte: {"cc:2114": "328479ba2ef2", "cc:2115": "fb5656424aa4", "cc:2116": "5efd50331f7b", "l-335-1995:3": "8b17222b970a", "l-1338-1962:13": "0b19310ac4c3", "l-203-2024:30": "4c5c34383ac4", "dl-338-1989:1": "a79a20c4cc66", "dl-463-1983:7": "515afe3a24f6", "dl-463-1983:2": "a72df28bd6e5", "cpc:442": "de83a99a6dbd", "cpc:443": "69f20f5c5301", "dlgs-124-2004:11": "b6c36c2db757", "dlgs-124-2004:12": "c30c902ae95a", "cc:2113": "5151b805b4dc", "cc:2946": "6541ac691e8b", "cc:2935": "10e46ea142dc", "l-203-2024:24": "c060a0cf2f10"}
 ---
 # Contributi omessi e risarcimento — mappa
 
@@ -34,6 +33,9 @@ impronte: {"cc:2114": "328479ba2ef2", "cc:2115": "fb5656424aa4", "cc:2116": "5ef
   dell'esistenza del rapporto.
 - Prescritte quelle facoltà, il lavoratore può chiedere la rendita con onere interamente a suo carico, con lo stesso
   onere della prova (art. 13 L. 1338/1962, settimo comma, aggiunto dall'art. 30 L. 203/2024).
+- Personale a contratto degli uffici all'estero del Ministero degli affari esteri, periodi di paga fino al
+  31 dicembre 2004 con contributi prescritti: onere della rendita chiesta dal lavoratore coperto da risorse pubbliche
+  nei limiti degli stanziamenti annuali, con documenti di data certa esibiti dal Ministero (art. 24 L. 203/2024, comma 2-bis).
 - Contributi dovuti su una retribuzione non inferiore a quella di leggi, regolamenti e contratti collettivi stipulati
   dai sindacati più rappresentativi, o di accordi e contratti individuali se più alta (art. 1 D.L. 338/1989, primo
   comma; con più contratti per la stessa categoria vale quello dei sindacati comparativamente più rappresentativi,
@@ -61,6 +63,10 @@ impronte: {"cc:2114": "328479ba2ef2", "cc:2115": "fb5656424aa4", "cc:2116": "5ef
   la facoltà del lavoratore a proprio carico, senza prescrizione); per la domanda sostitutiva prima della
   prescrizione del datore serve l'intimazione scritta al datore e la sua risposta (circolare INPS n. 141/2025, che
   sostituisce la circolare INPS n. 48/2025 per le domande e i ricorsi non ancora definiti).
+- Personale a contratto degli uffici all'estero del Ministero degli affari esteri: domanda di rendita del lavoratore
+  presentata tramite il Ministero con delega espressa; prova di esistenza e durata del rapporto con documenti di data
+  certa, periodi lavorati attestati dal Ministero; onere calcolato come nella circolare INPS n. 78/2019 (circolare
+  INPS n. 112/2026).
 - Prova per la rendita: documenti di data certa sull'esistenza del rapporto; durata, continuità e qualifica anche con
   altri mezzi, testimonianze con cautele; la retribuzione non si prova con testimoni o autocertificazioni, altrimenti
   si usa quella convenzionale (circolare INPS n. 78/2019).

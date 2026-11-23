@@ -5,11 +5,11 @@ area: "tipologie"
 istituti: ["distacco", "interesse del distaccante", "temporaneità del distacco", "distacco illecito", "codatorialità nelle reti d'impresa", "distacco transnazionale"]
 parole_chiave: ["distacco", "distaccati", "codatorialità", "contratto di rete"]
 norme: ["dlgs-276-2003:30", "dlgs-276-2003:29", "dlgs-276-2003:18", "cc:2103", "dlgs-81-2008:3", "dlgs-104-2022:4", "l-183-2010:32", "l-604-1966:6", "cpc:414", "dlgs-152-1997:1", "dlgs-152-1997:2", "dl-62-2026:16-quater", "dlgs-136-2016:3", "dlgs-136-2016:4", "dlgs-136-2016:4-bis", "dlgs-136-2016:5", "dlgs-136-2016:10"]
-prassi: ["inl:circolare:2018:7"]
+prassi: ["inl:circolare:2018:7", "inps:messaggio:2026:3768"]
 numeri: []
 stato: "verificata"
-verificato_il: "2026-11-16"
-corpus_al: "2026-11-16T10:00Z"
+verificato_il: "2026-11-23"
+corpus_al: "2026-11-23T10:58Z"
 impronte: {"dlgs-276-2003:30": "1966ac7a9794", "dlgs-276-2003:29": "133dfc2d4199", "dlgs-276-2003:18": "84899f13a59e", "cc:2103": "446608f284fd", "dlgs-81-2008:3": "8b702f787fb8", "dlgs-104-2022:4": "4daf8f515ce7", "l-183-2010:32": "d6ed3efcd9aa", "l-604-1966:6": "c33ff551d5f6", "cpc:414": "94c250f3a949", "dlgs-152-1997:1": "494387466111", "dlgs-152-1997:2": "ef6f842039fb", "dl-62-2026:16-quater": "1ce1898f9dfd", "dlgs-136-2016:3": "87c801c07bfa", "dlgs-136-2016:4": "ee505ccb937b", "dlgs-136-2016:4-bis": "621181e6df78", "dlgs-136-2016:5": "779a33448622", "dlgs-136-2016:10": "be01debe06cd"}
 ---
 # Distacco — mappa
@@ -61,6 +61,10 @@ impronte: {"dlgs-276-2003:30": "1966ac7a9794", "dlgs-276-2003:29": "133dfc2d4199
   tutti i co-datori in solido (circolare INL n. 7/2018).
 - Distacco transnazionale: nell'indice ci sono più note e circolari INL sulle comunicazioni e sui controlli; cercarle
   per il caso concreto.
+- Distacco da o verso un Paese con accordo bilaterale di sicurezza sociale: per le assicurazioni coperte
+  dall'accordo il distaccato resta assicurato nel Paese di origine, per le altre la contribuzione è dovuta in Italia;
+  per l'accordo con la Turchia, istruzioni sull'esposizione nel flusso Uniemens e regolarizzazione dei periodi
+  pregressi (messaggio INPS n. 3768/2026).
 
 ## Numeri
 - Nessun numero annuale.
@@ -106,3 +110,5 @@ impronte: {"dlgs-276-2003:30": "1966ac7a9794", "dlgs-276-2003:29": "133dfc2d4199
 - Buste paga: chi paga, quale CCNL, indennità di distacco o di trasferta.
 - Distanza fra la sede di assunzione e quella del distacco; mansioni prima e durante il distacco.
 - Durata complessiva, rinnovi, colleghi nella stessa situazione.
+- Distacco da o verso l'estero: Paese di origine, ente presso cui è assicurato, estratto conto contributivo dei periodi
+  di distacco.

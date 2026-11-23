@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-11-17"
+  "aggiornato_il": "2026-11-23"
  },
  "schede": {
   "altri-congedi": {
@@ -95,7 +95,7 @@
     "minlav:interpello:2022:1"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-16"
+   "verificato_il": "2026-11-23"
   },
   "apprendistato": {
    "titolo": "Apprendistato",
@@ -551,7 +551,8 @@
     "dlgs-124-2004:12",
     "cc:2113",
     "cc:2946",
-    "cc:2935"
+    "cc:2935",
+    "l-203-2024:24"
    ],
    "prassi": [
     "inps:circolare:2012:31",
@@ -560,17 +561,15 @@
     "inps:circolare:2019:78",
     "inps:circolare:2015:94",
     "inps:circolare:2022:32",
-    "inl:nota:2020:1436"
+    "inl:nota:2020:1436",
+    "inps:circolare:2026:112"
    ],
    "numeri": [
     "minimale_retributivo_giornaliero",
     "massimale_contributivo_annuo"
    ],
-   "stato": "da_ricontrollare",
-   "motivi": [
-    "prassi nuova inps:circolare:2026:112: Domande di costituzione della rendita vitalizia di cui all’articolo 13 della legge n. 1338/1962 inoltrate dal personale a contratto degli uf"
-   ],
-   "verificato_il": "2026-10-02"
+   "stato": "verificata",
+   "verificato_il": "2026-11-23"
   },
   "controlli-distanza": {
    "titolo": "Controlli a distanza",
@@ -1062,10 +1061,11 @@
     "dlgs-136-2016:10"
    ],
    "prassi": [
-    "inl:circolare:2018:7"
+    "inl:circolare:2018:7",
+    "inps:messaggio:2026:3768"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-16"
+   "verificato_il": "2026-11-23"
   },
   "etero-organizzazione": {
    "titolo": "Collaborazioni etero-organizzate",
@@ -3230,7 +3230,7 @@
     "inps:messaggio:2024:4429"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-10-02"
+   "verificato_il": "2026-11-23"
   },
   "privacy-lavoratore": {
    "titolo": "Riservatezza del lavoratore",
