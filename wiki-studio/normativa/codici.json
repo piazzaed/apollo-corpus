@@ -3777,6 +3777,53 @@
     "invalidita"
    ],
    "citazione": "D.L. 203/2005"
+  },
+  "ord-giud": {
+   "nome": "Ordinamento giudiziario (R.D. 12/1941)",
+   "urn": "urn:nir:stato:regio.decreto:1941-01-30;12",
+   "doc_prefix": "",
+   "min_articoli": 100,
+   "alias": [
+    "r.d. 12/1941",
+    "r.d. 30 gennaio 1941, n. 12"
+   ],
+   "materie": [
+    "termini",
+    "processo_civile"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Ordinamento giudiziario (R.D. 12/1941)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "R.D. 12/1941 (ord. giud.)"
+  },
+  "l-890-1982": {
+   "nome": "Notificazioni di atti a mezzo posta (L. 890/1982)",
+   "urn": "urn:nir:stato:legge:1982-11-20;890",
+   "doc_prefix": "",
+   "min_articoli": 10,
+   "alias": [
+    "l. 890/1982",
+    "legge 890/1982"
+   ],
+   "materie": [
+    "processo_civile",
+    "notifiche",
+    "termini"
+   ],
+   "solo_corpo": false,
+   "libri": [
+    [
+     "Notificazioni di atti a mezzo posta (L. 890/1982)",
+     1,
+     9999
+    ]
+   ],
+   "citazione": "L. 890/1982"
   }
  }
 }

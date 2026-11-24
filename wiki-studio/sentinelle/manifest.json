@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-23T11:18Z",
+ "generato_il": "2026-11-24T15:21Z",
  "versione_sentinelle": 2,
  "aree": {
   "successioni": {
@@ -99,8 +99,8 @@
      "proprietario": "action"
     },
     "wiki-studio/normativa/changelog-riforme.meta.json": {
-     "sha256": "0a7fc9932bcaa0dc2be8c571a79df0cb4d498fdbc2729715095eef6d6499f1d9",
-     "byte": 46113,
+     "sha256": "4ec115653f2107518cb575394e9e2198c643d8802091a9f91f415cdda9a874ce",
+     "byte": 47790,
      "proprietario": "action"
     },
     "wiki-studio/normativa/drift-reports/2026-10-11.md": {
@@ -224,8 +224,8 @@
      "proprietario": "seme"
     },
     "wiki-studio/normativa/vigenza-watchlist.md": {
-     "sha256": "d413cd6794f83be51ffb7eea5ecd9b694816cde8e4c51ce8e68a13a935f032a3",
-     "byte": 14279,
+     "sha256": "e5f05f590c7f4b8cc094c196ca73cf2a8c474c50e2f32f0b2ad1b0b289075db8",
+     "byte": 15358,
      "proprietario": "seme"
     }
    },

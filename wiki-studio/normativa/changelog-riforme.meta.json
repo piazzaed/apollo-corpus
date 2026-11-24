@@ -630,6 +630,43 @@
      "verificato_il": "2026-10-19"
     }
    ]
+  },
+  {
+   "voce_id": "calcolo_termini",
+   "materia": "processo_civile",
+   "keywords": [
+    "termini processuali",
+    "computo dei termini",
+    "155 c.p.c.",
+    "sospensione feriale",
+    "742/1969",
+    "art. 92 ord. giud.",
+    "147 c.p.c.",
+    "196-sexies",
+    "127-ter",
+    "171-ter",
+    "163-bis",
+    "325",
+    "327",
+    "434",
+    "445-bis",
+    "art. 6 L. 604/1966",
+    "42 D.L. 269/2003",
+    "festività",
+    "260/1949",
+    "decadenza",
+    "notificazione PEC"
+   ],
+   "estremi": "1443/1940, 1368/1941, 742/1969, 12/1941, 260/1949, 54/1977, 604/1966, 269/2003, 639/1970, 890/1982",
+   "verificato_il": "2026-11-24",
+   "prossima_verifica": "2027-05-24",
+   "volatilita": "alta",
+   "fonte_primaria_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443",
+   "stato": "congelato",
+   "vigente_da": "2026-11-24",
+   "vigente_a": null,
+   "nota": "Base di verità del calcolo dei termini (skills/calcolo-termini/references/regole-termini.md) e libreria dati/termini-libreria.json (una voce per termine, con la frase della norma e il vigore_da del testo letto il 24/11/2026). Una riforma del computo, della feriale, delle festività, del perfezionamento delle notifiche o di una durata della libreria va recepita lì: termini.py lo segnala a ogni calcolo (NORMA CAMBIATA) e --verifica-libreria al rilascio. Novità recenti già recepite: art. 445-bis co. 4 (D.L. 117/2025, dal 9/8/2025), art. 6 L. 604/1966 (Corte cost. 212/2020 e 111/2025), 4 ottobre festivo dal 2026.",
+   "verificato_su": "24/11/2026 — testi vigenti nel corpus (snapshot confermato il 16/11/2026) di tutti gli articoli della libreria dei termini"
   }
  ],
  "soglie_competenza": {

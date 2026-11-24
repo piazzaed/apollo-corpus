@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-23T11:02Z",
+ "generato_il": "2026-11-24T15:20Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -2948,6 +2948,26 @@
     }
    }
   },
+  "l-890-1982": {
+   "snapshot": "2026-11-24",
+   "consolidato": "2019-01-01",
+   "verificato_il": "2026-11-24",
+   "esito": "nuovo",
+   "articoli": 17,
+   "formato": 2,
+   "in_movimento": false,
+   "articoli_in_movimento": [],
+   "file": {
+    "l-890-1982.md": {
+     "sha256": "863268505e965d3ef30bc05fa852277555f89b9f517a80f69c124dbef790bb56",
+     "byte": 28416
+    },
+    "l-890-1982-indice.json": {
+     "sha256": "61a28211999f0508d135c9205ee24806e496b1fdf542b3ddbeb3a669cc9bc430",
+     "byte": 4188
+    }
+   }
+  },
   "l-898-1970": {
    "snapshot": "2026-09-23",
    "consolidato": "2024-11-26",
@@ -3005,6 +3025,26 @@
     "l-92-2012-indice.json": {
      "sha256": "1ac403730f234026c304382e05aec74629a4cf64e17038054f3db3291ae7756b",
      "byte": 4770
+    }
+   }
+  },
+  "ord-giud": {
+   "snapshot": "2026-11-24",
+   "consolidato": "2026-10-23",
+   "verificato_il": "2026-11-24",
+   "esito": "nuovo",
+   "articoli": 324,
+   "formato": 2,
+   "in_movimento": false,
+   "articoli_in_movimento": [],
+   "file": {
+    "ord-giud.md": {
+     "sha256": "6ff297472c0c91febd8eb9edc2ecff4cc9a3a759a76385f5876414af27bc9166",
+     "byte": 202430
+    },
+    "ord-giud-indice.json": {
+     "sha256": "c72b1adade8f983738e300db6ffecc1bc04820dc6886b477c96ef88845060e35",
+     "byte": 53334
     }
    }
   },
@@ -3211,8 +3251,8 @@
  },
  "codici": {
   "file": "wiki-studio/normativa/codici.json",
-  "sha256": "dc3ef426bd5101fdd6823a5b63ab3e10bd28d875047aec97209d51f9aae698d3",
-  "byte": 81444
+  "sha256": "ec1a4edf783cf0f41abbd567272e39e4e9a8aadee810e9f75a48878f93aff577",
+  "byte": 82393
  },
  "changelog": {
   "file": "wiki-studio/normativa/changelog-auto.json",

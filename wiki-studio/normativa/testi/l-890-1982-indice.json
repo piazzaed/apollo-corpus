@@ -1,0 +1,204 @@
+{
+ "_meta": {
+  "codice": "l-890-1982",
+  "nome": "Notificazioni di atti a mezzo posta (L. 890/1982)",
+  "snapshot": "2026-11-24",
+  "formato": 2,
+  "consolidato_normattiva": "2019-01-01",
+  "articoli": 17,
+  "file": [
+   "l-890-1982.md"
+  ],
+  "vita_utile_giorni": 45,
+  "vita_refresh_giorni": 7,
+  "urn": "urn:nir:stato:legge:1982-11-20;890",
+  "versioni": [
+   {
+    "data": "1982-12-04",
+    "evento": "ro1",
+    "atto_modificante": null
+   },
+   {
+    "data": "1992-04-08",
+    "evento": "rp1",
+    "atto_modificante": "atto modificante non indicato (rp1)"
+   },
+   {
+    "data": "1998-05-14",
+    "evento": "rp2",
+    "atto_modificante": "L. 8 maggio 1998, n. 146"
+   },
+   {
+    "data": "1998-09-30",
+    "evento": "rp3",
+    "atto_modificante": "atto modificante non indicato (rp3)"
+   },
+   {
+    "data": "1999-08-06",
+    "evento": "rp4",
+    "atto_modificante": "L. 3 agosto 1999, n. 265"
+   },
+   {
+    "data": "2002-12-04",
+    "evento": "rp5",
+    "atto_modificante": "atto modificante non indicato (rp5)"
+   },
+   {
+    "data": "2003-07-29",
+    "evento": "rp6",
+    "atto_modificante": "D.Lgs. 30 giugno 2003, n. 196"
+   },
+   {
+    "data": "2005-03-16",
+    "evento": "rp7",
+    "atto_modificante": "D.L. 14 marzo 2005, n. 35"
+   },
+   {
+    "data": "2007-12-31",
+    "evento": "rp8",
+    "atto_modificante": "D.L. 31 dicembre 2007, n. 248"
+   },
+   {
+    "data": "2017-12-29",
+    "evento": "rp9",
+    "atto_modificante": "L. 27 dicembre 2017, n. 205"
+   },
+   {
+    "data": "2018-12-31",
+    "evento": "rp10",
+    "atto_modificante": "L. 30 dicembre 2018, n. 145"
+   }
+  ],
+  "ultima_versione": "2018-12-31",
+  "datazione": {
+   "monoblocco": 17,
+   "api": 15,
+   "ignota": 2,
+   "testo_diverso": 2,
+   "stima_anteriore": 11,
+   "chiamate": 17,
+   "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
+  }
+ },
+ "articoli": {
+  "1": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "1671a93970d8"
+  },
+  "2": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "0ac4daf539f4"
+  },
+  "3": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "6ac0fdff4398"
+  },
+  "4": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "191daad3996c"
+  },
+  "5": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "1992-04-09",
+   "datazione": "api",
+   "h": "9073aa8df29d"
+  },
+  "6": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "53ce4e8ad891"
+  },
+  "7": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "8b1dbe0f4690"
+  },
+  "8": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2019-01-01",
+   "datazione": "api",
+   "h": "c5d9b1acf958"
+  },
+  "9": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "b1cd8f25d6ad"
+  },
+  "10": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "1982-12-19",
+   "datazione": "api",
+   "h": "34d8e1abf7ad"
+  },
+  "11": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "cda25804341f"
+  },
+  "12": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "2bc499853d8d"
+  },
+  "13": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "1982-12-19",
+   "datazione": "api",
+   "h": "c6632612168e"
+  },
+  "14": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "1998-05-15",
+   "datazione": "api",
+   "h": "3160626d7421"
+  },
+  "15": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "1982-12-19",
+   "datazione": "api",
+   "h": "ec0378857dcc"
+  },
+  "16": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "",
+   "datazione": "ignota",
+   "h": "11acffae4401"
+  },
+  "16-bis": {
+   "file": "l-890-1982.md",
+   "rubrica": "",
+   "vigore_da": "2018-01-01",
+   "datazione": "api",
+   "h": "b1cd8f25d6ad"
+  }
+ }
+}
