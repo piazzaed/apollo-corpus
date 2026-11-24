@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-24T16:27Z",
+ "generato_il": "2026-11-24T16:42Z",
  "versione_sentinelle": 2,
  "aree": {
   "successioni": {
@@ -94,13 +94,13 @@
   "normativa": {
    "file": {
     "wiki-studio/normativa/changelog-riforme.md": {
-     "sha256": "084aec4ea00550271854d8ade5e3168cdc8472db48f4431f7f6b9a3d6f4e5e3c",
-     "byte": 84410,
+     "sha256": "ec2ed6538f3893437df5928c3d8c990b38be12c36736b5917291507a04b6a606",
+     "byte": 86082,
      "proprietario": "action"
     },
     "wiki-studio/normativa/changelog-riforme.meta.json": {
-     "sha256": "96b8d06076a7b8086a765e4b72247cbbe4043ecf4942bd2ad556d937bc83246a",
-     "byte": 47570,
+     "sha256": "9f875058ac57f61c8eec20d75cae22e22c19b00f8d5885b1c4905f8a4a76ddbd",
+     "byte": 48274,
      "proprietario": "action"
     },
     "wiki-studio/normativa/drift-reports/2026-10-11.md": {
@@ -214,13 +214,13 @@
      "proprietario": "action"
     },
     "wiki-studio/normativa/drift-reports/2026-11-24.md": {
-     "sha256": "2e4f250c928d66bccbde5b3b66d6cd3e350e746dc880d91f99ec4c17296a534a",
-     "byte": 12863,
+     "sha256": "77242db37ae97b2f49f4d90a224edc3f646b6bad32b70c404b2ec83d2a4c1a00",
+     "byte": 13441,
      "proprietario": "action"
     },
     "wiki-studio/normativa/sentinella-debito.json": {
-     "sha256": "6ba4cbc345413913fd347252d55db7b500672807d2de1004bc7966b781559486",
-     "byte": 126752,
+     "sha256": "b2d591f34028b49b60a855f016bdbb75ea6a169ec34f8ec063d84064ea50e014",
+     "byte": 127045,
      "proprietario": "action"
     },
     "wiki-studio/normativa/stato-orientamenti.md": {
@@ -1464,7 +1464,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "f57973dd3b51501fc1a144a8b47b9b3f25902f395e22aacb9cf697dc2aa74d55",
+     "sha256": "7e3fca660a32d23893b5c146786577d8c96f1d029910ea3d997c574d2dda8a94",
      "byte": 801,
      "proprietario": "action"
     },
