@@ -2,10 +2,10 @@
  "_meta": {
   "codice": "dlgs-196-2003",
   "nome": "Codice in materia di protezione dei dati personali (D.Lgs. 196/2003)",
-  "snapshot": "2026-11-16",
+  "snapshot": "2026-11-24",
   "formato": 2,
-  "consolidato_normattiva": "2026-02-20",
-  "articoli": 221,
+  "consolidato_normattiva": "2026-11-24",
+  "articoli": 222,
   "file": [
    "dlgs-196-2003.md"
   ],
@@ -292,16 +292,20 @@
     "data": "2026-02-19",
     "evento": "rp55",
     "atto_modificante": "D.L. 19 febbraio 2026, n. 19"
+   },
+   {
+    "data": "2026-11-09",
+    "evento": "rp56",
+    "atto_modificante": "L. 29 ottobre 2026, n. 201"
    }
   ],
-  "ultima_versione": "2026-02-19",
+  "ultima_versione": "2026-11-09",
   "datazione": {
-   "monoblocco": 221,
+   "monoblocco": 222,
    "api": 1,
-   "riportati": 219,
+   "riportati": 220,
    "ignota": 1,
    "testo_diverso": 1,
-   "stima_anteriore": 1,
    "chiamate": 2,
    "fonte": "API Open Data normattiva (articoloDataInizioVigenza), validata sul testo"
   }
@@ -1503,6 +1507,13 @@
    "vigore_da": "2021-12-08",
    "datazione": "api",
    "h": "8606b33d57dc"
+  },
+  "144-ter": {
+   "file": "dlgs-196-2003.md",
+   "rubrica": "Pubblicita' delle sentenze di assoluzione o proscioglimento. Segnalazioni al Garante",
+   "vigore_da": "2026-11-24",
+   "datazione": "api",
+   "h": "be50b85a943b"
   },
   "145": {
    "file": "dlgs-196-2003.md",

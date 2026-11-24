@@ -1,11 +1,18 @@
 # Changelog automatico del corpus normativo
 
-<!-- generato da scripts/corpus_diff.py il 2026-11-23 · 641 modifiche · file di DATI, non si modifica a mano -->
+<!-- generato da scripts/corpus_diff.py il 2026-11-24 · 642 modifiche · file di DATI, non si modifica a mano -->
 
 > Differenze rilevate fra snapshot successivi degli atti del corpus locale (`codici.json`), articolo per
 > articolo. **Non è una fonte**: dice che un articolo è cambiato fra due date e per quale atto (dal
 > lifecycle dell'export Akoma Ntoso di normattiva). Il Livello 0 lo usa come trappola con gate
 > intertemporale; la Sentinella come drift-report già pronto; il testo si legge sempre sul primario datato.
+
+## Codice in materia di protezione dei dati personali (D.Lgs. 196/2003) (`dlgs-196-2003`)
+
+| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
+|---|---|---|---|---|
+| Art. 144-ter — Pubblicita' delle sentenze di assoluzione o proscioglimento. Segnalazioni al Garante | aggiunto | — → 2026-11-24 | L. 29 ottobre 2026, n. 201 | 2026-11-16 → 2026-11-24 |
+| Art. 144-bis — Revenge porn | note | 2021-12-08 → 2021-12-08 | non indicato nell’AKN | 2026-09-23 → 2026-11-16 |
 
 ## Bilancio di previsione dello Stato per il 2020 (L. 160/2019) — contiene la disciplina dei monopattini elettrici (art. 1, co. 75 ss.) (`l-160-2019`)
 
@@ -134,12 +141,6 @@
 | Art. 151 — Provvedimenti in caso di mancato ritiro del bene restituito | modificato | 2005-08-23 → 2026-10-31 | D.Lgs. 25 settembre 2026, n. 186 | 2026-10-24 → 2026-11-16 |
 | Art. 168-bis — Decreto di pagamento delle prestazioni di cui all'articolo 57 del decreto legislativo 1° agosto 2003, n. 259, e di quelle funzionali all'utilizzo delle medesime | modificato | 2026-08-08 → 2026-10-07 | L. 5 ottobre 2026, n. 174 | 2026-10-13 → 2026-10-24 |
 | Art. 73 — Procedura per la registrazione degli atti giudiziari | modificato | 2016-12-03 → 2016-12-03 | non indicato nell’AKN | 2026-09-23 → 2026-10-13 |
-
-## Codice in materia di protezione dei dati personali (D.Lgs. 196/2003) (`dlgs-196-2003`)
-
-| articolo | tipo | vigore_da prima → dopo | atto modificante | snapshot |
-|---|---|---|---|---|
-| Art. 144-bis — Revenge porn | note | 2021-12-08 → 2021-12-08 | non indicato nell’AKN | 2026-09-23 → 2026-11-16 |
 
 ## Norme sui licenziamenti individuali (L. 604/1966) (`l-604-1966`)
 

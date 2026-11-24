@@ -1,10 +1,27 @@
 {
  "_meta": {
-  "generato_il": "2026-11-23T10:58:06",
+  "generato_il": "2026-11-24T15:29:07",
   "descrizione": "Modifiche del corpus locale rilevate da corpus_diff.py fra snapshot successivi. Lookup del Livello 0 (verifica_meccanica.trappole_per) e drift-report della Sentinella.",
-  "totale": 641
+  "totale": 642
  },
  "modifiche": [
+  {
+   "slug": "dlgs-196-2003",
+   "atto": "Codice in materia di protezione dei dati personali (D.Lgs. 196/2003)",
+   "articolo": "144-ter",
+   "rubrica": "Pubblicita' delle sentenze di assoluzione o proscioglimento. Segnalazioni al Garante",
+   "tipo": "aggiunto",
+   "vigore_da_prima": null,
+   "vigore_da_dopo": "2026-11-24",
+   "atto_modificante": "L. 29 ottobre 2026, n. 201",
+   "snapshot_prima": "2026-11-16",
+   "snapshot_dopo": "2026-11-24",
+   "consolidato_prima": "2026-02-20",
+   "consolidato_dopo": "2026-11-24",
+   "caratteri_prima": 0,
+   "caratteri_dopo": 1017,
+   "registrato_il": "2026-11-24T15:29:07"
+  },
   {
    "slug": "l-160-2019",
    "atto": "Bilancio di previsione dello Stato per il 2020 (L. 160/2019) — contiene la disciplina dei monopattini elettrici (art. 1, co. 75 ss.)",
