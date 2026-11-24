@@ -2,7 +2,7 @@
  "_meta": {
   "descrizione": "schede del memento lavoro: mappe, non fonti",
   "schede": 82,
-  "aggiornato_il": "2026-11-23"
+  "aggiornato_il": "2026-11-24"
  },
  "schede": {
   "altri-congedi": {
@@ -1923,7 +1923,7 @@
     "inps:circolare:2022:36"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-16"
+   "verificato_il": "2026-11-24"
   },
   "licenziamento-collettivo": {
    "titolo": "Licenziamento collettivo",
@@ -3230,7 +3230,7 @@
     "inps:messaggio:2024:4429"
    ],
    "stato": "verificata",
-   "verificato_il": "2026-11-23"
+   "verificato_il": "2026-11-24"
   },
   "privacy-lavoratore": {
    "titolo": "Riservatezza del lavoratore",

@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-24T15:29Z",
+ "generato_il": "2026-11-24T15:33Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -3394,16 +3394,16 @@
  "lavoro": {
   "file": {
    "ccnl/accordi.json": {
-    "sha256": "0f3e896ffccd70fb1a17e6a50bcb9f03b65dc751db3f46de39718b25b85332ef",
-    "byte": 1610427
+    "sha256": "d618738c320c328a7020fcda5c1103a23f391e4d5fd3aec59ad613b3da5de184",
+    "byte": 1611173
    },
    "ccnl/indice.json": {
-    "sha256": "2acd385cad56f96c509dbd25d2f609f2635aa350f15177c345c54af0aa8a34c8",
-    "byte": 518638
+    "sha256": "89843be9b43a97a11e7e788d6110a1c3ccc34dcbd56ab52aab2ea85aca75b54c",
+    "byte": 519101
    },
    "ccnl/novita.json": {
-    "sha256": "b18476faa8586cdf653f280cc787f948027d3f3ac346a3c4154359ad58fde52e",
-    "byte": 18680
+    "sha256": "815971fcc85a78733d1991a6406e753d85b42b534f21497f7489abaf5f273675",
+    "byte": 19462
    },
    "dati/dati-lavoro.json": {
     "sha256": "45dff932a5e5ac109e5f59da1fccc886f39ae5ddce1d5c3403491494f11cb739",
@@ -3514,7 +3514,7 @@
     "byte": 5268
    },
    "memento/indice.json": {
-    "sha256": "358efac9f350aa99ea08cdf99ff8ff0a1f9a9e9623a478c3a4bb89227130b74c",
+    "sha256": "33765ebc543f6ce38bb96ddd5a2df25e18891bd3bc1887abfa33a8c8d856f9ea",
     "byte": 96339
    },
    "memento/infortunio-malattia-professionale.md": {
@@ -3562,7 +3562,7 @@
     "byte": 11409
    },
    "memento/legge-104.md": {
-    "sha256": "f7a6f9dd1cc0ae7b1060a7bf5ff62f6cfee5e48f6b98d50706fd3de06905b3c4",
+    "sha256": "ab2ceb6cf573f6d6ea3e179063f1e0f7af3961c90b1940f47d95f663b3dafbcc",
     "byte": 10657
    },
    "memento/licenziamento-collettivo.md": {
@@ -3666,7 +3666,7 @@
     "byte": 9764
    },
    "memento/previdenza-complementare.md": {
-    "sha256": "044d98b7c3b810410a85700f3b392be7ba887f9e808d3e39b70f43014486c81f",
+    "sha256": "c5d5496ef230575ffe22294d6c1002181353159f0d2955146471e891d002a965",
     "byte": 10585
    },
    "memento/privacy-lavoratore.md": {
@@ -3750,12 +3750,12 @@
     "byte": 886
    },
    "prassi/indice.json": {
-    "sha256": "186dd71f197bdfb6aa58c5d1b57e0a232815547a883d9de77fb0e50cab8d7afb",
-    "byte": 4478935
+    "sha256": "cefface19a38ee38d4790188ac9f4b22640f624f64e9606456ee28a6018e3023",
+    "byte": 4479745
    }
   },
   "descrizione": "stato del triage del memento",
-  "ultimo_triage": "2026-11-23"
+  "ultimo_triage": "2026-11-24"
  },
  "cassazione": {
   "file": {
