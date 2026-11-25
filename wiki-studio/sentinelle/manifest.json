@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-25T13:26Z",
+ "generato_il": "2026-11-25T13:27Z",
  "versione_sentinelle": 2,
  "aree": {
   "successioni": {
@@ -11,7 +11,7 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni-specifiche.json": {
-     "sha256": "7b4bf034dbf69dd9eee77f5b894e6931981b1277c838ef019d6a1a2d4ff9fa00",
+     "sha256": "f6183c2bcc617bb5b2d84a8bd7dca27174b164a0600719d2cdc9a68d54a425fa",
      "byte": 2155,
      "proprietario": "action"
     },
@@ -47,7 +47,7 @@
     }
    },
    "stato": {
-    "ultimo_giro": "2026-11-24",
+    "ultimo_giro": "2026-11-25",
     "esito": "ok",
     "da_ricontrollare": []
    }
@@ -1469,12 +1469,12 @@
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/stato.json": {
-     "sha256": "ef7c896a456677b4b5a47f326305993b3bf8fb33d05bd50e93a2cd151d358f74",
+     "sha256": "ce421f4aeac4a23e669681e6fb062456d44805a2dc9ac0e1ddc443b072905216",
      "byte": 801,
      "proprietario": "action"
     },
     "wiki-studio/sentinelle/successioni.json": {
-     "sha256": "d5fda73720ed6b6c9250f20c481dcc5b60baf45b28ff377e15242cfd87790253",
+     "sha256": "70a5b2d7a732c1e7cb292c2a257ceb33282ea7a2ce3fe42f066eaaf86e441fd3",
      "byte": 395,
      "proprietario": "action"
     }
