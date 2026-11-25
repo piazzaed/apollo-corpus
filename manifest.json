@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generato_il": "2026-11-24T16:26Z",
+ "generato_il": "2026-11-25T20:35Z",
  "formato_indice": 2,
  "repo": "piazzaed/apollo-corpus",
  "fonti": {
@@ -3760,7 +3760,7 @@
  "cassazione": {
   "file": {
    "indice.json": {
-    "sha256": "bfbd083b221d0f412725b308475e5be6036fa35924b09b838c44517cdfa85600",
+    "sha256": "0c87e00105bb9598897352e28c1bebbdb34ea18dbb729661cc5a22d5d20e8156",
     "byte": 1533
    },
    "snciv-2021.tsv.gz": {
@@ -3784,8 +3784,8 @@
     "byte": 215786
    },
    "snciv-2026.tsv.gz": {
-    "sha256": "3a9e0edece06085b745a29600b1d6a7e3999e17392a28ebfc31a20884abbef9a",
-    "byte": 169869
+    "sha256": "dd070ec8b0455f36005d3b291906040e134913ea358216ff4f847c9b9b8a6472",
+    "byte": 186282
    }
   },
   "colonne": [
@@ -3805,6 +3805,6 @@
    "OI": "Ordinanza Interlocutoria",
    "S": "Sentenza"
   },
-  "verificato_il": "2026-10-18"
+  "verificato_il": "2026-11-25"
  }
 }
